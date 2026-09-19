@@ -37,8 +37,14 @@ CSV_HEADER = (
     ["date"]
     + [f"{name}_close" for _, name in INDEXES]
     + [f"{name}_pct" for _, name in INDEXES]
-    + ["amount_yi", "up", "down", "flat", "limit_up", "limit_down"]
+    + ["amount_yi", "up", "down", "flat",
+       "limit_up", "limit_down", "broken", "broken_rate",
+       "max_streak", "streak_2plus"]
 )
+
+SECTOR_CSV = "sectors.csv"
+SECTOR_HEADER = ["date", "rank_type", "rank", "name", "pct", "net_inflow_yi", "leader"]
+SECTOR_TOP_N = 5
 
 
 def fetch(url, decode="utf-8", timeout=20):
@@ -132,22 +138,156 @@ def fetch_breadth():
     return out
 
 
-def fetch_limit_count(date_compact, kind):
-    """涨停/跌停家数。kind 取 'zt' 或 'dt'。取不到返回 None。"""
-    endpoint = "getTopicZTPool" if kind == "zt" else "getTopicDTPool"
-    dpt = "wz.ztzt" if kind == "zt" else "wz.dtzt"
+def fetch_sectors():
+    """行业板块涨跌排行，返回 (领涨 top5, 领跌 top5)。取不到返回 ([], [])。
+
+    一次拉全部行业板块（八十来个，一页装得下），头尾各取五个，省得为了
+    领跌再发一次反向排序的请求。
+    """
+    url = (
+        "https://push2.eastmoney.com/api/qt/clist/get"
+        "?pn=1&pz=200&po=1&fltt=2&fid=f3&fs=m:90+t:2"
+        "&fields=f3,f12,f14,f62,f128"
+    )
+    try:
+        data = json.loads(fetch(url))["data"]
+        diff = data["diff"]
+    except Exception as e:
+        print(f"  行业板块获取失败: {e}", file=sys.stderr)
+        return [], []
+
+    rows = list(diff.values()) if isinstance(diff, dict) else diff
+    parsed = []
+    for row in rows:
+        pct = row.get("f3")
+        if not isinstance(pct, (int, float)):
+            continue
+        inflow = row.get("f62")  # 主力净流入，单位元
+        parsed.append({
+            "name": row.get("f14", ""),
+            "pct": f"{pct:.2f}",
+            "net_inflow_yi": (
+                f"{inflow / 1e8:.2f}" if isinstance(inflow, (int, float)) else ""
+            ),
+            "leader": row.get("f128", ""),  # 领涨股
+        })
+
+    if len(parsed) < 2 * SECTOR_TOP_N:
+        print(f"  行业板块只拿到 {len(parsed)} 个，放弃", file=sys.stderr)
+        return [], []
+
+    # 接口已按涨跌幅降序，直接取头尾
+    return parsed[:SECTOR_TOP_N], parsed[-SECTOR_TOP_N:][::-1]
+
+
+def write_sectors(date, gainers, losers):
+    """板块排行单独存一个文件，同一天重复跑会覆盖当天的行。"""
+    path = DATA_DIR / SECTOR_CSV
+    rows = []
+    if path.exists():
+        with path.open(encoding="utf-8") as f:
+            rows = [r for r in csv.DictReader(f) if r["date"] != date]
+
+    for rank_type, items in (("up", gainers), ("down", losers)):
+        for i, item in enumerate(items, 1):
+            rows.append({"date": date, "rank_type": rank_type, "rank": i, **item})
+
+    rows.sort(key=lambda r: (r["date"], r["rank_type"], int(r["rank"])))
+    with path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=SECTOR_HEADER)
+        w.writeheader()
+        w.writerows(rows)
+    return path
+
+
+def read_latest_sectors():
+    """读出 sectors.csv 里最新那天的排行，给 README 用。"""
+    path = DATA_DIR / SECTOR_CSV
+    if not path.exists():
+        return None, [], []
+    with path.open(encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    if not rows:
+        return None, [], []
+
+    latest = max(r["date"] for r in rows)
+    same_day = [r for r in rows if r["date"] == latest]
+
+    def pick(rank_type):
+        return sorted(
+            (r for r in same_day if r["rank_type"] == rank_type),
+            key=lambda r: int(r["rank"]),
+        )
+
+    return latest, pick("up"), pick("down")
+
+
+# 三个池子的 endpoint 和排序方式。dpt 一律是 wz.ztzt——跌停池用 wz.dtzt
+# 会返回 rc=206 data:null，看起来就像"今天没有跌停"，是个会静默写错数的坑。
+# 跌停池还必须按 fund 排序，用 fbt（首次封板时间）排会返回空池。
+POOLS = {
+    "zt": ("getTopicZTPool", "fbt%3Aasc"),
+    "dt": ("getTopicDTPool", "fund%3Aasc"),
+    "zb": ("getTopicZBPool", "fbt%3Aasc"),
+}
+
+
+def fetch_pool(date_compact, kind, pagesize=1):
+    """取涨停/跌停/炸板池。返回 (家数, 池内个股列表)，失败返回 (None, [])。
+
+    返回里的 qdate 字段不可信（请求历史日期时它仍显示最新交易日），但
+    date 参数本身是生效的，池内容确实是那天的，所以不拿 qdate 做校验。
+    """
+    endpoint, sort = POOLS[kind]
     url = (
         f"http://push2ex.eastmoney.com/{endpoint}"
-        "?ut=7eea3edcaed734bea9cbfc24409ed989"
-        f"&dpt={dpt}&Pageindex=0&pagesize=1&sort=fbt%3Aasc&date={date_compact}"
+        "?ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wz.ztzt"
+        f"&Pageindex=0&pagesize={pagesize}&sort={sort}&date={date_compact}"
     )
     try:
         data = json.loads(fetch(url)).get("data")
-        # 当天一只涨停都没有时 data 是 null，这是 0 不是失败
-        return 0 if data is None else data.get("tc")
     except Exception as e:
-        print(f"  {kind} 家数获取失败: {e}", file=sys.stderr)
-        return None
+        print(f"  {kind} 池获取失败: {e}", file=sys.stderr)
+        return None, []
+    if data is None:  # 一只都没有时是 null，这是 0 不是失败
+        return 0, []
+    return data.get("tc"), data.get("pool") or []
+
+
+def fetch_sentiment(date_compact):
+    """涨停/跌停/炸板数、炸板率、连板梯队。取不到的项留空。"""
+    out = {}
+
+    # 涨停池要全量拉，才能统计连板梯队
+    limit_up, pool = fetch_pool(date_compact, "zt", pagesize=300)
+    out["limit_up"] = "" if limit_up is None else limit_up
+
+    ladder = {}
+    for stock in pool:
+        days = (stock.get("zttj") or {}).get("days")
+        if isinstance(days, int):
+            ladder[days] = ladder.get(days, 0) + 1
+    if ladder:
+        out["max_streak"] = max(ladder)
+        # 2 板及以上才算连板，1 板是首板
+        out["streak_2plus"] = sum(n for d, n in ladder.items() if d >= 2)
+    else:
+        out["max_streak"] = out["streak_2plus"] = ""
+    out["_ladder"] = ladder
+
+    limit_down, _ = fetch_pool(date_compact, "dt")
+    out["limit_down"] = "" if limit_down is None else limit_down
+
+    broken, _ = fetch_pool(date_compact, "zb")
+    out["broken"] = "" if broken is None else broken
+
+    # 炸板率 = 炸板 / (涨停 + 炸板)，衡量当天封板的牢固程度
+    if isinstance(limit_up, int) and isinstance(broken, int) and (limit_up + broken):
+        out["broken_rate"] = f"{100 * broken / (limit_up + broken):.1f}"
+    else:
+        out["broken_rate"] = ""
+
+    return out
 
 
 def append_row(row):
@@ -197,6 +337,22 @@ def render_readme(updated_at):
         "",
         f"最后更新：{updated_at}",
         "",
+    ]
+
+    # 图表由 scripts/chart.py 生成，没生成过就不要在 README 里留坏图链接
+    charts = [
+        ("上证指数", "charts/sh000001.svg"),
+        ("创业板指", "charts/sz399006.svg"),
+    ]
+    available = [(t, p) for t, p in charts if (ROOT / p).exists()]
+    if available:
+        lines.append("## 走势")
+        lines.append("")
+        for title, path in available:
+            lines.append(f"![{title}]({path})")
+            lines.append("")
+
+    lines += [
         "## 最近 10 个交易日",
         "",
         "| 日期 | 上证 | 深成 | 创业板 | 沪深300 | 科创50 | 成交额(亿) | 涨/跌/平 | 涨停 | 跌停 |",
@@ -221,19 +377,87 @@ def render_readme(updated_at):
         cells.append(num(r.get("limit_down"), "{:.0f}"))
         lines.append("| " + " | ".join(cells) + " |")
 
+    lines += ["", f"完整历史在 [data/](data/) 目录，共 {len(rows)} 个交易日。", ""]
+    lines += render_sentiment_section(recent)
+    lines += render_sector_section()
     lines += [
-        "",
-        f"完整历史在 [data/](data/) 目录，共 {len(rows)} 个交易日。",
-        "",
         "## 说明",
         "",
         "由 GitHub Actions 在每个交易日 16:20 (北京时间) 运行 "
-        "[scripts/snapshot.py](scripts/snapshot.py) 生成。",
-        "非交易日不写数据，只记一行运行日志。",
+        "[scripts/snapshot.py](scripts/snapshot.py) 生成，数据来自腾讯行情和"
+        "东方财富公开接口。非交易日不写数据，只记一行运行日志。",
+        "",
+        "指数历史由 [scripts/backfill.py](scripts/backfill.py) 一次性回填。"
+        "涨跌家数、涨停跌停、连板梯队这些是盘后快照，没有历史接口可回填，"
+        "只能逐日累积，所以回填日期的这几列是空的。",
         "",
     ]
 
     (ROOT / "README.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def render_sentiment_section(recent):
+    """情绪指标：最近一天的涨停梯队，外加一张近期趋势小表。"""
+    latest = next((r for r in recent if r.get("limit_up")), None)
+    if latest is None:
+        return []
+
+    lines = [
+        "## 市场情绪",
+        "",
+        f"最新交易日 {latest['date']}：",
+        "",
+        f"- 涨停 **{latest['limit_up']}** 家，跌停 **{latest.get('limit_down') or '-'}** 家",
+    ]
+    if latest.get("broken"):
+        lines.append(
+            f"- 炸板 {latest['broken']} 家，炸板率 **{latest.get('broken_rate', '-')}%**"
+            "（越高说明封板越不牢）"
+        )
+    if latest.get("max_streak"):
+        lines.append(
+            f"- 最高 **{latest['max_streak']}** 连板，"
+            f"2 板及以上共 {latest.get('streak_2plus', '-')} 家"
+        )
+
+    # 有情绪数据的日子还不多时，这张表没什么可看的，攒够两天再放
+    with_sentiment = [r for r in recent if r.get("limit_up")]
+    if len(with_sentiment) >= 2:
+        lines += [
+            "",
+            "| 日期 | 涨停 | 跌停 | 炸板 | 炸板率 | 最高连板 | 连板家数 |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
+        ]
+        for r in with_sentiment:
+            lines.append(
+                f"| {r['date']} | {r.get('limit_up') or '-'} | "
+                f"{r.get('limit_down') or '-'} | {r.get('broken') or '-'} | "
+                f"{r.get('broken_rate') or '-'}% | {r.get('max_streak') or '-'} | "
+                f"{r.get('streak_2plus') or '-'} |"
+            )
+    lines.append("")
+    return lines
+
+
+def render_sector_section():
+    """行业板块领涨领跌。"""
+    date, gainers, losers = read_latest_sectors()
+    if not gainers:
+        return []
+
+    lines = ["## 行业板块", "", f"{date} 领涨与领跌各五个：", "",
+             "| | 行业 | 涨跌幅 | 主力净流入(亿) | 领涨股 |",
+             "| --- | --- | --- | --- | --- |"]
+    for label, items in (("领涨", gainers), ("领跌", losers)):
+        for i, r in enumerate(items):
+            tag = label if i == 0 else ""
+            pct = float(r["pct"])
+            lines.append(
+                f"| {tag} | {r['name']} | {pct:+.2f}% | "
+                f"{r.get('net_inflow_yi') or '-'} | {r.get('leader') or '-'} |"
+            )
+    lines.append("")
+    return lines
 
 
 def log(message):
@@ -279,18 +503,28 @@ def main():
     row["down"] = breadth.get("down", "")
     row["flat"] = breadth.get("flat", "")
 
-    compact = today.replace("-", "")
-    for key, kind in (("limit_up", "zt"), ("limit_down", "dt")):
-        count = fetch_limit_count(compact, kind)
-        row[key] = "" if count is None else count
+    sentiment = fetch_sentiment(today.replace("-", ""))
+    ladder = sentiment.pop("_ladder", {})
+    row.update(sentiment)
+
+    gainers, losers = fetch_sectors()
+    if gainers:
+        write_sectors(today, gainers, losers)
 
     path = append_row(row)
     render_readme(stamp)
 
     sh = quotes.get("sh000001", {})
     print(f"已写入 {path.name}: 上证 {sh.get('close')} ({sh.get('pct'):+.2f}%), "
-          f"成交 {total:.0f} 亿, 涨跌平 {row['up']}/{row['down']}/{row['flat']}, "
-          f"涨停 {row['limit_up']}, 跌停 {row['limit_down']}")
+          f"成交 {total:.0f} 亿, 涨跌平 {row['up']}/{row['down']}/{row['flat']}")
+    print(f"  涨停 {row['limit_up']}, 跌停 {row['limit_down']}, "
+          f"炸板 {row['broken']}（炸板率 {row['broken_rate']}%）, "
+          f"最高 {row['max_streak']} 板, 连板 {row['streak_2plus']} 家")
+    if ladder:
+        print("  连板梯队: " + " ".join(f"{d}板×{n}" for d, n in sorted(ladder.items())))
+    if gainers:
+        print(f"  领涨行业: {gainers[0]['name']} {gainers[0]['pct']}% | "
+              f"领跌: {losers[0]['name']} {losers[0]['pct']}%")
     log(f"{stamp} 交易日快照已更新")
     return 0
 

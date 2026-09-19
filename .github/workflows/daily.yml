@@ -34,6 +34,10 @@ jobs:
           SNAPSHOT_DATE: ${{ inputs.date }}
         run: python3 scripts/snapshot.py
 
+      # 单独一步：图表只依赖 CSV，抓数失败时也该按已有数据重画
+      - name: 生成走势图
+        run: python3 scripts/chart.py
+
       - name: 提交
         env:
           # 必须是绑定在你 GitHub 账号上的邮箱，否则 commit 不计入贡献格子
