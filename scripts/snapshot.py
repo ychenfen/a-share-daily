@@ -23,7 +23,9 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+# 就用最朴素的这一个。带 Macintosh/AppleWebKit 的长串反而会被东财的
+# clist 接口直接 RST——那种半截 UA 看着就像爬虫伪装。
+UA = "Mozilla/5.0"
 
 # 代码 -> 显示名，顺序决定 CSV 列顺序
 INDEXES = [
@@ -72,12 +74,16 @@ def fetch(url, decode="utf-8", timeout=20):
         ctx = ssl.create_default_context()
         with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
             return resp.read().decode(decode, errors="replace")
-    except (urllib.error.URLError, OSError, ssl.SSLError):
+    except (urllib.error.URLError, OSError, ssl.SSLError) as first_error:
         out = subprocess.run(
             ["curl", "-sS", "--compressed", "--max-time", str(timeout),
              "-H", f"User-Agent: {UA}", url],
             capture_output=True, timeout=timeout + 10, check=True,
         ).stdout
+        # 被限流时 curl 也常是 rc=0 但空 body。不拦住的话调用方会拿到
+        # 空字符串，最后报成一个和真实原因无关的 JSON 解析错误。
+        if not out.strip():
+            raise RuntimeError(f"urllib 失败({first_error})，curl 回落也返回空") from first_error
         return out.decode(decode, errors="replace")
 
 
