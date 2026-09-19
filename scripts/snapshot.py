@@ -12,6 +12,7 @@ import csv
 import json
 import os
 import ssl
+import time
 import subprocess
 import sys
 import urllib.error
@@ -47,6 +48,12 @@ SECTOR_HEADER = ["date", "rank_type", "rank", "name", "pct", "net_inflow_yi", "l
 SECTOR_TOP_N = 5
 
 
+# 东财对请求密度很敏感：几秒内连打五六个就开始 RST，而每次隔一秒多就没事。
+# 全脚本每天只跑一次十来个请求，多花十几秒无所谓，所以统一限速。
+MIN_INTERVAL = 1.3
+_last_request = 0.0
+
+
 def fetch(url, decode="utf-8", timeout=20):
     """取一个 URL 的文本。
 
@@ -54,6 +61,12 @@ def fetch(url, decode="utf-8", timeout=20):
     还能过，所以 urllib 失败就再用 curl 试一次；runner 和 macOS 都自带
     curl，不引入依赖。真被封了两条都会失败，调用方按缺数据处理。
     """
+    global _last_request
+    wait = MIN_INTERVAL - (time.monotonic() - _last_request)
+    if wait > 0:
+        time.sleep(wait)
+    _last_request = time.monotonic()
+
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         ctx = ssl.create_default_context()
@@ -138,32 +151,28 @@ def fetch_breadth():
     return out
 
 
-def fetch_sectors():
-    """行业板块涨跌排行，返回 (领涨 top5, 领跌 top5)。取不到返回 ([], [])。
-
-    一次拉全部行业板块（八十来个，一页装得下），头尾各取五个，省得为了
-    领跌再发一次反向排序的请求。
-    """
+def fetch_sector_page(descending):
+    """按涨跌幅排序取前 SECTOR_TOP_N 个行业板块。po=1 降序，po=0 升序。"""
     url = (
         "https://push2.eastmoney.com/api/qt/clist/get"
-        "?pn=1&pz=200&po=1&fltt=2&fid=f3&fs=m:90+t:2"
-        "&fields=f3,f12,f14,f62,f128"
+        f"?pn=1&pz={SECTOR_TOP_N}&po={1 if descending else 0}&np=1&fltt=2&fid=f3"
+        "&fs=m:90+t:2&fields=f3,f12,f14,f62,f128"
     )
     try:
-        data = json.loads(fetch(url))["data"]
-        diff = data["diff"]
+        diff = json.loads(fetch(url))["data"]["diff"]
     except Exception as e:
-        print(f"  行业板块获取失败: {e}", file=sys.stderr)
-        return [], []
+        print(f"  行业板块（{'领涨' if descending else '领跌'}）获取失败: {e}",
+              file=sys.stderr)
+        return []
 
     rows = list(diff.values()) if isinstance(diff, dict) else diff
-    parsed = []
+    out = []
     for row in rows:
         pct = row.get("f3")
         if not isinstance(pct, (int, float)):
             continue
         inflow = row.get("f62")  # 主力净流入，单位元
-        parsed.append({
+        out.append({
             "name": row.get("f14", ""),
             "pct": f"{pct:.2f}",
             "net_inflow_yi": (
@@ -171,13 +180,20 @@ def fetch_sectors():
             ),
             "leader": row.get("f128", ""),  # 领涨股
         })
+    return out
 
-    if len(parsed) < 2 * SECTOR_TOP_N:
-        print(f"  行业板块只拿到 {len(parsed)} 个，放弃", file=sys.stderr)
+
+def fetch_sectors():
+    """行业板块涨跌排行，返回 (领涨 top5, 领跌 top5)。取不到返回 ([], [])。
+
+    必须分两次按不同方向排序请求。东财行业板块有近 500 个，而 clist 单页
+    硬上限 100 条——想靠一次降序请求取末尾当领跌，拿到的其实是第 96~100 名。
+    """
+    gainers = fetch_sector_page(descending=True)
+    losers = fetch_sector_page(descending=False)
+    if len(gainers) < SECTOR_TOP_N or len(losers) < SECTOR_TOP_N:
         return [], []
-
-    # 接口已按涨跌幅降序，直接取头尾
-    return parsed[:SECTOR_TOP_N], parsed[-SECTOR_TOP_N:][::-1]
+    return gainers, losers
 
 
 def write_sectors(date, gainers, losers):
