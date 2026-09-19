@@ -1,0 +1,53 @@
+name: daily snapshot
+
+on:
+  schedule:
+    # 08:20 UTC = 16:20 北京时间，收盘后一个多小时，数据已经落定。
+    # 每天都跑：非交易日脚本只记一行日志，照样产生 commit，格子不断。
+    # 挑非整点是因为 Actions 的定时任务在整点最堵，延迟能到几十分钟。
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "手动补某天的数据（YYYY-MM-DD，留空=今天）"
+        required: false
+        default: ""
+
+# 默认的 GITHUB_TOKEN 是只读的，要写回仓库必须显式开
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 不装 setup-python：runner 自带的 python3 是 3.12，
+      # 脚本只用标准库，省掉三十秒安装时间
+      - name: 抓取收盘数据
+        env:
+          SNAPSHOT_DATE: ${{ inputs.date }}
+        run: python3 scripts/snapshot.py
+
+      - name: 提交
+        env:
+          # 必须是绑定在你 GitHub 账号上的邮箱，否则 commit 不计入贡献格子
+          GIT_NAME: ychenfen
+          GIT_EMAIL: 146975478+ychenfen@users.noreply.github.com
+        run: |
+          git config user.name "$GIT_NAME"
+          git config user.email "$GIT_EMAIL"
+          git add -A
+          # 理论上 log.txt 每次都会变，但真无变化时别让整个 job 失败
+          if git diff --staged --quiet; then
+            echo "没有变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: $(TZ=Asia/Shanghai date +%Y-%m-%d) 收盘快照"
+          # 抢到同一分钟的并发推送时重试一次
+          git push || (git pull --rebase && git push)
