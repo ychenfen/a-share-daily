@@ -16,10 +16,11 @@ SVG 是当图片渲染的，内嵌样式表会被剥掉。
 import argparse
 import csv
 import sys
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from snapshot import DATA_DIR, ROOT, render_readme  # noqa: E402
+from snapshot import DATA_DIR, ROOT, beijing_tz, render_readme  # noqa: E402
 
 CHART_DIR = ROOT / "charts"
 
@@ -175,10 +176,7 @@ def main():
     # 首次生成图表时 snapshot.py 已经跑完了，那会儿 charts/ 还不存在，
     # README 里不会有图片链接，所以这里再刷一次
     if written:
-        from datetime import datetime
-        from zoneinfo import ZoneInfo
-
-        render_readme(datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M"))
+        render_readme(datetime.now(beijing_tz()).strftime("%Y-%m-%d %H:%M"))
 
     print(f"生成图表: {', '.join(written) or '无'}（{len(rows)} 个交易日）")
     return 0

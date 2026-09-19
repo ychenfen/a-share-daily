@@ -24,7 +24,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from snapshot import CSV_HEADER, DATA_DIR, INDEXES, fetch, render_readme  # noqa: E402
+from snapshot import CSV_HEADER, DATA_DIR, INDEXES, beijing_tz, fetch, render_readme  # noqa: E402
 
 # 两市成交额只算这两个，跟 snapshot.py 口径保持一致
 AMOUNT_CODES = ("sh000001", "sz399001")
@@ -62,7 +62,7 @@ def fetch_kline(code, beg):
 def load_existing():
     """读出所有已有行，按日期索引。"""
     rows = {}
-    for path in sorted(DATA_DIR.glob("*.csv")):
+    for path in sorted(DATA_DIR.glob("[0-9]*.csv")):
         with path.open(encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 rows[row["date"]] = row
@@ -82,7 +82,8 @@ def main():
         try:
             klines[code] = fetch_kline(code, beg)
             print(f"  {name}: {len(klines[code])} 个交易日")
-        except Exception as e:
+        except (OSError, json.JSONDecodeError, RuntimeError,
+                KeyError, IndexError, ValueError) as e:
             print(f"  {name} 拉取失败: {e}", file=sys.stderr)
             return 1
 
@@ -111,7 +112,7 @@ def main():
                 (f"{name}_pct", f"{bar['pct']:.2f}"),
             ):
                 # 已有值一律不动，只补空的，免得覆盖当日实盘抓到的数据
-                if not row.get(col):
+                if not row.get(col, ""):
                     row[col] = value
                     touched = True
 
@@ -140,10 +141,10 @@ def main():
             w = csv.DictWriter(f, fieldnames=CSV_HEADER)
             w.writeheader()
             for row in rows:
-                w.writerows([{col: row.get(col, "") for col in CSV_HEADER}])
+                w.writerow({col: row.get(col, "") for col in CSV_HEADER})
         print(f"  写入 {path.name}: {len(rows)} 行")
 
-    stamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    stamp = datetime.now(beijing_tz()).strftime("%Y-%m-%d %H:%M")
     render_readme(stamp)
     print(f"完成：新增 {added} 个交易日，共更新 {filled} 行")
     return 0

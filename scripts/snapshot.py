@@ -17,12 +17,32 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone, tzinfo
 from pathlib import Path
-from zoneinfo import ZoneInfo
+
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    ZoneInfo = None
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
+
+
+def beijing_tz():
+    """返回北京时区。没有系统 tzdata 时退回固定 +08:00。
+
+    Windows 和精简容器里没有系统时区库，ZoneInfo 会抛 ZoneInfoNotFoundError，
+    本地手动补数据会直接崩在第一行。
+    """
+    if ZoneInfo is not None:
+        try:
+            return ZoneInfo("Asia/Shanghai")
+        except Exception:
+            pass
+    return timezone(timedelta(hours=8))
+
+
 # 就用最朴素的这一个。带 Macintosh/AppleWebKit 的长串反而会被东财的
 # clist 接口直接 RST——那种半截 UA 看着就像爬虫伪装。
 UA = "Mozilla/5.0"
@@ -282,6 +302,8 @@ def fetch_sentiment(date_compact):
 
     # 涨停池要全量拉，才能统计连板梯队
     limit_up, pool = fetch_pool(date_compact, "zt", pagesize=300)
+    if limit_up is None:
+        print("  涨停池取不到，涨停/连板这几列今天留空", file=sys.stderr)
     out["limit_up"] = "" if limit_up is None else limit_up
 
     ladder = {}
@@ -298,9 +320,13 @@ def fetch_sentiment(date_compact):
     out["_ladder"] = ladder
 
     limit_down, _ = fetch_pool(date_compact, "dt")
+    if limit_down is None:
+        print("  跌停池取不到，今天的跌停数留空", file=sys.stderr)
     out["limit_down"] = "" if limit_down is None else limit_down
 
     broken, _ = fetch_pool(date_compact, "zb")
+    if broken is None:
+        print("  炸板池取不到，今天的炸板数和炸板率留空", file=sys.stderr)
     out["broken"] = "" if broken is None else broken
 
     # 炸板率 = 炸板 / (涨停 + 炸板)，衡量当天封板的牢固程度
@@ -346,7 +372,7 @@ def num(value, fmt="{:.2f}"):
 def render_readme(updated_at):
     """README 展示最近 10 个交易日。"""
     rows = []
-    for path in sorted(DATA_DIR.glob("*.csv")):
+    for path in sorted(DATA_DIR.glob("[0-9]*.csv")):
         with path.open(encoding="utf-8") as f:
             rows.extend(csv.DictReader(f))
     rows.sort(key=lambda r: r["date"])
@@ -488,7 +514,7 @@ def log(message):
 
 
 def main():
-    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    now = datetime.now(beijing_tz())
     # 手动补数据用。填的日期跟行情自带的日期对不上时，下面那道校验会
     # 直接拒掉，不会把当前行情写进某个过去的日子。
     today = os.environ.get("SNAPSHOT_DATE") or now.strftime("%Y-%m-%d")
@@ -521,6 +547,8 @@ def main():
     row["amount_yi"] = f"{total:.1f}" if total else ""
 
     breadth = fetch_breadth()
+    if not breadth:
+        print("  涨跌家数取不到，今天这三列留空，且不会再补", file=sys.stderr)
     row["up"] = breadth.get("up", "")
     row["down"] = breadth.get("down", "")
     row["flat"] = breadth.get("flat", "")
@@ -532,6 +560,8 @@ def main():
     gainers, losers = fetch_sectors()
     if gainers:
         write_sectors(today, gainers, losers)
+    else:
+        print("  板块排行取不到，sectors.csv 今天不写", file=sys.stderr)
 
     path = append_row(row)
     render_readme(stamp)
