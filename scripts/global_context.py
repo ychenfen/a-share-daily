@@ -39,6 +39,50 @@ TENCENT_MARKETS = {
 }
 MARKET_ORDER = [meta["code"] for meta in TENCENT_MARKETS.values()] + ["N225"]
 
+SINA_CROSS_ASSETS = {
+    "hf_CHA50CFD": {
+        "code": "A50",
+        "name": "富时中国 A50 期货",
+        "region": "中国离岸",
+        "kind": "future",
+        "role": "scored",
+        "format": "future",
+    },
+    "fx_susdcnh": {
+        "code": "USDCNH",
+        "name": "美元兑离岸人民币",
+        "region": "中国离岸",
+        "kind": "fx",
+        "role": "scored",
+        "format": "fx",
+    },
+    "DINIW": {
+        "code": "DXY",
+        "name": "美元指数",
+        "region": "全球",
+        "kind": "index",
+        "role": "scored",
+        "format": "fx",
+    },
+    "hf_GC": {
+        "code": "GOLD",
+        "name": "COMEX 黄金",
+        "region": "全球商品",
+        "kind": "future",
+        "role": "context",
+        "format": "future",
+    },
+    "hf_CL": {
+        "code": "WTI",
+        "name": "WTI 原油",
+        "region": "全球商品",
+        "kind": "future",
+        "role": "context",
+        "format": "future",
+    },
+}
+CROSS_ASSET_ORDER = [meta["code"] for meta in SINA_CROSS_ASSETS.values()]
+
 NEWS_QUERY = "A股 美股 日股 全球市场 美联储 央行 when:1d"
 NEWS_RELEVANT = (
     "a股", "美股", "日股", "股市", "市场", "美联储", "央行", "利率", "通胀",
@@ -106,12 +150,88 @@ def fetch_global_markets(now):
     return out
 
 
+def _float_or_none(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_sina_cross_assets(raw):
+    """Parse Sina's two public quote layouts into one auditable schema."""
+    out = []
+    for line in raw.splitlines():
+        line = line.strip()
+        if "hq_str_" not in line or '="' not in line:
+            continue
+        prefix, quoted = line.split('="', 1)
+        source_code = prefix.rsplit("hq_str_", 1)[-1]
+        meta = SINA_CROSS_ASSETS.get(source_code)
+        if not meta:
+            continue
+        payload = quoted.rsplit('"', 1)[0]
+        if not payload:
+            continue
+        fields = payload.split(",")
+        try:
+            if meta["format"] == "future":
+                close = float(fields[0])
+                previous = _float_or_none(fields[7])
+                pct = _float_or_none(fields[1])
+                if pct is None and previous:
+                    pct = (close / previous - 1) * 100
+                quote_time = " ".join(part for part in (fields[12], fields[6]) if part)
+            else:
+                close = float(fields[1])
+                previous = _float_or_none(fields[5])
+                pct = (close / previous - 1) * 100 if previous else None
+                quote_time = " ".join(part for part in (fields[-1], fields[0]) if part)
+        except (IndexError, ValueError):
+            continue
+        out.append({
+            key: value for key, value in meta.items() if key != "format"
+        } | {
+            "close": close,
+            "pct": pct,
+            "change": close - previous if previous is not None else None,
+            "previous_close": previous,
+            "quote_time": quote_time,
+        })
+    return out
+
+
+def fetch_cross_assets():
+    codes = ",".join(SINA_CROSS_ASSETS)
+    raw = fetch(
+        f"https://hq.sinajs.cn/list={codes}",
+        decode="gb18030",
+        headers={"Referer": "https://finance.sina.com.cn/"},
+    )
+    return parse_sina_cross_assets(raw)
+
+
 def merge_market_snapshots(current, previous):
     """保留本轮有效报价，并只为缺失市场回退上一份数据。"""
     current_by_code = {item.get("code"): item for item in current}
     previous_by_code = {item.get("code"): item for item in previous}
     merged = []
     for code in MARKET_ORDER:
+        item = current_by_code.get(code)
+        stale = False
+        if item is None:
+            item = previous_by_code.get(code)
+            stale = item is not None
+        if item is not None:
+            merged.append({**item, "stale": stale})
+    return merged
+
+
+def merge_cross_asset_snapshots(current, previous):
+    """Merge by fixed order and make every fallback visible as stale."""
+    current_by_code = {item.get("code"): item for item in current}
+    previous_by_code = {item.get("code"): item for item in previous}
+    merged = []
+    for code in CROSS_ASSET_ORDER:
         item = current_by_code.get(code)
         stale = False
         if item is None:
@@ -187,7 +307,7 @@ def news_tone(news):
     }
 
 
-def analyze(markets, macro, daily, news, generated_at, health=None):
+def analyze(markets, macro, daily, news, generated_at, health=None, cross_assets=None):
     signals = []
 
     def add(label, value, contribution, note):
@@ -227,6 +347,37 @@ def analyze(markets, macro, daily, news, generated_at, health=None):
         f"{len(equity_values)} 个市场均值 {global_average:+.2f}%",
         global_score,
         "衡量隔夜风险偏好共振",
+    )
+
+    cross_by_code = {item.get("code"): item for item in (cross_assets or [])}
+    a50 = cross_by_code.get("A50") or {}
+    a50_pct = None if a50.get("stale") else _float_or_none(a50.get("pct"))
+    a50_score = clamp(a50_pct * 6, -8, 8) if a50_pct is not None else 0
+    add(
+        "A50 先行",
+        f"富时 A50 {a50_pct:+.2f}%" if a50_pct is not None else "富时 A50 缺失或陈旧",
+        a50_score,
+        "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量",
+    )
+
+    usdcnh = cross_by_code.get("USDCNH") or {}
+    dxy = cross_by_code.get("DXY") or {}
+    cnh_pct = None if usdcnh.get("stale") else _float_or_none(usdcnh.get("pct"))
+    dxy_pct = None if dxy.get("stale") else _float_or_none(dxy.get("pct"))
+    fx_components = []
+    fx_parts = []
+    if cnh_pct is not None:
+        fx_components.append(-cnh_pct * 12)
+        fx_parts.append(f"USD/CNH {usdcnh.get('close'):.4f} ({cnh_pct:+.2f}%)")
+    if dxy_pct is not None:
+        fx_components.append(-dxy_pct * 5)
+        fx_parts.append(f"DXY {dxy.get('close'):.2f} ({dxy_pct:+.2f}%)")
+    fx_score = clamp(sum(fx_components), -8, 8) if fx_components else 0
+    add(
+        "美元与人民币",
+        " / ".join(fx_parts) if fx_parts else "汇率数据缺失或陈旧",
+        fx_score,
+        "美元走弱与人民币走强通常缓解外部流动性压力",
     )
 
     vix = (macro.get("vix") or {}).get("value")
@@ -280,16 +431,18 @@ def analyze(markets, macro, daily, news, generated_at, health=None):
         summary = "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。"
         advice = ["研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"]
 
+    cross_coverage = a50_pct is not None and (cnh_pct is not None or dxy_pct is not None)
     coverage = sum([
         bool(daily),
         bool(equity_values),
+        cross_coverage,
         vix is not None,
         yield_10y is not None,
         bool(news),
     ])
     source_states = [item.get("status") for item in (health or {}).values()]
     degraded = any(state != "fresh" for state in source_states)
-    confidence = "高" if coverage == 5 and not degraded else "中" if coverage >= 3 else "低"
+    confidence = "高" if coverage == 6 and not degraded else "中" if coverage >= 4 else "低"
     return {
         "schema_version": 1,
         "generated_at": generated_at,
@@ -302,7 +455,7 @@ def analyze(markets, macro, daily, news, generated_at, health=None):
         "advice": advice,
         "news_tone": tone,
         "news": news,
-        "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",
+        "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景。",
         "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。",
     }
 
@@ -407,6 +560,24 @@ def main():
     else:
         health["markets"] = {"status": "stale" if markets else "missing"}
 
+    try:
+        current_cross_assets = fetch_cross_assets()
+    except Exception as e:
+        print(f"跨资产行情获取失败: {e}", file=sys.stderr)
+        current_cross_assets = []
+    cross_assets = merge_cross_asset_snapshots(
+        current_cross_assets, previous_global_data.get("cross_assets") or []
+    )
+    fresh_cross_assets = sum(not item.get("stale") for item in cross_assets)
+    if fresh_cross_assets == len(CROSS_ASSET_ORDER):
+        health["cross_assets"] = {"status": "fresh"}
+    elif fresh_cross_assets:
+        health["cross_assets"] = {"status": "partial"}
+    else:
+        health["cross_assets"] = {
+            "status": "stale" if cross_assets else "missing"
+        }
+
     macro = {}
     previous_macro = previous_global_data.get("macro") or {}
     for key, series in (("vix", "VIXCLS"), ("us10y", "DGS10")):
@@ -439,17 +610,25 @@ def main():
         "schema_version": 1,
         "generated_at": stamp,
         "markets": markets,
+        "cross_assets": cross_assets,
         "macro": macro,
         "health": health,
         "sources": {
             "markets": "腾讯全球行情公开接口 + FRED（日经225）",
+            "cross_assets": "新浪财经公开行情（A50、汇率、美元、黄金、原油）",
             "macro": "Federal Reserve Economic Data (FRED)",
             "news": "Google News RSS（仅标题、来源和链接）",
         },
     }
     rows = load_daily_rows()
     analysis = analyze(
-        markets, macro, rows[-1] if rows else None, news, stamp, health=health
+        markets,
+        macro,
+        rows[-1] if rows else None,
+        news,
+        stamp,
+        health=health,
+        cross_assets=cross_assets,
     )
 
     DATA_DIR.mkdir(exist_ok=True)
@@ -462,7 +641,7 @@ def main():
     )
     write_latest_json(stamp)
     print(
-        f"全球市场 {len(markets)} 个，新闻 {len(news)} 条，"
+        f"全球市场 {len(markets)} 个，跨资产 {len(cross_assets)} 个，新闻 {len(news)} 条，"
         f"风险温度 {analysis['score']:+d}（{analysis['stance']}）"
     )
     return 0 if markets else 1

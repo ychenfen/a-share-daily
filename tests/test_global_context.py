@@ -31,7 +31,42 @@ def markets(pct):
     ]
 
 
+def cross_assets(a50_pct=0.5, cnh_pct=-0.2, dxy_pct=-0.1):
+    return [
+        {"code": "A50", "close": 14500.0, "pct": a50_pct, "stale": False},
+        {"code": "USDCNH", "close": 6.70, "pct": cnh_pct, "stale": False},
+        {"code": "DXY", "close": 100.2, "pct": dxy_pct, "stale": False},
+        {"code": "GOLD", "close": 4400.0, "pct": 0.8, "stale": False},
+        {"code": "WTI", "close": 95.0, "pct": -1.2, "stale": False},
+    ]
+
+
 class GlobalContextTests(unittest.TestCase):
+    def test_sina_cross_assets_are_normalized_from_two_quote_layouts(self):
+        raw = "\n".join([
+            'var hq_str_hf_CHA50CFD="14484.500,,14484.000,14489.000,14489.000,14437.000,05:07:06,14482.000,14484.000,832305,19,6,2026-09-19,富时中国A50期货,50913";',
+            'var hq_str_fx_susdcnh="04:59:59,6.6943,6.6963,6.694400,120,6.703800,6.704400,6.692400,6.6943,离岸人民币（香港）,-0.00,-0.0001,0.00179,,6.995700,6.693400,,2026-09-19";',
+            'var hq_str_DINIW="05:10:48,100.2167,100.2167,100.2304,4021,100.2222,100.5659,100.1638,100.2167,美元指数,2026-09-19";',
+            'var hq_str_hf_GC="4418.560,0.43,4415.900,4416.600,4439.800,4372.200,04:59:59,4399.700,4381.600,0,2,4,2026-09-19,纽约黄金,0";',
+        ])
+
+        parsed = global_context.parse_sina_cross_assets(raw)
+        by_code = {item["code"]: item for item in parsed}
+
+        self.assertEqual(set(by_code), {"A50", "USDCNH", "DXY", "GOLD"})
+        self.assertAlmostEqual(by_code["A50"]["pct"], (14484.5 / 14482.0 - 1) * 100)
+        self.assertAlmostEqual(by_code["USDCNH"]["previous_close"], 6.7038)
+        self.assertEqual(by_code["GOLD"]["pct"], 0.43)
+
+    def test_missing_cross_assets_reuse_only_matching_previous_values(self):
+        current = cross_assets()[:2]
+        previous = cross_assets()
+        merged = global_context.merge_cross_asset_snapshots(current, previous)
+
+        self.assertEqual(len(merged), 5)
+        self.assertFalse(merged[0]["stale"])
+        self.assertTrue(merged[-1]["stale"])
+
     def test_missing_markets_reuse_only_the_last_good_entries(self):
         current = markets(0.5)[:2]
         previous = markets(-0.5)
@@ -86,6 +121,22 @@ class GlobalContextTests(unittest.TestCase):
         self.assertLessEqual(tone["score"], 8)
         self.assertGreater(tone["positive_hits"], 0)
         self.assertGreater(tone["negative_hits"], 0)
+
+    def test_a50_and_fx_are_bounded_signals_while_commodities_are_context(self):
+        result = global_context.analyze(
+            markets(0),
+            {"vix": {"value": 16.0}, "us10y": {"value": 4.0}},
+            {"上证指数_pct": "0", "up": "2500", "down": "2500"},
+            [],
+            "2026-09-20 15:30",
+            cross_assets=cross_assets(a50_pct=3, cnh_pct=-2, dxy_pct=-2),
+        )
+        signals = {item["label"]: item for item in result["signals"]}
+
+        self.assertEqual(signals["A50 先行"]["contribution"], 8)
+        self.assertEqual(signals["美元与人民币"]["contribution"], 8)
+        self.assertNotIn("黄金", signals)
+        self.assertNotIn("原油", signals)
 
     def test_stale_source_lowers_confidence(self):
         result = global_context.analyze(

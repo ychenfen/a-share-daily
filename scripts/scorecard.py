@@ -28,6 +28,11 @@ SIGNAL_HEADER = [
     "sh_close",
     "sh_pct",
     "global_avg",
+    "a50_pct",
+    "usdcnh",
+    "usdcnh_pct",
+    "dxy",
+    "dxy_pct",
     "vix",
     "us10y",
     "health",
@@ -63,6 +68,9 @@ def build_signal(status, analysis, global_data, daily):
         key for key, item in health.items() if item.get("status") != "fresh"
     )
     macro = global_data.get("macro") or {}
+    cross_assets = {
+        item.get("code"): item for item in global_data.get("cross_assets") or []
+    }
     return {
         "captured_at": captured_at,
         "slot": status.get("slot") or "unknown",
@@ -74,6 +82,11 @@ def build_signal(status, analysis, global_data, daily):
         "sh_close": (daily or {}).get("上证指数_close") or "",
         "sh_pct": (daily or {}).get("上证指数_pct") or "",
         "global_avg": round(sum(markets) / len(markets), 4) if markets else "",
+        "a50_pct": (cross_assets.get("A50") or {}).get("pct", ""),
+        "usdcnh": (cross_assets.get("USDCNH") or {}).get("close", ""),
+        "usdcnh_pct": (cross_assets.get("USDCNH") or {}).get("pct", ""),
+        "dxy": (cross_assets.get("DXY") or {}).get("close", ""),
+        "dxy_pct": (cross_assets.get("DXY") or {}).get("pct", ""),
         "vix": (macro.get("vix") or {}).get("value", ""),
         "us10y": (macro.get("us10y") or {}).get("value", ""),
         "health": "fresh" if not degraded else ",".join(degraded),

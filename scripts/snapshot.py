@@ -82,7 +82,7 @@ MIN_INTERVAL = 1.3
 _last_request = 0.0
 
 
-def fetch(url, decode="utf-8", timeout=20):
+def fetch(url, decode="utf-8", timeout=20, headers=None):
     """取一个 URL 的文本。
 
     东财会对请求太密的 IP 直接 RST，表现为连接被对端关闭。curl 偶尔
@@ -96,14 +96,18 @@ def fetch(url, decode="utf-8", timeout=20):
     _last_request = time.monotonic()
 
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        request_headers = {"User-Agent": UA, **(headers or {})}
+        req = urllib.request.Request(url, headers=request_headers)
         ctx = ssl.create_default_context()
         with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
             return resp.read().decode(decode, errors="replace")
     except (urllib.error.URLError, OSError, ssl.SSLError) as first_error:
+        curl_headers = []
+        for name, value in request_headers.items():
+            curl_headers.extend(["-H", f"{name}: {value}"])
         out = subprocess.run(
             ["curl", "-sS", "--compressed", "--max-time", str(timeout),
-             "-H", f"User-Agent: {UA}", url],
+             *curl_headers, url],
             capture_output=True, timeout=timeout + 10, check=True,
         ).stdout
         # 被限流时 curl 也常是 rc=0 但空 body。不拦住的话调用方会拿到
