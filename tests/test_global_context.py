@@ -154,6 +154,7 @@ class GlobalContextTests(unittest.TestCase):
         global_data = {
             "generated_at": "2026-09-20 09:10",
             "markets": markets(0.5),
+            "cross_assets": cross_assets(),
             "macro": {"vix": {"value": 16.2}, "us10y": {"value": 4.1}},
         }
         analysis = {
@@ -168,6 +169,8 @@ class GlobalContextTests(unittest.TestCase):
         self.assertIn("全球市场雷达", svg)
         self.assertIn("日经 225", svg)
         self.assertIn("VIX 波动率", svg)
+        self.assertIn("跨资产先行带", svg)
+        self.assertIn("USDCNH", svg)
         self.assertIn("谨慎偏多", svg)
 
 

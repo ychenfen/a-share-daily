@@ -33,7 +33,7 @@ function renderScore(analysis) {
 }
 
 function renderHealth(globalData) {
-  const labels = { markets: "全球指数", vix: "VIX", us10y: "美债 10Y", news: "新闻" };
+  const labels = { markets: "全球指数", cross_assets: "跨资产", vix: "VIX", us10y: "美债 10Y", news: "新闻" };
   const list = $("#health-list");
   list.replaceChildren();
   Object.entries(globalData.health || {}).forEach(([key, item]) => {
@@ -42,6 +42,38 @@ function renderHealth(globalData) {
     chip.textContent = `${labels[key] || key} · ${(item.status || "missing").toUpperCase()}`;
     list.append(chip);
   });
+}
+
+function renderCrossAssets(globalData) {
+  const grid = $("#cross-asset-grid");
+  grid.replaceChildren();
+  (globalData.cross_assets || []).forEach((asset) => {
+    const card = document.createElement("article");
+    const role = asset.role === "context" ? "背景观察" : "进入评分";
+    card.className = `cross-asset-card ${asset.role === "context" ? "context" : "scored"}${asset.stale ? " stale" : ""}`;
+
+    const top = document.createElement("header");
+    const code = document.createElement("b"); code.textContent = asset.code;
+    const badge = document.createElement("span"); badge.textContent = role;
+    top.append(code, badge);
+
+    const close = document.createElement("strong");
+    close.textContent = number(asset.close, asset.code === "USDCNH" ? 4 : 2);
+    const change = document.createElement("div");
+    const pct = document.createElement("b"); pct.textContent = signed(asset.pct); pct.className = pctClass(asset.pct);
+    const state = document.createElement("small"); state.textContent = asset.stale ? "STALE / 最近有效值" : "LATEST";
+    change.append(pct, state);
+    const name = document.createElement("p"); name.textContent = asset.name || asset.region || asset.code;
+    card.append(top, close, change, name);
+    grid.append(card);
+  });
+
+  if (!grid.children.length) {
+    const empty = document.createElement("p");
+    empty.className = "cross-asset-empty";
+    empty.textContent = "等待首轮跨资产行情。";
+    grid.append(empty);
+  }
 }
 
 function renderMarkets(globalData) {
@@ -163,7 +195,7 @@ function setupShare(analysis) {
 async function init() {
   try {
     const [analysis, globalData, latest, scorecard] = await Promise.all(Object.values(DATA).map(loadJson));
-    renderScore(analysis); renderHealth(globalData); renderMarkets(globalData);
+    renderScore(analysis); renderHealth(globalData); renderMarkets(globalData); renderCrossAssets(globalData);
     renderSignals(analysis); renderScorecard(scorecard); renderNews(analysis);
     setupShare(analysis);
     const sh = latest.latest_daily?.indices?.sh000001;

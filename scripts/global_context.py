@@ -466,13 +466,14 @@ def esc(value):
 
 def build_dashboard(global_data, analysis):
     markets = global_data.get("markets") or []
-    width, height = 1000, 390
+    cross_assets = global_data.get("cross_assets") or []
+    width, height = 1000, 510
     center, max_bar = 350, 150
     out = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">',
-        '<rect width="1000" height="390" rx="14" fill="#f6f8fa"/>',
+        '<rect width="1000" height="510" rx="14" fill="#f6f8fa"/>',
         '<text x="28" y="32" font-size="18" font-weight="700" fill="#24292f">全球市场雷达</text>',
         f'<text x="970" y="30" font-size="11" fill="#57606a" text-anchor="end">{esc(global_data.get("generated_at", ""))} 北京时间</text>',
         f'<line x1="{center}" y1="54" x2="{center}" y2="285" stroke="#8c959f" stroke-width="1"/>',
@@ -517,8 +518,36 @@ def build_dashboard(global_data, analysis):
         '<rect x="775" y="225" width="155" height="72" rx="9" fill="#ffffff" stroke="#d0d7de"/>',
         '<text x="791" y="249" font-size="11" fill="#57606a">美国 10Y 国债</text>',
         f'<text x="791" y="279" font-size="24" font-weight="700" fill="#24292f">{f"{us10y:.2f}%" if us10y is not None else "-"}</text>',
-        f'<text x="28" y="340" font-size="12" fill="#24292f">{esc(analysis.get("summary", ""))}</text>',
-        '<text x="28" y="367" font-size="10" fill="#57606a">红涨绿跌；评分是可审计研究指标，不是买卖信号。</text>',
+    ]
+
+    out += [
+        '<line x1="28" y1="320" x2="972" y2="320" stroke="#d0d7de"/>',
+        '<text x="28" y="343" font-size="13" font-weight="700" fill="#24292f">跨资产先行带</text>',
+        '<text x="972" y="343" font-size="10" fill="#57606a" text-anchor="end">A50 / 汇率低权重计分 · 黄金 / 原油背景观察</text>',
+    ]
+    cell_width = 180
+    for index, asset in enumerate(cross_assets[:5]):
+        x = 28 + index * 188
+        code = asset.get("code") or "--"
+        close = asset.get("close")
+        digits = 4 if code == "USDCNH" else 2
+        close_text = f"{float(close):,.{digits}f}" if close is not None else "-"
+        pct = asset.get("pct")
+        pct_text = f"{float(pct):+.2f}%" if pct is not None else "-"
+        pct_color = "#c9211e" if (pct or 0) > 0 else "#08783e" if (pct or 0) < 0 else "#8c959f"
+        role = "背景" if asset.get("role") == "context" else "计分"
+        freshness = "陈旧" if asset.get("stale") else role
+        out += [
+            f'<rect x="{x}" y="354" width="{cell_width}" height="88" rx="8" fill="#ffffff" stroke="#d0d7de"/>',
+            f'<text x="{x + 14}" y="376" font-size="10" font-weight="700" fill="#57606a">{esc(code)}</text>',
+            f'<text x="{x + cell_width - 14}" y="376" font-size="9" fill="#8c959f" text-anchor="end">{freshness}</text>',
+            f'<text x="{x + 14}" y="407" font-size="19" font-weight="700" fill="#24292f">{close_text}</text>',
+            f'<text x="{x + 14}" y="430" font-size="12" font-weight="700" fill="{pct_color}">{pct_text}</text>',
+        ]
+
+    out += [
+        f'<text x="28" y="474" font-size="12" fill="#24292f">{esc(analysis.get("summary", ""))}</text>',
+        '<text x="28" y="498" font-size="10" fill="#57606a">红涨绿跌；评分是可审计研究指标，不是买卖信号。</text>',
         "</svg>",
     ]
     return "\n".join(out)

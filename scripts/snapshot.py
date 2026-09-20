@@ -602,6 +602,7 @@ def render_readme(updated_at):
         "| 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |",
         "| 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |",
         "| 🖥️ 在线研究大屏 | GitHub Pages 自动部署，手机和桌面都能直接查看 |",
+        "| 🌍 跨资产先行带 | A50、离岸人民币与美元指数低权重计分，黄金和原油保留为背景 |",
         "| 🗞️ 每日传播卡片 | 自动生成 1200×630 矢量简报，可下载、引用和转发 |",
         "| 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |",
         "| 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |",
@@ -689,7 +690,7 @@ def render_readme(updated_at):
         "data/YYYY.csv          # 日线与收盘情绪，适合回测",
         "data/pulses/YYYY-MM.csv # 日内四段观察，适合研究盘中演化",
         "data/sectors.csv        # 行业领涨/领跌 Top 5",
-        "data/global.json         # 美股、日股、港股、VIX 与美债",
+        "data/global.json         # 全球指数、A50、汇率、美元、黄金、原油、VIX 与美债",
         "data/analysis.json       # 可解释风险温度、新闻与研究观察",
         "data/scorecard.json      # 真实运行信号的前向验证成绩单",
         "data/signals/YYYY.csv    # 每次风险信号的可审计原始记录",
@@ -718,7 +719,8 @@ def render_readme(updated_at):
         "东方财富公开接口。接口异常时保留上一份有效数据，并在 `status.json`"
         " 明确标记，不把空响应冒充成功。",
         "",
-        "全球指数来自腾讯公开行情与 FRED，宏观压力来自 FRED；新闻区只保留"
+        "全球指数来自腾讯公开行情，A50、离岸人民币、美元指数、黄金与原油来自"
+        "新浪财经公开行情，宏观压力来自 FRED；新闻区只保留"
         "Google News RSS 的标题、来源和链接，不抓取或改写正文。",
         "",
         "指数历史由 [scripts/backfill.py](scripts/backfill.py) 一次性回填。"
@@ -787,8 +789,33 @@ def render_global_section():
             f"{num(market.get('close'))} | {pct_text} |"
         )
 
+    cross_assets = global_data.get("cross_assets") or []
+    if cross_assets:
+        lines += [
+            "",
+            "### 跨资产先行带",
+            "",
+            "> A50 与美元/人民币组合仅作低权重评分；黄金和原油只提供风险背景，不直接加减分。",
+            "",
+            "| 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |",
+            "| --- | --- | ---: | ---: | --- |",
+        ]
+        for asset in cross_assets:
+            close = asset.get("close")
+            digits = 4 if asset.get("code") == "USDCNH" else 2
+            close_text = f"{float(close):,.{digits}f}" if isinstance(close, (int, float)) else "-"
+            pct = asset.get("pct")
+            pct_text = f"{pct:+.2f}%" if isinstance(pct, (int, float)) else "-"
+            role = "背景观察" if asset.get("role") == "context" else "低权重计分"
+            state = "最近有效值" if asset.get("stale") else "最新"
+            lines.append(
+                f"| {md_escape(asset.get('name') or asset.get('code', ''))} | {role} | "
+                f"{close_text} | {pct_text} | {state} |"
+            )
+
     health_labels = {
         "markets": "全球指数",
+        "cross_assets": "跨资产",
         "vix": "VIX",
         "us10y": "美债10Y",
         "news": "新闻",

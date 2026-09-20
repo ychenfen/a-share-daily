@@ -27,7 +27,14 @@ class ShareCardTests(unittest.TestCase):
                 {"code": "N225", "pct": 1.38, "stale": True},
                 {"code": "HSI", "pct": 0.60, "stale": False},
             ],
-            "health": {},
+            "cross_assets": [
+                {"code": "A50", "close": 14500, "pct": 0.50, "stale": False},
+                {"code": "USDCNH", "close": 6.70, "pct": -0.20, "stale": False},
+                {"code": "DXY", "close": 100.2, "pct": -0.10, "stale": False},
+                {"code": "GOLD", "close": 4400, "pct": 0.80, "stale": False},
+                {"code": "WTI", "close": 95, "pct": -1.20, "stale": True},
+            ],
+            "health": {"cross_assets": {"status": "fresh"}},
         }
         latest = {
             "latest_daily": {
@@ -47,7 +54,11 @@ class ShareCardTests(unittest.TestCase):
         self.assertIn("DAILY MARKET BRIEF", svg)
         self.assertIn("+21", svg)
         self.assertIn("谨慎偏多 &amp; 观察", svg)
+        self.assertIn("CNH", svg)
+        self.assertIn("6.7000", svg)
         self.assertIn("STALE", svg)
+        self.assertRegex(svg, r'fill="#ff5148"[^>]*>\+0\.17%</text>')
+        self.assertRegex(svg, r'fill="#2cc17a"[^>]*>[^<]*-0\.20%</text>')
 
     def test_generate_writes_the_current_card(self):
         with tempfile.TemporaryDirectory() as directory:

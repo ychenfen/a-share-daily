@@ -33,7 +33,7 @@ Hong Kong, volatility, rates, and the news cycle — with no runtime dependencie
 | Capability | What it gives you |
 | --- | --- |
 | Five market checkpoints | Overnight context plus open, midday, close, and evening verification instead of one end-of-day row |
-| Cross-market context | A-shares alongside the S&P 500, Nasdaq, Dow, Hang Seng, Nikkei 225, European equities, VIX, and US 10Y |
+| Cross-market context | A-shares alongside the S&P 500, Nasdaq, Dow, Hang Seng, Nikkei 225, Europe, A50 futures, USD/CNH, DXY, gold, oil, VIX, and US 10Y |
 | Explainable risk score | Every point is attributed to momentum, breadth, sentiment, global markets, volatility, rates, or low-weight news tone |
 | Forward-only scorecard | Signals are recorded before outcomes and settled over 1, 3, and 5 sessions; no invented historical hit rate |
 | Visible source health | Fresh, partial, stale, and missing upstream data remain visible rather than being silently presented as current |
@@ -66,6 +66,8 @@ flowchart LR
 
 The score is a transparent research heuristic, not a model-generated trade.
 News headlines have bounded, low weight and are never treated as verified facts.
+A50 futures and the USD/CNH-DXY pair are capped, low-weight inputs. Gold and
+WTI stay visible as context and never contribute points directly.
 
 ## Data products
 
@@ -73,7 +75,7 @@ News headlines have bounded, low weight and are never treated as verified facts.
 data/YYYY.csv           # Daily closes, breadth, and close sentiment
 data/pulses/YYYY-MM.csv # Intraday market checkpoints
 data/sectors.csv        # Top and bottom industry groups
-data/global.json        # Global indices, VIX, US 10Y, and source health
+data/global.json        # Global indices, cross assets, VIX, US 10Y, and source health
 data/analysis.json      # Explainable risk score and research observations
 data/scorecard.json     # Forward validation summary
 data/signals/YYYY.csv   # Append-only raw signal ledger
