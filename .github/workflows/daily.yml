@@ -31,6 +31,8 @@ on:
 # 默认的 GITHUB_TOKEN 是只读的，要写回仓库必须显式开
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: daily-snapshot
@@ -81,3 +83,23 @@ jobs:
           fi
           git commit -m "chore(pulse): $(TZ=Asia/Shanghai date +%Y-%m-%d) ${SLOT_LABEL:-市场更新}"
           git push || (git pull --rebase && git push)
+
+  deploy:
+    needs: snapshot
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - name: Build dashboard with the committed market update
+        run: python3 scripts/build_site.py --output public
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy updated dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
