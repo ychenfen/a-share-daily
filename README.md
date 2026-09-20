@@ -12,6 +12,8 @@
 <img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-zero-2ea44f">
 <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 
+[English](README.en.md) · 简体中文
+
 </div>
 
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
@@ -29,9 +31,16 @@
 | 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |
 | 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |
 | 🖥️ 在线研究大屏 | GitHub Pages 自动部署，手机和桌面都能直接查看 |
+| 🗞️ 每日传播卡片 | 自动生成 1200×630 矢量简报，可下载、引用和转发 |
 | 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |
 | 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |
 | 🛡️ 质量门禁 | 每次推送前跑回归测试、schema 和重复日期检查 |
+
+## 今日市场简报
+
+<a href="https://ychenfen.github.io/a-share-daily/#share"><img alt="A-Share Pulse 每日市场简报" src="charts/daily_brief.svg"></a>
+
+[打开可交互大屏](https://ychenfen.github.io/a-share-daily/) · [下载 SVG](charts/daily_brief.svg)
 
 ## 全球市场与策略雷达
 
@@ -173,6 +182,7 @@ data/status.json        # 最近任务与数据源健康状态
 python3 scripts/snapshot.py
 python3 scripts/global_context.py
 python3 scripts/scorecard.py
+python3 scripts/share_card.py
 python3 scripts/chart.py
 python3 -m unittest discover -s tests -v
 python3 scripts/validate.py

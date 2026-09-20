@@ -116,11 +116,56 @@ function renderNews(analysis) {
   });
 }
 
+async function copyUrl(url) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(url);
+    return;
+  }
+  const input = document.createElement("textarea");
+  input.value = url;
+  input.setAttribute("readonly", "");
+  input.style.position = "fixed";
+  input.style.opacity = "0";
+  document.body.append(input);
+  input.select();
+  document.execCommand("copy");
+  input.remove();
+}
+
+function setupShare(analysis) {
+  const buttons = [$("#hero-share"), $("#share-button")].filter(Boolean);
+  const feedback = $("#share-feedback");
+  const url = `${window.location.origin}${window.location.pathname}`;
+  const score = Number(analysis.score) || 0;
+  const payload = {
+    title: "A-Share Pulse · 市场天气台",
+    text: `今日跨市场风险温度 ${score >= 0 ? "+" : ""}${score} · ${analysis.stance || "等待数据"}。查看可追溯证据：`,
+    url,
+  };
+
+  buttons.forEach((button) => button.addEventListener("click", async () => {
+    try {
+      if (navigator.share) {
+        await navigator.share(payload);
+        if (feedback) feedback.textContent = "已打开系统分享。";
+      } else {
+        await copyUrl(url);
+        if (feedback) feedback.textContent = "大屏链接已复制。";
+      }
+    } catch (error) {
+      if (error?.name !== "AbortError" && feedback) {
+        feedback.textContent = "暂时无法分享，可下载简报或复制浏览器地址。";
+      }
+    }
+  }));
+}
+
 async function init() {
   try {
     const [analysis, globalData, latest, scorecard] = await Promise.all(Object.values(DATA).map(loadJson));
     renderScore(analysis); renderHealth(globalData); renderMarkets(globalData);
     renderSignals(analysis); renderScorecard(scorecard); renderNews(analysis);
+    setupShare(analysis);
     const sh = latest.latest_daily?.indices?.sh000001;
     text("#sh-close", number(sh?.close));
     const pct = $("#sh-pct"); pct.textContent = signed(sh?.pct); pct.className = pctClass(sh?.pct);

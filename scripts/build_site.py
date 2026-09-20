@@ -10,7 +10,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "site"
 DATA_FILES = ("analysis.json", "global.json", "latest.json", "scorecard.json", "status.json")
-CHART_FILES = ("market_calendar.svg", "global_dashboard.svg", "signal_scorecard.svg")
+CHART_FILES = (
+    "market_calendar.svg",
+    "global_dashboard.svg",
+    "signal_scorecard.svg",
+    "daily_brief.svg",
+)
 
 
 def build(output):

@@ -60,6 +60,9 @@ jobs:
       - name: 结算前向信号成绩
         run: python3 scripts/scorecard.py
 
+      - name: 生成可分享市场简报
+        run: python3 scripts/share_card.py
+
       - name: 生成走势图
         run: python3 scripts/chart.py
 

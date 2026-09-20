@@ -26,6 +26,7 @@
       <a href="#markets">外围</a>
       <a href="#evidence">证据</a>
       <a href="#scorecard">验真</a>
+      <a href="#share">分享</a>
       <a href="#news">事件</a>
     </nav>
     <a class="star-link" href="https://github.com/ychenfen/a-share-daily" target="_blank" rel="noreferrer">
@@ -46,6 +47,7 @@
           <p class="lede">把 A 股内部强弱、全球收盘、波动率、利率与新闻事件压缩成一张可以追溯的研究底稿。</p>
           <div class="hero-actions">
             <a class="primary" href="#evidence">拆解今天的评分</a>
+            <button class="secondary" id="hero-share" type="button">分享今日简报</button>
             <a class="secondary" href="https://github.com/ychenfen/a-share-daily/fork" target="_blank" rel="noreferrer">Fork 自己的版本</a>
           </div>
         </div>
@@ -147,9 +149,34 @@
       </div>
     </section>
 
+    <section class="section share-section reveal" id="share">
+      <header class="section-head">
+        <div><span class="section-index">05</span><p class="overline">SHAREABLE BRIEF</p></div>
+        <div>
+          <h2>一张图，带走今天的市场证据。</h2>
+          <p>风险温度、A 股宽度与四个外围市场自动汇总；每次更新都有对应的 Git 记录。</p>
+        </div>
+      </header>
+      <div class="share-layout">
+        <a class="brief-preview" href="charts/daily_brief.svg" download="a-share-pulse-daily-brief.svg" aria-label="下载每日市场简报 SVG">
+          <img src="charts/daily_brief.svg" alt="A-Share Pulse 每日市场简报">
+        </a>
+        <aside class="share-copy">
+          <p class="overline">BUILT TO TRAVEL</p>
+          <h3>分享结论，也分享依据。</h3>
+          <p>支持系统原生分享；不支持时会复制当前大屏链接。简报为 SVG 矢量图，适合文章、群聊和 Issue 引用。</p>
+          <div class="hero-actions">
+            <button class="primary" id="share-button" type="button">分享大屏</button>
+            <a class="secondary" href="charts/daily_brief.svg" download="a-share-pulse-daily-brief.svg">下载简报 SVG</a>
+          </div>
+          <p class="share-feedback" id="share-feedback" role="status" aria-live="polite"></p>
+        </aside>
+      </div>
+    </section>
+
     <section class="section news-section reveal" id="news">
       <header class="section-head">
-        <div><span class="section-index">05</span><p class="overline">EVENT RADAR</p></div>
+        <div><span class="section-index">06</span><p class="overline">EVENT RADAR</p></div>
         <div>
           <h2>新闻不是结论，只是需要验证的线索。</h2>
           <p>仅保留标题、来源和原始链接；语气只占低权重。</p>
