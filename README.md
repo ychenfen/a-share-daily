@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 16:47`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 17:20`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -31,6 +31,7 @@
 | 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |
 | 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |
 | 🖥️ 在线研究大屏 | GitHub Pages 自动部署，手机和桌面都能直接查看 |
+| 🌍 跨资产先行带 | A50、离岸人民币与美元指数低权重计分，黄金和原油保留为背景 |
 | 🗞️ 每日传播卡片 | 自动生成 1200×630 矢量简报，可下载、引用和转发 |
 | 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |
 | 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |
@@ -46,8 +47,8 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +23 · 谨慎偏多**（置信度：中）
-> 风险偏好略占优，但信号并未形成全面共振。
+> **风险温度 +25 · 积极但不追高**（置信度：中）
+> A股内部强度与外围风险偏好形成正向共振，但仍需用回撤和量能确认持续性。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
 | --- | --- | ---: | ---: |
@@ -57,6 +58,18 @@
 | 恒生指数 | 中国香港 | 24750.78 | +0.60% |
 | 欧洲股票 ETF | 欧洲（美股代理） | 88.21 | -1.05% |
 | 日经 225 | 日本 | 65018.95 | +1.38% |
+
+### 跨资产先行带
+
+> A50 与美元/人民币组合仅作低权重评分；黄金和原油只提供风险背景，不直接加减分。
+
+| 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
+| --- | --- | ---: | ---: | --- |
+| 富时中国 A50 期货 | 低权重计分 | 14,484.50 | +0.02% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6943 | -0.14% | 最新 |
+| 美元指数 | 低权重计分 | 100.22 | -0.01% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,418.56 | +0.43% | 最新 |
+| WTI 原油 | 背景观察 | 95.41 | -1.87% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -68,24 +81,27 @@
 | 市场宽度 | 涨 4277 / 跌 1173 | +11.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 78 / 跌停 0 / 炸板率 24.3% | +10.0 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 +0.22% | +1.5 | 衡量隔夜风险偏好共振 |
+| A50 先行 | 富时 A50 +0.02% | +0.1 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6943 (-0.14%) / DXY 100.22 (-0.01%) | +1.7 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
 | 新闻语气 | 正向词 5 / 风险词 6 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 研究观察
 
-- 保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。
+- 关注强势行业能否在下一交易日继续获得成交额与市场宽度支持。
+- 研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。
 
 ### 新闻雷达
 
-- [欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛](https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5) · 同花顺财经
 - [全球央行再同步加息，科技股却成最抗压资产！](https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5) · 富途牛牛
+- [美国、欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛：利率上升越快，股市压力越大](https://news.google.com/rss/articles/CBMieEFVX3lxTFBXT1dMZUN5VWRUWl9XTFB3ZE1GYzQxbzFaX3RkclZBMWYybkw5MXNGZWg3bDNNWnhQdG1lMDJNWGJuMC1Nd3lPQU42NmZDNGp0ZVRvdG5oUjRhWHdJdTFQMlFOTW5CMENwTERuSWUybjhEWG1JX2ZuMg?oc=5) · 新浪财经
 - [【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱](https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5) · FX168财经
-- [盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？](https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5) · 手机新浪网
+- [【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%](https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5) · TradingKey
 - [小摩研报解读：全球加息重启，股市仍由企业盈利锚定](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNnZHWGFFUWt1WmwwcVpoQ2pFa2lya3M4anBFanE5cXp1YTl5alFpSXcwemsyWkdRSjhCTlpUWXRDdjV4X0J1cVdwRXB1bUZwSGxsYg?oc=5) · 深潮TechFlow
-- [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · 中华网
+- [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · news.china.com
 
-方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。
+方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景。
 
 > 这是可审计的通用市场研究提示，不是个性化仓位或买卖建议。
 
@@ -168,7 +184,7 @@ GitHub Actions 可能有数分钟调度延迟。休市日不会伪造行情，�
 data/YYYY.csv          # 日线与收盘情绪，适合回测
 data/pulses/YYYY-MM.csv # 日内四段观察，适合研究盘中演化
 data/sectors.csv        # 行业领涨/领跌 Top 5
-data/global.json         # 美股、日股、港股、VIX 与美债
+data/global.json         # 全球指数、A50、汇率、美元、黄金、原油、VIX 与美债
 data/analysis.json       # 可解释风险温度、新闻与研究观察
 data/scorecard.json      # 真实运行信号的前向验证成绩单
 data/signals/YYYY.csv    # 每次风险信号的可审计原始记录
@@ -194,7 +210,7 @@ python3 scripts/validate.py
 
 指数行情来自腾讯行情公开接口；市场宽度、涨跌停池和行业排行来自东方财富公开接口。接口异常时保留上一份有效数据，并在 `status.json` 明确标记，不把空响应冒充成功。
 
-全球指数来自腾讯公开行情与 FRED，宏观压力来自 FRED；新闻区只保留Google News RSS 的标题、来源和链接，不抓取或改写正文。
+全球指数来自腾讯公开行情，A50、离岸人民币、美元指数、黄金与原油来自新浪财经公开行情，宏观压力来自 FRED；新闻区只保留Google News RSS 的标题、来源和链接，不抓取或改写正文。
 
 指数历史由 [scripts/backfill.py](scripts/backfill.py) 一次性回填。涨跌家数、涨停跌停、连板梯队这些是盘后快照，没有历史接口可回填，只能逐日累积，所以回填日期的这几列是空的。
 

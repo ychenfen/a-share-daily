@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 16:47",
+  "generated_at": "2026-09-20 17:20",
   "markets": [
     {
       "code": "SPX",
@@ -75,6 +75,73 @@
       "stale": true
     }
   ],
+  "cross_assets": [
+    {
+      "code": "A50",
+      "name": "富时中国 A50 期货",
+      "region": "中国离岸",
+      "kind": "future",
+      "role": "scored",
+      "close": 14484.5,
+      "pct": 0.017262809004270352,
+      "change": 2.5,
+      "previous_close": 14482.0,
+      "quote_time": "2026-09-19 05:07:06",
+      "stale": false
+    },
+    {
+      "code": "USDCNH",
+      "name": "美元兑离岸人民币",
+      "region": "中国离岸",
+      "kind": "fx",
+      "role": "scored",
+      "close": 6.6943,
+      "pct": -0.14171067155941408,
+      "change": -0.009500000000000064,
+      "previous_close": 6.7038,
+      "quote_time": "2026-09-19 04:59:59",
+      "stale": false
+    },
+    {
+      "code": "DXY",
+      "name": "美元指数",
+      "region": "全球",
+      "kind": "index",
+      "role": "scored",
+      "close": 100.2167,
+      "pct": -0.005487806094850445,
+      "change": -0.00549999999999784,
+      "previous_close": 100.2222,
+      "quote_time": "2026-09-19 05:10:48",
+      "stale": false
+    },
+    {
+      "code": "GOLD",
+      "name": "COMEX 黄金",
+      "region": "全球商品",
+      "kind": "future",
+      "role": "context",
+      "close": 4418.56,
+      "pct": 0.42866559083574174,
+      "change": 18.860000000000582,
+      "previous_close": 4399.7,
+      "quote_time": "2026-09-19 04:59:59",
+      "stale": false
+    },
+    {
+      "code": "WTI",
+      "name": "WTI 原油",
+      "region": "全球商品",
+      "kind": "future",
+      "role": "context",
+      "close": 95.412,
+      "pct": -1.8697932736809642,
+      "change": -1.8179999999999978,
+      "previous_close": 97.23,
+      "quote_time": "2026-09-19 04:59:58",
+      "stale": false
+    }
+  ],
   "macro": {
     "vix": {
       "date": "2026-09-17",
@@ -91,6 +158,9 @@
     "markets": {
       "status": "partial"
     },
+    "cross_assets": {
+      "status": "fresh"
+    },
     "vix": {
       "status": "stale"
     },
@@ -103,6 +173,7 @@
   },
   "sources": {
     "markets": "腾讯全球行情公开接口 + FRED（日经225）",
+    "cross_assets": "新浪财经公开行情（A50、汇率、美元、黄金、原油）",
     "macro": "Federal Reserve Economic Data (FRED)",
     "news": "Google News RSS（仅标题、来源和链接）"
   }
