@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
 <rect width="1000" height="390" rx="14" fill="#f6f8fa"/>
 <text x="28" y="32" font-size="18" font-weight="700" fill="#24292f">全球市场雷达</text>
-<text x="970" y="30" font-size="11" fill="#57606a" text-anchor="end">2026-09-20 16:15 北京时间</text>
+<text x="970" y="30" font-size="11" fill="#57606a" text-anchor="end">2026-09-20 16:47 北京时间</text>
 <line x1="350" y1="54" x2="350" y2="285" stroke="#8c959f" stroke-width="1"/>
 <text x="28" y="76" font-size="13" fill="#24292f">标普 500</text>
 <text x="210" y="76" font-size="12" fill="#57606a" text-anchor="end">7,650.50</text>
@@ -29,10 +29,10 @@
 <rect x="350.0" y="272" width="68.8" height="18" rx="4" fill="#c9211e" opacity="0.85"/>
 <text x="514" y="286" font-size="13" font-weight="600" fill="#c9211e">+1.38%</text>
 <text x="610" y="70" font-size="15" font-weight="700" fill="#24292f">跨市场风险温度</text>
-<text x="930" y="70" font-size="24" font-weight="700" fill="#e05a47" text-anchor="end">+21</text>
+<text x="930" y="70" font-size="24" font-weight="700" fill="#e05a47" text-anchor="end">+23</text>
 <rect x="610" y="105" width="320" height="14" rx="7" fill="#d0d7de"/>
-<rect x="610" y="105" width="193.6" height="14" rx="7" fill="#e05a47" opacity="0.75"/>
-<circle cx="803.6" cy="112" r="9" fill="#e05a47" stroke="#ffffff" stroke-width="3"/>
+<rect x="610" y="105" width="196.8" height="14" rx="7" fill="#e05a47" opacity="0.75"/>
+<circle cx="806.8" cy="112" r="9" fill="#e05a47" stroke="#ffffff" stroke-width="3"/>
 <text x="610" y="137" font-size="10" fill="#57606a">-100 防守</text>
 <text x="930" y="137" font-size="10" fill="#57606a" text-anchor="end">+100 积极</text>
 <text x="610" y="175" font-size="20" font-weight="700" fill="#e05a47">谨慎偏多</text>

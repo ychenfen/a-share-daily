@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 16:15",
+  "generated_at": "2026-09-20 16:47",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-09-20 16:15",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-09-20 16:47",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-09-20",
     "market_data_date": "2026-09-18",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-09-20 16:15",
+    "generated_at": "2026-09-20 16:47",
     "markets": [
       {
         "code": "SPX",
@@ -124,8 +124,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-09-20 16:15",
-    "score": 21,
+    "generated_at": "2026-09-20 16:47",
+    "score": 23,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -169,8 +169,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 4 / 风险词 6",
-        "contribution": -4,
+        "value": "正向词 5 / 风险词 6",
+        "contribution": -2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -178,9 +178,9 @@
       "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
     ],
     "news_tone": {
-      "positive_hits": 4,
+      "positive_hits": 5,
       "negative_hits": 6,
-      "score": -4
+      "score": -2
     },
     "news": [
       {
@@ -196,10 +196,10 @@
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5"
       },
       {
-        "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
+        "title": "【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱",
         "source": "FX168财经",
-        "published": "Sun, 20 Sep 2026 07:28:36 GMT",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
+        "published": "Sat, 19 Sep 2026 16:42:11 GMT",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5"
       },
       {
         "title": "盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？",
@@ -208,16 +208,16 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5"
       },
       {
-        "title": "全球牛市要结束了吗 三大央行同步紧缩引发关注",
-        "source": "中华网",
-        "published": "Sat, 19 Sep 2026 12:49:45 GMT",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5"
-      },
-      {
         "title": "小摩研报解读：全球加息重启，股市仍由企业盈利锚定",
         "source": "深潮TechFlow",
         "published": "Sun, 20 Sep 2026 04:44:09 GMT",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNnZHWGFFUWt1WmwwcVpoQ2pFa2lya3M4anBFanE5cXp1YTl5alFpSXcwemsyWkdRSjhCTlpUWXRDdjV4X0J1cVdwRXB1bUZwSGxsYg?oc=5"
+      },
+      {
+        "title": "全球牛市要结束了吗 三大央行同步紧缩引发关注",
+        "source": "中华网",
+        "published": "Sat, 19 Sep 2026 12:49:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5"
       },
       {
         "title": "三大央行同步加息！人民币汇率关键突破",
@@ -226,10 +226,10 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZWUHh2MVV6VG50YTlNLVh4OFAtcllZc2p1TUNOR2JZaEVCMVd4cHJKcXZjc1VUT2dmRE9XbEc0UkpVWHBCbGxpbFpBWXJ5Yy1jVEJnV2JjSU1saHBVZ3lERGFhNzNNZXBHakIxQUlNclpBTG9iVW1uM3lUc25MeWQwaWt4ZGtWY0pMbw?oc=5"
       },
       {
-        "title": "【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱",
-        "source": "FX168财经",
-        "published": "Sat, 19 Sep 2026 16:42:11 GMT",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5"
+        "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
+        "source": "TradingKey",
+        "published": "Sat, 19 Sep 2026 19:54:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",
@@ -237,11 +237,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-09-20 16:15",
+    "generated_at": "2026-09-20 16:47",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "collecting",
     "minimum_samples": 20,
-    "signal_count": 3,
+    "signal_count": 4,
     "matured_1d": 0,
     "directional_1d": 0,
     "hit_rate_1d": null,
@@ -278,14 +278,34 @@
       }
     ],
     "current": {
-      "captured_at": "2026-09-20 16:15",
-      "slot": "night",
-      "score": "21",
+      "captured_at": "2026-09-20 16:47",
+      "slot": "midday",
+      "score": "23",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-09-20 16:47",
+        "slot": "midday",
+        "signal_date": "2026-09-20",
+        "market_asof_date": "2026-09-18",
+        "score": "23",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3911.87",
+        "sh_pct": "0.94",
+        "global_avg": "0.2177",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-09-20 16:15",
         "slot": "night",

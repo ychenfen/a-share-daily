@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 16:15`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 16:47`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -46,7 +46,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +21 · 谨慎偏多**（置信度：中）
+> **风险温度 +23 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -70,7 +70,7 @@
 | 外围股市 | 6 个市场均值 +0.22% | +1.5 | 衡量隔夜风险偏好共振 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 4 / 风险词 6 | -4.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 5 / 风险词 6 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 研究观察
 
@@ -80,10 +80,10 @@
 
 - [欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛](https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5) · 同花顺财经
 - [全球央行再同步加息，科技股却成最抗压资产！](https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5) · 富途牛牛
-- [美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析](https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5) · FX168财经
+- [【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱](https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5) · FX168财经
 - [盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？](https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5) · 手机新浪网
-- [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · 中华网
 - [小摩研报解读：全球加息重启，股市仍由企业盈利锚定](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNnZHWGFFUWt1WmwwcVpoQ2pFa2lya3M4anBFanE5cXp1YTl5alFpSXcwemsyWkdRSjhCTlpUWXRDdjV4X0J1cVdwRXB1bUZwSGxsYg?oc=5) · 深潮TechFlow
+- [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · 中华网
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。
 
