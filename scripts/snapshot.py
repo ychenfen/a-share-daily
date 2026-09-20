@@ -49,6 +49,21 @@ SECTOR_CSV = "sectors.csv"
 SECTOR_HEADER = ["date", "rank_type", "rank", "name", "pct", "net_inflow_yi", "leader"]
 SECTOR_TOP_N = 5
 DAILY_FILE_GLOB = "[0-9][0-9][0-9][0-9].csv"
+PULSE_HEADER = ["captured_at", "slot"] + CSV_HEADER
+
+SLOT_LABELS = {
+    "open": "开盘脉搏",
+    "midday": "午间脉搏",
+    "close": "收盘快照",
+    "night": "夜间校验",
+}
+CRON_SLOTS = {
+    "5 2 * * *": "open",      # 10:05 Asia/Shanghai
+    "35 3 * * *": "midday",  # 11:35 Asia/Shanghai
+    "10 7 * * *": "close",   # 15:10 Asia/Shanghai
+    "20 12 * * *": "night",  # 20:20 Asia/Shanghai
+}
+FINAL_SLOTS = {"close", "night"}
 
 
 # 东财对请求密度很敏感：几秒内连打五六个就开始 RST，而每次隔一秒多就没事。
@@ -349,6 +364,130 @@ def load_daily_rows():
     return rows
 
 
+def resolve_slot(raw, now):
+    """把 workflow 的 cron/手动输入归一为四个市场时段。"""
+    if raw in SLOT_LABELS:
+        return raw
+    if raw in CRON_SLOTS:
+        return CRON_SLOTS[raw]
+
+    minutes = now.hour * 60 + now.minute
+    if minutes < 11 * 60:
+        return "open"
+    if minutes < 14 * 60:
+        return "midday"
+    if minutes < 18 * 60:
+        return "close"
+    return "night"
+
+
+def append_pulse(row, captured_at, slot):
+    """保存盘中观察值；同一捕获时刻重复运行时覆盖，不制造重复行。"""
+    pulse_dir = DATA_DIR / "pulses"
+    pulse_dir.mkdir(parents=True, exist_ok=True)
+    path = pulse_dir / f"{row['date'][:7]}.csv"
+
+    rows = []
+    if path.exists():
+        with path.open(encoding="utf-8") as f:
+            rows = [r for r in csv.DictReader(f) if r["captured_at"] != captured_at]
+
+    rows.append({"captured_at": captured_at, "slot": slot, **row})
+    rows.sort(key=lambda r: r["captured_at"])
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=PULSE_HEADER)
+        writer.writeheader()
+        writer.writerows(rows)
+    return path
+
+
+def latest_pulse():
+    """读取最近一次盘中观察值。"""
+    paths = sorted((DATA_DIR / "pulses").glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].csv"))
+    if not paths:
+        return None
+    with paths[-1].open(encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    return max(rows, key=lambda r: r["captured_at"]) if rows else None
+
+
+def write_status(status):
+    """写入每次任务的健康状态，让失败/休市也有可观测结果。"""
+    path = DATA_DIR / "status.json"
+    DATA_DIR.mkdir(exist_ok=True)
+    path.write_text(
+        json.dumps(status, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return path
+
+
+def _number(value, integer=False):
+    if value in (None, ""):
+        return None
+    return int(float(value)) if integer else float(value)
+
+
+def write_latest_json(generated_at):
+    """导出稳定、机器可读的最新行情入口。"""
+    rows = load_daily_rows()
+    latest = rows[-1] if rows else None
+    sector_date, gainers, losers = read_latest_sectors()
+    status_path = DATA_DIR / "status.json"
+    status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else None
+
+    daily = None
+    if latest:
+        daily = {
+            "date": latest["date"],
+            "indices": {
+                code: {
+                    "name": name,
+                    "close": _number(latest.get(f"{name}_close")),
+                    "pct": _number(latest.get(f"{name}_pct")),
+                }
+                for code, name in INDEXES
+            },
+            "amount_yi": _number(latest.get("amount_yi")),
+            "breadth": {
+                key: _number(latest.get(key), integer=True)
+                for key in ("up", "down", "flat")
+            },
+            "sentiment": {
+                key: _number(latest.get(key), integer=key != "broken_rate")
+                for key in (
+                    "limit_up", "limit_down", "broken", "broken_rate",
+                    "max_streak", "streak_2plus",
+                )
+            },
+        }
+
+    payload = {
+        "schema_version": 1,
+        "generated_at": generated_at,
+        "status": status,
+        "latest_daily": daily,
+        "latest_pulse": latest_pulse(),
+        "sectors": {
+            "date": sector_date,
+            "gainers": gainers,
+            "losers": losers,
+        },
+    }
+    path = DATA_DIR / "latest.json"
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return path
+
+
+def finalize_outputs(status, stamp):
+    write_status(status)
+    write_latest_json(stamp)
+    render_readme(stamp)
+
+
 def num(value, fmt="{:.2f}"):
     """CSV 里缺失的列显示成 -，不要显示 None。"""
     if value in (None, ""):
@@ -499,25 +638,58 @@ def log(message):
         f.write(message + "\n")
 
 
+def workflow_output(name, value):
+    """把时段和结果传给 GitHub Actions 的提交步骤。"""
+    path = os.environ.get("GITHUB_OUTPUT")
+    if path:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(f"{name}={value}\n")
+
+
 def main():
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
-    # 手动补数据用。填的日期跟行情自带的日期对不上时，下面那道校验会
-    # 直接拒掉，不会把当前行情写进某个过去的日子。
     today = os.environ.get("SNAPSHOT_DATE") or now.strftime("%Y-%m-%d")
     stamp = now.strftime("%Y-%m-%d %H:%M")
-    print(f"当前北京时间 {stamp}，目标日期 {today}")
+    slot = resolve_slot(os.environ.get("SNAPSHOT_SLOT", "auto"), now)
+    slot_label = SLOT_LABELS[slot]
+    workflow_output("slot", slot)
+    workflow_output("slot_label", slot_label)
+    print(f"当前北京时间 {stamp}，目标日期 {today}，时段 {slot_label}")
 
-    quotes, quote_date = fetch_indexes()
+    status = {
+        "schema_version": 1,
+        "checked_at": stamp,
+        "slot": slot,
+        "slot_label": slot_label,
+        "target_date": today,
+        "market_data_date": None,
+        "market_state": "checking",
+        "pulse_updated": False,
+        "daily_updated": False,
+    }
+
+    try:
+        quotes, quote_date = fetch_indexes()
+    except Exception as e:
+        print(f"行情接口请求失败: {e}", file=sys.stderr)
+        quotes, quote_date = None, None
 
     if quotes is None:
-        # 数据源挂了也要 commit，格子不能断
-        print("行情接口无响应，只记日志")
-        log(f"{stamp} 行情接口无响应")
+        status["market_state"] = "unavailable"
+        status["message"] = "行情接口无响应，保留上一份有效数据"
+        finalize_outputs(status, stamp)
+        log(f"{stamp} {slot_label}：行情接口无响应")
+        workflow_output("result", "unavailable")
         return 0
 
+    status["market_data_date"] = quote_date
     if quote_date != today:
-        print(f"行情日期是 {quote_date}，{today} 不是交易日或尚未收盘")
-        log(f"{stamp} 非交易日（最近交易日 {quote_date}）")
+        status["market_state"] = "non_trading"
+        status["message"] = f"目标日未开市或尚未产生行情，最近交易日 {quote_date}"
+        finalize_outputs(status, stamp)
+        print(status["message"])
+        log(f"{stamp} {slot_label}：非交易日（最近交易日 {quote_date}）")
+        workflow_output("result", "non-trading")
         return 0
 
     row = {"date": today}
@@ -537,29 +709,43 @@ def main():
     row["down"] = breadth.get("down", "")
     row["flat"] = breadth.get("flat", "")
 
-    sentiment = fetch_sentiment(today.replace("-", ""))
-    ladder = sentiment.pop("_ladder", {})
-    row.update(sentiment)
+    ladder = {}
+    gainers, losers = [], []
+    if slot in FINAL_SLOTS:
+        sentiment = fetch_sentiment(today.replace("-", ""))
+        ladder = sentiment.pop("_ladder", {})
+        row.update(sentiment)
+        gainers, losers = fetch_sectors()
 
-    gainers, losers = fetch_sectors()
-    if gainers:
-        write_sectors(today, gainers, losers)
+    pulse_path = append_pulse(row, stamp, slot)
+    status["pulse_updated"] = True
+    status["pulse_file"] = str(pulse_path.relative_to(ROOT))
 
-    path = append_row(row)
-    render_readme(stamp)
+    if slot in FINAL_SLOTS:
+        if gainers:
+            write_sectors(today, gainers, losers)
+        daily_path = append_row(row)
+        status["daily_updated"] = True
+        status["daily_file"] = str(daily_path.relative_to(ROOT))
+
+    status["market_state"] = "closed" if slot in FINAL_SLOTS else "live"
+    status["message"] = f"{slot_label}已更新"
+    finalize_outputs(status, stamp)
 
     sh = quotes.get("sh000001", {})
-    print(f"已写入 {path.name}: 上证 {sh.get('close')} ({sh.get('pct'):+.2f}%), "
+    print(f"已写入 {pulse_path.name}: 上证 {sh.get('close')} ({sh.get('pct'):+.2f}%), "
           f"成交 {total:.0f} 亿, 涨跌平 {row['up']}/{row['down']}/{row['flat']}")
-    print(f"  涨停 {row['limit_up']}, 跌停 {row['limit_down']}, "
-          f"炸板 {row['broken']}（炸板率 {row['broken_rate']}%）, "
-          f"最高 {row['max_streak']} 板, 连板 {row['streak_2plus']} 家")
+    if slot in FINAL_SLOTS:
+        print(f"  涨停 {row['limit_up']}, 跌停 {row['limit_down']}, "
+              f"炸板 {row['broken']}（炸板率 {row['broken_rate']}%）, "
+              f"最高 {row['max_streak']} 板, 连板 {row['streak_2plus']} 家")
     if ladder:
         print("  连板梯队: " + " ".join(f"{d}板×{n}" for d, n in sorted(ladder.items())))
     if gainers:
         print(f"  领涨行业: {gainers[0]['name']} {gainers[0]['pct']}% | "
               f"领跌: {losers[0]['name']} {losers[0]['pct']}%")
-    log(f"{stamp} 交易日快照已更新")
+    log(f"{stamp} {slot_label}：更新成功")
+    workflow_output("result", "updated")
     return 0
 
 

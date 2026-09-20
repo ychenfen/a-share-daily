@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-20 08:54",
+  "status": {
+    "schema_version": 1,
+    "checked_at": "2026-09-20 08:54",
+    "slot": "night",
+    "slot_label": "夜间校验",
+    "target_date": "2026-09-20",
+    "market_data_date": "2026-09-18",
+    "market_state": "non_trading",
+    "pulse_updated": false,
+    "daily_updated": false,
+    "message": "目标日未开市或尚未产生行情，最近交易日 2026-09-18"
+  },
+  "latest_daily": {
+    "date": "2026-09-18",
+    "indices": {
+      "sh000001": {
+        "name": "上证指数",
+        "close": 3911.87,
+        "pct": 0.94
+      },
+      "sz399001": {
+        "name": "深证成指",
+        "close": 13640.87,
+        "pct": 1.72
+      },
+      "sz399006": {
+        "name": "创业板指",
+        "close": 3372.68,
+        "pct": 2.25
+      },
+      "sh000300": {
+        "name": "沪深300",
+        "close": 4507.39,
+        "pct": 1.06
+      },
+      "sh000688": {
+        "name": "科创50",
+        "close": 1652.63,
+        "pct": 2.88
+      }
+    },
+    "amount_yi": 20771.0,
+    "breadth": {
+      "up": 4277,
+      "down": 1173,
+      "flat": 180
+    },
+    "sentiment": {
+      "limit_up": 78,
+      "limit_down": 0,
+      "broken": 25,
+      "broken_rate": 24.3,
+      "max_streak": 16,
+      "streak_2plus": 18
+    }
+  },
+  "latest_pulse": null,
+  "sectors": {
+    "date": "2026-09-18",
+    "gainers": [
+      {
+        "date": "2026-09-18",
+        "rank_type": "up",
+        "rank": "1",
+        "name": "其他医疗服务",
+        "pct": "6.72",
+        "net_inflow_yi": "1.97",
+        "leader": "南华生物"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "up",
+        "rank": "2",
+        "name": "房产租赁经纪",
+        "pct": "4.86",
+        "net_inflow_yi": "1.00",
+        "leader": "世联行"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "up",
+        "rank": "3",
+        "name": "半导体设备",
+        "pct": "4.83",
+        "net_inflow_yi": "18.20",
+        "leader": "托伦斯"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "up",
+        "rank": "4",
+        "name": "数字芯片设计",
+        "pct": "4.68",
+        "net_inflow_yi": "75.35",
+        "leader": "诚邦股份"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "up",
+        "rank": "5",
+        "name": "集成电路制造",
+        "pct": "4.59",
+        "net_inflow_yi": "12.40",
+        "leader": "盛合晶微"
+      }
+    ],
+    "losers": [
+      {
+        "date": "2026-09-18",
+        "rank_type": "down",
+        "rank": "1",
+        "name": "其他养殖",
+        "pct": "-3.47",
+        "net_inflow_yi": "-0.16",
+        "leader": "*ST福成"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "down",
+        "rank": "2",
+        "name": "种子",
+        "pct": "-1.52",
+        "net_inflow_yi": "-2.04",
+        "leader": "敦煌种业"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "down",
+        "rank": "3",
+        "name": "涂料",
+        "pct": "-1.51",
+        "net_inflow_yi": "-0.10",
+        "leader": "三棵树"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "down",
+        "rank": "4",
+        "name": "汽车经销商",
+        "pct": "-1.49",
+        "net_inflow_yi": "-0.01",
+        "leader": "上海物贸"
+      },
+      {
+        "date": "2026-09-18",
+        "rank_type": "down",
+        "rank": "5",
+        "name": "汽车服务",
+        "pct": "-1.11",
+        "net_inflow_yi": "-0.07",
+        "leader": "阿尔特"
+      }
+    ]
+  }
+}

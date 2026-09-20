@@ -1,7 +1,9 @@
 import csv
+import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -84,6 +86,44 @@ class DataBoundaryTests(unittest.TestCase):
 
         self.assertEqual(set(rows), {"2026-09-17", "2026-09-18"})
         self.assertEqual(rows["2026-09-18"]["上证指数_close"], "3911.87")
+
+    def test_cron_and_local_time_resolve_to_market_slots(self):
+        self.assertEqual(
+            snapshot.resolve_slot("35 3 * * *", datetime(2026, 9, 18, 9, 0)),
+            "midday",
+        )
+        self.assertEqual(
+            snapshot.resolve_slot("auto", datetime(2026, 9, 18, 15, 10)),
+            "close",
+        )
+
+    def test_pulse_is_idempotent_and_latest_json_is_numeric(self):
+        row = {column: "" for column in snapshot.CSV_HEADER}
+        row.update({
+            "date": "2026-09-18",
+            "上证指数_close": "3911.87",
+            "上证指数_pct": "0.94",
+            "amount_yi": "20771.0",
+            "up": "4277",
+        })
+
+        with (
+            patch.object(snapshot, "ROOT", self.root),
+            patch.object(snapshot, "DATA_DIR", self.data),
+        ):
+            snapshot.append_pulse(row, "2026-09-18 10:05", "open")
+            row["上证指数_close"] = "3912.00"
+            path = snapshot.append_pulse(row, "2026-09-18 10:05", "open")
+            snapshot.write_latest_json("2026-09-18 10:05")
+
+        with path.open(encoding="utf-8") as f:
+            pulses = list(csv.DictReader(f))
+        payload = json.loads((self.data / "latest.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(len(pulses), 1)
+        self.assertEqual(pulses[0]["上证指数_close"], "3912.00")
+        self.assertEqual(payload["latest_daily"]["indices"]["sh000001"]["close"], 3911.87)
+        self.assertEqual(payload["latest_pulse"]["slot"], "open")
 
 
 if __name__ == "__main__":
