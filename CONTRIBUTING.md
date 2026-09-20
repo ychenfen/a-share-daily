@@ -4,7 +4,7 @@
 
 ## 开始之前
 
-1. 先搜索现有 Issues，避免重复工作。
+1. 未定型的想法先搜索或发起 [Discussions](https://github.com/ychenfen/a-share-daily/discussions)，可复现的问题再开 Issue，避免重复工作。
 2. 新数据源请说明公开文档、字段含义、更新时间和失败行为。
 3. 新评分规则请同时说明正向、负向阈值和失效条件。
 4. 不要提交 API Key、Cookie、Token 或其他凭据。
@@ -15,6 +15,7 @@
 
 ```bash
 python3 scripts/scorecard.py
+python3 scripts/share_card.py
 python3 scripts/chart.py
 python3 scripts/build_site.py
 python3 -m unittest discover -s tests -v
@@ -44,4 +45,4 @@ python3 scripts/validate.py
 - 没有来源和时间戳的新闻事实；
 - 使用未来数据或事后筛选美化结果。
 
-首次贡献可以从带有 `good first issue` 标签的任务开始。
+首次贡献可以从带有 `good first issue` 标签的任务开始；还不确定实现路径时，先在 Ideas 讨论区把证据链说清楚。

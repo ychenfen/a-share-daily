@@ -20,10 +20,12 @@ Hong Kong, volatility, rates, and the news cycle — with no runtime dependencie
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse market weather desk" src="assets/social-preview.png"></a>
 
 [Live dashboard](https://ychenfen.github.io/a-share-daily/) ·
+[Use this template](https://github.com/ychenfen/a-share-daily/generate) ·
 [Latest JSON](data/latest.json) ·
 [Full history](data/) ·
 [Data schema](docs/DATA_SCHEMA.md) ·
 [Actions](https://github.com/ychenfen/a-share-daily/actions) ·
+[Discussions](https://github.com/ychenfen/a-share-daily/discussions) ·
 [Roadmap](ROADMAP.md)
 
 ## Why this repository is different
@@ -106,9 +108,9 @@ python3 -m http.server 8000 --directory .site-build
 
 Open `http://127.0.0.1:8000`.
 
-## Fork your own pulse
+## Create your own pulse
 
-1. Fork this repository.
+1. Click [**Use this template**](https://github.com/ychenfen/a-share-daily/generate).
 2. Enable GitHub Actions and GitHub Pages with **GitHub Actions** as the source.
 3. Run the **A-share market pulse** workflow once.
 4. Adjust the scoring rules in `scripts/global_context.py` if you want a
@@ -130,7 +132,8 @@ time. It commits only when tracked market or health data actually changes.
 ## Contributing
 
 Signal ideas, data-source fallbacks, validation cases, and visualization
-improvements are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md), open a
+improvements are welcome. Start a [Discussion](https://github.com/ychenfen/a-share-daily/discussions/categories/ideas),
+read [CONTRIBUTING.md](CONTRIBUTING.md), open a
 [signal proposal](https://github.com/ychenfen/a-share-daily/issues/new?template=signal_idea.yml),
 or review the [roadmap](ROADMAP.md).
 

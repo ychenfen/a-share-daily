@@ -25,6 +25,8 @@ class SiteBuildTests(unittest.TestCase):
             script = (output / "app.js").read_text(encoding="utf-8")
             self.assertIn('id="share-button"', html)
             self.assertIn("navigator.share", script)
+            self.assertIn("/a-share-daily/generate", html)
+            self.assertIn("/a-share-daily/discussions/categories/ideas", html)
             analysis = json.loads((output / "data" / "analysis.json").read_text())
             scorecard = json.loads((output / "data" / "scorecard.json").read_text())
             self.assertIn("score", analysis)

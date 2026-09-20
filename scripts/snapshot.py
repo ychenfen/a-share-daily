@@ -583,9 +583,11 @@ def render_readme(updated_at):
         f"> **{state_text}** · {status_line} · 最后检查 `{checked_at}`（北京时间）",
         "",
         "[🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · "
+        "[一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · "
         "[最新 JSON](data/latest.json) · [运行状态](data/status.json) · "
         "[完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · "
         "[自动任务](https://github.com/ychenfen/a-share-daily/actions) · "
+        "[讨论区](https://github.com/ychenfen/a-share-daily/discussions) · "
         "[路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)",
         "",
         "## 为什么值得收藏",
@@ -703,7 +705,7 @@ def render_readme(updated_at):
         "python3 scripts/validate.py",
         "```",
         "",
-        "想拥有自己的市场心电图，直接 Fork 并开启 Actions 即可。"
+        "想拥有自己的市场心电图，直接用模板生成仓库并开启 Actions 即可。"
         "更多字段说明见 [数据字典](docs/DATA_SCHEMA.md)。",
         "",
         "## 数据来源与边界",
@@ -725,7 +727,9 @@ def render_readme(updated_at):
         "---",
         "",
         "如果它帮你省下了整理行情的时间，欢迎点一个 ⭐。"
-        "想一起完善信号、数据源或可视化，可以从 [贡献指南](CONTRIBUTING.md) 开始。",
+        "想一起完善信号、数据源或可视化，可以先到"
+        " [讨论区](https://github.com/ychenfen/a-share-daily/discussions) 交流，"
+        "或从 [贡献指南](CONTRIBUTING.md) 开始。",
         "",
     ]
 
