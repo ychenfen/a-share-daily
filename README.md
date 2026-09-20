@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 17:20`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 20:16`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -47,8 +47,8 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +25 · 积极但不追高**（置信度：中）
-> A股内部强度与外围风险偏好形成正向共振，但仍需用回撤和量能确认持续性。
+> **风险温度 +19 · 谨慎偏多**（置信度：中）
+> 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
 | --- | --- | ---: | ---: |
@@ -85,21 +85,20 @@
 | 美元与人民币 | USD/CNH 6.6943 (-0.14%) / DXY 100.22 (-0.01%) | +1.7 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 5 / 风险词 6 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 5 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 研究观察
 
-- 关注强势行业能否在下一交易日继续获得成交额与市场宽度支持。
-- 研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。
+- 保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。
 
 ### 新闻雷达
 
 - [全球央行再同步加息，科技股却成最抗压资产！](https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5) · 富途牛牛
-- [美国、欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛：利率上升越快，股市压力越大](https://news.google.com/rss/articles/CBMieEFVX3lxTFBXT1dMZUN5VWRUWl9XTFB3ZE1GYzQxbzFaX3RkclZBMWYybkw5MXNGZWg3bDNNWnhQdG1lMDJNWGJuMC1Nd3lPQU42NmZDNGp0ZVRvdG5oUjRhWHdJdTFQMlFOTW5CMENwTERuSWUybjhEWG1JX2ZuMg?oc=5) · 新浪财经
+- [一周展望：超级央行周来袭！美联储会否按下三年来首次加息的按钮？-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oaWxxanRUUkhseWJVN1RnXzNZQm80a1V5akZSRVh5TTJMMlF1dE5ZZWoyZHZYdG55UThoX3p1Ml9TQ1YtalVHd3l4NmdnQkk?oc=5) · 金十数据
+- [一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温](https://news.google.com/rss/articles/CBMiggFBVV95cUxNaUJEdkU3RmxvOEVQZ3hOR2xHcE9SQmFBbXBMZHh0QTc3czIwMlpDRklBQk94STFESFdBWjQ0SWlfbkpQZlRmeGRqMlVWTnNqRjJzajVuN3ZTSTM4MERwdTdIdmdRdFhjSFFxRi1fSWVJVWphVVZncXBZazROYkIxclV3?oc=5) · 手机新浪网
 - [【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱](https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5) · FX168财经
-- [【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%](https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5) · TradingKey
 - [小摩研报解读：全球加息重启，股市仍由企业盈利锚定](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNnZHWGFFUWt1WmwwcVpoQ2pFa2lya3M4anBFanE5cXp1YTl5alFpSXcwemsyWkdRSjhCTlpUWXRDdjV4X0J1cVdwRXB1bUZwSGxsYg?oc=5) · 深潮TechFlow
-- [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · news.china.com
+- [【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%](https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5) · TradingKey
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景。
 
