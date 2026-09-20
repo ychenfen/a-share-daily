@@ -89,6 +89,14 @@ class DataBoundaryTests(unittest.TestCase):
 
     def test_cron_and_local_time_resolve_to_market_slots(self):
         self.assertEqual(
+            snapshot.resolve_slot("15 22 * * *", datetime(2026, 9, 18, 9, 0)),
+            "overnight",
+        )
+        self.assertEqual(
+            snapshot.resolve_slot("auto", datetime(2026, 9, 18, 6, 15)),
+            "overnight",
+        )
+        self.assertEqual(
             snapshot.resolve_slot("35 3 * * *", datetime(2026, 9, 18, 9, 0)),
             "midday",
         )
@@ -120,6 +128,12 @@ class DataBoundaryTests(unittest.TestCase):
             patch.object(snapshot, "ROOT", self.root),
             patch.object(snapshot, "DATA_DIR", self.data),
         ):
+            (self.data / "global.json").write_text(
+                json.dumps({"schema_version": 1, "markets": []}), encoding="utf-8"
+            )
+            (self.data / "analysis.json").write_text(
+                json.dumps({"schema_version": 1, "score": 0}), encoding="utf-8"
+            )
             snapshot.append_pulse(row, "2026-09-18 10:05", "open")
             row["上证指数_close"] = "3912.00"
             path = snapshot.append_pulse(row, "2026-09-18 10:05", "open")
@@ -133,6 +147,12 @@ class DataBoundaryTests(unittest.TestCase):
         self.assertEqual(pulses[0]["上证指数_close"], "3912.00")
         self.assertEqual(payload["latest_daily"]["indices"]["sh000001"]["close"], 3911.87)
         self.assertEqual(payload["latest_pulse"]["slot"], "open")
+        self.assertEqual(payload["global"]["schema_version"], 1)
+        self.assertEqual(payload["analysis"]["score"], 0)
+
+    def test_external_headlines_are_escaped_as_markdown_text(self):
+        escaped = snapshot.md_escape("[buy now](bad) | injected\nline")
+        self.assertEqual(escaped, "\\[buy now\\](bad) \\| injected line")
 
 
 if __name__ == "__main__":

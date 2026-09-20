@@ -28,7 +28,7 @@
 | 字段 | 说明 |
 | --- | --- |
 | `captured_at` | 北京时间 `YYYY-MM-DD HH:MM` |
-| `slot` | `open`、`midday`、`close` 或 `night` |
+| `slot` | `overnight`、`open`、`midday`、`close` 或 `night` |
 
 开盘与午间时段只抓取指数、成交额和涨跌家数；涨跌停池和行业排行只在收盘与
 夜间校验时请求，以降低公开接口压力。
@@ -42,6 +42,19 @@
 
 聚合最新日线、最近一次 pulse、行业排行和任务状态。顶层包含
 `schema_version`；消费者应先检查该值，目前版本为 `1`。
+
+## `data/global.json`
+
+最近的跨市场快照：标普 500、纳斯达克、道琼斯、日经 225、恒生指数和欧洲
+股票 ETF 代理，以及 FRED 的 VIX 与美国 10 年期国债收益率。每个市场记录
+`close`、`pct`、`previous_close` 和源端报价时间；代理品种会在 `kind` 和
+`region` 中明确标注。
+
+## `data/analysis.json`
+
+透明规则生成的跨市场风险温度，范围 `-100` 到 `+100`。组成项包括 A 股动量、
+市场宽度、涨跌停情绪、外围市场均值、VIX、美债 10Y 和低权重新闻标题语气。
+`signals` 保留每项贡献，`advice` 是通用研究观察，不是个性化买卖指令。
 
 ## `data/status.json`
 

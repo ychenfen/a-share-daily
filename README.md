@@ -4,7 +4,7 @@
 
 **把 GitHub 提交图变成 A 股市场心电图。**
 
-每天四次自动记录开盘、午间、收盘与夜间校验；零依赖、可审计、可直接 Fork。
+每天五次联动全球收盘、A 股盘中与新闻风险；零依赖、可审计、可直接 Fork。
 
 <a href="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml"><img alt="A-share market pulse" src="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml/badge.svg"></a>
 <img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">
@@ -22,12 +22,57 @@
 
 | 能力 | 你得到什么 |
 | --- | --- |
-| 🫀 四段市场脉搏 | 同一交易日的开盘、午间、收盘、夜间校验，不只是日终一个点 |
+| 🫀 五段市场脉搏 | 外围收盘 + A 股开盘、午间、收盘、夜间校验，不只是日终一个点 |
 | 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |
 | 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |
 | 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |
 | 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |
 | 🛡️ 质量门禁 | 每次推送前跑回归测试、schema 和重复日期检查 |
+
+## 全球市场与策略雷达
+
+![全球市场与跨市场风险温度](charts/global_dashboard.svg)
+
+> **风险温度 +17 · 谨慎偏多**（置信度：高）
+> 风险偏好略占优，但信号并未形成全面共振。
+
+| 市场 | 地区 | 收盘 | 涨跌幅 |
+| --- | --- | ---: | ---: |
+| 标普 500 | 美国 | 7650.50 | +0.17% |
+| 纳斯达克 | 美国 | 26522.55 | +0.39% |
+| 道琼斯 | 美国 | 51682.64 | -0.18% |
+| 恒生指数 | 中国香港 | 24750.78 | +0.60% |
+| 欧洲股票 ETF | 欧洲（美股代理） | 88.21 | -1.05% |
+| 日经 225 | 日本 | 65018.95 | +1.38% |
+
+### 风险温度拆解
+
+| 信号 | 当前值 | 分数贡献 | 解释 |
+| --- | --- | ---: | --- |
+| A股动量 | 上证 +0.94% | +7.5 | 反映本地市场价格强弱 |
+| 市场宽度 | 涨 4277 / 跌 1173 | +11.4 | 上涨家数占优时提高风险偏好 |
+| 短线情绪 | 涨停 78 / 跌停 0 / 炸板率 24.3% | +10.0 | 涨停扩散加分，炸板率过高扣分 |
+| 外围股市 | 6 个市场均值 +0.22% | +1.5 | 衡量隔夜风险偏好共振 |
+| 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
+| 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
+| 新闻语气 | 正向词 3 / 风险词 7 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+
+### 研究观察
+
+- 保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。
+
+### 新闻雷达
+
+- [盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？](https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5) · 手机新浪网
+- [【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱](https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5) · FX168财经
+- [加息潮来临，每年1万亿美元AI投资直面高利率大考；特朗普称美国将获得对格陵兰岛安全“永久控制权”；Anthropic拟将IPO推迟至11月；LVMH被曝曾秘密收购爱马仕继承人股份\| 一周国际财经](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lZWV0RER6TF9nTWNiU3pIMmNIbHhLNFFnbk5GRDN2QkF0bEtVeVZ5MWNUejhsdUZxRFJ6ZXp6ZVd4em8zbV9jUDE3clVqN2lWc25EUHpsVjBBMC04UWQ5SUd6cldRUQ?oc=5) · 每日经济新闻
+- [中信证券：美欧日加息落地，关注什么？\|美联储\|美国\|债券\|流动性\|现金流](https://news.google.com/rss/articles/CBMitAFBVV95cUxPbllhN3k4b2Vzd29nR3d4d3R0dlk4dDhMOFBTVTRDWVRjbnBnUE5xQkF4M0wtZ1Z4cWVJQ1FmaEp6a19fNHJlQVVub3hxODA5VFptZkJXZXZYVHRwcFVjSHFzTERyWEQ3NFJXWXFTLUx3TTd5anFaM3dVeDVsMHc4a0o3bXJNZlhUNkk1S2JrOXNGWjhEWk9hX0R2eGFhWGN5VU93ODNIWWFVcV85aUxZYW52X1k?oc=5) · 新浪财经
+- [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · 中华网
+- [精读超级央行周：中东点燃全球加息潮，中国为何逆势走完全不同的路？](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qbk5HajF5UXh1WkQ3TmtaNF9VQ29VYUdGdUxZdW5yeTBOV1EzM0Jjdm5RZkJQNnRyc3lYYnNoUHF2dkpzbERubXF6Sk1uS3FtalhSbE5MbWNmTjAtYjJ5ZFg0QQ?oc=5) · 潮起网
+
+方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。
+
+> 这是可审计的通用市场研究提示，不是个性化仓位或买卖建议。
 
 ## 走势
 
@@ -83,6 +128,7 @@
 
 | 北京时间 | 记录内容 | 正式日线 |
 | --- | --- | --- |
+| 06:15 | 外围收盘：美股、日股、港股、VIX、美债与新闻 | 否 |
 | 10:05 | 开盘脉搏：指数、成交额、涨跌家数 | 否 |
 | 11:35 | 午间脉搏：上午收束状态 | 否 |
 | 15:10 | 收盘快照：完整行情、情绪和行业排行 | 是 |
@@ -96,6 +142,8 @@ GitHub Actions 可能有数分钟调度延迟。休市日不会伪造行情，�
 data/YYYY.csv          # 日线与收盘情绪，适合回测
 data/pulses/YYYY-MM.csv # 日内四段观察，适合研究盘中演化
 data/sectors.csv        # 行业领涨/领跌 Top 5
+data/global.json         # 美股、日股、港股、VIX 与美债
+data/analysis.json       # 可解释风险温度、新闻与研究观察
 data/latest.json        # 程序最方便消费的聚合入口
 data/status.json        # 最近任务与数据源健康状态
 ```
@@ -104,6 +152,7 @@ data/status.json        # 最近任务与数据源健康状态
 
 ```bash
 python3 scripts/snapshot.py
+python3 scripts/global_context.py
 python3 scripts/chart.py
 python3 -m unittest discover -s tests -v
 python3 scripts/validate.py
@@ -114,6 +163,8 @@ python3 scripts/validate.py
 ## 数据来源与边界
 
 指数行情来自腾讯行情公开接口；市场宽度、涨跌停池和行业排行来自东方财富公开接口。接口异常时保留上一份有效数据，并在 `status.json` 明确标记，不把空响应冒充成功。
+
+全球指数来自腾讯公开行情与 FRED，宏观压力来自 FRED；新闻区只保留Google News RSS 的标题、来源和链接，不抓取或改写正文。
 
 指数历史由 [scripts/backfill.py](scripts/backfill.py) 一次性回填。涨跌家数、涨停跌停、连板梯队这些是盘后快照，没有历史接口可回填，只能逐日累积，所以回填日期的这几列是空的。
 

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-20 09:23",
+  "markets": [
+    {
+      "code": "SPX",
+      "name": "标普 500",
+      "region": "美国",
+      "kind": "index",
+      "close": 7650.5,
+      "pct": 0.17,
+      "change": 12.74,
+      "previous_close": 7637.76,
+      "quote_time": "2026-09-18 17:29:48"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克",
+      "region": "美国",
+      "kind": "index",
+      "close": 26522.55,
+      "pct": 0.39,
+      "change": 104.25,
+      "previous_close": 26418.3,
+      "quote_time": "2026-09-18 17:15:59"
+    },
+    {
+      "code": "DJIA",
+      "name": "道琼斯",
+      "region": "美国",
+      "kind": "index",
+      "close": 51682.64,
+      "pct": -0.18,
+      "change": -95.4,
+      "previous_close": 51778.04,
+      "quote_time": "2026-09-18 17:52:27"
+    },
+    {
+      "code": "HSI",
+      "name": "恒生指数",
+      "region": "中国香港",
+      "kind": "index",
+      "close": 24750.78,
+      "pct": 0.6,
+      "change": 146.49,
+      "previous_close": 24604.29,
+      "quote_time": "2026/09/18 18:31:31"
+    },
+    {
+      "code": "VGK",
+      "name": "欧洲股票 ETF",
+      "region": "欧洲（美股代理）",
+      "kind": "ETF proxy",
+      "close": 88.21,
+      "pct": -1.05,
+      "change": -0.94,
+      "previous_close": 89.15,
+      "quote_time": "2026-09-18 16:00:01"
+    },
+    {
+      "code": "N225",
+      "name": "日经 225",
+      "region": "日本",
+      "kind": "index",
+      "close": 65018.95,
+      "pct": 1.3762887602564833,
+      "change": 882.6999999999971,
+      "previous_close": 64136.25,
+      "quote_time": "2026-09-18"
+    }
+  ],
+  "macro": {
+    "vix": {
+      "date": "2026-09-17",
+      "value": 15.44
+    },
+    "us10y": {
+      "date": "2026-09-17",
+      "value": 4.94
+    }
+  },
+  "sources": {
+    "markets": "腾讯全球行情公开接口 + FRED（日经225）",
+    "macro": "Federal Reserve Economic Data (FRED)",
+    "news": "Google News RSS（仅标题、来源和链接）"
+  }
+}

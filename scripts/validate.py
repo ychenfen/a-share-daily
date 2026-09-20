@@ -95,7 +95,8 @@ def main():
         if f"| {row['date']} |" not in readme:
             errors.append(f"README 最近 10 日缺少 {row['date']}")
 
-    for filename in ("status.json", "latest.json"):
+    json_payloads = {}
+    for filename in ("status.json", "latest.json", "global.json", "analysis.json"):
         path = DATA_DIR / filename
         checks += 1
         if not path.exists():
@@ -108,6 +109,17 @@ def main():
             continue
         if payload.get("schema_version") != 1:
             errors.append(f"{path}: schema_version 必须为 1")
+        json_payloads[filename] = payload
+
+    global_data = json_payloads.get("global.json") or {}
+    if len(global_data.get("markets") or []) < 5:
+        errors.append("global.json: 全球市场少于 5 个，跨市场覆盖不完整")
+    analysis = json_payloads.get("analysis.json") or {}
+    score = analysis.get("score")
+    if not isinstance(score, (int, float)) or not -100 <= score <= 100:
+        errors.append("analysis.json: score 必须在 -100 到 100 之间")
+    if len(analysis.get("signals") or []) < 6:
+        errors.append("analysis.json: 分析信号少于 6 项")
 
     if errors:
         print("数据质量检查失败：", file=sys.stderr)

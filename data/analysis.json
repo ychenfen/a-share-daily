@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-20 09:23",
+  "score": 17,
+  "stance": "谨慎偏多",
+  "color": "#e05a47",
+  "confidence": "高",
+  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "signals": [
+    {
+      "label": "A股动量",
+      "value": "上证 +0.94%",
+      "contribution": 7.5,
+      "note": "反映本地市场价格强弱"
+    },
+    {
+      "label": "市场宽度",
+      "value": "涨 4277 / 跌 1173",
+      "contribution": 11.4,
+      "note": "上涨家数占优时提高风险偏好"
+    },
+    {
+      "label": "短线情绪",
+      "value": "涨停 78 / 跌停 0 / 炸板率 24.3%",
+      "contribution": 10.0,
+      "note": "涨停扩散加分，炸板率过高扣分"
+    },
+    {
+      "label": "外围股市",
+      "value": "6 个市场均值 +0.22%",
+      "contribution": 1.5,
+      "note": "衡量隔夜风险偏好共振"
+    },
+    {
+      "label": "波动压力",
+      "value": "VIX 15.44",
+      "contribution": 0,
+      "note": "VIX 越高，全球避险需求通常越强"
+    },
+    {
+      "label": "利率压力",
+      "value": "美债 10Y 4.94%",
+      "contribution": -5,
+      "note": "长端利率偏高时压制高估值资产"
+    },
+    {
+      "label": "新闻语气",
+      "value": "正向词 3 / 风险词 7",
+      "contribution": -8,
+      "note": "标题关键词只做低权重提示，不代替事实核验"
+    }
+  ],
+  "advice": [
+    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+  ],
+  "news_tone": {
+    "positive_hits": 3,
+    "negative_hits": 7,
+    "score": -8
+  },
+  "news": [
+    {
+      "title": "盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？",
+      "source": "手机新浪网",
+      "published": "Sat, 19 Sep 2026 11:20:16 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5"
+    },
+    {
+      "title": "【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱",
+      "source": "FX168财经",
+      "published": "Sat, 19 Sep 2026 16:42:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5"
+    },
+    {
+      "title": "加息潮来临，每年1万亿美元AI投资直面高利率大考；特朗普称美国将获得对格陵兰岛安全“永久控制权”；Anthropic拟将IPO推迟至11月；LVMH被曝曾秘密收购爱马仕继承人股份| 一周国际财经",
+      "source": "每日经济新闻",
+      "published": "Sat, 19 Sep 2026 03:29:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lZWV0RER6TF9nTWNiU3pIMmNIbHhLNFFnbk5GRDN2QkF0bEtVeVZ5MWNUejhsdUZxRFJ6ZXp6ZVd4em8zbV9jUDE3clVqN2lWc25EUHpsVjBBMC04UWQ5SUd6cldRUQ?oc=5"
+    },
+    {
+      "title": "中信证券：美欧日加息落地，关注什么？|美联储|美国|债券|流动性|现金流",
+      "source": "新浪财经",
+      "published": "Sat, 19 Sep 2026 11:10:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbllhN3k4b2Vzd29nR3d4d3R0dlk4dDhMOFBTVTRDWVRjbnBnUE5xQkF4M0wtZ1Z4cWVJQ1FmaEp6a19fNHJlQVVub3hxODA5VFptZkJXZXZYVHRwcFVjSHFzTERyWEQ3NFJXWXFTLUx3TTd5anFaM3dVeDVsMHc4a0o3bXJNZlhUNkk1S2JrOXNGWjhEWk9hX0R2eGFhWGN5VU93ODNIWWFVcV85aUxZYW52X1k?oc=5"
+    },
+    {
+      "title": "全球牛市要结束了吗 三大央行同步紧缩引发关注",
+      "source": "中华网",
+      "published": "Sat, 19 Sep 2026 12:49:45 GMT",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5"
+    },
+    {
+      "title": "精读超级央行周：中东点燃全球加息潮，中国为何逆势走完全不同的路？",
+      "source": "潮起网",
+      "published": "Sat, 19 Sep 2026 07:30:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qbk5HajF5UXh1WkQ3TmtaNF9VQ29VYUdGdUxZdW5yeTBOV1EzM0Jjdm5RZkJQNnRyc3lYYnNoUHF2dkpzbERubXF6Sk1uS3FtalhSbE5MbWNmTjAtYjJ5ZFg0QQ?oc=5"
+    },
+    {
+      "title": "“低利率时代结束了！”全球加息潮卷土重来，每年1万亿美元AI投资直面高利率大考",
+      "source": "Sohu",
+      "published": "Sat, 19 Sep 2026 03:28:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVVh3aTZLRmRvTmNfLUViLXBVNFlWd2JxcEVmQllaaGU3emFRQWRQSWxUNjlRbnR0U2FkNWY4Z2F4a1FIT1E2SF9zRkltV0RscnUybTFieXRnSTdmRFM5M3dLejl5aDZmamZjT1FjV3ZBSXpjMEVrNERDMUtMRk55aGN3Z21mSnpoUnhpNkRnTnJDNmwyR0ZjY1NXcmd4VDdOY0tfeG50RE9SdDZpY3BrT1dOOWs?oc=5"
+    },
+    {
+      "title": "华尔街早报：加息周期重开！美元指数重返100，日本加息与美股“三巫日”将至",
+      "source": "PANews",
+      "published": "Sat, 19 Sep 2026 03:31:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZcXpXeTc1UTFHX3NwekY1TWY4UlJjTmUyUlY5T2hBQTNPdWVhaW42N19raXZTcmwyd2tqZjltRWpPSnUtdnYxWGJjTFh3TVZSMFhscWxUcmQ3REhscV82OFllUGJSaVNsWEhxcW5MM3JGRlJ6bXhLMXd0UWJMZE0?oc=5"
+    }
+  ],
+  "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",
+  "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
+}

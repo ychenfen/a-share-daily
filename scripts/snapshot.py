@@ -60,12 +60,14 @@ DAILY_FILE_GLOB = "[0-9][0-9][0-9][0-9].csv"
 PULSE_HEADER = ["captured_at", "slot"] + CSV_HEADER
 
 SLOT_LABELS = {
+    "overnight": "外围收盘",
     "open": "开盘脉搏",
     "midday": "午间脉搏",
     "close": "收盘快照",
     "night": "夜间校验",
 }
 CRON_SLOTS = {
+    "15 22 * * *": "overnight",  # 06:15 Asia/Shanghai
     "5 2 * * *": "open",      # 10:05 Asia/Shanghai
     "35 3 * * *": "midday",  # 11:35 Asia/Shanghai
     "10 7 * * *": "close",   # 15:10 Asia/Shanghai
@@ -386,6 +388,8 @@ def resolve_slot(raw, now):
         return CRON_SLOTS[raw]
 
     minutes = now.hour * 60 + now.minute
+    if minutes < 8 * 60:
+        return "overnight"
     if minutes < 11 * 60:
         return "open"
     if minutes < 14 * 60:
@@ -449,6 +453,16 @@ def write_latest_json(generated_at):
     sector_date, gainers, losers = read_latest_sectors()
     status_path = DATA_DIR / "status.json"
     status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else None
+    global_path = DATA_DIR / "global.json"
+    global_data = (
+        json.loads(global_path.read_text(encoding="utf-8")) if global_path.exists() else None
+    )
+    analysis_path = DATA_DIR / "analysis.json"
+    analysis = (
+        json.loads(analysis_path.read_text(encoding="utf-8"))
+        if analysis_path.exists()
+        else None
+    )
 
     daily = None
     if latest:
@@ -480,6 +494,8 @@ def write_latest_json(generated_at):
         "schema_version": 1,
         "generated_at": generated_at,
         "status": status,
+        "global": global_data,
+        "analysis": analysis,
         "latest_daily": daily,
         "latest_pulse": latest_pulse(),
         "sectors": {
@@ -541,7 +557,7 @@ def render_readme(updated_at):
         "",
         "**把 GitHub 提交图变成 A 股市场心电图。**",
         "",
-        "每天四次自动记录开盘、午间、收盘与夜间校验；零依赖、可审计、可直接 Fork。",
+        "每天五次联动全球收盘、A 股盘中与新闻风险；零依赖、可审计、可直接 Fork。",
         "",
         '<a href="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml"><img alt="A-share market pulse" src="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml/badge.svg"></a>',
         '<img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">',
@@ -561,7 +577,7 @@ def render_readme(updated_at):
         "",
         "| 能力 | 你得到什么 |",
         "| --- | --- |",
-        "| 🫀 四段市场脉搏 | 同一交易日的开盘、午间、收盘、夜间校验，不只是日终一个点 |",
+        "| 🫀 五段市场脉搏 | 外围收盘 + A 股开盘、午间、收盘、夜间校验，不只是日终一个点 |",
         "| 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |",
         "| 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |",
         "| 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |",
@@ -569,6 +585,7 @@ def render_readme(updated_at):
         "| 🛡️ 质量门禁 | 每次推送前跑回归测试、schema 和重复日期检查 |",
         "",
     ]
+    lines += render_global_section()
 
     # 图表由 scripts/chart.py 生成，没生成过就不要在 README 里留坏图链接
     charts = [
@@ -621,6 +638,7 @@ def render_readme(updated_at):
         "",
         "| 北京时间 | 记录内容 | 正式日线 |",
         "| --- | --- | --- |",
+        "| 06:15 | 外围收盘：美股、日股、港股、VIX、美债与新闻 | 否 |",
         "| 10:05 | 开盘脉搏：指数、成交额、涨跌家数 | 否 |",
         "| 11:35 | 午间脉搏：上午收束状态 | 否 |",
         "| 15:10 | 收盘快照：完整行情、情绪和行业排行 | 是 |",
@@ -635,6 +653,8 @@ def render_readme(updated_at):
         "data/YYYY.csv          # 日线与收盘情绪，适合回测",
         "data/pulses/YYYY-MM.csv # 日内四段观察，适合研究盘中演化",
         "data/sectors.csv        # 行业领涨/领跌 Top 5",
+        "data/global.json         # 美股、日股、港股、VIX 与美债",
+        "data/analysis.json       # 可解释风险温度、新闻与研究观察",
         "data/latest.json        # 程序最方便消费的聚合入口",
         "data/status.json        # 最近任务与数据源健康状态",
         "```",
@@ -643,6 +663,7 @@ def render_readme(updated_at):
         "",
         "```bash",
         "python3 scripts/snapshot.py",
+        "python3 scripts/global_context.py",
         "python3 scripts/chart.py",
         "python3 -m unittest discover -s tests -v",
         "python3 scripts/validate.py",
@@ -656,6 +677,9 @@ def render_readme(updated_at):
         "指数行情来自腾讯行情公开接口；市场宽度、涨跌停池和行业排行来自"
         "东方财富公开接口。接口异常时保留上一份有效数据，并在 `status.json`"
         " 明确标记，不把空响应冒充成功。",
+        "",
+        "全球指数来自腾讯公开行情与 FRED，宏观压力来自 FRED；新闻区只保留"
+        "Google News RSS 的标题、来源和链接，不抓取或改写正文。",
         "",
         "指数历史由 [scripts/backfill.py](scripts/backfill.py) 一次性回填。"
         "涨跌家数、涨停跌停、连板梯队这些是盘后快照，没有历史接口可回填，"
@@ -671,6 +695,96 @@ def render_readme(updated_at):
     ]
 
     (ROOT / "README.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def md_escape(value):
+    """把外部新闻标题作为 Markdown 文本处理，避免被解释成结构。"""
+    return (
+        str(value)
+        .replace("\\", "\\\\")
+        .replace("|", "\\|")
+        .replace("[", "\\[")
+        .replace("]", "\\]")
+        .replace("\n", " ")
+        .strip()
+    )
+
+
+def render_global_section():
+    """全球市场、规则分析与新闻雷达。"""
+    global_path = DATA_DIR / "global.json"
+    analysis_path = DATA_DIR / "analysis.json"
+    if not global_path.exists() or not analysis_path.exists():
+        return []
+    try:
+        global_data = json.loads(global_path.read_text(encoding="utf-8"))
+        analysis = json.loads(analysis_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+
+    lines = ["## 全球市场与策略雷达", ""]
+    dashboard = ROOT / "charts/global_dashboard.svg"
+    if dashboard.exists():
+        lines += ["![全球市场与跨市场风险温度](charts/global_dashboard.svg)", ""]
+
+    score = int(analysis.get("score") or 0)
+    lines += [
+        f"> **风险温度 {score:+d} · {md_escape(analysis.get('stance', '等待数据'))}**"
+        f"（置信度：{md_escape(analysis.get('confidence', '低'))}）",
+        f"> {md_escape(analysis.get('summary', ''))}",
+        "",
+        "| 市场 | 地区 | 收盘 | 涨跌幅 |",
+        "| --- | --- | ---: | ---: |",
+    ]
+    for market in global_data.get("markets") or []:
+        pct = market.get("pct")
+        pct_text = f"{pct:+.2f}%" if isinstance(pct, (int, float)) else "-"
+        lines.append(
+            f"| {md_escape(market.get('name', ''))} | {md_escape(market.get('region', ''))} | "
+            f"{num(market.get('close'))} | {pct_text} |"
+        )
+
+    signals = analysis.get("signals") or []
+    if signals:
+        lines += [
+            "",
+            "### 风险温度拆解",
+            "",
+            "| 信号 | 当前值 | 分数贡献 | 解释 |",
+            "| --- | --- | ---: | --- |",
+        ]
+        for signal in signals:
+            contribution = float(signal.get("contribution") or 0)
+            lines.append(
+                f"| {md_escape(signal.get('label', ''))} | "
+                f"{md_escape(signal.get('value', ''))} | {contribution:+.1f} | "
+                f"{md_escape(signal.get('note', ''))} |"
+            )
+
+    lines += ["", "### 研究观察", ""]
+    for item in analysis.get("advice") or []:
+        lines.append(f"- {md_escape(item)}")
+
+    news = analysis.get("news") or []
+    if news:
+        lines += ["", "### 新闻雷达", ""]
+        for item in news[:6]:
+            title = md_escape(item.get("title", ""))
+            source = md_escape(item.get("source", ""))
+            link = item.get("link", "")
+            if link.startswith("https://news.google.com/"):
+                lines.append(f"- [{title}]({link}) · {source}")
+            else:
+                lines.append(f"- {title} · {source}")
+
+    lines += [
+        "",
+        f"方法：{md_escape(analysis.get('methodology', ''))}",
+        "",
+        "> 这是可审计的通用市场研究提示，不是个性化仓位或买卖建议。",
+        "",
+    ]
+    return lines
 
 
 def render_sentiment_section(recent):
