@@ -189,9 +189,21 @@
         <div><span class="section-index">06</span><p class="overline">EVENT RADAR</p></div>
         <div>
           <h2>新闻不是结论，只是需要验证的线索。</h2>
-          <p>仅保留标题、来源和原始链接；语气只占低权重。</p>
+          <p>相似标题先去重，再映射到宏观变量、A 股风格与失效条件；事件链本身不计分。</p>
         </div>
       </header>
+      <div class="event-chain-head">
+        <div>
+          <p class="overline">TRANSMISSION CHAINS</p>
+          <h3>从标题线索，到可证伪的市场假设。</h3>
+        </div>
+        <p>分类数量代表标题线索数，不代表事件已经证实。观察指标负责确认或推翻传导路径。</p>
+      </div>
+      <div class="event-chain-list" id="event-chain-list" aria-live="polite"></div>
+      <div class="raw-news-head">
+        <span class="overline">RAW HEADLINE LEDGER</span>
+        <p>去重后的原始标题、来源与 Google News 链接</p>
+      </div>
       <ol class="news-list" id="news-list"></ol>
     </section>
 

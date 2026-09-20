@@ -42,6 +42,43 @@ def cross_assets(a50_pct=0.5, cnh_pct=-0.2, dxy_pct=-0.1):
 
 
 class GlobalContextTests(unittest.TestCase):
+    def test_news_deduplication_ignores_punctuation_and_near_duplicates(self):
+        items = [
+            {"title": "美联储加息落地：全球市场震荡", "source": "甲"},
+            {"title": "美联储加息落地 全球市场震荡！", "source": "乙"},
+            {"title": "美联储加息落地全球市场持续震荡科技股承压", "source": "丙"},
+            {"title": "美联储加息落地全球市场震荡科技股持续承压", "source": "丁"},
+            {"title": "WTI 原油下跌，商品市场重新定价", "source": "丙"},
+        ]
+
+        unique = global_context.dedupe_news(items)
+
+        self.assertEqual(len(unique), 3)
+        self.assertEqual(unique[0]["source"], "甲")
+        self.assertNotIn("丁", {item["source"] for item in unique})
+
+    def test_event_chains_map_headlines_to_market_confirmations(self):
+        news = [
+            {"title": "美联储加息后美元走强", "source": "甲", "link": "https://news.google.com/a"},
+            {"title": "芯片与人工智能板块关注度上升", "source": "乙", "link": "https://news.google.com/b"},
+        ]
+        macro = {"us10y": {"value": 4.94, "stale": True}, "vix": {"value": 15.4}}
+
+        events = global_context.classify_events(
+            news,
+            markets=markets(0.5),
+            cross_assets=cross_assets(),
+            macro=macro,
+        )
+        by_key = {item["key"]: item for item in events}
+
+        self.assertIn("central_bank", by_key)
+        self.assertIn("technology", by_key)
+        self.assertEqual(by_key["central_bank"]["headline_count"], 1)
+        self.assertEqual(by_key["central_bank"]["watch"][0]["value"], "4.94%")
+        self.assertEqual(by_key["central_bank"]["watch"][0]["state"], "stale")
+        self.assertIn("失效", by_key["technology"]["invalidation"])
+
     def test_sina_cross_assets_are_normalized_from_two_quote_layouts(self):
         raw = "\n".join([
             'var hq_str_hf_CHA50CFD="14484.500,,14484.000,14489.000,14489.000,14437.000,05:07:06,14482.000,14484.000,832305,19,6,2026-09-19,富时中国A50期货,50913";',

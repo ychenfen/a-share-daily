@@ -8,9 +8,11 @@
 import csv
 import io
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+from difflib import SequenceMatcher
 from pathlib import Path
 from urllib.parse import quote_plus, urlparse
 
@@ -98,6 +100,84 @@ NEWS_NEGATIVE = (
     "下跌", "急跌", "风险", "警告", "加息", "通胀", "冲突", "战争", "暴跌",
     "衰退", "高企", "抛售", "selloff", "warning", "hike", "war", "risk",
 )
+
+EVENT_RULES = (
+    {
+        "key": "central_bank",
+        "label": "央行与利率",
+        "keywords": ("美联储", "央行", "加息", "降息", "利率决议", "货币政策", "fed", "rate hike", "rate cut"),
+        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "watch": ("US10Y", "DXY", "USDCNH"),
+        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+    },
+    {
+        "key": "inflation",
+        "label": "通胀与就业",
+        "keywords": ("通胀", "cpi", "ppi", "非农", "就业", "工资", "物价", "inflation", "payroll"),
+        "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+        "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+        "watch": ("US10Y", "DXY", "NDX"),
+        "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+    },
+    {
+        "key": "geopolitics",
+        "label": "地缘与贸易",
+        "keywords": ("冲突", "战争", "制裁", "关税", "地缘", "中东", "贸易战", "geopolit", "sanction", "tariff"),
+        "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
+        "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
+        "watch": ("VIX", "GOLD", "WTI"),
+        "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
+    },
+    {
+        "key": "technology",
+        "label": "科技与产业",
+        "keywords": ("科技", "芯片", "半导体", "人工智能", "大模型", "光通信", "存储", "英伟达", "technology", "chip", "semiconductor"),
+        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+        "watch": ("NDX", "A50", "US10Y"),
+        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+    },
+    {
+        "key": "commodities",
+        "label": "商品与成本",
+        "keywords": ("原油", "油价", "黄金", "铜价", "大宗", "商品", "opec", "wti", "gold", "commodity"),
+        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "watch": ("WTI", "GOLD", "US10Y"),
+        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+    },
+    {
+        "key": "currency",
+        "label": "美元与人民币",
+        "keywords": ("美元", "人民币", "汇率", "外汇", "dxy", "usdcnh", "renminbi", "yuan"),
+        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+        "watch": ("DXY", "USDCNH", "A50"),
+        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+    },
+    {
+        "key": "domestic_policy",
+        "label": "国内政策与需求",
+        "keywords": ("财政", "政策", "刺激", "房地产", "地产", "消费", "专项债", "降准", "两会"),
+        "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+        "a_share_lens": "金融地产、基建、消费与顺周期方向",
+        "watch": ("A50", "HSI", "USDCNH"),
+        "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
+    },
+)
+
+CONTEXT_LABELS = {
+    "US10Y": "美债10Y",
+    "VIX": "VIX",
+    "DXY": "美元指数",
+    "USDCNH": "USD/CNH",
+    "A50": "富时A50",
+    "GOLD": "黄金",
+    "WTI": "原油",
+    "NDX": "纳斯达克",
+    "HSI": "恒生指数",
+}
 
 
 def clamp(value, lo, hi):
@@ -289,9 +369,104 @@ def fetch_news():
             "published": (item.findtext("pubDate") or "").strip(),
             "link": link,
         })
-        if len(news) == 8:
+        if len(news) == 24:
             break
-    return news
+    return dedupe_news(news)[:8]
+
+
+def normalize_title(title):
+    """Normalize punctuation and spacing without rewriting external text."""
+    return re.sub(r"[\W_]+", "", str(title or "").lower(), flags=re.UNICODE)
+
+
+def dedupe_news(news):
+    """Keep the first item from exact and high-similarity headline clusters."""
+    unique = []
+    normalized = []
+    for item in news:
+        candidate = normalize_title(item.get("title"))
+        if not candidate:
+            continue
+        duplicate = candidate in normalized
+        if not duplicate and len(candidate) >= 16:
+            duplicate = any(
+                len(existing) >= 16
+                and SequenceMatcher(None, candidate, existing).ratio() >= 0.88
+                for existing in normalized
+            )
+        if duplicate:
+            continue
+        unique.append(item)
+        normalized.append(candidate)
+    return unique
+
+
+def _context_item(code, markets, cross_assets, macro):
+    market_by_code = {item.get("code"): item for item in markets or []}
+    cross_by_code = {item.get("code"): item for item in cross_assets or []}
+    if code in ("US10Y", "VIX"):
+        source = (macro or {}).get("us10y" if code == "US10Y" else "vix") or {}
+        value = source.get("value")
+        if value is None:
+            value_text = "--"
+        elif code == "US10Y":
+            value_text = f"{float(value):.2f}%"
+        else:
+            value_text = f"{float(value):.2f}"
+    else:
+        source = cross_by_code.get(code) or market_by_code.get(code) or {}
+        close = source.get("close")
+        pct = source.get("pct")
+        if close is None:
+            value_text = "--"
+        else:
+            digits = 4 if code == "USDCNH" else 2
+            value_text = f"{float(close):,.{digits}f}"
+            if pct is not None:
+                value_text += f" / {float(pct):+.2f}%"
+    state = "missing" if not source else "stale" if source.get("stale") else "fresh"
+    return {
+        "code": code,
+        "label": CONTEXT_LABELS.get(code, code),
+        "value": value_text,
+        "state": state,
+    }
+
+
+def classify_events(news, markets=None, cross_assets=None, macro=None):
+    """Map headline clues to auditable transmission hypotheses, never facts."""
+    events = []
+    for order, rule in enumerate(EVENT_RULES):
+        matched = []
+        for item in news or []:
+            title = str(item.get("title") or "")
+            lowered = title.lower()
+            if any(keyword in lowered for keyword in rule["keywords"]):
+                matched.append({
+                    "title": title,
+                    "source": item.get("source") or "",
+                    "link": item.get("link") or "",
+                })
+        if not matched:
+            continue
+        events.append({
+            "key": rule["key"],
+            "label": rule["label"],
+            "headline_count": len(matched),
+            "macro_path": rule["macro_path"],
+            "a_share_lens": rule["a_share_lens"],
+            "watch": [
+                _context_item(code, markets, cross_assets, macro)
+                for code in rule["watch"]
+            ],
+            "invalidation": rule["invalidation"],
+            "headlines": matched[:2],
+            "_order": order,
+        })
+    events.sort(key=lambda item: (-item["headline_count"], item["_order"]))
+    for item in events:
+        item.pop("_order", None)
+    return events
 
 
 def news_tone(news):
@@ -405,6 +580,12 @@ def analyze(markets, macro, daily, news, generated_at, health=None, cross_assets
         tone["score"],
         "标题关键词只做低权重提示，不代替事实核验",
     )
+    events = classify_events(
+        news,
+        markets=markets,
+        cross_assets=cross_assets,
+        macro=macro,
+    )
 
     score = int(round(clamp(sum(item["contribution"] for item in signals), -100, 100)))
     if score >= 25:
@@ -455,7 +636,8 @@ def analyze(markets, macro, daily, news, generated_at, health=None, cross_assets
         "advice": advice,
         "news_tone": tone,
         "news": news,
-        "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景。",
+        "events": events,
+        "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
         "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。",
     }
 

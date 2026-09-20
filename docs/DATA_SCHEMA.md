@@ -59,6 +59,11 @@
 市场宽度、涨跌停情绪、外围市场均值、A50 先行、美元与人民币、VIX、美债 10Y
 和低权重新闻标题语气。
 `signals` 保留每项贡献，`advice` 是通用研究观察，不是个性化买卖指令。
+`news` 是确定性去重后的标题线索；`events` 按央行利率、通胀就业、地缘贸易、
+科技产业、商品成本、美元人民币和国内政策需求分类。每个事件簇包含
+`macro_path`、`a_share_lens`、`watch`、`invalidation` 和最多两条标题例证。
+`watch.state` 为 `fresh`、`stale` 或 `missing`。同一标题可以命中多个传导渠道；
+分类数量不是已确认事件，事件链也不直接改变风险评分。
 
 ## `data/signals/YYYY.csv`
 

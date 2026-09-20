@@ -134,6 +134,79 @@ function renderScorecard(scorecard) {
   $("#sample-fill").style.width = `${Math.min(100, directional / minimum * 100)}%`;
 }
 
+function renderEventChains(analysis) {
+  const list = $("#event-chain-list");
+  list.replaceChildren();
+  const events = (analysis.events || []).slice(0, 6);
+
+  events.forEach((event) => {
+    const card = document.createElement("article");
+    card.className = `event-chain-card event-${event.key || "other"}`;
+
+    const header = document.createElement("header");
+    const identity = document.createElement("div");
+    const label = document.createElement("h4"); label.textContent = event.label || "未分类事件";
+    const meta = document.createElement("span"); meta.textContent = `${Number(event.headline_count) || 0} 条去重线索`;
+    identity.append(label, meta);
+    const status = document.createElement("b"); status.textContent = "待市场确认";
+    header.append(identity, status);
+
+    const flow = document.createElement("div");
+    flow.className = "event-flow";
+    const stages = [
+      ["01 / EVENT CLUSTER", "标题线索", null],
+      ["02 / MACRO PATH", "宏观传导", event.macro_path],
+      ["03 / A-SHARE LENS", "A 股映射", event.a_share_lens],
+      ["04 / INVALIDATION", "失效条件", event.invalidation],
+    ];
+    stages.forEach(([kicker, titleText, body], index) => {
+      const stage = document.createElement("section");
+      stage.className = `event-stage stage-${index + 1}`;
+      const small = document.createElement("small"); small.textContent = kicker;
+      const title = document.createElement("h5"); title.textContent = titleText;
+      stage.append(small, title);
+      if (index === 0) {
+        const headlines = document.createElement("ul");
+        (event.headlines || []).slice(0, 2).forEach((item) => {
+          const row = document.createElement("li");
+          const link = document.createElement("a"); link.textContent = item.title || "未命名标题";
+          if (String(item.link || "").startsWith("https://news.google.com/")) {
+            link.href = item.link; link.target = "_blank"; link.rel = "noreferrer";
+          }
+          row.append(link); headlines.append(row);
+        });
+        stage.append(headlines);
+      } else {
+        const copy = document.createElement("p"); copy.textContent = body || "等待规则补充";
+        stage.append(copy);
+      }
+      flow.append(stage);
+    });
+
+    const watch = document.createElement("div");
+    watch.className = "event-watch";
+    const watchLabel = document.createElement("span"); watchLabel.textContent = "CONFIRM / 观察指标";
+    watch.append(watchLabel);
+    (event.watch || []).forEach((item) => {
+      const chip = document.createElement("span");
+      const state = ["fresh", "stale", "missing"].includes(item.state) ? item.state : "missing";
+      chip.className = `watch-chip ${state}`;
+      chip.textContent = `${item.label || item.code || "指标"} ${item.value || "--"} · ${state.toUpperCase()}`;
+      watch.append(chip);
+    });
+
+    card.append(header, flow, watch);
+    list.append(card);
+  });
+
+  if (!events.length) {
+    const empty = document.createElement("p");
+    empty.className = "event-chain-empty";
+    empty.textContent = "本轮去重标题未命中预设事件簇，保留原始标题等待后续验证。";
+    list.append(empty);
+  }
+}
+
 function renderNews(analysis) {
   const list = $("#news-list"); list.replaceChildren();
   (analysis.news || []).slice(0, 8).forEach((item) => {
@@ -196,7 +269,7 @@ async function init() {
   try {
     const [analysis, globalData, latest, scorecard] = await Promise.all(Object.values(DATA).map(loadJson));
     renderScore(analysis); renderHealth(globalData); renderMarkets(globalData); renderCrossAssets(globalData);
-    renderSignals(analysis); renderScorecard(scorecard); renderNews(analysis);
+    renderSignals(analysis); renderScorecard(scorecard); renderEventChains(analysis); renderNews(analysis);
     setupShare(analysis);
     const sh = latest.latest_daily?.indices?.sh000001;
     text("#sh-close", number(sh?.close));

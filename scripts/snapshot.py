@@ -603,6 +603,7 @@ def render_readme(updated_at):
         "| 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |",
         "| 🖥️ 在线研究大屏 | GitHub Pages 自动部署，手机和桌面都能直接查看 |",
         "| 🌍 跨资产先行带 | A50、离岸人民币与美元指数低权重计分，黄金和原油保留为背景 |",
+        "| 🧭 事件传导链 | 新闻先去重分类，再映射宏观变量、A 股风格和可证伪条件 |",
         "| 🗞️ 每日传播卡片 | 自动生成 1200×630 矢量简报，可下载、引用和转发 |",
         "| 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |",
         "| 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |",
@@ -846,6 +847,32 @@ def render_global_section():
                 f"| {md_escape(signal.get('label', ''))} | "
                 f"{md_escape(signal.get('value', ''))} | {contribution:+.1f} | "
                 f"{md_escape(signal.get('note', ''))} |"
+            )
+
+    events = analysis.get("events") or []
+    if events:
+        state_labels = {"fresh": "最新", "stale": "最近有效值", "missing": "缺失"}
+        lines += [
+            "",
+            "### 事件传导链",
+            "",
+            "> 去重标题只作为待验证线索；分类数量不是已确认事件，传导链也不直接参与评分。",
+            "",
+            "| 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+        for event in events:
+            watches = []
+            for item in event.get("watch") or []:
+                state = state_labels.get(item.get("state"), "缺失")
+                watches.append(f"{item.get('label') or item.get('code', '')} {item.get('value', '--')}（{state}）")
+            count = int(event.get("headline_count") or 0)
+            lines.append(
+                f"| {md_escape(event.get('label', ''))}（{count} 条） | "
+                f"{md_escape(event.get('macro_path', ''))} | "
+                f"{md_escape(event.get('a_share_lens', ''))} | "
+                f"{md_escape(' / '.join(watches))} | "
+                f"{md_escape(event.get('invalidation', ''))} |"
             )
 
     lines += ["", "### 研究观察", ""]

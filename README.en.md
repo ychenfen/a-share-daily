@@ -35,6 +35,7 @@ Hong Kong, volatility, rates, and the news cycle — with no runtime dependencie
 | Five market checkpoints | Overnight context plus open, midday, close, and evening verification instead of one end-of-day row |
 | Cross-market context | A-shares alongside the S&P 500, Nasdaq, Dow, Hang Seng, Nikkei 225, Europe, A50 futures, USD/CNH, DXY, gold, oil, VIX, and US 10Y |
 | Explainable risk score | Every point is attributed to momentum, breadth, sentiment, global markets, volatility, rates, or low-weight news tone |
+| Falsifiable event chains | Deduplicated headlines map to macro variables, A-share styles and sectors, live confirmations, and explicit invalidation conditions |
 | Forward-only scorecard | Signals are recorded before outcomes and settled over 1, 3, and 5 sessions; no invented historical hit rate |
 | Visible source health | Fresh, partial, stale, and missing upstream data remain visible rather than being silently presented as current |
 | Git-native data lake | Every changed observation has a diff, timestamp, and rollback path; CSV and JSON stay easy to reuse |
@@ -66,6 +67,9 @@ flowchart LR
 
 The score is a transparent research heuristic, not a model-generated trade.
 News headlines have bounded, low weight and are never treated as verified facts.
+A deterministic ruleset also groups deduplicated headlines into auditable event
+chains: clue → macro transmission → A-share lens → invalidation. These chains do
+not add points to the score; live market observations confirm or reject them.
 A50 futures and the USD/CNH-DXY pair are capped, low-weight inputs. Gold and
 WTI stay visible as context and never contribute points directly.
 
