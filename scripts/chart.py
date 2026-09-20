@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from snapshot import DATA_DIR, ROOT, render_readme  # noqa: E402
+from snapshot import ROOT, daily_csv_paths, render_readme  # noqa: E402
 
 CHART_DIR = ROOT / "charts"
 
@@ -37,7 +37,7 @@ BAR = "#8c959f"
 
 def load_rows(days):
     rows = []
-    for path in sorted(DATA_DIR.glob("[0-9]*.csv")):
+    for path in daily_csv_paths():
         with path.open(encoding="utf-8") as f:
             rows.extend(csv.DictReader(f))
     rows.sort(key=lambda r: r["date"])

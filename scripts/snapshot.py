@@ -48,6 +48,7 @@ CSV_HEADER = (
 SECTOR_CSV = "sectors.csv"
 SECTOR_HEADER = ["date", "rank_type", "rank", "name", "pct", "net_inflow_yi", "leader"]
 SECTOR_TOP_N = 5
+DAILY_FILE_GLOB = "[0-9][0-9][0-9][0-9].csv"
 
 
 # 东财对请求密度很敏感：几秒内连打五六个就开始 RST，而每次隔一秒多就没事。
@@ -333,6 +334,21 @@ def append_row(row):
     return path
 
 
+def daily_csv_paths():
+    """只返回按年份命名的行情年表，排除 sectors.csv 等旁路数据。"""
+    return sorted(DATA_DIR.glob(DAILY_FILE_GLOB))
+
+
+def load_daily_rows():
+    """读取全部行情年表，按交易日排序。"""
+    rows = []
+    for path in daily_csv_paths():
+        with path.open(encoding="utf-8") as f:
+            rows.extend(csv.DictReader(f))
+    rows.sort(key=lambda r: r["date"])
+    return rows
+
+
 def num(value, fmt="{:.2f}"):
     """CSV 里缺失的列显示成 -，不要显示 None。"""
     if value in (None, ""):
@@ -345,11 +361,7 @@ def num(value, fmt="{:.2f}"):
 
 def render_readme(updated_at):
     """README 展示最近 10 个交易日。"""
-    rows = []
-    for path in sorted(DATA_DIR.glob("*.csv")):
-        with path.open(encoding="utf-8") as f:
-            rows.extend(csv.DictReader(f))
-    rows.sort(key=lambda r: r["date"])
+    rows = load_daily_rows()
     recent = rows[-10:][::-1]
 
     lines = [

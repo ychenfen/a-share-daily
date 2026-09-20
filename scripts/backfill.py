@@ -24,7 +24,14 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from snapshot import CSV_HEADER, DATA_DIR, INDEXES, fetch, render_readme  # noqa: E402
+from snapshot import (  # noqa: E402
+    CSV_HEADER,
+    DATA_DIR,
+    INDEXES,
+    daily_csv_paths,
+    fetch,
+    render_readme,
+)
 
 # 两市成交额只算这两个，跟 snapshot.py 口径保持一致
 AMOUNT_CODES = ("sh000001", "sz399001")
@@ -62,7 +69,7 @@ def fetch_kline(code, beg):
 def load_existing():
     """读出所有已有行，按日期索引。"""
     rows = {}
-    for path in sorted(DATA_DIR.glob("*.csv")):
+    for path in daily_csv_paths():
         with path.open(encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 rows[row["date"]] = row
