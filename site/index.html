@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d0f">
+  <meta name="description" content="A-Share Pulse：联动全球市场、新闻与 A 股情绪的可审计风险雷达。">
+  <meta property="og:title" content="A-Share Pulse · 全球市场风险雷达">
+  <meta property="og:description" content="五段市场脉搏、透明风险评分和真实前向验证。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ychenfen.github.io/a-share-daily/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ychenfen/a-share-daily/main/assets/social-preview.png">
+  <title>A-Share Pulse · 市场天气台</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="brand" href="#top" aria-label="A-Share Pulse 首页">
+      <span class="brand-mark">AP</span>
+      <span>A-SHARE PULSE</span>
+    </a>
+    <nav aria-label="主要导航">
+      <a href="#markets">外围</a>
+      <a href="#evidence">证据</a>
+      <a href="#scorecard">验真</a>
+      <a href="#news">事件</a>
+    </nav>
+    <a class="star-link" href="https://github.com/ychenfen/a-share-daily" target="_blank" rel="noreferrer">
+      STAR ON GITHUB <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <main id="top">
+    <section class="hero reveal">
+      <div class="hero-kicker">
+        <span class="live-dot" aria-hidden="true"></span>
+        MARKET WEATHER / 市场天气台
+      </div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">CHINA RISK APPETITE, IN CONTEXT</p>
+          <h1>别猜方向。<br><em>查看证据。</em></h1>
+          <p class="lede">把 A 股内部强弱、全球收盘、波动率、利率与新闻事件压缩成一张可以追溯的研究底稿。</p>
+          <div class="hero-actions">
+            <a class="primary" href="#evidence">拆解今天的评分</a>
+            <a class="secondary" href="https://github.com/ychenfen/a-share-daily/fork" target="_blank" rel="noreferrer">Fork 自己的版本</a>
+          </div>
+        </div>
+
+        <aside class="score-panel" aria-label="当前跨市场风险温度">
+          <div class="score-topline">
+            <span>RISK TEMPERATURE</span>
+            <span id="confidence">载入中</span>
+          </div>
+          <div class="score-number" id="score">--</div>
+          <div class="stance" id="stance">等待市场数据</div>
+          <div class="risk-track" aria-hidden="true">
+            <span class="risk-fill"></span>
+            <span class="risk-marker"></span>
+          </div>
+          <div class="risk-labels"><span>-100 防守</span><span>0</span><span>+100 积极</span></div>
+          <p class="score-summary" id="summary">正在读取可审计分析结果……</p>
+        </aside>
+      </div>
+      <div class="session-strip" aria-label="每日自动更新时段">
+        <span><b>06:15</b> 外围收盘</span>
+        <span><b>10:05</b> 开盘脉搏</span>
+        <span><b>11:35</b> 午间观察</span>
+        <span><b>15:10</b> 正式收盘</span>
+        <span><b>20:20</b> 夜间复核</span>
+      </div>
+    </section>
+
+    <section class="health-bar reveal" aria-label="数据健康状态">
+      <div>
+        <span class="section-index">01</span>
+        <p class="overline">SOURCE HEALTH</p>
+        <h2>知道数据是否新鲜，<br>比假装一切正常更重要。</h2>
+      </div>
+      <div class="health-list" id="health-list" aria-live="polite"></div>
+      <div class="updated-block">
+        <span>最后分析</span>
+        <strong id="updated-at">--</strong>
+        <small>北京时间</small>
+      </div>
+    </section>
+
+    <section class="section reveal" id="markets">
+      <header class="section-head">
+        <div><span class="section-index">02</span><p class="overline">GLOBAL CLOSE</p></div>
+        <div>
+          <h2>外围市场，不再只是背景噪音。</h2>
+          <p>红涨绿跌，代理品种与陈旧数据都会明确标出。</p>
+        </div>
+      </header>
+      <div class="market-grid" id="market-grid" aria-live="polite"></div>
+      <div class="macro-row">
+        <article><span>VIX / 波动率</span><strong id="vix">--</strong><small id="vix-date">--</small></article>
+        <article><span>US 10Y / 长端利率</span><strong id="us10y">--</strong><small id="us10y-date">--</small></article>
+        <article><span>A-SHARE / 最新上证</span><strong id="sh-close">--</strong><small id="sh-pct">--</small></article>
+      </div>
+    </section>
+
+    <section class="section evidence-section reveal" id="evidence">
+      <header class="section-head inverse">
+        <div><span class="section-index">03</span><p class="overline">WHY THIS SCORE</p></div>
+        <div>
+          <h2>每一分，都必须说明来源。</h2>
+          <p>价格、宽度、情绪、外围、波动率、利率和新闻标题分别贡献多少，一眼可查。</p>
+        </div>
+      </header>
+      <div class="signal-list" id="signal-list"></div>
+      <p class="method" id="methodology"></p>
+    </section>
+
+    <section class="section reveal" id="scorecard">
+      <header class="section-head">
+        <div><span class="section-index">04</span><p class="overline">FORWARD CHECK</p></div>
+        <div>
+          <h2>先记录，再谈准确。</h2>
+          <p>拒绝用事后数据回填一个漂亮胜率。达到可信样本门槛之前，只展示收集进度。</p>
+        </div>
+      </header>
+      <div class="scorecard-grid">
+        <article class="proof-card">
+          <span>方向性样本</span>
+          <strong id="sample-progress">-- / --</strong>
+          <div class="sample-track"><i id="sample-fill"></i></div>
+        </article>
+        <article class="proof-card">
+          <span>1 日方向命中率</span>
+          <strong id="hit-rate">待验证</strong>
+          <small>样本不足不下结论</small>
+        </article>
+        <article class="proof-card accent">
+          <span>验证状态</span>
+          <strong id="proof-status">COLLECTING</strong>
+          <small>所有原始信号保存在 Git 历史中</small>
+        </article>
+      </div>
+      <div class="calendar-frame">
+        <div><span>A-SHARE YEAR</span><b>一年涨跌日历</b></div>
+        <img src="charts/market_calendar.svg" alt="近一年 A 股涨跌日历">
+      </div>
+    </section>
+
+    <section class="section news-section reveal" id="news">
+      <header class="section-head">
+        <div><span class="section-index">05</span><p class="overline">EVENT RADAR</p></div>
+        <div>
+          <h2>新闻不是结论，只是需要验证的线索。</h2>
+          <p>仅保留标题、来源和原始链接；语气只占低权重。</p>
+        </div>
+      </header>
+      <ol class="news-list" id="news-list"></ol>
+    </section>
+
+    <section class="closing reveal">
+      <p class="overline">OPEN DATA · ZERO DEPENDENCIES · AUDITABLE BY GIT</p>
+      <h2>Fork 它，改规则，<br>让市场观点接受时间检验。</h2>
+      <div class="hero-actions">
+        <a class="primary" href="https://github.com/ychenfen/a-share-daily" target="_blank" rel="noreferrer">查看源代码</a>
+        <a class="secondary" href="https://github.com/ychenfen/a-share-daily/issues" target="_blank" rel="noreferrer">提出新信号</a>
+      </div>
+      <p class="disclaimer">仅用于数据记录与技术研究，不构成投资建议或收益承诺。</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>A-SHARE PULSE / 2026</span>
+    <span>RED UP · GREEN DOWN</span>
+  </footer>
+  <noscript>这个页面需要 JavaScript 读取仓库生成的 JSON 数据。</noscript>
+</body>
+</html>

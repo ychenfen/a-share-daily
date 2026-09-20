@@ -7,6 +7,7 @@
 每天五次联动全球收盘、A 股盘中与新闻风险；零依赖、可审计、可直接 Fork。
 
 <a href="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml"><img alt="A-share market pulse" src="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml/badge.svg"></a>
+<a href="https://ychenfen.github.io/a-share-daily/"><img alt="Live dashboard" src="https://img.shields.io/badge/live-dashboard-ff5148"></a>
 <img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">
 <img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-zero-2ea44f">
 <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
@@ -16,7 +17,7 @@
 > [!NOTE]
 > **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 15:40`（北京时间）
 
-[最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions)
+[🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions)
 
 ## 为什么值得收藏
 
@@ -25,6 +26,7 @@
 | 🫀 五段市场脉搏 | 外围收盘 + A 股开盘、午间、收盘、夜间校验，不只是日终一个点 |
 | 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |
 | 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |
+| 🖥️ 在线研究大屏 | GitHub Pages 自动部署，手机和桌面都能直接查看 |
 | 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |
 | 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |
 | 🛡️ 质量门禁 | 每次推送前跑回归测试、schema 和重复日期检查 |
