@@ -499,16 +499,59 @@ def num(value, fmt="{:.2f}"):
 
 
 def render_readme(updated_at):
-    """README 展示最近 10 个交易日。"""
+    """生成兼顾人类浏览和项目传播的动态首页。"""
     rows = load_daily_rows()
     recent = rows[-10:][::-1]
 
+    status = {}
+    status_path = DATA_DIR / "status.json"
+    if status_path.exists():
+        try:
+            status = json.loads(status_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            status = {}
+    state_text = {
+        "live": "🟢 盘中",
+        "closed": "🔴 已收盘",
+        "non_trading": "⚪ 休市 / 未开盘",
+        "unavailable": "🟠 数据源暂不可用",
+        "checking": "🔵 检查中",
+    }.get(status.get("market_state"), "⚪ 等待首次检查")
+    status_line = status.get("message") or "等待 GitHub Actions 更新"
+    checked_at = status.get("checked_at") or updated_at
+
     lines = [
-        "# A股收盘快照",
+        '<div align="center">',
         "",
-        "每个交易日收盘后自动抓取并提交。数据来自腾讯行情和东方财富公开接口。",
+        "# 📈 A-Share Pulse",
         "",
-        f"最后更新：{updated_at}",
+        "**把 GitHub 提交图变成 A 股市场心电图。**",
+        "",
+        "每天四次自动记录开盘、午间、收盘与夜间校验；零依赖、可审计、可直接 Fork。",
+        "",
+        '<a href="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml"><img alt="A-share market pulse" src="https://github.com/ychenfen/a-share-daily/actions/workflows/daily.yml/badge.svg"></a>',
+        '<img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">',
+        '<img alt="Zero dependencies" src="https://img.shields.io/badge/dependencies-zero-2ea44f">',
+        '<a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>',
+        "",
+        "</div>",
+        "",
+        "> [!NOTE]",
+        f"> **{state_text}** · {status_line} · 最后检查 `{checked_at}`（北京时间）",
+        "",
+        "[最新 JSON](data/latest.json) · [运行状态](data/status.json) · "
+        "[完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · "
+        "[自动任务](https://github.com/ychenfen/a-share-daily/actions)",
+        "",
+        "## 为什么值得收藏",
+        "",
+        "| 能力 | 你得到什么 |",
+        "| --- | --- |",
+        "| 🫀 四段市场脉搏 | 同一交易日的开盘、午间、收盘、夜间校验，不只是日终一个点 |",
+        "| 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |",
+        "| 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |",
+        "| 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |",
+        "| 🛡️ 质量门禁 | 每次推送前跑回归测试、schema 和重复日期检查 |",
         "",
     ]
 
@@ -550,19 +593,64 @@ def render_readme(updated_at):
         cells.append(num(r.get("limit_down"), "{:.0f}"))
         lines.append("| " + " | ".join(cells) + " |")
 
-    lines += ["", f"完整历史在 [data/](data/) 目录，共 {len(rows)} 个交易日。", ""]
+    lines += [
+        "",
+        f"完整历史在 [data/](data/) 目录，共 {len(rows)} 个交易日。",
+        "",
+    ]
     lines += render_sentiment_section(recent)
     lines += render_sector_section()
     lines += [
-        "## 说明",
+        "## 自动更新节奏",
         "",
-        "由 GitHub Actions 在每个交易日 16:20 (北京时间) 运行 "
-        "[scripts/snapshot.py](scripts/snapshot.py) 生成，数据来自腾讯行情和"
-        "东方财富公开接口。非交易日不写数据，只记一行运行日志。",
+        "| 北京时间 | 记录内容 | 正式日线 |",
+        "| --- | --- | --- |",
+        "| 10:05 | 开盘脉搏：指数、成交额、涨跌家数 | 否 |",
+        "| 11:35 | 午间脉搏：上午收束状态 | 否 |",
+        "| 15:10 | 收盘快照：完整行情、情绪和行业排行 | 是 |",
+        "| 20:20 | 夜间校验：复核收盘数据与数据源健康 | 是 |",
+        "",
+        "GitHub Actions 可能有数分钟调度延迟。休市日不会伪造行情，"
+        "只刷新状态和审计日志。",
+        "",
+        "## 数据与复用",
+        "",
+        "```text",
+        "data/YYYY.csv          # 日线与收盘情绪，适合回测",
+        "data/pulses/YYYY-MM.csv # 日内四段观察，适合研究盘中演化",
+        "data/sectors.csv        # 行业领涨/领跌 Top 5",
+        "data/latest.json        # 程序最方便消费的聚合入口",
+        "data/status.json        # 最近任务与数据源健康状态",
+        "```",
+        "",
+        "本地运行不需要安装依赖：",
+        "",
+        "```bash",
+        "python3 scripts/snapshot.py",
+        "python3 scripts/chart.py",
+        "python3 -m unittest discover -s tests -v",
+        "python3 scripts/validate.py",
+        "```",
+        "",
+        "想拥有自己的市场心电图，直接 Fork 并开启 Actions 即可。"
+        "更多字段说明见 [数据字典](docs/DATA_SCHEMA.md)。",
+        "",
+        "## 数据来源与边界",
+        "",
+        "指数行情来自腾讯行情公开接口；市场宽度、涨跌停池和行业排行来自"
+        "东方财富公开接口。接口异常时保留上一份有效数据，并在 `status.json`"
+        " 明确标记，不把空响应冒充成功。",
         "",
         "指数历史由 [scripts/backfill.py](scripts/backfill.py) 一次性回填。"
         "涨跌家数、涨停跌停、连板梯队这些是盘后快照，没有历史接口可回填，"
         "只能逐日累积，所以回填日期的这几列是空的。",
+        "",
+        "> 本项目仅用于数据记录与技术研究，不构成投资建议。公开接口可能调整，"
+        "请以交易所和数据服务商正式口径为准。",
+        "",
+        "---",
+        "",
+        "如果它帮你省下了整理行情的时间，欢迎点一个 ⭐，也欢迎提交新的公开数据源适配。",
         "",
     ]
 
