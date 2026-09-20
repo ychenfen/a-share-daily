@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 15:34",
+  "generated_at": "2026-09-20 15:35",
   "markets": [
     {
       "code": "SPX",
@@ -72,30 +72,30 @@
       "change": 882.6999999999971,
       "previous_close": 64136.25,
       "quote_time": "2026-09-18",
-      "stale": false
+      "stale": true
     }
   ],
   "macro": {
     "vix": {
       "date": "2026-09-17",
       "value": 15.44,
-      "stale": false
+      "stale": true
     },
     "us10y": {
       "date": "2026-09-17",
       "value": 4.94,
-      "stale": false
+      "stale": true
     }
   },
   "health": {
     "markets": {
-      "status": "fresh"
+      "status": "partial"
     },
     "vix": {
-      "status": "fresh"
+      "status": "stale"
     },
     "us10y": {
-      "status": "fresh"
+      "status": "stale"
     },
     "news": {
       "status": "fresh"
