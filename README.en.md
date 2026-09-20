@@ -23,7 +23,7 @@ Hong Kong, volatility, rates, and the news cycle — with no runtime dependencie
 [Use this template](https://github.com/ychenfen/a-share-daily/generate) ·
 [Latest JSON](data/latest.json) ·
 [Full history](data/) ·
-[Data schema](docs/DATA_SCHEMA.md) ·
+[Data schema](docs/DATA_SCHEMA.en.md) ·
 [Actions](https://github.com/ychenfen/a-share-daily/actions) ·
 [Discussions](https://github.com/ychenfen/a-share-daily/discussions) ·
 [Roadmap](ROADMAP.md)
@@ -80,7 +80,7 @@ data/YYYY.csv           # Daily closes, breadth, and close sentiment
 data/pulses/YYYY-MM.csv # Intraday market checkpoints
 data/sectors.csv        # Top and bottom industry groups
 data/global.json        # Global indices, cross assets, VIX, US 10Y, and source health
-data/analysis.json      # Explainable risk score and research observations
+data/analysis.json      # Explainable risk score, event chains, and research observations
 data/scorecard.json     # Forward validation summary
 data/signals/YYYY.csv   # Append-only raw signal ledger
 data/latest.json        # Stable machine-readable aggregate
