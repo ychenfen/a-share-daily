@@ -574,13 +574,17 @@ def render_readme(updated_at):
         "",
         "</div>",
         "",
+        '<a href="https://ychenfen.github.io/a-share-daily/">'
+        '<img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>',
+        "",
         "> [!NOTE]",
         f"> **{state_text}** · {status_line} · 最后检查 `{checked_at}`（北京时间）",
         "",
         "[🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · "
         "[最新 JSON](data/latest.json) · [运行状态](data/status.json) · "
         "[完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · "
-        "[自动任务](https://github.com/ychenfen/a-share-daily/actions)",
+        "[自动任务](https://github.com/ychenfen/a-share-daily/actions) · "
+        "[路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)",
         "",
         "## 为什么值得收藏",
         "",
@@ -704,7 +708,8 @@ def render_readme(updated_at):
         "",
         "---",
         "",
-        "如果它帮你省下了整理行情的时间，欢迎点一个 ⭐，也欢迎提交新的公开数据源适配。",
+        "如果它帮你省下了整理行情的时间，欢迎点一个 ⭐。"
+        "想一起完善信号、数据源或可视化，可以从 [贡献指南](CONTRIBUTING.md) 开始。",
         "",
     ]
 

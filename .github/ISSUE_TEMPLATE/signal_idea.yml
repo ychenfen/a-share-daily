@@ -1,0 +1,43 @@
+name: 新信号或数据源
+description: 提议一个可解释、可验证的市场信号或公开数据源
+title: "[Signal] "
+labels: [enhancement, data-source]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 数据源
+      description: 官方文档或公开接口链接。
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: thesis
+    attributes:
+      label: 为什么与 A 股有关
+      description: 写清事件或变量如何影响风险偏好、风格或行业。
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: 字段、频率与时区
+      description: 包括单位、更新时间、休市处理和缺失值语义。
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: 如何验证
+      description: 给出正反阈值、失效条件和建议测试。
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: 边界确认
+      options:
+        - label: 数据源允许公开访问，且不需要提交凭据
+          required: true
+        - label: 该提议不包含个性化买卖建议或收益承诺
+          required: true

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a0d0f"/>
+      <stop offset="1" stop-color="#281413"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect x="58" y="54" width="44" height="44" fill="none" stroke="#f2ede4" stroke-width="2"/>
+  <text x="80" y="83" fill="#f2ede4" text-anchor="middle" font-family="Menlo,monospace" font-size="14" font-weight="700">AP</text>
+  <text x="121" y="82" fill="#9aa5ad" font-family="Menlo,monospace" font-size="15" font-weight="700" letter-spacing="3">A-SHARE PULSE</text>
+  <circle cx="1215" cy="76" r="6" fill="#ff5148"/>
+  <text x="1195" y="82" fill="#9aa5ad" text-anchor="end" font-family="Menlo,monospace" font-size="12" letter-spacing="2">LIVE MARKET WEATHER</text>
+
+  <text x="58" y="202" fill="#e9c86f" font-family="Menlo,monospace" font-size="14" font-weight="700" letter-spacing="2">GLOBAL CONTEXT · A-SHARE SIGNALS · FORWARD CHECK</text>
+  <text x="58" y="294" fill="#f2ede4" font-family="Songti SC,STSong,serif" font-size="72" font-weight="700">别猜方向。</text>
+  <text x="58" y="382" fill="#ff5148" font-family="Songti SC,STSong,serif" font-size="82" font-weight="700">查看证据。</text>
+  <text x="62" y="438" fill="#9aa5ad" font-family="PingFang SC,sans-serif" font-size="20">五段市场脉搏 · 透明风险评分 · 真实前向验证</text>
+
+  <g transform="translate(790 162)">
+    <rect width="420" height="340" fill="#101519" stroke="#273037" stroke-width="2"/>
+    <rect width="420" height="4" fill="#ff5148"/>
+    <text x="30" y="48" fill="#9aa5ad" font-family="Menlo,monospace" font-size="12" letter-spacing="2">MARKET WEATHER DESK</text>
+    <text x="30" y="108" fill="#f2ede4" font-family="Songti SC,STSong,serif" font-size="31" font-weight="700">跨市场风险温度</text>
+    <rect x="30" y="139" width="360" height="12" rx="6" fill="#273037"/>
+    <rect x="30" y="139" width="232" height="12" rx="6" fill="#ff5148"/>
+    <circle cx="262" cy="145" r="12" fill="#ff5148" stroke="#f2ede4" stroke-width="5"/>
+    <text x="30" y="181" fill="#68737b" font-family="Menlo,monospace" font-size="11">-100 DEFENSIVE</text>
+    <text x="390" y="181" fill="#68737b" text-anchor="end" font-family="Menlo,monospace" font-size="11">+100 RISK-ON</text>
+    <g font-family="Menlo,monospace" font-size="13">
+      <text x="30" y="230" fill="#9aa5ad">A-SHARE BREADTH</text><text x="390" y="230" fill="#ff5148" text-anchor="end">+11.4</text>
+      <text x="30" y="264" fill="#9aa5ad">GLOBAL EQUITIES</text><text x="390" y="264" fill="#ff5148" text-anchor="end">+1.5</text>
+      <text x="30" y="298" fill="#9aa5ad">US 10Y PRESSURE</text><text x="390" y="298" fill="#2cc17a" text-anchor="end">-5.0</text>
+    </g>
+  </g>
+
+  <line x1="58" y1="546" x2="1210" y2="546" stroke="#273037"/>
+  <text x="58" y="582" fill="#9aa5ad" font-family="Menlo,monospace" font-size="13">ZERO DEPENDENCIES</text>
+  <text x="270" y="582" fill="#9aa5ad" font-family="Menlo,monospace" font-size="13">AUDITABLE BY GIT</text>
+  <text x="474" y="582" fill="#9aa5ad" font-family="Menlo,monospace" font-size="13">UPDATED 5× DAILY</text>
+  <text x="1210" y="582" fill="#f2ede4" text-anchor="end" font-family="Menlo,monospace" font-size="14">github.com/ychenfen/a-share-daily</text>
+</svg>
