@@ -96,7 +96,9 @@ def main():
             errors.append(f"README 最近 10 日缺少 {row['date']}")
 
     json_payloads = {}
-    for filename in ("status.json", "latest.json", "global.json", "analysis.json"):
+    for filename in (
+        "status.json", "latest.json", "global.json", "analysis.json", "scorecard.json"
+    ):
         path = DATA_DIR / filename
         checks += 1
         if not path.exists():
@@ -128,6 +130,29 @@ def main():
         errors.append("analysis.json: score 必须在 -100 到 100 之间")
     if len(analysis.get("signals") or []) < 6:
         errors.append("analysis.json: 分析信号少于 6 项")
+    scorecard = json_payloads.get("scorecard.json") or {}
+    if scorecard.get("status") not in ("collecting", "ready"):
+        errors.append("scorecard.json: status 必须为 collecting 或 ready")
+    if not isinstance(scorecard.get("signal_count"), int):
+        errors.append("scorecard.json: signal_count 必须为整数")
+
+    signal_dir = DATA_DIR / "signals"
+    for path in sorted(signal_dir.glob("*.csv")) if signal_dir.exists() else []:
+        with path.open(encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+        checks += 1
+        captured = [row.get("captured_at") for row in rows]
+        if captured != sorted(captured) or len(captured) != len(set(captured)):
+            errors.append(f"{path}: captured_at 必须升序且唯一")
+        for row in rows:
+            score = row.get("score")
+            try:
+                valid_score = -100 <= float(score) <= 100
+            except (TypeError, ValueError):
+                valid_score = False
+            if not valid_score:
+                errors.append(f"{path}: 非法 score {score!r}")
 
     if errors:
         print("数据质量检查失败：", file=sys.stderr)

@@ -236,6 +236,80 @@
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",
     "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
   },
+  "scorecard": {
+    "schema_version": 1,
+    "generated_at": "2026-09-20 15:40",
+    "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
+    "status": "collecting",
+    "minimum_samples": 20,
+    "signal_count": 1,
+    "matured_1d": 0,
+    "directional_1d": 0,
+    "hit_rate_1d": null,
+    "average_return": {
+      "1d": null,
+      "3d": null,
+      "5d": null
+    },
+    "buckets": [
+      {
+        "label": "防守",
+        "count": 0,
+        "avg_1d_pct": null
+      },
+      {
+        "label": "谨慎防守",
+        "count": 0,
+        "avg_1d_pct": null
+      },
+      {
+        "label": "中性",
+        "count": 0,
+        "avg_1d_pct": null
+      },
+      {
+        "label": "谨慎偏多",
+        "count": 0,
+        "avg_1d_pct": null
+      },
+      {
+        "label": "积极",
+        "count": 0,
+        "avg_1d_pct": null
+      }
+    ],
+    "current": {
+      "captured_at": "2026-09-20 15:40",
+      "slot": "open",
+      "score": "25",
+      "stance": "积极但不追高",
+      "confidence": "中",
+      "health": "markets,us10y,vix"
+    },
+    "recent": [
+      {
+        "captured_at": "2026-09-20 15:40",
+        "slot": "open",
+        "signal_date": "2026-09-20",
+        "market_asof_date": "2026-09-18",
+        "score": "25",
+        "stance": "积极但不追高",
+        "confidence": "中",
+        "sh_close": "3911.87",
+        "sh_pct": "0.94",
+        "global_avg": "0.2177",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      }
+    ],
+    "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
+  },
   "latest_daily": {
     "date": "2026-09-18",
     "indices": {

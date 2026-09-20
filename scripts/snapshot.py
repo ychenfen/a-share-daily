@@ -463,6 +463,12 @@ def write_latest_json(generated_at):
         if analysis_path.exists()
         else None
     )
+    scorecard_path = DATA_DIR / "scorecard.json"
+    scorecard = (
+        json.loads(scorecard_path.read_text(encoding="utf-8"))
+        if scorecard_path.exists()
+        else None
+    )
 
     daily = None
     if latest:
@@ -496,6 +502,7 @@ def write_latest_json(generated_at):
         "status": status,
         "global": global_data,
         "analysis": analysis,
+        "scorecard": scorecard,
         "latest_daily": daily,
         "latest_pulse": latest_pulse(),
         "sectors": {
@@ -586,6 +593,7 @@ def render_readme(updated_at):
         "",
     ]
     lines += render_global_section()
+    lines += render_scorecard_section()
 
     # 图表由 scripts/chart.py 生成，没生成过就不要在 README 里留坏图链接
     charts = [
@@ -655,6 +663,8 @@ def render_readme(updated_at):
         "data/sectors.csv        # 行业领涨/领跌 Top 5",
         "data/global.json         # 美股、日股、港股、VIX 与美债",
         "data/analysis.json       # 可解释风险温度、新闻与研究观察",
+        "data/scorecard.json      # 真实运行信号的前向验证成绩单",
+        "data/signals/YYYY.csv    # 每次风险信号的可审计原始记录",
         "data/latest.json        # 程序最方便消费的聚合入口",
         "data/status.json        # 最近任务与数据源健康状态",
         "```",
@@ -664,6 +674,7 @@ def render_readme(updated_at):
         "```bash",
         "python3 scripts/snapshot.py",
         "python3 scripts/global_context.py",
+        "python3 scripts/scorecard.py",
         "python3 scripts/chart.py",
         "python3 -m unittest discover -s tests -v",
         "python3 scripts/validate.py",
@@ -799,6 +810,44 @@ def render_global_section():
         f"方法：{md_escape(analysis.get('methodology', ''))}",
         "",
         "> 这是可审计的通用市场研究提示，不是个性化仓位或买卖建议。",
+        "",
+    ]
+    return lines
+
+
+def render_scorecard_section():
+    """前向验证：样本不足时也明确展示收集进度。"""
+    path = DATA_DIR / "scorecard.json"
+    if not path.exists():
+        return []
+    try:
+        scorecard = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    lines = ["## 信号成绩单", ""]
+    chart = ROOT / "charts/signal_scorecard.svg"
+    if chart.exists():
+        lines += ["![风险信号前向验证](charts/signal_scorecard.svg)", ""]
+    directional = scorecard.get("directional_1d") or 0
+    minimum = scorecard.get("minimum_samples") or 20
+    hit_rate = scorecard.get("hit_rate_1d")
+    if hit_rate is None:
+        lines += [
+            f"> 前向样本收集中：**{directional} / {minimum}**。",
+            "> 从功能上线后真实记录，不回填缺失的全球与新闻历史来制造胜率。",
+            "",
+        ]
+    else:
+        lines += [
+            f"> 1 日方向命中率 **{hit_rate:.1f}%**，"
+            f"当前有效样本 **{directional}** 条。",
+            "",
+        ]
+    lines += [
+        "方法：开盘/午间信号验证当日收盘，收盘/夜间信号验证下一交易日；"
+        "同时持续结算 3 日和 5 日复合收益。",
+        "",
+        "> 样本不足时不输出稳定性结论，历史表现也不代表未来收益。",
         "",
     ]
     return lines

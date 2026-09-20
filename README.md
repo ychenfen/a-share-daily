@@ -77,6 +77,17 @@
 
 > 这是可审计的通用市场研究提示，不是个性化仓位或买卖建议。
 
+## 信号成绩单
+
+![风险信号前向验证](charts/signal_scorecard.svg)
+
+> 前向样本收集中：**0 / 20**。
+> 从功能上线后真实记录，不回填缺失的全球与新闻历史来制造胜率。
+
+方法：开盘/午间信号验证当日收盘，收盘/夜间信号验证下一交易日；同时持续结算 3 日和 5 日复合收益。
+
+> 样本不足时不输出稳定性结论，历史表现也不代表未来收益。
+
 ## 走势
 
 ![近一年 A 股涨跌日历](charts/market_calendar.svg)
@@ -147,6 +158,8 @@ data/pulses/YYYY-MM.csv # 日内四段观察，适合研究盘中演化
 data/sectors.csv        # 行业领涨/领跌 Top 5
 data/global.json         # 美股、日股、港股、VIX 与美债
 data/analysis.json       # 可解释风险温度、新闻与研究观察
+data/scorecard.json      # 真实运行信号的前向验证成绩单
+data/signals/YYYY.csv    # 每次风险信号的可审计原始记录
 data/latest.json        # 程序最方便消费的聚合入口
 data/status.json        # 最近任务与数据源健康状态
 ```
@@ -156,6 +169,7 @@ data/status.json        # 最近任务与数据源健康状态
 ```bash
 python3 scripts/snapshot.py
 python3 scripts/global_context.py
+python3 scripts/scorecard.py
 python3 scripts/chart.py
 python3 -m unittest discover -s tests -v
 python3 scripts/validate.py
