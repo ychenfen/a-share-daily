@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 09:23",
+  "generated_at": "2026-09-20 15:26",
   "markets": [
     {
       "code": "SPX",
@@ -69,16 +69,7 @@
       "quote_time": "2026-09-18"
     }
   ],
-  "macro": {
-    "vix": {
-      "date": "2026-09-17",
-      "value": 15.44
-    },
-    "us10y": {
-      "date": "2026-09-17",
-      "value": 4.94
-    }
-  },
+  "macro": {},
   "sources": {
     "markets": "腾讯全球行情公开接口 + FRED（日经225）",
     "macro": "Federal Reserve Economic Data (FRED)",

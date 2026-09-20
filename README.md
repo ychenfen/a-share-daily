@@ -14,7 +14,7 @@
 </div>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 09:01`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-18 · 最后检查 `2026-09-20 15:26`（北京时间）
 
 [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions)
 
@@ -33,7 +33,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +17 · 谨慎偏多**（置信度：高）
+> **风险温度 +24 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -53,9 +53,9 @@
 | 市场宽度 | 涨 4277 / 跌 1173 | +11.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 78 / 跌停 0 / 炸板率 24.3% | +10.0 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 +0.22% | +1.5 | 衡量隔夜风险偏好共振 |
-| 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
-| 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 3 / 风险词 7 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 波动压力 | VIX 缺失 | +0.0 | VIX 越高，全球避险需求通常越强 |
+| 利率压力 | 美债 10Y 缺失 | +0.0 | 长端利率偏高时压制高估值资产 |
+| 新闻语气 | 正向词 4 / 风险词 7 | -6.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 研究观察
 
@@ -63,10 +63,10 @@
 
 ### 新闻雷达
 
-- [盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？](https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5) · 手机新浪网
+- [欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛](https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5) · 同花顺
+- [全球央行再同步加息，科技股却成最抗压资产！](https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5) · 富途牛牛
 - [【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱](https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5) · FX168财经
-- [加息潮来临，每年1万亿美元AI投资直面高利率大考；特朗普称美国将获得对格陵兰岛安全“永久控制权”；Anthropic拟将IPO推迟至11月；LVMH被曝曾秘密收购爱马仕继承人股份\| 一周国际财经](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lZWV0RER6TF9nTWNiU3pIMmNIbHhLNFFnbk5GRDN2QkF0bEtVeVZ5MWNUejhsdUZxRFJ6ZXp6ZVd4em8zbV9jUDE3clVqN2lWc25EUHpsVjBBMC04UWQ5SUd6cldRUQ?oc=5) · 每日经济新闻
-- [中信证券：美欧日加息落地，关注什么？\|美联储\|美国\|债券\|流动性\|现金流](https://news.google.com/rss/articles/CBMitAFBVV95cUxPbllhN3k4b2Vzd29nR3d4d3R0dlk4dDhMOFBTVTRDWVRjbnBnUE5xQkF4M0wtZ1Z4cWVJQ1FmaEp6a19fNHJlQVVub3hxODA5VFptZkJXZXZYVHRwcFVjSHFzTERyWEQ3NFJXWXFTLUx3TTd5anFaM3dVeDVsMHc4a0o3bXJNZlhUNkk1S2JrOXNGWjhEWk9hX0R2eGFhWGN5VU93ODNIWWFVcV85aUxZYW52X1k?oc=5) · 新浪财经
+- [盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？](https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5) · 手机新浪网
 - [全球牛市要结束了吗 三大央行同步紧缩引发关注](https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5) · 中华网
 - [精读超级央行周：中东点燃全球加息潮，中国为何逆势走完全不同的路？](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qbk5HajF5UXh1WkQ3TmtaNF9VQ29VYUdGdUxZdW5yeTBOV1EzM0Jjdm5RZkJQNnRyc3lYYnNoUHF2dkpzbERubXF6Sk1uS3FtalhSbE5MbWNmTjAtYjJ5ZFg0QQ?oc=5) · 潮起网
 
