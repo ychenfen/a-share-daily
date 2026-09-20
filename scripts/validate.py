@@ -112,8 +112,16 @@ def main():
         json_payloads[filename] = payload
 
     global_data = json_payloads.get("global.json") or {}
-    if len(global_data.get("markets") or []) < 5:
-        errors.append("global.json: 全球市场少于 5 个，跨市场覆盖不完整")
+    if len(global_data.get("markets") or []) < 6:
+        errors.append("global.json: 全球市场少于 6 个，跨市场覆盖不完整")
+    macro = global_data.get("macro") or {}
+    for key in ("vix", "us10y"):
+        value = (macro.get(key) or {}).get("value")
+        if not isinstance(value, (int, float)):
+            errors.append(f"global.json: {key} 缺少最近有效值")
+    health = global_data.get("health")
+    if not isinstance(health, dict):
+        errors.append("global.json: 缺少数据源健康状态")
     analysis = json_payloads.get("analysis.json") or {}
     score = analysis.get("score")
     if not isinstance(score, (int, float)) or not -100 <= score <= 100:

@@ -48,7 +48,8 @@
 最近的跨市场快照：标普 500、纳斯达克、道琼斯、日经 225、恒生指数和欧洲
 股票 ETF 代理，以及 FRED 的 VIX 与美国 10 年期国债收益率。每个市场记录
 `close`、`pct`、`previous_close` 和源端报价时间；代理品种会在 `kind` 和
-`region` 中明确标注。
+`region` 中明确标注。`health` 记录各数据源是 `fresh`、`partial`、`stale`
+还是 `missing`；上游临时失败时保留最近有效值，并通过 `stale` 显式标记。
 
 ## `data/analysis.json`
 

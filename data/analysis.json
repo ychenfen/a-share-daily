@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 15:26",
-  "score": 24,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
-  "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "generated_at": "2026-09-20 15:34",
+  "score": 25,
+  "stance": "积极但不追高",
+  "color": "#c9211e",
+  "confidence": "高",
+  "summary": "A股内部强度与外围风险偏好形成正向共振，但仍需用回撤和量能确认持续性。",
   "signals": [
     {
       "label": "A股动量",
@@ -33,35 +33,36 @@
     },
     {
       "label": "波动压力",
-      "value": "VIX 缺失",
+      "value": "VIX 15.44",
       "contribution": 0,
       "note": "VIX 越高，全球避险需求通常越强"
     },
     {
       "label": "利率压力",
-      "value": "美债 10Y 缺失",
-      "contribution": 0,
+      "value": "美债 10Y 4.94%",
+      "contribution": -5,
       "note": "长端利率偏高时压制高估值资产"
     },
     {
       "label": "新闻语气",
-      "value": "正向词 4 / 风险词 7",
-      "contribution": -6,
+      "value": "正向词 5 / 风险词 5",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "关注强势行业能否在下一交易日继续获得成交额与市场宽度支持。",
+    "研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。"
   ],
   "news_tone": {
-    "positive_hits": 4,
-    "negative_hits": 7,
-    "score": -6
+    "positive_hits": 5,
+    "negative_hits": 5,
+    "score": 0
   },
   "news": [
     {
       "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-      "source": "同花顺",
+      "source": "同花顺财经",
       "published": "Sat, 19 Sep 2026 17:54:48 GMT",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
     },
@@ -72,10 +73,10 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5"
     },
     {
-      "title": "【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱",
+      "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
       "source": "FX168财经",
-      "published": "Sat, 19 Sep 2026 16:42:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5"
+      "published": "Sun, 20 Sep 2026 07:28:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
     },
     {
       "title": "盘后观察：放量普涨！沪指重回3900点，日韩股市同涨——加息落地后A股开启“补涨”行情？",
@@ -84,16 +85,16 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1MeFRyS0NYQUtPdkVUX2J4WGFxUEl4V0pMVVF0RlVyNjRUcUNxTVhPYzhtRHBGUmllaS1QWElLNGhhdFpNemNMTUdCOXBzYlRyTk1iUmNoQ0t2LXFha0dLXzdSRnlDS0tjNGVNZG1KVjVYZw?oc=5"
     },
     {
+      "title": "小摩研报解读：全球加息重启，股市仍由企业盈利锚定",
+      "source": "深潮TechFlow",
+      "published": "Sun, 20 Sep 2026 04:44:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNnZHWGFFUWt1WmwwcVpoQ2pFa2lya3M4anBFanE5cXp1YTl5alFpSXcwemsyWkdRSjhCTlpUWXRDdjV4X0J1cVdwRXB1bUZwSGxsYg?oc=5"
+    },
+    {
       "title": "全球牛市要结束了吗 三大央行同步紧缩引发关注",
       "source": "中华网",
       "published": "Sat, 19 Sep 2026 12:49:45 GMT",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5"
-    },
-    {
-      "title": "精读超级央行周：中东点燃全球加息潮，中国为何逆势走完全不同的路？",
-      "source": "潮起网",
-      "published": "Sat, 19 Sep 2026 07:30:04 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qbk5HajF5UXh1WkQ3TmtaNF9VQ29VYUdGdUxZdW5yeTBOV1EzM0Jjdm5RZkJQNnRyc3lYYnNoUHF2dkpzbERubXF6Sk1uS3FtalhSbE5MbWNmTjAtYjJ5ZFg0QQ?oc=5"
     },
     {
       "title": "三大央行同步加息！人民币汇率关键突破",
@@ -102,10 +103,10 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZWUHh2MVV6VG50YTlNLVh4OFAtcllZc2p1TUNOR2JZaEVCMVd4cHJKcXZjc1VUT2dmRE9XbEc0UkpVWHBCbGxpbFpBWXJ5Yy1jVEJnV2JjSU1saHBVZ3lERGFhNzNNZXBHakIxQUlNclpBTG9iVW1uM3lUc25MeWQwaWt4ZGtWY0pMbw?oc=5"
     },
     {
-      "title": "全球债市再遇抛售！机构看多黄金",
-      "source": "手机新浪网",
-      "published": "Sat, 19 Sep 2026 12:09:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcHRSM29nYWFFUHVKaDJnSWtXMU10NzhobWJGOVprYjllYThqMGJ2LTVBc1E4dGhrOGJhSDREZThLR2dpVEVpb1ZqZmdDeXJWRU8xZDFpNFMySlpKU0ViM0g2WkpWUlc4ellvd2VJenlCT2JTM2t2VGp6cE1rdmN1aUZ5WQ?oc=5"
+      "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
+      "source": "TradingKey",
+      "published": "Sat, 19 Sep 2026 19:54:44 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
     }
   ],
   "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",

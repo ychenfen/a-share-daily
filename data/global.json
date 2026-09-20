@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 15:26",
+  "generated_at": "2026-09-20 15:34",
   "markets": [
     {
       "code": "SPX",
@@ -11,7 +11,8 @@
       "pct": 0.17,
       "change": 12.74,
       "previous_close": 7637.76,
-      "quote_time": "2026-09-18 17:29:48"
+      "quote_time": "2026-09-18 17:29:48",
+      "stale": false
     },
     {
       "code": "NDX",
@@ -22,7 +23,8 @@
       "pct": 0.39,
       "change": 104.25,
       "previous_close": 26418.3,
-      "quote_time": "2026-09-18 17:15:59"
+      "quote_time": "2026-09-18 17:15:59",
+      "stale": false
     },
     {
       "code": "DJIA",
@@ -33,7 +35,8 @@
       "pct": -0.18,
       "change": -95.4,
       "previous_close": 51778.04,
-      "quote_time": "2026-09-18 17:52:27"
+      "quote_time": "2026-09-18 17:52:27",
+      "stale": false
     },
     {
       "code": "HSI",
@@ -44,7 +47,8 @@
       "pct": 0.6,
       "change": 146.49,
       "previous_close": 24604.29,
-      "quote_time": "2026/09/18 18:31:31"
+      "quote_time": "2026/09/18 18:31:31",
+      "stale": false
     },
     {
       "code": "VGK",
@@ -55,7 +59,8 @@
       "pct": -1.05,
       "change": -0.94,
       "previous_close": 89.15,
-      "quote_time": "2026-09-18 16:00:01"
+      "quote_time": "2026-09-18 16:00:01",
+      "stale": false
     },
     {
       "code": "N225",
@@ -66,10 +71,36 @@
       "pct": 1.3762887602564833,
       "change": 882.6999999999971,
       "previous_close": 64136.25,
-      "quote_time": "2026-09-18"
+      "quote_time": "2026-09-18",
+      "stale": false
     }
   ],
-  "macro": {},
+  "macro": {
+    "vix": {
+      "date": "2026-09-17",
+      "value": 15.44,
+      "stale": false
+    },
+    "us10y": {
+      "date": "2026-09-17",
+      "value": 4.94,
+      "stale": false
+    }
+  },
+  "health": {
+    "markets": {
+      "status": "fresh"
+    },
+    "vix": {
+      "status": "fresh"
+    },
+    "us10y": {
+      "status": "fresh"
+    },
+    "news": {
+      "status": "fresh"
+    }
+  },
   "sources": {
     "markets": "腾讯全球行情公开接口 + FRED（日经225）",
     "macro": "Federal Reserve Economic Data (FRED)",

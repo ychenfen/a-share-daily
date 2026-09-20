@@ -32,6 +32,16 @@ def markets(pct):
 
 
 class GlobalContextTests(unittest.TestCase):
+    def test_missing_markets_reuse_only_the_last_good_entries(self):
+        current = markets(0.5)[:2]
+        previous = markets(-0.5)
+        merged = global_context.merge_market_snapshots(current, previous)
+
+        self.assertEqual(len(merged), 5)
+        self.assertFalse(merged[0]["stale"])
+        self.assertFalse(merged[1]["stale"])
+        self.assertTrue(merged[2]["stale"])
+
     def test_constructive_and_defensive_scenarios_separate(self):
         constructive = global_context.analyze(
             markets(1.5),
@@ -76,6 +86,18 @@ class GlobalContextTests(unittest.TestCase):
         self.assertLessEqual(tone["score"], 8)
         self.assertGreater(tone["positive_hits"], 0)
         self.assertGreater(tone["negative_hits"], 0)
+
+    def test_stale_source_lowers_confidence(self):
+        result = global_context.analyze(
+            markets(0.5),
+            {"vix": {"value": 16.0}, "us10y": {"value": 4.0}},
+            {"上证指数_pct": "0.5", "up": "3000", "down": "2000"},
+            [{"title": "全球市场上涨"}],
+            "2026-09-20 15:30",
+            health={"markets": {"status": "fresh"}, "vix": {"status": "stale"}},
+        )
+
+        self.assertEqual(result["confidence"], "中")
 
     def test_dashboard_contains_cross_market_and_risk_data(self):
         global_data = {

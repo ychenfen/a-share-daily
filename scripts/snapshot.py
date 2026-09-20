@@ -744,6 +744,23 @@ def render_global_section():
             f"{num(market.get('close'))} | {pct_text} |"
         )
 
+    health_labels = {
+        "markets": "全球指数",
+        "vix": "VIX",
+        "us10y": "美债10Y",
+        "news": "新闻",
+    }
+    degraded = [
+        health_labels.get(key, key)
+        for key, item in (global_data.get("health") or {}).items()
+        if item.get("status") != "fresh"
+    ]
+    if degraded:
+        lines += [
+            "",
+            f"> ⚠️ 数据降级：{'、'.join(degraded)}本轮未完全刷新，已尽量保留最近有效值。",
+        ]
+
     signals = analysis.get("signals") or []
     if signals:
         lines += [

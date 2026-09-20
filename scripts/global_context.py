@@ -37,6 +37,7 @@ TENCENT_MARKETS = {
         "kind": "ETF proxy",
     },
 }
+MARKET_ORDER = [meta["code"] for meta in TENCENT_MARKETS.values()] + ["N225"]
 
 NEWS_QUERY = "A股 美股 日股 全球市场 美联储 央行 when:1d"
 NEWS_RELEVANT = (
@@ -84,22 +85,41 @@ def fetch_global_markets(now):
         except (IndexError, ValueError):
             continue
 
-    nikkei = fetch_fred_values("NIKKEI225", now)
-    if len(nikkei) >= 2:
-        date, close = nikkei[-1]
-        previous = nikkei[-2][1]
-        out.append({
-            "code": "N225",
-            "name": "日经 225",
-            "region": "日本",
-            "kind": "index",
-            "close": close,
-            "pct": (close / previous - 1) * 100,
-            "change": close - previous,
-            "previous_close": previous,
-            "quote_time": date,
-        })
+    try:
+        nikkei = fetch_fred_values("NIKKEI225", now)
+        if len(nikkei) >= 2:
+            date, close = nikkei[-1]
+            previous = nikkei[-2][1]
+            out.append({
+                "code": "N225",
+                "name": "日经 225",
+                "region": "日本",
+                "kind": "index",
+                "close": close,
+                "pct": (close / previous - 1) * 100,
+                "change": close - previous,
+                "previous_close": previous,
+                "quote_time": date,
+            })
+    except Exception as e:
+        print(f"NIKKEI225 获取失败: {e}", file=sys.stderr)
     return out
+
+
+def merge_market_snapshots(current, previous):
+    """保留本轮有效报价，并只为缺失市场回退上一份数据。"""
+    current_by_code = {item.get("code"): item for item in current}
+    previous_by_code = {item.get("code"): item for item in previous}
+    merged = []
+    for code in MARKET_ORDER:
+        item = current_by_code.get(code)
+        stale = False
+        if item is None:
+            item = previous_by_code.get(code)
+            stale = item is not None
+        if item is not None:
+            merged.append({**item, "stale": stale})
+    return merged
 
 
 def fetch_fred_values(series, now):
@@ -167,7 +187,7 @@ def news_tone(news):
     }
 
 
-def analyze(markets, macro, daily, news, generated_at):
+def analyze(markets, macro, daily, news, generated_at, health=None):
     signals = []
 
     def add(label, value, contribution, note):
@@ -267,7 +287,9 @@ def analyze(markets, macro, daily, news, generated_at):
         yield_10y is not None,
         bool(news),
     ])
-    confidence = "高" if coverage == 5 else "中" if coverage >= 3 else "低"
+    source_states = [item.get("status") for item in (health or {}).values()]
+    degraded = any(state != "fresh" for state in source_states)
+    confidence = "高" if coverage == 5 and not degraded else "中" if coverage >= 3 else "低"
     return {
         "schema_version": 1,
         "generated_at": generated_at,
@@ -353,39 +375,72 @@ def write_json(path, payload):
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def read_json_or_empty(path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 def main():
     now = datetime.now(beijing_tz())
     stamp = now.strftime("%Y-%m-%d %H:%M")
     previous_global = DATA_DIR / "global.json"
     previous_analysis = DATA_DIR / "analysis.json"
+    previous_global_data = read_json_or_empty(previous_global)
+    previous_analysis_data = read_json_or_empty(previous_analysis)
+    health = {}
 
     try:
-        markets = fetch_global_markets(now)
+        current_markets = fetch_global_markets(now)
     except Exception as e:
         print(f"全球指数获取失败: {e}", file=sys.stderr)
-        if previous_global.exists():
-            markets = json.loads(previous_global.read_text(encoding="utf-8")).get("markets", [])
-        else:
-            markets = []
+        current_markets = []
+    markets = merge_market_snapshots(
+        current_markets, previous_global_data.get("markets") or []
+    )
+    fresh_markets = sum(not item.get("stale") for item in markets)
+    if fresh_markets == len(MARKET_ORDER):
+        health["markets"] = {"status": "fresh"}
+    elif fresh_markets:
+        health["markets"] = {"status": "partial"}
+    else:
+        health["markets"] = {"status": "stale" if markets else "missing"}
 
     macro = {}
+    previous_macro = previous_global_data.get("macro") or {}
     for key, series in (("vix", "VIXCLS"), ("us10y", "DGS10")):
         try:
-            macro[key] = fetch_fred_latest(series, now)
+            latest = fetch_fred_latest(series, now)
+            if not latest:
+                raise ValueError("没有可用观测值")
+            macro[key] = {**latest, "stale": False}
+            health[key] = {"status": "fresh"}
         except Exception as e:
             print(f"{series} 获取失败: {e}", file=sys.stderr)
+            fallback = previous_macro.get(key)
+            if fallback:
+                macro[key] = {**fallback, "stale": True}
+                health[key] = {"status": "stale"}
+            else:
+                health[key] = {"status": "missing"}
 
     try:
         news = fetch_news()
+        if not news:
+            raise ValueError("没有相关标题")
+        health["news"] = {"status": "fresh"}
     except Exception as e:
         print(f"新闻 RSS 获取失败: {e}", file=sys.stderr)
-        news = []
+        news = previous_analysis_data.get("news") or []
+        health["news"] = {"status": "stale" if news else "missing"}
 
     global_data = {
         "schema_version": 1,
         "generated_at": stamp,
         "markets": markets,
         "macro": macro,
+        "health": health,
         "sources": {
             "markets": "腾讯全球行情公开接口 + FRED（日经225）",
             "macro": "Federal Reserve Economic Data (FRED)",
@@ -393,7 +448,9 @@ def main():
         },
     }
     rows = load_daily_rows()
-    analysis = analyze(markets, macro, rows[-1] if rows else None, news, stamp)
+    analysis = analyze(
+        markets, macro, rows[-1] if rows else None, news, stamp, health=health
+    )
 
     DATA_DIR.mkdir(exist_ok=True)
     write_json(previous_global, global_data)
