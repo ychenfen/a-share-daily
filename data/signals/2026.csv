@@ -1,2 +1,3 @@
 captured_at,slot,signal_date,market_asof_date,score,stance,confidence,sh_close,sh_pct,global_avg,vix,us10y,health
 2026-09-20 15:40,open,2026-09-20,2026-09-18,25,积极但不追高,中,3911.87,0.94,0.2177,15.44,4.94,"markets,us10y,vix"
+2026-09-20 16:09,night,2026-09-20,2026-09-18,25,积极但不追高,中,3911.87,0.94,0.2177,15.44,4.94,"markets,us10y,vix"

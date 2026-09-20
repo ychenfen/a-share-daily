@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 15:40",
+  "generated_at": "2026-09-20 16:09",
   "score": 25,
   "stance": "积极但不追高",
   "color": "#c9211e",
@@ -62,7 +62,7 @@
   "news": [
     {
       "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-      "source": "同花顺财经",
+      "source": "同花顺",
       "published": "Sat, 19 Sep 2026 17:54:48 GMT",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
     },
@@ -97,16 +97,16 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5"
     },
     {
-      "title": "三大央行同步加息！人民币汇率关键突破",
-      "source": "Sohu",
-      "published": "Sat, 19 Sep 2026 09:19:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZWUHh2MVV6VG50YTlNLVh4OFAtcllZc2p1TUNOR2JZaEVCMVd4cHJKcXZjc1VUT2dmRE9XbEc0UkpVWHBCbGxpbFpBWXJ5Yy1jVEJnV2JjSU1saHBVZ3lERGFhNzNNZXBHakIxQUlNclpBTG9iVW1uM3lUc25MeWQwaWt4ZGtWY0pMbw?oc=5"
-    },
-    {
       "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
       "source": "TradingKey",
       "published": "Sat, 19 Sep 2026 19:54:44 GMT",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
+    },
+    {
+      "title": "三大央行同步加息！人民币汇率关键突破",
+      "source": "Sohu",
+      "published": "Sat, 19 Sep 2026 09:19:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZWUHh2MVV6VG50YTlNLVh4OFAtcllZc2p1TUNOR2JZaEVCMVd4cHJKcXZjc1VUT2dmRE9XbEc0UkpVWHBCbGxpbFpBWXJ5Yy1jVEJnV2JjSU1saHBVZ3lERGFhNzNNZXBHakIxQUlNclpBTG9iVW1uM3lUc25MeWQwaWt4ZGtWY0pMbw?oc=5"
     }
   ],
   "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",

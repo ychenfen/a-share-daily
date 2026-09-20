@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20 15:40",
+  "generated_at": "2026-09-20 16:09",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-09-20 15:40",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-09-20 16:09",
+    "slot": "night",
+    "slot_label": "夜间校验",
     "target_date": "2026-09-20",
     "market_data_date": "2026-09-18",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-09-20 15:40",
+    "generated_at": "2026-09-20 16:09",
     "markets": [
       {
         "code": "SPX",
@@ -124,7 +124,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-09-20 15:40",
+    "generated_at": "2026-09-20 16:09",
     "score": 25,
     "stance": "积极但不追高",
     "color": "#c9211e",
@@ -186,7 +186,7 @@
     "news": [
       {
         "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-        "source": "同花顺财经",
+        "source": "同花顺",
         "published": "Sat, 19 Sep 2026 17:54:48 GMT",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
       },
@@ -221,16 +221,16 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwN0VPSjA3Vmc4ci1VYVFQaUNQRGpqNnU5WEo2QlVJNFk2cF9kOTdaUG82NE1qSDc1VktFVmtwVVI3YVNaNTMwSzhnQjBkM3AzbmxRamwyTmlQN2ViaGtLYlpud2hzbHFyNjRQZGJYRG8?oc=5"
       },
       {
-        "title": "三大央行同步加息！人民币汇率关键突破",
-        "source": "Sohu",
-        "published": "Sat, 19 Sep 2026 09:19:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZWUHh2MVV6VG50YTlNLVh4OFAtcllZc2p1TUNOR2JZaEVCMVd4cHJKcXZjc1VUT2dmRE9XbEc0UkpVWHBCbGxpbFpBWXJ5Yy1jVEJnV2JjSU1saHBVZ3lERGFhNzNNZXBHakIxQUlNclpBTG9iVW1uM3lUc25MeWQwaWt4ZGtWY0pMbw?oc=5"
-      },
-      {
         "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
         "source": "TradingKey",
         "published": "Sat, 19 Sep 2026 19:54:44 GMT",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
+      },
+      {
+        "title": "三大央行同步加息！人民币汇率关键突破",
+        "source": "Sohu",
+        "published": "Sat, 19 Sep 2026 09:19:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGZWUHh2MVV6VG50YTlNLVh4OFAtcllZc2p1TUNOR2JZaEVCMVd4cHJKcXZjc1VUT2dmRE9XbEc0UkpVWHBCbGxpbFpBWXJ5Yy1jVEJnV2JjSU1saHBVZ3lERGFhNzNNZXBHakIxQUlNclpBTG9iVW1uM3lUc25MeWQwaWt4ZGtWY0pMbw?oc=5"
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、VIX、美债10Y和新闻标题低权重语气。",
@@ -238,11 +238,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-09-20 15:40",
+    "generated_at": "2026-09-20 16:09",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "collecting",
     "minimum_samples": 20,
-    "signal_count": 1,
+    "signal_count": 2,
     "matured_1d": 0,
     "directional_1d": 0,
     "hit_rate_1d": null,
@@ -279,14 +279,34 @@
       }
     ],
     "current": {
-      "captured_at": "2026-09-20 15:40",
-      "slot": "open",
+      "captured_at": "2026-09-20 16:09",
+      "slot": "night",
       "score": "25",
       "stance": "积极但不追高",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-09-20 16:09",
+        "slot": "night",
+        "signal_date": "2026-09-20",
+        "market_asof_date": "2026-09-18",
+        "score": "25",
+        "stance": "积极但不追高",
+        "confidence": "中",
+        "sh_close": "3911.87",
+        "sh_pct": "0.94",
+        "global_avg": "0.2177",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-09-20 15:40",
         "slot": "open",
