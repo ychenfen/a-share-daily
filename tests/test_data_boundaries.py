@@ -3,7 +3,7 @@ import json
 import sys
 import tempfile
 import unittest
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
@@ -96,6 +96,15 @@ class DataBoundaryTests(unittest.TestCase):
             snapshot.resolve_slot("auto", datetime(2026, 9, 18, 15, 10)),
             "close",
         )
+
+    def test_beijing_timezone_falls_back_without_tzdata(self):
+        with patch.object(
+            snapshot,
+            "ZoneInfo",
+            side_effect=snapshot.ZoneInfoNotFoundError("missing tzdata"),
+        ):
+            tz = snapshot.beijing_tz()
+        self.assertEqual(tz.utcoffset(None), timedelta(hours=8))
 
     def test_pulse_is_idempotent_and_latest_json_is_numeric(self):
         row = {column: "" for column in snapshot.CSV_HEADER}

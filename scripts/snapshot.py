@@ -17,12 +17,20 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
+
+
+def beijing_tz():
+    """返回北京时区；系统缺少 tzdata 时退回固定 UTC+8。"""
+    try:
+        return ZoneInfo("Asia/Shanghai")
+    except ZoneInfoNotFoundError:
+        return timezone(timedelta(hours=8))
 # 就用最朴素的这一个。带 Macintosh/AppleWebKit 的长串反而会被东财的
 # clist 接口直接 RST——那种半截 UA 看着就像爬虫伪装。
 UA = "Mozilla/5.0"
@@ -298,6 +306,8 @@ def fetch_sentiment(date_compact):
 
     # 涨停池要全量拉，才能统计连板梯队
     limit_up, pool = fetch_pool(date_compact, "zt", pagesize=300)
+    if limit_up is None:
+        print("  涨停池取不到，涨停与连板字段留空", file=sys.stderr)
     out["limit_up"] = "" if limit_up is None else limit_up
 
     ladder = {}
@@ -314,9 +324,13 @@ def fetch_sentiment(date_compact):
     out["_ladder"] = ladder
 
     limit_down, _ = fetch_pool(date_compact, "dt")
+    if limit_down is None:
+        print("  跌停池取不到，跌停字段留空", file=sys.stderr)
     out["limit_down"] = "" if limit_down is None else limit_down
 
     broken, _ = fetch_pool(date_compact, "zb")
+    if broken is None:
+        print("  炸板池取不到，炸板与炸板率字段留空", file=sys.stderr)
     out["broken"] = "" if broken is None else broken
 
     # 炸板率 = 炸板 / (涨停 + 炸板)，衡量当天封板的牢固程度
@@ -737,7 +751,7 @@ def workflow_output(name, value):
 
 
 def main():
-    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    now = datetime.now(beijing_tz())
     today = os.environ.get("SNAPSHOT_DATE") or now.strftime("%Y-%m-%d")
     stamp = now.strftime("%Y-%m-%d %H:%M")
     slot = resolve_slot(os.environ.get("SNAPSHOT_SLOT", "auto"), now)
@@ -795,6 +809,8 @@ def main():
     row["amount_yi"] = f"{total:.1f}" if total else ""
 
     breadth = fetch_breadth()
+    if not breadth:
+        print("  涨跌家数取不到，本次对应字段留空", file=sys.stderr)
     row["up"] = breadth.get("up", "")
     row["down"] = breadth.get("down", "")
     row["flat"] = breadth.get("flat", "")
@@ -806,6 +822,8 @@ def main():
         ladder = sentiment.pop("_ladder", {})
         row.update(sentiment)
         gainers, losers = fetch_sectors()
+        if not gainers:
+            print("  板块排行取不到，本次不覆盖 sectors.csv", file=sys.stderr)
 
     pulse_path = append_pulse(row, stamp, slot)
     status["pulse_updated"] = True

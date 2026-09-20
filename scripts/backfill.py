@@ -28,6 +28,7 @@ from snapshot import (  # noqa: E402
     CSV_HEADER,
     DATA_DIR,
     INDEXES,
+    beijing_tz,
     daily_csv_paths,
     fetch,
     render_readme,
@@ -89,7 +90,14 @@ def main():
         try:
             klines[code] = fetch_kline(code, beg)
             print(f"  {name}: {len(klines[code])} 个交易日")
-        except Exception as e:
+        except (
+            OSError,
+            json.JSONDecodeError,
+            RuntimeError,
+            KeyError,
+            IndexError,
+            ValueError,
+        ) as e:
             print(f"  {name} 拉取失败: {e}", file=sys.stderr)
             return 1
 
@@ -147,10 +155,10 @@ def main():
             w = csv.DictWriter(f, fieldnames=CSV_HEADER)
             w.writeheader()
             for row in rows:
-                w.writerows([{col: row.get(col, "") for col in CSV_HEADER}])
+                w.writerow({col: row.get(col, "") for col in CSV_HEADER})
         print(f"  写入 {path.name}: {len(rows)} 行")
 
-    stamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    stamp = datetime.now(beijing_tz()).strftime("%Y-%m-%d %H:%M")
     render_readme(stamp)
     print(f"完成：新增 {added} 个交易日，共更新 {filled} 行")
     return 0
