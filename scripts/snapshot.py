@@ -549,6 +549,7 @@ def render_readme(updated_at):
         "| --- | --- |",
         "| 🫀 四段市场脉搏 | 同一交易日的开盘、午间、收盘、夜间校验，不只是日终一个点 |",
         "| 🧠 情绪温度计 | 涨跌家数、涨停/跌停、炸板率、最高连板和行业强弱 |",
+        "| 🟩 GitHub 风格日历 | 用红绿贡献格复刻近一年市场节奏，适合截图分享 |",
         "| 🧾 Git 原生数据湖 | 每次变化都有 diff，可追溯、可回滚，CSV/JSON 直接用于研究 |",
         "| 🪶 零第三方依赖 | 只用 Python 标准库和 GitHub Actions，Fork 后无需服务器 |",
         "| 🛡️ 质量门禁 | 每次推送前跑回归测试、schema 和重复日期检查 |",
@@ -557,6 +558,7 @@ def render_readme(updated_at):
 
     # 图表由 scripts/chart.py 生成，没生成过就不要在 README 里留坏图链接
     charts = [
+        ("近一年 A 股涨跌日历", "charts/market_calendar.svg"),
         ("上证指数", "charts/sh000001.svg"),
         ("创业板指", "charts/sz399006.svg"),
     ]

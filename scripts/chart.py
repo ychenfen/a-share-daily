@@ -16,6 +16,7 @@ SVG 是当图片渲染的，内嵌样式表会被剥掉。
 import argparse
 import csv
 import sys
+from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -33,6 +34,12 @@ INK = "#57606a"       # 文字，明暗主题都可读
 GRID = "#d0d7de"      # 网格
 LINE = "#c9211e"      # A股习惯红色代表涨
 BAR = "#8c959f"
+
+CAL_CELL = 10
+CAL_GAP = 3
+CAL_LEFT = 34
+CAL_TOP = 30
+CAL_EMPTY = "#d0d7de"
 
 
 def load_rows(days):
@@ -151,6 +158,105 @@ def build_svg(rows, name, label):
     return "\n".join(out)
 
 
+def market_color(pct):
+    """A 股配色：上涨红、下跌绿，幅度越大颜色越深。"""
+    if pct >= 2:
+        return "#a40e26"
+    if pct >= 1:
+        return "#d73045"
+    if pct > 0:
+        return "#f29a9a"
+    if pct == 0:
+        return "#8c959f"
+    if pct > -1:
+        return "#8fd0a8"
+    if pct > -2:
+        return "#3b9b68"
+    return "#08783e"
+
+
+def build_market_calendar(rows):
+    """生成 GitHub contribution graph 风格的近一年上证涨跌日历。"""
+    values = {}
+    for row in rows:
+        date_text = row.get("date")
+        pct = row.get("上证指数_pct")
+        if not date_text or pct in (None, ""):
+            continue
+        try:
+            values[datetime.strptime(date_text, "%Y-%m-%d").date()] = float(pct)
+        except ValueError:
+            continue
+    if not values:
+        return None
+
+    last_day = max(values)
+    first_day = last_day - timedelta(days=364)
+    grid_start = first_day - timedelta(days=first_day.weekday())
+    grid_end = last_day + timedelta(days=6 - last_day.weekday())
+    weeks = (grid_end - grid_start).days // 7 + 1
+    step = CAL_CELL + CAL_GAP
+    width = CAL_LEFT + weeks * step + 128
+    height = CAL_TOP + 7 * step + 38
+
+    out = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'viewBox="0 0 {width} {height}" '
+        'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">',
+        f'<text x="{CAL_LEFT}" y="13" font-size="12" fill="{INK}">'
+        f'A 股涨跌日历　{first_day} ~ {last_day}　上证指数</text>',
+    ]
+
+    # 月份标签按每周的周一定位，避免跨月日期挤在一起。
+    previous_month = None
+    for week in range(weeks):
+        monday = grid_start + timedelta(days=week * 7)
+        if monday.month != previous_month:
+            x = CAL_LEFT + week * step
+            out.append(
+                f'<text x="{x}" y="26" font-size="10" fill="{INK}">'
+                f'{monday.month}月</text>'
+            )
+            previous_month = monday.month
+
+    for label, weekday in (("一", 0), ("三", 2), ("五", 4)):
+        y = CAL_TOP + weekday * step + CAL_CELL - 1
+        out.append(
+            f'<text x="{CAL_LEFT - 8}" y="{y}" font-size="9" fill="{INK}" '
+            f'text-anchor="end">{label}</text>'
+        )
+
+    day = grid_start
+    while day <= grid_end:
+        week = (day - grid_start).days // 7
+        x = CAL_LEFT + week * step
+        y = CAL_TOP + day.weekday() * step
+        pct = values.get(day)
+        color = market_color(pct) if pct is not None else CAL_EMPTY
+        opacity = "1" if pct is not None else "0.35"
+        title = f"{day}　休市" if pct is None else f"{day}　上证 {pct:+.2f}%"
+        out.append(
+            f'<rect x="{x}" y="{y}" width="{CAL_CELL}" height="{CAL_CELL}" '
+            f'rx="2" fill="{color}" opacity="{opacity}"><title>{title}</title></rect>'
+        )
+        day += timedelta(days=1)
+
+    legend_y = CAL_TOP + 7 * step + 20
+    legend_x = width - 120
+    out.append(f'<text x="{legend_x - 6}" y="{legend_y + 8}" font-size="9" fill="{INK}" text-anchor="end">跌</text>')
+    legend = [(-2.1, "≤-2%"), (-1.1, ""), (-0.1, ""), (0.1, ""), (1.1, ""), (2.1, "≥2%")]
+    for i, (pct, _) in enumerate(legend):
+        x = legend_x + i * step
+        out.append(
+            f'<rect x="{x}" y="{legend_y}" width="{CAL_CELL}" height="{CAL_CELL}" '
+            f'rx="2" fill="{market_color(pct)}"/>'
+        )
+    out.append(f'<text x="{legend_x + len(legend) * step + 1}" y="{legend_y + 8}" font-size="9" fill="{INK}">涨</text>')
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=250, help="画最近几个交易日")
@@ -170,6 +276,12 @@ def main():
             continue
         path = CHART_DIR / f"{code}.svg"
         path.write_text(svg, encoding="utf-8")
+        written.append(path.name)
+
+    calendar = build_market_calendar(rows)
+    if calendar:
+        path = CHART_DIR / "market_calendar.svg"
+        path.write_text(calendar, encoding="utf-8")
         written.append(path.name)
 
     # 首次生成图表时 snapshot.py 已经跑完了，那会儿 charts/ 还不存在，
