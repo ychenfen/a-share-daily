@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21 22:01",
+  "generated_at": "2026-09-22 02:13",
   "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
   "status": "collecting",
   "minimum_samples": 20,
-  "signal_count": 12,
+  "signal_count": 13,
   "matured_1d": 10,
   "directional_1d": 10,
   "hit_rate_1d": 100.0,
@@ -41,14 +41,39 @@
     }
   ],
   "current": {
-    "captured_at": "2026-09-21 22:01",
-    "slot": "close",
-    "score": "33",
+    "captured_at": "2026-09-22 02:13",
+    "slot": "night",
+    "score": "35",
     "stance": "积极但不追高",
     "confidence": "中",
-    "health": "markets,news,us10y,vix"
+    "health": "markets,us10y,vix"
   },
   "recent": [
+    {
+      "captured_at": "2026-09-22 02:13",
+      "slot": "night",
+      "signal_date": "2026-09-22",
+      "market_asof_date": "2026-09-21",
+      "score": "35",
+      "stance": "积极但不追高",
+      "confidence": "中",
+      "sh_close": "3949.91",
+      "sh_pct": "0.97",
+      "global_avg": "1.3377",
+      "a50_pct": "0.2882272416153464",
+      "usdcnh": "6.6926",
+      "usdcnh_pct": "-0.044805543939308023",
+      "dxy": "100.4111",
+      "dxy_pct": "0.180584475122747",
+      "vix": "15.44",
+      "us10y": "4.94",
+      "health": "markets,us10y,vix",
+      "return_1d": null,
+      "return_3d": null,
+      "return_5d": null,
+      "direction": 1,
+      "hit_1d": null
+    },
     {
       "captured_at": "2026-09-21 22:01",
       "slot": "close",

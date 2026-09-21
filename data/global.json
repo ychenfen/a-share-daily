@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21 22:01",
+  "generated_at": "2026-09-22 02:13",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7708.4,
-      "pct": 0.76,
-      "change": 57.9,
+      "close": 7762.69,
+      "pct": 1.47,
+      "change": 112.19,
       "previous_close": 7650.5,
-      "quote_time": "2026-09-21 10:01:20",
+      "quote_time": "2026-09-21 14:13:39",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 26861.14,
-      "pct": 1.28,
-      "change": 338.59,
+      "close": 27089.9,
+      "pct": 2.14,
+      "change": 567.35,
       "previous_close": 26522.55,
-      "quote_time": "2026-09-21 10:01:20",
+      "quote_time": "2026-09-21 14:13:39",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 51801.85,
-      "pct": 0.23,
-      "change": 119.21,
+      "close": 52016.94,
+      "pct": 0.65,
+      "change": 334.3,
       "previous_close": 51682.64,
-      "quote_time": "2026-09-21 10:01:20",
+      "quote_time": "2026-09-21 14:13:40",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 88.95,
-      "pct": 0.84,
-      "change": 0.74,
+      "close": 89.28,
+      "pct": 1.21,
+      "change": 1.07,
       "previous_close": 88.21,
-      "quote_time": "2026-09-21 10:01:20",
+      "quote_time": "2026-09-21 14:13:38",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 14618.83,
-      "pct": 0.06043805612594433,
-      "change": 8.829999999999927,
+      "close": 14652.11,
+      "pct": 0.2882272416153464,
+      "change": 42.11000000000058,
       "previous_close": 14610.0,
-      "quote_time": "2026-09-21 22:01:49",
+      "quote_time": "2026-09-22 02:14:13",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.6925,
-      "pct": -0.04629906207060941,
-      "change": -0.0030999999999998806,
+      "close": 6.6926,
+      "pct": -0.044805543939308023,
+      "change": -0.0030000000000001137,
       "previous_close": 6.6956,
-      "quote_time": "2026-09-21 22:01:42",
+      "quote_time": "2026-09-22 02:14:07",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 100.3751,
-      "pct": 0.14466712095468903,
-      "change": 0.14500000000001023,
+      "close": 100.4111,
+      "pct": 0.180584475122747,
+      "change": 0.1810000000000116,
       "previous_close": 100.2301,
-      "quote_time": "2026-09-21 22:01:50",
+      "quote_time": "2026-09-22 02:14:08",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4381.46,
-      "pct": -0.9817171009514292,
-      "change": -43.4399999999996,
+      "close": 4386.244,
+      "pct": -0.8736016633144272,
+      "change": -38.65599999999995,
       "previous_close": 4424.9,
-      "quote_time": "2026-09-21 22:01:52",
+      "quote_time": "2026-09-22 02:14:11",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 92.531,
-      "pct": -3.69379683597002,
-      "change": -3.5489999999999924,
+      "close": 92.164,
+      "pct": -4.075770191507077,
+      "change": -3.915999999999997,
       "previous_close": 96.08,
-      "quote_time": "2026-09-21 22:01:52",
+      "quote_time": "2026-09-22 02:14:16",
       "stale": false
     }
   ],
@@ -168,7 +168,7 @@
       "status": "stale"
     },
     "news": {
-      "status": "stale"
+      "status": "fresh"
     }
   },
   "sources": {

@@ -8,9 +8,9 @@
 <text x="1142" y="62" fill="#9aa5ad" font-size="13" text-anchor="end" letter-spacing="2">DAILY MARKET BRIEF / 每日市场简报</text>
 <line x1="58" y1="86" x2="1142" y2="86" stroke="#273037"/>
 <text x="58" y="132" fill="#9aa5ad" font-size="13" letter-spacing="2">CROSS-MARKET RISK TEMPERATURE</text>
-<text x="52" y="286" fill="#ff5148" font-size="168" font-weight="800" letter-spacing="-12">+33</text>
+<text x="52" y="286" fill="#ff5148" font-size="168" font-weight="800" letter-spacing="-12">+35</text>
 <text x="58" y="336" fill="#f2ede4" font-size="38" font-weight="700">积极但不追高</text>
-<text x="58" y="370" fill="#9aa5ad" font-size="14">CONFIDENCE / 中　UPDATED / 2026-09-21 22:01 CST</text>
+<text x="58" y="370" fill="#9aa5ad" font-size="14">CONFIDENCE / 中　UPDATED / 2026-09-22 02:13 CST</text>
 <line x1="446" y1="118" x2="446" y2="382" stroke="#273037"/>
 <text x="486" y="134" fill="#9aa5ad" font-size="12" letter-spacing="2">A-SHARE CLOSE</text>
 <text x="486" y="184" fill="#f2ede4" font-size="39" font-weight="700">3,949.91</text>
@@ -23,11 +23,11 @@
 <text x="856" y="350" fill="#9aa5ad" font-size="14">炸板率 19.5%</text>
 <line x1="58" y1="408" x2="1142" y2="408" stroke="#273037"/>
 <text x="58" y="442" fill="#9aa5ad" font-size="12" letter-spacing="1.5">S&amp;P 500</text>
-<text x="58" y="478" fill="#ff5148" font-size="27" font-weight="700">+0.76%</text>
+<text x="58" y="478" fill="#ff5148" font-size="27" font-weight="700">+1.47%</text>
 <text x="314" y="442" fill="#68737b" font-size="10" text-anchor="end">LATEST</text>
 <line x1="321" y1="424" x2="321" y2="486" stroke="#273037"/>
 <text x="329" y="442" fill="#9aa5ad" font-size="12" letter-spacing="1.5">NASDAQ</text>
-<text x="329" y="478" fill="#ff5148" font-size="27" font-weight="700">+1.28%</text>
+<text x="329" y="478" fill="#ff5148" font-size="27" font-weight="700">+2.14%</text>
 <text x="585" y="442" fill="#68737b" font-size="10" text-anchor="end">LATEST</text>
 <line x1="592" y1="424" x2="592" y2="486" stroke="#273037"/>
 <text x="600" y="442" fill="#9aa5ad" font-size="12" letter-spacing="1.5">NIKKEI</text>
@@ -40,19 +40,19 @@
 <line x1="58" y1="500" x2="1142" y2="500" stroke="#273037"/>
 <text x="58" y="527" fill="#9aa5ad" font-size="10" font-weight="700" letter-spacing="1.2">CROSS ASSETS</text>
 <text x="218" y="516" fill="#68737b" font-size="9" letter-spacing="1">A50</text>
-<text x="218" y="537" fill="#ff5148" font-size="13" font-weight="700">14,618.83 / +0.06%</text>
+<text x="218" y="537" fill="#ff5148" font-size="13" font-weight="700">14,652.11 / +0.29%</text>
 <text x="402" y="516" fill="#68737b" font-size="9" letter-spacing="1">CNH</text>
-<text x="402" y="537" fill="#2cc17a" font-size="13" font-weight="700">6.6925 / -0.05%</text>
+<text x="402" y="537" fill="#2cc17a" font-size="13" font-weight="700">6.6926 / -0.04%</text>
 <text x="586" y="516" fill="#68737b" font-size="9" letter-spacing="1">DXY</text>
-<text x="586" y="537" fill="#ff5148" font-size="13" font-weight="700">100.38 / +0.14%</text>
+<text x="586" y="537" fill="#ff5148" font-size="13" font-weight="700">100.41 / +0.18%</text>
 <text x="770" y="516" fill="#68737b" font-size="9" letter-spacing="1">GOLD</text>
-<text x="770" y="537" fill="#2cc17a" font-size="13" font-weight="700">4,381.46 / -0.98%</text>
+<text x="770" y="537" fill="#2cc17a" font-size="13" font-weight="700">4,386.24 / -0.87%</text>
 <text x="954" y="516" fill="#68737b" font-size="9" letter-spacing="1">WTI</text>
-<text x="954" y="537" fill="#2cc17a" font-size="13" font-weight="700">92.53 / -3.69%</text>
+<text x="954" y="537" fill="#2cc17a" font-size="13" font-weight="700">92.16 / -4.08%</text>
 <rect x="58" y="550" width="1084" height="34" fill="#101519" stroke="#273037"/>
 <text x="78" y="572" fill="#e9c86f" font-size="10" font-weight="700" letter-spacing="1.2">RESEARCH NOTE</text>
 <text x="218" y="572" fill="#f2ede4" font-size="14">关注强势行业能否在下一交易日继续获得成交额与市场宽度支持。</text>
-<text x="58" y="610" fill="#68737b" font-size="10">MARKETS PARTIAL · CROSS FRESH · VIX STALE · US10Y STALE · NEWS STALE · RESEARCH ONLY, NOT INVESTMENT ADVICE</text>
+<text x="58" y="610" fill="#68737b" font-size="10">MARKETS PARTIAL · CROSS FRESH · VIX STALE · US10Y STALE · NEWS FRESH · RESEARCH ONLY, NOT INVESTMENT ADVICE</text>
 <text x="1142" y="610" fill="#9aa5ad" font-size="11" text-anchor="end">ychenfen.github.io/a-share-daily</text>
 </g>
 </svg>

@@ -1,14 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-21 22:01",
-  "slot": "close",
-  "slot_label": "收盘快照",
-  "target_date": "2026-09-21",
+  "checked_at": "2026-09-22 02:13",
+  "slot": "night",
+  "slot_label": "夜间校验",
+  "target_date": "2026-09-22",
   "market_data_date": "2026-09-21",
-  "market_state": "closed",
-  "pulse_updated": true,
-  "daily_updated": true,
-  "pulse_file": "data/pulses/2026-09.csv",
-  "daily_file": "data/2026.csv",
-  "message": "收盘快照已更新"
+  "market_state": "non_trading",
+  "pulse_updated": false,
+  "daily_updated": false,
+  "message": "目标日未开市或尚未产生行情，最近交易日 2026-09-21"
 }
