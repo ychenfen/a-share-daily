@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-21 15:52",
-  "slot": "open",
-  "slot_label": "开盘脉搏",
+  "checked_at": "2026-09-21 17:15",
+  "slot": "midday",
+  "slot_label": "午间脉搏",
   "target_date": "2026-09-21",
   "market_data_date": "2026-09-21",
   "market_state": "live",
   "pulse_updated": true,
   "daily_updated": false,
   "pulse_file": "data/pulses/2026-09.csv",
-  "message": "开盘脉搏已更新"
+  "message": "午间脉搏已更新"
 }
