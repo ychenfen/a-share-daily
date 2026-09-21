@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21 17:15",
+  "generated_at": "2026-09-21 22:01",
   "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
   "status": "collecting",
   "minimum_samples": 20,
-  "signal_count": 11,
-  "matured_1d": 0,
-  "directional_1d": 0,
-  "hit_rate_1d": null,
+  "signal_count": 12,
+  "matured_1d": 10,
+  "directional_1d": 10,
+  "hit_rate_1d": 100.0,
   "average_return": {
-    "1d": null,
+    "1d": 0.97,
     "3d": null,
     "5d": null
   },
@@ -31,24 +31,49 @@
     },
     {
       "label": "谨慎偏多",
-      "count": 0,
-      "avg_1d_pct": null
+      "count": 6,
+      "avg_1d_pct": 0.97
     },
     {
       "label": "积极",
-      "count": 0,
-      "avg_1d_pct": null
+      "count": 4,
+      "avg_1d_pct": 0.97
     }
   ],
   "current": {
-    "captured_at": "2026-09-21 17:15",
-    "slot": "midday",
-    "score": "22",
-    "stance": "谨慎偏多",
+    "captured_at": "2026-09-21 22:01",
+    "slot": "close",
+    "score": "33",
+    "stance": "积极但不追高",
     "confidence": "中",
-    "health": "markets,us10y,vix"
+    "health": "markets,news,us10y,vix"
   },
   "recent": [
+    {
+      "captured_at": "2026-09-21 22:01",
+      "slot": "close",
+      "signal_date": "2026-09-21",
+      "market_asof_date": "2026-09-21",
+      "score": "33",
+      "stance": "积极但不追高",
+      "confidence": "中",
+      "sh_close": "3949.91",
+      "sh_pct": "0.97",
+      "global_avg": "0.9444",
+      "a50_pct": "0.06043805612594433",
+      "usdcnh": "6.6925",
+      "usdcnh_pct": "-0.04629906207060941",
+      "dxy": "100.3751",
+      "dxy_pct": "0.14466712095468903",
+      "vix": "15.44",
+      "us10y": "4.94",
+      "health": "markets,news,us10y,vix",
+      "return_1d": null,
+      "return_3d": null,
+      "return_5d": null,
+      "direction": 1,
+      "hit_1d": null
+    },
     {
       "captured_at": "2026-09-21 17:15",
       "slot": "midday",
@@ -68,11 +93,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-21 15:52",
@@ -93,11 +118,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-21 08:15",
@@ -118,11 +143,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-21 00:14",
@@ -168,11 +193,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "news",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-20 20:16",
@@ -193,11 +218,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-20 17:20",
@@ -218,11 +243,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-20 16:47",
@@ -243,11 +268,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-20 16:15",
@@ -268,11 +293,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-20 16:09",
@@ -293,11 +318,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     },
     {
       "captured_at": "2026-09-20 15:40",
@@ -318,11 +343,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.97,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": true
     }
   ],
   "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
