@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21 00:14",
+  "generated_at": "2026-09-21 08:15",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-09-21 00:14",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-09-21 08:15",
+    "slot": "overnight",
+    "slot_label": "外围收盘",
     "target_date": "2026-09-21",
     "market_data_date": "2026-09-18",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-09-21 00:14",
+    "generated_at": "2026-09-21 08:15",
     "markets": [
       {
         "code": "SPX",
@@ -110,11 +110,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.6943,
-        "pct": -0.14171067155941408,
-        "change": -0.009500000000000064,
-        "previous_close": 6.7038,
-        "quote_time": "2026-09-19 04:59:59",
+        "close": 6.6941,
+        "pct": -0.022402771969654012,
+        "change": -0.0015000000000000568,
+        "previous_close": 6.6956,
+        "quote_time": "2026-09-21 08:15:58",
         "stale": false
       },
       {
@@ -123,11 +123,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 100.2167,
-        "pct": -0.005487806094850445,
-        "change": -0.00549999999999784,
-        "previous_close": 100.2222,
-        "quote_time": "2026-09-19 04:59:00",
+        "close": 100.2689,
+        "pct": 0.038710926158924686,
+        "change": 0.03880000000000905,
+        "previous_close": 100.2301,
+        "quote_time": "2026-09-21 08:15:59",
         "stale": false
       },
       {
@@ -136,11 +136,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 4418.56,
-        "pct": 0.42866559083574174,
-        "change": 18.860000000000582,
-        "previous_close": 4399.7,
-        "quote_time": "2026-09-19 04:59:59",
+        "close": 4401.9,
+        "pct": -0.5197857578702392,
+        "change": -23.0,
+        "previous_close": 4424.9,
+        "quote_time": "2026-09-21 08:16:04",
         "stale": false
       },
       {
@@ -149,11 +149,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 95.412,
-        "pct": -1.8697932736809642,
-        "change": -1.8179999999999978,
-        "previous_close": 97.23,
-        "quote_time": "2026-09-19 04:59:58",
+        "close": 95.691,
+        "pct": -0.4048709408825957,
+        "change": -0.3889999999999958,
+        "previous_close": 96.08,
+        "quote_time": "2026-09-21 08:16:05",
         "stale": false
       }
     ],
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-09-21 00:14",
-    "score": 19,
+    "generated_at": "2026-09-21 08:15",
+    "score": 22,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -234,8 +234,8 @@
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.6943 (-0.14%) / DXY 100.22 (-0.01%)",
-        "contribution": 1.7,
+        "value": "USD/CNH 6.6941 (-0.02%) / DXY 100.27 (+0.04%)",
+        "contribution": 0.1,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 2 / 风险词 6",
-        "contribution": -8,
+        "value": "正向词 1 / 风险词 3",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -261,16 +261,28 @@
       "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
     ],
     "news_tone": {
-      "positive_hits": 2,
-      "negative_hits": 6,
-      "score": -8
+      "positive_hits": 1,
+      "negative_hits": 3,
+      "score": -4
     },
     "news": [
       {
-        "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-        "source": "同花顺",
-        "published": "Sat, 19 Sep 2026 17:54:48 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
+        "title": "美股收盘：AI芯片股爆发推动纳指走高 华尔街告别动荡一周",
+        "source": "财联社",
+        "published": "Sun, 20 Sep 2026 22:43:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBneTJqMEtUazdhd0FBQ3NvcDhPcWtpX2VWQm1uTmlackowV08xQ2h1MGhrZzE2cmxPUURlaUVucVdOZHEyX1VISw?oc=5"
+      },
+      {
+        "title": "牛津经济研究院彭天琛：美联储12月或再加息，中短期看多科技股",
+        "source": "21财经",
+        "published": "Sun, 20 Sep 2026 10:25:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYjlNa3c2ZEM0dTVIMTkyQkxrQ1huSDI4WGp0eDVYVnJ3VkZVRUtsUWh4dVJJTHJZQlBldEl1TFltRTlsYzJ5V0ttVUJxelJrMUF0WWtTMVFwVkVlbWczOWsxNnZyYnhycnZKaC1jb0FFbXFtOFdrRGhTMUtvWFpHaThYWkFVYnpVaTV4bGlwWQ?oc=5"
+      },
+      {
+        "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
+        "source": "财联社",
+        "published": "Sun, 20 Sep 2026 17:06:50 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
       },
       {
         "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
@@ -285,41 +297,29 @@
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZU9wMll3dEV5ZzJXaDc0YnY4NUJ4TGU3SGwwZWhkRXpNQ1BSQ3plclNEdFdUbEtWX1JHOHNDR3N1UURhR2FuM2twMmlNQW1SZzNXU2dNSmZlVnMtRXpvOUhrOTJFZ00zeFV0XzNYdVpMZ1J2cjdGVm11VGxmWC1PS3JGbkVFanQyZnI5Y1EybjV4LTIzSUxoNVprTjY2dU1LZWxYZkRSeEhrOV9La1E?oc=5"
       },
       {
+        "title": "美联储刚加完息，日本央行又要“跟牌”：真正要怕的不是美元，是日元套息平仓",
+        "source": "Sohu",
+        "published": "Sun, 20 Sep 2026 16:05:28 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcUVwLW1LQkgtXy13d3lOdmp2c0pzN3VrMnZBS1BpUG1yTHFSWjZwY1dNRk5vYVo5Sm9IdGh4S2U2Y0c1SUtESFBYQllzQVptaTh6aENjMWRIeTZQVnRJTmVvSjNocldMZE9hSTFFUXJ6WUtLV1F0MG1zVG43a2Fna3F1LVM4Y2ZKd2ZmZw?oc=5"
+      },
+      {
+        "title": "【宏观】海外市场周度回顾与展望",
+        "source": "QQ News",
+        "published": "Sun, 20 Sep 2026 02:19:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XZHV3YkU2Zno0cnRJamhwd3NsQjNyMEhVbnFFcFA0ZzJhdG1ick9DUUZ2M24tdnBLVlpZWEFSampoVkdITVdBTjhJdVp6b3Jla25nN1B3?oc=5"
+      },
+      {
         "title": "全球央行再同步加息，科技股却成最抗压资产！",
         "source": "富途牛牛",
         "published": "Sun, 20 Sep 2026 04:30:21 GMT",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5"
-      },
-      {
-        "title": "小摩研报解读：全球加息重启，股市仍由企业盈利锚定",
-        "source": "深潮TechFlow",
-        "published": "Sun, 20 Sep 2026 05:04:23 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fNnZHWGFFUWt1WmwwcVpoQ2pFa2lya3M4anBFanE5cXp1YTl5alFpSXcwemsyWkdRSjhCTlpUWXRDdjV4X0J1cVdwRXB1bUZwSGxsYg?oc=5"
-      },
-      {
-        "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
-        "source": "TradingKey",
-        "published": "Sat, 19 Sep 2026 19:54:44 GMT",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
-      },
-      {
-        "title": "【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱",
-        "source": "FX168财经",
-        "published": "Sat, 19 Sep 2026 16:42:11 GMT",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5"
-      },
-      {
-        "title": "高盛：市场“定价4次加息”过于悲观，年底有“全资产上涨”交易窗口",
-        "source": "富途牛牛",
-        "published": "Sun, 20 Sep 2026 04:55:29 GMT",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUZra29RcUZac0dGMjRfSnpnR2hkR0J6ekVXRTlyQ0wwUUgtSnJEdDlEeGZBZEk4SkNlaE53bnYzNkp1LWc2WHlwdFBWVnZLVHFTV0J5czhUMVl1Q0dFa3VTMXIwZnlKZmgwS0t5Z1VDcm5jeUxoeWJhRHUybnVsd2prVUdkaEVJOXRveW80SlMxdGd6eGVDQkNGUQ?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 7,
+        "headline_count": 5,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -332,22 +332,22 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "100.22 / -0.01%",
+            "value": "100.27 / +0.04%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6943 / -0.14%",
+            "value": "6.6941 / -0.02%",
             "state": "fresh"
           }
         ],
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
-            "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-            "source": "同花顺",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
+            "title": "牛津经济研究院彭天琛：美联储12月或再加息，中短期看多科技股",
+            "source": "21财经",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYjlNa3c2ZEM0dTVIMTkyQkxrQ1huSDI4WGp0eDVYVnJ3VkZVRUtsUWh4dVJJTHJZQlBldEl1TFltRTlsYzJ5V0ttVUJxelJrMUF0WWtTMVFwVkVlbWczOWsxNnZyYnhycnZKaC1jb0FFbXFtOFdrRGhTMUtvWFpHaThYWkFVYnpVaTV4bGlwWQ?oc=5"
           },
           {
             "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
@@ -385,34 +385,34 @@
         "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
         "headlines": [
           {
-            "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-            "source": "同花顺",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
+            "title": "美股收盘：AI芯片股爆发推动纳指走高 华尔街告别动荡一周",
+            "source": "财联社",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBneTJqMEtUazdhd0FBQ3NvcDhPcWtpX2VWQm1uTmlackowV08xQ2h1MGhrZzE2cmxPUURlaUVucVdOZHEyX1VISw?oc=5"
           },
           {
-            "title": "全球央行再同步加息，科技股却成最抗压资产！",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZDFZQVZ0Mmt5cmRiT1RNajVNaTFaeUhPbEVKaFNNXzI3a1dGM2Z2QU9UMU1TNFVKbnNfTGR1UXBiSEtwVldhU1d5allaN2NQMk1NYWhLcEdCTTZhN3U5ZEtEemtzTXJ2SDJOSWl1UE1TRE9BYm5hZkZOLThmeUQwc181QmNJOW1vSUJITjNaamxwYVMtOUZtX284aWlTNGdCczUtZlRVRQ?oc=5"
+            "title": "牛津经济研究院彭天琛：美联储12月或再加息，中短期看多科技股",
+            "source": "21财经",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYjlNa3c2ZEM0dTVIMTkyQkxrQ1huSDI4WGp0eDVYVnJ3VkZVRUtsUWh4dVJJTHJZQlBldEl1TFltRTlsYzJ5V0ttVUJxelJrMUF0WWtTMVFwVkVlbWczOWsxNnZyYnhycnZKaC1jb0FFbXFtOFdrRGhTMUtvWFpHaThYWkFVYnpVaTV4bGlwWQ?oc=5"
           }
         ]
       },
       {
         "key": "commodities",
         "label": "商品与成本",
-        "headline_count": 2,
+        "headline_count": 1,
         "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
         "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
         "watch": [
           {
             "code": "WTI",
             "label": "原油",
-            "value": "95.41 / -1.87%",
+            "value": "95.69 / -0.40%",
             "state": "fresh"
           },
           {
             "code": "GOLD",
             "label": "黄金",
-            "value": "4,418.56 / +0.43%",
+            "value": "4,401.90 / -0.52%",
             "state": "fresh"
           },
           {
@@ -428,11 +428,6 @@
             "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
             "source": "金十数据",
             "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-          },
-          {
-            "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
-            "source": "TradingKey",
-            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
           }
         ]
       },
@@ -446,13 +441,13 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "100.22 / -0.01%",
+            "value": "100.27 / +0.04%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6943 / -0.14%",
+            "value": "6.6941 / -0.02%",
             "state": "fresh"
           },
           {
@@ -465,44 +460,9 @@
         "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
         "headlines": [
           {
-            "title": "【直击亚市】今晚摊牌！美联储加息概率超90%，小心美元事后走弱",
-            "source": "FX168财经",
-            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xNzB3V0ZsTVRSU2xWMlNIbHBrN21FUnNrTVhtejVPUEx1cHIxOTJSUUJMNFlkRUlCM1BjeXJ4QXpPeWVzYWZtQTk3cWpVeFBYaVEyQkJGbXBjT0tNNHdySWNleTZyZU5vRnZSQjlFOWlVbS1ZYTdDaA?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "domestic_policy",
-        "label": "国内政策与需求",
-        "headline_count": 1,
-        "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-        "a_share_lens": "金融地产、基建、消费与顺周期方向",
-        "watch": [
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "14,484.50 / +0.02%",
-            "state": "fresh"
-          },
-          {
-            "code": "HSI",
-            "label": "恒生指数",
-            "value": "24,750.78 / +0.60%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6943 / -0.14%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-        "headlines": [
-          {
-            "title": "欧洲、日本集体加息，“低利率时代结束”！科技股要跌？专家：美国房地产等可能先承压！高盛",
-            "source": "同花顺",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWDhidnhmbTh0Z1ZSSTlwZ3Q4eFpvb21Kd3Y4WlRCbVluQlRveWVwQWw1Ui00elF2TmNocGo4eFdoWW1YZmlVMVZWZjRidENyM0JtOTNIbC1xX1hUQlhZZTln?oc=5"
+            "title": "美联储刚加完息，日本央行又要“跟牌”：真正要怕的不是美元，是日元套息平仓",
+            "source": "Sohu",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcUVwLW1LQkgtXy13d3lOdmp2c0pzN3VrMnZBS1BpUG1yTHFSWjZwY1dNRk5vYVo5Sm9IdGh4S2U2Y0c1SUtESFBYQllzQVptaTh6aENjMWRIeTZQVnRJTmVvSjNocldMZE9hSTFFUXJ6WUtLV1F0MG1zVG43a2Fna3F1LVM4Y2ZKd2ZmZw?oc=5"
           }
         ]
       }
@@ -512,11 +472,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-09-21 00:14",
+    "generated_at": "2026-09-21 08:15",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "collecting",
     "minimum_samples": 20,
-    "signal_count": 8,
+    "signal_count": 9,
     "matured_1d": 0,
     "directional_1d": 0,
     "hit_rate_1d": null,
@@ -553,14 +513,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-09-21 00:14",
-      "slot": "night",
-      "score": "19",
+      "captured_at": "2026-09-21 08:15",
+      "slot": "overnight",
+      "score": "22",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-09-21 08:15",
+        "slot": "overnight",
+        "signal_date": "2026-09-21",
+        "market_asof_date": "2026-09-18",
+        "score": "22",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3911.87",
+        "sh_pct": "0.94",
+        "global_avg": "0.2177",
+        "a50_pct": "0.017262809004270352",
+        "usdcnh": "6.6941",
+        "usdcnh_pct": "-0.022402771969654012",
+        "dxy": "100.2689",
+        "dxy_pct": "0.038710926158924686",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-09-21 00:14",
         "slot": "night",
