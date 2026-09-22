@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-22 08:49",
-  "slot": "overnight",
-  "slot_label": "外围收盘",
+  "checked_at": "2026-09-22 15:37",
+  "slot": "open",
+  "slot_label": "开盘脉搏",
   "target_date": "2026-09-22",
-  "market_data_date": "2026-09-21",
-  "market_state": "non_trading",
-  "pulse_updated": false,
+  "market_data_date": "2026-09-22",
+  "market_state": "live",
+  "pulse_updated": true,
   "daily_updated": false,
-  "message": "目标日未开市或尚未产生行情，最近交易日 2026-09-21"
+  "pulse_file": "data/pulses/2026-09.csv",
+  "message": "开盘脉搏已更新"
 }

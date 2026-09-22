@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22 08:49",
-  "score": 34,
+  "generated_at": "2026-09-22 15:37",
+  "score": 31,
   "stance": "积极但不追高",
   "color": "#c9211e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +1.36%",
-      "contribution": 9.6,
+      "value": "6 个市场均值 +1.18%",
+      "contribution": 8.3,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.30%",
+      "value": "富时 A50 +0.31%",
       "contribution": 1.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6916 (-0.01%) / DXY 100.37 (-0.05%)",
-      "contribution": 0.4,
+      "value": "USD/CNH 6.6992 (+0.10%) / DXY 100.49 (+0.07%)",
+      "contribution": -1.6,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 6",
+      "value": "正向词 0 / 风险词 7",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -68,15 +68,27 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 6,
+    "negative_hits": 7,
     "score": -8
   },
   "news": [
     {
       "title": "策略师：美联储“鹰派加息”施压亚洲市场 日元首当其冲",
-      "source": "财联社",
+      "source": "cls.cn",
       "published": "Mon, 21 Sep 2026 13:34:51 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoUW5IdWZyY0YyZVppNFM2RWVjZzltVEM2MFZHZVN0S1dnYzhmcFo5NnhqdXpjUnVGc29yQ0JwWmNPSmpRMnE0aQ?oc=5"
+    },
+    {
+      "title": "股市会脱轨吗？美日欧央行同步紧缩 德银警告：全球“加息潮”或超预期",
+      "source": "Moomoo",
+      "published": "Tue, 22 Sep 2026 01:34:27 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMDBVbk1Ucm5HUVI5UHUwR3ZFUmhzYVJJcWJJenJWMGEzSnNuM3d3YzdZR0hsdWN2d3lIQ1V3UkJRWDdmOE80MDNPR0ZHT3JXSG5SZEFMOWwtWmFGc2poUnlhT3RENHpyNmZZMEJpTWdtaHoyOVZLU09zb2VERWQ5RmJBU3JrSGVJZzhZMGpjQS02WjgzR3VwTUtZVUc?oc=5"
+    },
+    {
+      "title": "超级央行周落地：中东点燃全球加息潮，中国为何成“例外”？",
+      "source": "中华网财经",
+      "published": "Tue, 22 Sep 2026 03:13:08 GMT",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OcFYyankzdEJ3VVdEQjcydzZUajR1Z05rdnRYTEV5a1RtSERKLW43WUEyUVNYQi1kSzNoVEZhRjdXMktHSTlTcUhoOU9HRUtuX010RkhSNGxmRVZheTdGTFhITF82dElMeU1hcExtWVNFbkU?oc=5"
     },
     {
       "title": "21专访丨牛津经济研究院全球宏观与多资产量化策略师彭天琛：美债收益率仍存上行压力中短期看多美股科技股",
@@ -85,40 +97,28 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZZkRIUmVnV1d5THpPU2FZZVp1X2N1MjRCWGgwSlRIYVRtb0JGWmpEMHlwRWlUSWVhakh2ZGU3R09hTURXbWJsOW10UkFMMUJDalE1dHp2c1k4YVk2b2Qta1R6eUVrdWxKc1o2RXNLeWxUSzlQY0p1Zg?oc=5"
     },
     {
+      "title": "市场围绕更高利率和油价重新定价",
+      "source": "富途牛牛",
+      "published": "Mon, 21 Sep 2026 23:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNVh5YXF2cEJQUlp4cFVSNkhRcnU0VVFRMm5qVTZJbE9vM1FoZ0EyRmYzS1JPejNGT05rYXViTDlWdHhRMV9hSjV2eDlYWWs4ZmhHZE5zNUxWUENjWWU2SmtRTnF1U2U1b1NsSTcwTGdjQ1FjQ2V5Vjl0SlhJMGpOTnBGc2F1N3VQX3pZckFhMk43ZFM2VmNyUzI3VEhac29obmVYMkFB?oc=5"
+    },
+    {
+      "title": "美元再成市场“风暴眼”！五大货币对、黄金、美股、比特币技术前瞻",
+      "source": "FX168财经",
+      "published": "Mon, 21 Sep 2026 15:56:10 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM2ZERnhwRUpRMElVMFl4NFBmUjRSdUJFWFF4RWxVc2lfYWtBSnEtX3VNQm1xejZwQy16U0MwZnNrZmpNWXVlcEdmdTlvbVNUV0JfMy0xNlYtNnl3T0NOSEc1alZDLXNVNUl2WFZYQ0loSi1RNm9CWWp3b1NFZHdlaHJHOVA?oc=5"
+    },
+    {
       "title": "德银：市场可能低估本轮全球加息幅度，但加息未必导致股市下跌",
       "source": "Moomoo",
       "published": "Mon, 21 Sep 2026 12:52:19 GMT",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRaDVFV21DYXFVT0pCSGZ2UzltY05lSzV6c0RiZnlVcThza2tXenpoOC16TUxqTVlzZGFKbVdrUkIzcExjcjAtVjJUMTk4SU5uSVpvcDdkcGxEZw?oc=5"
     },
     {
-      "title": "一周市场观察：加息落地后的科技股、日元与黄金",
-      "source": "华尔街见闻",
-      "published": "Mon, 21 Sep 2026 04:36:52 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pY21IcWF3NjFNVGQ5RHN1TnoyUXRYUjhIcjI1RE9HbmREalFUREROQjlPRV9xdkRwQkdmV1hVQWtHWldneVBlc3NRVkpsWFMzUFpj?oc=5"
-    },
-    {
-      "title": "全球市场突然“Risk On”！纳指飙2%、AMD首破1万亿美元、比特币狂飙6%，油价跌超5%、黄金承压",
-      "source": "FX168财经",
-      "published": "Mon, 21 Sep 2026 18:33:28 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZUdKOExEUjFEY2tadGkxaEVaaEQwMXl6YkxzcWQySVRFVkt1TzR0ckxpYU9wT3U2TUJJYnFSX2NQS0hmNmEtanJYWnpITEJ0U0tjZ2lDdjN5R2RRd2xmN3FvYUVzU2FuOURmQ2dTUDJVcldvSWp5RkRJZW9RVEJkX3ZCeHM?oc=5"
-    },
-    {
-      "title": "从美联储最新表态看预期差：市场太鹰，央行稳中求变",
-      "source": "富途牛牛",
-      "published": "Mon, 21 Sep 2026 13:35:46 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZzJPd1JBeS1sblBNUlZBNGxiaFJ2TXFNNDA2VXM2bWZ2Q0RCWEJMUDg5R3FXMXVUTFJxejk5UU9uSjJTQlJkRjJZd1pKbVdac1lfXzRNTDJpSHRzV0FSeHBkX1hEdWpwMF94Y2hkSU0yVS1xOTZNS0ZpVlZhX1ZvR1NHc28tTHVrdXJxOEZ3MXZEU1FPYmlyM01rdTczNzFKbWRFQmNTS3BxNlE?oc=5"
-    },
-    {
       "title": "管涛：全球央行加息未竟但约束重重",
       "source": "新浪财经",
       "published": "Mon, 21 Sep 2026 13:15:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcWIzdEtSM3JlUGVXTkZkazdUQUVUN2JWZ0N4bWh0b1dHQ1B5dkFrYm5MMmtQWXF4V2VNN25HeXdkbDRlV3BtaE12ZzJsWjZLTGtnSEZzUWV4ZzNUbHc0ZGltOVhObUEweWJESXY2SmNpOVhoRXRtMTRYc3o2d2NrSUVwcVVJdXBRdEZULXZ3bw?oc=5"
-    },
-    {
-      "title": "日股休市2026：9月连续3天休市，日经225期货为何仍在交易?",
-      "source": "EBC Financial Group",
-      "published": "Mon, 21 Sep 2026 02:14:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sSUVqNG5WejZza1RiVUZYYk9VTmJIYXo0eHFVY0JWSERfZ19qMk85OVZqZTRoZGg1ZDZ4czJRT1phTzBtcHFpNzVyQWNhUjIxWU5fclg0Slg?oc=5"
     }
   ],
   "events": [
@@ -138,13 +138,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "100.37 / -0.05%",
+          "value": "100.49 / +0.07%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6916 / -0.01%",
+          "value": "6.6992 / +0.10%",
           "state": "fresh"
         }
       ],
@@ -152,20 +152,95 @@
       "headlines": [
         {
           "title": "策略师：美联储“鹰派加息”施压亚洲市场 日元首当其冲",
-          "source": "财联社",
+          "source": "cls.cn",
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoUW5IdWZyY0YyZVppNFM2RWVjZzltVEM2MFZHZVN0S1dnYzhmcFo5NnhqdXpjUnVGc29yQ0JwWmNPSmpRMnE0aQ?oc=5"
         },
         {
-          "title": "德银：市场可能低估本轮全球加息幅度，但加息未必导致股市下跌",
+          "title": "股市会脱轨吗？美日欧央行同步紧缩 德银警告：全球“加息潮”或超预期",
           "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRaDVFV21DYXFVT0pCSGZ2UzltY05lSzV6c0RiZnlVcThza2tXenpoOC16TUxqTVlzZGFKbVdrUkIzcExjcjAtVjJUMTk4SU5uSVpvcDdkcGxEZw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMDBVbk1Ucm5HUVI5UHUwR3ZFUmhzYVJJcWJJenJWMGEzSnNuM3d3YzdZR0hsdWN2d3lIQ1V3UkJRWDdmOE80MDNPR0ZHT3JXSG5SZEFMOWwtWmFGc2poUnlhT3RENHpyNmZZMEJpTWdtaHoyOVZLU09zb2VERWQ5RmJBU3JrSGVJZzhZMGpjQS02WjgzR3VwTUtZVUc?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 2,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "93.06 / +0.74%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,348.80 / -0.80%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "市场围绕更高利率和油价重新定价",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNVh5YXF2cEJQUlp4cFVSNkhRcnU0VVFRMm5qVTZJbE9vM1FoZ0EyRmYzS1JPejNGT05rYXViTDlWdHhRMV9hSjV2eDlYWWs4ZmhHZE5zNUxWUENjWWU2SmtRTnF1U2U1b1NsSTcwTGdjQ1FjQ2V5Vjl0SlhJMGpOTnBGc2F1N3VQX3pZckFhMk43ZFM2VmNyUzI3VEhac29obmVYMkFB?oc=5"
+        },
+        {
+          "title": "美元再成市场“风暴眼”！五大货币对、黄金、美股、比特币技术前瞻",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM2ZERnhwRUpRMElVMFl4NFBmUjRSdUJFWFF4RWxVc2lfYWtBSnEtX3VNQm1xejZwQy16U0MwZnNrZmpNWXVlcEdmdTlvbVNUV0JfMy0xNlYtNnl3T0NOSEc1alZDLXNVNUl2WFZYQ0loSi1RNm9CWWp3b1NFZHdlaHJHOVA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "label": "地缘与贸易",
+      "headline_count": 1,
+      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
+      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
+      "watch": [
+        {
+          "code": "VIX",
+          "label": "VIX",
+          "value": "15.44",
+          "state": "stale"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,348.80 / -0.80%",
+          "state": "fresh"
+        },
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "93.06 / +0.74%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
+      "headlines": [
+        {
+          "title": "超级央行周落地：中东点燃全球加息潮，中国为何成“例外”？",
+          "source": "中华网财经",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OcFYyankzdEJ3VVdEQjcydzZUajR1Z05rdnRYTEV5a1RtSERKLW43WUEyUVNYQi1kSzNoVEZhRjdXMktHSTlTcUhoOU9HRUtuX010RkhSNGxmRVZheTdGTFhITF82dElMeU1hcExtWVNFbkU?oc=5"
         }
       ]
     },
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
@@ -178,7 +253,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,654.20 / +0.30%",
+          "value": "14,654.70 / +0.31%",
           "state": "fresh"
         },
         {
@@ -194,51 +269,6 @@
           "title": "21专访丨牛津经济研究院全球宏观与多资产量化策略师彭天琛：美债收益率仍存上行压力中短期看多美股科技股",
           "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZZkRIUmVnV1d5THpPU2FZZVp1X2N1MjRCWGgwSlRIYVRtb0JGWmpEMHlwRWlUSWVhakh2ZGU3R09hTURXbWJsOW10UkFMMUJDalE1dHp2c1k4YVk2b2Qta1R6eUVrdWxKc1o2RXNLeWxUSzlQY0p1Zg?oc=5"
-        },
-        {
-          "title": "一周市场观察：加息落地后的科技股、日元与黄金",
-          "source": "华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pY21IcWF3NjFNVGQ5RHN1TnoyUXRYUjhIcjI1RE9HbmREalFUREROQjlPRV9xdkRwQkdmV1hVQWtHWldneVBlc3NRVkpsWFMzUFpj?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "92.71 / +0.37%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,391.97 / +0.18%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "一周市场观察：加息落地后的科技股、日元与黄金",
-          "source": "华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pY21IcWF3NjFNVGQ5RHN1TnoyUXRYUjhIcjI1RE9HbmREalFUREROQjlPRV9xdkRwQkdmV1hVQWtHWldneVBlc3NRVkpsWFMzUFpj?oc=5"
-        },
-        {
-          "title": "全球市场突然“Risk On”！纳指飙2%、AMD首破1万亿美元、比特币狂飙6%，油价跌超5%、黄金承压",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZUdKOExEUjFEY2tadGkxaEVaaEQwMXl6YkxzcWQySVRFVkt1TzR0ckxpYU9wT3U2TUJJYnFSX2NQS0hmNmEtanJYWnpITEJ0U0tjZ2lDdjN5R2RRd2xmN3FvYUVzU2FuOURmQ2dTUDJVcldvSWp5RkRJZW9RVEJkX3ZCeHM?oc=5"
         }
       ]
     },
@@ -252,28 +282,28 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "100.37 / -0.05%",
+          "value": "100.49 / +0.07%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6916 / -0.01%",
+          "value": "6.6992 / +0.10%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,654.20 / +0.30%",
+          "value": "14,654.70 / +0.31%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
-          "title": "全球市场突然“Risk On”！纳指飙2%、AMD首破1万亿美元、比特币狂飙6%，油价跌超5%、黄金承压",
+          "title": "美元再成市场“风暴眼”！五大货币对、黄金、美股、比特币技术前瞻",
           "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZUdKOExEUjFEY2tadGkxaEVaaEQwMXl6YkxzcWQySVRFVkt1TzR0ckxpYU9wT3U2TUJJYnFSX2NQS0hmNmEtanJYWnpITEJ0U0tjZ2lDdjN5R2RRd2xmN3FvYUVzU2FuOURmQ2dTUDJVcldvSWp5RkRJZW9RVEJkX3ZCeHM?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM2ZERnhwRUpRMElVMFl4NFBmUjRSdUJFWFF4RWxVc2lfYWtBSnEtX3VNQm1xejZwQy16U0MwZnNrZmpNWXVlcEdmdTlvbVNUV0JfMy0xNlYtNnl3T0NOSEc1alZDLXNVNUl2WFZYQ0loSi1RNm9CWWp3b1NFZHdlaHJHOVA?oc=5"
         }
       ]
     }
