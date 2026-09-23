@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23 16:48",
-  "score": -14,
+  "generated_at": "2026-09-23 20:43",
+  "score": -22,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -9,20 +9,20 @@
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.06%",
-      "contribution": 0.5,
+      "value": "上证 -0.39%",
+      "contribution": -3.1,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 2391 / 跌 3077",
-      "contribution": -2.5,
+      "value": "涨 1910 / 跌 3605",
+      "contribution": -6.1,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 63 / 跌停 3 / 炸板率 22.2%",
-      "contribution": 7.2,
+      "value": "涨停 51 / 跌停 13 / 炸板率 33.8%",
+      "contribution": 2.1,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.83%",
-      "contribution": -5.0,
+      "value": "富时 A50 -0.15%",
+      "contribution": -0.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7051 (+0.10%) / DXY 100.78 (+0.24%)",
-      "contribution": -2.4,
+      "value": "USD/CNH 6.7083 (+0.14%) / DXY 100.96 (+0.42%)",
+      "contribution": -3.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 5",
-      "contribution": -8,
+      "value": "正向词 1 / 风险词 4",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,20 +66,20 @@
     "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 5,
-    "score": -8
+    "positive_hits": 1,
+    "negative_hits": 4,
+    "score": -6
   },
   "news": [
     {
       "title": "资产配置报告丨加息靴子落地，市场风险偏好或修复- 21世纪经济报道",
-      "source": "ZAKER新闻",
-      "published": "Wed, 23 Sep 2026 07:16:02 GMT",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DSE43N1l0ODh0Y1NIemJKUDJWQTFTZTdnWlVnX3NURFVSZ0lSM1JyQ25Ja3UwOGJLb3gySDFhb1AzVUQxX2syMWx1dEp3Njl1VFo1WW1VRGQ1Q0otX3gxTU1XUWdHMEZkeDRZMVBKUlJDOGl4ZEdJ?oc=5"
+      "source": "21财经",
+      "published": "Wed, 23 Sep 2026 07:27:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZzRPdElXQ1RnTjAydGo3VDFCX05KZWx4TlRJOWUxdEp1MTQ1cDNXNHBqajBKZHdsM3ZLYUVJek5tc1Q3M21LNEhqaXVvTTVBNllScWdueFlxaXBMNDFBT1I3Rm5nd2lJeUxqYXp5R2YtY29xVW1qaDBHV29uV0QwYmtPRmtxUlZPX3dZY0tIUGVmYlRE?oc=5"
     },
     {
       "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "published": "Wed, 23 Sep 2026 06:51:45 GMT",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
     },
@@ -90,16 +90,16 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUXBka1o2NW5XbW9PSlh1SFpCM25ZR3hWaWE4dm9GOS1KZk83ZFJVYU12Q1BWY3ZaVzl3MklJU0hna2MwVE0wQVhoQXpwWUs3ZGtCQkwySURjUnFmUk8zaHVYdzc2OEgzOHBJc19MMFNxaHl5M3FYb3JVOGFWVmhOTUt2TmFzMFhJeG5lVHBvUWNxdw?oc=5"
     },
     {
-      "title": "全球市场突然“Risk On”",
-      "source": "aboluowang.com",
-      "published": "Tue, 22 Sep 2026 12:13:07 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02WVBPSnJYVjljR042aFlDTUtxWVY3SEprb1BMeVg1emo0aW85TFNZaGFIT0h1WEo1UVBHekhnU1dvXzRMQVVaLUIwU2UwYVlpdVlKQ2p5bmVzWGJGUndZbGMzQdIBY0FVX3lxTE02WVBPSnJYVjljR042aFlDTUtxWVY3SEprb1BMeVg1emo0aW85TFNZaGFIT0h1WEo1UVBHekhnU1dvXzRMQVVaLUIwU2UwYVlpdVlKQ2p5bmVzWGJGUndZbGMzQQ?oc=5"
+      "title": "日本股市休市时间是什么时候?日本股市今天休市吗?",
+      "source": "EBC Financial Group",
+      "published": "Wed, 23 Sep 2026 11:35:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pbHZoTTV1S0JmdmtYRWlEN2RlXy1ubnBuU2ZneXJmZ0xJTGhpNXVtWDRMSml6cHFlOFRiakdEOGJ3SEYxZXhUdzF2Y0NQLUZsN2Z6MXZpNHI?oc=5"
     },
     {
-      "title": "油价、美债殖利率双降！科技股强势回血 投信：修正的是“评价”而非AI趋势",
-      "source": "aboluowang.com",
-      "published": "Tue, 22 Sep 2026 11:40:21 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Dd0RlUi16ZlNPX3pKMzdvOFUxRGVZR2NmN05aaEZLOE91aGRWTzZYdFBUZmM0cFBEWmY1WjQxRTZkTVJrVmNYQm5zdURqQXJzcncycEdVblhKQm5rWGfSAWNBVV95cUxNUWNpWjlnZGs3b2xmSWhWUHJ0ZjNQMExOZzFEWnVCRi1mckJ1WXVPcjdES2NSR3laN2J5T1ZXT28wQ3ZxU010SUhFbnVLWFhMMFlQalU5a0JvWGpTT09fVnE4ZmM?oc=5"
+      "title": "纳指再创新高、油价五连跌，“持股过节”还是“持币过节”？",
+      "source": "搜狐网",
+      "published": "Wed, 23 Sep 2026 01:45:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvUFVHLS1fdDF2QndYelNYNFBUM0NoTnppNlN2b1JWXzlFNVFtTS1PTGtGYWFXaWxqY2J5ZU9IeEF1RHJkN056cG9mT1hnT2RVUGRRT2ZxY3dzdnh3Mm9YSA?oc=5"
     }
   ],
   "events": [
@@ -119,13 +119,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "100.78 / +0.24%",
+          "value": "100.96 / +0.42%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7051 / +0.10%",
+          "value": "6.7083 / +0.14%",
           "state": "fresh"
         }
       ],
@@ -133,48 +133,13 @@
       "headlines": [
         {
           "title": "资产配置报告丨加息靴子落地，市场风险偏好或修复- 21世纪经济报道",
-          "source": "ZAKER新闻",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DSE43N1l0ODh0Y1NIemJKUDJWQTFTZTdnWlVnX3NURFVSZ0lSM1JyQ25Ja3UwOGJLb3gySDFhb1AzVUQxX2syMWx1dEp3Njl1VFo1WW1VRGQ1Q0otX3gxTU1XUWdHMEZkeDRZMVBKUlJDOGl4ZEdJ?oc=5"
+          "source": "21财经",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZzRPdElXQ1RnTjAydGo3VDFCX05KZWx4TlRJOWUxdEp1MTQ1cDNXNHBqajBKZHdsM3ZLYUVJek5tc1Q3M21LNEhqaXVvTTVBNllScWdueFlxaXBMNDFBT1I3Rm5nd2lJeUxqYXp5R2YtY29xVW1qaDBHV29uV0QwYmtPRmtxUlZPX3dZY0tIUGVmYlRE?oc=5"
         },
         {
           "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-          "source": "moomoo.com",
+          "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,244.28 / +0.45%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "14,532.40 / -0.83%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "油价、美债殖利率双降！科技股强势回血 投信：修正的是“评价”而非AI趋势",
-          "source": "aboluowang.com",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Dd0RlUi16ZlNPX3pKMzdvOFUxRGVZR2NmN05aaEZLOE91aGRWTzZYdFBUZmM0cFBEWmY1WjQxRTZkTVJrVmNYQm5zdURqQXJzcncycEdVblhKQm5rWGfSAWNBVV95cUxNUWNpWjlnZGs3b2xmSWhWUHJ0ZjNQMExOZzFEWnVCRi1mckJ1WXVPcjdES2NSR3laN2J5T1ZXT28wQ3ZxU010SUhFbnVLWFhMMFlQalU5a0JvWGpTT09fVnE4ZmM?oc=5"
         }
       ]
     },
@@ -188,13 +153,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.15 / -0.41%",
+          "value": "90.97 / +0.50%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,353.56 / -0.52%",
+          "value": "4,340.62 / -0.82%",
           "state": "fresh"
         },
         {
@@ -207,9 +172,9 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "油价、美债殖利率双降！科技股强势回血 投信：修正的是“评价”而非AI趋势",
-          "source": "aboluowang.com",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Dd0RlUi16ZlNPX3pKMzdvOFUxRGVZR2NmN05aaEZLOE91aGRWTzZYdFBUZmM0cFBEWmY1WjQxRTZkTVJrVmNYQm5zdURqQXJzcncycEdVblhKQm5rWGfSAWNBVV95cUxNUWNpWjlnZGs3b2xmSWhWUHJ0ZjNQMExOZzFEWnVCRi1mckJ1WXVPcjdES2NSR3laN2J5T1ZXT28wQ3ZxU010SUhFbnVLWFhMMFlQalU5a0JvWGpTT09fVnE4ZmM?oc=5"
+          "title": "纳指再创新高、油价五连跌，“持股过节”还是“持币过节”？",
+          "source": "搜狐网",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvUFVHLS1fdDF2QndYelNYNFBUM0NoTnppNlN2b1JWXzlFNVFtTS1PTGtGYWFXaWxqY2J5ZU9IeEF1RHJkN056cG9mT1hnT2RVUGRRT2ZxY3dzdnh3Mm9YSA?oc=5"
         }
       ]
     },
@@ -223,19 +188,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "100.78 / +0.24%",
+          "value": "100.96 / +0.42%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7051 / +0.10%",
+          "value": "6.7083 / +0.14%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,532.40 / -0.83%",
+          "value": "14,511.92 / -0.15%",
           "state": "fresh"
         }
       ],
@@ -243,7 +208,7 @@
       "headlines": [
         {
           "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-          "source": "moomoo.com",
+          "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
         }
       ]
@@ -258,7 +223,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,532.40 / -0.83%",
+          "value": "14,511.92 / -0.15%",
           "state": "fresh"
         },
         {
@@ -270,7 +235,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7051 / +0.10%",
+          "value": "6.7083 / +0.14%",
           "state": "fresh"
         }
       ],
@@ -278,7 +243,7 @@
       "headlines": [
         {
           "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-          "source": "moomoo.com",
+          "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
         }
       ]
