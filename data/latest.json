@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24 15:31",
+  "generated_at": "2026-09-24 16:42",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-09-24 15:31",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-09-24 16:42",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-09-24",
     "market_data_date": "2026-09-24",
     "market_state": "live",
     "pulse_updated": true,
     "daily_updated": false,
     "pulse_file": "data/pulses/2026-09.csv",
-    "message": "开盘脉搏已更新"
+    "message": "午间脉搏已更新"
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-09-24 15:31",
+    "generated_at": "2026-09-24 16:42",
     "markets": [
       {
         "code": "SPX",
@@ -59,11 +59,11 @@
         "name": "恒生指数",
         "region": "中国香港",
         "kind": "index",
-        "close": 24763.94,
-        "pct": -0.28,
-        "change": -70.18,
+        "close": 24761.13,
+        "pct": -0.29,
+        "change": -72.99,
         "previous_close": 24834.12,
-        "quote_time": "2026/09/24 15:16:01",
+        "quote_time": "2026/09/24 16:27:29",
         "stale": false
       },
       {
@@ -98,11 +98,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 14339.9,
-        "pct": -1.3354891977432226,
-        "change": -194.10000000000036,
+        "close": 14313.12,
+        "pct": -1.5197468006054704,
+        "change": -220.8799999999992,
         "previous_close": 14534.0,
-        "quote_time": "2026-09-24 15:31:27",
+        "quote_time": "2026-09-24 16:35:00",
         "stale": false
       },
       {
@@ -111,11 +111,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.7124,
-        "pct": 0.014900020860020291,
-        "change": 0.0009999999999994458,
+        "close": 6.715,
+        "pct": 0.05364007509609525,
+        "change": 0.0035999999999996035,
         "previous_close": 6.7114,
-        "quote_time": "2026-09-24 15:31:22",
+        "quote_time": "2026-09-24 16:42:56",
         "stale": false
       },
       {
@@ -124,11 +124,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 101.0671,
-        "pct": -0.06328419249865824,
-        "change": -0.06400000000000716,
+        "close": 101.1264,
+        "pct": -0.0046474328866175085,
+        "change": -0.004699999999999704,
         "previous_close": 101.1311,
-        "quote_time": "2026-09-24 15:31:22",
+        "quote_time": "2026-09-24 16:43:03",
         "stale": false
       },
       {
@@ -137,11 +137,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 4319.557,
-        "pct": 0.026792330492786398,
-        "change": 1.1570000000001528,
+        "close": 4301.844,
+        "pct": -0.3833827343460494,
+        "change": -16.555999999999585,
         "previous_close": 4318.4,
-        "quote_time": "2026-09-24 15:31:28",
+        "quote_time": "2026-09-24 16:43:06",
         "stale": false
       },
       {
@@ -150,11 +150,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 92.333,
-        "pct": 0.1877170138888884,
-        "change": 0.17300000000000182,
+        "close": 94.221,
+        "pct": 2.236328125000009,
+        "change": 2.061000000000007,
         "previous_close": 92.16,
-        "quote_time": "2026-09-24 15:31:28",
+        "quote_time": "2026-09-24 16:43:06",
         "stale": false
       }
     ],
@@ -196,8 +196,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-09-24 15:31",
-    "score": -30,
+    "generated_at": "2026-09-24 16:42",
+    "score": -32,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -229,14 +229,14 @@
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 -1.34%",
+        "value": "富时 A50 -1.52%",
         "contribution": -8,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.7124 (+0.01%) / DXY 101.07 (-0.06%)",
-        "contribution": 0.1,
+        "value": "USD/CNH 6.7150 (+0.05%) / DXY 101.13 (-0.00%)",
+        "contribution": -0.6,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -253,8 +253,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 3",
-        "contribution": -6,
+        "value": "正向词 0 / 风险词 5",
+        "contribution": -8,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -263,10 +263,16 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 3,
-      "score": -6
+      "negative_hits": 5,
+      "score": -8
     },
     "news": [
+      {
+        "title": "全球债市抛售加剧，10年期日债收益率创30年新高，10年期美债延续跌势，美股期指走低、油涨金跌",
+        "source": "华尔街见闻",
+        "published": "Thu, 24 Sep 2026 07:49:45 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2dTQtc2FETzZvVUhUaUp5cm54Zm9qX1hlZjJPcHNTX3lORE0xR3pISTZEVEJrbWdHVlQ1MHhkUnZCMlBGMVdXU2l4ZVVOa3FVVTBv?oc=5"
+      },
       {
         "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
         "source": "Moomoo",
@@ -274,16 +280,28 @@
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGI4QzVfVnN5N3FGQW8tTERHWm1mMjJpamZwZzBEVkoxUF8tODcyUHZTZlQ3VnM5eFJBSnA1REhVV2MxRkQ1Um1IM1ZjcUxGTUh0YXFkc25GRDFFR3dSekVfZHRMRUZSUURVUndOSEY3bUdfMGVTQXdJZERQOXRPLVNQZGJIemlVYnhLU1RFMjc2WUJUR2tkaTNBdDh3RXRPOC1kcVhXZDEwV0x3SVB2bTNLeldkOXlF?oc=5"
       },
       {
-        "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
-        "source": "新浪财经",
-        "published": "Wed, 23 Sep 2026 23:15:55 GMT",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
+        "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
+        "source": "新浪财经_金融信息服务商",
+        "published": "Thu, 24 Sep 2026 05:53:51 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxOYVo1VTNKMVdmdHo4U3VlVWxFTHJ0S1VEMDhtd191aDlBYjZKeWwyS29uS0drUENKeU1jOV9lT3ZhTWE0VV92RjFLemRGWXlNYUlEMmhmWXRkM1VGb0FLRDBfU0xXNHNpUEVnUThSYXVHVUFQQk52T2p2ZjFMcVp5eTlSZDZWSFNuYkNaUjlOR2JTVUJlaVBtWHpTb1lUbDNOeTJPNlZySzNaOGc1NzI2VTJ1LUZTcG5BaHpORG1kT1VfYm0tcl84bEQydlJ1NENZSlNiazhuUEg5MldGdGJLR2xIblNDQjBOTFlrMy1xZVhYTnIyMUtzeTJocXZlb3JsT3F0MXQ4M09VVHo2UXo3OWVJYU90WDZGUW9RZXZUams0OC0ydVZXRzZUaElWY1g4a2FJd0Jvd3R0SHM4LUJFOWJFaEFuTGE2WFoxSUNwQUR5SmtrWUlLVzVybW0xQkdDTVBadHU5R1E0dC1CcFFOSWthMm9yZ3NZWnVYOE1CVWUwZ3AwYUNIMDFQV1JvWWM1SUNiWEdzajhjQlB0LUNYMzFfbWk3RDdXWjdpazE2X084RERodkVqVmNNOEJfMDhsMkpyTDM0S2U2M3d5bHlTTjVRR1FWd1J1aEJPQjRJZGpKYURXVEppTmJGUk1lT0U4Nkdv?oc=5"
       },
       {
-        "title": "美联储加息后，欧元突然失速！1.14关口还能守多久？",
-        "source": "FX168财经",
-        "published": "Wed, 23 Sep 2026 10:38:14 GMT",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QRE9BeXBxLU5rSE9tdkxCOUxkTUVqdHJuYUxEcTF4Q2tzaG51NFJwLTlzRnFaajFNUVd3eUVFZVp5TWFUTW50V2dKMXJUaWFvVVEtNk1HYnZ1d1o1WUdOUllxUWdpMlhFWDRMYQ?oc=5"
+        "title": "华尔街早报： PMI爆表、美债遭血洗、10月加息概率超7成，AI代理引发中介焦虑，美股齐跌",
+        "source": "panewslab.com",
+        "published": "Thu, 24 Sep 2026 04:53:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1adXcyNjJaQ2NDaHNSemEwel9laGNjdFNESmxnTFZXeE9YYWtwUExoRUxkRWpBUFZYZGtjbTkxZnFLSFN0Smx1UVg3ZDV5TGt0WnhSSm9BUDN1OXdSb3FrUkJoZ0tDbjk2UE51SjVXTXM0UzFWZ2xiRGJoWU5TWnc?oc=5"
+      },
+      {
+        "title": "央行购金力度超官方披露，机构称年底金价看到4900美元",
+        "source": "Moomoo",
+        "published": "Thu, 24 Sep 2026 04:20:50 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5"
+      },
+      {
+        "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
+        "source": "新浪财经_金融信息服务商",
+        "published": "Wed, 23 Sep 2026 23:15:55 GMT",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
       },
       {
         "title": "日本股市休市时间是什么时候?日本股市今天休市吗?",
@@ -292,17 +310,17 @@
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pbHZoTTV1S0JmdmtYRWlEN2RlXy1ubnBuU2ZneXJmZ0xJTGhpNXVtWDRMSml6cHFlOFRiakdEOGJ3SEYxZXhUdzF2Y0NQLUZsN2Z6MXZpNHI?oc=5"
       },
       {
-        "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-        "source": "新浪财经",
-        "published": "Wed, 23 Sep 2026 12:47:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
+        "title": "美联储加息后，欧元突然失速！1.14关口还能守多久？",
+        "source": "FX168财经",
+        "published": "Wed, 23 Sep 2026 10:38:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QRE9BeXBxLU5rSE9tdkxCOUxkTUVqdHJuYUxEcTF4Q2tzaG51NFJwLTlzRnFaajFNUVd3eUVFZVp5TWFUTW50V2dKMXJUaWFvVVEtNk1HYnZ1d1o1WUdOUllxUWdpMlhFWDRMYQ?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 3,
+        "headline_count": 5,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -315,13 +333,13 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "101.07 / -0.06%",
+            "value": "101.13 / -0.00%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.7124 / +0.01%",
+            "value": "6.7150 / +0.05%",
             "state": "fresh"
           }
         ],
@@ -333,44 +351,44 @@
             "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGI4QzVfVnN5N3FGQW8tTERHWm1mMjJpamZwZzBEVkoxUF8tODcyUHZTZlQ3VnM5eFJBSnA1REhVV2MxRkQ1Um1IM1ZjcUxGTUh0YXFkc25GRDFFR3dSekVfZHRMRUZSUURVUndOSEY3bUdfMGVTQXdJZERQOXRPLVNQZGJIemlVYnhLU1RFMjc2WUJUR2tkaTNBdDh3RXRPOC1kcVhXZDEwV0x3SVB2bTNLeldkOXlF?oc=5"
           },
           {
-            "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
-            "source": "新浪财经",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
+            "title": "华尔街早报： PMI爆表、美债遭血洗、10月加息概率超7成，AI代理引发中介焦虑，美股齐跌",
+            "source": "panewslab.com",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1adXcyNjJaQ2NDaHNSemEwel9laGNjdFNESmxnTFZXeE9YYWtwUExoRUxkRWpBUFZYZGtjbTkxZnFLSFN0Smx1UVg3ZDV5TGt0WnhSSm9BUDN1OXdSb3FrUkJoZ0tDbjk2UE51SjVXTXM0UzFWZ2xiRGJoWU5TWnc?oc=5"
           }
         ]
       },
       {
-        "key": "commodities",
-        "label": "商品与成本",
+        "key": "currency",
+        "label": "美元与人民币",
         "headline_count": 1,
-        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
         "watch": [
           {
-            "code": "WTI",
-            "label": "原油",
-            "value": "92.33 / +0.19%",
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.13 / -0.00%",
             "state": "fresh"
           },
           {
-            "code": "GOLD",
-            "label": "黄金",
-            "value": "4,319.56 / +0.03%",
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.7150 / +0.05%",
             "state": "fresh"
           },
           {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
+            "code": "A50",
+            "label": "富时A50",
+            "value": "14,313.12 / -1.52%",
+            "state": "fresh"
           }
         ],
-        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
         "headlines": [
           {
-            "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-            "source": "新浪财经",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
+            "title": "央行购金力度超官方披露，机构称年底金价看到4900美元",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5"
           }
         ]
       }
@@ -380,11 +398,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-09-24 15:31",
+    "generated_at": "2026-09-24 16:42",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "collecting",
     "minimum_samples": 20,
-    "signal_count": 25,
+    "signal_count": 26,
     "matured_1d": 20,
     "directional_1d": 19,
     "hit_rate_1d": 89.5,
@@ -421,14 +439,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-09-24 15:31",
-      "slot": "open",
-      "score": "-30",
+      "captured_at": "2026-09-24 16:42",
+      "slot": "midday",
+      "score": "-32",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-09-24 16:42",
+        "slot": "midday",
+        "signal_date": "2026-09-24",
+        "market_asof_date": "2026-09-24",
+        "score": "-32",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3936.52",
+        "sh_pct": "-0.39",
+        "global_avg": "-0.5106",
+        "a50_pct": "-1.5197468006054704",
+        "usdcnh": "6.715",
+        "usdcnh_pct": "0.05364007509609525",
+        "dxy": "101.1264",
+        "dxy_pct": "-0.0046474328866175085",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-09-24 15:31",
         "slot": "open",
@@ -903,31 +946,6 @@
         "return_5d": null,
         "direction": 1,
         "hit_1d": true
-      },
-      {
-        "captured_at": "2026-09-20 20:16",
-        "slot": "close",
-        "signal_date": "2026-09-20",
-        "market_asof_date": "2026-09-18",
-        "score": "19",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3911.87",
-        "sh_pct": "0.94",
-        "global_avg": "0.2177",
-        "a50_pct": "0.017262809004270352",
-        "usdcnh": "6.6943",
-        "usdcnh_pct": "-0.14171067155941408",
-        "dxy": "100.2167",
-        "dxy_pct": "-0.005487806094850445",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.97,
-        "return_3d": 0.636563,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
@@ -977,8 +995,8 @@
     }
   },
   "latest_pulse": {
-    "captured_at": "2026-09-24 15:31",
-    "slot": "open",
+    "captured_at": "2026-09-24 16:42",
+    "slot": "midday",
     "date": "2026-09-24",
     "上证指数_close": "3888.37",
     "深证成指_close": "13316.97",
