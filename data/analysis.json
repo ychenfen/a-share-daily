@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24 01:12",
-  "score": -34,
+  "generated_at": "2026-09-24 08:29",
+  "score": -26,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.73%",
-      "contribution": -5.1,
+      "value": "6 个市场均值 -0.63%",
+      "contribution": -4.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.44%",
-      "contribution": -2.7,
+      "value": "富时 A50 -0.50%",
+      "contribution": -3.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7130 (+0.21%) / DXY 101.22 (+0.68%)",
-      "contribution": -6.0,
+      "value": "USD/CNH 6.7123 (+0.01%) / DXY 101.15 (+0.02%)",
+      "contribution": -0.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 6",
-      "contribution": -8,
+      "value": "正向词 1 / 风险词 4",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,10 +67,22 @@
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 6,
-    "score": -8
+    "negative_hits": 4,
+    "score": -6
   },
   "news": [
+    {
+      "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
+      "source": "财联社",
+      "published": "Wed, 23 Sep 2026 18:44:48 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
+    },
+    {
+      "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
+      "source": "finance.sina.com.cn",
+      "published": "Wed, 23 Sep 2026 23:15:55 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
+    },
     {
       "title": "资产配置报告丨加息靴子落地，市场风险偏好或修复- 21世纪经济报道",
       "source": "ZAKER新闻",
@@ -84,28 +96,22 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSnUzUXFwRlFfUGJaUDFMLTR1YTJwTXo1Rl9sZFNQNEZ0NGcyMTVraHpzMVV3bGVKSzhoMkFZdldZWnMzOHplN0dEenZGQzVuMHpKckU0aW9QUkw1UW4xcXRjOHJSNnJyUXB0RXNLQkw1RjRCVmQ4bUh6QzZhaDRUd3daVS0?oc=5"
     },
     {
-      "title": "风险拉响！美联储重磅加息，全球市场迎来大变局",
-      "source": "新浪财经",
-      "published": "Wed, 23 Sep 2026 04:42:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EeTNBNExSMFg2OFF4YjhfUjhoSmJYb3JNUi1HRFNieEJ0eklyekZDN09LdHllNGdmOER5NGFONHo3WXpJS3RYdV9uRUV1NGhpR2NhWXlNaE1vUThUWE9OS29HLVFoZ1FhWnFQRUl5RTRNVjlKNnc?oc=5"
-    },
-    {
       "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
       "source": "Moomoo",
       "published": "Wed, 23 Sep 2026 06:51:45 GMT",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
     },
     {
-      "title": "美联储加息靴子落地 私募机构谋划A股“新打法”",
-      "source": "新浪财经",
-      "published": "Tue, 22 Sep 2026 23:43:55 GMT",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUXBka1o2NW5XbW9PSlh1SFpCM25ZR3hWaWE4dm9GOS1KZk83ZFJVYU12Q1BWY3ZaVzl3MklJU0hna2MwVE0wQVhoQXpwWUs3ZGtCQkwySURjUnFmUk8zaHVYdzc2OEgzOHBJc19MMFNxaHl5M3FYb3JVOGFWVmhOTUt2TmFzMFhJeG5lVHBvUWNxdw?oc=5"
-    },
-    {
       "title": "日本股市休市时间是什么时候?日本股市今天休市吗?",
       "source": "EBC Financial Group",
       "published": "Wed, 23 Sep 2026 11:35:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pbHZoTTV1S0JmdmtYRWlEN2RlXy1ubnBuU2ZneXJmZ0xJTGhpNXVtWDRMSml6cHFlOFRiakdEOGJ3SEYxZXhUdzF2Y0NQLUZsN2Z6MXZpNHI?oc=5"
+    },
+    {
+      "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
+      "source": "finance.sina.com.cn",
+      "published": "Wed, 23 Sep 2026 12:47:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
     },
     {
       "title": "纳指再创新高、油价五连跌，“持股过节”还是“持币过节”？",
@@ -118,7 +124,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -131,47 +137,47 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.22 / +0.68%",
+          "value": "101.15 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7130 / +0.21%",
+          "value": "6.7123 / +0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
+          "source": "finance.sina.com.cn",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
+        },
+        {
           "title": "资产配置报告丨加息靴子落地，市场风险偏好或修复- 21世纪经济报道",
           "source": "ZAKER新闻",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DSE43N1l0ODh0Y1NIemJKUDJWQTFTZTdnWlVnX3NURFVSZ0lSM1JyQ25Ja3UwOGJLb3gySDFhb1AzVUQxX2syMWx1dEp3Njl1VFo1WW1VRGQ1Q0otX3gxTU1XUWdHMEZkeDRZMVBKUlJDOGl4ZEdJ?oc=5"
-        },
-        {
-          "title": "风险拉响！美联储重磅加息，全球市场迎来大变局",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EeTNBNExSMFg2OFF4YjhfUjhoSmJYb3JNUi1HRFNieEJ0eklyekZDN09LdHllNGdmOER5NGFONHo3WXpJS3RYdV9uRUV1NGhpR2NhWXlNaE1vUThUWE9OS29HLVFoZ1FhWnFQRUl5RTRNVjlKNnc?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "91.56 / +1.15%",
+          "value": "91.60 / -0.61%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,314.44 / -1.42%",
+          "value": "4,327.45 / +0.21%",
           "state": "fresh"
         },
         {
@@ -189,9 +195,9 @@
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSnUzUXFwRlFfUGJaUDFMLTR1YTJwTXo1Rl9sZFNQNEZ0NGcyMTVraHpzMVV3bGVKSzhoMkFZdldZWnMzOHplN0dEenZGQzVuMHpKckU0aW9QUkw1UW4xcXRjOHJSNnJyUXB0RXNLQkw1RjRCVmQ4bUh6QzZhaDRUd3daVS0?oc=5"
         },
         {
-          "title": "纳指再创新高、油价五连跌，“持股过节”还是“持币过节”？",
-          "source": "搜狐网",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvUFVHLS1fdDF2QndYelNYNFBUM0NoTnppNlN2b1JWXzlFNVFtTS1PTGtGYWFXaWxqY2J5ZU9IeEF1RHJkN056cG9mT1hnT2RVUGRRT2ZxY3dzdnh3Mm9YSA?oc=5"
+          "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
+          "source": "finance.sina.com.cn",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
         }
       ]
     },
@@ -205,19 +211,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.22 / +0.68%",
+          "value": "101.15 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7130 / +0.21%",
+          "value": "6.7123 / +0.01%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,469.67 / -0.44%",
+          "value": "14,462.00 / -0.50%",
           "state": "fresh"
         }
       ],
@@ -245,7 +251,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,469.67 / -0.44%",
+          "value": "14,462.00 / -0.50%",
           "state": "fresh"
         },
         {
@@ -257,7 +263,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7130 / +0.21%",
+          "value": "6.7123 / +0.01%",
           "state": "fresh"
         }
       ],
