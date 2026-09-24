@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24 20:42",
-  "score": -34,
+  "generated_at": "2026-09-25 01:18",
+  "score": -28,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,19 +27,19 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.51%",
-      "contribution": -3.6,
+      "value": "6 个市场均值 +0.19%",
+      "contribution": 1.3,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.10%",
-      "contribution": 0.6,
+      "value": "富时 A50 +0.23%",
+      "contribution": 1.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7143 (+0.04%) / DXY 101.27 (+0.13%)",
+      "value": "USD/CNH 6.7151 (+0.06%) / DXY 101.24 (+0.11%)",
       "contribution": -1.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 7",
+      "value": "正向词 1 / 风险词 7",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,16 +66,16 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 0,
+    "positive_hits": 1,
     "negative_hits": 7,
     "score": -8
   },
   "news": [
     {
-      "title": "全球债市抛售加剧，10年期、30年期美债收益率创19年新高，纳指期货跌1%，布油涨破100",
-      "source": "华尔街见闻",
-      "published": "Thu, 24 Sep 2026 09:10:07 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2dTQtc2FETzZvVUhUaUp5cm54Zm9qX1hlZjJPcHNTX3lORE0xR3pISTZEVEJrbWdHVlQ1MHhkUnZCMlBGMVdXU2l4ZVVOa3FVVTBv?oc=5"
+      "title": "美股摔了VS两个产业利好，A股情绪二次确认？【每日信号】",
+      "source": "21财经",
+      "published": "Thu, 24 Sep 2026 07:10:21 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFNLZ3pqamd5WkljNnJodWtJWnBtMXhSekRPa21ESkUxRktlZFYyV0doSXJYaHFCejE5TEdvRmp3MUw0ckxOcnJlTG9fRjZCR3pvbjNycG9UQ3FKcWc3MUh6RFhycDF1MEcwN0Q5OXV3d0J1QlBvY1NEam11andsX2xJaG51NFNKc1IwYV9Mcw?oc=5"
     },
     {
       "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
@@ -84,22 +84,28 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
     },
     {
-      "title": "海外研选日报0924 | 美银：美联储年内或再加息两次 美股回调风险上升",
-      "source": "新浪财经",
-      "published": "Thu, 24 Sep 2026 09:08:56 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5"
+      "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
+      "source": "finance.sina.com.cn",
+      "published": "Thu, 24 Sep 2026 11:02:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVVdGc1A1c0FMUC1FMkJ0VjlOSGd4TzVpN0E1SHBtNFRZclFaQkRuR2YyYXNNQVYxQWhHTXBvbEJIWUJUT3VnUVBtTWdFYU4tck1ubHllUU13ZWwxTHBvQ0RpVkJ1OEFkQlU3OXh1SExGYzZfc0NvUjM2aXFVWmdBZnBTYXBjWkJzVnc?oc=5"
     },
     {
       "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
-      "source": "Moomoo",
-      "published": "Thu, 24 Sep 2026 05:10:15 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGI4QzVfVnN5N3FGQW8tTERHWm1mMjJpamZwZzBEVkoxUF8tODcyUHZTZlQ3VnM5eFJBSnA1REhVV2MxRkQ1Um1IM1ZjcUxGTUh0YXFkc25GRDFFR3dSekVfZHRMRUZSUURVUndOSEY3bUdfMGVTQXdJZERQOXRPLVNQZGJIemlVYnhLU1RFMjc2WUJUR2tkaTNBdDh3RXRPOC1kcVhXZDEwV0x3SVB2bTNLeldkOXlF?oc=5"
+      "source": "新浪财经",
+      "published": "Thu, 24 Sep 2026 05:10:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzNQNHVwMEhPTUdIMklPbDYwYXMyNXVacmg0bmlNU3JZNHUtREhoQkc2SEJCVGNPSjhZZjF2VkNMRXZSMUZFa0o4eU92SzktSmcxLVZEN3hUVGk0alUwOHhndlR2S05fUlZYVG1zYkZUMXRrZWtEVVlpdnZhVktkRXJrTEZ5dlFNUzBhdjFSODd3MW81YkcwOXZyQjVsNzNFV1ZqWFFsZTFIaExrQS1zclZkeGxtb0RTS2hidU5XSXc4bzZ2MHZZTDFWNlFteFI0a0dHWE4xZTBJdzJuTnpRb1ZYZGE?oc=5"
     },
     {
-      "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
-      "source": "新浪财经",
-      "published": "Thu, 24 Sep 2026 05:53:51 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxOYVo1VTNKMVdmdHo4U3VlVWxFTHJ0S1VEMDhtd191aDlBYjZKeWwyS29uS0drUENKeU1jOV9lT3ZhTWE0VV92RjFLemRGWXlNYUlEMmhmWXRkM1VGb0FLRDBfU0xXNHNpUEVnUThSYXVHVUFQQk52T2p2ZjFMcVp5eTlSZDZWSFNuYkNaUjlOR2JTVUJlaVBtWHpTb1lUbDNOeTJPNlZySzNaOGc1NzI2VTJ1LUZTcG5BaHpORG1kT1VfYm0tcl84bEQydlJ1NENZSlNiazhuUEg5MldGdGJLR2xIblNDQjBOTFlrMy1xZVhYTnIyMUtzeTJocXZlb3JsT3F0MXQ4M09VVHo2UXo3OWVJYU90WDZGUW9RZXZUams0OC0ydVZXRzZUaElWY1g4a2FJd0Jvd3R0SHM4LUJFOWJFaEFuTGE2WFoxSUNwQUR5SmtrWUlLVzVybW0xQkdDTVBadHU5R1E0dC1CcFFOSWthMm9yZ3NZWnVYOE1CVWUwZ3AwYUNIMDFQV1JvWWM1SUNiWEdzajhjQlB0LUNYMzFfbWk3RDdXWjdpazE2X084RERodkVqVmNNOEJfMDhsMkpyTDM0S2U2M3d5bHlTTjVRR1FWd1J1aEJPQjRJZGpKYURXVEppTmJGUk1lT0U4Nkdv?oc=5"
+      "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
+      "source": "东方财富",
+      "published": "Wed, 23 Sep 2026 21:58:53 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnOWJMZWFXTVZlTTRSdG55bVRLWWN1cDBySVJTQTEtMXVab3d0dVlrWlJLVnUxblRxMUZ5Wk1sTlJDTmt2VF9oU2N1aHU4M2pfLVlORnpZZElsa2ZQN0hrRw?oc=5"
+    },
+    {
+      "title": "海外研选日报0924 | 美银：美联储年内或再加息两次 美股回调风险上升",
+      "source": "finance.sina.com.cn",
+      "published": "Thu, 24 Sep 2026 09:08:56 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5"
     },
     {
       "title": "央行购金力度超官方披露，机构称年底金价看到4900美元",
@@ -108,23 +114,17 @@
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5"
     },
     {
-      "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-      "source": "新浪财经",
-      "published": "Wed, 23 Sep 2026 12:47:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
-    },
-    {
-      "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
-      "source": "新浪财经",
-      "published": "Wed, 23 Sep 2026 23:15:55 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
+      "title": "油价大涨加剧通胀担忧 亚股全日普遍走低",
+      "source": "亚洲电视新闻",
+      "published": "Thu, 24 Sep 2026 10:10:48 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOenlRcTdfcW4tbGFxay1PUHV1ajFLeEw4SzkxNy01LU1WRGtTSTJwMVFCYnZTV0R1RDVUUWVrOGpXZDBGbUJtNEdCMC0tR2hmR3d4YjF3Szh3azgtNEZIdnhjV2FKY0M5ZlRUbXNtelIzUW5nY3daMGowd05iN1lhbjBad1BkMmVvNVBIMTRWNnNuZlNfZEoxd0d5Z01MOVgzX1JBU1pEaEo1bWJ5Tk1RMXdoaGo4N1E1UXZLMkZGSHhwRWs1ZnM3bnMwMlV5b1JFeklWVjRnNWZvam1PNkJFbGxRTnZIeHFNUXNkSVRoaUNoWk1kTnpJbVdPYUJyMFZrWi12VW9Ga0lBZkw3Wlk0andpNjh5NkZVM3l3d1RLYm1kajdGOUE?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 5,
+      "headline_count": 4,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.27 / +0.13%",
+          "value": "101.24 / +0.11%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7143 / +0.04%",
+          "value": "6.7151 / +0.06%",
           "state": "fresh"
         }
       ],
@@ -155,29 +155,29 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         },
         {
-          "title": "海外研选日报0924 | 美银：美联储年内或再加息两次 美股回调风险上升",
+          "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
           "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzNQNHVwMEhPTUdIMklPbDYwYXMyNXVacmg0bmlNU3JZNHUtREhoQkc2SEJCVGNPSjhZZjF2VkNMRXZSMUZFa0o4eU92SzktSmcxLVZEN3hUVGk0alUwOHhndlR2S05fUlZYVG1zYkZUMXRrZWtEVVlpdnZhVktkRXJrTEZ5dlFNUzBhdjFSODd3MW81YkcwOXZyQjVsNzNFV1ZqWFFsZTFIaExrQS1zclZkeGxtb0RTS2hidU5XSXc4bzZ2MHZZTDFWNlFteFI0a0dHWE4xZTBJdzJuTnpRb1ZYZGE?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "93.93 / +1.92%",
+          "value": "94.64 / +2.69%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,311.45 / -0.16%",
+          "value": "4,300.38 / -0.42%",
           "state": "fresh"
         },
         {
@@ -196,8 +196,43 @@
         },
         {
           "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
+          "source": "东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnOWJMZWFXTVZlTTRSdG55bVRLWWN1cDBySVJTQTEtMXVab3d0dVlrWlJLVnUxblRxMUZ5Wk1sTlJDTmt2VF9oU2N1aHU4M2pfLVlORnpZZElsa2ZQN0hrRw?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "inflation",
+      "label": "通胀与就业",
+      "headline_count": 1,
+      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.24 / +0.11%",
+          "state": "fresh"
+        },
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "26,945.15 / +0.03%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+      "headlines": [
+        {
+          "title": "油价大涨加剧通胀担忧 亚股全日普遍走低",
+          "source": "亚洲电视新闻",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOenlRcTdfcW4tbGFxay1PUHV1ajFLeEw4SzkxNy01LU1WRGtTSTJwMVFCYnZTV0R1RDVUUWVrOGpXZDBGbUJtNEdCMC0tR2hmR3d4YjF3Szh3azgtNEZIdnhjV2FKY0M5ZlRUbXNtelIzUW5nY3daMGowd05iN1lhbjBad1BkMmVvNVBIMTRWNnNuZlNfZEoxd0d5Z01MOVgzX1JBU1pEaEo1bWJ5Tk1RMXdoaGo4N1E1UXZLMkZGSHhwRWs1ZnM3bnMwMlV5b1JFeklWVjRnNWZvam1PNkJFbGxRTnZIeHFNUXNkSVRoaUNoWk1kTnpJbVdPYUJyMFZrWi12VW9Ga0lBZkw3Wlk0andpNjh5NkZVM3l3d1RLYm1kajdGOUE?oc=5"
         }
       ]
     },
@@ -211,19 +246,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.27 / +0.13%",
+          "value": "101.24 / +0.11%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7143 / +0.04%",
+          "value": "6.7151 / +0.06%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,328.45 / +0.10%",
+          "value": "14,347.28 / +0.23%",
           "state": "fresh"
         }
       ],
