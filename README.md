@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-09-24 16:42`（北京时间）
+> **🔴 已收盘** · 收盘快照已更新 · 最后检查 `2026-09-24 20:41`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -32 · 防守优先**（置信度：中）
+> **风险温度 -34 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 14,313.12 | -1.52% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.7150 | +0.05% | 最新 |
-| 美元指数 | 低权重计分 | 101.13 | -0.00% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,301.84 | -0.38% | 最新 |
-| WTI 原油 | 背景观察 | 94.22 | +2.24% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 14,328.45 | +0.10% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.7143 | +0.04% | 最新 |
+| 美元指数 | 低权重计分 | 101.27 | +0.13% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,311.45 | -0.16% | 最新 |
+| WTI 原油 | 背景观察 | 93.93 | +1.92% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -78,15 +78,15 @@
 
 | 信号 | 当前值 | 分数贡献 | 解释 |
 | --- | --- | ---: | --- |
-| A股动量 | 上证 -0.39% | -3.1 | 反映本地市场价格强弱 |
-| 市场宽度 | 涨 1910 / 跌 3605 | -6.1 | 上涨家数占优时提高风险偏好 |
-| 短线情绪 | 涨停 51 / 跌停 13 / 炸板率 33.8% | +2.1 | 涨停扩散加分，炸板率过高扣分 |
+| A股动量 | 上证 -1.22% | -9.8 | 反映本地市场价格强弱 |
+| 市场宽度 | 涨 1134 / 跌 4352 | -11.7 | 上涨家数占优时提高风险偏好 |
+| 短线情绪 | 涨停 52 / 跌停 13 / 炸板率 16.1% | +4.5 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 -0.51% | -3.6 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -1.52% | -8.0 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.7150 (+0.05%) / DXY 101.13 (-0.00%) | -0.6 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A50 先行 | 富时 A50 +0.10% | +0.6 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.7143 (+0.04%) / DXY 101.27 (+0.13%) | -1.2 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 5 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 0 / 风险词 7 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,8 +94,9 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（5 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.13 / -0.00%（最新） / USD/CNH 6.7150 / +0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.13 / -0.00%（最新） / USD/CNH 6.7150 / +0.05%（最新） / 富时A50 14,313.12 / -1.52%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
+| 央行与利率（5 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.27 / +0.13%（最新） / USD/CNH 6.7143 / +0.04%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 商品与成本（2 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 93.93 / +1.92%（最新） / 黄金 4,311.45 / -0.16%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.27 / +0.13%（最新） / USD/CNH 6.7143 / +0.04%（最新） / 富时A50 14,328.45 / +0.10%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
 
 ### 研究观察
 
@@ -103,12 +104,12 @@
 
 ### 新闻雷达
 
-- [全球债市抛售加剧，10年期日债收益率创30年新高，10年期美债延续跌势，美股期指走低、油涨金跌](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2dTQtc2FETzZvVUhUaUp5cm54Zm9qX1hlZjJPcHNTX3lORE0xR3pISTZEVEJrbWdHVlQ1MHhkUnZCMlBGMVdXU2l4ZVVOa3FVVTBv?oc=5) · 华尔街见闻
+- [全球债市抛售加剧，10年期、30年期美债收益率创19年新高，纳指期货跌1%，布油涨破100](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2dTQtc2FETzZvVUhUaUp5cm54Zm9qX1hlZjJPcHNTX3lORE0xR3pISTZEVEJrbWdHVlQ1MHhkUnZCMlBGMVdXU2l4ZVVOa3FVVTBv?oc=5) · 华尔街见闻
+- [一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5) · 金十数据
+- [海外研选日报0924 \| 美银：美联储年内或再加息两次 美股回调风险上升](https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5) · 新浪财经
 - [美联储官员放鹰+PMI数据支持，10月加息概率升至73%](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGI4QzVfVnN5N3FGQW8tTERHWm1mMjJpamZwZzBEVkoxUF8tODcyUHZTZlQ3VnM5eFJBSnA1REhVV2MxRkQ1Um1IM1ZjcUxGTUh0YXFkc25GRDFFR3dSekVfZHRMRUZSUURVUndOSEY3bUdfMGVTQXdJZERQOXRPLVNQZGJIemlVYnhLU1RFMjc2WUJUR2tkaTNBdDh3RXRPOC1kcVhXZDEwV0x3SVB2bTNLeldkOXlF?oc=5) · Moomoo
-- [日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京](https://news.google.com/rss/articles/CBMi8wNBVV95cUxOYVo1VTNKMVdmdHo4U3VlVWxFTHJ0S1VEMDhtd191aDlBYjZKeWwyS29uS0drUENKeU1jOV9lT3ZhTWE0VV92RjFLemRGWXlNYUlEMmhmWXRkM1VGb0FLRDBfU0xXNHNpUEVnUThSYXVHVUFQQk52T2p2ZjFMcVp5eTlSZDZWSFNuYkNaUjlOR2JTVUJlaVBtWHpTb1lUbDNOeTJPNlZySzNaOGc1NzI2VTJ1LUZTcG5BaHpORG1kT1VfYm0tcl84bEQydlJ1NENZSlNiazhuUEg5MldGdGJLR2xIblNDQjBOTFlrMy1xZVhYTnIyMUtzeTJocXZlb3JsT3F0MXQ4M09VVHo2UXo3OWVJYU90WDZGUW9RZXZUams0OC0ydVZXRzZUaElWY1g4a2FJd0Jvd3R0SHM4LUJFOWJFaEFuTGE2WFoxSUNwQUR5SmtrWUlLVzVybW0xQkdDTVBadHU5R1E0dC1CcFFOSWthMm9yZ3NZWnVYOE1CVWUwZ3AwYUNIMDFQV1JvWWM1SUNiWEdzajhjQlB0LUNYMzFfbWk3RDdXWjdpazE2X084RERodkVqVmNNOEJfMDhsMkpyTDM0S2U2M3d5bHlTTjVRR1FWd1J1aEJPQjRJZGpKYURXVEppTmJGUk1lT0U4Nkdv?oc=5) · 新浪财经_金融信息服务商
-- [华尔街早报： PMI爆表、美债遭血洗、10月加息概率超7成，AI代理引发中介焦虑，美股齐跌](https://news.google.com/rss/articles/CBMif0FVX3lxTE1adXcyNjJaQ2NDaHNSemEwel9laGNjdFNESmxnTFZXeE9YYWtwUExoRUxkRWpBUFZYZGtjbTkxZnFLSFN0Smx1UVg3ZDV5TGt0WnhSSm9BUDN1OXdSb3FrUkJoZ0tDbjk2UE51SjVXTXM0UzFWZ2xiRGJoWU5TWnc?oc=5) · panewslab.com
+- [日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京](https://news.google.com/rss/articles/CBMi8wNBVV95cUxOYVo1VTNKMVdmdHo4U3VlVWxFTHJ0S1VEMDhtd191aDlBYjZKeWwyS29uS0drUENKeU1jOV9lT3ZhTWE0VV92RjFLemRGWXlNYUlEMmhmWXRkM1VGb0FLRDBfU0xXNHNpUEVnUThSYXVHVUFQQk52T2p2ZjFMcVp5eTlSZDZWSFNuYkNaUjlOR2JTVUJlaVBtWHpTb1lUbDNOeTJPNlZySzNaOGc1NzI2VTJ1LUZTcG5BaHpORG1kT1VfYm0tcl84bEQydlJ1NENZSlNiazhuUEg5MldGdGJLR2xIblNDQjBOTFlrMy1xZVhYTnIyMUtzeTJocXZlb3JsT3F0MXQ4M09VVHo2UXo3OWVJYU90WDZGUW9RZXZUams0OC0ydVZXRzZUaElWY1g4a2FJd0Jvd3R0SHM4LUJFOWJFaEFuTGE2WFoxSUNwQUR5SmtrWUlLVzVybW0xQkdDTVBadHU5R1E0dC1CcFFOSWthMm9yZ3NZWnVYOE1CVWUwZ3AwYUNIMDFQV1JvWWM1SUNiWEdzajhjQlB0LUNYMzFfbWk3RDdXWjdpazE2X084RERodkVqVmNNOEJfMDhsMkpyTDM0S2U2M3d5bHlTTjVRR1FWd1J1aEJPQjRJZGpKYURXVEppTmJGUk1lT0U4Nkdv?oc=5) · 新浪财经
 - [央行购金力度超官方披露，机构称年底金价看到4900美元](https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5) · Moomoo
-- [港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低](https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5) · 新浪财经_金融信息服务商
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
@@ -118,7 +119,7 @@
 
 ![风险信号前向验证](charts/signal_scorecard.svg)
 
-> 1 日方向命中率 **89.5%**，当前有效样本 **19** 条。
+> 1 日方向命中率 **91.7%**，当前有效样本 **24** 条。
 
 方法：开盘/午间信号验证当日收盘，收盘/夜间信号验证下一交易日；同时持续结算 3 日和 5 日复合收益。
 
@@ -136,6 +137,7 @@
 
 | 日期 | 上证 | 深成 | 创业板 | 沪深300 | 科创50 | 成交额(亿) | 涨/跌/平 | 涨停 | 跌停 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-24 | 3888.37<br>-1.22% | 13316.97<br>-2.34% | 3288.95<br>-2.68% | 4439.14<br>-1.73% | 1621.87<br>-2.35% | 16534 | 1134/4352/148 | 52 | 13 |
 | 2026-09-23 | 3936.52<br>-0.39% | 13636.07<br>-0.64% | 3379.61<br>-0.60% | 4517.28<br>-0.60% | 1660.85<br>-0.25% | 17650 | 1910/3605/118 | 51 | 13 |
 | 2026-09-22 | 3952.13<br>+0.06% | 13723.74<br>-0.05% | 3399.93<br>+0.01% | 4544.59<br>+0.11% | 1665.04<br>+0.46% | 21356 | 2391/3077/163 | 63 | 3 |
 | 2026-09-21 | 3949.91<br>+0.97% | 13730.02<br>+0.65% | 3399.59<br>+0.80% | 4539.57<br>+0.71% | 1657.48<br>+0.29% | 20315 | 4583/951/96 | 103 | 2 |
@@ -145,20 +147,20 @@
 | 2026-09-15 | 3864.28<br>-0.54% | 13287.97<br>-0.72% | 3247.92<br>-1.15% | 4450.04<br>-0.67% | 1551.96<br>+1.55% | 16127 | -/-/- | - | - |
 | 2026-09-14 | 3885.33<br>-0.07% | 13384.57<br>-0.64% | 3285.58<br>-1.10% | 4480.08<br>-0.67% | 1528.27<br>-1.62% | 16292 | -/-/- | - | - |
 | 2026-09-11 | 3888.11<br>-1.18% | 13471.26<br>-1.08% | 3322.04<br>-0.49% | 4510.16<br>-0.84% | 1553.39<br>-1.01% | 19719 | -/-/- | - | - |
-| 2026-09-10 | 3934.40<br>-0.43% | 13617.67<br>-0.77% | 3338.42<br>-0.49% | 4548.39<br>-0.53% | 1569.22<br>-0.69% | 16472 | -/-/- | - | - |
 
-完整历史在 [data/](data/) 目录，共 662 个交易日。
+完整历史在 [data/](data/) 目录，共 663 个交易日。
 
 ## 市场情绪
 
-最新交易日 2026-09-23：
+最新交易日 2026-09-24：
 
-- 涨停 **51** 家，跌停 **13** 家
-- 炸板 26 家，炸板率 **33.8%**（越高说明封板越不牢）
-- 最高 **9** 连板，2 板及以上共 14 家
+- 涨停 **52** 家，跌停 **13** 家
+- 炸板 10 家，炸板率 **16.1%**（越高说明封板越不牢）
+- 最高 **7** 连板，2 板及以上共 19 家
 
 | 日期 | 涨停 | 跌停 | 炸板 | 炸板率 | 最高连板 | 连板家数 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-24 | 52 | 13 | 10 | 16.1% | 7 | 19 |
 | 2026-09-23 | 51 | 13 | 26 | 33.8% | 9 | 14 |
 | 2026-09-22 | 63 | 3 | 18 | 22.2% | 9 | 27 |
 | 2026-09-21 | 103 | 2 | 25 | 19.5% | 17 | 31 |
@@ -166,20 +168,20 @@
 
 ## 行业板块
 
-2026-09-23 领涨与领跌各五个：
+2026-09-24 领涨与领跌各五个：
 
 | | 行业 | 涨跌幅 | 主力净流入(亿) | 领涨股 |
 | --- | --- | --- | --- | --- |
-| 领涨 | 半导体材料 | +3.80% | 7.70 | 康强电子 |
-|  | 房产租赁经纪 | +3.21% | 0.28 | 我爱我家 |
-|  | 光伏加工设备 | +2.82% | 2.37 | 金辰股份 |
-|  | 仪器仪表 | +2.79% | 5.14 | 威星智能 |
-|  | 有机硅 | +2.69% | 2.65 | 集泰股份 |
-| 领跌 | 焦炭Ⅱ | -5.09% | -1.92 | 开滦股份 |
-|  | 焦炭Ⅲ | -5.09% | -1.92 | 开滦股份 |
-|  | 文字媒体 | -5.00% | -2.56 | 掌阅科技 |
-|  | 其他养殖 | -4.85% | -0.31 | *ST福成 |
-|  | 教育运营及其他 | -4.82% | -0.66 | ST豆神 |
+| 领涨 | 林业Ⅲ | +5.83% | 6.39 | 平潭发展 |
+|  | 林业Ⅱ | +5.83% | 6.39 | 平潭发展 |
+|  | 其他医疗服务 | +4.29% | 2.01 | 合富中国 |
+|  | 其他家电Ⅲ | +4.24% | 0.74 | 奥佳华 |
+|  | 其他家电Ⅱ | +4.24% | 0.74 | 奥佳华 |
+| 领跌 | 白银 | -4.83% | -3.80 | 兴业银锡 |
+|  | 印制电路板 | -4.74% | -74.13 | 中京电子 |
+|  | 广告媒体 | -4.70% | -0.50 | 分众传媒 |
+|  | 贵金属 | -4.63% | -13.30 | 招金黄金 |
+|  | 医疗研发外包 | -4.61% | -22.41 | 和元生物 |
 
 ## 自动更新节奏
 

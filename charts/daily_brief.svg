@@ -8,19 +8,19 @@
 <text x="1142" y="62" fill="#9aa5ad" font-size="13" text-anchor="end" letter-spacing="2">DAILY MARKET BRIEF / 每日市场简报</text>
 <line x1="58" y1="86" x2="1142" y2="86" stroke="#273037"/>
 <text x="58" y="132" fill="#9aa5ad" font-size="13" letter-spacing="2">CROSS-MARKET RISK TEMPERATURE</text>
-<text x="52" y="286" fill="#2cc17a" font-size="168" font-weight="800" letter-spacing="-12">-32</text>
+<text x="52" y="286" fill="#2cc17a" font-size="168" font-weight="800" letter-spacing="-12">-34</text>
 <text x="58" y="336" fill="#f2ede4" font-size="38" font-weight="700">防守优先</text>
-<text x="58" y="370" fill="#9aa5ad" font-size="14">CONFIDENCE / 中　UPDATED / 2026-09-24 16:42 CST</text>
+<text x="58" y="370" fill="#9aa5ad" font-size="14">CONFIDENCE / 中　UPDATED / 2026-09-24 20:42 CST</text>
 <line x1="446" y1="118" x2="446" y2="382" stroke="#273037"/>
 <text x="486" y="134" fill="#9aa5ad" font-size="12" letter-spacing="2">A-SHARE CLOSE</text>
-<text x="486" y="184" fill="#f2ede4" font-size="39" font-weight="700">3,936.52</text>
-<text x="727" y="184" fill="#2cc17a" font-size="28" font-weight="700">-0.39%</text>
-<text x="486" y="218" fill="#68737b" font-size="13">SHANGHAI · 2026-09-23 · TURNOVER 17,650 亿</text>
+<text x="486" y="184" fill="#f2ede4" font-size="39" font-weight="700">3,888.37</text>
+<text x="727" y="184" fill="#2cc17a" font-size="28" font-weight="700">-1.22%</text>
+<text x="486" y="218" fill="#68737b" font-size="13">SHANGHAI · 2026-09-24 · TURNOVER 16,534 亿</text>
 <text x="486" y="270" fill="#9aa5ad" font-size="12" letter-spacing="2">MARKET BREADTH</text>
-<text x="486" y="318" fill="#ff5148" font-size="31" font-weight="700">↑ 1,910</text>
-<text x="670" y="318" fill="#2cc17a" font-size="31" font-weight="700">↓ 3,605</text>
-<text x="856" y="318" fill="#e9c86f" font-size="19" font-weight="700">涨停 51</text>
-<text x="856" y="350" fill="#9aa5ad" font-size="14">炸板率 33.8%</text>
+<text x="486" y="318" fill="#ff5148" font-size="31" font-weight="700">↑ 1,134</text>
+<text x="670" y="318" fill="#2cc17a" font-size="31" font-weight="700">↓ 4,352</text>
+<text x="856" y="318" fill="#e9c86f" font-size="19" font-weight="700">涨停 52</text>
+<text x="856" y="350" fill="#9aa5ad" font-size="14">炸板率 16.1%</text>
 <line x1="58" y1="408" x2="1142" y2="408" stroke="#273037"/>
 <text x="58" y="442" fill="#9aa5ad" font-size="12" letter-spacing="1.5">S&amp;P 500</text>
 <text x="58" y="478" fill="#2cc17a" font-size="27" font-weight="700">-0.75%</text>
@@ -40,15 +40,15 @@
 <line x1="58" y1="500" x2="1142" y2="500" stroke="#273037"/>
 <text x="58" y="527" fill="#9aa5ad" font-size="10" font-weight="700" letter-spacing="1.2">CROSS ASSETS</text>
 <text x="218" y="516" fill="#68737b" font-size="9" letter-spacing="1">A50</text>
-<text x="218" y="537" fill="#2cc17a" font-size="13" font-weight="700">14,313.12 / -1.52%</text>
+<text x="218" y="537" fill="#ff5148" font-size="13" font-weight="700">14,328.45 / +0.10%</text>
 <text x="402" y="516" fill="#68737b" font-size="9" letter-spacing="1">CNH</text>
-<text x="402" y="537" fill="#ff5148" font-size="13" font-weight="700">6.7150 / +0.05%</text>
+<text x="402" y="537" fill="#ff5148" font-size="13" font-weight="700">6.7143 / +0.04%</text>
 <text x="586" y="516" fill="#68737b" font-size="9" letter-spacing="1">DXY</text>
-<text x="586" y="537" fill="#2cc17a" font-size="13" font-weight="700">101.13 / -0.00%</text>
+<text x="586" y="537" fill="#ff5148" font-size="13" font-weight="700">101.27 / +0.13%</text>
 <text x="770" y="516" fill="#68737b" font-size="9" letter-spacing="1">GOLD</text>
-<text x="770" y="537" fill="#2cc17a" font-size="13" font-weight="700">4,301.84 / -0.38%</text>
+<text x="770" y="537" fill="#2cc17a" font-size="13" font-weight="700">4,311.45 / -0.16%</text>
 <text x="954" y="516" fill="#68737b" font-size="9" letter-spacing="1">WTI</text>
-<text x="954" y="537" fill="#ff5148" font-size="13" font-weight="700">94.22 / +2.24%</text>
+<text x="954" y="537" fill="#ff5148" font-size="13" font-weight="700">93.93 / +1.92%</text>
 <rect x="58" y="550" width="1084" height="34" fill="#101519" stroke="#273037"/>
 <text x="78" y="572" fill="#e9c86f" font-size="10" font-weight="700" letter-spacing="1.2">RESEARCH NOTE</text>
 <text x="218" y="572" fill="#f2ede4" font-size="14">研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。</text>
