@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24 08:29",
-  "score": -26,
+  "generated_at": "2026-09-24 15:31",
+  "score": -30,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.63%",
-      "contribution": -4.4,
+      "value": "6 个市场均值 -0.51%",
+      "contribution": -3.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.50%",
-      "contribution": -3.0,
+      "value": "富时 A50 -1.34%",
+      "contribution": -8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7123 (+0.01%) / DXY 101.15 (+0.02%)",
-      "contribution": -0.3,
+      "value": "USD/CNH 6.7124 (+0.01%) / DXY 101.07 (-0.06%)",
+      "contribution": 0.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 4",
+      "value": "正向词 0 / 风险词 3",
       "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,40 +66,28 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 4,
+    "positive_hits": 0,
+    "negative_hits": 3,
     "score": -6
   },
   "news": [
     {
-      "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
-      "source": "财联社",
-      "published": "Wed, 23 Sep 2026 18:44:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
+      "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
+      "source": "Moomoo",
+      "published": "Thu, 24 Sep 2026 05:10:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGI4QzVfVnN5N3FGQW8tTERHWm1mMjJpamZwZzBEVkoxUF8tODcyUHZTZlQ3VnM5eFJBSnA1REhVV2MxRkQ1Um1IM1ZjcUxGTUh0YXFkc25GRDFFR3dSekVfZHRMRUZSUURVUndOSEY3bUdfMGVTQXdJZERQOXRPLVNQZGJIemlVYnhLU1RFMjc2WUJUR2tkaTNBdDh3RXRPOC1kcVhXZDEwV0x3SVB2bTNLeldkOXlF?oc=5"
     },
     {
       "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "published": "Wed, 23 Sep 2026 23:15:55 GMT",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
     },
     {
-      "title": "资产配置报告丨加息靴子落地，市场风险偏好或修复- 21世纪经济报道",
-      "source": "ZAKER新闻",
-      "published": "Wed, 23 Sep 2026 07:16:02 GMT",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DSE43N1l0ODh0Y1NIemJKUDJWQTFTZTdnWlVnX3NURFVSZ0lSM1JyQ25Ja3UwOGJLb3gySDFhb1AzVUQxX2syMWx1dEp3Njl1VFo1WW1VRGQ1Q0otX3gxTU1XUWdHMEZkeDRZMVBKUlJDOGl4ZEdJ?oc=5"
-    },
-    {
-      "title": "美元“压顶”全球市场！五大货币对、黄金、美股、比特币最新技术信号出炉",
+      "title": "美联储加息后，欧元突然失速！1.14关口还能守多久？",
       "source": "FX168财经",
-      "published": "Wed, 23 Sep 2026 15:53:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSnUzUXFwRlFfUGJaUDFMLTR1YTJwTXo1Rl9sZFNQNEZ0NGcyMTVraHpzMVV3bGVKSzhoMkFZdldZWnMzOHplN0dEenZGQzVuMHpKckU0aW9QUkw1UW4xcXRjOHJSNnJyUXB0RXNLQkw1RjRCVmQ4bUh6QzZhaDRUd3daVS0?oc=5"
-    },
-    {
-      "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-      "source": "Moomoo",
-      "published": "Wed, 23 Sep 2026 06:51:45 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
+      "published": "Wed, 23 Sep 2026 10:38:14 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QRE9BeXBxLU5rSE9tdkxCOUxkTUVqdHJuYUxEcTF4Q2tzaG51NFJwLTlzRnFaajFNUVd3eUVFZVp5TWFUTW50V2dKMXJUaWFvVVEtNk1HYnZ1d1o1WUdOUllxUWdpMlhFWDRMYQ?oc=5"
     },
     {
       "title": "日本股市休市时间是什么时候?日本股市今天休市吗?",
@@ -109,15 +97,9 @@
     },
     {
       "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "published": "Wed, 23 Sep 2026 12:47:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
-    },
-    {
-      "title": "纳指再创新高、油价五连跌，“持股过节”还是“持币过节”？",
-      "source": "搜狐网",
-      "published": "Wed, 23 Sep 2026 01:45:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvUFVHLS1fdDF2QndYelNYNFBUM0NoTnppNlN2b1JWXzlFNVFtTS1PTGtGYWFXaWxqY2J5ZU9IeEF1RHJkN056cG9mT1hnT2RVUGRRT2ZxY3dzdnh3Mm9YSA?oc=5"
     }
   ],
   "events": [
@@ -137,47 +119,47 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.15 / +0.02%",
+          "value": "101.07 / -0.06%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7123 / +0.01%",
+          "value": "6.7124 / +0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
-          "source": "finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
+          "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGI4QzVfVnN5N3FGQW8tTERHWm1mMjJpamZwZzBEVkoxUF8tODcyUHZTZlQ3VnM5eFJBSnA1REhVV2MxRkQ1Um1IM1ZjcUxGTUh0YXFkc25GRDFFR3dSekVfZHRMRUZSUURVUndOSEY3bUdfMGVTQXdJZERQOXRPLVNQZGJIemlVYnhLU1RFMjc2WUJUR2tkaTNBdDh3RXRPOC1kcVhXZDEwV0x3SVB2bTNLeldkOXlF?oc=5"
         },
         {
-          "title": "资产配置报告丨加息靴子落地，市场风险偏好或修复- 21世纪经济报道",
-          "source": "ZAKER新闻",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DSE43N1l0ODh0Y1NIemJKUDJWQTFTZTdnWlVnX3NURFVSZ0lSM1JyQ25Ja3UwOGJLb3gySDFhb1AzVUQxX2syMWx1dEp3Njl1VFo1WW1VRGQ1Q0otX3gxTU1XUWdHMEZkeDRZMVBKUlJDOGl4ZEdJ?oc=5"
+          "title": "港股早报｜央行将逆回购呵护长假资金波动 热门中概股多数走低",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KdHFKbWh0YkoxOUhvSWYxUV9Fd1dMWUFKTEJqWUsxUmNVQmNNRzgwejVkY0ZEczBDMjhvdTBveWFBUFhTZFEwdExFRGlmTkpTcDFuTUhwMEUxWjlHNVdHMXJtbWZDNThsV2tOTDlB?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 3,
+      "headline_count": 1,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "91.60 / -0.61%",
+          "value": "92.33 / +0.19%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,327.45 / +0.21%",
+          "value": "4,319.56 / +0.03%",
           "state": "fresh"
         },
         {
@@ -190,89 +172,9 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "美元“压顶”全球市场！五大货币对、黄金、美股、比特币最新技术信号出炉",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSnUzUXFwRlFfUGJaUDFMLTR1YTJwTXo1Rl9sZFNQNEZ0NGcyMTVraHpzMVV3bGVKSzhoMkFZdldZWnMzOHplN0dEenZGQzVuMHpKckU0aW9QUkw1UW4xcXRjOHJSNnJyUXB0RXNLQkw1RjRCVmQ4bUh6QzZhaDRUd3daVS0?oc=5"
-        },
-        {
           "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-          "source": "finance.sina.com.cn",
+          "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWEVqTDh5NkZNMU9oWUlxWm9BQ01qc1VGSXFPUWVjYTBVYktSNkE0YlM2dGtkM2FUdnRKM0ZibF9yR0tKSkJ6MFF5NUlQUDlPNHFuUjM4U3JjbmxIVERKT2FjaUgyY0NDNzlMQ1Jn?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 2,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.15 / +0.02%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7123 / +0.01%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "14,462.00 / -0.50%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "美元“压顶”全球市场！五大货币对、黄金、美股、比特币最新技术信号出炉",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSnUzUXFwRlFfUGJaUDFMLTR1YTJwTXo1Rl9sZFNQNEZ0NGcyMTVraHpzMVV3bGVKSzhoMkFZdldZWnMzOHplN0dEenZGQzVuMHpKckU0aW9QUkw1UW4xcXRjOHJSNnJyUXB0RXNLQkw1RjRCVmQ4bUh6QzZhaDRUd3daVS0?oc=5"
-        },
-        {
-          "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "domestic_policy",
-      "label": "国内政策与需求",
-      "headline_count": 1,
-      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-      "a_share_lens": "金融地产、基建、消费与顺周期方向",
-      "watch": [
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "14,462.00 / -0.50%",
-          "state": "fresh"
-        },
-        {
-          "code": "HSI",
-          "label": "恒生指数",
-          "value": "24,834.12 / -1.01%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7123 / +0.01%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-      "headlines": [
-        {
-          "title": "日元缺乏明确鹰派指引，美元兑日元升至157.60附近，市场关注日本干预风险与美联储政策分化",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUWw3Vmx5NE1uNnJ5MWFYX2RKLVpzMkpDNGlrSkRSUmxueE50dnVVa3lBaVhBTTljRWJuaFlSU19lUHM4U0UwR1V2ejBPLXU5M2RPaGdFM2dCYi16QUQteWlWbl9RNXJCYXYwSXliNm1VWUd2VXRzOWI2T0lKenc2Z1RVMXhnWkdqenlnQTRSSGFESGo4VXl1ZDRxNG9pZ2JtOTAwQTFvTms?oc=5"
         }
       ]
     }
