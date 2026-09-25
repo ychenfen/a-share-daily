@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25 01:18",
-  "score": -28,
-  "stance": "防守优先",
-  "color": "#08783e",
+  "generated_at": "2026-09-25 08:32",
+  "score": -24,
+  "stance": "谨慎防守",
+  "color": "#3b9b68",
   "confidence": "中",
-  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
+  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.19%",
-      "contribution": 1.3,
+      "value": "6 个市场均值 +0.14%",
+      "contribution": 1.0,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.23%",
-      "contribution": 1.4,
+      "value": "富时 A50 +0.86%",
+      "contribution": 5.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7151 (+0.06%) / DXY 101.24 (+0.11%)",
-      "contribution": -1.2,
+      "value": "USD/CNH 6.7171 (+0.02%) / DXY 101.30 (+0.05%)",
+      "contribution": -0.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,25 +57,25 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 7",
+      "value": "正向词 0 / 风险词 6",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
+    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 7,
+    "positive_hits": 0,
+    "negative_hits": 6,
     "score": -8
   },
   "news": [
     {
-      "title": "美股摔了VS两个产业利好，A股情绪二次确认？【每日信号】",
-      "source": "21财经",
-      "published": "Thu, 24 Sep 2026 07:10:21 GMT",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFNLZ3pqamd5WkljNnJodWtJWnBtMXhSekRPa21ESkUxRktlZFYyV0doSXJYaHFCejE5TEdvRmp3MUw0ckxOcnJlTG9fRjZCR3pvbjNycG9UQ3FKcWc3MUh6RFhycDF1MEcwN0Q5OXV3d0J1QlBvY1NEam11andsX2xJaG51NFNKc1IwYV9Mcw?oc=5"
+      "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
+      "source": "财联社",
+      "published": "Thu, 24 Sep 2026 16:16:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
     },
     {
       "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
@@ -84,34 +84,34 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
     },
     {
-      "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
-      "source": "finance.sina.com.cn",
-      "published": "Thu, 24 Sep 2026 11:02:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVVdGc1A1c0FMUC1FMkJ0VjlOSGd4TzVpN0E1SHBtNFRZclFaQkRuR2YyYXNNQVYxQWhHTXBvbEJIWUJUT3VnUVBtTWdFYU4tck1ubHllUU13ZWwxTHBvQ0RpVkJ1OEFkQlU3OXh1SExGYzZfc0NvUjM2aXFVWmdBZnBTYXBjWkJzVnc?oc=5"
+      "title": "海外研选日报0924 | 美银：美联储年内或再加息两次 美股回调风险上升",
+      "source": "新浪财经",
+      "published": "Thu, 24 Sep 2026 09:08:56 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5"
     },
     {
       "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
       "source": "新浪财经",
       "published": "Thu, 24 Sep 2026 05:10:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzNQNHVwMEhPTUdIMklPbDYwYXMyNXVacmg0bmlNU3JZNHUtREhoQkc2SEJCVGNPSjhZZjF2VkNMRXZSMUZFa0o4eU92SzktSmcxLVZEN3hUVGk0alUwOHhndlR2S05fUlZYVG1zYkZUMXRrZWtEVVlpdnZhVktkRXJrTEZ5dlFNUzBhdjFSODd3MW81YkcwOXZyQjVsNzNFV1ZqWFFsZTFIaExrQS1zclZkeGxtb0RTS2hidU5XSXc4bzZ2MHZZTDFWNlFteFI0a0dHWE4xZTBJdzJuTnpRb1ZYZGE?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQY2NlZEUtYkoxQUlPd0E2R0YxRjFscWtNVGtXQS0xYzlRYUd6SXNreVM5WlVKUU9NQ3pfQ2RRNS1hdndxN1dEMkxxdjJRM0puUENuSUUwcHVJWTc0YS1NUUhpSVR0Y0lVTDNzWFZLdXk5VVpkTWZ3dnN1b3FNbTdrakxPZWM0MV9tT2syWVJyeFNkQnhqNGJyNEplc2NsNEpJcUJIeW1NZW0zNXdGdUE4U3NnX2ZxbzVfSmhYdy1OMlZ6cUV2UUdZOWhERmxjNWVfVThOMEhkSldsSGpudHRxSVpJNUs?oc=5"
     },
     {
-      "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-      "source": "东方财富",
-      "published": "Wed, 23 Sep 2026 21:58:53 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnOWJMZWFXTVZlTTRSdG55bVRLWWN1cDBySVJTQTEtMXVab3d0dVlrWlJLVnUxblRxMUZ5Wk1sTlJDTmt2VF9oU2N1aHU4M2pfLVlORnpZZElsa2ZQN0hrRw?oc=5"
-    },
-    {
-      "title": "海外研选日报0924 | 美银：美联储年内或再加息两次 美股回调风险上升",
-      "source": "finance.sina.com.cn",
-      "published": "Thu, 24 Sep 2026 09:08:56 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5"
+      "title": "“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨",
+      "source": "fx168news.com",
+      "published": "Thu, 24 Sep 2026 17:19:17 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5"
     },
     {
       "title": "央行购金力度超官方披露，机构称年底金价看到4900美元",
       "source": "Moomoo",
       "published": "Thu, 24 Sep 2026 04:20:50 GMT",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5"
+    },
+    {
+      "title": "日本10年期国债收益率冲上1996年来新高 全球债市抛售潮席卷东京",
+      "source": "新浪财经",
+      "published": "Thu, 24 Sep 2026 11:02:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVVdGc1A1c0FMUC1FMkJ0VjlOSGd4TzVpN0E1SHBtNFRZclFaQkRuR2YyYXNNQVYxQWhHTXBvbEJIWUJUT3VnUVBtTWdFYU4tck1ubHllUU13ZWwxTHBvQ0RpVkJ1OEFkQlU3OXh1SExGYzZfc0NvUjM2aXFVWmdBZnBTYXBjWkJzVnc?oc=5"
     },
     {
       "title": "油价大涨加剧通胀担忧 亚股全日普遍走低",
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.24 / +0.11%",
+          "value": "101.30 / +0.05%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7151 / +0.06%",
+          "value": "6.7171 / +0.02%",
           "state": "fresh"
         }
       ],
@@ -155,9 +155,9 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         },
         {
-          "title": "美联储官员放鹰+PMI数据支持，10月加息概率升至73%",
+          "title": "海外研选日报0924 | 美银：美联储年内或再加息两次 美股回调风险上升",
           "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTzNQNHVwMEhPTUdIMklPbDYwYXMyNXVacmg0bmlNU3JZNHUtREhoQkc2SEJCVGNPSjhZZjF2VkNMRXZSMUZFa0o4eU92SzktSmcxLVZEN3hUVGk0alUwOHhndlR2S05fUlZYVG1zYkZUMXRrZWtEVVlpdnZhVktkRXJrTEZ5dlFNUzBhdjFSODd3MW81YkcwOXZyQjVsNzNFV1ZqWFFsZTFIaExrQS1zclZkeGxtb0RTS2hidU5XSXc4bzZ2MHZZTDFWNlFteFI0a0dHWE4xZTBJdzJuTnpRb1ZYZGE?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSmJQdFpnZlhDbjZqWE1sSHUxZ2dVUUdMa3c3cWctSFdhQnFRek81Wm9CYnJranVqRHliM2hpSV94cW5xMC1sLVJKbWpodWQ5MXlYZnhmV0E5SHFDaFU4cXRGZHZXMVVPdEtpMFFR?oc=5"
         }
       ]
     },
@@ -171,13 +171,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "94.64 / +2.69%",
+          "value": "93.79 / -0.86%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,300.38 / -0.42%",
+          "value": "4,303.39 / +0.13%",
           "state": "fresh"
         },
         {
@@ -195,9 +195,49 @@
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         },
         {
-          "title": "全线跳水！美股、欧股、黄金、白银集体下跌！",
-          "source": "东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnOWJMZWFXTVZlTTRSdG55bVRLWWN1cDBySVJTQTEtMXVab3d0dVlrWlJLVnUxblRxMUZ5Wk1sTlJDTmt2VF9oU2N1aHU4M2pfLVlORnpZZElsa2ZQN0hrRw?oc=5"
+          "title": "“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨",
+          "source": "fx168news.com",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.30 / +0.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7171 / +0.02%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "14,245.75 / +0.86%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨",
+          "source": "fx168news.com",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5"
+        },
+        {
+          "title": "央行购金力度超官方披露，机构称年底金价看到4900美元",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5"
         }
       ]
     },
@@ -217,13 +257,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.24 / +0.11%",
+          "value": "101.30 / +0.05%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,945.15 / +0.03%",
+          "value": "26,939.37 / +0.01%",
           "state": "fresh"
         }
       ],
@@ -233,41 +273,6 @@
           "title": "油价大涨加剧通胀担忧 亚股全日普遍走低",
           "source": "亚洲电视新闻",
           "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOenlRcTdfcW4tbGFxay1PUHV1ajFLeEw4SzkxNy01LU1WRGtTSTJwMVFCYnZTV0R1RDVUUWVrOGpXZDBGbUJtNEdCMC0tR2hmR3d4YjF3Szh3azgtNEZIdnhjV2FKY0M5ZlRUbXNtelIzUW5nY3daMGowd05iN1lhbjBad1BkMmVvNVBIMTRWNnNuZlNfZEoxd0d5Z01MOVgzX1JBU1pEaEo1bWJ5Tk1RMXdoaGo4N1E1UXZLMkZGSHhwRWs1ZnM3bnMwMlV5b1JFeklWVjRnNWZvam1PNkJFbGxRTnZIeHFNUXNkSVRoaUNoWk1kTnpJbVdPYUJyMFZrWi12VW9Ga0lBZkw3Wlk0andpNjh5NkZVM3l3d1RLYm1kajdGOUE?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.24 / +0.11%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7151 / +0.06%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "14,347.28 / +0.23%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "央行购金力度超官方披露，机构称年底金价看到4900美元",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVXlIanprXzgzNUd2ZTg3VG9qalFVOGpfRVBLdll5dEpTbXBQbnpyTjNNMG1qSXdRZ1Z0NEh1eHdGQW9BbGZQSklzWmxYUFVWM09NbXBOUExNQUtvN1Z2c3ZYenpTcWx1TE9CSmNFdTYxVW9iYmIzRTg2eDZVdFB6QmpvM3NhZFRBUFV1VWJhUzNSLXlScDM5UDg2b1V0UFkyb3RRSEVVSlVLVVprdzVUSmtXS3lzdzBkZUl1UVo2eXljQnMxampZeVRzRQ?oc=5"
         }
       ]
     }
