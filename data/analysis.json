@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26 15:27",
+  "generated_at": "2026-09-26 16:48",
   "score": -20,
   "stance": "谨慎防守",
   "color": "#3b9b68",
@@ -79,15 +79,9 @@
     },
     {
       "title": "美元强势延续，全球市场暗藏风险",
-      "source": "news.futunn.com",
+      "source": "富途牛牛",
       "published": "Fri, 25 Sep 2026 14:23:02 GMT",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5"
-    },
-    {
-      "title": "Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高",
-      "source": "FX168财经",
-      "published": "Fri, 25 Sep 2026 08:01:42 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5"
     },
     {
       "title": "一则消息点燃市场 道指大涨",
@@ -97,76 +91,6 @@
     }
   ],
   "events": [
-    {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
-      "headline_count": 1,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-      "watch": [
-        {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
-          "state": "stale"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,323.30 / +0.59%",
-          "state": "fresh"
-        },
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "92.34 / -2.40%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "92.34 / -2.40%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,323.30 / +0.59%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5"
-        }
-      ]
-    },
     {
       "key": "currency",
       "label": "美元与人民币",
@@ -197,7 +121,7 @@
       "headlines": [
         {
           "title": "美元强势延续，全球市场暗藏风险",
-          "source": "news.futunn.com",
+          "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5"
         }
       ]

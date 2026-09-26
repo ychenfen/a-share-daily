@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-24 · 最后检查 `2026-09-26 15:27`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-24 · 最后检查 `2026-09-26 16:48`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -94,8 +94,6 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 地缘与贸易（1 条） | 地缘风险 → 油金与波动率 → 通胀预期和风险偏好 | 黄金、能源、军工、航运与出口链风险敞口 | VIX 15.44（最近有效值） / 黄金 4,323.30 / +0.59%（最新） / 原油 92.34 / -2.40%（最新） | 失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 92.34 / -2.40%（最新） / 黄金 4,323.30 / +0.59%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 | 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.03 / -0.21%（最新） / USD/CNH 6.7227 / +0.11%（最新） / 富时A50 14,196.50 / +0.11%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
 
 ### 研究观察
@@ -105,8 +103,7 @@
 ### 新闻雷达
 
 - [亚洲导航：在更高利率环境中前行](https://news.google.com/rss/articles/CBMiXEFVX3lxTE50SGR4SmFtd3RVbDRoR1VTOEk4SFJPdHdXQWNUU2FsWldUYmc0UjRoSTB1Nld3QXFObUxfLUtDSWNCR2FnaW9KUEQxM3R5WjBmSVRfbTAtOUcyUjZr?oc=5) · Moomoo
-- [美元强势延续，全球市场暗藏风险](https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5) · news.futunn.com
-- [Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5) · FX168财经
+- [美元强势延续，全球市场暗藏风险](https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5) · 富途牛牛
 - [一则消息点燃市场 道指大涨](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5) · aboluowang.com
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
