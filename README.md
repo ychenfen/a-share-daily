@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-24 · 最后检查 `2026-09-26 16:48`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-24 · 最后检查 `2026-09-26 20:11`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -20 · 谨慎防守**（置信度：中）
+> **风险温度 -18 · 谨慎防守**（置信度：中）
 > 外部或内部风险信号偏多，短期更适合提高验证门槛。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,15 +86,7 @@
 | 美元与人民币 | USD/CNH 6.7227 (+0.11%) / DXY 101.03 (-0.21%) | -0.2 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 1 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
-
-### 事件传导链
-
-> 去重标题只作为待验证线索；分类数量不是已确认事件，传导链也不直接参与评分。
-
-| 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
-| --- | --- | --- | --- | --- |
-| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.03 / -0.21%（最新） / USD/CNH 6.7227 / +0.11%（最新） / 富时A50 14,196.50 / +0.11%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
+| 新闻语气 | 正向词 0 / 风险词 0 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 研究观察
 
@@ -103,7 +95,6 @@
 ### 新闻雷达
 
 - [亚洲导航：在更高利率环境中前行](https://news.google.com/rss/articles/CBMiXEFVX3lxTE50SGR4SmFtd3RVbDRoR1VTOEk4SFJPdHdXQWNUU2FsWldUYmc0UjRoSTB1Nld3QXFObUxfLUtDSWNCR2FnaW9KUEQxM3R5WjBmSVRfbTAtOUcyUjZr?oc=5) · Moomoo
-- [美元强势延续，全球市场暗藏风险](https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5) · 富途牛牛
 - [一则消息点燃市场 道指大涨](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5) · aboluowang.com
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
