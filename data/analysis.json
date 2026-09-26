@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26 01:18",
-  "score": -23,
+  "generated_at": "2026-09-26 08:37",
+  "score": -24,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.43%",
-      "contribution": 3.0,
+      "value": "6 个市场均值 +0.49%",
+      "contribution": 3.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.06%",
-      "contribution": 0.3,
+      "value": "富时 A50 +0.11%",
+      "contribution": 0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7238 (+0.12%) / DXY 101.06 (-0.18%)",
-      "contribution": -0.5,
+      "value": "USD/CNH 6.7227 (+0.11%) / DXY 101.03 (-0.21%)",
+      "contribution": -0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 3",
-      "contribution": -4,
+      "value": "正向词 0 / 风险词 3",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,9 +66,9 @@
     "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
-    "positive_hits": 1,
+    "positive_hits": 0,
     "negative_hits": 3,
-    "score": -4
+    "score": -6
   },
   "news": [
     {
@@ -78,29 +78,29 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalJuY210RHp1ZllBM25GZWpXVzlPNHlIY0FpR2ROUzRMMC10a0JYZjgtOVZIeFFaYlZPUTZfN19iYUkxYmx5LTJMLTYxbVNyMm9tUFl6SWZialNqY1lFOWFQbndjaFdPcjFrWklMM0lIcEU2dEI3VzYxM3NqRDM5N0o4enhrcnpMR1huNmxlTmZwX0RyQTFQRnNPU2NoX0xTOHFEMTBwUlhJQQ?oc=5"
     },
     {
-      "title": "债市抛售暂歇，10年期美债收益率下行，美股盘前光通信股普涨，布油跌2%，金银齐涨",
-      "source": "华尔街见闻",
-      "published": "Fri, 25 Sep 2026 12:06:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RRVl6eWRTZEFqNlhrQVp6cWdJd0JPTjF1aTBuTWRwaGUzOTlWME1zN3RxcDhHMEJia09LcTN2b0p0UHlrVXdKRVdxUzZaTXR5a1Bn?oc=5"
-    },
-    {
       "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
       "source": "金十数据",
       "published": "Fri, 25 Sep 2026 01:33:36 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
     },
     {
-      "title": "美债惊魂 石油大涨 央行再发声",
-      "source": "财富号",
-      "published": "Fri, 25 Sep 2026 00:04:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGTUtNZ1RIU01XcXlMd2ppM2lDMlBBc0loaWdPVDJaUGdpQ25SNGJ0WUN1ZUVyX1BsalNjeUJaWWE2SW1OSnRna1NJQkRoQ1p3aWFBeG93YWpNeElqSDhLVEw1MjBiVy1YcnNz?oc=5"
+      "title": "一则消息点燃市场 道指大涨",
+      "source": "aboluowang.com",
+      "published": "Fri, 25 Sep 2026 23:08:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5"
+    },
+    {
+      "title": "全球债市抛售加剧，10年期日债收益率创1996年来新高，10年期美债延续跌势，美股期指走低、油涨金跌",
+      "source": "yeeyi",
+      "published": "Fri, 25 Sep 2026 04:24:10 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zd2NCUEQ3VHhFTk1NUjkwOUszTHA1TXJraGpHMXRpa09oUThFeG9yZ0tNOVkzeGM4cnV6YzZRT2ROejQ2TjVxbkw3MkpjTk5FeGk5Sl9R?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -113,13 +113,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.06 / -0.18%",
+          "value": "101.03 / -0.21%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7238 / +0.12%",
+          "value": "6.7227 / +0.11%",
           "state": "fresh"
         }
       ],
@@ -129,46 +129,6 @@
           "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
           "source": "金十数据",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-        },
-        {
-          "title": "美债惊魂 石油大涨 央行再发声",
-          "source": "财富号",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGTUtNZ1RIU01XcXlMd2ppM2lDMlBBc0loaWdPVDJaUGdpQ25SNGJ0WUN1ZUVyX1BsalNjeUJaWWE2SW1OSnRna1NJQkRoQ1p3aWFBeG93YWpNeElqSDhLVEw1MjBiVy1YcnNz?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,085.52 / +0.54%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "14,188.84 / +0.06%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "债市抛售暂歇，10年期美债收益率下行，美股盘前光通信股普涨，布油跌2%，金银齐涨",
-          "source": "华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RRVl6eWRTZEFqNlhrQVp6cWdJd0JPTjF1aTBuTWRwaGUzOTlWME1zN3RxcDhHMEJia09LcTN2b0p0UHlrVXdKRVdxUzZaTXR5a1Bn?oc=5"
         }
       ]
     },
@@ -182,13 +142,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "92.15 / -2.60%",
+          "value": "92.34 / -2.40%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,327.12 / +0.68%",
+          "value": "4,323.30 / +0.59%",
           "state": "fresh"
         },
         {
@@ -217,19 +177,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.06 / -0.18%",
+          "value": "101.03 / -0.21%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7238 / +0.12%",
+          "value": "6.7227 / +0.11%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "14,188.84 / +0.06%",
+          "value": "14,196.50 / +0.11%",
           "state": "fresh"
         }
       ],
