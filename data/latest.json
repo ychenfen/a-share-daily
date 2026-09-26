@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26 08:37",
+  "generated_at": "2026-09-26 15:27",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-09-26 08:37",
-    "slot": "overnight",
-    "slot_label": "外围收盘",
+    "checked_at": "2026-09-26 15:27",
+    "slot": "open",
+    "slot_label": "开盘脉搏",
     "target_date": "2026-09-26",
     "market_data_date": "2026-09-24",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-09-26 08:37",
+    "generated_at": "2026-09-26 15:27",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-09-26 08:37",
-    "score": -24,
+    "generated_at": "2026-09-26 15:27",
+    "score": -20,
     "stance": "谨慎防守",
     "color": "#3b9b68",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 3",
-        "contribution": -6,
+        "value": "正向词 0 / 风险词 1",
+        "contribution": -2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,68 +262,68 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 3,
-      "score": -6
+      "negative_hits": 1,
+      "score": -2
     },
     "news": [
       {
-        "title": "美元强势延续，全球市场暗藏风险",
+        "title": "亚洲导航：在更高利率环境中前行",
         "source": "Moomoo",
-        "published": "Fri, 25 Sep 2026 11:48:35 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalJuY210RHp1ZllBM25GZWpXVzlPNHlIY0FpR2ROUzRMMC10a0JYZjgtOVZIeFFaYlZPUTZfN19iYUkxYmx5LTJMLTYxbVNyMm9tUFl6SWZialNqY1lFOWFQbndjaFdPcjFrWklMM0lIcEU2dEI3VzYxM3NqRDM5N0o4enhrcnpMR1huNmxlTmZwX0RyQTFQRnNPU2NoX0xTOHFEMTBwUlhJQQ?oc=5"
+        "published": "Fri, 25 Sep 2026 15:28:49 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50SGR4SmFtd3RVbDRoR1VTOEk4SFJPdHdXQWNUU2FsWldUYmc0UjRoSTB1Nld3QXFObUxfLUtDSWNCR2FnaW9KUEQxM3R5WjBmSVRfbTAtOUcyUjZr?oc=5"
       },
       {
-        "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-        "source": "金十数据",
-        "published": "Fri, 25 Sep 2026 01:33:36 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+        "title": "美元强势延续，全球市场暗藏风险",
+        "source": "news.futunn.com",
+        "published": "Fri, 25 Sep 2026 14:23:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5"
+      },
+      {
+        "title": "Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高",
+        "source": "FX168财经",
+        "published": "Fri, 25 Sep 2026 08:01:42 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5"
       },
       {
         "title": "一则消息点燃市场 道指大涨",
         "source": "aboluowang.com",
         "published": "Fri, 25 Sep 2026 23:08:11 GMT",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5"
-      },
-      {
-        "title": "全球债市抛售加剧，10年期日债收益率创1996年来新高，10年期美债延续跌势，美股期指走低、油涨金跌",
-        "source": "yeeyi",
-        "published": "Fri, 25 Sep 2026 04:24:10 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zd2NCUEQ3VHhFTk1NUjkwOUszTHA1TXJraGpHMXRpa09oUThFeG9yZ0tNOVkzeGM4cnV6YzZRT2ROejQ2TjVxbkw3MkpjTk5FeGk5Sl9R?oc=5"
       }
     ],
     "events": [
       {
-        "key": "central_bank",
-        "label": "央行与利率",
+        "key": "geopolitics",
+        "label": "地缘与贸易",
         "headline_count": 1,
-        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
+        "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
         "watch": [
           {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
+            "code": "VIX",
+            "label": "VIX",
+            "value": "15.44",
             "state": "stale"
           },
           {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "101.03 / -0.21%",
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "4,323.30 / +0.59%",
             "state": "fresh"
           },
           {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.7227 / +0.11%",
+            "code": "WTI",
+            "label": "原油",
+            "value": "92.34 / -2.40%",
             "state": "fresh"
           }
         ],
-        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
         "headlines": [
           {
-            "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+            "title": "Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高",
+            "source": "FX168财经",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5"
           }
         ]
       },
@@ -356,9 +356,9 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+            "title": "Amillex安迈每日汇评｜地缘风波与鹰派施压，黄金回落油价冲高",
+            "source": "FX168财经",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XdENDWkk0UlJ5cVJLbGJWd1ZnRmR4TjFXTy1mczc4bXJ5elB1ZWtLeld4UW85QUZkeThfbXVoMVdORnRsUmp3aTBxSFgxbDZfODFJ?oc=5"
           }
         ]
       },
@@ -392,8 +392,8 @@
         "headlines": [
           {
             "title": "美元强势延续，全球市场暗藏风险",
-            "source": "Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalJuY210RHp1ZllBM25GZWpXVzlPNHlIY0FpR2ROUzRMMC10a0JYZjgtOVZIeFFaYlZPUTZfN19iYUkxYmx5LTJMLTYxbVNyMm9tUFl6SWZialNqY1lFOWFQbndjaFdPcjFrWklMM0lIcEU2dEI3VzYxM3NqRDM5N0o4enhrcnpMR1huNmxlTmZwX0RyQTFQRnNPU2NoX0xTOHFEMTBwUlhJQQ?oc=5"
+            "source": "news.futunn.com",
+            "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN3FFR2VfMi1VRTFobzVlUnY2d1R1OWNWc0tpOG9scDZnRHFmcG5sVUYxTWpNRUFBbzBsSWNVUy1WaGFHa20zZGZId0ZkcGxQOWNiZFoyTFpaX1pHSnpZckVrM1gxeGotdGNJb1lIenVPMkpkOVlvc1BpQzVmNmRGMHNTdTJOUm1aZHhiWkMyUW5JTThIRW9uSGpZVTdiQQ?oc=5"
           }
         ]
       }
@@ -403,11 +403,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-09-26 08:37",
+    "generated_at": "2026-09-26 15:27",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 34,
+    "signal_count": 35,
     "matured_1d": 25,
     "directional_1d": 24,
     "hit_rate_1d": 91.7,
@@ -444,14 +444,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-09-26 08:37",
-      "slot": "overnight",
-      "score": "-24",
+      "captured_at": "2026-09-26 15:27",
+      "slot": "open",
+      "score": "-20",
       "stance": "谨慎防守",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-09-26 15:27",
+        "slot": "open",
+        "signal_date": "2026-09-26",
+        "market_asof_date": "2026-09-24",
+        "score": "-20",
+        "stance": "谨慎防守",
+        "confidence": "中",
+        "sh_close": "3888.37",
+        "sh_pct": "-1.22",
+        "global_avg": "0.4877",
+        "a50_pct": "0.1093011776320374",
+        "usdcnh": "6.7227",
+        "usdcnh_pct": "0.10572398594317356",
+        "dxy": "101.0343",
+        "dxy_pct": "-0.20594057058872517",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-09-26 08:37",
         "slot": "overnight",
@@ -918,31 +943,6 @@
         "usdcnh_pct": "0.11206741975973156",
         "dxy": "100.4855",
         "dxy_pct": "0.0649271113509986",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.06,
-        "return_3d": -1.546205,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
-      },
-      {
-        "captured_at": "2026-09-22 15:37",
-        "slot": "open",
-        "signal_date": "2026-09-22",
-        "market_asof_date": "2026-09-22",
-        "score": "31",
-        "stance": "积极但不追高",
-        "confidence": "中",
-        "sh_close": "3949.91",
-        "sh_pct": "0.97",
-        "global_avg": "1.181",
-        "a50_pct": "0.30595482546200703",
-        "usdcnh": "6.6992",
-        "usdcnh_pct": "0.10160779391548136",
-        "dxy": "100.4884",
-        "dxy_pct": "0.06781497366568079",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
