@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-24 · 最后检查 `2026-09-26 20:11`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-24 · 最后检查 `2026-09-27 00:30`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -88,13 +88,22 @@
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
 | 新闻语气 | 正向词 0 / 风险词 0 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
+### 事件传导链
+
+> 去重标题只作为待验证线索；分类数量不是已确认事件，传导链也不直接参与评分。
+
+| 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
+| --- | --- | --- | --- | --- |
+| 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.03 / -0.21%（最新） / USD/CNH 6.7227 / +0.11%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.03 / -0.21%（最新） / USD/CNH 6.7227 / +0.11%（最新） / 富时A50 14,196.50 / +0.11%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
+
 ### 研究观察
 
 - 降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。
 
 ### 新闻雷达
 
-- [亚洲导航：在更高利率环境中前行](https://news.google.com/rss/articles/CBMiXEFVX3lxTE50SGR4SmFtd3RVbDRoR1VTOEk4SFJPdHdXQWNUU2FsWldUYmc0UjRoSTB1Nld3QXFObUxfLUtDSWNCR2FnaW9KUEQxM3R5WjBmSVRfbTAtOUcyUjZr?oc=5) · Moomoo
+- [汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”](https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5) · 富途牛牛
 - [一则消息点燃市场 道指大涨](https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5) · aboluowang.com
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。

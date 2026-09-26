@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26 20:11",
+  "generated_at": "2026-09-27 00:30",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-09-26 20:11",
-    "slot": "close",
-    "slot_label": "收盘快照",
-    "target_date": "2026-09-26",
+    "checked_at": "2026-09-27 00:30",
+    "slot": "night",
+    "slot_label": "夜间校验",
+    "target_date": "2026-09-27",
     "market_data_date": "2026-09-24",
     "market_state": "non_trading",
     "pulse_updated": false,
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-09-26 20:11",
+    "generated_at": "2026-09-27 00:30",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-09-26 20:11",
+    "generated_at": "2026-09-27 00:30",
     "score": -18,
     "stance": "谨慎防守",
     "color": "#3b9b68",
@@ -267,10 +267,10 @@
     },
     "news": [
       {
-        "title": "亚洲导航：在更高利率环境中前行",
-        "source": "Moomoo",
-        "published": "Fri, 25 Sep 2026 15:28:49 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50SGR4SmFtd3RVbDRoR1VTOEk4SFJPdHdXQWNUU2FsWldUYmc0UjRoSTB1Nld3QXFObUxfLUtDSWNCR2FnaW9KUEQxM3R5WjBmSVRfbTAtOUcyUjZr?oc=5"
+        "title": "汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”",
+        "source": "富途牛牛",
+        "published": "Sat, 26 Sep 2026 08:53:57 GMT",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5"
       },
       {
         "title": "一则消息点燃市场 道指大涨",
@@ -279,17 +279,88 @@
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5"
       }
     ],
-    "events": [],
+    "events": [
+      {
+        "key": "central_bank",
+        "label": "央行与利率",
+        "headline_count": 1,
+        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "watch": [
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          },
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.03 / -0.21%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.7227 / +0.11%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "headlines": [
+          {
+            "title": "汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”",
+            "source": "富途牛牛",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "currency",
+        "label": "美元与人民币",
+        "headline_count": 1,
+        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+        "watch": [
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.03 / -0.21%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.7227 / +0.11%",
+            "state": "fresh"
+          },
+          {
+            "code": "A50",
+            "label": "富时A50",
+            "value": "14,196.50 / +0.11%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+        "headlines": [
+          {
+            "title": "汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”",
+            "source": "富途牛牛",
+            "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5"
+          }
+        ]
+      }
+    ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
     "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-09-26 20:11",
+    "generated_at": "2026-09-27 00:30",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 37,
+    "signal_count": 38,
     "matured_1d": 25,
     "directional_1d": 24,
     "hit_rate_1d": 91.7,
@@ -326,14 +397,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-09-26 20:11",
-      "slot": "close",
+      "captured_at": "2026-09-27 00:30",
+      "slot": "night",
       "score": "-18",
       "stance": "谨慎防守",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-09-27 00:30",
+        "slot": "night",
+        "signal_date": "2026-09-27",
+        "market_asof_date": "2026-09-24",
+        "score": "-18",
+        "stance": "谨慎防守",
+        "confidence": "中",
+        "sh_close": "3888.37",
+        "sh_pct": "-1.22",
+        "global_avg": "0.4877",
+        "a50_pct": "0.1093011776320374",
+        "usdcnh": "6.7227",
+        "usdcnh_pct": "0.10572398594317356",
+        "dxy": "101.0343",
+        "dxy_pct": "-0.20594057058872517",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-09-26 20:11",
         "slot": "close",
@@ -808,31 +904,6 @@
         "return_5d": null,
         "direction": 0,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-09-23 01:02",
-        "slot": "night",
-        "signal_date": "2026-09-23",
-        "market_asof_date": "2026-09-22",
-        "score": "-7",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3952.13",
-        "sh_pct": "0.06",
-        "global_avg": "0.2077",
-        "a50_pct": "0.27705745871433596",
-        "usdcnh": "6.6998",
-        "usdcnh_pct": "0.11057318749625455",
-        "dxy": "100.6474",
-        "dxy_pct": "0.2261494936780739",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -1.22,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
