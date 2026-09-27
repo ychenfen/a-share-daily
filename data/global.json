@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27 00:30",
+  "generated_at": "2026-09-27 08:34",
   "markets": [
     {
       "code": "SPX",
@@ -168,7 +168,7 @@
       "status": "stale"
     },
     "news": {
-      "status": "fresh"
+      "status": "stale"
     }
   },
   "sources": {
