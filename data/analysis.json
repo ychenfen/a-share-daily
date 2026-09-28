@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28 08:44",
-  "score": -19,
-  "stance": "谨慎防守",
-  "color": "#3b9b68",
+  "generated_at": "2026-09-28 16:34",
+  "score": -29,
+  "stance": "防守优先",
+  "color": "#08783e",
   "confidence": "中",
-  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
+  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.49%",
-      "contribution": 3.4,
+      "value": "6 个市场均值 +0.75%",
+      "contribution": 5.2,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.11%",
-      "contribution": 0.7,
+      "value": "富时 A50 -1.87%",
+      "contribution": -8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7255 (+0.05%) / DXY 101.14 (+0.04%)",
-      "contribution": -0.8,
+      "value": "USD/CNH 6.7152 (-0.11%) / DXY 101.07 (-0.03%)",
+      "contribution": 1.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,38 +57,44 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
-      "contribution": 0,
+      "value": "正向词 0 / 风险词 3",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
+    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 0,
-    "score": 0
+    "negative_hits": 3,
+    "score": -6
   },
   "news": [
     {
-      "title": "汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”",
-      "source": "富途牛牛",
-      "published": "Sat, 26 Sep 2026 08:53:57 GMT",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5"
+      "title": "加息靴子落地，市场能否高枕无忧",
+      "source": "证券市场周刊",
+      "published": "Mon, 28 Sep 2026 07:43:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nWjhhc09NODRLN3J6SUtxQUFGV3ZTc2tsMXhWY2JYREM0M0RrYUJYbHlrYS1URjR6aDhLa1VYSXgtT1RleDVLTHVnQU5HN0NET0QwWjBsUlBiSzVkaEloWC1saDBudw?oc=5"
     },
     {
-      "title": "一则消息点燃市场 道指大涨",
-      "source": "aboluowang.com",
-      "published": "Fri, 25 Sep 2026 23:08:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BbjlNOXREZHZmc1JCTmVORFdRLUUwYmtZa1lEUlppdXlSaHhWVHp6RElobEFUX2phRTBUaUJ5WUN3NmlTUDRtUUlXZkNaSXlobjN4MEFyWXRGSmU1SlHSAWNBVV95cUxNQzZ5UjRSV0ZGZ2ZuVmoxS01NTVVlYV9NX3ZmS0NSMUN6UUVINnRreFJSdTc1bFAyNFNSNGdVR2hrQ1BjY0ZXM1JDdjNERF9EZEc4WGtNM0lENjJSRGliRElONEU?oc=5"
+      "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+      "source": "金十数据",
+      "published": "Mon, 28 Sep 2026 03:39:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+    },
+    {
+      "title": "美联储加息之后，澳大利亚联储准备连续出手? 市场聚焦“9月重启加息、11月再加”",
+      "source": "新浪财经",
+      "published": "Mon, 28 Sep 2026 00:14:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQS02NkxOam8yUExDZEtqVi1qSnF1dTRkREN0cjZlWEdUeWVwaEFZODZsS1U3Y0ZEZG1DWFVZeDJzOHVNeWN6VHpESkRmSmltWGJxYnZaczA5ck5PT2RRb3ZCQmxaeHBnWDB1RV9XR053aHRjSmNUbTJDb3Y5UVlHVnE5Tmh2N2RaVkd5bmU0UTA5ck42MjROSGVBMmJTbnd3YXljQy1ONkdFV09keEpFN2ZWbVhmOWJJeXBjNlZFYjI2Rjd3Q2JlbXlJTllURlFfVWFvU1VQYTlPYi1VSjQzUk1uSjJVQnRXTDhuUA?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -101,57 +107,62 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.14 / +0.04%",
+          "value": "101.07 / -0.03%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7255 / +0.05%",
+          "value": "6.7152 / -0.11%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5"
+          "title": "加息靴子落地，市场能否高枕无忧",
+          "source": "证券市场周刊",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nWjhhc09NODRLN3J6SUtxQUFGV3ZTc2tsMXhWY2JYREM0M0RrYUJYbHlrYS1URjR6aDhLa1VYSXgtT1RleDVLTHVnQU5HN0NET0QwWjBsUlBiSzVkaEloWC1saDBudw?oc=5"
+        },
+        {
+          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         }
       ]
     },
     {
-      "key": "currency",
-      "label": "美元与人民币",
+      "key": "commodities",
+      "label": "商品与成本",
       "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.14 / +0.04%",
+          "code": "WTI",
+          "label": "原油",
+          "value": "95.02 / +2.83%",
           "state": "fresh"
         },
         {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7255 / +0.05%",
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,179.95 / -3.27%",
           "state": "fresh"
         },
         {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "14,196.50 / +0.11%",
-          "state": "fresh"
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "汇市周评：日元再度大跌后惊现干预信号，鹰派美联储助力美元“王者归来”",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU2Y5NEtzc0V6TUpPWXU5bHZ6aDdSWk9sbmVYRU53S1BiVXZ4SDJHUFlyd0hnamNZZXJDdmwxaHJSNU10N3FSNW9icVF3bjhmb2ZCSFNMVHJIWS1CVy1JTG1lbzYzWUthRGZka0d4cHRmaVY3TlMtaWJaamlNM3FIR2JsLUVIR2xGenVkVHlPdldUXzdJLTNST2RSa3lVZ1FXNlNOZDAzZGxIdXdsdWc?oc=5"
+          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         }
       ]
     }
