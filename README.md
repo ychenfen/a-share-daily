@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 开盘脉搏已更新 · 最后检查 `2026-09-28 16:34`（北京时间）
+> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-09-28 18:07`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,8 +48,8 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -29 · 防守优先**（置信度：中）
-> 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
+> **风险温度 -22 · 谨慎防守**（置信度：中）
+> 外部或内部风险信号偏多，短期更适合提高验证门槛。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
 | --- | --- | ---: | ---: |
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 13,915.40 | -1.87% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.7152 | -0.11% | 最新 |
-| 美元指数 | 低权重计分 | 101.07 | -0.03% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,179.95 | -3.27% | 最新 |
-| WTI 原油 | 背景观察 | 95.02 | +2.83% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 13,912.63 | -0.08% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.7129 | -0.14% | 最新 |
+| 美元指数 | 低权重计分 | 101.15 | +0.05% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,188.81 | -3.06% | 最新 |
+| WTI 原油 | 背景观察 | 96.30 | +4.21% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -82,8 +82,8 @@
 | 市场宽度 | 涨 1134 / 跌 4352 | -11.7 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 52 / 跌停 13 / 炸板率 16.1% | +4.5 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 +0.75% | +5.2 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -1.87% | -8.0 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.7152 (-0.11%) / DXY 101.07 (-0.03%) | +1.4 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A50 先行 | 富时 A50 -0.08% | -0.5 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.7129 (-0.14%) / DXY 101.15 (+0.05%) | +1.5 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
 | 新闻语气 | 正向词 0 / 风险词 3 | -6.0 | 标题关键词只做低权重提示，不代替事实核验 |
@@ -94,18 +94,18 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.07 / -0.03%（最新） / USD/CNH 6.7152 / -0.11%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 95.02 / +2.83%（最新） / 黄金 4,179.95 / -3.27%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.15 / +0.05%（最新） / USD/CNH 6.7129 / -0.14%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 96.30 / +4.21%（最新） / 黄金 4,188.81 / -3.06%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 
 ### 研究观察
 
-- 研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。
+- 降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。
 
 ### 新闻雷达
 
-- [加息靴子落地，市场能否高枕无忧](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nWjhhc09NODRLN3J6SUtxQUFGV3ZTc2tsMXhWY2JYREM0M0RrYUJYbHlrYS1URjR6aDhLa1VYSXgtT1RleDVLTHVnQU5HN0NET0QwWjBsUlBiSzVkaEloWC1saDBudw?oc=5) · 证券市场周刊
+- [加息靴子落地，市场能否高枕无忧](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRlFnT0J2OTY4ekZwUlVoRHNzQnpLVG5OZGtYeG1VVlN5NVJsMS1mdG01T1RKS0JSVHVDWUFOZmtRYk1rNjVtUG0zdzJmSkw4Qnh5UUJxWkZVMEhNaTFHTU1uZS1LdHd6ejdYVzdvZHV6Ni1oUFBxdDhNVTlBMmhjVENJd21CeFB2?oc=5) · sohu.com
 - [一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5) · 金十数据
-- [美联储加息之后，澳大利亚联储准备连续出手? 市场聚焦“9月重启加息、11月再加”](https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQS02NkxOam8yUExDZEtqVi1qSnF1dTRkREN0cjZlWEdUeWVwaEFZODZsS1U3Y0ZEZG1DWFVZeDJzOHVNeWN6VHpESkRmSmltWGJxYnZaczA5ck5PT2RRb3ZCQmxaeHBnWDB1RV9XR053aHRjSmNUbTJDb3Y5UVlHVnE5Tmh2N2RaVkd5bmU0UTA5ck42MjROSGVBMmJTbnd3YXljQy1ONkdFV09keEpFN2ZWbVhmOWJJeXBjNlZFYjI2Rjd3Q2JlbXlJTllURlFfVWFvU1VQYTlPYi1VSjQzUk1uSjJVQnRXTDhuUA?oc=5) · 新浪财经
+- [美联储加息之后，澳大利亚联储准备连续出手? 市场聚焦“9月重启加息、11月再加”](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR0kzWW1vYVN5clRpbkx6RmZTaEljeldDUUlfcHZkX3JFQ1hpZUxJdnY0R1p3ZWNhR3hVeGlDTkltTnZ6SnJtazViVmRkVUFXeWhGdDdsQTBsQ2VSZ3VnVEJGdDRTUVZQSkhkYlpDalhzS29iMUJJcHg2V05xTDNoRThEWG9qdzNIOGpmNmZRQ014azZSQ0RjbEwzb3hiRHA4d1V3ZmZSOWlhTVExVTg0SE9SNVVHVGpnZmY0RmNaMXpIQVJBdEtnMlVqNVZNOTlPMFJrQlVGbHJpQlM5MDRacGxMQ21MWEVXcEU2OQ?oc=5) · finance.sina.com.cn
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
