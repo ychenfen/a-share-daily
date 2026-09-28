@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28 18:07",
-  "score": -22,
-  "stance": "谨慎防守",
-  "color": "#3b9b68",
+  "generated_at": "2026-09-28 23:22",
+  "score": -48,
+  "stance": "防守优先",
+  "color": "#08783e",
   "confidence": "中",
-  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
+  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 -1.22%",
-      "contribution": -9.8,
+      "value": "上证 -1.67%",
+      "contribution": -13.4,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 1134 / 跌 4352",
-      "contribution": -11.7,
+      "value": "涨 910 / 跌 4607",
+      "contribution": -13.4,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 52 / 跌停 13 / 炸板率 16.1%",
-      "contribution": 4.5,
+      "value": "涨停 33 / 跌停 56 / 炸板率 25.0%",
+      "contribution": -7.0,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.75%",
-      "contribution": 5.2,
+      "value": "6 个市场均值 -0.25%",
+      "contribution": -1.7,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.08%",
-      "contribution": -0.5,
+      "value": "富时 A50 -0.17%",
+      "contribution": -1.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7129 (-0.14%) / DXY 101.15 (+0.05%)",
-      "contribution": 1.5,
+      "value": "USD/CNH 6.7138 (-0.13%) / DXY 101.21 (+0.11%)",
+      "contribution": 1.0,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,18 +57,18 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 3",
-      "contribution": -6,
+      "value": "正向词 0 / 风险词 4",
+      "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
+    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 3,
-    "score": -6
+    "negative_hits": 4,
+    "score": -8
   },
   "news": [
     {
@@ -85,16 +85,28 @@
     },
     {
       "title": "美联储加息之后，澳大利亚联储准备连续出手? 市场聚焦“9月重启加息、11月再加”",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "published": "Mon, 28 Sep 2026 00:14:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOR0kzWW1vYVN5clRpbkx6RmZTaEljeldDUUlfcHZkX3JFQ1hpZUxJdnY0R1p3ZWNhR3hVeGlDTkltTnZ6SnJtazViVmRkVUFXeWhGdDdsQTBsQ2VSZ3VnVEJGdDRTUVZQSkhkYlpDalhzS29iMUJJcHg2V05xTDNoRThEWG9qdzNIOGpmNmZRQ014azZSQ0RjbEwzb3hiRHA4d1V3ZmZSOWlhTVExVTg0SE9SNVVHVGpnZmY0RmNaMXpIQVJBdEtnMlVqNVZNOTlPMFJrQlVGbHJpQlM5MDRacGxMQ21MWEVXcEU2OQ?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTVo3dkZieW1RSzFscndTdHJxYkt6eXVfVmFHSlVpZHpBb3RZZU9pQTdwVkZOelUxZVlzNVdSRzhCSFBWVmMtWTU2R1pGSmlQclJOR1lpeGsxRzVUZENLMzFEUmxfbTVRUlYzeFh0dHBSYVdZTzlOVXMta3dqZ2dIeUt0RGdEeFBPbjlFdmNwMVNJcDdVZWNsUGIxRUN2NmFVYmZWY18ycFBqZWU0XzZya0lWR1QwekxLVm9wbFk0NW1BM3ZEckhZbzN4VjZQRXdjMlIyX1ZEQ19EM2UycHZuZkxKSlJtd3FrcWEw?oc=5"
+    },
+    {
+      "title": "亚洲多数股市收跌 芯片股承压明显",
+      "source": "亚洲电视新闻",
+      "published": "Mon, 28 Sep 2026 10:18:43 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU0ZUeG8wNXpNUXNyRXpCMTZnUHNQYzFHdEhJRERVNms3aS15VC1oLVRaYmg4MjFDdEhZZXZyZjFFYW4taklOZVRTY0lrVkc4b2dGY2Ffclh4enVzamZ4c0VLRERqZTFTM01UaGJlaUEzSkxNSTFUdnNKTkZ2dGxuaHRuUHZCeWQ1ZWs0Ykc3aDRDNm1pYnh6clhYTVdPZXo2MnZjUl9rZzA5OG96Q0ZmcTJnbHktUE84UFp1T1pxajByOVRBZXVCMUoyWGxxYXBMamlEUjNWLUhZQnRWbDgtLUx2N3dJdTJHNEZscFNaWVNnLUU1aWp5Ulc4a1NMcmdyY3c?oc=5"
+    },
+    {
+      "title": "瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标",
+      "source": "新浪财经",
+      "published": "Mon, 28 Sep 2026 05:23:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 4,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -107,13 +119,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.15 / +0.05%",
+          "value": "101.21 / +0.11%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7129 / -0.14%",
+          "value": "6.7138 / -0.13%",
           "state": "fresh"
         }
       ],
@@ -132,6 +144,76 @@
       ]
     },
     {
+      "key": "inflation",
+      "label": "通胀与就业",
+      "headline_count": 1,
+      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.21 / +0.11%",
+          "state": "fresh"
+        },
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "26,788.22 / -1.04%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+      "headlines": [
+        {
+          "title": "瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "26,788.22 / -1.04%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,900.45 / -0.17%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "亚洲多数股市收跌 芯片股承压明显",
+          "source": "亚洲电视新闻",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU0ZUeG8wNXpNUXNyRXpCMTZnUHNQYzFHdEhJRERVNms3aS15VC1oLVRaYmg4MjFDdEhZZXZyZjFFYW4taklOZVRTY0lrVkc4b2dGY2Ffclh4enVzamZ4c0VLRERqZTFTM01UaGJlaUEzSkxNSTFUdnNKTkZ2dGxuaHRuUHZCeWQ1ZWs0Ykc3aDRDNm1pYnh6clhYTVdPZXo2MnZjUl9rZzA5OG96Q0ZmcTJnbHktUE84UFp1T1pxajByOVRBZXVCMUoyWGxxYXBMamlEUjNWLUhZQnRWbDgtLUx2N3dJdTJHNEZscFNaWVNnLUU1aWp5Ulc4a1NMcmdyY3c?oc=5"
+        }
+      ]
+    },
+    {
       "key": "commodities",
       "label": "商品与成本",
       "headline_count": 1,
@@ -141,13 +223,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "96.30 / +4.21%",
+          "value": "95.46 / +3.30%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,188.81 / -3.06%",
+          "value": "4,153.59 / -3.88%",
           "state": "fresh"
         },
         {
@@ -163,6 +245,41 @@
           "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
           "source": "金十数据",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.21 / +0.11%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7138 / -0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,900.45 / -0.17%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5"
         }
       ]
     }
