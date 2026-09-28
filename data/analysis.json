@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28 23:22",
-  "score": -48,
+  "generated_at": "2026-09-29 03:43",
+  "score": -38,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.25%",
-      "contribution": -1.7,
+      "value": "6 个市场均值 -0.11%",
+      "contribution": -0.7,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.17%",
-      "contribution": -1.0,
+      "value": "富时 A50 +0.09%",
+      "contribution": 0.6,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7138 (-0.13%) / DXY 101.21 (+0.11%)",
-      "contribution": 1.0,
+      "value": "USD/CNH 6.7126 (-0.15%) / DXY 101.21 (+0.11%)",
+      "contribution": 1.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 4",
-      "contribution": -8,
+      "value": "正向词 2 / 风险词 2",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,22 +66,28 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 4,
-    "score": -8
+    "positive_hits": 2,
+    "negative_hits": 2,
+    "score": 0
   },
   "news": [
     {
+      "title": "美股开盘：三大股指齐跌 油价与美债收益率双双走高",
+      "source": "新浪财经",
+      "published": "Mon, 28 Sep 2026 15:50:23 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaXl2ZTNqaU1iTkFlMEhaT20zRHZtZzN0bHctaXFqVEZaaGt4clNTVjVsUUd0WlRqRDUzeVEyOUlJRmxrdzdDSDBkdlZZWnJNOGZYYUZnM3Z2RkFRRjEwczFJUWw0NEdEdnhma1dkU1ZBQWlNaFp5MVN0eVFicHhISXJJenBzQURac2xnN2pMRk9VcXBLSmZOQlJCeldmRHBrSzVmZ01zcF9Bdw?oc=5"
+    },
+    {
       "title": "加息靴子落地，市场能否高枕无忧",
-      "source": "sohu.com",
+      "source": "搜狐网",
       "published": "Mon, 28 Sep 2026 08:34:17 GMT",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRlFnT0J2OTY4ekZwUlVoRHNzQnpLVG5OZGtYeG1VVlN5NVJsMS1mdG01T1RKS0JSVHVDWUFOZmtRYk1rNjVtUG0zdzJmSkw4Qnh5UUJxWkZVMEhNaTFHTU1uZS1LdHd6ejdYVzdvZHV6Ni1oUFBxdDhNVTlBMmhjVENJd21CeFB2?oc=5"
     },
     {
-      "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-      "source": "金十数据",
-      "published": "Mon, 28 Sep 2026 03:39:42 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+      "title": "美债收益率持续走高叠加“长假效应”，A股上证、创业板双双下探阶段新低",
+      "source": "21财经",
+      "published": "Mon, 28 Sep 2026 05:19:54 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWRjbjg5Nk4yaUFFSk9TeVUzNnlTYndTRkdBNXZ6dFZSY1dMTjVyNXVRVnFtdy1DcDM0b2pfY1NuMXRUUXhWbnljMWp6QmJzUmpXVGY3Y1R2SnRfRXAzQjlHTnhoUzd0aUZPd1BfaTZZVV9saGhfa3RGZEF4NXhYZm1ncmRhYzh4U2ViTUdYNA?oc=5"
     },
     {
       "title": "美联储加息之后，澳大利亚联储准备连续出手? 市场聚焦“9月重启加息、11月再加”",
@@ -96,17 +102,17 @@
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU0ZUeG8wNXpNUXNyRXpCMTZnUHNQYzFHdEhJRERVNms3aS15VC1oLVRaYmg4MjFDdEhZZXZyZjFFYW4taklOZVRTY0lrVkc4b2dGY2Ffclh4enVzamZ4c0VLRERqZTFTM01UaGJlaUEzSkxNSTFUdnNKTkZ2dGxuaHRuUHZCeWQ1ZWs0Ykc3aDRDNm1pYnh6clhYTVdPZXo2MnZjUl9rZzA5OG96Q0ZmcTJnbHktUE84UFp1T1pxajByOVRBZXVCMUoyWGxxYXBMamlEUjNWLUhZQnRWbDgtLUx2N3dJdTJHNEZscFNaWVNnLUU1aWp5Ulc4a1NMcmdyY3c?oc=5"
     },
     {
-      "title": "瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标",
-      "source": "新浪财经",
-      "published": "Mon, 28 Sep 2026 05:23:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5"
+      "title": "一周前瞻：欧洲央行利率决议来袭；Alphabet、特斯拉、英特尔财报登场；全球PMI初值揭晓",
+      "source": "TradingKey",
+      "published": "Sun, 27 Sep 2026 23:22:37 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT3lxcGNvSEViVjdCNGFGU0tjTXFHaGh2RnNleTNMVE92ck1sWDNZYlB5ckZYOFdaTGJrdndRVXdwSWFyNlI4UWIxXzNERFRoblZIM0VjVkVoTEF2SkFjeWxRdFIyTE1PeEt0andMa1BIc19qMWpLSi05X0RhTWZIWWZoRU5VbllRT09scEI3V3RMNWRNbnQ5Qm5FdmZyV3dMVWxoZGttV3k2VEJTcjRIUlF5NnVaV0V3UWFuZGpEMlA0TFhOUVBCVHJ3NnBXdlVZOEx0a1B3?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -125,7 +131,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7138 / -0.13%",
+          "value": "6.7126 / -0.15%",
           "state": "fresh"
         }
       ],
@@ -133,48 +139,13 @@
       "headlines": [
         {
           "title": "加息靴子落地，市场能否高枕无忧",
-          "source": "sohu.com",
+          "source": "搜狐网",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRlFnT0J2OTY4ekZwUlVoRHNzQnpLVG5OZGtYeG1VVlN5NVJsMS1mdG01T1RKS0JSVHVDWUFOZmtRYk1rNjVtUG0zdzJmSkw4Qnh5UUJxWkZVMEhNaTFHTU1uZS1LdHd6ejdYVzdvZHV6Ni1oUFBxdDhNVTlBMmhjVENJd21CeFB2?oc=5"
         },
         {
-          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 1,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.21 / +0.11%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "26,788.22 / -1.04%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标",
+          "title": "美联储加息之后，澳大利亚联储准备连续出手? 市场聚焦“9月重启加息、11月再加”",
           "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTVo3dkZieW1RSzFscndTdHJxYkt6eXVfVmFHSlVpZHpBb3RZZU9pQTdwVkZOelUxZVlzNVdSRzhCSFBWVmMtWTU2R1pGSmlQclJOR1lpeGsxRzVUZENLMzFEUmxfbTVRUlYzeFh0dHBSYVdZTzlOVXMta3dqZ2dIeUt0RGdEeFBPbjlFdmNwMVNJcDdVZWNsUGIxRUN2NmFVYmZWY18ycFBqZWU0XzZya0lWR1QwekxLVm9wbFk0NW1BM3ZEckhZbzN4VjZQRXdjMlIyX1ZEQ19EM2UycHZuZkxKSlJtd3FrcWEw?oc=5"
         }
       ]
     },
@@ -188,13 +159,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,788.22 / -1.04%",
+          "value": "26,825.58 / -0.90%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,900.45 / -0.17%",
+          "value": "13,937.20 / +0.09%",
           "state": "fresh"
         },
         {
@@ -223,13 +194,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "95.46 / +3.30%",
+          "value": "92.71 / +0.32%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,153.59 / -3.88%",
+          "value": "4,161.19 / -3.70%",
           "state": "fresh"
         },
         {
@@ -242,44 +213,9 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.21 / +0.11%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7138 / -0.13%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,900.45 / -0.17%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标",
+          "title": "美股开盘：三大股指齐跌 油价与美债收益率双双走高",
           "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaXl2ZTNqaU1iTkFlMEhaT20zRHZtZzN0bHctaXFqVEZaaGt4clNTVjVsUUd0WlRqRDUzeVEyOUlJRmxrdzdDSDBkdlZZWnJNOGZYYUZnM3Z2RkFRRjEwczFJUWw0NEdEdnhma1dkU1ZBQWlNaFp5MVN0eVFicHhISXJJenBzQURac2xnN2pMRk9VcXBLSmZOQlJCeldmRHBrSzVmZ01zcF9Bdw?oc=5"
         }
       ]
     }
