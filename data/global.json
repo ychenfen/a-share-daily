@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28 01:03",
+  "generated_at": "2026-09-28 08:44",
   "markets": [
     {
       "code": "SPX",
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.7227,
-      "pct": 0.10572398594317356,
-      "change": 0.00709999999999944,
-      "previous_close": 6.7156,
-      "quote_time": "2026-09-26 05:00:00",
+      "close": 6.7255,
+      "pct": 0.04611448292275444,
+      "change": 0.0030999999999998806,
+      "previous_close": 6.7224,
+      "quote_time": "2026-09-28 08:44:41",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 101.0343,
-      "pct": -0.20594057058872517,
-      "change": -0.2085000000000008,
-      "previous_close": 101.2428,
-      "quote_time": "2026-09-26 04:59:00",
+      "close": 101.1411,
+      "pct": 0.041741304801523604,
+      "change": 0.04219999999999402,
+      "previous_close": 101.0989,
+      "quote_time": "2026-09-28 08:44:44",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4323.299,
-      "pct": 0.5886226151698537,
-      "change": 25.298999999999978,
-      "previous_close": 4298.0,
-      "quote_time": "2026-09-26 04:59:59",
+      "close": 4270.546,
+      "pct": -1.172220679440883,
+      "change": -50.65399999999954,
+      "previous_close": 4321.2,
+      "quote_time": "2026-09-28 08:44:45",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 92.338,
-      "pct": -2.4014374801818006,
-      "change": -2.2720000000000056,
-      "previous_close": 94.61,
-      "quote_time": "2026-09-26 04:59:58",
+      "close": 93.086,
+      "pct": 0.7315225624932475,
+      "change": 0.6760000000000019,
+      "previous_close": 92.41,
+      "quote_time": "2026-09-28 08:44:42",
       "stale": false
     }
   ],
