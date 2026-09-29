@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 外围收盘已更新 · 最后检查 `2026-09-29 09:56`（北京时间）
+> **🟢 盘中** · 开盘脉搏已更新 · 最后检查 `2026-09-29 16:17`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -44 · 防守优先**（置信度：中）
+> **风险温度 -48 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -56,7 +56,7 @@
 | 标普 500 | 美国 | 7683.69 | -0.77% |
 | 纳斯达克 | 美国 | 26820.38 | -0.92% |
 | 道琼斯 | 美国 | 51481.51 | -0.67% |
-| 恒生指数 | 中国香港 | 24546.14 | -0.39% |
+| 恒生指数 | 中国香港 | 24499.98 | -0.58% |
 | 欧洲股票 ETF | 欧洲（美股代理） | 88.38 | -0.28% |
 | 日经 225 | 日本 | 65018.95 | +1.38% |
 
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 13,870.90 | -0.38% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.7080 | -0.07% | 最新 |
-| 美元指数 | 低权重计分 | 101.24 | +0.05% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,166.42 | -0.05% | 最新 |
-| WTI 原油 | 背景观察 | 93.64 | +1.13% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 13,878.80 | -0.32% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.7042 | -0.13% | 最新 |
+| 美元指数 | 低权重计分 | 101.36 | +0.17% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,175.68 | +0.17% | 最新 |
+| WTI 原油 | 背景观察 | 93.14 | +0.59% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -81,12 +81,12 @@
 | A股动量 | 上证 -1.67% | -13.4 | 反映本地市场价格强弱 |
 | 市场宽度 | 涨 910 / 跌 4607 | -13.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 33 / 跌停 56 / 炸板率 25.0% | -7.0 | 涨停扩散加分，炸板率过高扣分 |
-| 外围股市 | 6 个市场均值 -0.28% | -1.9 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.38% | -2.3 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.7080 (-0.07%) / DXY 101.24 (+0.05%) | +0.6 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| 外围股市 | 6 个市场均值 -0.31% | -2.2 | 衡量隔夜风险偏好共振 |
+| A50 先行 | 富时 A50 -0.32% | -1.9 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.7042 (-0.13%) / DXY 101.36 (+0.17%) | +0.7 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 1 / 风险词 2 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 4 | -6.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,11 +94,10 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.24 / +0.05%（最新） / USD/CNH 6.7080 / -0.07%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.24 / +0.05%（最新） / 纳斯达克 26,820.38 / -0.92%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,820.38 / -0.92%（最新） / 富时A50 13,870.90 / -0.38%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 93.64 / +1.13%（最新） / 黄金 4,166.42 / -0.05%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
-| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.24 / +0.05%（最新） / USD/CNH 6.7080 / -0.07%（最新） / 富时A50 13,870.90 / -0.38%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
+| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.36 / +0.17%（最新） / USD/CNH 6.7042 / -0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 科技与产业（3 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,820.38 / -0.92%（最新） / 富时A50 13,878.80 / -0.32%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 商品与成本（2 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 93.14 / +0.59%（最新） / 黄金 4,175.68 / +0.17%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.36 / +0.17%（最新） / 纳斯达克 26,820.38 / -0.92%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
 
 ### 研究观察
 
@@ -107,11 +106,11 @@
 ### 新闻雷达
 
 - [五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5) · 财联社
-- [美股开盘：三大股指齐跌 油价与美债收益率双双走高](https://news.google.com/rss/articles/CBMihAVBVV95cUxQUXgyX3dTY2JrMmJ3d2dOX29vUE5YRnFyLUpURGdZQ21wNGQwQnpBdEQ2aTR1SG9IaHpsNnQ4Q2xTWFlwOWtCOUdCTE81NWxjVmEzU3NfVE5XNGxuTkJxdEF5UlMwUHBfc3Mtdlp6R1BIY255cjN0bDRJd0dOV0tERDRQNVhlT0stcG10MjMwUGxWOWt4YWJyaUtKVDhIcUlnMENRTzVSZkhwdDMxMV9xb1Y5Zm1oVXJhQ21fUkxPT01ZY2ctd3FzRkFpS1FsNUdHNzVERG84UXVFTGw3UTZIUUdfb0FQTWlmSDZvbU90ZEwxVFlOalp4cTc0MHlTNkxIY3JmWVJmSFVDa1AzSnc3TWJtcl9lR19Qa1ppb29hN2xyWURPRU9aTVR1LTh3dzBVVW9wTy1HVklKVEZITVp6OGs2YTRvMjBORjIzS1d5MzhZUE4xcmgwa3NFdXIwQndVOHhidFZycjFyTDZwMzlOS1ZHVkJLM3RjWlVkNU8wa24wMGhvSjJkZ2sxUDl1VTlDTkZ6dlBLLWRoa2dKVExFRXljQWg0eUI2UFptMzlwSGx4UWpqWExVZW4zNU5rQTlUem1MZXVBU1VLY1ZsMnphVUVBb3ZSalloa1hIZGpOa2hEQXV2UnRUelEtUm1xOWt3T2s5cnUwcFZpczA0clVWM3RxVHpla0VZb0xDR3Fxb3AtanQ3YjF4U2hSZlZrV2drTUlwS0hIbXN1bW5IQS1mRWxrWXE2WWRHVHdyTm9faWg0cG1IYkFSOVZTYzA2eFp0TWJxejZTN01ZLTdYQ2JCZTR6Wk9IVTNsWTdCYkZabVRNWDZraGVDdlBkMzhrYllXcWkzWg?oc=5) · 新浪财经
-- [美股投资必备！8月重磅大事抢先看，这些影响涨跌的日子都圈出来了](https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHhNenBXMGVZcWRSNnMtQkw2SFh1TzhJOUFUdWtHVl9sUGI3WG5aZHNZdmZVUkN3R3JjMG85N09vSi1sWDIzckhOUHZZS1lHWmNMTWkwSVh5VGc1X3A4NzdhNVJ2bmh1M1Z1d1p1ZEhOSDYxVnpiaXdOelNCd29LWDNfWXVvdk5OcXduS3lIQmlRMm90NjFVU0tMZw?oc=5) · 富途牛牛
-- [瑞士央行维持零利率+行长称通胀环境舒适，9月通胀数据成瑞郎汇率走向风向标](https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVm90Z3ZNejg1WE1leEtDQUk1dWV1MVkxeWZMeGtDUzR4VGVXLWlPaTlqTXp5SG5EbHRaazd1NEpLUnRhaVM1b3dLTTFqN2NISy14QVo0MXlZc1dic3U3LWJBR0ttYVBEa214Z05JYUhDMWduM0lTWlNMc3plQkJTYWRFNnRtelVSeDM3ZUlwV1hmUHhSc0hqMk5vVlVFOXRkNnRSbkJ4SF9paDNaRWhsSmswQ09TdWZ4Tm45M2hlTHBESXd1bTFadnU5QWwtWXlpZXY1dTYzRk12bFZHQ3RlX3Vxbw?oc=5) · 新浪财经
-- [亚洲多数股市收跌 芯片股承压明显](https://news.google.com/rss/articles/CBMiggJBVV95cUxOU0ZUeG8wNXpNUXNyRXpCMTZnUHNQYzFHdEhJRERVNms3aS15VC1oLVRaYmg4MjFDdEhZZXZyZjFFYW4taklOZVRTY0lrVkc4b2dGY2Ffclh4enVzamZ4c0VLRERqZTFTM01UaGJlaUEzSkxNSTFUdnNKTkZ2dGxuaHRuUHZCeWQ1ZWs0Ykc3aDRDNm1pYnh6clhYTVdPZXo2MnZjUl9rZzA5OG96Q0ZmcTJnbHktUE84UFp1T1pxajByOVRBZXVCMUoyWGxxYXBMamlEUjNWLUhZQnRWbDgtLUx2N3dJdTJHNEZscFNaWVNnLUU1aWp5Ulc4a1NMcmdyY3c?oc=5) · 亚洲电视新闻
-- [加息靴子落地，市场能否高枕无忧](https://news.google.com/rss/articles/CBMiigFBVV95cUxQWmxXUk0xSEZxVWhRZjBsNy1MYlY4TGZoV1dKSHc3ZjlnbXlZSWd4OExTcmtON09mYk1Ob1lpVUNBejJnMkR1VzB0UjZRSnlXQUV6WnVZTzFaNmVKREtZOUhrX0NqOXdMXzNsQUNiSG9wV2NjRVY1b29BbXc3ZHhmUEVBd2JKRUlOa1E?oc=5) · 新浪财经
+- [一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5) · 金十数据
+- [【券商聚焦】平安证券：A股节前或维持震荡，关注科技板块弹性_滚动新闻](https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2cGszcXMxelI0MlpjUVhyVnVTWkpzV1l6SkZGMTVFUkUyWnVoZ2kwQ3VmSHpIN3JCZ1JiS1pYak1nRktPM215dE5NTHR4eGlINUF2Ul9vQk90dEVtYmNIX1EycFM?oc=5) · 证券之星
+- [美联储警告AI 推高通胀，美股科技股却普遍下挫\|美联储\|欧央行\|中概金龙指数_新浪新闻](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qNEtxRHIzdkp6QjFDZ1RVbW5UMWZobXJXODRwb2owbmV1UlN0WWhKd0FJQzlUSzVSNU5aOVFGbDlnNWp6cGhsbUJVR3VXRkR2N1RaWGtLeTN4MmdhQUhhLXlEZw?oc=5) · 手机新浪网
+- [PG电子技巧app下载日本央行加息至3.5%，全球股市遭遇黑色星期一](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rck4xNno1Vk5IQmk3MzJNT3VCUzRRRW9BUmRiMU41RDlFWmNLOWFubkhUNUR3V0s2bC1pXzc4dXc2VFJzM18tZ2RWeUVaTU1HRGc?oc=5) · Pchome电脑之家
+- [美股开盘：三大股指齐跌 油价与美债收益率双双走高](https://news.google.com/rss/articles/CBMihAVBVV95cUxQUXgyX3dTY2JrMmJ3d2dOX29vUE5YRnFyLUpURGdZQ21wNGQwQnpBdEQ2aTR1SG9IaHpsNnQ4Q2xTWFlwOWtCOUdCTE81NWxjVmEzU3NfVE5XNGxuTkJxdEF5UlMwUHBfc3Mtdlp6R1BIY255cjN0bDRJd0dOV0tERDRQNVhlT0stcG10MjMwUGxWOWt4YWJyaUtKVDhIcUlnMENRTzVSZkhwdDMxMV9xb1Y5Zm1oVXJhQ21fUkxPT01ZY2ctd3FzRkFpS1FsNUdHNzVERG84UXVFTGw3UTZIUUdfb0FQTWlmSDZvbU90ZEwxVFlOalp4cTc0MHlTNkxIY3JmWVJmSFVDa1AzSnc3TWJtcl9lR19Qa1ppb29hN2xyWURPRU9aTVR1LTh3dzBVVW9wTy1HVklKVEZITVp6OGs2YTRvMjBORjIzS1d5MzhZUE4xcmgwa3NFdXIwQndVOHhidFZycjFyTDZwMzlOS1ZHVkJLM3RjWlVkNU8wa24wMGhvSjJkZ2sxUDl1VTlDTkZ6dlBLLWRoa2dKVExFRXljQWg0eUI2UFptMzlwSGx4UWpqWExVZW4zNU5rQTlUem1MZXVBU1VLY1ZsMnphVUVBb3ZSalloa1hIZGpOa2hEQXV2UnRUelEtUm1xOWt3T2s5cnUwcFZpczA0clVWM3RxVHpla0VZb0xDR3Fxb3AtanQ3YjF4U2hSZlZrV2drTUlwS0hIbXN1bW5IQS1mRWxrWXE2WWRHVHdyTm9faWg0cG1IYkFSOVZTYzA2eFp0TWJxejZTN01ZLTdYQ2JCZTR6Wk9IVTNsWTdCYkZabVRNWDZraGVDdlBkMzhrYllXcWkzWg?oc=5) · finance.sina.com.cn
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
