@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29 18:05",
-  "score": -45,
-  "stance": "防守优先",
-  "color": "#08783e",
+  "generated_at": "2026-09-29 22:01",
+  "score": 1,
+  "stance": "中性等待",
+  "color": "#8c959f",
   "confidence": "中",
-  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
+  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 -1.67%",
-      "contribution": -13.4,
+      "value": "上证 +0.18%",
+      "contribution": 1.4,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 910 / 跌 4607",
-      "contribution": -13.4,
+      "value": "涨 3525 / 跌 1944",
+      "contribution": 5.8,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 33 / 跌停 56 / 炸板率 25.0%",
-      "contribution": -7.0,
+      "value": "涨停 57 / 跌停 10 / 炸板率 12.3%",
+      "contribution": 6.3,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.29%",
-      "contribution": -2.0,
+      "value": "6 个市场均值 +0.06%",
+      "contribution": 0.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.05%",
-      "contribution": 0.3,
+      "value": "富时 A50 +0.12%",
+      "contribution": 0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7065 (-0.09%) / DXY 101.45 (+0.26%)",
-      "contribution": -0.2,
+      "value": "USD/CNH 6.7073 (-0.08%) / DXY 101.40 (+0.21%)",
+      "contribution": -0.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,35 +57,41 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 3",
-      "contribution": -4,
+      "value": "正向词 1 / 风险词 5",
+      "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
+    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 3,
-    "score": -4
+    "negative_hits": 5,
+    "score": -8
   },
   "news": [
     {
-      "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
-      "source": "财联社",
-      "published": "Mon, 28 Sep 2026 22:34:54 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
+      "title": "晚报丨10月1日起我国将对居民购房实施贷款贴息；央行：下调抵押补充贷款（PSL）利率0.25个百分点；伊朗等待美国今日回应霍尔木兹提案；瑞银：美联储10月不会加息；AI巨头高管将与特朗普讨论AI风险",
+      "source": "东方财富",
+      "published": "Tue, 29 Sep 2026 10:32:03 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tSHRCYVZQRjRnb1hhQm5naFBMMXJhNXM3bEo1LVV3Z1g4WFRtRTBWQnFFczByeGxoVkU5ZE1YX2V4M2xBMXZHQ3FTd3poY1NBTzRJYVRhczlESFFBYmtzaXZJYlh1UQ?oc=5"
     },
     {
       "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
       "source": "金十数据",
-      "published": "Tue, 29 Sep 2026 02:39:58 GMT",
+      "published": "Tue, 29 Sep 2026 05:48:01 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
     },
     {
+      "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿",
+      "source": "财联社",
+      "published": "Tue, 29 Sep 2026 03:24:46 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5"
+    },
+    {
       "title": "【券商聚焦】平安证券：A股节前或维持震荡，关注科技板块弹性_滚动新闻",
-      "source": "证券之星",
+      "source": "finance.stockstar.com",
       "published": "Tue, 29 Sep 2026 03:40:50 GMT",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2cGszcXMxelI0MlpjUVhyVnVTWkpzV1l6SkZGMTVFUkUyWnVoZ2kwQ3VmSHpIN3JCZ1JiS1pYak1nRktPM215dE5NTHR4eGlINUF2Ul9vQk90dEVtYmNIX1EycFM?oc=5"
     },
@@ -94,12 +100,6 @@
       "source": "手机新浪网",
       "published": "Mon, 28 Sep 2026 23:33:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qNEtxRHIzdkp6QjFDZ1RVbW5UMWZobXJXODRwb2owbmV1UlN0WWhKd0FJQzlUSzVSNU5aOVFGbDlnNWp6cGhsbUJVR3VXRkR2N1RaWGtLeTN4MmdhQUhhLXlEZw?oc=5"
-    },
-    {
-      "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿",
-      "source": "财联社",
-      "published": "Tue, 29 Sep 2026 03:24:46 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5"
     },
     {
       "title": "亚股全日窄幅震荡 澳洲储备银行上调利率",
@@ -115,12 +115,52 @@
     },
     {
       "title": "美股开盘：三大股指齐跌 油价与美债收益率双双走高",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "published": "Mon, 28 Sep 2026 16:49:56 GMT",
       "link": "https://news.google.com/rss/articles/CBMihAVBVV95cUxQUXgyX3dTY2JrMmJ3d2dOX29vUE5YRnFyLUpURGdZQ21wNGQwQnpBdEQ2aTR1SG9IaHpsNnQ4Q2xTWFlwOWtCOUdCTE81NWxjVmEzU3NfVE5XNGxuTkJxdEF5UlMwUHBfc3Mtdlp6R1BIY255cjN0bDRJd0dOV0tERDRQNVhlT0stcG10MjMwUGxWOWt4YWJyaUtKVDhIcUlnMENRTzVSZkhwdDMxMV9xb1Y5Zm1oVXJhQ21fUkxPT01ZY2ctd3FzRkFpS1FsNUdHNzVERG84UXVFTGw3UTZIUUdfb0FQTWlmSDZvbU90ZEwxVFlOalp4cTc0MHlTNkxIY3JmWVJmSFVDa1AzSnc3TWJtcl9lR19Qa1ppb29hN2xyWURPRU9aTVR1LTh3dzBVVW9wTy1HVklKVEZITVp6OGs2YTRvMjBORjIzS1d5MzhZUE4xcmgwa3NFdXIwQndVOHhidFZycjFyTDZwMzlOS1ZHVkJLM3RjWlVkNU8wa24wMGhvSjJkZ2sxUDl1VTlDTkZ6dlBLLWRoa2dKVExFRXljQWg0eUI2UFptMzlwSGx4UWpqWExVZW4zNU5rQTlUem1MZXVBU1VLY1ZsMnphVUVBb3ZSalloa1hIZGpOa2hEQXV2UnRUelEtUm1xOWt3T2s5cnUwcFZpczA0clVWM3RxVHpla0VZb0xDR3Fxb3AtanQ3YjF4U2hSZlZrV2drTUlwS0hIbXN1bW5IQS1mRWxrWXE2WWRHVHdyTm9faWg0cG1IYkFSOVZTYzA2eFp0TWJxejZTN01ZLTdYQ2JCZTR6Wk9IVTNsWTdCYkZabVRNWDZraGVDdlBkMzhrYllXcWkzWg?oc=5"
     }
   ],
   "events": [
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 3,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.40 / +0.21%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7073 / -0.08%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "晚报丨10月1日起我国将对居民购房实施贷款贴息；央行：下调抵押补充贷款（PSL）利率0.25个百分点；伊朗等待美国今日回应霍尔木兹提案；瑞银：美联储10月不会加息；AI巨头高管将与特朗普讨论AI风险",
+          "source": "东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tSHRCYVZQRjRnb1hhQm5naFBMMXJhNXM3bEo1LVV3Z1g4WFRtRTBWQnFFczByeGxoVkU5ZE1YX2V4M2xBMXZHQ3FTd3poY1NBTzRJYVRhczlESFFBYmtzaXZJYlh1UQ?oc=5"
+        },
+        {
+          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+        }
+      ]
+    },
     {
       "key": "technology",
       "label": "科技与产业",
@@ -131,13 +171,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,820.38 / -0.92%",
+          "value": "26,828.24 / +0.03%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,886.44 / +0.05%",
+          "value": "13,896.10 / +0.12%",
           "state": "fresh"
         },
         {
@@ -150,14 +190,14 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "【券商聚焦】平安证券：A股节前或维持震荡，关注科技板块弹性_滚动新闻",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2cGszcXMxelI0MlpjUVhyVnVTWkpzV1l6SkZGMTVFUkUyWnVoZ2kwQ3VmSHpIN3JCZ1JiS1pYak1nRktPM215dE5NTHR4eGlINUF2Ul9vQk90dEVtYmNIX1EycFM?oc=5"
+          "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿",
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5"
         },
         {
-          "title": "美联储警告AI 推高通胀，美股科技股却普遍下挫|美联储|欧央行|中概金龙指数_新浪新闻",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qNEtxRHIzdkp6QjFDZ1RVbW5UMWZobXJXODRwb2owbmV1UlN0WWhKd0FJQzlUSzVSNU5aOVFGbDlnNWp6cGhsbUJVR3VXRkR2N1RaWGtLeTN4MmdhQUhhLXlEZw?oc=5"
+          "title": "【券商聚焦】平安证券：A股节前或维持震荡，关注科技板块弹性_滚动新闻",
+          "source": "finance.stockstar.com",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2cGszcXMxelI0MlpjUVhyVnVTWkpzV1l6SkZGMTVFUkUyWnVoZ2kwQ3VmSHpIN3JCZ1JiS1pYak1nRktPM215dE5NTHR4eGlINUF2Ul9vQk90dEVtYmNIX1EycFM?oc=5"
         }
       ]
     },
@@ -171,13 +211,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "92.21 / -0.43%",
+          "value": "90.90 / -1.83%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,179.27 / +0.26%",
+          "value": "4,195.89 / +0.66%",
           "state": "fresh"
         },
         {
@@ -202,46 +242,6 @@
       ]
     },
     {
-      "key": "central_bank",
-      "label": "央行与利率",
-      "headline_count": 2,
-      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.45 / +0.26%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7065 / -0.09%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-      "headlines": [
-        {
-          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-        },
-        {
-          "title": "美联储警告AI 推高通胀，美股科技股却普遍下挫|美联储|欧央行|中概金龙指数_新浪新闻",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qNEtxRHIzdkp6QjFDZ1RVbW5UMWZobXJXODRwb2owbmV1UlN0WWhKd0FJQzlUSzVSNU5aOVFGbDlnNWp6cGhsbUJVR3VXRkR2N1RaWGtLeTN4MmdhQUhhLXlEZw?oc=5"
-        }
-      ]
-    },
-    {
       "key": "inflation",
       "label": "通胀与就业",
       "headline_count": 1,
@@ -257,13 +257,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.45 / +0.26%",
+          "value": "101.40 / +0.21%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,820.38 / -0.92%",
+          "value": "26,828.24 / +0.03%",
           "state": "fresh"
         }
       ],

@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29 18:05",
+  "generated_at": "2026-09-29 22:01",
   "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
   "status": "ready",
   "minimum_samples": 20,
-  "signal_count": 51,
-  "matured_1d": 45,
-  "directional_1d": 44,
-  "hit_rate_1d": 95.5,
+  "signal_count": 52,
+  "matured_1d": 50,
+  "directional_1d": 49,
+  "hit_rate_1d": 85.7,
   "average_return": {
-    "1d": -0.699,
-    "3d": -0.88,
-    "5d": -2.251
+    "1d": -0.611,
+    "3d": -1.243,
+    "5d": -2.506
   },
   "buckets": [
     {
       "label": "防守",
-      "count": 9,
-      "avg_1d_pct": -1.52
+      "count": 13,
+      "avg_1d_pct": -0.997
     },
     {
       "label": "谨慎防守",
-      "count": 18,
-      "avg_1d_pct": -1.478
+      "count": 19,
+      "avg_1d_pct": -1.391
     },
     {
       "label": "中性",
@@ -41,14 +41,39 @@
     }
   ],
   "current": {
-    "captured_at": "2026-09-29 18:05",
-    "slot": "midday",
-    "score": "-45",
-    "stance": "防守优先",
+    "captured_at": "2026-09-29 22:01",
+    "slot": "close",
+    "score": "1",
+    "stance": "中性等待",
     "confidence": "中",
     "health": "markets,us10y,vix"
   },
   "recent": [
+    {
+      "captured_at": "2026-09-29 22:01",
+      "slot": "close",
+      "signal_date": "2026-09-29",
+      "market_asof_date": "2026-09-29",
+      "score": "1",
+      "stance": "中性等待",
+      "confidence": "中",
+      "sh_close": "3830.45",
+      "sh_pct": "0.18",
+      "global_avg": "0.056",
+      "a50_pct": "0.12320772389942114",
+      "usdcnh": "6.7073",
+      "usdcnh_pct": "-0.07895599320680846",
+      "dxy": "101.4025",
+      "dxy_pct": "0.21178358741436032",
+      "vix": "15.44",
+      "us10y": "4.94",
+      "health": "markets,us10y,vix",
+      "return_1d": null,
+      "return_3d": null,
+      "return_5d": null,
+      "direction": 0,
+      "hit_1d": null
+    },
     {
       "captured_at": "2026-09-29 18:05",
       "slot": "midday",
@@ -68,11 +93,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.18,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-09-29 16:17",
@@ -93,11 +118,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.18,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-09-29 09:56",
@@ -118,11 +143,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.18,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-09-29 03:43",
@@ -168,11 +193,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.18,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-09-28 18:07",
@@ -268,11 +293,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,news,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.18,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-09-27 20:58",
@@ -515,31 +540,6 @@
       "usdcnh_pct": "0.12210375841323895",
       "dxy": "101.0572",
       "dxy_pct": "-0.1833216781835456",
-      "vix": "15.44",
-      "us10y": "4.94",
-      "health": "markets,us10y,vix",
-      "return_1d": -1.67,
-      "return_3d": null,
-      "return_5d": null,
-      "direction": -1,
-      "hit_1d": true
-    },
-    {
-      "captured_at": "2026-09-25 20:44",
-      "slot": "close",
-      "signal_date": "2026-09-25",
-      "market_asof_date": "2026-09-24",
-      "score": "-24",
-      "stance": "谨慎防守",
-      "confidence": "中",
-      "sh_close": "3888.37",
-      "sh_pct": "-1.22",
-      "global_avg": "0.0194",
-      "a50_pct": "0.06910655101897145",
-      "usdcnh": "6.7239",
-      "usdcnh_pct": "0.12359282863780852",
-      "dxy": "101.0142",
-      "dxy_pct": "-0.2257938342282162",
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
