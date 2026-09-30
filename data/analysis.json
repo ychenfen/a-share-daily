@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30 17:57",
-  "score": 3,
+  "generated_at": "2026-09-30 21:38",
+  "score": -2,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -9,38 +9,38 @@
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.18%",
-      "contribution": 1.4,
+      "value": "上证 +0.31%",
+      "contribution": 2.5,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 3525 / 跌 1944",
-      "contribution": 5.8,
+      "value": "涨 2614 / 跌 2841",
+      "contribution": -0.8,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 57 / 跌停 10 / 炸板率 12.3%",
-      "contribution": 6.3,
+      "value": "涨停 52 / 跌停 9 / 炸板率 18.8%",
+      "contribution": 4.8,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.10%",
-      "contribution": 0.7,
+      "value": "6 个市场均值 +0.37%",
+      "contribution": 2.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.12%",
-      "contribution": -0.7,
+      "value": "富时 A50 -0.13%",
+      "contribution": -0.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7076 (+0.01%) / DXY 101.22 (-0.17%)",
-      "contribution": 0.7,
+      "value": "USD/CNH 6.7063 (-0.01%) / DXY 101.23 (-0.15%)",
+      "contribution": 0.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,8 +72,14 @@
   },
   "news": [
     {
+      "title": "交易员押注美联储10月将连续加息，或许有些操之过急",
+      "source": "Moomoo",
+      "published": "Wed, 30 Sep 2026 09:46:07 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHhjZU5Jbll0RV93SHg3bFBRdEUzemVaWVhMRndFbzE2bG13eXRkdkl1NVh3V2lENFROTjI4SF9mWlRfSVlqaHZXMi0td09nZnR6QWZCMWlFNVFwQ3FHVFhpeFVoSk5hWjU1bjVrbDA0Q3NYdDBlN2J6WE1XY0tNWHBkMHZpMHhlR25WbUs1ajgxS19raEpGQktiam40Y21tR0tERld3ekpBWWlUdmxj?oc=5"
+    },
+    {
       "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-      "source": "金十数据",
+      "source": "xnews.jin10.com",
       "published": "Wed, 30 Sep 2026 05:55:07 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
     },
@@ -90,17 +96,17 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xQW82djFyX3o1cnFfWThHeThnc09WSndlcjM4WjM3VzlyanM5dUJ0bnhjZmdydXNoOEhlX2N4M2hnRkRDaEFUQjZXUWtMVmU2V2dPVGtIU1l1eXN4MGtncGIzaw?oc=5"
     },
     {
-      "title": "晚报丨10月1日起我国将对居民购房实施贷款贴息；央行：下调抵押补充贷款（PSL）利率0.25个百分点；伊朗等待美国今日回应霍尔木兹提案；瑞银：美联储10月不会加息；AI巨头高管将与特朗普讨论AI风险",
-      "source": "东方财富",
-      "published": "Tue, 29 Sep 2026 10:31:45 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Hdmw1aTFweGxYWTRPZW5ZQ0E1N0xWTW9jTllNQ3p2dWtONkZKTWhHSDFqWmZiWlNUeHlHR0UtUjVxcF9jQmNtQWNIRlBJZkkxMDBjM3RUM3NyN1d6akU4?oc=5"
+      "title": "美联储加息，央行连夜放1130亿：你的钱袋子正被两只手同时塑造",
+      "source": "搜狐网",
+      "published": "Wed, 30 Sep 2026 10:53:23 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb011N2VUcHBmUHhydjYyYXczdEs1RVhWeGdRVndDbG9Ldms3c3Rrb1hiUTRPenF3Skd2Ym1HR0JuV1VDYWEwbTdkMmpSVzBJNktKMWZzNDZwNG9LOGhZUzE0UWJjTnowam53VXdKY1pjMGNMNkRHdzBqdFhkclNtYWRNWmdIbjJHaUJNOA?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 4,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -113,27 +119,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.22 / -0.17%",
+          "value": "101.23 / -0.15%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7076 / +0.01%",
+          "value": "6.7063 / -0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+          "title": "交易员押注美联储10月将连续加息，或许有些操之过急",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHhjZU5Jbll0RV93SHg3bFBRdEUzemVaWVhMRndFbzE2bG13eXRkdkl1NVh3V2lENFROTjI4SF9mWlRfSVlqaHZXMi0td09nZnR6QWZCMWlFNVFwQ3FHVFhpeFVoSk5hWjU1bjVrbDA0Q3NYdDBlN2J6WE1XY0tNWHBkMHZpMHhlR25WbUs1ajgxS19raEpGQktiam40Y21tR0tERld3ekpBWWlUdmxj?oc=5"
         },
         {
-          "title": "9 月 30 日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示 9 月加息后“不急于采取行动”",
-          "source": "myzaker.com",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aZzN4UkQ1VkdBQkRpeHVjVzFTUk1tSElhZXB1bENzd2VqcEVLY0N0NUlHQ1NVSTFBaGtOUGhVWmdwMnlYZEh2QlR6UEhBYVJvakc5ZXpqRUtkQzd2YVNJY2ctWGhMeEk?oc=5"
+          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+          "source": "xnews.jin10.com",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         }
       ]
     },
@@ -147,13 +153,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.23 / +0.95%",
+          "value": "91.41 / +2.27%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,221.13 / +0.99%",
+          "value": "4,214.43 / +0.83%",
           "state": "fresh"
         },
         {
@@ -167,7 +173,7 @@
       "headlines": [
         {
           "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
+          "source": "xnews.jin10.com",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
         },
         {
