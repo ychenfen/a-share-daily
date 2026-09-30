@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30 16:17",
-  "score": 9,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
+  "generated_at": "2026-09-30 17:57",
+  "score": 3,
+  "stance": "中性等待",
+  "color": "#8c959f",
   "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
   "signals": [
     {
       "label": "A股动量",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.64%",
-      "contribution": 3.8,
+      "value": "富时 A50 -0.12%",
+      "contribution": -0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7077 (+0.01%) / DXY 101.29 (-0.10%)",
-      "contribution": 0.4,
+      "value": "USD/CNH 6.7076 (+0.01%) / DXY 101.22 (-0.17%)",
+      "contribution": 0.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,23 +57,35 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 2",
-      "contribution": -4,
+      "value": "正向词 1 / 风险词 4",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 2,
-    "score": -4
+    "positive_hits": 1,
+    "negative_hits": 4,
+    "score": -6
   },
   "news": [
     {
+      "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+      "source": "金十数据",
+      "published": "Wed, 30 Sep 2026 05:55:07 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+    },
+    {
+      "title": "9 月 30 日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示 9 月加息后“不急于采取行动”",
+      "source": "myzaker.com",
+      "published": "Wed, 30 Sep 2026 03:25:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aZzN4UkQ1VkdBQkRpeHVjVzFTUk1tSElhZXB1bENzd2VqcEVLY0N0NUlHQ1NVSTFBaGtOUGhVWmdwMnlYZEh2QlR6UEhBYVJvakc5ZXpqRUtkQzd2YVNJY2ctWGhMeEk?oc=5"
+    },
+    {
       "title": "基金市场概况与资产配置观点 （09.21—09.27）",
-      "source": "潮起网",
+      "source": "ichaoqi.com",
       "published": "Wed, 30 Sep 2026 04:30:07 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xQW82djFyX3o1cnFfWThHeThnc09WSndlcjM4WjM3VzlyanM5dUJ0bnhjZmdydXNoOEhlX2N4M2hnRkRDaEFUQjZXUWtMVmU2V2dPVGtIU1l1eXN4MGtncGIzaw?oc=5"
     },
@@ -82,25 +94,13 @@
       "source": "东方财富",
       "published": "Tue, 29 Sep 2026 10:31:45 GMT",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Hdmw1aTFweGxYWTRPZW5ZQ0E1N0xWTW9jTllNQ3p2dWtONkZKTWhHSDFqWmZiWlNUeHlHR0UtUjVxcF9jQmNtQWNIRlBJZkkxMDBjM3RUM3NyN1d6akU4?oc=5"
-    },
-    {
-      "title": "亚股全日窄幅震荡 澳洲储备银行上调利率",
-      "source": "亚洲电视新闻",
-      "published": "Tue, 29 Sep 2026 09:39:13 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNU1FoVFlKSUlpOUhMSUtvelIyUlhzX0w0X0tyVHR6N1JteU5oT0I1aEFDQjVKNXlRRzNRRGFMbWIzLUhaR3Z1YUtmWFdXeFBweFR3bFZ0UVp6TzFPMkFjZk9jV2pTWVk1TUNaQWNIMXBIVnVhRm9BYzNHTGNjNmFTdEdLVkVrZGo0WmJIdlNfX0FiNHNsc09JTF95dTgwcmZMb0xQVk8wN0VMS3ZrQkVCRmF0dlZkRUhwZDI1OXRhdkRZbXJ1azcyTXNiRlV4R1N0NDhaRWN0VDZnVE1oTXQwempFMkVGaDBidUtUdjJHQzIyNHowSFFOY0RjT05MaHNXTy1QNld1bENkLTVBMHQ1cjR1aDA3S2doR1Y2YVBSaFhWYjM4MUE?oc=5"
-    },
-    {
-      "title": "隔夜美股走低拖累 马股闭市大跌1.56%",
-      "source": "e南洋",
-      "published": "Tue, 29 Sep 2026 09:57:19 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfbUo4Z3BFTV9IVmRkS0JCeG5NUFA2RHlpaGMyZjRfcDJjdVhFVnpCZFlJQnVUeFBXM3Q1elJPa3BMcW5fbTQ1XzRITlNfbGx6dV9KTHB0Ty1nUXF1cE05YU9JMA?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -113,22 +113,67 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.29 / -0.10%",
+          "value": "101.22 / -0.17%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7077 / +0.01%",
+          "value": "6.7076 / +0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "晚报丨10月1日起我国将对居民购房实施贷款贴息；央行：下调抵押补充贷款（PSL）利率0.25个百分点；伊朗等待美国今日回应霍尔木兹提案；瑞银：美联储10月不会加息；AI巨头高管将与特朗普讨论AI风险",
-          "source": "东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Hdmw1aTFweGxYWTRPZW5ZQ0E1N0xWTW9jTllNQ3p2dWtONkZKTWhHSDFqWmZiWlNUeHlHR0UtUjVxcF9jQmNtQWNIRlBJZkkxMDBjM3RUM3NyN1d6akU4?oc=5"
+          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+        },
+        {
+          "title": "9 月 30 日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示 9 月加息后“不急于采取行动”",
+          "source": "myzaker.com",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aZzN4UkQ1VkdBQkRpeHVjVzFTUk1tSElhZXB1bENzd2VqcEVLY0N0NUlHQ1NVSTFBaGtOUGhVWmdwMnlYZEh2QlR6UEhBYVJvakc5ZXpqRUtkQzd2YVNJY2ctWGhMeEk?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 2,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "90.23 / +0.95%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,221.13 / +0.99%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+        },
+        {
+          "title": "9 月 30 日隔夜要闻：美股收跌 油价下挫 金价反弹 美联储威廉姆斯表示 9 月加息后“不急于采取行动”",
+          "source": "myzaker.com",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aZzN4UkQ1VkdBQkRpeHVjVzFTUk1tSElhZXB1bENzd2VqcEVLY0N0NUlHQ1NVSTFBaGtOUGhVWmdwMnlYZEh2QlR6UEhBYVJvakc5ZXpqRUtkQzd2YVNJY2ctWGhMeEk?oc=5"
         }
       ]
     }
