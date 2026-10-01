@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01 16:41",
-  "score": -15,
+  "generated_at": "2026-10-01 18:24",
+  "score": -10,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.74%",
-      "contribution": -4.4,
+      "value": "富时 A50 +0.11%",
+      "contribution": 0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7196 (+0.16%) / DXY 101.83 (+0.34%)",
-      "contribution": -3.6,
+      "value": "USD/CNH 6.7199 (+0.16%) / DXY 101.85 (+0.36%)",
+      "contribution": -3.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 6",
+      "value": "正向词 1 / 风险词 5",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -67,19 +67,19 @@
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 6,
+    "negative_hits": 5,
     "score": -8
   },
   "news": [
     {
-      "title": "全球债市抛售潮加剧：10年期美债收益率触及2002年高位，英债突破6%、法德利差扩至2012年最宽",
+      "title": "全球债市再遭重击！美10年期国债收益率创2002年新高，纳指期货抹去涨幅，欧股下挫",
       "source": "华尔街见闻",
-      "published": "Thu, 01 Oct 2026 07:48:09 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2ck8tV2t1U3FwdTdnRjF6Xy1hNlVXZ2hKRjJ5QzVubTBybVN0Q1NDV2FGeHlYbU11RENmbGZESmxER0d0ZUQ4aC1xeHA0RDJIbWpN?oc=5"
+      "published": "Thu, 01 Oct 2026 08:01:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtTlBVemRpcHcxNC05Y3JpSDlMaGJnQXEtRlV0c3FPLXJyeEo3cW1XOW8yNUJocDcxNkt5WERKQnZBeUo0a3VYY1B1cFpncEZrdDMw?oc=5"
     },
     {
       "title": "存储巨头，直线拉升！韩股翻红，日股大涨",
-      "source": "证券时报网",
+      "source": "stcn.com",
       "published": "Wed, 30 Sep 2026 23:56:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fVTdIQXN3ckwyMXBGd0VtdkxGWWxvS0I0MWJUQ2RPRzZFaWI0cmtXSXBocGFpSUFBbmxBblVBZUhOcVkzNFU1SGR4Z0xhN0R6VkFzVUo5ODZudkVw?oc=5"
     },
@@ -102,16 +102,16 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGTTJFSjU5SjR6RzJBOEwyVkNTa0lpVlpTSE55dU10OTBIVHVrdk4xeVpQVHh5YnVOZGtVNEdmMGpfVFQ2cEZZNDBVOU1jOGp3alZjMDlpUmp5Uy00Q1U1SjZ3?oc=5"
     },
     {
-      "title": "全球债市再遭重击！美10年期国债收益率创2002年新高，纳指期货抹去涨幅，欧股下挫",
+      "title": "全球债市抛售潮加剧：10年期美债收益率触及2002年高位，英债突破6%、法德利差扩至2012年最宽",
       "source": "华尔街见闻",
-      "published": "Thu, 01 Oct 2026 08:01:13 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtTlBVemRpcHcxNC05Y3JpSDlMaGJnQXEtRlV0c3FPLXJyeEo3cW1XOW8yNUJocDcxNkt5WERKQnZBeUo0a3VYY1B1cFpncEZrdDMw?oc=5"
+      "published": "Thu, 01 Oct 2026 07:48:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2ck8tV2t1U3FwdTdnRjF6Xy1hNlVXZ2hKRjJ5QzVubTBybVN0Q1NDV2FGeHlYbU11RENmbGZESmxER0d0ZUQ4aC1xeHA0RDJIbWpN?oc=5"
     },
     {
-      "title": "交易员押注美联储10月将连续加息，或许有些操之过急",
-      "source": "Moomoo",
-      "published": "Wed, 30 Sep 2026 10:55:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHhjZU5Jbll0RV93SHg3bFBRdEUzemVaWVhMRndFbzE2bG13eXRkdkl1NVh3V2lENFROTjI4SF9mWlRfSVlqaHZXMi0td09nZnR6QWZCMWlFNVFwQ3FHVFhpeFVoSk5hWjU1bjVrbDA0Q3NYdDBlN2J6WE1XY0tNWHBkMHZpMHhlR25WbUs1ajgxS19raEpGQktiam40Y21tR0tERld3ekpBWWlUdmxj?oc=5"
+      "title": "纽元/美元(NZDUSD)10月1日异动：央行预期出现变化？",
+      "source": "tradingkey.com",
+      "published": "Thu, 01 Oct 2026 01:55:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTdkZ2pXUHRkV3FTckNVLXA1R1Fmb1BnNzhTUmN4RE54QllHS2lkYnQ4cjlpUkFFUGxiSlkyejA5Z191c2N0dko3QjdlZDhPZGJNel9paHdFUklrOU4tekoyYkg1SlZnTm5vVGxDa0hjbmd2YklaMmJBQzNSZ2xMYzhwSG5RTDJIYUFiZ1JwekVUeHNqWnAySA?oc=5"
     }
   ],
   "events": [
@@ -131,13 +131,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.83 / +0.34%",
+          "value": "101.85 / +0.36%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7196 / +0.16%",
+          "value": "6.7199 / +0.16%",
           "state": "fresh"
         }
       ],
@@ -152,6 +152,46 @@
           "title": "美国通胀降温压低加息概率,美元兑日元维持区间震荡",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlpTbzlwdU5ySlptbHBBY05wUHV2dFAxR0pRTkhZX2RZYVFTaGpKX08wMEpkYXNfSHhwYVR6WlpaVzdxbnlFSmI3VFh5QS1iSzd4Tk9VWFg3THU0VUo1QlJWU1RmUUtpREtGVGxNWmRtVWE3ZGk3dE1hWWo5T3FUbXh1MzBtenBISlZDalFqaVV4Y3kzTjNfc2ppSTFHM1Q3ckFDSjJhUU53S3dzeEU4b2NtN04?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.85 / +0.36%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7199 / +0.16%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,876.20 / +0.11%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "美国通胀降温压低加息概率,美元兑日元维持区间震荡",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlpTbzlwdU5ySlptbHBBY05wUHV2dFAxR0pRTkhZX2RZYVFTaGpKX08wMEpkYXNfSHhwYVR6WlpaVzdxbnlFSmI3VFh5QS1iSzd4Tk9VWFg3THU0VUo1QlJWU1RmUUtpREtGVGxNWmRtVWE3ZGk3dE1hWWo5T3FUbXh1MzBtenBISlZDalFqaVV4Y3kzTjNfc2ppSTFHM1Q3ckFDSjJhUU53S3dzeEU4b2NtN04?oc=5"
+        },
+        {
+          "title": "纽元/美元(NZDUSD)10月1日异动：央行预期出现变化？",
+          "source": "tradingkey.com",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTdkZ2pXUHRkV3FTckNVLXA1R1Fmb1BnNzhTUmN4RE54QllHS2lkYnQ4cjlpUkFFUGxiSlkyejA5Z191c2N0dko3QjdlZDhPZGJNel9paHdFUklrOU4tekoyYkg1SlZnTm5vVGxDa0hjbmd2YklaMmJBQzNSZ2xMYzhwSG5RTDJIYUFiZ1JwekVUeHNqWnAySA?oc=5"
         }
       ]
     },
@@ -171,7 +211,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.83 / +0.34%",
+          "value": "101.85 / +0.36%",
           "state": "fresh"
         },
         {
@@ -206,7 +246,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,860.04 / -0.74%",
+          "value": "13,876.20 / +0.11%",
           "state": "fresh"
         },
         {
@@ -220,7 +260,7 @@
       "headlines": [
         {
           "title": "存储巨头，直线拉升！韩股翻红，日股大涨",
-          "source": "证券时报网",
+          "source": "stcn.com",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fVTdIQXN3ckwyMXBGd0VtdkxGWWxvS0I0MWJUQ2RPRzZFaWI0cmtXSXBocGFpSUFBbmxBblVBZUhOcVkzNFU1SGR4Z0xhN0R6VkFzVUo5ODZudkVw?oc=5"
         }
       ]
@@ -235,13 +275,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "92.83 / +2.66%",
+          "value": "91.94 / +1.68%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,181.37 / -0.13%",
+          "value": "4,191.74 / +0.12%",
           "state": "fresh"
         },
         {
@@ -257,41 +297,6 @@
           "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
           "source": "金十数据",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.83 / +0.34%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7196 / +0.16%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,860.04 / -0.74%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "美国通胀降温压低加息概率,美元兑日元维持区间震荡",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlpTbzlwdU5ySlptbHBBY05wUHV2dFAxR0pRTkhZX2RZYVFTaGpKX08wMEpkYXNfSHhwYVR6WlpaVzdxbnlFSmI3VFh5QS1iSzd4Tk9VWFg3THU0VUo1QlJWU1RmUUtpREtGVGxNWmRtVWE3ZGk3dE1hWWo5T3FUbXh1MzBtenBISlZDalFqaVV4Y3kzTjNfc2ppSTFHM1Q3ckFDSjJhUU53S3dzeEU4b2NtN04?oc=5"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01 16:41",
+  "generated_at": "2026-10-01 18:24",
   "markets": [
     {
       "code": "SPX",
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 13860.04,
-      "pct": -0.737377354436719,
-      "change": -102.95999999999913,
-      "previous_close": 13963.0,
-      "quote_time": "2026-10-01 16:35:00",
+      "close": 13876.2,
+      "pct": 0.10966019767693069,
+      "change": 15.200000000000728,
+      "previous_close": 13861.0,
+      "quote_time": "2026-10-01 18:25:05",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.7196,
-      "pct": 0.15948963317384823,
-      "change": 0.010699999999999932,
+      "close": 6.7199,
+      "pct": 0.1639613051319877,
+      "change": 0.01100000000000012,
       "previous_close": 6.7089,
-      "quote_time": "2026-10-01 16:41:35",
+      "quote_time": "2026-10-01 18:25:05",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 101.8266,
-      "pct": 0.3390732392284379,
-      "change": 0.3440999999999974,
+      "close": 101.8453,
+      "pct": 0.35750006158696834,
+      "change": 0.3627999999999929,
       "previous_close": 101.4825,
-      "quote_time": "2026-10-01 16:41:40",
+      "quote_time": "2026-10-01 18:25:10",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4181.37,
-      "pct": -0.12730790359949395,
-      "change": -5.329999999999927,
+      "close": 4191.739,
+      "pct": 0.12035732199584537,
+      "change": 5.03899999999976,
       "previous_close": 4186.7,
-      "quote_time": "2026-10-01 16:41:42",
+      "quote_time": "2026-10-01 18:25:08",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 92.825,
-      "pct": 2.659809776598099,
-      "change": 2.405000000000001,
+      "close": 91.939,
+      "pct": 1.6799380667993802,
+      "change": 1.5189999999999912,
       "previous_close": 90.42,
-      "quote_time": "2026-10-01 16:41:40",
+      "quote_time": "2026-10-01 18:25:11",
       "stale": false
     }
   ],

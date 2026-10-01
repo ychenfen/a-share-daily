@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-01 16:41",
-  "slot": "open",
-  "slot_label": "开盘脉搏",
+  "checked_at": "2026-10-01 18:24",
+  "slot": "midday",
+  "slot_label": "午间脉搏",
   "target_date": "2026-10-01",
   "market_data_date": "2026-09-30",
   "market_state": "non_trading",
