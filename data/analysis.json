@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02 21:48",
-  "score": 6,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
+  "generated_at": "2026-10-03 01:55",
+  "score": 3,
+  "stance": "中性等待",
+  "color": "#8c959f",
   "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.51%",
-      "contribution": 3.5,
+      "value": "6 个市场均值 +0.33%",
+      "contribution": 2.3,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.06%",
-      "contribution": 0.4,
+      "value": "富时 A50 -0.04%",
+      "contribution": -0.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7040 (-0.14%) / DXY 101.83 (-0.19%)",
-      "contribution": 2.7,
+      "value": "USD/CNH 6.7065 (-0.11%) / DXY 101.93 (-0.09%)",
+      "contribution": 1.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
     "positive_hits": 0,
@@ -79,7 +79,7 @@
     },
     {
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "published": "Fri, 02 Oct 2026 02:33:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFFmYUw3ZkFzU2RLTGRRdUJIYWVtUl94bkswMVBKUzluVmlMQXFZUndsNnBsRFUtd1JEWlhtV1NpcFI4Uy1FSGZPVlVuYlZkejVfWHhoS0JrbDg0TG4yY2hkNWotcHFGcDJ0eUw4QmN3LVdCMUFiVTVZcE9EaGt1aUJHZGxsWFE?oc=5"
     }
@@ -101,13 +101,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.83 / -0.19%",
+          "value": "101.93 / -0.09%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7040 / -0.14%",
+          "value": "6.7065 / -0.11%",
           "state": "fresh"
         }
       ],
@@ -115,7 +115,7 @@
       "headlines": [
         {
           "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
-          "source": "finance.sina.com.cn",
+          "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFFmYUw3ZkFzU2RLTGRRdUJIYWVtUl94bkswMVBKUzluVmlMQXFZUndsNnBsRFUtd1JEWlhtV1NpcFI4Uy1FSGZPVlVuYlZkejVfWHhoS0JrbDg0TG4yY2hkNWotcHFGcDJ0eUw4QmN3LVdCMUFiVTVZcE9EaGt1aUJHZGxsWFE?oc=5"
         }
       ]
