@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02 16:19",
-  "score": -1,
+  "generated_at": "2026-10-02 18:00",
+  "score": -2,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.43%",
-      "contribution": -3.0,
+      "value": "6 个市场均值 -0.41%",
+      "contribution": -2.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.46%",
-      "contribution": -2.7,
+      "value": "富时 A50 -0.12%",
+      "contribution": -0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7021 (-0.17%) / DXY 101.88 (-0.14%)",
-      "contribution": 2.8,
+      "value": "USD/CNH 6.7065 (-0.11%) / DXY 101.94 (-0.09%)",
+      "contribution": 1.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 1",
-      "contribution": 0,
+      "value": "正向词 0 / 风险词 1",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,9 +66,9 @@
     "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 1,
+    "positive_hits": 0,
     "negative_hits": 1,
-    "score": 0
+    "score": -2
   },
   "news": [
     {
@@ -90,12 +90,6 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSmVsTmZnbU44TUxuNkszcnVoVWc3RlpEekF2Z0RsNVNPLXpqYkRMc1FCSTBhY3VxQnkzdXVXSlJ0LWNSVEwwNVNNMk10dTRMcFZ0bjlYZzlOZUs2cUpzXzRBeTRMbUpZZEppQlJtY1V6cTlCNU9yVF9Gek83QWFveTloV3Q?oc=5"
     },
     {
-      "title": "亚股全日整体上涨 日本芯片股领涨",
-      "source": "亚洲电视新闻",
-      "published": "Thu, 01 Oct 2026 09:27:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTGVrcTdYU3ZrcjcyV0N6ZGI5cDIzRC02VGFiVjRjbHhiMjNoM1JtTzVfaF9vUmx1cDJQNC1MbFlZQmQxSTFVazZ0RmFCYUZTblhrZ194bWdueERyLWRVaHBkTERIbDlJaVdvSmRkOGdhWnp6X2FnTWlKVXBtMHNuVnVHUUY3NVViR2FpOFdjbzlmY0dKZjFpQVlFWmxSNVpEMFpJUHgySVJxZjA3OWhCWFZyWnhmX1NXY1JMbTZxOHBkbktxOFpqVGY4WXJOaDVVbldGemNVck0yTFR4NmZSb2ozMUJWWWJtUXR3eFVPc2lSdG43RFNvbVN6OTBPb1ozelE?oc=5"
-    },
-    {
       "title": "债市风暴延续！欧美国债收益率飙升，纳指期货抹去涨幅，欧股大跌，美元触及三个月高点",
       "source": "yeeyi",
       "published": "Thu, 01 Oct 2026 11:05:18 GMT",
@@ -113,19 +107,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.88 / -0.14%",
+          "value": "101.94 / -0.09%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7021 / -0.17%",
+          "value": "6.7065 / -0.11%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,797.92 / -0.46%",
+          "value": "13,792.80 / -0.12%",
           "state": "fresh"
         }
       ],
@@ -159,13 +153,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.88 / -0.14%",
+          "value": "101.94 / -0.09%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7021 / -0.17%",
+          "value": "6.7065 / -0.11%",
           "state": "fresh"
         }
       ],
@@ -179,41 +173,6 @@
       ]
     },
     {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "26,871.60 / +0.04%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,797.92 / -0.46%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "亚股全日整体上涨 日本芯片股领涨",
-          "source": "亚洲电视新闻",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTGVrcTdYU3ZrcjcyV0N6ZGI5cDIzRC02VGFiVjRjbHhiMjNoM1JtTzVfaF9vUmx1cDJQNC1MbFlZQmQxSTFVazZ0RmFCYUZTblhrZ194bWdueERyLWRVaHBkTERIbDlJaVdvSmRkOGdhWnp6X2FnTWlKVXBtMHNuVnVHUUY3NVViR2FpOFdjbzlmY0dKZjFpQVlFWmxSNVpEMFpJUHgySVJxZjA3OWhCWFZyWnhmX1NXY1JMbTZxOHBkbktxOFpqVGY4WXJOaDVVbldGemNVck0yTFR4NmZSb2ozMUJWWWJtUXR3eFVPc2lSdG43RFNvbVN6OTBPb1ozelE?oc=5"
-        }
-      ]
-    },
-    {
       "key": "commodities",
       "label": "商品与成本",
       "headline_count": 1,
@@ -223,13 +182,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "89.74 / -3.37%",
+          "value": "89.08 / -4.08%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,215.23 / +0.31%",
+          "value": "4,215.33 / +0.31%",
           "state": "fresh"
         },
         {
