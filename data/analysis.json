@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02 18:00",
-  "score": -2,
-  "stance": "中性等待",
-  "color": "#8c959f",
+  "generated_at": "2026-10-02 21:48",
+  "score": 6,
+  "stance": "谨慎偏多",
+  "color": "#e05a47",
   "confidence": "中",
-  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
+  "summary": "风险偏好略占优，但信号并未形成全面共振。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.41%",
-      "contribution": -2.9,
+      "value": "6 个市场均值 +0.51%",
+      "contribution": 3.5,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.12%",
-      "contribution": -0.7,
+      "value": "富时 A50 +0.06%",
+      "contribution": 0.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7065 (-0.11%) / DXY 101.94 (-0.09%)",
-      "contribution": 1.7,
+      "value": "USD/CNH 6.7040 (-0.14%) / DXY 101.83 (-0.19%)",
+      "contribution": 2.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "advice": [
-    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
+    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
     "positive_hits": 0,
@@ -79,64 +79,12 @@
     },
     {
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "published": "Fri, 02 Oct 2026 02:33:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtU1RvS2FBdC1pM3RRMWU5UDBmZlFENl9wSGJjeWxsMDNhS2hYRllIMnA2SnY3ZnRzNkhGLVhPOE5mVW01NmxsMVA5bzYtcmtBWTNPb3FJZTZEejJ4SDJoR2dOZGxvbndJLVN1ZTh6M1oxZ2d1NW9HSg?oc=5"
-    },
-    {
-      "title": "24年一见！全球市场突遭“利率风暴”：美债收益率创24年新高、油价冲破100美元，华尔街警报拉响",
-      "source": "FX168财经",
-      "published": "Thu, 01 Oct 2026 17:00:18 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSmVsTmZnbU44TUxuNkszcnVoVWc3RlpEekF2Z0RsNVNPLXpqYkRMc1FCSTBhY3VxQnkzdXVXSlJ0LWNSVEwwNVNNMk10dTRMcFZ0bjlYZzlOZUs2cUpzXzRBeTRMbUpZZEppQlJtY1V6cTlCNU9yVF9Gek83QWFveTloV3Q?oc=5"
-    },
-    {
-      "title": "债市风暴延续！欧美国债收益率飙升，纳指期货抹去涨幅，欧股大跌，美元触及三个月高点",
-      "source": "yeeyi",
-      "published": "Thu, 01 Oct 2026 11:05:18 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vcEZxcEg1ckNuVmhyVU8tejdoUDRUMlVhcXF5MHBLaldPRlJMNGxyc0F3Y2pTY1NESzVuY3BYX1ZORzBobDVTY3U3RDE0M2VRMS1YYUJB?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFFmYUw3ZkFzU2RLTGRRdUJIYWVtUl94bkswMVBKUzluVmlMQXFZUndsNnBsRFUtd1JEWlhtV1NpcFI4Uy1FSGZPVlVuYlZkejVfWHhoS0JrbDg0TG4yY2hkNWotcHFGcDJ0eUw4QmN3LVdCMUFiVTVZcE9EaGt1aUJHZGxsWFE?oc=5"
     }
   ],
   "events": [
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 2,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.94 / -0.09%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7065 / -0.11%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,792.80 / -0.12%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "24年一见！全球市场突遭“利率风暴”：美债收益率创24年新高、油价冲破100美元，华尔街警报拉响",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSmVsTmZnbU44TUxuNkszcnVoVWc3RlpEekF2Z0RsNVNPLXpqYkRMc1FCSTBhY3VxQnkzdXVXSlJ0LWNSVEwwNVNNMk10dTRMcFZ0bjlYZzlOZUs2cUpzXzRBeTRMbUpZZEppQlJtY1V6cTlCNU9yVF9Gek83QWFveTloV3Q?oc=5"
-        },
-        {
-          "title": "债市风暴延续！欧美国债收益率飙升，纳指期货抹去涨幅，欧股大跌，美元触及三个月高点",
-          "source": "yeeyi",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vcEZxcEg1ckNuVmhyVU8tejdoUDRUMlVhcXF5MHBLaldPRlJMNGxyc0F3Y2pTY1NESzVuY3BYX1ZORzBobDVTY3U3RDE0M2VRMS1YYUJB?oc=5"
-        }
-      ]
-    },
     {
       "key": "central_bank",
       "label": "央行与利率",
@@ -153,13 +101,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.94 / -0.09%",
+          "value": "101.83 / -0.19%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7065 / -0.11%",
+          "value": "6.7040 / -0.14%",
           "state": "fresh"
         }
       ],
@@ -167,43 +115,8 @@
       "headlines": [
         {
           "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtU1RvS2FBdC1pM3RRMWU5UDBmZlFENl9wSGJjeWxsMDNhS2hYRllIMnA2SnY3ZnRzNkhGLVhPOE5mVW01NmxsMVA5bzYtcmtBWTNPb3FJZTZEejJ4SDJoR2dOZGxvbndJLVN1ZTh6M1oxZ2d1NW9HSg?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "89.08 / -4.08%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,215.33 / +0.31%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "24年一见！全球市场突遭“利率风暴”：美债收益率创24年新高、油价冲破100美元，华尔街警报拉响",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSmVsTmZnbU44TUxuNkszcnVoVWc3RlpEekF2Z0RsNVNPLXpqYkRMc1FCSTBhY3VxQnkzdXVXSlJ0LWNSVEwwNVNNMk10dTRMcFZ0bjlYZzlOZUs2cUpzXzRBeTRMbUpZZEppQlJtY1V6cTlCNU9yVF9Gek83QWFveTloV3Q?oc=5"
+          "source": "finance.sina.com.cn",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdFFmYUw3ZkFzU2RLTGRRdUJIYWVtUl94bkswMVBKUzluVmlMQXFZUndsNnBsRFUtd1JEWlhtV1NpcFI4Uy1FSGZPVlVuYlZkejVfWHhoS0JrbDg0TG4yY2hkNWotcHFGcDJ0eUw4QmN3LVdCMUFiVTVZcE9EaGt1aUJHZGxsWFE?oc=5"
         }
       ]
     }
