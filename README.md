@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-03 09:11`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-03 15:55`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +5 · 谨慎偏多**（置信度：中）
+> **风险温度 +7 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.7061 (-0.11%) / DXY 101.93 (-0.09%) | +1.8 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 2 / 风险词 3 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 3 / 风险词 3 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -106,10 +106,11 @@
 ### 新闻雷达
 
 - [五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5) · 财联社
+- [A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红](https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzJiZ0U0dUlDd0U1V0l5dXBlN2tCMmpQMmQ3V0pBdmJQN0R0elZBMEhPc2FCVnJmUlhPdk8zMWhyY1ZOZmczc05STWZCMUZFVGhFVkNtTjVtd0ZEUVZITHVJR0h6SnNoM2t2Sl9uTHE4YmpfNkdYUk80a3hHQ0tyV29Od0lKaDRfYktSOU5JZENFMTI0OWxXRA?oc=5) · finance.sina.com.cn
 - [疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5) · 加美财经
 - [下周前瞻：美联储纪要与服务业PMI重磅来袭](https://news.google.com/rss/articles/CBMipwFBVV95cUxOOHFEM1AwOE1vRTNBVjVlVUZYLW9OSjFMSjhndk5xd3hrVGdOdFp5Zk15dDVZZWpURlhMdXJrVGJYYUhucXlCUS1SV0prUGdTRE5GZVM2QmlvakFwSGJLNzR1am9WaXJLYWtWbjlQSUNDTGF1eklnTmZtdVJDR2xWRnJEZWlnYTUyM2liYm4yeGczbmxpa2dpeDBOa1hsQ2RNeWdFUVFKaw?oc=5) · Moomoo
-- [全球央行艰难重启加息周期，这次有什么不同](https://news.google.com/rss/articles/CBMigwFBVV95cUxQUWhERVJISWdrUVEtVDdwOWt0RHlZeDNnX01fUkloQnVyOHN5SHBRSUpFRnAyWDFFUlVGUm9tMmRodnpIeUt3d3pGQ1oxVmFLZklNY2tnNUN2VEJxVkVsbmF3RUZmTy1Kd2JfU09fV3FCc3o2a1FSWFNXeGo1amxsTkdNdw?oc=5) · cj.sina.cn
 - [纳指、英伟达齐创新高，AI算力与科技主题上演大反攻！非农仅增2.9万+油价下行，美联储加息押注大降温](https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5) · 富途牛牛
+- [全球央行艰难重启加息周期，这次有什么不同](https://news.google.com/rss/articles/CBMiggFBVV95cUxQdjJ3ZHZlOWFyd1dwdl9yOUkwc2ppWk9WZnI1Skd5RDhLNXN1Q3VQYVpsdzl5UUJQMlhfWFUtQlg5ODJXWEQ5YlF4WlRfNG4zZXRhRnFvZm13MnlBeU9yNWNsRVA5amFuZDBKckZWTXp1OVhCc05QQjQ2OHNDVUtIRmFB?oc=5) · finance.sina.com.cn
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
