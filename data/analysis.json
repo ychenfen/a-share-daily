@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03 20:28",
+  "generated_at": "2026-10-04 00:29",
   "score": 9,
   "stance": "谨慎偏多",
   "color": "#e05a47",
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 3 / 风险词 2",
+      "value": "正向词 2 / 风险词 1",
       "contribution": 2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,8 +66,8 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 3,
-    "negative_hits": 2,
+    "positive_hits": 2,
+    "negative_hits": 1,
     "score": 2
   },
   "news": [
@@ -82,25 +82,13 @@
       "source": "加美财经",
       "published": "Fri, 02 Oct 2026 20:23:24 GMT",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5"
-    },
-    {
-      "title": "下周前瞻：美联储纪要与服务业PMI重磅来袭",
-      "source": "Moomoo",
-      "published": "Fri, 02 Oct 2026 15:12:51 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOHFEM1AwOE1vRTNBVjVlVUZYLW9OSjFMSjhndk5xd3hrVGdOdFp5Zk15dDVZZWpURlhMdXJrVGJYYUhucXlCUS1SV0prUGdTRE5GZVM2QmlvakFwSGJLNzR1am9WaXJLYWtWbjlQSUNDTGF1eklnTmZtdVJDR2xWRnJEZWlnYTUyM2liYm4yeGczbmxpa2dpeDBOa1hsQ2RNeWdFUVFKaw?oc=5"
-    },
-    {
-      "title": "纳指、英伟达齐创新高，AI算力与科技主题上演大反攻！非农仅增2.9万+油价下行，美联储加息押注大降温",
-      "source": "富途牛牛",
-      "published": "Fri, 02 Oct 2026 14:05:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -129,18 +117,13 @@
           "title": "疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化",
           "source": "加美财经",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5"
-        },
-        {
-          "title": "下周前瞻：美联储纪要与服务业PMI重磅来袭",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOHFEM1AwOE1vRTNBVjVlVUZYLW9OSjFMSjhndk5xd3hrVGdOdFp5Zk15dDVZZWpURlhMdXJrVGJYYUhucXlCUS1SV0prUGdTRE5GZVM2QmlvakFwSGJLNzR1am9WaXJLYWtWbjlQSUNDTGF1eklnTmZtdVJDR2xWRnJEZWlnYTUyM2liYm4yeGczbmxpa2dpeDBOa1hsQ2RNeWdFUVFKaw?oc=5"
         }
       ]
     },
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -169,81 +152,6 @@
           "title": "疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化",
           "source": "加美财经",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5"
-        },
-        {
-          "title": "纳指、英伟达齐创新高，AI算力与科技主题上演大反攻！非农仅增2.9万+油价下行，美联储加息押注大降温",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,190.86 / +1.19%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,832.53 / +0.16%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "纳指、英伟达齐创新高，AI算力与科技主题上演大反攻！非农仅增2.9万+油价下行，美联储加息押注大降温",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "91.50 / -1.48%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,170.09 / -0.77%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "纳指、英伟达齐创新高，AI算力与科技主题上演大反攻！非农仅增2.9万+油价下行，美联储加息押注大降温",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5"
         }
       ]
     }
