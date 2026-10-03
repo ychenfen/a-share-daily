@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03 15:55",
+  "generated_at": "2026-10-03 17:23",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-03 15:55",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-03 17:23",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-03",
     "market_data_date": "2026-09-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-03 15:55",
+    "generated_at": "2026-10-03 17:23",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-03 15:55",
-    "score": 7,
+    "generated_at": "2026-10-03 17:23",
+    "score": 9,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 3 / 风险词 3",
-        "contribution": 0,
+        "value": "正向词 3 / 风险词 2",
+        "contribution": 2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,19 +262,13 @@
     ],
     "news_tone": {
       "positive_hits": 3,
-      "negative_hits": 3,
-      "score": 0
+      "negative_hits": 2,
+      "score": 2
     },
     "news": [
       {
-        "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
-        "source": "财联社",
-        "published": "Fri, 02 Oct 2026 16:36:15 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
-      },
-      {
         "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
-        "source": "finance.sina.com.cn",
+        "source": "新浪财经",
         "published": "Sat, 03 Oct 2026 07:45:01 GMT",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzJiZ0U0dUlDd0U1V0l5dXBlN2tCMmpQMmQ3V0pBdmJQN0R0elZBMEhPc2FCVnJmUlhPdk8zMWhyY1ZOZmczc05STWZCMUZFVGhFVkNtTjVtd0ZEUVZITHVJR0h6SnNoM2t2Sl9uTHE4YmpfNkdYUk80a3hHQ0tyV29Od0lKaDRfYktSOU5JZENFMTI0OWxXRA?oc=5"
       },
@@ -295,19 +289,13 @@
         "source": "富途牛牛",
         "published": "Fri, 02 Oct 2026 14:05:00 GMT",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5"
-      },
-      {
-        "title": "全球央行艰难重启加息周期，这次有什么不同",
-        "source": "finance.sina.com.cn",
-        "published": "Fri, 02 Oct 2026 08:11:37 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdjJ3ZHZlOWFyd1dwdl9yOUkwc2ppWk9WZnI1Skd5RDhLNXN1Q3VQYVpsdzl5UUJQMlhfWFUtQlg5ODJXWEQ5YlF4WlRfNG4zZXRhRnFvZm13MnlBeU9yNWNsRVA5amFuZDBKckZWTXp1OVhCc05QQjQ2OHNDVUtIRmFB?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 4,
+        "headline_count": 3,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -460,11 +448,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-03 15:55",
+    "generated_at": "2026-10-03 17:23",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 70,
+    "signal_count": 71,
     "matured_1d": 55,
     "directional_1d": 52,
     "hit_rate_1d": 84.6,
@@ -501,14 +489,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-03 15:55",
-      "slot": "open",
-      "score": "7",
+      "captured_at": "2026-10-03 17:23",
+      "slot": "midday",
+      "score": "9",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-03 17:23",
+        "slot": "midday",
+        "signal_date": "2026-10-03",
+        "market_asof_date": "2026-09-30",
+        "score": "9",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3842.19",
+        "sh_pct": "0.31",
+        "global_avg": "0.371",
+        "a50_pct": "0.16314265025343389",
+        "usdcnh": "6.7061",
+        "usdcnh_pct": "-0.11171353670160755",
+        "dxy": "101.9303",
+        "dxy_pct": "-0.09262453834754103",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-03 15:55",
         "slot": "open",
@@ -983,31 +996,6 @@
         "return_5d": null,
         "direction": 0,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-09-29 18:05",
-        "slot": "midday",
-        "signal_date": "2026-09-29",
-        "market_asof_date": "2026-09-29",
-        "score": "-45",
-        "stance": "防守优先",
-        "confidence": "中",
-        "sh_close": "3823.62",
-        "sh_pct": "-1.67",
-        "global_avg": "-0.2906",
-        "a50_pct": "0.05360616759133574",
-        "usdcnh": "6.7065",
-        "usdcnh_pct": "-0.09087387897387389",
-        "dxy": "101.4534",
-        "dxy_pct": "0.26208589539096216",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.18,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": false
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"

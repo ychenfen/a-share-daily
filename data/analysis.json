@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03 15:55",
-  "score": 7,
+  "generated_at": "2026-10-03 17:23",
+  "score": 9,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 3 / 风险词 3",
-      "contribution": 0,
+      "value": "正向词 3 / 风险词 2",
+      "contribution": 2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,19 +67,13 @@
   ],
   "news_tone": {
     "positive_hits": 3,
-    "negative_hits": 3,
-    "score": 0
+    "negative_hits": 2,
+    "score": 2
   },
   "news": [
     {
-      "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
-      "source": "财联社",
-      "published": "Fri, 02 Oct 2026 16:36:15 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
-    },
-    {
       "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
-      "source": "finance.sina.com.cn",
+      "source": "新浪财经",
       "published": "Sat, 03 Oct 2026 07:45:01 GMT",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzJiZ0U0dUlDd0U1V0l5dXBlN2tCMmpQMmQ3V0pBdmJQN0R0elZBMEhPc2FCVnJmUlhPdk8zMWhyY1ZOZmczc05STWZCMUZFVGhFVkNtTjVtd0ZEUVZITHVJR0h6SnNoM2t2Sl9uTHE4YmpfNkdYUk80a3hHQ0tyV29Od0lKaDRfYktSOU5JZENFMTI0OWxXRA?oc=5"
     },
@@ -100,19 +94,13 @@
       "source": "富途牛牛",
       "published": "Fri, 02 Oct 2026 14:05:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcG9CNGVfLUkwSjg2Y3k3QjB1TVA0RTRNX3dsU2pfZ21DQ2c0WkpIdlBxd0pMZVB0dllpUUwtbGtUNmhoUFI0ZDgybmxoNFJublBvdkFuS0hQWXY1emV4dUZVOVBMY1FZX2NJZ3QzaDhVQlM0aEhkcEdaSG1hTExzdURGdllzZHVFenZLdUpYMU05YVk?oc=5"
-    },
-    {
-      "title": "全球央行艰难重启加息周期，这次有什么不同",
-      "source": "finance.sina.com.cn",
-      "published": "Fri, 02 Oct 2026 08:11:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdjJ3ZHZlOWFyd1dwdl9yOUkwc2ppWk9WZnI1Skd5RDhLNXN1Q3VQYVpsdzl5UUJQMlhfWFUtQlg5ODJXWEQ5YlF4WlRfNG4zZXRhRnFvZm13MnlBeU9yNWNsRVA5amFuZDBKckZWTXp1OVhCc05QQjQ2OHNDVUtIRmFB?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
