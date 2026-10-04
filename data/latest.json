@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04 21:09",
+  "generated_at": "2026-10-05 00:53",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-04 21:09",
-    "slot": "close",
-    "slot_label": "收盘快照",
-    "target_date": "2026-10-04",
+    "checked_at": "2026-10-05 00:53",
+    "slot": "night",
+    "slot_label": "夜间校验",
+    "target_date": "2026-10-05",
     "market_data_date": "2026-09-30",
     "market_state": "non_trading",
     "pulse_updated": false,
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 21:09",
+    "generated_at": "2026-10-05 00:53",
     "markets": [
       {
         "code": "SPX",
@@ -127,7 +127,7 @@
         "pct": -0.09262453834754103,
         "change": -0.09449999999999648,
         "previous_close": 102.0248,
-        "quote_time": "2026-10-03 05:09:50",
+        "quote_time": "2026-10-03 04:59:00",
         "stale": false
       },
       {
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 21:09",
+    "generated_at": "2026-10-05 00:53",
     "score": 7,
     "stance": "谨慎偏多",
     "color": "#e05a47",
@@ -267,6 +267,12 @@
     },
     "news": [
       {
+        "title": "黄金市场四季度有哪些交易机会？ | 期势新洞察",
+        "source": "Moomoo",
+        "published": "Sun, 04 Oct 2026 14:04:25 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5"
+      },
+      {
         "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
         "source": "新浪财经",
         "published": "Sun, 04 Oct 2026 00:28:31 GMT",
@@ -320,6 +326,41 @@
             "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WaS1rZGxyQ2VnWGw4N1VUQVdBQ1VqWnFZWFBpMjBodnZaVFRnUXBnT0RCZ0Uta0pFdmtxVmdZVWtLNjRXM2QxRjNXNkpyc2dkUFlxN2F0MkdWMzZ5RW1qU2R5UnA4QTJZMkU5UldobWd1THg4UzQ0NA?oc=5"
           }
         ]
+      },
+      {
+        "key": "commodities",
+        "label": "商品与成本",
+        "headline_count": 1,
+        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "watch": [
+          {
+            "code": "WTI",
+            "label": "原油",
+            "value": "91.50 / -1.48%",
+            "state": "fresh"
+          },
+          {
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "4,170.09 / -0.77%",
+            "state": "fresh"
+          },
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          }
+        ],
+        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+        "headlines": [
+          {
+            "title": "黄金市场四季度有哪些交易机会？ | 期势新洞察",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5"
+          }
+        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -327,11 +368,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 21:09",
+    "generated_at": "2026-10-05 00:53",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 77,
+    "signal_count": 78,
     "matured_1d": 55,
     "directional_1d": 52,
     "hit_rate_1d": 84.6,
@@ -368,14 +409,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-04 21:09",
-      "slot": "close",
+      "captured_at": "2026-10-05 00:53",
+      "slot": "night",
       "score": "7",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-05 00:53",
+        "slot": "night",
+        "signal_date": "2026-10-05",
+        "market_asof_date": "2026-09-30",
+        "score": "7",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3842.19",
+        "sh_pct": "0.31",
+        "global_avg": "0.371",
+        "a50_pct": "0.16314265025343389",
+        "usdcnh": "6.7061",
+        "usdcnh_pct": "-0.11171353670160755",
+        "dxy": "101.9303",
+        "dxy_pct": "-0.09262453834754103",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-04 21:09",
         "slot": "close",
@@ -849,31 +915,6 @@
         "return_3d": null,
         "return_5d": null,
         "direction": -1,
-        "hit_1d": null
-      },
-      {
-        "captured_at": "2026-10-01 02:01",
-        "slot": "night",
-        "signal_date": "2026-10-01",
-        "market_asof_date": "2026-09-30",
-        "score": "-4",
-        "stance": "中性等待",
-        "confidence": "中",
-        "sh_close": "3842.19",
-        "sh_pct": "0.31",
-        "global_avg": "0.3294",
-        "a50_pct": "-0.2840363818663594",
-        "usdcnh": "6.709",
-        "usdcnh_pct": "0.028328189530490988",
-        "dxy": "101.4231",
-        "dxy_pct": "0.03876358944920888",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": null,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 0,
         "hit_1d": null
       }
     ],

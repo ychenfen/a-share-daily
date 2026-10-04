@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04 21:09",
+  "generated_at": "2026-10-05 00:53",
   "score": 7,
   "stance": "谨慎偏多",
   "color": "#e05a47",
@@ -72,6 +72,12 @@
   },
   "news": [
     {
+      "title": "黄金市场四季度有哪些交易机会？ | 期势新洞察",
+      "source": "Moomoo",
+      "published": "Sun, 04 Oct 2026 14:04:25 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5"
+    },
+    {
       "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
       "source": "新浪财经",
       "published": "Sun, 04 Oct 2026 00:28:31 GMT",
@@ -123,6 +129,41 @@
           "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
           "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WaS1rZGxyQ2VnWGw4N1VUQVdBQ1VqWnFZWFBpMjBodnZaVFRnUXBnT0RCZ0Uta0pFdmtxVmdZVWtLNjRXM2QxRjNXNkpyc2dkUFlxN2F0MkdWMzZ5RW1qU2R5UnA4QTJZMkU5UldobWd1THg4UzQ0NA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "91.50 / -1.48%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,170.09 / -0.77%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "黄金市场四季度有哪些交易机会？ | 期势新洞察",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5"
         }
       ]
     }

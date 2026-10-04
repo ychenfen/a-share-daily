@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-04 21:09`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-05 00:53`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -95,6 +95,7 @@
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
 | 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.93 / -0.09%（最新） / USD/CNH 6.7061 / -0.11%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 91.50 / -1.48%（最新） / 黄金 4,170.09 / -0.77%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 
 ### 研究观察
 
@@ -102,6 +103,7 @@
 
 ### 新闻雷达
 
+- [黄金市场四季度有哪些交易机会？ \| 期势新洞察](https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5) · Moomoo
 - [A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红](https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5) · 新浪财经
 - [下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW5nenhURU9ZT1hiVzNqNzBVUWVPVkNLRjVmNUhQZm5oZjRYMndOamhJRzRwMENUUklKN1ZlZzBhVmNhZTlFaUZXM0sxakVtMHhkM1NpT1R6NmdxNENRSlZ5SFMwelV3Y3ItZXM2NzV3aXYzVy1jdW1aMVJmcmJKd19xVjA?oc=5) · FX168财经
 - [环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热](https://news.google.com/rss/articles/CBMieEFVX3lxTE9WaS1rZGxyQ2VnWGw4N1VUQVdBQ1VqWnFZWFBpMjBodnZaVFRnUXBnT0RCZ0Uta0pFdmtxVmdZVWtLNjRXM2QxRjNXNkpyc2dkUFlxN2F0MkdWMzZ5RW1qU2R5UnA4QTJZMkU5UldobWd1THg4UzQ0NA?oc=5) · 新浪财经
