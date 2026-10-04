@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04 00:29",
+  "generated_at": "2026-10-04 08:36",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-04 00:29",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-10-04 08:36",
+    "slot": "overnight",
+    "slot_label": "外围收盘",
     "target_date": "2026-10-04",
     "market_data_date": "2026-09-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 00:29",
+    "generated_at": "2026-10-04 08:36",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 00:29",
-    "score": 9,
+    "generated_at": "2026-10-04 08:36",
+    "score": 7,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 2 / 风险词 1",
-        "contribution": 2,
+        "value": "正向词 1 / 风险词 1",
+        "contribution": 0,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -261,29 +261,35 @@
       "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
     ],
     "news_tone": {
-      "positive_hits": 2,
+      "positive_hits": 1,
       "negative_hits": 1,
-      "score": 2
+      "score": 0
     },
     "news": [
       {
-        "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
+        "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
         "source": "新浪财经",
-        "published": "Sat, 03 Oct 2026 07:45:01 GMT",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzJiZ0U0dUlDd0U1V0l5dXBlN2tCMmpQMmQ3V0pBdmJQN0R0elZBMEhPc2FCVnJmUlhPdk8zMWhyY1ZOZmczc05STWZCMUZFVGhFVkNtTjVtd0ZEUVZITHVJR0h6SnNoM2t2Sl9uTHE4YmpfNkdYUk80a3hHQ0tyV29Od0lKaDRfYktSOU5JZENFMTI0OWxXRA?oc=5"
+        "published": "Sat, 03 Oct 2026 19:35:13 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
       },
       {
-        "title": "疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化",
-        "source": "加美财经",
-        "published": "Fri, 02 Oct 2026 20:23:24 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5"
+        "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
+        "source": "新浪财经",
+        "published": "Sun, 04 Oct 2026 00:28:31 GMT",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5"
+      },
+      {
+        "title": "PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一",
+        "source": "Pchome电脑之家",
+        "published": "Sat, 03 Oct 2026 06:55:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 1,
+        "headline_count": 2,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -309,44 +315,14 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
-            "title": "疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化",
-            "source": "加美财经",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "inflation",
-        "label": "通胀与就业",
-        "headline_count": 1,
-        "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-        "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
+            "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
+            "source": "新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
           },
           {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "101.93 / -0.09%",
-            "state": "fresh"
-          },
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "27,190.86 / +1.19%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-        "headlines": [
-          {
-            "title": "疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化",
-            "source": "加美财经",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5"
+            "title": "PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一",
+            "source": "Pchome电脑之家",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5"
           }
         ]
       }
@@ -356,11 +332,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 00:29",
+    "generated_at": "2026-10-04 08:36",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 73,
+    "signal_count": 74,
     "matured_1d": 55,
     "directional_1d": 52,
     "hit_rate_1d": 84.6,
@@ -397,14 +373,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-04 00:29",
-      "slot": "night",
-      "score": "9",
+      "captured_at": "2026-10-04 08:36",
+      "slot": "overnight",
+      "score": "7",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-04 08:36",
+        "slot": "overnight",
+        "signal_date": "2026-10-04",
+        "market_asof_date": "2026-09-30",
+        "score": "7",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3842.19",
+        "sh_pct": "0.31",
+        "global_avg": "0.371",
+        "a50_pct": "0.16314265025343389",
+        "usdcnh": "6.7061",
+        "usdcnh_pct": "-0.11171353670160755",
+        "dxy": "101.9303",
+        "dxy_pct": "-0.09262453834754103",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-04 00:29",
         "slot": "night",
@@ -871,31 +872,6 @@
         "usdcnh_pct": "0.008945744062271999",
         "dxy": "101.2854",
         "dxy_pct": "-0.0970569262544907",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.31,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
-      },
-      {
-        "captured_at": "2026-09-30 09:17",
-        "slot": "overnight",
-        "signal_date": "2026-09-30",
-        "market_asof_date": "2026-09-30",
-        "score": "5",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3830.45",
-        "sh_pct": "0.18",
-        "global_avg": "0.0427",
-        "a50_pct": "0.3696231716982412",
-        "usdcnh": "6.7057",
-        "usdcnh_pct": "-0.02087340281193839",
-        "dxy": "101.3751",
-        "dxy_pct": "-0.008581252626149727",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",

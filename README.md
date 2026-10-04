@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-04 00:29`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-04 08:36`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +9 · 谨慎偏多**（置信度：中）
+> **风险温度 +7 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.7061 (-0.11%) / DXY 101.93 (-0.09%) | +1.8 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 2 / 风险词 1 | +2.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 1 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,8 +94,7 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.93 / -0.09%（最新） / USD/CNH 6.7061 / -0.11%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.93 / -0.09%（最新） / 纳斯达克 27,190.86 / +1.19%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
+| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.93 / -0.09%（最新） / USD/CNH 6.7061 / -0.11%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 
 ### 研究观察
 
@@ -103,8 +102,9 @@
 
 ### 新闻雷达
 
-- [A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红](https://news.google.com/rss/articles/CBMimAFBVV95cUxQTzJiZ0U0dUlDd0U1V0l5dXBlN2tCMmpQMmQ3V0pBdmJQN0R0elZBMEhPc2FCVnJmUlhPdk8zMWhyY1ZOZmczc05STWZCMUZFVGhFVkNtTjVtd0ZEUVZITHVJR0h6SnNoM2t2Sl9uTHE4YmpfNkdYUk80a3hHQ0tyV29Od0lKaDRfYktSOU5JZENFMTI0OWxXRA?oc=5) · 新浪财经
-- [疲弱就业数据缓解加息担忧，美股反弹但市场广度继续恶化](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBV1B6MU43eVpscGNQblpvQThoNGhhVXRiUEx1Q2xzR3BGSmpUdjc0elB5VXFnMXVJSnRrS1FPYzFobXB4azBpWW0tb3NyNUlfNHUxdndnSTFBZw?oc=5) · 加美财经
+- [环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热](https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5) · 新浪财经
+- [A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红](https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5) · 新浪财经
+- [PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一](https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5) · Pchome电脑之家
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
