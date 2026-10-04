@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-04 16:17`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-09-30 · 最后检查 `2026-10-04 18:02`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -103,8 +103,8 @@
 ### 新闻雷达
 
 - [A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红](https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5) · 新浪财经
-- [下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW5nenhURU9ZT1hiVzNqNzBVUWVPVkNLRjVmNUhQZm5oZjRYMndOamhJRzRwMENUUklKN1ZlZzBhVmNhZTlFaUZXM0sxakVtMHhkM1NpT1R6NmdxNENRSlZ5SFMwelV3Y3ItZXM2NzV3aXYzVy1jdW1aMVJmcmJKd19xVjA?oc=5) · fx168news.com
-- [环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热](https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5) · 新浪财经
+- [下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW5nenhURU9ZT1hiVzNqNzBVUWVPVkNLRjVmNUhQZm5oZjRYMndOamhJRzRwMENUUklKN1ZlZzBhVmNhZTlFaUZXM0sxakVtMHhkM1NpT1R6NmdxNENRSlZ5SFMwelV3Y3ItZXM2NzV3aXYzVy1jdW1aMVJmcmJKd19xVjA?oc=5) · FX168财经
+- [环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热](https://news.google.com/rss/articles/CBMieEFVX3lxTE9WaS1rZGxyQ2VnWGw4N1VUQVdBQ1VqWnFZWFBpMjBodnZaVFRnUXBnT0RCZ0Uta0pFdmtxVmdZVWtLNjRXM2QxRjNXNkpyc2dkUFlxN2F0MkdWMzZ5RW1qU2R5UnA4QTJZMkU5UldobWd1THg4UzQ0NA?oc=5) · 新浪财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
