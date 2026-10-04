@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04 08:36",
+  "generated_at": "2026-10-04 16:17",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-04 08:36",
-    "slot": "overnight",
-    "slot_label": "外围收盘",
+    "checked_at": "2026-10-04 16:17",
+    "slot": "open",
+    "slot_label": "开盘脉搏",
     "target_date": "2026-10-04",
     "market_data_date": "2026-09-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 08:36",
+    "generated_at": "2026-10-04 16:17",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 08:36",
+    "generated_at": "2026-10-04 16:17",
     "score": 7,
     "stance": "谨慎偏多",
     "color": "#e05a47",
@@ -267,29 +267,29 @@
     },
     "news": [
       {
-        "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-        "source": "新浪财经",
-        "published": "Sat, 03 Oct 2026 19:35:13 GMT",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
-      },
-      {
         "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
         "source": "新浪财经",
         "published": "Sun, 04 Oct 2026 00:28:31 GMT",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5"
       },
       {
-        "title": "PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一",
-        "source": "Pchome电脑之家",
-        "published": "Sat, 03 Oct 2026 06:55:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5"
+        "title": "下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场",
+        "source": "fx168news.com",
+        "published": "Sun, 04 Oct 2026 02:01:48 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW5nenhURU9ZT1hiVzNqNzBVUWVPVkNLRjVmNUhQZm5oZjRYMndOamhJRzRwMENUUklKN1ZlZzBhVmNhZTlFaUZXM0sxakVtMHhkM1NpT1R6NmdxNENRSlZ5SFMwelV3Y3ItZXM2NzV3aXYzVy1jdW1aMVJmcmJKd19xVjA?oc=5"
+      },
+      {
+        "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
+        "source": "新浪财经",
+        "published": "Sat, 03 Oct 2026 19:35:13 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 2,
+        "headline_count": 1,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -318,11 +318,6 @@
             "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
             "source": "新浪财经",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
-          },
-          {
-            "title": "PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一",
-            "source": "Pchome电脑之家",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5"
           }
         ]
       }
@@ -332,11 +327,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-04 08:36",
+    "generated_at": "2026-10-04 16:17",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 74,
+    "signal_count": 75,
     "matured_1d": 55,
     "directional_1d": 52,
     "hit_rate_1d": 84.6,
@@ -373,14 +368,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-04 08:36",
-      "slot": "overnight",
+      "captured_at": "2026-10-04 16:17",
+      "slot": "open",
       "score": "7",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-04 16:17",
+        "slot": "open",
+        "signal_date": "2026-10-04",
+        "market_asof_date": "2026-09-30",
+        "score": "7",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3842.19",
+        "sh_pct": "0.31",
+        "global_avg": "0.371",
+        "a50_pct": "0.16314265025343389",
+        "usdcnh": "6.7061",
+        "usdcnh_pct": "-0.11171353670160755",
+        "dxy": "101.9303",
+        "dxy_pct": "-0.09262453834754103",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-04 08:36",
         "slot": "overnight",
@@ -855,31 +875,6 @@
         "return_5d": null,
         "direction": 0,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-09-30 16:17",
-        "slot": "open",
-        "signal_date": "2026-09-30",
-        "market_asof_date": "2026-09-30",
-        "score": "9",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3830.45",
-        "sh_pct": "0.18",
-        "global_avg": "0.1044",
-        "a50_pct": "0.6360688810433057",
-        "usdcnh": "6.7077",
-        "usdcnh_pct": "0.008945744062271999",
-        "dxy": "101.2854",
-        "dxy_pct": "-0.0970569262544907",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.31,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"

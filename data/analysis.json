@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04 08:36",
+  "generated_at": "2026-10-04 16:17",
   "score": 7,
   "stance": "谨慎偏多",
   "color": "#e05a47",
@@ -72,29 +72,29 @@
   },
   "news": [
     {
-      "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-      "source": "新浪财经",
-      "published": "Sat, 03 Oct 2026 19:35:13 GMT",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
-    },
-    {
       "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
       "source": "新浪财经",
       "published": "Sun, 04 Oct 2026 00:28:31 GMT",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5"
     },
     {
-      "title": "PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一",
-      "source": "Pchome电脑之家",
-      "published": "Sat, 03 Oct 2026 06:55:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5"
+      "title": "下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场",
+      "source": "fx168news.com",
+      "published": "Sun, 04 Oct 2026 02:01:48 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW5nenhURU9ZT1hiVzNqNzBVUWVPVkNLRjVmNUhQZm5oZjRYMndOamhJRzRwMENUUklKN1ZlZzBhVmNhZTlFaUZXM0sxakVtMHhkM1NpT1R6NmdxNENRSlZ5SFMwelV3Y3ItZXM2NzV3aXYzVy1jdW1aMVJmcmJKd19xVjA?oc=5"
+    },
+    {
+      "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
+      "source": "新浪财经",
+      "published": "Sat, 03 Oct 2026 19:35:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -123,11 +123,6 @@
           "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
           "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTdBM1htU0s5T2FzZDZPX3czTlhVdkZGMHU1UC1TakNhd25pTjQzWmE2cWFIWTZ1dVM4SGhxckptZENrbE9xLUFOWFUwdTRBY3VCVnRuekJJeG5CRnJXeEFTX0xmQmZWR0dQUDBjS0VkZ0FKeHA1VUctdTl6V28wdmdsbw?oc=5"
-        },
-        {
-          "title": "PG电子模拟器日本央行加息至3.5%，全球股市遭遇黑色星期一",
-          "source": "Pchome电脑之家",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96SzRXZDd4b0k1amRNY2Y5WnRQOHlYTjBjNmg0ODZCeENHVER6ZTFfRG40MmdvaHJjWVpPLVFaZFZMbTJQYkhzQTJkZURQODhqMGpNVkF2VFFWUQ?oc=5"
         }
       ]
     }
