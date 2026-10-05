@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05 23:56",
+  "generated_at": "2026-10-06 04:36",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7761.07,
-      "pct": 0.5,
-      "change": 38.35,
+      "close": 7773.95,
+      "pct": 0.66,
+      "change": 51.23,
       "previous_close": 7722.72,
-      "quote_time": "2026-10-05 11:56:20",
+      "quote_time": "2026-10-05 16:20:01",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 27397.81,
-      "pct": 0.76,
-      "change": 206.95,
+      "close": 27477.31,
+      "pct": 1.05,
+      "change": 286.45,
       "previous_close": 27190.86,
-      "quote_time": "2026-10-05 11:56:20",
+      "quote_time": "2026-10-05 16:35:30",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 51167.78,
-      "pct": -0.02,
-      "change": -9.18,
+      "close": 51267.9,
+      "pct": 0.18,
+      "change": 90.94,
       "previous_close": 51176.96,
-      "quote_time": "2026-10-05 11:56:20",
+      "quote_time": "2026-10-05 16:20:01",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 86.05,
-      "pct": -0.38,
-      "change": -0.33,
+      "close": 86.28,
+      "pct": -0.12,
+      "change": -0.1,
       "previous_close": 86.38,
-      "quote_time": "2026-10-05 11:56:18",
+      "quote_time": "2026-10-05 16:00:01",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 13880.66,
-      "pct": 0.4680081065431274,
-      "change": 64.65999999999985,
+      "close": 13875.62,
+      "pct": 0.43152866242037735,
+      "change": 59.6200000000008,
       "previous_close": 13816.0,
-      "quote_time": "2026-10-05 23:56:46",
+      "quote_time": "2026-10-06 04:35:59",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.7055,
-      "pct": 0.0014913353416634578,
-      "change": 9.999999999976694e-05,
+      "close": 6.7039,
+      "pct": -0.022370030124974072,
+      "change": -0.0015000000000000568,
       "previous_close": 6.7054,
-      "quote_time": "2026-10-05 23:56:51",
+      "quote_time": "2026-10-06 04:36:25",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 102.1767,
-      "pct": 0.28571260315490843,
-      "change": 0.29110000000000014,
+      "close": 102.1467,
+      "pct": 0.2562678140973773,
+      "change": 0.261099999999999,
       "previous_close": 101.8856,
-      "quote_time": "2026-10-05 23:57:03",
+      "quote_time": "2026-10-06 04:36:36",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4165.506,
-      "pct": 0.07702472190855847,
-      "change": 3.206000000000131,
+      "close": 4165.142,
+      "pct": 0.06827955697570331,
+      "change": 2.8419999999996435,
       "previous_close": 4162.3,
-      "quote_time": "2026-10-05 23:56:56",
+      "quote_time": "2026-10-06 04:36:34",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 90.001,
-      "pct": -1.2172099659751856,
-      "change": -1.1089999999999947,
+      "close": 89.177,
+      "pct": -2.1216112391614472,
+      "change": -1.9329999999999927,
       "previous_close": 91.11,
-      "quote_time": "2026-10-05 23:57:01",
+      "quote_time": "2026-10-06 04:36:30",
       "stale": false
     }
   ],
@@ -168,7 +168,7 @@
       "status": "stale"
     },
     "news": {
-      "status": "stale"
+      "status": "fresh"
     }
   },
   "sources": {
