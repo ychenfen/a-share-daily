@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05 18:48",
+  "generated_at": "2026-10-05 23:56",
   "score": 12,
   "stance": "谨慎偏多",
   "color": "#e05a47",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.85%",
-      "contribution": 6.0,
+      "value": "6 个市场均值 +0.42%",
+      "contribution": 2.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.01%",
-      "contribution": 0.1,
+      "value": "富时 A50 +0.47%",
+      "contribution": 2.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7073 (+0.03%) / DXY 102.21 (+0.32%)",
-      "contribution": -1.9,
+      "value": "USD/CNH 6.7055 (+0.00%) / DXY 102.18 (+0.29%)",
+      "contribution": -1.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -125,13 +125,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "27,190.86 / +1.19%",
+          "value": "27,397.81 / +0.76%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,817.48 / +0.01%",
+          "value": "13,880.66 / +0.47%",
           "state": "fresh"
         },
         {
@@ -165,13 +165,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.73 / -0.41%",
+          "value": "90.00 / -1.22%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,188.37 / +0.63%",
+          "value": "4,165.51 / +0.08%",
           "state": "fresh"
         },
         {

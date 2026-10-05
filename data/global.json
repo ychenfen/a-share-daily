@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05 18:48",
+  "generated_at": "2026-10-05 23:56",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7722.72,
-      "pct": 0.73,
-      "change": 56.27,
-      "previous_close": 7666.45,
-      "quote_time": "2026-10-02 16:59:13",
+      "close": 7761.07,
+      "pct": 0.5,
+      "change": 38.35,
+      "previous_close": 7722.72,
+      "quote_time": "2026-10-05 11:56:20",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 27190.86,
-      "pct": 1.19,
-      "change": 319.26,
-      "previous_close": 26871.6,
-      "quote_time": "2026-10-02 17:15:59",
+      "close": 27397.81,
+      "pct": 0.76,
+      "change": 206.95,
+      "previous_close": 27190.86,
+      "quote_time": "2026-10-05 11:56:20",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 51176.96,
-      "pct": 0.49,
-      "change": 250.4,
-      "previous_close": 50926.56,
-      "quote_time": "2026-10-02 17:00:17",
+      "close": 51167.78,
+      "pct": -0.02,
+      "change": -9.18,
+      "previous_close": 51176.96,
+      "quote_time": "2026-10-05 11:56:20",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 86.38,
-      "pct": 1.04,
-      "change": 0.89,
-      "previous_close": 85.49,
-      "quote_time": "2026-10-02 16:00:01",
+      "close": 86.05,
+      "pct": -0.38,
+      "change": -0.33,
+      "previous_close": 86.38,
+      "quote_time": "2026-10-05 11:56:18",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 13817.48,
-      "pct": 0.01071221771857811,
-      "change": 1.4799999999995634,
+      "close": 13880.66,
+      "pct": 0.4680081065431274,
+      "change": 64.65999999999985,
       "previous_close": 13816.0,
-      "quote_time": "2026-10-05 18:48:03",
+      "quote_time": "2026-10-05 23:56:46",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.7073,
-      "pct": 0.028335371491627903,
-      "change": 0.0019000000000000128,
+      "close": 6.7055,
+      "pct": 0.0014913353416634578,
+      "change": 9.999999999976694e-05,
       "previous_close": 6.7054,
-      "quote_time": "2026-10-05 18:48:16",
+      "quote_time": "2026-10-05 23:56:51",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 102.2091,
-      "pct": 0.31751297533706424,
-      "change": 0.3235000000000099,
+      "close": 102.1767,
+      "pct": 0.28571260315490843,
+      "change": 0.29110000000000014,
       "previous_close": 101.8856,
-      "quote_time": "2026-10-05 18:48:25",
+      "quote_time": "2026-10-05 23:57:03",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4188.37,
-      "pct": 0.6263364005477667,
-      "change": 26.06999999999971,
+      "close": 4165.506,
+      "pct": 0.07702472190855847,
+      "change": 3.206000000000131,
       "previous_close": 4162.3,
-      "quote_time": "2026-10-05 18:48:24",
+      "quote_time": "2026-10-05 23:56:56",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 90.733,
-      "pct": -0.4137855339699237,
-      "change": -0.37699999999999534,
+      "close": 90.001,
+      "pct": -1.2172099659751856,
+      "change": -1.1089999999999947,
       "previous_close": 91.11,
-      "quote_time": "2026-10-05 18:48:22",
+      "quote_time": "2026-10-05 23:57:01",
       "stale": false
     }
   ],
@@ -168,7 +168,7 @@
       "status": "stale"
     },
     "news": {
-      "status": "fresh"
+      "status": "stale"
     }
   },
   "sources": {
