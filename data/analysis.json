@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05 00:53",
-  "score": 7,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
+  "generated_at": "2026-10-05 08:54",
+  "score": 2,
+  "stance": "中性等待",
+  "color": "#8c959f",
   "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
   "signals": [
     {
       "label": "A股动量",
@@ -39,8 +39,8 @@
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7061 (-0.11%) / DXY 101.93 (-0.09%)",
-      "contribution": 1.8,
+      "value": "USD/CNH 6.7078 (+0.04%) / DXY 101.97 (+0.08%)",
+      "contribution": -0.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,43 +57,37 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 1",
-      "contribution": 0,
+      "value": "正向词 0 / 风险词 1",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 1,
+    "positive_hits": 0,
     "negative_hits": 1,
-    "score": 0
+    "score": -2
   },
   "news": [
     {
+      "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
+      "source": "财联社",
+      "published": "Sun, 04 Oct 2026 02:45:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5LVhKVFE0cmptcV9kVEJxRXJIOUpna2UzYTRoQ0dvekNMRzV0SFQ5UjNSZUs0RlNHMHVPbk5VUmRDek1rNTdrNg?oc=5"
+    },
+    {
       "title": "黄金市场四季度有哪些交易机会？ | 期势新洞察",
       "source": "Moomoo",
-      "published": "Sun, 04 Oct 2026 14:04:25 GMT",
+      "published": "Sun, 04 Oct 2026 10:52:17 GMT",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5"
     },
     {
-      "title": "A股节后上涨胜率超60% 机构：持股过节或更合算！外围股市上涨 股民盼着开门红",
-      "source": "新浪财经",
-      "published": "Sun, 04 Oct 2026 00:28:31 GMT",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5"
-    },
-    {
-      "title": "下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场",
-      "source": "FX168财经",
-      "published": "Sun, 04 Oct 2026 02:01:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTW5nenhURU9ZT1hiVzNqNzBVUWVPVkNLRjVmNUhQZm5oZjRYMndOamhJRzRwMENUUklKN1ZlZzBhVmNhZTlFaUZXM0sxakVtMHhkM1NpT1R6NmdxNENRSlZ5SFMwelV3Y3ItZXM2NzV3aXYzVy1jdW1aMVJmcmJKd19xVjA?oc=5"
-    },
-    {
-      "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-      "source": "新浪财经",
-      "published": "Sat, 03 Oct 2026 19:19:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WaS1rZGxyQ2VnWGw4N1VUQVdBQ1VqWnFZWFBpMjBodnZaVFRnUXBnT0RCZ0Uta0pFdmtxVmdZVWtLNjRXM2QxRjNXNkpyc2dkUFlxN2F0MkdWMzZ5RW1qU2R5UnA4QTJZMkU5UldobWd1THg4UzQ0NA?oc=5"
+      "title": "下周重磅事件前瞻：数据不多，风险不少！10月首个完整交易周，三大风险牵动全球市场_汇市观察",
+      "source": "中金在线外汇",
+      "published": "Sun, 04 Oct 2026 06:37:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLemlSQzF4cFZ2ZUtla1UzNnRzam1CTVNySEYtNXhvV3pqTkxaZnQtOWR3U2JiV1B6VHVHVnZBY2JoeU5GNFNLdlRJcVVRbDBmbXZ0MlNlWENtdnhkaDNjU3FYZ1BUMFlYallJ?oc=5"
     }
   ],
   "events": [
@@ -113,13 +107,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.93 / -0.09%",
+          "value": "101.97 / +0.08%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7061 / -0.11%",
+          "value": "6.7078 / +0.04%",
           "state": "fresh"
         }
       ],
@@ -127,8 +121,8 @@
       "headlines": [
         {
           "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WaS1rZGxyQ2VnWGw4N1VUQVdBQ1VqWnFZWFBpMjBodnZaVFRnUXBnT0RCZ0Uta0pFdmtxVmdZVWtLNjRXM2QxRjNXNkpyc2dkUFlxN2F0MkdWMzZ5RW1qU2R5UnA4QTJZMkU5UldobWd1THg4UzQ0NA?oc=5"
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5LVhKVFE0cmptcV9kVEJxRXJIOUpna2UzYTRoQ0dvekNMRzV0SFQ5UjNSZUs0RlNHMHVPbk5VUmRDek1rNTdrNg?oc=5"
         }
       ]
     },
@@ -142,13 +136,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "91.50 / -1.48%",
+          "value": "90.50 / -0.67%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,170.09 / -0.77%",
+          "value": "4,183.91 / +0.52%",
           "state": "fresh"
         },
         {
