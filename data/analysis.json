@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05 16:48",
-  "score": 10,
+  "generated_at": "2026-10-05 18:48",
+  "score": 12,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.06%",
-      "contribution": 0.4,
+      "value": "富时 A50 +0.01%",
+      "contribution": 0.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7071 (+0.03%) / DXY 102.13 (+0.24%)",
-      "contribution": -1.5,
+      "value": "USD/CNH 6.7073 (+0.03%) / DXY 102.21 (+0.32%)",
+      "contribution": -1.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 0",
-      "contribution": 4,
+      "value": "正向词 3 / 风险词 0",
+      "contribution": 6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,9 +66,9 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 2,
+    "positive_hits": 3,
     "negative_hits": 0,
-    "score": 4
+    "score": 6
   },
   "news": [
     {
@@ -84,6 +84,12 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNndvYmQtMm43dEtBMF9CLWtwNnZmUVFxZGl5NzloVVNReVAyNU4teGloeWpTNEdwdmNMMVMwTmhDZUxtcktnZlc3WktQU0hFbWpGNWV1VXpwOUlrTTlFWXV2VHg2YzdMMG1uc0hockNGeE1BLXk5a0NQMGRDQ1VveU9jbndRek94cTNDUA?oc=5"
     },
     {
+      "title": "炸翻亚太，台股年内涨幅71%再创新高、冠绝全球！港股深V收涨，光通信全线爆发、京信通信狂飙25.8%，日股直逼7万点 ！今天市场发生什么了？",
+      "source": "FX168财经",
+      "published": "Mon, 05 Oct 2026 09:13:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wRDM2bVBvVVFMMFhER1ltcE9Sc20wbkN2SzJZMHVTWmJIek1EWUx6WWtXVUVmWGFDN21xYTB4dWo3SnRlQTBOTS1MWVVWM3lPdHhN?oc=5"
+    },
+    {
       "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
       "source": "财联社",
       "published": "Mon, 05 Oct 2026 01:17:48 GMT",
@@ -91,7 +97,7 @@
     },
     {
       "title": "亚太资金涌入东京市场！日经225突破70000点大关",
-      "source": "金融界",
+      "source": "jrj.com.cn",
       "published": "Mon, 05 Oct 2026 03:02:04 GMT",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZMmREY3FhVW43SkQzNlM0LTNSM1JYTEsyM1h4ekVPVG5IamZrWmNLTXM5Y2FINDgwbEgyS1VRLW9odVJlMEVHS0JuV191ci1OMkJwVVZhNXA4WVRRenF5ZVBCNzdPcGlnRVhkd1Q2N1hpdw?oc=5"
     },
@@ -110,6 +116,46 @@
   ],
   "events": [
     {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 2,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "27,190.86 / +1.19%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,817.48 / +0.01%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "日股又大涨，台湾股市领涨全球，港股光通信大爆发，发生了什么？",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUjlpR0VxS0dTRGR1M2lOeGw5b0x2czlpSnpxaXFDenNzanJaSDZWTmN2T1pfdDFIZ3FXU1pGQ2d4eGZYUGg2dTdJWXpOY2lCRzFOc2dPMFJKQ3puLU1IYWw0bzNmay1XcmFhV2FNTmpzSXN0YkpnSEhua3FLU1NFTnRXYktmSi1QRzNfZUFoaEtzZ1NON2Y2Y1k4R3NMSmhZZTJlRENDNTNLY1JWZm9Na2t0NzRTZXRsQTFHZVZLYXZJcHZHdVBMd3pWTGRQSnJDS0MxNGlHX3dPaVpTTWlweWtrN2VXejh3Y0t4N1g5b2xDaWZQYzRGN3FYMkY1VnRxTXRXOFprZlFqQm5Z?oc=5"
+        },
+        {
+          "title": "炸翻亚太，台股年内涨幅71%再创新高、冠绝全球！港股深V收涨，光通信全线爆发、京信通信狂飙25.8%，日股直逼7万点 ！今天市场发生什么了？",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wRDM2bVBvVVFMMFhER1ltcE9Sc20wbkN2SzJZMHVTWmJIek1EWUx6WWtXVUVmWGFDN21xYTB4dWo3SnRlQTBOTS1MWVVWM3lPdHhN?oc=5"
+        }
+      ]
+    },
+    {
       "key": "commodities",
       "label": "商品与成本",
       "headline_count": 2,
@@ -119,13 +165,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.33 / -0.86%",
+          "value": "90.73 / -0.41%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,195.17 / +0.79%",
+          "value": "4,188.37 / +0.63%",
           "state": "fresh"
         },
         {
@@ -146,41 +192,6 @@
           "title": "黄金市场四季度有哪些交易机会？ | 期势新洞察",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42SmlUOFl6VDNzbDZKc0RjZ0dsMnRwUEt0UFlGVGpMVzZWaTNqSHd5SVpjeHF1VXl3bXA2b1VjZklsQ09iTzZjdFBoNG5teTUwUU9jZU1xRW9Dam9H?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,190.86 / +1.19%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,818.96 / +0.06%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "日股又大涨，台湾股市领涨全球，港股光通信大爆发，发生了什么？",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUjlpR0VxS0dTRGR1M2lOeGw5b0x2czlpSnpxaXFDenNzanJaSDZWTmN2T1pfdDFIZ3FXU1pGQ2d4eGZYUGg2dTdJWXpOY2lCRzFOc2dPMFJKQ3puLU1IYWw0bzNmay1XcmFhV2FNTmpzSXN0YkpnSEhua3FLU1NFTnRXYktmSi1QRzNfZUFoaEtzZ1NON2Y2Y1k4R3NMSmhZZTJlRENDNTNLY1JWZm9Na2t0NzRTZXRsQTFHZVZLYXZJcHZHdVBMd3pWTGRQSnJDS0MxNGlHX3dPaVpTTWlweWtrN2VXejh3Y0t4N1g5b2xDaWZQYzRGN3FYMkY1VnRxTXRXOFprZlFqQm5Z?oc=5"
         }
       ]
     }
