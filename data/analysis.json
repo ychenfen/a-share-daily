@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06 18:42",
-  "score": 7,
+  "generated_at": "2026-10-06 22:08",
+  "score": 10,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.69%",
-      "contribution": 4.8,
+      "value": "6 个市场均值 +0.86%",
+      "contribution": 6.0,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.02%",
-      "contribution": 0.1,
+      "value": "富时 A50 +0.24%",
+      "contribution": 1.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7019 (-0.02%) / DXY 102.02 (-0.10%)",
-      "contribution": 0.8,
+      "value": "USD/CNH 6.7028 (-0.01%) / DXY 101.89 (-0.23%)",
+      "contribution": 1.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -73,95 +73,12 @@
   "news": [
     {
       "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
-      "source": "cls.cn",
+      "source": "财联社",
       "published": "Tue, 06 Oct 2026 04:09:18 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
-    },
-    {
-      "title": "大涨超1700点！日股、美股、黄金、白银、比特币全线拉升",
-      "source": "东方财富",
-      "published": "Mon, 05 Oct 2026 11:24:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wMHl6TGdfQ01nOGZvT0NubjNpcjlJQ015VHFUeXVuUVFzSHNuZXByaXI1MzM1T1JyMVFBMzJOYXFJeV80clhCV2l3eFlEN29uM083eWU1TVdXMzRSdmhpRHhfYw?oc=5"
-    },
-    {
-      "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-      "source": "cls.cn",
-      "published": "Mon, 05 Oct 2026 13:41:01 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5LVhKVFE0cmptcV9kVEJxRXJIOUpna2UzYTRoQ0dvekNMRzV0SFQ5UjNSZUs0RlNHMHVPbk5VUmRDek1rNTdrNg?oc=5"
     }
   ],
-  "events": [
-    {
-      "key": "central_bank",
-      "label": "央行与利率",
-      "headline_count": 1,
-      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.02 / -0.10%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7019 / -0.02%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-      "headlines": [
-        {
-          "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-          "source": "cls.cn",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5LVhKVFE0cmptcV9kVEJxRXJIOUpna2UzYTRoQ0dvekNMRzV0SFQ5UjNSZUs0RlNHMHVPbk5VUmRDek1rNTdrNg?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "87.42 / -2.25%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,187.56 / +0.74%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "大涨超1700点！日股、美股、黄金、白银、比特币全线拉升",
-          "source": "东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wMHl6TGdfQ01nOGZvT0NubjNpcjlJQ015VHFUeXVuUVFzSHNuZXByaXI1MzM1T1JyMVFBMzJOYXFJeV80clhCV2l3eFlEN29uM083eWU1TVdXMzRSdmhpRHhfYw?oc=5"
-        }
-      ]
-    }
-  ],
+  "events": [],
   "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
   "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
 }
