@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06 16:51",
-  "score": 11,
+  "generated_at": "2026-10-06 18:42",
+  "score": 7,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.32%",
-      "contribution": 1.9,
+      "value": "富时 A50 +0.02%",
+      "contribution": 0.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7003 (-0.05%) / DXY 102.04 (-0.08%)",
-      "contribution": 1.0,
+      "value": "USD/CNH 6.7019 (-0.02%) / DXY 102.02 (-0.10%)",
+      "contribution": 0.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 0",
-      "contribution": 2,
+      "value": "正向词 0 / 风险词 0",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,34 +66,28 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 1,
+    "positive_hits": 0,
     "negative_hits": 0,
-    "score": 2
+    "score": 0
   },
   "news": [
     {
       "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
-      "source": "财联社",
+      "source": "cls.cn",
       "published": "Tue, 06 Oct 2026 04:09:18 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
     },
     {
       "title": "大涨超1700点！日股、美股、黄金、白银、比特币全线拉升",
-      "source": "emwap.eastmoney.com",
+      "source": "东方财富",
       "published": "Mon, 05 Oct 2026 11:24:36 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wMHl6TGdfQ01nOGZvT0NubjNpcjlJQ015VHFUeXVuUVFzSHNuZXByaXI1MzM1T1JyMVFBMzJOYXFJeV80clhCV2l3eFlEN29uM083eWU1TVdXMzRSdmhpRHhfYw?oc=5"
     },
     {
       "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-      "source": "财联社",
+      "source": "cls.cn",
       "published": "Mon, 05 Oct 2026 13:41:01 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5LVhKVFE0cmptcV9kVEJxRXJIOUpna2UzYTRoQ0dvekNMRzV0SFQ5UjNSZUs0RlNHMHVPbk5VUmRDek1rNTdrNg?oc=5"
-    },
-    {
-      "title": "炸翻亚太，台股年内涨幅71%再创新高、冠绝全球！港股深V收涨，光通信全线爆发、京信通信狂飙25.8%，日股直逼7万点 ！今天市场发生什么了？",
-      "source": "FX168财经",
-      "published": "Mon, 05 Oct 2026 09:13:28 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wRDM2bVBvVVFMMFhER1ltcE9Sc20wbkN2SzJZMHVTWmJIek1EWUx6WWtXVUVmWGFDN21xYTB4dWo3SnRlQTBOTS1MWVVWM3lPdHhN?oc=5"
     }
   ],
   "events": [
@@ -113,13 +107,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.04 / -0.08%",
+          "value": "102.02 / -0.10%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7003 / -0.05%",
+          "value": "6.7019 / -0.02%",
           "state": "fresh"
         }
       ],
@@ -127,43 +121,8 @@
       "headlines": [
         {
           "title": "环球下周看点：美股进入传统强势季节 美联储纪要登场 财报季开始预热",
-          "source": "财联社",
+          "source": "cls.cn",
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5LVhKVFE0cmptcV9kVEJxRXJIOUpna2UzYTRoQ0dvekNMRzV0SFQ5UjNSZUs0RlNHMHVPbk5VUmRDek1rNTdrNg?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,477.31 / +1.05%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,859.68 / +0.32%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "炸翻亚太，台股年内涨幅71%再创新高、冠绝全球！港股深V收涨，光通信全线爆发、京信通信狂飙25.8%，日股直逼7万点 ！今天市场发生什么了？",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wRDM2bVBvVVFMMFhER1ltcE9Sc20wbkN2SzJZMHVTWmJIek1EWUx6WWtXVUVmWGFDN21xYTB4dWo3SnRlQTBOTS1MWVVWM3lPdHhN?oc=5"
         }
       ]
     },
@@ -177,13 +136,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "87.92 / -1.69%",
+          "value": "87.42 / -2.25%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,180.07 / +0.56%",
+          "value": "4,187.56 / +0.74%",
           "state": "fresh"
         },
         {
@@ -197,7 +156,7 @@
       "headlines": [
         {
           "title": "大涨超1700点！日股、美股、黄金、白银、比特币全线拉升",
-          "source": "emwap.eastmoney.com",
+          "source": "东方财富",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wMHl6TGdfQ01nOGZvT0NubjNpcjlJQ015VHFUeXVuUVFzSHNuZXByaXI1MzM1T1JyMVFBMzJOYXFJeV80clhCV2l3eFlEN29uM083eWU1TVdXMzRSdmhpRHhfYw?oc=5"
         }
       ]
