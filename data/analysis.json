@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06 04:36",
-  "score": 9,
+  "generated_at": "2026-10-06 10:17",
+  "score": 12,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.57%",
-      "contribution": 4.0,
+      "value": "6 个市场均值 +0.64%",
+      "contribution": 4.5,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.43%",
-      "contribution": 2.6,
+      "value": "富时 A50 +0.40%",
+      "contribution": 2.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7039 (-0.02%) / DXY 102.15 (+0.26%)",
-      "contribution": -1.0,
+      "value": "USD/CNH 6.7019 (-0.02%) / DXY 102.17 (+0.05%)",
+      "contribution": 0.0,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 0",
-      "contribution": 2,
+      "value": "正向词 3 / 风险词 1",
+      "contribution": 4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,9 +66,9 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 0,
-    "score": 2
+    "positive_hits": 3,
+    "negative_hits": 1,
+    "score": 4
   },
   "news": [
     {
@@ -79,15 +79,27 @@
     },
     {
       "title": "大涨超1700点！日股领衔，美股黄金比特币全线拉升",
-      "source": "搜狐网",
+      "source": "sohu.com",
       "published": "Mon, 05 Oct 2026 05:19:45 GMT",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNndvYmQtMm43dEtBMF9CLWtwNnZmUVFxZGl5NzloVVNReVAyNU4teGloeWpTNEdwdmNMMVMwTmhDZUxtcktnZlc3WktQU0hFbWpGNWV1VXpwOUlrTTlFWXV2VHg2YzdMMG1uc0hockNGeE1BLXk5a0NQMGRDQ1VveU9jbndRek94cTNDUA?oc=5"
     },
     {
       "title": "炸翻亚太，台股年内涨幅71%再创新高、冠绝全球！港股深V收涨，光通信全线爆发、京信通信狂飙25.8%，日股直逼7万点 ！今天市场发生什么了？",
-      "source": "fx168news.com",
+      "source": "FX168财经",
       "published": "Mon, 05 Oct 2026 09:13:28 GMT",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wRDM2bVBvVVFMMFhER1ltcE9Sc20wbkN2SzJZMHVTWmJIek1EWUx6WWtXVUVmWGFDN21xYTB4dWo3SnRlQTBOTS1MWVVWM3lPdHhN?oc=5"
+    },
+    {
+      "title": "亚太资金涌入东京市场！日经225突破70000点大关",
+      "source": "FX168财经",
+      "published": "Mon, 05 Oct 2026 02:45:08 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FSGpUZ09acVp6bDFoRV9xYkhNdGYtcnc4ZjMycDZmNTRBV3ZfMkxZLTdtZzZuWHlaZTMyREpHR290bmdHekZtVzNlSjl3Vjd6N21F?oc=5"
+    },
+    {
+      "title": "10月美联储加息预期大幅降低后，国际各类资产都撒欢了，日股、美股、黄金、白银、比特币全线拉升。 美元指数大幅走高",
+      "source": "手机新浪网",
+      "published": "Mon, 05 Oct 2026 02:57:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TaEZnbWs5cjI2Mmh5MVF1WTlobTlJMmEtWnpGSTJ6cUlPekRsOTYwY25UR2RjTGZJRmNQMmRzcTNrRU5rR2I1WTJwMi1acXJYSldXekZ0dEZkVmV3MGRVdEwySQ?oc=5"
     }
   ],
   "events": [
@@ -107,7 +119,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,875.62 / +0.43%",
+          "value": "13,871.06 / +0.40%",
           "state": "fresh"
         },
         {
@@ -126,7 +138,7 @@
         },
         {
           "title": "炸翻亚太，台股年内涨幅71%再创新高、冠绝全球！港股深V收涨，光通信全线爆发、京信通信狂飙25.8%，日股直逼7万点 ！今天市场发生什么了？",
-          "source": "fx168news.com",
+          "source": "FX168财经",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wRDM2bVBvVVFMMFhER1ltcE9Sc20wbkN2SzJZMHVTWmJIek1EWUx6WWtXVUVmWGFDN21xYTB4dWo3SnRlQTBOTS1MWVVWM3lPdHhN?oc=5"
         }
       ]
@@ -134,20 +146,20 @@
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "89.18 / -2.12%",
+          "value": "89.71 / +0.31%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,165.14 / +0.07%",
+          "value": "4,156.86 / +0.00%",
           "state": "fresh"
         },
         {
@@ -161,8 +173,83 @@
       "headlines": [
         {
           "title": "大涨超1700点！日股领衔，美股黄金比特币全线拉升",
-          "source": "搜狐网",
+          "source": "sohu.com",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNndvYmQtMm43dEtBMF9CLWtwNnZmUVFxZGl5NzloVVNReVAyNU4teGloeWpTNEdwdmNMMVMwTmhDZUxtcktnZlc3WktQU0hFbWpGNWV1VXpwOUlrTTlFWXV2VHg2YzdMMG1uc0hockNGeE1BLXk5a0NQMGRDQ1VveU9jbndRek94cTNDUA?oc=5"
+        },
+        {
+          "title": "10月美联储加息预期大幅降低后，国际各类资产都撒欢了，日股、美股、黄金、白银、比特币全线拉升。 美元指数大幅走高",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TaEZnbWs5cjI2Mmh5MVF1WTlobTlJMmEtWnpGSTJ6cUlPekRsOTYwY25UR2RjTGZJRmNQMmRzcTNrRU5rR2I1WTJwMi1acXJYSldXekZ0dEZkVmV3MGRVdEwySQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 1,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.17 / +0.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7019 / -0.02%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "10月美联储加息预期大幅降低后，国际各类资产都撒欢了，日股、美股、黄金、白银、比特币全线拉升。 美元指数大幅走高",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TaEZnbWs5cjI2Mmh5MVF1WTlobTlJMmEtWnpGSTJ6cUlPekRsOTYwY25UR2RjTGZJRmNQMmRzcTNrRU5rR2I1WTJwMi1acXJYSldXekZ0dEZkVmV3MGRVdEwySQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.17 / +0.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7019 / -0.02%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,871.06 / +0.40%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "10月美联储加息预期大幅降低后，国际各类资产都撒欢了，日股、美股、黄金、白银、比特币全线拉升。 美元指数大幅走高",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TaEZnbWs5cjI2Mmh5MVF1WTlobTlJMmEtWnpGSTJ6cUlPekRsOTYwY25UR2RjTGZJRmNQMmRzcTNrRU5rR2I1WTJwMi1acXJYSldXekZ0dEZkVmV3MGRVdEwySQ?oc=5"
         }
       ]
     }
