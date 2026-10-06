@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06 22:08",
+  "generated_at": "2026-10-07 02:28",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7832.34,
-      "pct": 0.75,
-      "change": 58.39,
+      "close": 7827.13,
+      "pct": 0.68,
+      "change": 53.18,
       "previous_close": 7773.95,
-      "quote_time": "2026-10-06 10:08:19",
+      "quote_time": "2026-10-06 14:27:59",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 27679.53,
-      "pct": 0.74,
-      "change": 202.22,
+      "close": 27650.87,
+      "pct": 0.63,
+      "change": 173.56,
       "previous_close": 27477.31,
-      "quote_time": "2026-10-06 10:08:19",
+      "quote_time": "2026-10-06 14:27:59",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 51640.67,
-      "pct": 0.73,
-      "change": 372.77,
+      "close": 51522.22,
+      "pct": 0.5,
+      "change": 254.32,
       "previous_close": 51267.9,
-      "quote_time": "2026-10-06 10:08:19",
+      "quote_time": "2026-10-06 14:28:00",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 86.77,
-      "pct": 0.56,
-      "change": 0.49,
+      "close": 86.64,
+      "pct": 0.42,
+      "change": 0.36,
       "previous_close": 86.28,
-      "quote_time": "2026-10-06 10:08:19",
+      "quote_time": "2026-10-06 14:27:59",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 13889.1,
-      "pct": 0.23888568129331045,
-      "change": 33.100000000000364,
+      "close": 13892.81,
+      "pct": 0.2656610854503416,
+      "change": 36.80999999999949,
       "previous_close": 13856.0,
-      "quote_time": "2026-10-06 22:08:53",
+      "quote_time": "2026-10-07 02:27:56",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.7028,
-      "pct": -0.010442306257929523,
-      "change": -0.000700000000000145,
+      "close": 6.702,
+      "pct": -0.022376370552701363,
+      "change": -0.0015000000000000568,
       "previous_close": 6.7035,
-      "quote_time": "2026-10-06 22:08:43",
+      "quote_time": "2026-10-07 02:28:22",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 101.8918,
-      "pct": -0.22570976172686663,
-      "change": -0.23049999999999216,
+      "close": 101.8358,
+      "pct": -0.2805459728188575,
+      "change": -0.28649999999998954,
       "previous_close": 102.1223,
-      "quote_time": "2026-10-06 22:08:52",
+      "quote_time": "2026-10-07 02:28:24",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4183.248,
-      "pct": 0.6362586605080711,
-      "change": 26.44799999999941,
+      "close": 4197.717,
+      "pct": 0.9843389145496317,
+      "change": 40.91699999999946,
       "previous_close": 4156.8,
-      "quote_time": "2026-10-06 22:08:54",
+      "quote_time": "2026-10-07 02:28:28",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 87.796,
-      "pct": -1.8271273621827122,
-      "change": -1.6340000000000003,
+      "close": 89.54,
+      "pct": 0.12300123001229846,
+      "change": 0.10999999999999943,
       "previous_close": 89.43,
-      "quote_time": "2026-10-06 22:08:53",
+      "quote_time": "2026-10-07 02:28:30",
       "stale": false
     }
   ],
