@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07 02:28",
-  "score": 10,
+  "generated_at": "2026-10-07 09:31",
+  "score": 6,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.77%",
-      "contribution": 5.4,
+      "value": "6 个市场均值 +0.54%",
+      "contribution": 3.8,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.27%",
-      "contribution": 1.6,
+      "value": "富时 A50 +0.29%",
+      "contribution": 1.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7020 (-0.02%) / DXY 101.84 (-0.28%)",
-      "contribution": 1.7,
+      "value": "USD/CNH 6.7027 (+0.02%) / DXY 101.97 (+0.12%)",
+      "contribution": -0.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -74,11 +74,94 @@
     {
       "title": "五穷六绝？“华尔街最准分析师”盘点6月全球市场“雷区”",
       "source": "财联社",
-      "published": "Tue, 06 Oct 2026 04:09:18 GMT",
+      "published": "Tue, 06 Oct 2026 18:22:57 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ3JhOE1oanM5RFlIRlRLQzg0NDdNUk9WandkOEotb05LUDA4N2JoVWhRWFRwdEpKSFJ5QTJneVc4Wjc5aEdnZw?oc=5"
+    },
+    {
+      "title": "大涨超1700点！日股、美股、黄金、白银、比特币全线拉升",
+      "source": "东方财富",
+      "published": "Tue, 06 Oct 2026 13:11:23 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3dVdrMEhIWmYwcDNWcFE3NHNmS1FkNktiZTduQ2JMY2tlVzBsT2plX2tfNEVyOGprb1ZtZUcxRFhDajNWb00tMDNkdk9LWmp6UzA1ZEpTRzZ3UVpuWkFUeg?oc=5"
+    },
+    {
+      "title": "隔夜美股| 标普500指数、纳指创历史新高存储概念股大跌SK海力士(SKHY.US)跌超6%_全球市场_财经",
+      "source": "证券之星",
+      "published": "Tue, 06 Oct 2026 23:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GTjRwU0VRUHo1STMzVTVpZ0x2eHFvRGpSQWtVVWxnNkY4NXhPQ2F3UkhVbWVJbmFQYl9CRnBSMkR1RkZLSXc5RTFvX0dBUTQ5ZUVVN0RwZ0tRQUNmcHoxeg?oc=5"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "27,599.89 / +0.45%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,896.24 / +0.29%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "隔夜美股| 标普500指数、纳指创历史新高存储概念股大跌SK海力士(SKHY.US)跌超6%_全球市场_财经",
+          "source": "证券之星",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GTjRwU0VRUHo1STMzVTVpZ0x2eHFvRGpSQWtVVWxnNkY4NXhPQ2F3UkhVbWVJbmFQYl9CRnBSMkR1RkZLSXc5RTFvX0dBUTQ5ZUVVN0RwZ0tRQUNmcHoxeg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "90.36 / +1.02%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,181.40 / -0.14%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "大涨超1700点！日股、美股、黄金、白银、比特币全线拉升",
+          "source": "东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3dVdrMEhIWmYwcDNWcFE3NHNmS1FkNktiZTduQ2JMY2tlVzBsT2plX2tfNEVyOGprb1ZtZUcxRFhDajNWb00tMDNkdk9LWmp6UzA1ZEpTRzZ3UVpuWkFUeg?oc=5"
+        }
+      ]
+    }
+  ],
   "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
   "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
 }
