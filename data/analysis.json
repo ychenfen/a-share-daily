@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08 16:46",
-  "score": -9,
+  "generated_at": "2026-10-08 18:52",
+  "score": -5,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.88%",
-      "contribution": -5.3,
+      "value": "富时 A50 -0.13%",
+      "contribution": -0.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7019 (-0.01%) / DXY 102.34 (+0.06%)",
-      "contribution": -0.2,
+      "value": "USD/CNH 6.7048 (+0.03%) / DXY 102.37 (+0.08%)",
+      "contribution": -0.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.34 / +0.06%",
+          "value": "102.37 / +0.08%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7019 / -0.01%",
+          "value": "6.7048 / +0.03%",
           "state": "fresh"
         }
       ],
@@ -171,7 +171,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,712.50 / -0.88%",
+          "value": "13,699.20 / -0.13%",
           "state": "fresh"
         },
         {
@@ -183,7 +183,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7019 / -0.01%",
+          "value": "6.7048 / +0.03%",
           "state": "fresh"
         }
       ],
@@ -217,7 +217,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,712.50 / -0.88%",
+          "value": "13,699.20 / -0.13%",
           "state": "fresh"
         },
         {
@@ -246,13 +246,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "91.78 / +3.96%",
+          "value": "92.74 / +5.05%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,152.74 / +0.29%",
+          "value": "4,143.93 / +0.08%",
           "state": "fresh"
         },
         {

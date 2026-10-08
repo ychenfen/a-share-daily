@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08 16:46",
+  "generated_at": "2026-10-08 18:52",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-08 16:46",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-08 18:52",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-08",
     "market_data_date": "2026-10-08",
     "market_state": "live",
     "pulse_updated": true,
     "daily_updated": false,
     "pulse_file": "data/pulses/2026-10.csv",
-    "message": "开盘脉搏已更新"
+    "message": "午间脉搏已更新"
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-08 16:46",
+    "generated_at": "2026-10-08 18:52",
     "markets": [
       {
         "code": "SPX",
@@ -63,7 +63,7 @@
         "pct": -1.43,
         "change": -344.71,
         "previous_close": 24130.5,
-        "quote_time": "2026/10/08 16:30:15",
+        "quote_time": "2026/10/08 18:31:15",
         "stale": false
       },
       {
@@ -98,11 +98,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 13712.5,
-        "pct": -0.8782709267023292,
-        "change": -121.5,
-        "previous_close": 13834.0,
-        "quote_time": "2026-10-08 16:35:00",
+        "close": 13699.2,
+        "pct": -0.12976598381569948,
+        "change": -17.799999999999272,
+        "previous_close": 13717.0,
+        "quote_time": "2026-10-08 18:53:08",
         "stale": false
       },
       {
@@ -111,11 +111,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.7019,
-        "pct": -0.008951883625507584,
-        "change": -0.0005999999999994898,
+        "close": 6.7048,
+        "pct": 0.034315553897790174,
+        "change": 0.0022999999999999687,
         "previous_close": 6.7025,
-        "quote_time": "2026-10-08 16:46:33",
+        "quote_time": "2026-10-08 18:53:09",
         "stale": false
       },
       {
@@ -124,11 +124,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 102.342,
-        "pct": 0.05934613658606924,
-        "change": 0.06069999999999709,
+        "close": 102.3661,
+        "pct": 0.08290860597195415,
+        "change": 0.08480000000000132,
         "previous_close": 102.2813,
-        "quote_time": "2026-10-08 16:46:14",
+        "quote_time": "2026-10-08 18:53:14",
         "stale": false
       },
       {
@@ -137,11 +137,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 4152.738,
-        "pct": 0.29072379066341636,
-        "change": 12.038000000000466,
+        "close": 4143.934,
+        "pct": 0.07810273625232789,
+        "change": 3.2340000000003783,
         "previous_close": 4140.7,
-        "quote_time": "2026-10-08 16:46:40",
+        "quote_time": "2026-10-08 18:53:18",
         "stale": false
       },
       {
@@ -150,11 +150,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 91.779,
-        "pct": 3.9635251472587063,
-        "change": 3.4989999999999952,
+        "close": 92.739,
+        "pct": 5.050974173085643,
+        "change": 4.459000000000003,
         "previous_close": 88.28,
-        "quote_time": "2026-10-08 16:46:39",
+        "quote_time": "2026-10-08 18:53:17",
         "stale": false
       }
     ],
@@ -196,8 +196,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-08 16:46",
-    "score": -9,
+    "generated_at": "2026-10-08 18:52",
+    "score": -5,
     "stance": "谨慎防守",
     "color": "#3b9b68",
     "confidence": "中",
@@ -229,14 +229,14 @@
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 -0.88%",
-        "contribution": -5.3,
+        "value": "富时 A50 -0.13%",
+        "contribution": -0.8,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.7019 (-0.01%) / DXY 102.34 (+0.06%)",
-        "contribution": -0.2,
+        "value": "USD/CNH 6.7048 (+0.03%) / DXY 102.37 (+0.08%)",
+        "contribution": -0.8,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -333,13 +333,13 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "102.34 / +0.06%",
+            "value": "102.37 / +0.08%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.7019 / -0.01%",
+            "value": "6.7048 / +0.03%",
             "state": "fresh"
           }
         ],
@@ -367,7 +367,7 @@
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "13,712.50 / -0.88%",
+            "value": "13,699.20 / -0.13%",
             "state": "fresh"
           },
           {
@@ -379,7 +379,7 @@
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.7019 / -0.01%",
+            "value": "6.7048 / +0.03%",
             "state": "fresh"
           }
         ],
@@ -413,7 +413,7 @@
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "13,712.50 / -0.88%",
+            "value": "13,699.20 / -0.13%",
             "state": "fresh"
           },
           {
@@ -442,13 +442,13 @@
           {
             "code": "WTI",
             "label": "原油",
-            "value": "91.78 / +3.96%",
+            "value": "92.74 / +5.05%",
             "state": "fresh"
           },
           {
             "code": "GOLD",
             "label": "黄金",
-            "value": "4,152.74 / +0.29%",
+            "value": "4,143.93 / +0.08%",
             "state": "fresh"
           },
           {
@@ -473,11 +473,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-08 16:46",
+    "generated_at": "2026-10-08 18:52",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 95,
+    "signal_count": 96,
     "matured_1d": 55,
     "directional_1d": 52,
     "hit_rate_1d": 84.6,
@@ -514,14 +514,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-08 16:46",
-      "slot": "open",
-      "score": "-9",
+      "captured_at": "2026-10-08 18:52",
+      "slot": "midday",
+      "score": "-5",
       "stance": "谨慎防守",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-08 18:52",
+        "slot": "midday",
+        "signal_date": "2026-10-08",
+        "market_asof_date": "2026-10-08",
+        "score": "-5",
+        "stance": "谨慎防守",
+        "confidence": "中",
+        "sh_close": "3842.19",
+        "sh_pct": "0.31",
+        "global_avg": "-0.389",
+        "a50_pct": "-0.12976598381569948",
+        "usdcnh": "6.7048",
+        "usdcnh_pct": "0.034315553897790174",
+        "dxy": "102.3661",
+        "dxy_pct": "0.08290860597195415",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-08 16:46",
         "slot": "open",
@@ -996,31 +1021,6 @@
         "return_5d": null,
         "direction": 1,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-10-04 18:02",
-        "slot": "midday",
-        "signal_date": "2026-10-04",
-        "market_asof_date": "2026-09-30",
-        "score": "7",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3842.19",
-        "sh_pct": "0.31",
-        "global_avg": "0.371",
-        "a50_pct": "0.16314265025343389",
-        "usdcnh": "6.7061",
-        "usdcnh_pct": "-0.11171353670160755",
-        "dxy": "101.9303",
-        "dxy_pct": "-0.09262453834754103",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": null,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": null
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
@@ -1070,8 +1070,8 @@
     }
   },
   "latest_pulse": {
-    "captured_at": "2026-10-08 16:46",
-    "slot": "open",
+    "captured_at": "2026-10-08 18:52",
+    "slot": "midday",
     "date": "2026-10-08",
     "上证指数_close": "3811.90",
     "深证成指_close": "12620.90",
