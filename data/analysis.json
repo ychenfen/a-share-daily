@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08 02:58",
-  "score": -1,
+  "generated_at": "2026-10-08 09:54",
+  "score": 3,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.24%",
-      "contribution": -1.7,
+      "value": "6 个市场均值 -0.19%",
+      "contribution": -1.3,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.14%",
-      "contribution": -0.9,
+      "value": "富时 A50 +1.05%",
+      "contribution": 6.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7019 (+0.01%) / DXY 102.24 (+0.39%)",
-      "contribution": -2.0,
+      "value": "USD/CNH 6.7013 (-0.02%) / DXY 102.18 (-0.10%)",
+      "contribution": 0.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 3 / 风险词 2",
-      "contribution": 2,
+      "value": "正向词 0 / 风险词 2",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,40 +66,40 @@
     "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 3,
+    "positive_hits": 0,
     "negative_hits": 2,
-    "score": 2
+    "score": -4
   },
   "news": [
     {
-      "title": "申万宏源策略：A股长中期的波段定位",
-      "source": "东方财富",
-      "published": "Wed, 07 Oct 2026 02:56:31 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53dnl3Q1dyS0gwZ1pKMFFvOUszZUNiNkhPMjhnQ0RreW5SeHNhZl9DYzIxZ1habE55eVctRnoxVW9XaHhibmlTSU9zRDIwSW1tY1liQVNlMmxsTjJyV3B0Slllaw?oc=5"
+      "title": "股债双杀！海外市场“变脸”；中国资产，关注度不降反升；美联储，重磅信号",
+      "source": "金融界",
+      "published": "Thu, 08 Oct 2026 00:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE51WHZjam1MZGZCemJUQ0k4NFIyVU8xVXAybVRhRklfMWt0TWpWTFJSbnU0dldBZlQyLTJUMUF0Y29oMXdwYlo5eEFUTVF1YUUzMFVYT2tNT3FuZkNLVGZVUWNDa0Flc2NJZEx3VVU2U0ljUQ?oc=5"
     },
     {
-      "title": "日股领涨美股屡创新高！假期大类资产表现一览_期市动态",
+      "title": "全球市场：美股三大指数收跌大型科技股涨跌不一美光科技涨超4%_证券要闻",
       "source": "中金在线",
-      "published": "Wed, 07 Oct 2026 11:47:06 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ncDdrem44QTNvdzhXZDQtVmdKbE9odU13dklnN2FUektjNUFsWG9CTExnbXRiOXdXd3N3RGRCQmJaMWlCRFJZb1VwMVFyMl9BUmxxX0ZWRTlOd0FwWEdSTXRQYnlBNHAwNEhMNGZ3?oc=5"
+      "published": "Thu, 08 Oct 2026 01:10:06 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KbjJqSnltTTNOMWRtOFVsQ3V5dF9VX2xVX2dmcFBkMHNNT2o0aUYyQ1BrZEhEVi1ZeHFGRlM5QzlyUk5XUWlLTGRoNEdtY1RjM2ZBSmRPdzBvVGY3TW9BYlVyU0ZNVlZlTEswZ3B3?oc=5"
     },
     {
-      "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
-      "source": "FX168财经",
-      "published": "Wed, 07 Oct 2026 17:47:16 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
+      "title": "华盛早报| 美联储纪要偏鹰！年内或再加息一次；段永平\"卖put\"逆势布局腾讯；恒科成分股将扩容至50只港美股资讯",
+      "source": "www.hstong.com",
+      "published": "Thu, 08 Oct 2026 00:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xczlPR3FaOWN0VkQwdTJiVUczQzR4dnNwX1I2WkpGOFpnRUN2OVBPd2JUaU1zSzlKSXZ3Z0p0eW9qb0RSQktNdjd4b3VwMHhTdWg4Z1NJRUl0YU9kdnN2TDZ3?oc=5"
     },
     {
-      "title": "假期利好涌现！|富时中国A50指数期货|日经225|德国DAX指数|道琼斯指数|国庆节",
+      "title": "清晨，集体跳水！美联储，释放重磅信号！",
       "source": "新浪财经",
-      "published": "Wed, 07 Oct 2026 11:21:06 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZy1JUFFfVkxsSWdMYTlSZ1AtLV8yWGJfVG1kNkplTUZGNWJ0UzN3NmI4REtvZnlQT3FzNDRrb0VSZV9pNVRFcmNCZEtsRlQ5Q1lwR3pZS3cwUmNXNXJqcHNJZWFacWpMTlpfXzczcEVvZ1R3c2pQbGdfWWJTOU5GLXVBbmhlTm9KRFk5eUZMb3RBZXJEa0wzWnBNcmVhNTc2aDBXN0pGbw?oc=5"
+      "published": "Wed, 07 Oct 2026 23:49:20 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcWdYa00tQjZUU0JuSzdVamdzQkgyeGVUZy1ySHlDbjJzUHFNSVlUOWJkZlhqTnBVZFNWeVVPNUx3VGoxT0Z2VVNSdWlMbzNoV0w1LTdUOWUtQVhaUkhkeTNsRmhYWFhyRzRpdWgweWdUZll2RFd4SGJyN1E5RU1qTkpDeFBwYTU2ZjBPWEhZaGlwLWJfWHdGdERDM2VwMHNGeXhLOVQ1RQ?oc=5"
     },
     {
-      "title": "申万宏源策略：A股长中期的波段定位 AI链分化中寻结构机会",
+      "title": "美联储纪要披露：7月联合干预支撑日元系财政部行动 未动用央行资金",
       "source": "Moomoo",
-      "published": "Wed, 07 Oct 2026 03:20:22 GMT",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaHBfNzVLMkJza2pyQjA5emlncWtxdFRUV1VjbGIwV2lUNnZzSDBHV2l4WThRekNITk9pb3hyVHUzVFpDaGFUQ056OUlsWFpyajVTRWJvQmNMMkI5ZlR1S1ZSVjViT2NUajRVZFM1UnRwSHdFamdZeDJTVEZNN0JRMF9yUzNkaVV5aFhXcnBMcEFFeGw1N3RmejF3dDNvN042UEF4V2ZjOV9mSXk1YmFLZERYeGpRbUk?oc=5"
+      "published": "Wed, 07 Oct 2026 19:49:17 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZNE1oNnM5c1M4bWxZeU9rZ0xoSmpycEF3VkFZX0JPVXZsS2g4YkY4YnprMXREOEloSlV3QjNESVU5ekVCMWNIaDhtanlTakFUbzNHbEtPWUR5dG5O?oc=5"
     },
     {
       "title": "假期要闻汇总：非农数据意外“爆冷” 美联储10月加息概率骤降",
@@ -108,23 +108,23 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9peGtRNmN2a3hzTzFqZ2JqVDVQSTA5OG1hb2ZSV2t2VHZzNno4d1IwaDFRVlFtQVZna1ZIaVFFQXhmQnhqT3QyOGd2a0RzdW9ab1NoOHAxbnZkX1c2SGtSYjhrVQ?oc=5"
     },
     {
-      "title": "长假里的两个大消息|胡润|央行|概率|厂长|私募",
-      "source": "finance.sina.com.cn",
-      "published": "Wed, 07 Oct 2026 07:59:16 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb09CS2NOWDZBWlZDUDg2N0xHeS1OSk9YTzQ3ZHV2TjhreGIxMmxJQjVUQ1Nhek1kNWZVSklNYjRmNWIwN1h6YjR5Tmt1VTNhai1MQmw4cXBHVXNvc25EeDR5dFFHVmduQ1d0OXpCSmduOGFCS2dxeWZtVmZNS1ZPdmZDd0d3RmFBLWFqUXU5bXloeHFZYUFnWE0tSlp2bXdqOHlWZ0FyUQ?oc=5"
+      "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
+      "source": "FX168财经",
+      "published": "Wed, 07 Oct 2026 17:47:16 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
     },
     {
-      "title": "日本央行加息预期降温压制日元，美元兑日元震荡反弹",
-      "source": "Moomoo",
-      "published": "Wed, 07 Oct 2026 02:22:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbENvWlZqbUZjaGNnMjFYYVFZQktQMjNZcmZaeHV5X19xaDlrZF9zX21oT2UydG1aR2JuRlNHWjlRMEF0VWxUTWxZcElhSHh6cFU4dE5JMUJpVHZXdHRWNW0yNlp4TE1VRkVPOWNFWDBpT3dqY3l6RTBMVFNWNG1JMENPeU5aRkZSeENCYUVZR3RJa0g1R05sbW1IclRhcFNjZTZHbWY2SDY?oc=5"
+      "title": "【10月07日】全球海外市场收盘速报数据来源：东方财富Choice，仅供参考，不构成任何投资建议一、美股市场：三大指数集体收跌，大型科技股涨跌不一美股10月07日收盘全线走低。 - 道琼斯工业平均指数：-341.41点，报51179.87点，跌幅0.66%​- 标普500：-17.16点，",
+      "source": "手机新浪网",
+      "published": "Wed, 07 Oct 2026 22:52:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaTnA1anFlNmNMcUhNR0pSSjdJTjd4aWZ2X2xPUFg2a293TXpLX0RfUmJuRFFWVE1YYkpra0d2LTg1UVZubGZOdkp1YXg5LUhWVF9yNk1XSnM0WFFoS2VtVlBIUQ?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 5,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -137,27 +137,107 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.24 / +0.39%",
+          "value": "102.18 / -0.10%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7019 / +0.01%",
+          "value": "6.7013 / -0.02%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "假期要闻汇总：非农数据意外“爆冷” 美联储10月加息概率骤降",
-          "source": "东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9peGtRNmN2a3hzTzFqZ2JqVDVQSTA5OG1hb2ZSV2t2VHZzNno4d1IwaDFRVlFtQVZna1ZIaVFFQXhmQnhqT3QyOGd2a0RzdW9ab1NoOHAxbnZkX1c2SGtSYjhrVQ?oc=5"
+          "title": "股债双杀！海外市场“变脸”；中国资产，关注度不降反升；美联储，重磅信号",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE51WHZjam1MZGZCemJUQ0k4NFIyVU8xVXAybVRhRklfMWt0TWpWTFJSbnU0dldBZlQyLTJUMUF0Y29oMXdwYlo5eEFUTVF1YUUzMFVYT2tNT3FuZkNLVGZVUWNDa0Flc2NJZEx3VVU2U0ljUQ?oc=5"
         },
         {
-          "title": "长假里的两个大消息|胡润|央行|概率|厂长|私募",
-          "source": "finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb09CS2NOWDZBWlZDUDg2N0xHeS1OSk9YTzQ3ZHV2TjhreGIxMmxJQjVUQ1Nhek1kNWZVSklNYjRmNWIwN1h6YjR5Tmt1VTNhai1MQmw4cXBHVXNvc25EeDR5dFFHVmduQ1d0OXpCSmduOGFCS2dxeWZtVmZNS1ZPdmZDd0d3RmFBLWFqUXU5bXloeHFZYUFnWE0tSlp2bXdqOHlWZ0FyUQ?oc=5"
+          "title": "华盛早报| 美联储纪要偏鹰！年内或再加息一次；段永平\"卖put\"逆势布局腾讯；恒科成分股将扩容至50只港美股资讯",
+          "source": "www.hstong.com",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xczlPR3FaOWN0VkQwdTJiVUczQzR4dnNwX1I2WkpGOFpnRUN2OVBPd2JUaU1zSzlKSXZ3Z0p0eW9qb0RSQktNdjd4b3VwMHhTdWg4Z1NJRUl0YU9kdnN2TDZ3?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 2,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "27,538.69 / -0.22%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,978.98 / +1.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "全球市场：美股三大指数收跌大型科技股涨跌不一美光科技涨超4%_证券要闻",
+          "source": "中金在线",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KbjJqSnltTTNOMWRtOFVsQ3V5dF9VX2xVX2dmcFBkMHNNT2o0aUYyQ1BrZEhEVi1ZeHFGRlM5QzlyUk5XUWlLTGRoNEdtY1RjM2ZBSmRPdzBvVGY3TW9BYlVyU0ZNVlZlTEswZ3B3?oc=5"
+        },
+        {
+          "title": "【10月07日】全球海外市场收盘速报数据来源：东方财富Choice，仅供参考，不构成任何投资建议一、美股市场：三大指数集体收跌，大型科技股涨跌不一美股10月07日收盘全线走低。 - 道琼斯工业平均指数：-341.41点，报51179.87点，跌幅0.66%​- 标普500：-17.16点，",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaTnA1anFlNmNMcUhNR0pSSjdJTjd4aWZ2X2xPUFg2a293TXpLX0RfUmJuRFFWVE1YYkpra0d2LTg1UVZubGZOdkp1YXg5LUhWVF9yNk1XSnM0WFFoS2VtVlBIUQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
+      "headline_count": 2,
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
+      "watch": [
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,978.98 / +1.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "24,070.58 / -0.25%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7013 / -0.02%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
+      "headlines": [
+        {
+          "title": "美联储纪要披露：7月联合干预支撑日元系财政部行动 未动用央行资金",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZNE1oNnM5c1M4bWxZeU9rZ0xoSmpycEF3VkFZX0JPVXZsS2g4YkY4YnprMXREOEloSlV3QjNESVU5ekVCMWNIaDhtanlTakFUbzNHbEtPWUR5dG5O?oc=5"
+        },
+        {
+          "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
         }
       ]
     },
@@ -177,13 +257,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.24 / +0.39%",
+          "value": "102.18 / -0.10%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "27,522.73 / -0.28%",
+          "value": "27,538.69 / -0.22%",
           "state": "fresh"
         }
       ],
@@ -206,13 +286,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "88.43 / -1.13%",
+          "value": "89.58 / +1.48%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,132.32 / -1.31%",
+          "value": "4,156.99 / +0.39%",
           "state": "fresh"
         },
         {
@@ -223,76 +303,6 @@
         }
       ],
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.24 / +0.39%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7019 / +0.01%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,814.19 / -0.14%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "日本央行加息预期降温压制日元，美元兑日元震荡反弹",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbENvWlZqbUZjaGNnMjFYYVFZQktQMjNZcmZaeHV5X19xaDlrZF9zX21oT2UydG1aR2JuRlNHWjlRMEF0VWxUTWxZcElhSHh6cFU4dE5JMUJpVHZXdHRWNW0yNlp4TE1VRkVPOWNFWDBpT3dqY3l6RTBMVFNWNG1JMENPeU5aRkZSeENCYUVZR3RJa0g1R05sbW1IclRhcFNjZTZHbWY2SDY?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "domestic_policy",
-      "label": "国内政策与需求",
-      "headline_count": 1,
-      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-      "a_share_lens": "金融地产、基建、消费与顺周期方向",
-      "watch": [
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,814.19 / -0.14%",
-          "state": "fresh"
-        },
-        {
-          "code": "HSI",
-          "label": "恒生指数",
-          "value": "24,130.50 / -0.62%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7019 / +0.01%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
       "headlines": [
         {
           "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
