@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08 18:52",
-  "score": -5,
+  "generated_at": "2026-10-08 22:32",
+  "score": -20,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -9,38 +9,38 @@
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.31%",
-      "contribution": 2.5,
+      "value": "上证 -0.79%",
+      "contribution": -6.3,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 2614 / 跌 2841",
-      "contribution": -0.8,
+      "value": "涨 1718 / 跌 3798",
+      "contribution": -7.5,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 52 / 跌停 9 / 炸板率 18.8%",
-      "contribution": 4.8,
+      "value": "涨停 43 / 跌停 13 / 炸板率 42.7%",
+      "contribution": -0.3,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.39%",
-      "contribution": -2.7,
+      "value": "6 个市场均值 -0.13%",
+      "contribution": -0.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.13%",
-      "contribution": -0.8,
+      "value": "富时 A50 +0.17%",
+      "contribution": 1.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.7048 (+0.03%) / DXY 102.37 (+0.08%)",
-      "contribution": -0.8,
+      "value": "USD/CNH 6.7027 (+0.00%) / DXY 102.08 (-0.20%)",
+      "contribution": 0.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,6 +72,12 @@
   },
   "news": [
     {
+      "title": "纳指新高、日经站上7万点，节后A股会怎么走？",
+      "source": "新浪网",
+      "published": "Thu, 08 Oct 2026 11:44:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT21Jb09GUTNHd3R3cDBSelNhcU9OeFRnZFNCdHg4d05iZEQwWWdldkNxcTBYQWNpNjhxbWtMLVpfSEpzV0syWEJpVG9BbF9yTTU5WFgtU3NuVlFRREJLS2tJRFd2NFRSNGRZZ2FQdkg2TUVld3RQeUJLNGVpMEdSNWdyUDZESGh1VHFUZVJGY2JLbEE4?oc=5"
+    },
+    {
       "title": "股债双杀！海外市场“变脸”；中国资产，关注度不降反升；美联储，重磅信号",
       "source": "金融界",
       "published": "Thu, 08 Oct 2026 00:30:00 GMT",
@@ -90,16 +96,16 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KbjJqSnltTTNOMWRtOFVsQ3V5dF9VX2xVX2dmcFBkMHNNT2o0aUYyQ1BrZEhEVi1ZeHFGRlM5QzlyUk5XUWlLTGRoNEdtY1RjM2ZBSmRPdzBvVGY3TW9BYlVyU0ZNVlZlTEswZ3B3?oc=5"
     },
     {
+      "title": "全球市场高压时刻！股债双杀、油价冲破104美元，法国债市拉响警报",
+      "source": "FX168财经",
+      "published": "Thu, 08 Oct 2026 11:37:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0pVZXhzMEc2eVk5NC1FNnVKVGVPRmdWT1BDX0t5dE5LR05VSXBTY3BseGhlNExYWGtsY0NDNjFkX21VaWtTbXBFVldSSEVUV0VfU21WREUybjBkb2p4TU1NUWZXVkR5M0VPNGRZRTdaRXJWSFZ6M3ZLQUlWUnNjVWhiZzE?oc=5"
+    },
+    {
       "title": "10月8日隔夜要闻：美股收跌 美光涨超4% 欧元区股市触及四个月低点 美联储纪要显示9月升息获一致支持",
       "source": "finance.sina.com.cn",
       "published": "Wed, 07 Oct 2026 23:24:41 GMT",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQjVwSDRrQWtwR2VETGxScHJrd3RGNnZHejF6M3NZeWVvRXpLYy10T0F3NG5TV2J6c0FVR0tBM1E5NG5fanFza1lUY2s3LUxKZUpzQXJaNGM4ZklDcTNrOFNWbGk1T052ZmhMeWhLOTV3cUdwWXNPSnV6TkM5S2tJbG5jSTBsWkpyM1E?oc=5"
-    },
-    {
-      "title": "华盛早报| 美联储纪要偏鹰！年内或再加息一次；段永平\"卖put\"逆势布局腾讯；恒科成分股将扩容至50只港美股资讯",
-      "source": "华盛通",
-      "published": "Thu, 08 Oct 2026 00:30:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xczlPR3FaOWN0VkQwdTJiVUczQzR4dnNwX1I2WkpGOFpnRUN2OVBPd2JUaU1zSzlKSXZ3Z0p0eW9qb0RSQktNdjd4b3VwMHhTdWg4Z1NJRUl0YU9kdnN2TDZ3?oc=5"
     },
     {
       "title": "美债已在定价危机，美股为何仍岿然不动？德银揭示五大市场结构性错位",
@@ -108,23 +114,17 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSkszSmZ0MWlUWXJoWVhHcjY1TnlGWEpqN0JuWDMxbWhXZ2FMdGtJUS16WDBsdktHUFFLYlJPanZkQUpZOXRqSFBkZ1VWNUt3eGNSUWxQVmFnX0RYQ2phUHY5OXBRdDQ2WjZWUEVsUFFQMWFJVnpTNF9tMzdnbU42RnlDUGtKYzE3cmNWTjZsQlVwWGhJb0tV?oc=5"
     },
     {
-      "title": "美联储纪要披露：7月联合干预支撑日元系财政部行动 未动用央行资金",
-      "source": "Moomoo",
-      "published": "Wed, 07 Oct 2026 19:49:17 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZNE1oNnM5c1M4bWxZeU9rZ0xoSmpycEF3VkFZX0JPVXZsS2g4YkY4YnprMXREOEloSlV3QjNESVU5ekVCMWNIaDhtanlTakFUbzNHbEtPWUR5dG5O?oc=5"
-    },
-    {
-      "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
-      "source": "FX168财经",
-      "published": "Wed, 07 Oct 2026 17:47:16 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
+      "title": "华盛早报| 美联储纪要偏鹰！年内或再加息一次；段永平\"卖put\"逆势布局腾讯；恒科成分股将扩容至50只港美股资讯",
+      "source": "华盛通",
+      "published": "Thu, 08 Oct 2026 00:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xczlPR3FaOWN0VkQwdTJiVUczQzR4dnNwX1I2WkpGOFpnRUN2OVBPd2JUaU1zSzlKSXZ3Z0p0eW9qb0RSQktNdjd4b3VwMHhTdWg4Z1NJRUl0YU9kdnN2TDZ3?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.37 / +0.08%",
+          "value": "102.08 / -0.20%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.7048 / +0.03%",
+          "value": "6.7027 / +0.00%",
           "state": "fresh"
         }
       ],
@@ -162,46 +162,6 @@
       ]
     },
     {
-      "key": "domestic_policy",
-      "label": "国内政策与需求",
-      "headline_count": 2,
-      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-      "a_share_lens": "金融地产、基建、消费与顺周期方向",
-      "watch": [
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,699.20 / -0.13%",
-          "state": "fresh"
-        },
-        {
-          "code": "HSI",
-          "label": "恒生指数",
-          "value": "23,785.79 / -1.43%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.7048 / +0.03%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-      "headlines": [
-        {
-          "title": "美联储纪要披露：7月联合干预支撑日元系财政部行动 未动用央行资金",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZNE1oNnM5c1M4bWxZeU9rZ0xoSmpycEF3VkFZX0JPVXZsS2g4YkY4YnprMXREOEloSlV3QjNESVU5ekVCMWNIaDhtanlTakFUbzNHbEtPWUR5dG5O?oc=5"
-        },
-        {
-          "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
-        }
-      ]
-    },
-    {
       "key": "technology",
       "label": "科技与产业",
       "headline_count": 1,
@@ -211,13 +171,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "27,538.69 / -0.22%",
+          "value": "27,473.53 / -0.24%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,699.20 / -0.13%",
+          "value": "13,740.00 / +0.17%",
           "state": "fresh"
         },
         {
@@ -246,13 +206,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "92.74 / +5.05%",
+          "value": "92.00 / +4.22%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,143.93 / +0.08%",
+          "value": "4,162.12 / +0.52%",
           "state": "fresh"
         },
         {
@@ -265,9 +225,44 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "全球市场又“变脸”了！法国财政暴雷引发欧洲地震，黄金、美股、比特币全线下杀！",
+          "title": "全球市场高压时刻！股债双杀、油价冲破104美元，法国债市拉响警报",
           "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tLTlhRTNOZUJFR0xwemk1LUFwcXNSV214M2JoOF8tdHp1WDlsOW1lYUk3Q2QxNHJ4UE1YdnYwcVVFTHpRWENZVEw0TzZVZkExOVk2N1hRT25QbnZmWXlBMURBMmU4eUpmUU80WQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0pVZXhzMEc2eVk5NC1FNnVKVGVPRmdWT1BDX0t5dE5LR05VSXBTY3BseGhlNExYWGtsY0NDNjFkX21VaWtTbXBFVldSSEVUV0VfU21WREUybjBkb2p4TU1NUWZXVkR5M0VPNGRZRTdaRXJWSFZ6M3ZLQUlWUnNjVWhiZzE?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.08 / -0.20%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.7027 / +0.00%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,740.00 / +0.17%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "全球市场高压时刻！股债双杀、油价冲破104美元，法国债市拉响警报",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0pVZXhzMEc2eVk5NC1FNnVKVGVPRmdWT1BDX0t5dE5LR05VSXBTY3BseGhlNExYWGtsY0NDNjFkX21VaWtTbXBFVldSSEVUV0VfU21WREUybjBkb2p4TU1NUWZXVkR5M0VPNGRZRTdaRXJWSFZ6M3ZLQUlWUnNjVWhiZzE?oc=5"
         }
       ]
     }
