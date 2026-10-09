@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09 18:51",
-  "score": -16,
-  "stance": "谨慎防守",
-  "color": "#3b9b68",
+  "generated_at": "2026-10-09 22:20",
+  "score": 14,
+  "stance": "谨慎偏多",
+  "color": "#e05a47",
   "confidence": "中",
-  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
+  "summary": "风险偏好略占优，但信号并未形成全面共振。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 -0.79%",
-      "contribution": -6.3,
+      "value": "上证 +0.05%",
+      "contribution": 0.4,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 1718 / 跌 3798",
-      "contribution": -7.5,
+      "value": "涨 3347 / 跌 2159",
+      "contribution": 4.3,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 43 / 跌停 13 / 炸板率 42.7%",
-      "contribution": -0.3,
+      "value": "涨停 69 / 跌停 8 / 炸板率 16.9%",
+      "contribution": 8.1,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.23%",
-      "contribution": 1.6,
+      "value": "6 个市场均值 +0.76%",
+      "contribution": 5.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.04%",
+      "value": "富时 A50 -0.03%",
       "contribution": -0.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6929 (-0.15%) / DXY 102.16 (+0.03%)",
-      "contribution": 1.7,
+      "value": "USD/CNH 6.6934 (-0.15%) / DXY 102.30 (+0.17%)",
+      "contribution": 0.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "advice": [
-    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
+    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
     "positive_hits": 0,
@@ -71,6 +71,12 @@
     "score": 0
   },
   "news": [
+    {
+      "title": "刚刚，大涨超1700点！日股、美股、黄金、白银、比特币，全线拉升",
+      "source": "证券时报网",
+      "published": "Fri, 09 Oct 2026 10:38:44 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15WF9GeHl4dHUxVEVLOXdCWHMyMkZHOVNmSmZlc05Xb0pLdWtMNV9GcE1TSWdaaWx2b0JTU3F6blN1RkZublo1QWNMbDhCVjBQeVN0U3VZMHMzWFdk?oc=5"
+    },
     {
       "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
       "source": "新浪网",
@@ -82,24 +88,6 @@
       "source": "证券之星",
       "published": "Thu, 08 Oct 2026 22:03:45 GMT",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94X0preFZuZ3RNWmpzS0VsUEh0aFRVRUlCZlZhTkgzUTRiUVhyTDBHX1gzTGFYMHRaOE1TRHd0bEpvc09oRlpxWmstX1NXZUo5VFdUTXlUZ0c1di1mSnVxaQ?oc=5"
-    },
-    {
-      "title": "全球市场高压时刻！股债双杀、油价冲破104美元，法国债市拉响警报",
-      "source": "FX168财经",
-      "published": "Thu, 08 Oct 2026 11:37:47 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0pVZXhzMEc2eVk5NC1FNnVKVGVPRmdWT1BDX0t5dE5LR05VSXBTY3BseGhlNExYWGtsY0NDNjFkX21VaWtTbXBFVldSSEVUV0VfU21WREUybjBkb2p4TU1NUWZXVkR5M0VPNGRZRTdaRXJWSFZ6M3ZLQUlWUnNjVWhiZzE?oc=5"
-    },
-    {
-      "title": "纳指新高、日经站上7万点，节后A股会怎么走？",
-      "source": "新浪网",
-      "published": "Thu, 08 Oct 2026 11:44:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT21Jb09GUTNHd3R3cDBSelNhcU9OeFRnZFNCdHg4d05iZEQwWWdldkNxcTBYQWNpNjhxbWtMLVpfSEpzV0syWEJpVG9BbF9yTTU5WFgtU3NuVlFRREJLS2tJRFd2NFRSNGRZZ2FQdkg2TUVld3RQeUJLNGVpMEdSNWdyUDZESGh1VHFUZVJGY2JLbEE4?oc=5"
-    },
-    {
-      "title": "全球市场又“变脸”了",
-      "source": "禁闻网",
-      "published": "Thu, 08 Oct 2026 11:48:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpNlFYaXYwVS1VN2IxVHhKVHBvN0E1bFFHTmw3VDdVcmdjYnA5c3Y3NDBZNVg3T1VlTjZXd3Z6d2Z4dFZPTmJlUjc4SzNra2xlRnp0ZkNoYnB4aVQ0YXdsak11X1Z4RU9wZlFkRk5mNmQ4S2fSAXNBVV95cUxQaTZRWGl2MFUtVTdiMVR4SlRwbzdBNWxRR05sN1Q3VXJnY2JwOXN2NzQwWTVYN09VZU42V3d2endmeHRWT05iZVI3OEsza2tsZUZ6dGZDaGJweGlUNGF3bGpNdV9WeEVPcGZRZEZOZjZkOEtn?oc=5"
     },
     {
       "title": "现货黄金收报4133美元债务担忧与美联储路径博弈- 黄金市场- 今日美股网",
@@ -119,13 +107,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.89 / -0.65%",
+          "value": "91.41 / -0.09%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,207.77 / +1.22%",
+          "value": "4,214.20 / +1.38%",
           "state": "fresh"
         },
         {
@@ -138,54 +126,14 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
+          "title": "刚刚，大涨超1700点！日股、美股、黄金、白银、比特币，全线拉升",
+          "source": "证券时报网",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15WF9GeHl4dHUxVEVLOXdCWHMyMkZHOVNmSmZlc05Xb0pLdWtMNV9GcE1TSWdaaWx2b0JTU3F6blN1RkZublo1QWNMbDhCVjBQeVN0U3VZMHMzWFdk?oc=5"
+        },
+        {
           "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
           "source": "新浪网",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54b09XQ0Y4WEpsQ2pVdlV6ZVNvWVRCdTFqWXc1RHlpS3lJcTByLU9peGVEX1k5bFZ0a1BEZEZnaWFac3dNYmV2RVRVMXRvdG80OFBpY3NIRnFMbzhRMFdZXzlHd0JoRUhULUlGWkVsd2toZw?oc=5"
-        },
-        {
-          "title": "全球市场高压时刻！股债双杀、油价冲破104美元，法国债市拉响警报",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0pVZXhzMEc2eVk5NC1FNnVKVGVPRmdWT1BDX0t5dE5LR05VSXBTY3BseGhlNExYWGtsY0NDNjFkX21VaWtTbXBFVldSSEVUV0VfU21WREUybjBkb2p4TU1NUWZXVkR5M0VPNGRZRTdaRXJWSFZ6M3ZLQUlWUnNjVWhiZzE?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 2,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.16 / +0.03%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6929 / -0.15%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,747.76 / -0.04%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "全球市场高压时刻！股债双杀、油价冲破104美元，法国债市拉响警报",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS0pVZXhzMEc2eVk5NC1FNnVKVGVPRmdWT1BDX0t5dE5LR05VSXBTY3BseGhlNExYWGtsY0NDNjFkX21VaWtTbXBFVldSSEVUV0VfU21WREUybjBkb2p4TU1NUWZXVkR5M0VPNGRZRTdaRXJWSFZ6M3ZLQUlWUnNjVWhiZzE?oc=5"
-        },
-        {
-          "title": "现货黄金收报4133美元债务担忧与美联储路径博弈- 黄金市场- 今日美股网",
-          "source": "Howl.Link",
-          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB2SkYxd3dmZkMyWUtmV2pTSW9BLVFocDUwaXRoaE14bmoxVnFlWHhSenNxSWROaDBkS01V?oc=5"
         }
       ]
     },
@@ -205,13 +153,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.16 / +0.03%",
+          "value": "102.30 / +0.17%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6929 / -0.15%",
+          "value": "6.6934 / -0.15%",
           "state": "fresh"
         }
       ],
@@ -234,13 +182,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "27,193.34 / -1.25%",
+          "value": "27,307.26 / +0.42%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,747.76 / -0.04%",
+          "value": "13,748.55 / -0.03%",
           "state": "fresh"
         },
         {
@@ -256,6 +204,41 @@
           "title": "隔夜美股| AI业绩担忧再起纳指跌超1% 美光科技(MU.US)跌超4%_全球市场_财经",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94X0preFZuZ3RNWmpzS0VsUEh0aFRVRUlCZlZhTkgzUTRiUVhyTDBHX1gzTGFYMHRaOE1TRHd0bEpvc09oRlpxWmstX1NXZUo5VFdUTXlUZ0c1di1mSnVxaQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.30 / +0.17%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6934 / -0.15%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,748.55 / -0.03%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "现货黄金收报4133美元债务担忧与美联储路径博弈- 黄金市场- 今日美股网",
+          "source": "Howl.Link",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB2SkYxd3dmZkMyWUtmV2pTSW9BLVFocDUwaXRoaE14bmoxVnFlWHhSenNxSWROaDBkS01V?oc=5"
         }
       ]
     }

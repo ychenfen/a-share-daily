@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09 18:51",
+  "generated_at": "2026-10-09 22:20",
   "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
   "status": "ready",
   "minimum_samples": 20,
-  "signal_count": 101,
-  "matured_1d": 95,
-  "directional_1d": 82,
-  "hit_rate_1d": 64.6,
+  "signal_count": 102,
+  "matured_1d": 100,
+  "directional_1d": 86,
+  "hit_rate_1d": 61.6,
   "average_return": {
-    "1d": -0.638,
-    "3d": -1.127,
-    "5d": -2.691
+    "1d": -0.604,
+    "3d": -1.064,
+    "5d": -2.348
   },
   "buckets": [
     {
@@ -21,13 +21,13 @@
     },
     {
       "label": "谨慎防守",
-      "count": 24,
-      "avg_1d_pct": -1.265
+      "count": 28,
+      "avg_1d_pct": -1.077
     },
     {
       "label": "中性",
-      "count": 17,
-      "avg_1d_pct": -0.637
+      "count": 18,
+      "avg_1d_pct": -0.599
     },
     {
       "label": "谨慎偏多",
@@ -41,14 +41,39 @@
     }
   ],
   "current": {
-    "captured_at": "2026-10-09 18:51",
-    "slot": "midday",
-    "score": "-16",
-    "stance": "谨慎防守",
+    "captured_at": "2026-10-09 22:20",
+    "slot": "close",
+    "score": "14",
+    "stance": "谨慎偏多",
     "confidence": "中",
     "health": "markets,us10y,vix"
   },
   "recent": [
+    {
+      "captured_at": "2026-10-09 22:20",
+      "slot": "close",
+      "signal_date": "2026-10-09",
+      "market_asof_date": "2026-10-09",
+      "score": "14",
+      "stance": "谨慎偏多",
+      "confidence": "中",
+      "sh_close": "3813.79",
+      "sh_pct": "0.05",
+      "global_avg": "0.7644",
+      "a50_pct": "-0.03235657674689474",
+      "usdcnh": "6.6934",
+      "usdcnh_pct": "-0.14619883040936088",
+      "dxy": "102.3042",
+      "dxy_pct": "0.16997843937076595",
+      "vix": "15.44",
+      "us10y": "4.94",
+      "health": "markets,us10y,vix",
+      "return_1d": null,
+      "return_3d": null,
+      "return_5d": null,
+      "direction": 1,
+      "hit_1d": null
+    },
     {
       "captured_at": "2026-10-09 18:51",
       "slot": "midday",
@@ -68,11 +93,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.05,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-09 16:49",
@@ -93,11 +118,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.05,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-09 10:08",
@@ -118,11 +143,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.05,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-09 02:53",
@@ -168,11 +193,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.05,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-08 18:52",
@@ -268,7 +293,7 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.05,
       "return_3d": null,
       "return_5d": null,
       "direction": 0,
@@ -518,31 +543,6 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": -0.79,
-      "return_3d": null,
-      "return_5d": null,
-      "direction": 1,
-      "hit_1d": false
-    },
-    {
-      "captured_at": "2026-10-05 23:56",
-      "slot": "close",
-      "signal_date": "2026-10-05",
-      "market_asof_date": "2026-09-30",
-      "score": "12",
-      "stance": "谨慎偏多",
-      "confidence": "中",
-      "sh_close": "3842.19",
-      "sh_pct": "0.31",
-      "global_avg": "0.4194",
-      "a50_pct": "0.4680081065431274",
-      "usdcnh": "6.7055",
-      "usdcnh_pct": "0.0014913353416634578",
-      "dxy": "102.1767",
-      "dxy_pct": "0.28571260315490843",
-      "vix": "15.44",
-      "us10y": "4.94",
-      "health": "markets,news,us10y,vix",
       "return_1d": -0.79,
       "return_3d": null,
       "return_5d": null,
