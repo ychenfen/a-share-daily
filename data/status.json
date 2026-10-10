@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10 21:35",
-  "slot": "close",
-  "slot_label": "收盘快照",
-  "target_date": "2026-10-10",
+  "checked_at": "2026-10-11 01:22",
+  "slot": "night",
+  "slot_label": "夜间校验",
+  "target_date": "2026-10-11",
   "market_data_date": "2026-10-09",
   "market_state": "non_trading",
   "pulse_updated": false,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10 21:35",
+  "generated_at": "2026-10-11 01:22",
   "score": 11,
   "stance": "谨慎偏多",
   "color": "#e05a47",
@@ -82,12 +82,6 @@
       "source": "富途牛牛",
       "published": "Sat, 10 Oct 2026 11:26:34 GMT",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
-    },
-    {
-      "title": "特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元",
-      "source": "FX168财经",
-      "published": "Fri, 09 Oct 2026 17:05:47 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
     }
   ],
   "events": [
@@ -128,46 +122,6 @@
           "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "91.72 / +0.25%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,221.77 / +1.56%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
-        },
-        {
-          "title": "特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
         }
       ]
     },
@@ -242,37 +196,37 @@
       ]
     },
     {
-      "key": "currency",
-      "label": "美元与人民币",
+      "key": "commodities",
+      "label": "商品与成本",
       "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.23 / +0.10%",
+          "code": "WTI",
+          "label": "原油",
+          "value": "91.72 / +0.25%",
           "state": "fresh"
         },
         {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6927 / -0.16%",
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,221.77 / +1.56%",
           "state": "fresh"
         },
         {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,729.16 / -0.17%",
-          "state": "fresh"
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
+          "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
         }
       ]
     }
