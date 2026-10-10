@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10 02:24",
-  "score": 16,
+  "generated_at": "2026-10-10 09:45",
+  "score": 15,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.98%",
-      "contribution": 6.8,
+      "value": "6 个市场均值 +0.99%",
+      "contribution": 6.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.01%",
-      "contribution": -0.1,
+      "value": "富时 A50 -0.17%",
+      "contribution": -1.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6932 (-0.15%) / DXY 102.25 (+0.12%)",
-      "contribution": 1.2,
+      "value": "USD/CNH 6.6927 (-0.16%) / DXY 102.23 (+0.10%)",
+      "contribution": 1.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
+      "value": "正向词 1 / 风险词 1",
       "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,8 +66,8 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 0,
+    "positive_hits": 1,
+    "negative_hits": 1,
     "score": 0
   },
   "news": [
@@ -79,27 +79,27 @@
     },
     {
       "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
-      "source": "新浪网",
-      "published": "Fri, 09 Oct 2026 02:22:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54b09XQ0Y4WEpsQ2pVdlV6ZVNvWVRCdTFqWXc1RHlpS3lJcTByLU9peGVEX1k5bFZ0a1BEZEZnaWFac3dNYmV2RVRVMXRvdG80OFBpY3NIRnFMbzhRMFdZXzlHd0JoRUhULUlGWkVsd2toZw?oc=5"
+      "source": "新浪财经",
+      "published": "Fri, 09 Oct 2026 11:42:14 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5"
+    },
+    {
+      "title": "不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯",
+      "source": "华盛通",
+      "published": "Fri, 09 Oct 2026 13:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQa2lVdWk4Yzk4d01qaEFXdUFQWE1ZclEtM1BiZDJ3SzNFczhsS0NweEllTm85TDZKM3p3NGp0cndtRjJtZHlySW5CV3pVQm9GY2NZOUI3ZkFLRUIyLXNlckd3?oc=5"
+    },
+    {
+      "title": "特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元",
+      "source": "FX168财经",
+      "published": "Fri, 09 Oct 2026 17:05:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
     },
     {
       "title": "美债收益率创20 年新高，全球资产定价逻辑正在重塑|美联储|中国央行|英伟达|苹果|微软|格隆汇_新浪新闻",
       "source": "手机新浪网",
       "published": "Fri, 09 Oct 2026 13:21:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56NEM4ZURWaExnRE5HbldacmlNMnB0X1REa0hmZk05WGpVeFIyZzhyRFh6NGZZMzN5NjBhbXpsdmp6aHRjbE93Z1ppaWNoOUJ1dXRjQ0UzS004Mm1yVGhZQmRyQQ?oc=5"
-    },
-    {
-      "title": "隔夜美股| AI业绩担忧再起纳指跌超1% 美光科技(MU.US)跌超4%_全球市场_财经",
-      "source": "证券之星",
-      "published": "Thu, 08 Oct 2026 22:03:45 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94X0preFZuZ3RNWmpzS0VsUEh0aFRVRUlCZlZhTkgzUTRiUVhyTDBHX1gzTGFYMHRaOE1TRHd0bEpvc09oRlpxWmstX1NXZUo5VFdUTXlUZ0c1di1mSnVxaQ?oc=5"
-    },
-    {
-      "title": "现货黄金收报4133美元债务担忧与美联储路径博弈- 黄金市场- 今日美股网",
-      "source": "Howl.Link",
-      "published": "Fri, 09 Oct 2026 00:29:46 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB2SkYxd3dmZkMyWUtmV2pTSW9BLVFocDUwaXRoaE14bmoxVnFlWHhSenNxSWROaDBkS01V?oc=5"
     }
   ],
   "events": [
@@ -113,13 +113,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "91.92 / +0.46%",
+          "value": "91.72 / +0.25%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,222.87 / +1.58%",
+          "value": "4,221.77 / +1.56%",
           "state": "fresh"
         },
         {
@@ -138,8 +138,8 @@
         },
         {
           "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
-          "source": "新浪网",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE54b09XQ0Y4WEpsQ2pVdlV6ZVNvWVRCdTFqWXc1RHlpS3lJcTByLU9peGVEX1k5bFZ0a1BEZEZnaWFac3dNYmV2RVRVMXRvdG80OFBpY3NIRnFMbzhRMFdZXzlHd0JoRUhULUlGWkVsd2toZw?oc=5"
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5"
         }
       ]
     },
@@ -159,47 +159,87 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.25 / +0.12%",
+          "value": "102.23 / +0.10%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6932 / -0.15%",
+          "value": "6.6927 / -0.16%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯",
+          "source": "华盛通",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQa2lVdWk4Yzk4d01qaEFXdUFQWE1ZclEtM1BiZDJ3SzNFczhsS0NweEllTm85TDZKM3p3NGp0cndtRjJtZHlySW5CV3pVQm9GY2NZOUI3ZkFLRUIyLXNlckd3?oc=5"
+        },
+        {
           "title": "美债收益率创20 年新高，全球资产定价逻辑正在重塑|美联储|中国央行|英伟达|苹果|微软|格隆汇_新浪新闻",
           "source": "手机新浪网",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56NEM4ZURWaExnRE5HbldacmlNMnB0X1REa0hmZk05WGpVeFIyZzhyRFh6NGZZMzN5NjBhbXpsdmp6aHRjbE93Z1ppaWNoOUJ1dXRjQ0UzS004Mm1yVGhZQmRyQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.23 / +0.10%",
+          "state": "fresh"
         },
         {
-          "title": "现货黄金收报4133美元债务担忧与美联储路径博弈- 黄金市场- 今日美股网",
-          "source": "Howl.Link",
-          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB2SkYxd3dmZkMyWUtmV2pTSW9BLVFocDUwaXRoaE14bmoxVnFlWHhSenNxSWROaDBkS01V?oc=5"
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6927 / -0.16%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,729.16 / -0.17%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯",
+          "source": "华盛通",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQa2lVdWk4Yzk4d01qaEFXdUFQWE1ZclEtM1BiZDJ3SzNFczhsS0NweEllTm85TDZKM3p3NGp0cndtRjJtZHlySW5CV3pVQm9GY2NZOUI3ZkFLRUIyLXNlckd3?oc=5"
+        },
+        {
+          "title": "特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
         }
       ]
     },
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "27,363.06 / +0.62%",
+          "value": "27,366.17 / +0.64%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,751.80 / -0.01%",
+          "value": "13,729.16 / -0.17%",
           "state": "fresh"
         },
         {
@@ -215,46 +255,6 @@
           "title": "美债收益率创20 年新高，全球资产定价逻辑正在重塑|美联储|中国央行|英伟达|苹果|微软|格隆汇_新浪新闻",
           "source": "手机新浪网",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56NEM4ZURWaExnRE5HbldacmlNMnB0X1REa0hmZk05WGpVeFIyZzhyRFh6NGZZMzN5NjBhbXpsdmp6aHRjbE93Z1ppaWNoOUJ1dXRjQ0UzS004Mm1yVGhZQmRyQQ?oc=5"
-        },
-        {
-          "title": "隔夜美股| AI业绩担忧再起纳指跌超1% 美光科技(MU.US)跌超4%_全球市场_财经",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94X0preFZuZ3RNWmpzS0VsUEh0aFRVRUlCZlZhTkgzUTRiUVhyTDBHX1gzTGFYMHRaOE1TRHd0bEpvc09oRlpxWmstX1NXZUo5VFdUTXlUZ0c1di1mSnVxaQ?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.25 / +0.12%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6932 / -0.15%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,751.80 / -0.01%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "现货黄金收报4133美元债务担忧与美联储路径博弈- 黄金市场- 今日美股网",
-          "source": "Howl.Link",
-          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB2SkYxd3dmZkMyWUtmV2pTSW9BLVFocDUwaXRoaE14bmoxVnFlWHhSenNxSWROaDBkS01V?oc=5"
         }
       ]
     }
