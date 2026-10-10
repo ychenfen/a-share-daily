@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-10 09:45`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-10 16:21`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +15 · 谨慎偏多**（置信度：中）
+> **风险温度 +13 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.6927 (-0.16%) / DXY 102.23 (+0.10%) | +1.4 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 1 / 风险词 1 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 2 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,10 +94,10 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
+| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.23 / +0.10%（最新） / USD/CNH 6.6927 / -0.16%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 | 商品与成本（3 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 91.72 / +0.25%（最新） / 黄金 4,221.77 / +1.56%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
-| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.23 / +0.10%（最新） / USD/CNH 6.6927 / -0.16%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 科技与产业（2 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 27,366.17 / +0.64%（最新） / 富时A50 13,729.16 / -0.17%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
 | 美元与人民币（2 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 102.23 / +0.10%（最新） / USD/CNH 6.6927 / -0.16%（最新） / 富时A50 13,729.16 / -0.17%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 27,366.17 / +0.64%（最新） / 富时A50 13,729.16 / -0.17%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
 
 ### 研究观察
 
@@ -105,10 +105,11 @@
 
 ### 新闻雷达
 
+- [中信证券：四条线索布局Q4科技行情\|美国经济\|日本央行\|美联储\|加息\|现金流](https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5) · 新浪财经
 - [刚刚，大涨超1700点！日股、美股、黄金、白银、比特币，全线拉升](https://news.google.com/rss/articles/CBMiXEFVX3lxTE15WF9GeHl4dHUxVEVLOXdCWHMyMkZHOVNmSmZlc05Xb0pLdWtMNV9GcE1TSWdaaWx2b0JTU3F6blN1RkZublo1QWNMbDhCVjBQeVN0U3VZMHMzWFdk?oc=5) · 证券时报网
-- [金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性](https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5) · 新浪财经
 - [不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯](https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQa2lVdWk4Yzk4d01qaEFXdUFQWE1ZclEtM1BiZDJ3SzNFczhsS0NweEllTm85TDZKM3p3NGp0cndtRjJtZHlySW5CV3pVQm9GY2NZOUI3ZkFLRUIyLXNlckd3?oc=5) · 华盛通
 - [特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元](https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5) · FX168财经
+- [金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性](https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5) · 新浪财经
 - [美债收益率创20 年新高，全球资产定价逻辑正在重塑\|美联储\|中国央行\|英伟达\|苹果\|微软\|格隆汇_新浪新闻](https://news.google.com/rss/articles/CBMiY0FVX3lxTE56NEM4ZURWaExnRE5HbldacmlNMnB0X1REa0hmZk05WGpVeFIyZzhyRFh6NGZZMzN5NjBhbXpsdmp6aHRjbE93Z1ppaWNoOUJ1dXRjQ0UzS004Mm1yVGhZQmRyQQ?oc=5) · 手机新浪网
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。

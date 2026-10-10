@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10 09:45",
+  "generated_at": "2026-10-10 16:21",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-10 09:45",
-    "slot": "overnight",
-    "slot_label": "外围收盘",
+    "checked_at": "2026-10-10 16:21",
+    "slot": "open",
+    "slot_label": "开盘脉搏",
     "target_date": "2026-10-10",
     "market_data_date": "2026-10-09",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-10 09:45",
+    "generated_at": "2026-10-10 16:21",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-10 09:45",
-    "score": 15,
+    "generated_at": "2026-10-10 16:21",
+    "score": 13,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 1 / 风险词 1",
-        "contribution": 0,
+        "value": "正向词 1 / 风险词 2",
+        "contribution": -2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,21 +262,21 @@
     ],
     "news_tone": {
       "positive_hits": 1,
-      "negative_hits": 1,
-      "score": 0
+      "negative_hits": 2,
+      "score": -2
     },
     "news": [
+      {
+        "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
+        "source": "新浪财经",
+        "published": "Sat, 10 Oct 2026 04:56:55 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5"
+      },
       {
         "title": "刚刚，大涨超1700点！日股、美股、黄金、白银、比特币，全线拉升",
         "source": "证券时报网",
         "published": "Fri, 09 Oct 2026 10:38:44 GMT",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15WF9GeHl4dHUxVEVLOXdCWHMyMkZHOVNmSmZlc05Xb0pLdWtMNV9GcE1TSWdaaWx2b0JTU3F6blN1RkZublo1QWNMbDhCVjBQeVN0U3VZMHMzWFdk?oc=5"
-      },
-      {
-        "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
-        "source": "新浪财经",
-        "published": "Fri, 09 Oct 2026 11:42:14 GMT",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5"
       },
       {
         "title": "不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯",
@@ -291,6 +291,12 @@
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
       },
       {
+        "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
+        "source": "新浪财经",
+        "published": "Fri, 09 Oct 2026 11:42:14 GMT",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5"
+      },
+      {
         "title": "美债收益率创20 年新高，全球资产定价逻辑正在重塑|美联储|中国央行|英伟达|苹果|微软|格隆汇_新浪新闻",
         "source": "手机新浪网",
         "published": "Fri, 09 Oct 2026 13:21:00 GMT",
@@ -298,6 +304,46 @@
       }
     ],
     "events": [
+      {
+        "key": "central_bank",
+        "label": "央行与利率",
+        "headline_count": 3,
+        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "watch": [
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          },
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "102.23 / +0.10%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6927 / -0.16%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "headlines": [
+          {
+            "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
+            "source": "新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5"
+          },
+          {
+            "title": "不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯",
+            "source": "华盛通",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQa2lVdWk4Yzk4d01qaEFXdUFQWE1ZclEtM1BiZDJ3SzNFczhsS0NweEllTm85TDZKM3p3NGp0cndtRjJtZHlySW5CV3pVQm9GY2NZOUI3ZkFLRUIyLXNlckd3?oc=5"
+          }
+        ]
+      },
       {
         "key": "commodities",
         "label": "商品与成本",
@@ -332,44 +378,44 @@
             "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15WF9GeHl4dHUxVEVLOXdCWHMyMkZHOVNmSmZlc05Xb0pLdWtMNV9GcE1TSWdaaWx2b0JTU3F6blN1RkZublo1QWNMbDhCVjBQeVN0U3VZMHMzWFdk?oc=5"
           },
           {
-            "title": "金金乐道·把握市场脉搏∣A股震荡偏多，美股港股中性震荡，黄金原油维持中性",
-            "source": "新浪财经",
-            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1ViQkJEV01TcnNZaDRlVXBVaXhreDV6WDhTS1dUT0ZTRkRIUXpjdVE1T2pWQnl3cWRYb2xaQWhySVNHXzhWTHR3TWpZRHZRaGJTcG13TVZ6ZEVVRGxzRUxzeXNtdV9vaGdydUVTdUJicjloNUN2UmF5X08wSWdQRGw1dVhlUFhqaW9HSXZFWWtTa3NHLVhiZw?oc=5"
+            "title": "特朗普一句搅动全球市场！黄金冲破4200美元、道指升逾300点、比特币冲破8.3万美元",
+            "source": "FX168财经",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
           }
         ]
       },
       {
-        "key": "central_bank",
-        "label": "央行与利率",
+        "key": "technology",
+        "label": "科技与产业",
         "headline_count": 2,
-        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
         "watch": [
+          {
+            "code": "NDX",
+            "label": "纳斯达克",
+            "value": "27,366.17 / +0.64%",
+            "state": "fresh"
+          },
+          {
+            "code": "A50",
+            "label": "富时A50",
+            "value": "13,729.16 / -0.17%",
+            "state": "fresh"
+          },
           {
             "code": "US10Y",
             "label": "美债10Y",
             "value": "4.94%",
             "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "102.23 / +0.10%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6927 / -0.16%",
-            "state": "fresh"
           }
         ],
-        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
         "headlines": [
           {
-            "title": "不降息就不买股票？美银警告：单周超1600亿美元涌入货币基金 港美股资讯",
-            "source": "华盛通",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQa2lVdWk4Yzk4d01qaEFXdUFQWE1ZclEtM1BiZDJ3SzNFczhsS0NweEllTm85TDZKM3p3NGp0cndtRjJtZHlySW5CV3pVQm9GY2NZOUI3ZkFLRUIyLXNlckd3?oc=5"
+            "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
+            "source": "新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5"
           },
           {
             "title": "美债收益率创20 年新高，全球资产定价逻辑正在重塑|美联储|中国央行|英伟达|苹果|微软|格隆汇_新浪新闻",
@@ -417,41 +463,6 @@
             "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2eWdsRWd6eXJfSDdpMk5WN21qcnZVcHE2c0pkZmwwOF91WEdvQkhSREozU1NybGQwOGo1WnFUX2RQVTluemEyUFdyQmNIZVBnYk5GWjhXdmd3V0pBWE9yZHdHWDdPWWlKTm4zc3ZZOEhnckM5WEtteQ?oc=5"
           }
         ]
-      },
-      {
-        "key": "technology",
-        "label": "科技与产业",
-        "headline_count": 1,
-        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-        "watch": [
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "27,366.17 / +0.64%",
-            "state": "fresh"
-          },
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "13,729.16 / -0.17%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-        "headlines": [
-          {
-            "title": "美债收益率创20 年新高，全球资产定价逻辑正在重塑|美联储|中国央行|英伟达|苹果|微软|格隆汇_新浪新闻",
-            "source": "手机新浪网",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56NEM4ZURWaExnRE5HbldacmlNMnB0X1REa0hmZk05WGpVeFIyZzhyRFh6NGZZMzN5NjBhbXpsdmp6aHRjbE93Z1ppaWNoOUJ1dXRjQ0UzS004Mm1yVGhZQmRyQQ?oc=5"
-          }
-        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -459,11 +470,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-10 09:45",
+    "generated_at": "2026-10-10 16:21",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 104,
+    "signal_count": 105,
     "matured_1d": 100,
     "directional_1d": 86,
     "hit_rate_1d": 61.6,
@@ -500,14 +511,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-10 09:45",
-      "slot": "overnight",
-      "score": "15",
+      "captured_at": "2026-10-10 16:21",
+      "slot": "open",
+      "score": "13",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-10 16:21",
+        "slot": "open",
+        "signal_date": "2026-10-10",
+        "market_asof_date": "2026-10-09",
+        "score": "13",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3813.79",
+        "sh_pct": "0.05",
+        "global_avg": "0.9877",
+        "a50_pct": "-0.1733439976732365",
+        "usdcnh": "6.6927",
+        "usdcnh_pct": "-0.15664160401002158",
+        "dxy": "102.2306",
+        "dxy_pct": "0.09791384756379085",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-10 09:45",
         "slot": "overnight",
@@ -974,31 +1010,6 @@
         "usdcnh_pct": "-0.02386812858954368",
         "dxy": "102.0186",
         "dxy_pct": "-0.10154491232570173",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.79,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-06 16:51",
-        "slot": "open",
-        "signal_date": "2026-10-06",
-        "market_asof_date": "2026-09-30",
-        "score": "11",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3842.19",
-        "sh_pct": "0.31",
-        "global_avg": "0.691",
-        "a50_pct": "0.3161551823972264",
-        "usdcnh": "6.7003",
-        "usdcnh_pct": "-0.04773625717907626",
-        "dxy": "102.0445",
-        "dxy_pct": "-0.07618316469566455",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
