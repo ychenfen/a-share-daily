@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11 18:16",
+  "generated_at": "2026-10-11 21:57",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-11 18:16",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
+    "checked_at": "2026-10-11 21:57",
+    "slot": "close",
+    "slot_label": "收盘快照",
     "target_date": "2026-10-11",
     "market_data_date": "2026-10-09",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 18:16",
+    "generated_at": "2026-10-11 21:57",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 18:16",
-    "score": 13,
+    "generated_at": "2026-10-11 21:57",
+    "score": 15,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 1",
-        "contribution": -2,
+        "value": "正向词 0 / 风险词 0",
+        "contribution": 0,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,134 +262,28 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 1,
-      "score": -2
+      "negative_hits": 0,
+      "score": 0
     },
     "news": [
       {
-        "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
-        "source": "金十数据",
-        "published": "Sat, 10 Oct 2026 11:29:54 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
+        "title": "美债市场企稳？",
+        "source": "搜狐",
+        "published": "Sun, 11 Oct 2026 07:30:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3BDWEtfMFpQRzdRazVxZVBXNl9jbllHM2VScjZ6N2lZZGNuVkh0dHcybDRYbFJId1dXbG9PenVEM3JtcUhCX0dpbTc5NGJLRzdhdlhlVHh2MkhYXzZqX1Rrc1FGci1UOXVmZzZwNDVPNWVoQzFkSlpTU25uSUFoaUMxOEtwNndQ?oc=5"
       }
     ],
-    "events": [
-      {
-        "key": "central_bank",
-        "label": "央行与利率",
-        "headline_count": 1,
-        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "102.23 / +0.10%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6927 / -0.16%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-        "headlines": [
-          {
-            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "inflation",
-        "label": "通胀与就业",
-        "headline_count": 1,
-        "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-        "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "102.23 / +0.10%",
-            "state": "fresh"
-          },
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "27,366.17 / +0.64%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-        "headlines": [
-          {
-            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "commodities",
-        "label": "商品与成本",
-        "headline_count": 1,
-        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-        "watch": [
-          {
-            "code": "WTI",
-            "label": "原油",
-            "value": "91.72 / +0.25%",
-            "state": "fresh"
-          },
-          {
-            "code": "GOLD",
-            "label": "黄金",
-            "value": "4,221.77 / +1.56%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-        "headlines": [
-          {
-            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
-          }
-        ]
-      }
-    ],
+    "events": [],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
     "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 18:16",
+    "generated_at": "2026-10-11 21:57",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 111,
+    "signal_count": 112,
     "matured_1d": 100,
     "directional_1d": 86,
     "hit_rate_1d": 61.6,
@@ -426,14 +320,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-11 18:16",
-      "slot": "midday",
-      "score": "13",
+      "captured_at": "2026-10-11 21:57",
+      "slot": "close",
+      "score": "15",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-11 21:57",
+        "slot": "close",
+        "signal_date": "2026-10-11",
+        "market_asof_date": "2026-10-09",
+        "score": "15",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3813.79",
+        "sh_pct": "0.05",
+        "global_avg": "0.9877",
+        "a50_pct": "-0.1733439976732365",
+        "usdcnh": "6.6927",
+        "usdcnh_pct": "-0.15664160401002158",
+        "dxy": "102.2306",
+        "dxy_pct": "0.09791384756379085",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-11 18:16",
         "slot": "midday",
@@ -908,31 +827,6 @@
         "return_5d": null,
         "direction": 0,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-10-07 22:27",
-        "slot": "close",
-        "signal_date": "2026-10-07",
-        "market_asof_date": "2026-09-30",
-        "score": "-5",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3842.19",
-        "sh_pct": "0.31",
-        "global_avg": "-0.479",
-        "a50_pct": "-0.3428509469423191",
-        "usdcnh": "6.7054",
-        "usdcnh_pct": "0.05968902020474509",
-        "dxy": "102.3312",
-        "dxy_pct": "0.47423518530518294",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.79,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
