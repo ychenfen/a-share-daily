@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11 09:00",
-  "score": 11,
+  "generated_at": "2026-10-11 16:38",
+  "score": 13,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 2",
-      "contribution": -4,
+      "value": "正向词 0 / 风险词 1",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,28 +67,28 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 2,
-    "score": -4
+    "negative_hits": 1,
+    "score": -2
   },
   "news": [
+    {
+      "title": "海外研选日报1010 | 美银：美国中期选举或引发美股逾10%波动",
+      "source": "财联社",
+      "published": "Sat, 10 Oct 2026 08:42:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GZk9SMmJzZ3NlNm9kUmhKaU9oLUswZlQyYTRtV2ZGNjJYMktjcW1EZ0F3ZWlaSVR4dXNBQlE4ampEeHhaaGx5MA?oc=5"
+    },
     {
       "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
       "source": "金十数据",
       "published": "Sat, 10 Oct 2026 11:29:54 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
-    },
-    {
-      "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
-      "source": "新浪财经",
-      "published": "Sat, 10 Oct 2026 07:29:46 GMT",
-      "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -117,11 +117,6 @@
           "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
           "source": "金十数据",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
-        },
-        {
-          "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5"
         }
       ]
     },
@@ -157,41 +152,6 @@
           "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
           "source": "金十数据",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,366.17 / +0.64%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,729.16 / -0.17%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5"
         }
       ]
     },

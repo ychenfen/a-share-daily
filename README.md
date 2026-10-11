@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-11 09:00`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-11 16:38`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +11 · 谨慎偏多**（置信度：中）
+> **风险温度 +13 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.6927 (-0.16%) / DXY 102.23 (+0.10%) | +1.4 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 2 | -4.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 0 / 风险词 1 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,9 +94,8 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.23 / +0.10%（最新） / USD/CNH 6.6927 / -0.16%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.23 / +0.10%（最新） / USD/CNH 6.6927 / -0.16%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 | 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 102.23 / +0.10%（最新） / 纳斯达克 27,366.17 / +0.64%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 27,366.17 / +0.64%（最新） / 富时A50 13,729.16 / -0.17%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
 | 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 91.72 / +0.25%（最新） / 黄金 4,221.77 / +1.56%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 
 ### 研究观察
@@ -105,8 +104,8 @@
 
 ### 新闻雷达
 
+- [海外研选日报1010 \| 美银：美国中期选举或引发美股逾10%波动](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GZk9SMmJzZ3NlNm9kUmhKaU9oLUswZlQyYTRtV2ZGNjJYMktjcW1EZ0F3ZWlaSVR4dXNBQlE4ampEeHhaaGx5MA?oc=5) · 财联社
 - [一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5) · 金十数据
-- [中信证券：四条线索布局Q4科技行情\|美国经济\|日本央行\|美联储\|加息\|现金流](https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5) · 新浪财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
