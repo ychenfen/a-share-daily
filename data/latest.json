@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11 16:38",
+  "generated_at": "2026-10-11 18:16",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-11 16:38",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-11 18:16",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-11",
     "market_data_date": "2026-10-09",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 16:38",
+    "generated_at": "2026-10-11 18:16",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 16:38",
+    "generated_at": "2026-10-11 18:16",
     "score": 13,
     "stance": "谨慎偏多",
     "color": "#e05a47",
@@ -266,12 +266,6 @@
       "score": -2
     },
     "news": [
-      {
-        "title": "海外研选日报1010 | 美银：美国中期选举或引发美股逾10%波动",
-        "source": "财联社",
-        "published": "Sat, 10 Oct 2026 08:42:28 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GZk9SMmJzZ3NlNm9kUmhKaU9oLUswZlQyYTRtV2ZGNjJYMktjcW1EZ0F3ZWlaSVR4dXNBQlE4ampEeHhaaGx5MA?oc=5"
-      },
       {
         "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
         "source": "金十数据",
@@ -391,11 +385,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 16:38",
+    "generated_at": "2026-10-11 18:16",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 110,
+    "signal_count": 111,
     "matured_1d": 100,
     "directional_1d": 86,
     "hit_rate_1d": 61.6,
@@ -432,14 +426,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-11 16:38",
-      "slot": "open",
+      "captured_at": "2026-10-11 18:16",
+      "slot": "midday",
       "score": "13",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-11 18:16",
+        "slot": "midday",
+        "signal_date": "2026-10-11",
+        "market_asof_date": "2026-10-09",
+        "score": "13",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3813.79",
+        "sh_pct": "0.05",
+        "global_avg": "0.9877",
+        "a50_pct": "-0.1733439976732365",
+        "usdcnh": "6.6927",
+        "usdcnh_pct": "-0.15664160401002158",
+        "dxy": "102.2306",
+        "dxy_pct": "0.09791384756379085",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-11 16:38",
         "slot": "open",
@@ -914,31 +933,6 @@
         "return_5d": null,
         "direction": -1,
         "hit_1d": true
-      },
-      {
-        "captured_at": "2026-10-07 18:31",
-        "slot": "midday",
-        "signal_date": "2026-10-07",
-        "market_asof_date": "2026-09-30",
-        "score": "4",
-        "stance": "中性等待",
-        "confidence": "中",
-        "sh_close": "3842.19",
-        "sh_pct": "0.31",
-        "global_avg": "0.4377",
-        "a50_pct": "-0.28914269191846476",
-        "usdcnh": "6.7068",
-        "usdcnh_pct": "0.08058017727639033",
-        "dxy": "102.3186",
-        "dxy_pct": "0.4618638326450597",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.79,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 0,
-        "hit_1d": null
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"

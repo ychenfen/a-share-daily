@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-11 16:38`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-11 18:16`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -104,7 +104,6 @@
 
 ### 新闻雷达
 
-- [海外研选日报1010 \| 美银：美国中期选举或引发美股逾10%波动](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GZk9SMmJzZ3NlNm9kUmhKaU9oLUswZlQyYTRtV2ZGNjJYMktjcW1EZ0F3ZWlaSVR4dXNBQlE4ampEeHhaaGx5MA?oc=5) · 财联社
 - [一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5) · 金十数据
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
