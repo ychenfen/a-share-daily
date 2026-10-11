@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11 01:22",
+  "generated_at": "2026-10-11 09:00",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-11 01:22",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-10-11 09:00",
+    "slot": "overnight",
+    "slot_label": "外围收盘",
     "target_date": "2026-10-11",
     "market_data_date": "2026-10-09",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 01:22",
+    "generated_at": "2026-10-11 09:00",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 01:22",
+    "generated_at": "2026-10-11 09:00",
     "score": 11,
     "stance": "谨慎偏多",
     "color": "#e05a47",
@@ -267,16 +267,16 @@
     },
     "news": [
       {
-        "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
-        "source": "新浪财经",
-        "published": "Sat, 10 Oct 2026 04:56:55 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5"
+        "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
+        "source": "金十数据",
+        "published": "Sat, 10 Oct 2026 11:29:54 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
       },
       {
-        "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-        "source": "富途牛牛",
-        "published": "Sat, 10 Oct 2026 11:26:34 GMT",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
+        "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
+        "source": "新浪财经",
+        "published": "Sat, 10 Oct 2026 07:29:46 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5"
       }
     ],
     "events": [
@@ -309,14 +309,14 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
-            "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
-            "source": "新浪财经",
-            "link": "https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5"
+            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
           },
           {
-            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
+            "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
+            "source": "新浪财经",
+            "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5"
           }
         ]
       },
@@ -349,9 +349,9 @@
         "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
         "headlines": [
           {
-            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
+            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
           }
         ]
       },
@@ -386,7 +386,7 @@
           {
             "title": "中信证券：四条线索布局Q4科技行情|美国经济|日本央行|美联储|加息|现金流",
             "source": "新浪财经",
-            "link": "https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5"
+            "link": "https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5"
           }
         ]
       },
@@ -419,9 +419,9 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5"
+            "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5"
           }
         ]
       }
@@ -431,11 +431,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-11 01:22",
+    "generated_at": "2026-10-11 09:00",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 108,
+    "signal_count": 109,
     "matured_1d": 100,
     "directional_1d": 86,
     "hit_rate_1d": 61.6,
@@ -472,14 +472,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-11 01:22",
-      "slot": "night",
+      "captured_at": "2026-10-11 09:00",
+      "slot": "overnight",
       "score": "11",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-11 09:00",
+        "slot": "overnight",
+        "signal_date": "2026-10-11",
+        "market_asof_date": "2026-10-09",
+        "score": "11",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3813.79",
+        "sh_pct": "0.05",
+        "global_avg": "0.9877",
+        "a50_pct": "-0.1733439976732365",
+        "usdcnh": "6.6927",
+        "usdcnh_pct": "-0.15664160401002158",
+        "dxy": "102.2306",
+        "dxy_pct": "0.09791384756379085",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-11 01:22",
         "slot": "night",
@@ -954,31 +979,6 @@
         "return_5d": null,
         "direction": 0,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-10-07 09:31",
-        "slot": "overnight",
-        "signal_date": "2026-10-07",
-        "market_asof_date": "2026-09-30",
-        "score": "6",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3842.19",
-        "sh_pct": "0.31",
-        "global_avg": "0.541",
-        "a50_pct": "0.2904157043879918",
-        "usdcnh": "6.7027",
-        "usdcnh_pct": "0.019398931566549926",
-        "dxy": "101.9686",
-        "dxy_pct": "0.11821514764127627",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.79,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"

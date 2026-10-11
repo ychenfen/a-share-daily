@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-11 01:22`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-09 · 最后检查 `2026-10-11 09:00`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -105,8 +105,8 @@
 
 ### 新闻雷达
 
-- [中信证券：四条线索布局Q4科技行情\|美国经济\|日本央行\|美联储\|加息\|现金流](https://news.google.com/rss/articles/CBMiuARBVV95cUxQYW5ISzhjN2pqRHVoUnA2WF9GaFZrbkJOZ3g3c2QzWGc2TzJ1ampfNF9LT0J5YUsxRlBORUJLU3RCSnhQNWkzeHJ2V0xSdmRfLUhXNU5zdEJFTVZJTzFXV3NXWFg5bFRHWVZSZHU0WWQyYjlELVFBLUJfa2UzVXFqVWlfRWVqckQ1Um5ZdUI1bnJvMHhVM1JaOXJkaFhEVGhtQl9KY3ZOSjJYNlZUXzdUTkFxVlBaSkhsd1NFOWlJSTY5aWd6emhEczd0a0xaRVBJTGhuQUIzdzV0OVlIeHhDX0hlb0FSQ2Z6Y2FtTTdyZUFlbWFZNmtmUFNLOG91dWNuOFZvYzV4UFZZWGRXdk5HOTZMOWJERTBWX1BTUUhrZFJaUmplZmRWYVNGOGpjd0ctSEotbU8wbmdCTkxaQ2tFc3liZTl0V1hrUnlVSG1IU0EzRmE4NUlOR3pERW54VTc4OE81MTZUbFVtc1RoeDNmUjUzLXp0eEVEeHRYOGFncWpPSVFEMHhsUmxldEZ3QlN6TDZMQW9aLTJGVTMwcEJISTk0OXFSOERtWkVfU1k4MlFZYUowSUxiT1V2WnJQTWhPOTF4cjZHdDZoRlQzUFA3SWlobXQ4MnQza3Z0N29mSDU2Y3ozTDJtUzVUbG15WUVKVXFXOW5GbXdxblNLak9HdktfcmFzblIzT3dBNDJnTUNadFNSUURVckoyNHNjanhfdEI3T3ZGOWQ2SjMzT2JDQ1NxeWNGdFRD?oc=5) · 新浪财经
-- [一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？](https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0s3MWI2MGlCZUJNWmRycXFVa2xCLUZ1NVFvMXd3V1VFZEhxOG9SazFFUUpUWV92dGNrOWE0WTAxTnEwcF9meUZGZnBITVRRU0swc0xqLVdYdGZVNEVGV3NjUlZPc0N0cFlOY1pTejJ1QjdMQWh4TjBNYlZ3RFI2eWhQa1B1aEt3TnpVd21NS3ZlR19wbGZaTDJaSWc?oc=5) · 富途牛牛
+- [一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ3A4YnhrQ0MwTHRjWnFaMVJrc0hybmZ6dWdjYVZISm9oRTZENUpUOHBUanliQmJteGZyXzBYcHBRRlNONlpfRVNIaWdpcTA?oc=5) · 金十数据
+- [中信证券：四条线索布局Q4科技行情\|美国经济\|日本央行\|美联储\|加息\|现金流](https://news.google.com/rss/articles/CBMikwRBVV95cUxNWFpjc3NvTUlyOUJ0azZRaDRqM1VoMmtIcGRpal9rcnhVdUdJOTgxLXlMaFNzYlJLWDl0YjB1YU1sNTNQRDhLSlZqNXFaS25pejl6RGtNU1E4Qk9UNEs1UTdfSnlGQ0dRRnNYVllYNG8tSVVURkJPbEFnNWFEX3NHQnQ4a3hUejFhd0Q5OFBySlBYXzZxOFk0ZXEzdHNIejQtTkkwUlNHMldieG1MSzYzTXlVeDNhdFdZUFVBVVBRWWwyaTltTmlWYVVtRm95VGFpTHA5QVZNcXU0a2UyNV9vQW5OalU5WmlTTE4yZXNhTEtGaGNXTERqLUtFcGluRWtoYjJNUkloYTZQeGpkNU5uMm5lSHdwSi1iR0w3VldRbHlYQWh0Q192bkFHTjFXVENZdVcxVk04LWtSVjU4eTJxVnBUaUNpR0xmT1o0NmdMTDNhOFNUVExTb2ljS0MzMExILTRCNTY5WWRFakcwSl9aOE8zLVZCRllNVlVtcDRzSktSRGVJOVZocm9XbVN2bUd6X2xnb0ZMQzhwTjE0Q3I1YkV0RE1mRlAyUEc0LVJTNWlnS3VqaV80em8tajBsTGFIamNYOVA4dFJUQUhnQllSVlE2M0tTTkFfT0pCZ3hzNmZ4MU9Nb0g4eC1BYi1PVFJHSzZINjJJRlh1WXByRXBwYzBENTVUTHcteEkteXRrZ1Fuelk?oc=5) · 新浪财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
