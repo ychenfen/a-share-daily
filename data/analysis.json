@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12 17:00",
-  "score": 10,
+  "generated_at": "2026-10-12 19:15",
+  "score": 11,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.06%",
-      "contribution": -0.4,
+      "value": "富时 A50 +0.10%",
+      "contribution": 0.6,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6939 (-0.00%) / DXY 102.32 (+0.00%)",
-      "contribution": 0.0,
+      "value": "USD/CNH 6.6941 (+0.00%) / DXY 102.43 (+0.12%)",
+      "contribution": -0.6,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -98,7 +98,7 @@
     {
       "title": "高盛重新看多全球股市，中长期转向超配债券，称有望从拖累变为对冲",
       "source": "富途牛牛",
-      "published": "Mon, 12 Oct 2026 07:58:06 GMT",
+      "published": "Mon, 12 Oct 2026 09:00:29 GMT",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUENEWXdxaWFXTGIyS0VwQUR3OXRacm9MTGhyYW1jOVJqQ0FYSTdmMjJ3eE9xRm5wS2drc3lMNTJtelRrV05GU3dXVzY4V0VOMVpCSnlnOHJTVElheHg4VVdGeUhFOGppa0lNTkVEUWtjZDJCZ1cyaXN1c200aGc0amNPcWpnTTF1RzB2MkpHRGtEZDBUSzN6QUQ3TlpYWTBHQ2Qw?oc=5"
     },
     {
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.32 / +0.00%",
+          "value": "102.43 / +0.12%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6939 / -0.00%",
+          "value": "6.6941 / +0.00%",
           "state": "fresh"
         }
       ],
@@ -171,13 +171,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "92.50 / +0.71%",
+          "value": "93.02 / +1.28%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,197.88 / -0.44%",
+          "value": "4,196.23 / -0.48%",
           "state": "fresh"
         },
         {
@@ -217,7 +217,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.32 / +0.00%",
+          "value": "102.43 / +0.12%",
           "state": "fresh"
         },
         {
@@ -252,13 +252,13 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,197.88 / -0.44%",
+          "value": "4,196.23 / -0.48%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "92.50 / +0.71%",
+          "value": "93.02 / +1.28%",
           "state": "fresh"
         }
       ],
@@ -281,19 +281,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.32 / +0.00%",
+          "value": "102.43 / +0.12%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6939 / -0.00%",
+          "value": "6.6941 / +0.00%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,741.64 / -0.06%",
+          "value": "13,763.99 / +0.10%",
           "state": "fresh"
         }
       ],
