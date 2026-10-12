@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13 00:41",
+  "generated_at": "2026-10-13 05:18",
   "score": 4,
   "stance": "中性等待",
   "color": "#8c959f",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.27%",
-      "contribution": 1.9,
+      "value": "6 个市场均值 +0.21%",
+      "contribution": 1.5,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.08%",
-      "contribution": -0.5,
+      "value": "富时 A50 -0.15%",
+      "contribution": -0.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6950 (+0.01%) / DXY 102.58 (+0.26%)",
-      "contribution": -1.5,
+      "value": "USD/CNH 6.6946 (-0.00%) / DXY 102.57 (+0.00%)",
+      "contribution": 0.0,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -78,6 +78,12 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QTE0ydzJQUzJDc1BNdm05dXlFQTdpMndReThJZkRxV2d2ZUtwbk5VSFdVaWpIX3dySmo5eVdFYjhnZWZfWjBqYzRHMjVJT0haSlp4Y2p3?oc=5"
     },
     {
+      "title": "光环褪去！韩股成交腰斩、外资撤离，韩国央行释放通胀与加息信号",
+      "source": "新浪财经",
+      "published": "Mon, 12 Oct 2026 05:40:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQejZXNExRYkE5WkxYRGFDLW04UzhQS21KZVllMGMwQXBNSVdtbE45M2tsN1hWS05CS2lHbmYyaC1aZ1RWZnJKd1FWREstTjRaVGF6bzlaUFQwQWJIYzBvMzRJWXZDd0NUYkd3UmRrYlpfTW1PcWR5YnpZVTV6alg4NjgxRTNlZnZ4WGs1d3duVGtqcWF1cS1LMzExaFBYT3ZJUkQ3ZEdXSk1wdnRuTzBPRU1OalpTY21TUDFxMzVWeEtLbl8xdHFmQ0oxNzdlRk1yc2F3R2ROT19aN0VISmxrUTZZN2VpZW8?oc=5"
+    },
+    {
       "title": "美银Hartnett：加息反成最大利好，债券终结泡沫逻辑正在蔓延|美联储|美股|韩国|法国|美国",
       "source": "新浪财经",
       "published": "Mon, 12 Oct 2026 03:37:57 GMT",
@@ -112,12 +118,6 @@
       "source": "新浪财经",
       "published": "Mon, 12 Oct 2026 01:33:30 GMT",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmlwYXRaRHUyZlo4eW1fdTBpcGRJLTRBLWswVlZaSFlGbWtXSHg3Wk5uWkE0aWpTdUc5a01ucEwxQ0llQVk3cjFqOVYyTmtaNXlXa2M4cjFJVVhxWkoxZmlka290TGp4ZC14dXJlRjdIY0JvRXlYYzVSY2dBMkRUMmZaZjdXTTQ?oc=5"
-    },
-    {
-      "title": "全球债市抛售“替央行加息”：收益率飙破4%创2000年来最高，八大经济体加息预期骤降近200基点",
-      "source": "Moomoo",
-      "published": "Sun, 11 Oct 2026 22:57:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PRlkzRnpJclZ1bU5XekNENWJlNWp6Nmh0eFA0ZzFkcGg5UFJPMzZjTHlBVEViSGEtazJxbm1oRXhvZF9PWWh0VzlVY3F0YTNYNVd0blRyQ2c1Vk1S?oc=5"
     }
   ],
   "events": [
@@ -137,27 +137,67 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.58 / +0.26%",
+          "value": "102.57 / +0.00%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6950 / +0.01%",
+          "value": "6.6946 / -0.00%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "光环褪去！韩股成交腰斩、外资撤离，韩国央行释放通胀与加息信号",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQejZXNExRYkE5WkxYRGFDLW04UzhQS21KZVllMGMwQXBNSVdtbE45M2tsN1hWS05CS2lHbmYyaC1aZ1RWZnJKd1FWREstTjRaVGF6bzlaUFQwQWJIYzBvMzRJWXZDd0NUYkd3UmRrYlpfTW1PcWR5YnpZVTV6alg4NjgxRTNlZnZ4WGs1d3duVGtqcWF1cS1LMzExaFBYT3ZJUkQ3ZEdXSk1wdnRuTzBPRU1OalpTY21TUDFxMzVWeEtLbl8xdHFmQ0oxNzdlRk1yc2F3R2ROT19aN0VISmxrUTZZN2VpZW8?oc=5"
+        },
+        {
           "title": "美银Hartnett：加息反成最大利好，债券终结泡沫逻辑正在蔓延|美联储|美股|韩国|法国|美国",
           "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zNjZRbWkwYVZwX1BKNGhIem1ydXJ0Tk1FQTBWVmhlTGV0bHppQlUtek16RTZuS2FkMWpQbEsycUhOYm5Vem1EX0d1MzIyNEQtNi1pSUJRWDduQ3c1dXYzckoyVWMtdjZ4YnVyaG9nWW5wWGRwbFpFMQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "inflation",
+      "label": "通胀与就业",
+      "headline_count": 2,
+      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
         },
         {
-          "title": "英央行鹰派支撑叠加美元小幅走弱，英镑/美元连续三日反弹",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcF9Dc3IwSmRQYUZWLWxCaXlDUDRnWm5xbFIwbzdEOTNSX21oc1VVbHBBS09hYVlCSFdiMU9tNHdad3VZUzRPMzlXRnpSVVZaSDBzRHlVMlVRaUE0cE5WeFdEWW5BYkRZX1ZNZkRLeHMycjBCQms1Sngzalhva0FRdjVEXzJXeHVaVWpjMVlpcDF3aDdmSFVRR3ZKTm14U3FUczk3WW13N0JUX2tKcFpiaEFoMEFncTh0?oc=5"
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.57 / +0.00%",
+          "state": "fresh"
+        },
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "27,245.90 / -0.44%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+      "headlines": [
+        {
+          "title": "光环褪去！韩股成交腰斩、外资撤离，韩国央行释放通胀与加息信号",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQejZXNExRYkE5WkxYRGFDLW04UzhQS21KZVllMGMwQXBNSVdtbE45M2tsN1hWS05CS2lHbmYyaC1aZ1RWZnJKd1FWREstTjRaVGF6bzlaUFQwQWJIYzBvMzRJWXZDd0NUYkd3UmRrYlpfTW1PcWR5YnpZVTV6alg4NjgxRTNlZnZ4WGs1d3duVGtqcWF1cS1LMzExaFBYT3ZJUkQ3ZEdXSk1wdnRuTzBPRU1OalpTY21TUDFxMzVWeEtLbl8xdHFmQ0oxNzdlRk1yc2F3R2ROT19aN0VISmxrUTZZN2VpZW8?oc=5"
+        },
+        {
+          "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mbWtpRTE5Vy1hblBiSEtkakxvbk1MakZJaTRTSXBoOGdKTXlXUU5WV25FbkFVekU1RlBsTTBaRzd6aUpyd2Vmc3J3clVrclkyVG1wS1BtUC1iNzl0MGhicE82aTFVUjZUQ09mc0poV2dvQXZx?oc=5"
         }
       ]
     },
@@ -171,13 +211,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "93.73 / +2.04%",
+          "value": "93.29 / +1.57%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,186.83 / -0.70%",
+          "value": "4,194.48 / -0.52%",
           "state": "fresh"
         },
         {
@@ -202,41 +242,6 @@
       ]
     },
     {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 1,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.58 / +0.26%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "27,290.90 / -0.28%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mbWtpRTE5Vy1hblBiSEtkakxvbk1MakZJaTRTSXBoOGdKTXlXUU5WV25FbkFVekU1RlBsTTBaRzd6aUpyd2Vmc3J3clVrclkyVG1wS1BtUC1iNzl0MGhicE82aTFVUjZUQ09mc0poV2dvQXZx?oc=5"
-        }
-      ]
-    },
-    {
       "key": "currency",
       "label": "美元与人民币",
       "headline_count": 1,
@@ -246,19 +251,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.58 / +0.26%",
+          "value": "102.57 / +0.00%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6950 / +0.01%",
+          "value": "6.6946 / -0.00%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,739.50 / -0.08%",
+          "value": "13,730.00 / -0.15%",
           "state": "fresh"
         }
       ],
