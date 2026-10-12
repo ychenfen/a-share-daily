@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12 19:15",
-  "score": 11,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
+  "generated_at": "2026-10-13 00:41",
+  "score": 4,
+  "stance": "中性等待",
+  "color": "#8c959f",
   "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.73%",
-      "contribution": 5.1,
+      "value": "6 个市场均值 +0.27%",
+      "contribution": 1.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.10%",
-      "contribution": 0.6,
+      "value": "富时 A50 -0.08%",
+      "contribution": -0.5,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6941 (+0.00%) / DXY 102.43 (+0.12%)",
-      "contribution": -0.6,
+      "value": "USD/CNH 6.6950 (+0.01%) / DXY 102.58 (+0.26%)",
+      "contribution": -1.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,20 +57,26 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 3 / 风险词 4",
-      "contribution": -2,
+      "value": "正向词 2 / 风险词 4",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 3,
+    "positive_hits": 2,
     "negative_hits": 4,
-    "score": -2
+    "score": -4
   },
   "news": [
+    {
+      "title": "高盛三个月看多全球股市，棒铃策略曝光(行情)-更新中",
+      "source": "中财网",
+      "published": "Mon, 12 Oct 2026 07:23:12 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QTE0ydzJQUzJDc1BNdm05dXlFQTdpMndReThJZkRxV2d2ZUtwbk5VSFdVaWpIX3dySmo5eVdFYjhnZWZfWjBqYzRHMjVJT0haSlp4Y2p3?oc=5"
+    },
     {
       "title": "美银Hartnett：加息反成最大利好，债券终结泡沫逻辑正在蔓延|美联储|美股|韩国|法国|美国",
       "source": "新浪财经",
@@ -98,7 +104,7 @@
     {
       "title": "高盛重新看多全球股市，中长期转向超配债券，称有望从拖累变为对冲",
       "source": "富途牛牛",
-      "published": "Mon, 12 Oct 2026 09:00:29 GMT",
+      "published": "Mon, 12 Oct 2026 08:35:27 GMT",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUENEWXdxaWFXTGIyS0VwQUR3OXRacm9MTGhyYW1jOVJqQ0FYSTdmMjJ3eE9xRm5wS2drc3lMNTJtelRrV05GU3dXVzY4V0VOMVpCSnlnOHJTVElheHg4VVdGeUhFOGppa0lNTkVEUWtjZDJCZ1cyaXN1c200aGc0amNPcWpnTTF1RzB2MkpHRGtEZDBUSzN6QUQ3TlpYWTBHQ2Qw?oc=5"
     },
     {
@@ -108,16 +114,10 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmlwYXRaRHUyZlo4eW1fdTBpcGRJLTRBLWswVlZaSFlGbWtXSHg3Wk5uWkE0aWpTdUc5a01ucEwxQ0llQVk3cjFqOVYyTmtaNXlXa2M4cjFJVVhxWkoxZmlka290TGp4ZC14dXJlRjdIY0JvRXlYYzVSY2dBMkRUMmZaZjdXTTQ?oc=5"
     },
     {
-      "title": "全球黄金ETF资金创纪录涌入叠加地缘局势不确定性支撑金价反弹",
+      "title": "全球债市抛售“替央行加息”：收益率飙破4%创2000年来最高，八大经济体加息预期骤降近200基点",
       "source": "Moomoo",
-      "published": "Mon, 12 Oct 2026 03:19:38 GMT",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTVUYjQ1VmFfeU1QX0FoeTBQdENOamxoMnRUdEhFTEpBVW9fZjh3RXpFNEFmeUM4b01QMHJDRXZfVnFqYjZadWVMSHNkalE4NTA3T1BFN2lxcEZyRmdJM1ZiSUQtX1o3YjRhVmkyVk9zbTdObnh3QUxsaWlwWThnNEdMWnNSSDhZQ0s0MXcwREMzM2RCSDNNdC11LWVYNnNsSnpvbGFUWG51ckR4d2hUUUpjYXpFZ21VR1VLYUJkTWJ1YWh3?oc=5"
-    },
-    {
-      "title": "债市抛售潮带来“意外转机”：全球央行加息次数有望减少？",
-      "source": "富途牛牛",
-      "published": "Mon, 12 Oct 2026 01:23:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXJta0s1cHhtWkpEcUg5U0cwQlkyTkhud28tQnAyQTNVMk42VkJHRVZzZDBGTjc5b0YxbFRnUlpWcU1rcW4wV2xLQno3Vk1iaUxjWnNlbDhKU3UyTXdwVzRGT1NJSkMtMi15dE5kaEJpYUVoUUVESmVtVVZqREVzYlgxZUhpa0piYTVWRUxHRXh5YVM0bFJMdmE3eHFOR05FSEtoeHh0dw?oc=5"
+      "published": "Sun, 11 Oct 2026 22:57:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PRlkzRnpJclZ1bU5XekNENWJlNWp6Nmh0eFA0ZzFkcGg5UFJPMzZjTHlBVEViSGEtazJxbm1oRXhvZF9PWWh0VzlVY3F0YTNYNVd0blRyQ2c1Vk1S?oc=5"
     }
   ],
   "events": [
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.43 / +0.12%",
+          "value": "102.58 / +0.26%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6941 / +0.00%",
+          "value": "6.6950 / +0.01%",
           "state": "fresh"
         }
       ],
@@ -164,20 +164,20 @@
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "93.02 / +1.28%",
+          "value": "93.73 / +2.04%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,196.23 / -0.48%",
+          "value": "4,186.83 / -0.70%",
           "state": "fresh"
         },
         {
@@ -217,13 +217,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.43 / +0.12%",
+          "value": "102.58 / +0.26%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "27,366.17 / +0.64%",
+          "value": "27,290.90 / -0.28%",
           "state": "fresh"
         }
       ],
@@ -237,41 +237,6 @@
       ]
     },
     {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
-      "headline_count": 1,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-      "watch": [
-        {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
-          "state": "stale"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,196.23 / -0.48%",
-          "state": "fresh"
-        },
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "93.02 / +1.28%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "全球黄金ETF资金创纪录涌入叠加地缘局势不确定性支撑金价反弹",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTVUYjQ1VmFfeU1QX0FoeTBQdENOamxoMnRUdEhFTEpBVW9fZjh3RXpFNEFmeUM4b01QMHJDRXZfVnFqYjZadWVMSHNkalE4NTA3T1BFN2lxcEZyRmdJM1ZiSUQtX1o3YjRhVmkyVk9zbTdObnh3QUxsaWlwWThnNEdMWnNSSDhZQ0s0MXcwREMzM2RCSDNNdC11LWVYNnNsSnpvbGFUWG51ckR4d2hUUUpjYXpFZ21VR1VLYUJkTWJ1YWh3?oc=5"
-        }
-      ]
-    },
-    {
       "key": "currency",
       "label": "美元与人民币",
       "headline_count": 1,
@@ -281,19 +246,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.43 / +0.12%",
+          "value": "102.58 / +0.26%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6941 / +0.00%",
+          "value": "6.6950 / +0.01%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,763.99 / +0.10%",
+          "value": "13,739.50 / -0.08%",
           "state": "fresh"
         }
       ],
