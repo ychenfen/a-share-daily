@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13 05:18",
-  "score": 4,
+  "generated_at": "2026-10-13 11:02",
+  "score": 1,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.21%",
-      "contribution": 1.5,
+      "value": "6 个市场均值 +0.02%",
+      "contribution": 0.1,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.15%",
-      "contribution": -0.9,
+      "value": "富时 A50 -1.24%",
+      "contribution": -7.5,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6946 (-0.00%) / DXY 102.57 (+0.00%)",
-      "contribution": 0.0,
+      "value": "USD/CNH 6.6960 (+0.02%) / DXY 102.41 (-0.16%)",
+      "contribution": 0.6,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 4",
-      "contribution": -4,
+      "value": "正向词 3 / 风险词 3",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,11 +66,17 @@
     "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 2,
-    "negative_hits": 4,
-    "score": -4
+    "positive_hits": 3,
+    "negative_hits": 3,
+    "score": 0
   },
   "news": [
+    {
+      "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
+      "source": "凤凰网",
+      "published": "Tue, 13 Oct 2026 00:46:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
+    },
     {
       "title": "高盛三个月看多全球股市，棒铃策略曝光(行情)-更新中",
       "source": "中财网",
@@ -96,12 +102,6 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcF9Dc3IwSmRQYUZWLWxCaXlDUDRnWm5xbFIwbzdEOTNSX21oc1VVbHBBS09hYVlCSFdiMU9tNHdad3VZUzRPMzlXRnpSVVZaSDBzRHlVMlVRaUE0cE5WeFdEWW5BYkRZX1ZNZkRLeHMycjBCQms1Sngzalhva0FRdjVEXzJXeHVaVWpjMVlpcDF3aDdmSFVRR3ZKTm14U3FUczk3WW13N0JUX2tKcFpiaEFoMEFncTh0?oc=5"
     },
     {
-      "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-      "source": "金融界",
-      "published": "Sun, 11 Oct 2026 23:45:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mbWtpRTE5Vy1hblBiSEtkakxvbk1MakZJaTRTSXBoOGdKTXlXUU5WV25FbkFVekU1RlBsTTBaRzd6aUpyd2Vmc3J3clVrclkyVG1wS1BtUC1iNzl0MGhicE82aTFVUjZUQ09mc0poV2dvQXZx?oc=5"
-    },
-    {
       "title": "基金市场概况与资产配置观点（09.28—10.07）",
       "source": "潮起网",
       "published": "Mon, 12 Oct 2026 04:31:03 GMT",
@@ -114,10 +114,10 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUENEWXdxaWFXTGIyS0VwQUR3OXRacm9MTGhyYW1jOVJqQ0FYSTdmMjJ3eE9xRm5wS2drc3lMNTJtelRrV05GU3dXVzY4V0VOMVpCSnlnOHJTVElheHg4VVdGeUhFOGppa0lNTkVEUWtjZDJCZ1cyaXN1c200aGc0amNPcWpnTTF1RzB2MkpHRGtEZDBUSzN6QUQ3TlpYWTBHQ2Qw?oc=5"
     },
     {
-      "title": "AI油价双扰动丨财富周报",
-      "source": "新浪财经",
-      "published": "Mon, 12 Oct 2026 01:33:30 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmlwYXRaRHUyZlo4eW1fdTBpcGRJLTRBLWswVlZaSFlGbWtXSHg3Wk5uWkE0aWpTdUc5a01ucEwxQ0llQVk3cjFqOVYyTmtaNXlXa2M4cjFJVVhxWkoxZmlka290TGp4ZC14dXJlRjdIY0JvRXlYYzVSY2dBMkRUMmZaZjdXTTQ?oc=5"
+      "title": "全球黄金ETF资金创纪录涌入叠加地缘局势不确定性支撑金价反弹",
+      "source": "Moomoo",
+      "published": "Mon, 12 Oct 2026 03:19:38 GMT",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTVUYjQ1VmFfeU1QX0FoeTBQdENOamxoMnRUdEhFTEpBVW9fZjh3RXpFNEFmeUM4b01QMHJDRXZfVnFqYjZadWVMSHNkalE4NTA3T1BFN2lxcEZyRmdJM1ZiSUQtX1o3YjRhVmkyVk9zbTdObnh3QUxsaWlwWThnNEdMWnNSSDhZQ0s0MXcwREMzM2RCSDNNdC11LWVYNnNsSnpvbGFUWG51ckR4d2hUUUpjYXpFZ21VR1VLYUJkTWJ1YWh3?oc=5"
     }
   ],
   "events": [
@@ -137,34 +137,34 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.57 / +0.00%",
+          "value": "102.41 / -0.16%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6946 / -0.00%",
+          "value": "6.6960 / +0.02%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
+          "source": "凤凰网",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
+        },
+        {
           "title": "光环褪去！韩股成交腰斩、外资撤离，韩国央行释放通胀与加息信号",
           "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQejZXNExRYkE5WkxYRGFDLW04UzhQS21KZVllMGMwQXBNSVdtbE45M2tsN1hWS05CS2lHbmYyaC1aZ1RWZnJKd1FWREstTjRaVGF6bzlaUFQwQWJIYzBvMzRJWXZDd0NUYkd3UmRrYlpfTW1PcWR5YnpZVTV6alg4NjgxRTNlZnZ4WGs1d3duVGtqcWF1cS1LMzExaFBYT3ZJUkQ3ZEdXSk1wdnRuTzBPRU1OalpTY21TUDFxMzVWeEtLbl8xdHFmQ0oxNzdlRk1yc2F3R2ROT19aN0VISmxrUTZZN2VpZW8?oc=5"
-        },
-        {
-          "title": "美银Hartnett：加息反成最大利好，债券终结泡沫逻辑正在蔓延|美联储|美股|韩国|法国|美国",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zNjZRbWkwYVZwX1BKNGhIem1ydXJ0Tk1FQTBWVmhlTGV0bHppQlUtek16RTZuS2FkMWpQbEsycUhOYm5Vem1EX0d1MzIyNEQtNi1pSUJRWDduQ3c1dXYzckoyVWMtdjZ4YnVyaG9nWW5wWGRwbFpFMQ?oc=5"
         }
       ]
     },
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -177,7 +177,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.57 / +0.00%",
+          "value": "102.41 / -0.16%",
           "state": "fresh"
         },
         {
@@ -193,31 +193,61 @@
           "title": "光环褪去！韩股成交腰斩、外资撤离，韩国央行释放通胀与加息信号",
           "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQejZXNExRYkE5WkxYRGFDLW04UzhQS21KZVllMGMwQXBNSVdtbE45M2tsN1hWS05CS2lHbmYyaC1aZ1RWZnJKd1FWREstTjRaVGF6bzlaUFQwQWJIYzBvMzRJWXZDd0NUYkd3UmRrYlpfTW1PcWR5YnpZVTV6alg4NjgxRTNlZnZ4WGs1d3duVGtqcWF1cS1LMzExaFBYT3ZJUkQ3ZEdXSk1wdnRuTzBPRU1OalpTY21TUDFxMzVWeEtLbl8xdHFmQ0oxNzdlRk1yc2F3R2ROT19aN0VISmxrUTZZN2VpZW8?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "label": "地缘与贸易",
+      "headline_count": 1,
+      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
+      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
+      "watch": [
+        {
+          "code": "VIX",
+          "label": "VIX",
+          "value": "15.44",
+          "state": "stale"
         },
         {
-          "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mbWtpRTE5Vy1hblBiSEtkakxvbk1MakZJaTRTSXBoOGdKTXlXUU5WV25FbkFVekU1RlBsTTBaRzd6aUpyd2Vmc3J3clVrclkyVG1wS1BtUC1iNzl0MGhicE82aTFVUjZUQ09mc0poV2dvQXZx?oc=5"
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,200.73 / +0.24%",
+          "state": "fresh"
+        },
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "92.36 / -1.47%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
+      "headlines": [
+        {
+          "title": "全球黄金ETF资金创纪录涌入叠加地缘局势不确定性支撑金价反弹",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTVUYjQ1VmFfeU1QX0FoeTBQdENOamxoMnRUdEhFTEpBVW9fZjh3RXpFNEFmeUM4b01QMHJDRXZfVnFqYjZadWVMSHNkalE4NTA3T1BFN2lxcEZyRmdJM1ZiSUQtX1o3YjRhVmkyVk9zbTdObnh3QUxsaWlwWThnNEdMWnNSSDhZQ0s0MXcwREMzM2RCSDNNdC11LWVYNnNsSnpvbGFUWG51ckR4d2hUUUpjYXpFZ21VR1VLYUJkTWJ1YWh3?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "93.29 / +1.57%",
+          "value": "92.36 / -1.47%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,194.48 / -0.52%",
+          "value": "4,200.73 / +0.24%",
           "state": "fresh"
         },
         {
@@ -230,14 +260,9 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "一周展望：CPI考验美联储暂停加息预期，黄金“原地打转”方向仍不明朗？",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mbWtpRTE5Vy1hblBiSEtkakxvbk1MakZJaTRTSXBoOGdKTXlXUU5WV25FbkFVekU1RlBsTTBaRzd6aUpyd2Vmc3J3clVrclkyVG1wS1BtUC1iNzl0MGhicE82aTFVUjZUQ09mc0poV2dvQXZx?oc=5"
-        },
-        {
-          "title": "AI油价双扰动丨财富周报",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmlwYXRaRHUyZlo4eW1fdTBpcGRJLTRBLWswVlZaSFlGbWtXSHg3Wk5uWkE0aWpTdUc5a01ucEwxQ0llQVk3cjFqOVYyTmtaNXlXa2M4cjFJVVhxWkoxZmlka290TGp4ZC14dXJlRjdIY0JvRXlYYzVSY2dBMkRUMmZaZjdXTTQ?oc=5"
+          "title": "全球黄金ETF资金创纪录涌入叠加地缘局势不确定性支撑金价反弹",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTVUYjQ1VmFfeU1QX0FoeTBQdENOamxoMnRUdEhFTEpBVW9fZjh3RXpFNEFmeUM4b01QMHJDRXZfVnFqYjZadWVMSHNkalE4NTA3T1BFN2lxcEZyRmdJM1ZiSUQtX1o3YjRhVmkyVk9zbTdObnh3QUxsaWlwWThnNEdMWnNSSDhZQ0s0MXcwREMzM2RCSDNNdC11LWVYNnNsSnpvbGFUWG51ckR4d2hUUUpjYXpFZ21VR1VLYUJkTWJ1YWh3?oc=5"
         }
       ]
     },
@@ -251,19 +276,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.57 / +0.00%",
+          "value": "102.41 / -0.16%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6946 / -0.00%",
+          "value": "6.6960 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,730.00 / -0.15%",
+          "value": "13,579.16 / -1.24%",
           "state": "fresh"
         }
       ],
