@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13 18:58",
-  "score": 11,
+  "generated_at": "2026-10-13 22:58",
+  "score": 8,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -9,38 +9,38 @@
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.05%",
-      "contribution": 0.4,
+      "value": "上证 +0.10%",
+      "contribution": 0.8,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 3347 / 跌 2159",
-      "contribution": 4.3,
+      "value": "涨 2938 / 跌 2515",
+      "contribution": 1.6,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 69 / 跌停 8 / 炸板率 16.9%",
-      "contribution": 8.1,
+      "value": "涨停 67 / 跌停 8 / 炸板率 22.1%",
+      "contribution": 7.1,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.22%",
-      "contribution": 1.5,
+      "value": "6 个市场均值 +0.27%",
+      "contribution": 1.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.09%",
-      "contribution": 0.5,
+      "value": "富时 A50 -0.05%",
+      "contribution": -0.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6938 (-0.01%) / DXY 102.31 (-0.26%)",
-      "contribution": 1.4,
+      "value": "USD/CNH 6.6924 (-0.03%) / DXY 102.24 (-0.33%)",
+      "contribution": 2.0,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,23 +72,29 @@
   },
   "news": [
     {
+      "title": "黄金大买家，未来3个月要减持！",
+      "source": "新浪网",
+      "published": "Tue, 13 Oct 2026 13:00:53 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcGRTaDBwU19CbzB0cmYyZVdtSXRaSU9Qd2V0WWRRdnFVeDNzZEJzMUQ3b0s4OEU3Q2VVSkh2V2t2VjgtWTlHZjR3R2dTS255cWxvVkVUc3BSRWdiWG51dmpkdy1hVVBMLVFZSDFDaUZwM1EwRzk1bTFkLUNwdTRtTTNB?oc=5"
+    },
+    {
       "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
       "source": "凤凰网财经",
       "published": "Tue, 13 Oct 2026 00:46:22 GMT",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
     },
     {
-      "title": "全球最大资管“转向”：看多短期美债，下调美股",
+      "title": "欧洲央行被迫“投降”？法债风暴正在改写欧元剧本",
       "source": "富途牛牛",
-      "published": "Tue, 13 Oct 2026 02:10:15 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNE5iamtqNkRQN3hCR3BCX0NPbWZxblc3bUpxbE96MFlNZlJBam1lOXpqYVI0WmtQdXhiZXdZQ20yZWNuT2UySnNlRjZIaFFuQTZKYlh6eGZmcXJGOWIySWFQOXlKM2luZzMwSHI5cHFJSTlqTzdnR3RrZmZQMzhrcVNaTjVVZmxSRm5mckpvQk4wT1RCN1ZrNlZTbV9jZ2R0Ymc?oc=5"
+      "published": "Tue, 13 Oct 2026 12:59:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcF9ZZ0J4MlhObzRhNzNheW5iak5XaXpvSnFHZWtxS0pENmNISEhZcV9neE54Q1Eyd3diUURKSTBlWmJSMmI1dWVhaGtJNG1adDlJMVZlTWJxV0lxVFJkZEctT01reGtCbDVOTFlJdUNxTXlOSmRvZWxwY05odi1ZTDZZNGxseU1hQTNQSDJRQkdoVmtQU2k0?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -101,13 +107,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.31 / -0.26%",
+          "value": "102.24 / -0.33%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6938 / -0.01%",
+          "value": "6.6924 / -0.03%",
           "state": "fresh"
         }
       ],
@@ -117,6 +123,46 @@
           "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
           "source": "凤凰网财经",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
+        },
+        {
+          "title": "欧洲央行被迫“投降”？法债风暴正在改写欧元剧本",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcF9ZZ0J4MlhObzRhNzNheW5iak5XaXpvSnFHZWtxS0pENmNISEhZcV9neE54Q1Eyd3diUURKSTBlWmJSMmI1dWVhaGtJNG1adDlJMVZlTWJxV0lxVFJkZEctT01reGtCbDVOTFlJdUNxTXlOSmRvZWxwY05odi1ZTDZZNGxseU1hQTNQSDJRQkdoVmtQU2k0?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "93.91 / +0.18%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,189.99 / -0.01%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "黄金大买家，未来3个月要减持！",
+          "source": "新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcGRTaDBwU19CbzB0cmYyZVdtSXRaSU9Qd2V0WWRRdnFVeDNzZEJzMUQ3b0s4OEU3Q2VVSkh2V2t2VjgtWTlHZjR3R2dTS255cWxvVkVUc3BSRWdiWG51dmpkdy1hVVBMLVFZSDFDaUZwM1EwRzk1bTFkLUNwdTRtTTNB?oc=5"
         }
       ]
     }
