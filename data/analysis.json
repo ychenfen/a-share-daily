@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13 22:58",
-  "score": 8,
+  "generated_at": "2026-10-14 03:21",
+  "score": 9,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.27%",
-      "contribution": 1.9,
+      "value": "6 个市场均值 +0.32%",
+      "contribution": 2.2,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.05%",
-      "contribution": -0.3,
+      "value": "富时 A50 -0.02%",
+      "contribution": -0.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6924 (-0.03%) / DXY 102.24 (-0.33%)",
-      "contribution": 2.0,
+      "value": "USD/CNH 6.6931 (-0.02%) / DXY 102.19 (-0.37%)",
+      "contribution": 2.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
+      "value": "正向词 1 / 风险词 1",
       "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,11 +66,17 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 0,
+    "positive_hits": 1,
+    "negative_hits": 1,
     "score": 0
   },
   "news": [
+    {
+      "title": "美银抛出“反直觉”预测：美联储10月加息将成美股最大利好 港美股资讯",
+      "source": "华盛通",
+      "published": "Tue, 13 Oct 2026 12:13:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95WE5BdE1Sc0k2WTNwMWZlZFVSWExFVDhGOU12OFVZa0s4ZWJlY0NjdENGM3NFcEhNZW1abDFMUGtEOUNMMEk4M19vZHRwNFBmUnlxNkFGSFphdWxhTEV4bXh3?oc=5"
+    },
     {
       "title": "黄金大买家，未来3个月要减持！",
       "source": "新浪网",
@@ -94,7 +100,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -107,27 +113,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.24 / -0.33%",
+          "value": "102.19 / -0.37%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6924 / -0.03%",
+          "value": "6.6931 / -0.02%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "美银抛出“反直觉”预测：美联储10月加息将成美股最大利好 港美股资讯",
+          "source": "华盛通",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95WE5BdE1Sc0k2WTNwMWZlZFVSWExFVDhGOU12OFVZa0s4ZWJlY0NjdENGM3NFcEhNZW1abDFMUGtEOUNMMEk4M19vZHRwNFBmUnlxNkFGSFphdWxhTEV4bXh3?oc=5"
+        },
+        {
           "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
           "source": "凤凰网财经",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
-        },
-        {
-          "title": "欧洲央行被迫“投降”？法债风暴正在改写欧元剧本",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcF9ZZ0J4MlhObzRhNzNheW5iak5XaXpvSnFHZWtxS0pENmNISEhZcV9neE54Q1Eyd3diUURKSTBlWmJSMmI1dWVhaGtJNG1adDlJMVZlTWJxV0lxVFJkZEctT01reGtCbDVOTFlJdUNxTXlOSmRvZWxwY05odi1ZTDZZNGxseU1hQTNQSDJRQkdoVmtQU2k0?oc=5"
         }
       ]
     },
@@ -141,13 +147,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "93.91 / +0.18%",
+          "value": "94.43 / +0.73%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,189.99 / -0.01%",
+          "value": "4,183.62 / -0.17%",
           "state": "fresh"
         },
         {
