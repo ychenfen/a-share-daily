@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14 09:13",
-  "score": 5,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
+  "generated_at": "2026-10-14 15:25",
+  "score": -2,
+  "stance": "中性等待",
+  "color": "#8c959f",
   "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.29%",
-      "contribution": 2.0,
+      "value": "6 个市场均值 +0.23%",
+      "contribution": 1.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.16%",
-      "contribution": -1.0,
+      "value": "富时 A50 -1.45%",
+      "contribution": -8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6937 (+0.03%) / DXY 102.17 (-0.04%)",
-      "contribution": -0.1,
+      "value": "USD/CNH 6.6927 (+0.01%) / DXY 102.14 (-0.07%)",
+      "contribution": 0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
     "positive_hits": 1,
@@ -71,6 +71,18 @@
     "score": 0
   },
   "news": [
+    {
+      "title": "国投瑞银策略报告| 四季度：紧缩在外、托底在内，极致分化后市场走向均衡-公司动态",
+      "source": "证券市场周刊",
+      "published": "Wed, 14 Oct 2026 01:50:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5md2VuSnlDNkNpZFBUcEREOGVPNmpzX0ZadEpKZGJGeVV4SG43RDB1TTlxUVZDTDU2ak11Tlp1UEIyYTIya2VUazQtOTVZUDNDNW5SbkJvVkI0TnJYNDZCYzJlbW9xdw?oc=5"
+    },
+    {
+      "title": "金十数据全球财经早餐| 2026年10月14日-市场参考",
+      "source": "金十数据",
+      "published": "Tue, 13 Oct 2026 23:54:17 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqbDZnaTRSY1doQXhsV0p6NFE3QVRzMU5rRFdwM2lSQ1oxQkRBVk9NRGplcXJCcExDOU5kX0MtQjVxUWRFT1RpeUJDY18zSG8?oc=5"
+    },
     {
       "title": "美银抛出“反直觉”预测：美联储10月加息将成美股最大利好 港美股资讯",
       "source": "华盛通",
@@ -113,13 +125,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.17 / -0.04%",
+          "value": "102.14 / -0.07%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6937 / +0.03%",
+          "value": "6.6927 / +0.01%",
           "state": "fresh"
         }
       ],
@@ -147,13 +159,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "95.23 / +1.16%",
+          "value": "94.44 / +0.32%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,175.03 / -0.05%",
+          "value": "4,167.21 / -0.24%",
           "state": "fresh"
         },
         {
