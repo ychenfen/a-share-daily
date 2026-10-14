@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14 03:21",
-  "score": 9,
+  "generated_at": "2026-10-14 09:13",
+  "score": 5,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.32%",
-      "contribution": 2.2,
+      "value": "6 个市场均值 +0.29%",
+      "contribution": 2.0,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.02%",
-      "contribution": -0.1,
+      "value": "富时 A50 -0.16%",
+      "contribution": -1.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6931 (-0.02%) / DXY 102.19 (-0.37%)",
-      "contribution": 2.1,
+      "value": "USD/CNH 6.6937 (+0.03%) / DXY 102.17 (-0.04%)",
+      "contribution": -0.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -84,16 +84,16 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcGRTaDBwU19CbzB0cmYyZVdtSXRaSU9Qd2V0WWRRdnFVeDNzZEJzMUQ3b0s4OEU3Q2VVSkh2V2t2VjgtWTlHZjR3R2dTS255cWxvVkVUc3BSRWdiWG51dmpkdy1hVVBMLVFZSDFDaUZwM1EwRzk1bTFkLUNwdTRtTTNB?oc=5"
     },
     {
-      "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
-      "source": "凤凰网财经",
-      "published": "Tue, 13 Oct 2026 00:46:22 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
-    },
-    {
       "title": "欧洲央行被迫“投降”？法债风暴正在改写欧元剧本",
       "source": "富途牛牛",
       "published": "Tue, 13 Oct 2026 12:59:22 GMT",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcF9ZZ0J4MlhObzRhNzNheW5iak5XaXpvSnFHZWtxS0pENmNISEhZcV9neE54Q1Eyd3diUURKSTBlWmJSMmI1dWVhaGtJNG1adDlJMVZlTWJxV0lxVFJkZEctT01reGtCbDVOTFlJdUNxTXlOSmRvZWxwY05odi1ZTDZZNGxseU1hQTNQSDJRQkdoVmtQU2k0?oc=5"
+    },
+    {
+      "title": "诺奖为美联储敲响警钟？沃什削减沟通面临理论挑战",
+      "source": "富途牛牛",
+      "published": "Tue, 13 Oct 2026 12:21:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWUlNVHptUWhXMDFSQmJmOXNaWVhVTGxYZlpnUTVyd2Y0dHZ4bm9LSTRBSnlxRFZXYXFTdHRnYVRMVFNvM2VCdUZpUVQwaEZhdW5sUnkxR1dhSDNHeVJUQkUxTU9nbjBBNjhDN0RVQ3N2ODFOc1kwcjFhczJZN3ppMkJUR1hxb1ZYRkZQOXp2cWJCaE8taFU3c2tWVTh3N0xvaGc?oc=5"
     }
   ],
   "events": [
@@ -113,13 +113,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.19 / -0.37%",
+          "value": "102.17 / -0.04%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6931 / -0.02%",
+          "value": "6.6937 / +0.03%",
           "state": "fresh"
         }
       ],
@@ -131,9 +131,9 @@
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95WE5BdE1Sc0k2WTNwMWZlZFVSWExFVDhGOU12OFVZa0s4ZWJlY0NjdENGM3NFcEhNZW1abDFMUGtEOUNMMEk4M19vZHRwNFBmUnlxNkFGSFphdWxhTEV4bXh3?oc=5"
         },
         {
-          "title": "刚刚，大跌1200点，美联储突发大消息，日韩股市闪崩",
-          "source": "凤凰网财经",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jckIydVl1REZEc3FVQW5iOGp1cXlTU1F1bmlaZTU4cEJkODQ0ckkyMzY5cFIxTU56d0xfeGpNeFdTLWN4VGtXLXZTdU9vT095?oc=5"
+          "title": "欧洲央行被迫“投降”？法债风暴正在改写欧元剧本",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcF9ZZ0J4MlhObzRhNzNheW5iak5XaXpvSnFHZWtxS0pENmNISEhZcV9neE54Q1Eyd3diUURKSTBlWmJSMmI1dWVhaGtJNG1adDlJMVZlTWJxV0lxVFJkZEctT01reGtCbDVOTFlJdUNxTXlOSmRvZWxwY05odi1ZTDZZNGxseU1hQTNQSDJRQkdoVmtQU2k0?oc=5"
         }
       ]
     },
@@ -147,13 +147,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "94.43 / +0.73%",
+          "value": "95.23 / +1.16%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,183.62 / -0.17%",
+          "value": "4,175.03 / -0.05%",
           "state": "fresh"
         },
         {
