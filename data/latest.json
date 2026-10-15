@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15 01:19",
+  "generated_at": "2026-10-15 08:30",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-15 01:19",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-10-15 08:30",
+    "slot": "overnight",
+    "slot_label": "外围收盘",
     "target_date": "2026-10-15",
     "market_data_date": "2026-10-14",
     "market_state": "non_trading",
@@ -15,18 +15,18 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-15 01:19",
+    "generated_at": "2026-10-15 08:30",
     "markets": [
       {
         "code": "SPX",
         "name": "标普 500",
         "region": "美国",
         "kind": "index",
-        "close": 7720.81,
-        "pct": -1.08,
-        "change": -84.64,
+        "close": 7718.94,
+        "pct": -1.11,
+        "change": -86.51,
         "previous_close": 7805.45,
-        "quote_time": "2026-10-14 13:19:40",
+        "quote_time": "2026-10-14 16:36:08",
         "stale": false
       },
       {
@@ -34,11 +34,11 @@
         "name": "纳斯达克",
         "region": "美国",
         "kind": "index",
-        "close": 26756.0,
-        "pct": -1.65,
-        "change": -448.38,
+        "close": 26692.87,
+        "pct": -1.88,
+        "change": -511.51,
         "previous_close": 27204.38,
-        "quote_time": "2026-10-14 13:19:40",
+        "quote_time": "2026-10-14 17:15:59",
         "stale": false
       },
       {
@@ -46,11 +46,11 @@
         "name": "道琼斯",
         "region": "美国",
         "kind": "index",
-        "close": 51515.19,
-        "pct": -0.3,
-        "change": -154.91,
+        "close": 51621.48,
+        "pct": -0.09,
+        "change": -48.62,
         "previous_close": 51670.1,
-        "quote_time": "2026-10-14 13:19:40",
+        "quote_time": "2026-10-14 16:36:17",
         "stale": false
       },
       {
@@ -70,11 +70,11 @@
         "name": "欧洲股票 ETF",
         "region": "欧洲（美股代理）",
         "kind": "ETF proxy",
-        "close": 85.91,
-        "pct": -0.46,
-        "change": -0.4,
+        "close": 85.99,
+        "pct": -0.37,
+        "change": -0.32,
         "previous_close": 86.31,
-        "quote_time": "2026-10-14 13:19:36",
+        "quote_time": "2026-10-14 16:00:01",
         "stale": false
       },
       {
@@ -97,11 +97,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 13423.82,
-        "pct": -0.6599570783689779,
-        "change": -89.18000000000029,
+        "close": 13396.28,
+        "pct": -0.8637608229112637,
+        "change": -116.71999999999935,
         "previous_close": 13513.0,
-        "quote_time": "2026-10-15 01:20:02",
+        "quote_time": "2026-10-15 05:14:29",
         "stale": false
       },
       {
@@ -110,11 +110,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.6973,
-        "pct": 0.07919904363418162,
-        "change": 0.005300000000000082,
-        "previous_close": 6.692,
-        "quote_time": "2026-10-15 01:19:53",
+        "close": 6.6922,
+        "pct": -0.058242857782897506,
+        "change": -0.0039000000000006807,
+        "previous_close": 6.6961,
+        "quote_time": "2026-10-15 08:31:10",
         "stale": false
       },
       {
@@ -123,11 +123,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 102.7443,
-        "pct": 0.5224522381795049,
-        "change": 0.5339999999999918,
-        "previous_close": 102.2103,
-        "quote_time": "2026-10-15 01:20:03",
+        "close": 102.1939,
+        "pct": -0.3271260020306421,
+        "change": -0.335400000000007,
+        "previous_close": 102.5293,
+        "quote_time": "2026-10-15 08:31:12",
         "stale": false
       },
       {
@@ -136,11 +136,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 4102.476,
-        "pct": -1.7912048452349727,
-        "change": -74.82400000000052,
-        "previous_close": 4177.3,
-        "quote_time": "2026-10-15 01:20:09",
+        "close": 4163.872,
+        "pct": 1.3625453394678688,
+        "change": 55.97200000000066,
+        "previous_close": 4107.9,
+        "quote_time": "2026-10-15 08:31:17",
         "stale": false
       },
       {
@@ -149,11 +149,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 95.766,
-        "pct": 1.727214786488207,
-        "change": 1.6260000000000048,
-        "previous_close": 94.14,
-        "quote_time": "2026-10-15 01:20:00",
+        "close": 94.566,
+        "pct": -0.5510568934693483,
+        "change": -0.5240000000000009,
+        "previous_close": 95.09,
+        "quote_time": "2026-10-15 08:31:15",
         "stale": false
       }
     ],
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-15 01:19",
-    "score": -36,
+    "generated_at": "2026-10-15 08:30",
+    "score": -31,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -228,14 +228,14 @@
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 -0.66%",
-        "contribution": -4.0,
+        "value": "富时 A50 -0.86%",
+        "contribution": -5.2,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.6973 (+0.08%) / DXY 102.74 (+0.52%)",
-        "contribution": -3.6,
+        "value": "USD/CNH 6.6922 (-0.06%) / DXY 102.19 (-0.33%)",
+        "contribution": 2.3,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -273,12 +273,6 @@
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3g4ZkJfaG0xMF9idEwxQzQxRzF3MUgxdU5TaElRc1N2aE5LdjJCZDlfNnhZWGtQX0I3WGtINjhaSmdxVV9LMUF0c1h6ZUNxNGItb1poRjMzQ0t4TnlVcUUzQ3VIVmNVOXRhRnZ6VkoxX3VOYjFxX2x4dWJFeEpMVTZYZw?oc=5"
       },
       {
-        "title": "金十数据全球财经早餐| 2026年10月14日-市场参考",
-        "source": "金十数据",
-        "published": "Tue, 13 Oct 2026 23:54:17 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqbDZnaTRSY1doQXhsV0p6NFE3QVRzMU5rRFdwM2lSQ1oxQkRBVk9NRGplcXJCcExDOU5kX0MtQjVxUWRFT1RpeUJDY18zSG8?oc=5"
-      },
-      {
         "title": "国投瑞银策略报告| 四季度：紧缩在外、托底在内，极致分化后市场走向均衡-公司动态",
         "source": "证券市场周刊",
         "published": "Wed, 14 Oct 2026 01:50:00 GMT",
@@ -296,13 +290,13 @@
           {
             "code": "WTI",
             "label": "原油",
-            "value": "95.77 / +1.73%",
+            "value": "94.57 / -0.55%",
             "state": "fresh"
           },
           {
             "code": "GOLD",
             "label": "黄金",
-            "value": "4,102.48 / -1.79%",
+            "value": "4,163.87 / +1.36%",
             "state": "fresh"
           },
           {
@@ -327,11 +321,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-15 01:19",
+    "generated_at": "2026-10-15 08:30",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 128,
+    "signal_count": 129,
     "matured_1d": 125,
     "directional_1d": 106,
     "hit_rate_1d": 66.0,
@@ -368,14 +362,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-15 01:19",
-      "slot": "night",
-      "score": "-36",
+      "captured_at": "2026-10-15 08:30",
+      "slot": "overnight",
+      "score": "-31",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-15 08:30",
+        "slot": "overnight",
+        "signal_date": "2026-10-15",
+        "market_asof_date": "2026-10-14",
+        "score": "-31",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3767.23",
+        "sh_pct": "-0.88",
+        "global_avg": "-0.3673",
+        "a50_pct": "-0.8637608229112637",
+        "usdcnh": "6.6922",
+        "usdcnh_pct": "-0.058242857782897506",
+        "dxy": "102.1939",
+        "dxy_pct": "-0.3271260020306421",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-15 01:19",
         "slot": "night",
@@ -832,31 +851,6 @@
         "signal_date": "2026-10-11",
         "market_asof_date": "2026-10-09",
         "score": "13",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3813.79",
-        "sh_pct": "0.05",
-        "global_avg": "0.9877",
-        "a50_pct": "-0.1733439976732365",
-        "usdcnh": "6.6927",
-        "usdcnh_pct": "-0.15664160401002158",
-        "dxy": "102.2306",
-        "dxy_pct": "0.09791384756379085",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.1,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
-      },
-      {
-        "captured_at": "2026-10-11 09:00",
-        "slot": "overnight",
-        "signal_date": "2026-10-11",
-        "market_asof_date": "2026-10-09",
-        "score": "11",
         "stance": "谨慎偏多",
         "confidence": "中",
         "sh_close": "3813.79",

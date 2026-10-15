@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15 01:19",
-  "score": -36,
+  "generated_at": "2026-10-15 08:30",
+  "score": -31,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.66%",
-      "contribution": -4.0,
+      "value": "富时 A50 -0.86%",
+      "contribution": -5.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6973 (+0.08%) / DXY 102.74 (+0.52%)",
-      "contribution": -3.6,
+      "value": "USD/CNH 6.6922 (-0.06%) / DXY 102.19 (-0.33%)",
+      "contribution": 2.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -78,12 +78,6 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3g4ZkJfaG0xMF9idEwxQzQxRzF3MUgxdU5TaElRc1N2aE5LdjJCZDlfNnhZWGtQX0I3WGtINjhaSmdxVV9LMUF0c1h6ZUNxNGItb1poRjMzQ0t4TnlVcUUzQ3VIVmNVOXRhRnZ6VkoxX3VOYjFxX2x4dWJFeEpMVTZYZw?oc=5"
     },
     {
-      "title": "金十数据全球财经早餐| 2026年10月14日-市场参考",
-      "source": "金十数据",
-      "published": "Tue, 13 Oct 2026 23:54:17 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqbDZnaTRSY1doQXhsV0p6NFE3QVRzMU5rRFdwM2lSQ1oxQkRBVk9NRGplcXJCcExDOU5kX0MtQjVxUWRFT1RpeUJDY18zSG8?oc=5"
-    },
-    {
       "title": "国投瑞银策略报告| 四季度：紧缩在外、托底在内，极致分化后市场走向均衡-公司动态",
       "source": "证券市场周刊",
       "published": "Wed, 14 Oct 2026 01:50:00 GMT",
@@ -101,13 +95,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "95.77 / +1.73%",
+          "value": "94.57 / -0.55%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,102.48 / -1.79%",
+          "value": "4,163.87 / +1.36%",
           "state": "fresh"
         },
         {
