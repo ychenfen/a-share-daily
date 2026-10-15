@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15 16:33",
+  "generated_at": "2026-10-15 20:37",
   "score": -38,
   "stance": "防守优先",
   "color": "#08783e",
@@ -9,20 +9,20 @@
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 -0.88%",
-      "contribution": -7.0,
+      "value": "上证 -1.59%",
+      "contribution": -12.7,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 998 / 跌 4545",
-      "contribution": -12.8,
+      "value": "涨 433 / 跌 5174",
+      "contribution": -16.9,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 36 / 跌停 11 / 炸板率 40.0%",
-      "contribution": -0.8,
+      "value": "涨停 36 / 跌停 26 / 炸板率 16.3%",
+      "contribution": -0.4,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.81%",
-      "contribution": -4.9,
+      "value": "富时 A50 +0.04%",
+      "contribution": 0.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6908 (-0.08%) / DXY 101.98 (-0.53%)",
-      "contribution": 3.6,
+      "value": "USD/CNH 6.6909 (-0.08%) / DXY 102.13 (-0.39%)",
+      "contribution": 2.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 6",
-      "contribution": -8,
+      "value": "正向词 2 / 风险词 3",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,11 +66,17 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 6,
-    "score": -8
+    "positive_hits": 2,
+    "negative_hits": 3,
+    "score": -2
   },
   "news": [
+    {
+      "title": "央行购金潮再起！基金经理预计金价将24个月内创新高",
+      "source": "Moomoo",
+      "published": "Thu, 15 Oct 2026 09:08:27 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNV9WNTA5MDZXZjE0MjB2NkZ3bzdDOFpBN2lmTXBIaE5hMGx4dGtPbmZ2U3kyT3dOMUV5enhFTzFlcUFmOHozb0RLdS1tbjUwOFUtR0htYm9mQVlCSDV1cTFOa21LSUlBcllscElmMmtxS1ZjeXM5aFNZRUlTX2R3dVNWS3N5NllXQmFIeERnUXpMa0x0OGo2a2MzUGFKRWFWRHQzM1pvb0tURDFSVmcwbnEtSlQ?oc=5"
+    },
     {
       "title": "杨德龙：美国9月CPI同比增长略超预期 美联储12月加息预期升温",
       "source": "大河财立方",
@@ -78,10 +84,10 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeFlrZWZaeTdYZjB4UVd0SlhWQVlFaUJlRGJDMXFBWS1TZXUyX2JYZWxScmZSV3ZTRHZoQlRtVktPdUdhVldSNzh4RE9jeWNHLVJZNTFjeUJxRU1NUTdKUFFXZjRhZlVDS2c?oc=5"
     },
     {
-      "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
-      "source": "Moomoo",
-      "published": "Thu, 15 Oct 2026 06:13:41 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
+      "title": "港股早报｜央行15日开展7000亿逆回购 美股纳指跌近2%热门中概股普跌 港美股资讯",
+      "source": "华盛通",
+      "published": "Thu, 15 Oct 2026 00:21:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmSWlIVWRxeUE2LTIwNGktYlNVSi10bEItZy1FejRrVFZmaFA5MEdiTjlOYXlVRFVSeU9GQXlKTnBXcWFlZnFXZzltWnBNMVFreXJwaDV5c2JHclJ2RUVfZzFn?oc=5"
     },
     {
       "title": "大跌！韩国股市，“熔断”！",
@@ -102,16 +108,10 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TUWVCRmY2N0szYUh5emVBUmpvd3E3bDVWMTR4QjhHRE9ocGxKSDBFR2RUWTVoNHpoX0VQR0FRVmVpcll4STI2aU5UcWhjUk5lNVJBYVllTVZVOGFyT3NneUFoSQ?oc=5"
     },
     {
-      "title": "美股芯片板块暴跌加剧、市值蒸发逾万亿美元！通胀超预期重燃加息预期，AI基建融资瓶颈引发估值重估",
+      "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
       "source": "Moomoo",
-      "published": "Thu, 15 Oct 2026 00:34:20 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQamxZQk5Bck9WSHhHcUMwNVdyNUpwVEdCbXFScVQxeE1fbXVQWXJCN2pWYmZwaXRQUFBGdEtMbEJtZUVoQUcxYmZLYUVXOXV1ZU9od3F4MnctdzYyV3g4UUF1bkQ5UnBTNjlMNzc3MGh4UjBtTmhsYmlIdkRlRERvT0Y2TUlOZVVycngyOUJMZWYzUWgweE84QjIzZXBlQWw5b0hCVmhrQ21ydw?oc=5"
-    },
-    {
-      "title": "黄金大买家，未来3个月要减持！",
-      "source": "新浪网",
-      "published": "Wed, 14 Oct 2026 09:26:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3g4ZkJfaG0xMF9idEwxQzQxRzF3MUgxdU5TaElRc1N2aE5LdjJCZDlfNnhZWGtQX0I3WGtINjhaSmdxVV9LMUF0c1h6ZUNxNGItb1poRjMzQ0t4TnlVcUUzQ3VIVmNVOXRhRnZ6VkoxX3VOYjFxX2x4dWJFeEpMVTZYZw?oc=5"
+      "published": "Thu, 15 Oct 2026 06:13:41 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
     },
     {
       "title": "非常难操作！债市高烧稍退，日元却突然起飞，黄金重返4400 全球市场等非农",
@@ -124,7 +124,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 5,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -137,47 +137,47 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.98 / -0.53%",
+          "value": "102.13 / -0.39%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6908 / -0.08%",
+          "value": "6.6909 / -0.08%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "央行购金潮再起！基金经理预计金价将24个月内创新高",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNV9WNTA5MDZXZjE0MjB2NkZ3bzdDOFpBN2lmTXBIaE5hMGx4dGtPbmZ2U3kyT3dOMUV5enhFTzFlcUFmOHozb0RLdS1tbjUwOFUtR0htYm9mQVlCSDV1cTFOa21LSUlBcllscElmMmtxS1ZjeXM5aFNZRUlTX2R3dVNWS3N5NllXQmFIeERnUXpMa0x0OGo2a2MzUGFKRWFWRHQzM1pvb0tURDFSVmcwbnEtSlQ?oc=5"
+        },
+        {
           "title": "杨德龙：美国9月CPI同比增长略超预期 美联储12月加息预期升温",
           "source": "大河财立方",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeFlrZWZaeTdYZjB4UVd0SlhWQVlFaUJlRGJDMXFBWS1TZXUyX2JYZWxScmZSV3ZTRHZoQlRtVktPdUdhVldSNzh4RE9jeWNHLVJZNTFjeUJxRU1NUTdKUFFXZjRhZlVDS2c?oc=5"
-        },
-        {
-          "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "94.60 / -0.51%",
+          "value": "95.05 / -0.04%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,177.34 / +1.69%",
+          "value": "4,172.80 / +1.58%",
           "state": "fresh"
         },
         {
@@ -190,21 +190,21 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
-        },
-        {
           "title": "黄金、白银重挫！日韩股市跟随美股大跌，原因找到了",
           "source": "搜狐",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYm0xNEkybVU1X25jR2Z6TmE3ckl0Nm5ERTQ0WmFpaWVONUFucUF1aGl1U3hPdkFDMENlV2NkdWs1R0VMTTNmU1Jnb1Q0c1FOVXpycjFVaVdsX3phUllNdlp5YnRyVDlvc1FBTkZMUVF0dGVqeVdzVVlDbllYdGhzdjJxZFJRTy12?oc=5"
+        },
+        {
+          "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
         }
       ]
     },
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -217,7 +217,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.98 / -0.53%",
+          "value": "102.13 / -0.39%",
           "state": "fresh"
         },
         {
@@ -235,16 +235,16 @@
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeFlrZWZaeTdYZjB4UVd0SlhWQVlFaUJlRGJDMXFBWS1TZXUyX2JYZWxScmZSV3ZTRHZoQlRtVktPdUdhVldSNzh4RE9jeWNHLVJZNTFjeUJxRU1NUTdKUFFXZjRhZlVDS2c?oc=5"
         },
         {
-          "title": "美股芯片板块暴跌加剧、市值蒸发逾万亿美元！通胀超预期重燃加息预期，AI基建融资瓶颈引发估值重估",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQamxZQk5Bck9WSHhHcUMwNVdyNUpwVEdCbXFScVQxeE1fbXVQWXJCN2pWYmZwaXRQUFBGdEtMbEJtZUVoQUcxYmZLYUVXOXV1ZU9od3F4MnctdzYyV3g4UUF1bkQ5UnBTNjlMNzc3MGh4UjBtTmhsYmlIdkRlRERvT0Y2TUlOZVVycngyOUJMZWYzUWgweE84QjIzZXBlQWw5b0hCVmhrQ21ydw?oc=5"
+          "title": "非常难操作！债市高烧稍退，日元却突然起飞，黄金重返4400 全球市场等非农",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwem5GU3RMOVF4cHJYbTVMdk5xNHBpTFliWmUyWEVzdURabXMtSEdXV2pjS3BvTHJrY3BIdlhob3lpNzRzVUVEV2xIbExuWHpLMVRJRjNzdXI5QTBEX0V5ZjlSV09Od0gtbTJkVQ?oc=5"
         }
       ]
     },
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
@@ -257,7 +257,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,403.60 / -0.81%",
+          "value": "13,384.97 / +0.04%",
           "state": "fresh"
         },
         {
@@ -273,46 +273,6 @@
           "title": "芯片股六连跌，欧洲却逆势走强，资金正在重新定价风险|美联储|欧央行|摩根士丹利|贝莱德|阿斯麦|三星电子_新浪新闻",
           "source": "手机新浪网",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TUWVCRmY2N0szYUh5emVBUmpvd3E3bDVWMTR4QjhHRE9ocGxKSDBFR2RUWTVoNHpoX0VQR0FRVmVpcll4STI2aU5UcWhjUk5lNVJBYVllTVZVOGFyT3NneUFoSQ?oc=5"
-        },
-        {
-          "title": "美股芯片板块暴跌加剧、市值蒸发逾万亿美元！通胀超预期重燃加息预期，AI基建融资瓶颈引发估值重估",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQamxZQk5Bck9WSHhHcUMwNVdyNUpwVEdCbXFScVQxeE1fbXVQWXJCN2pWYmZwaXRQUFBGdEtMbEJtZUVoQUcxYmZLYUVXOXV1ZU9od3F4MnctdzYyV3g4UUF1bkQ5UnBTNjlMNzc3MGh4UjBtTmhsYmlIdkRlRERvT0Y2TUlOZVVycngyOUJMZWYzUWgweE84QjIzZXBlQWw5b0hCVmhrQ21ydw?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.98 / -0.53%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6908 / -0.08%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,403.60 / -0.81%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "美股芯片板块暴跌加剧、市值蒸发逾万亿美元！通胀超预期重燃加息预期，AI基建融资瓶颈引发估值重估",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQamxZQk5Bck9WSHhHcUMwNVdyNUpwVEdCbXFScVQxeE1fbXVQWXJCN2pWYmZwaXRQUFBGdEtMbEJtZUVoQUcxYmZLYUVXOXV1ZU9od3F4MnctdzYyV3g4UUF1bkQ5UnBTNjlMNzc3MGh4UjBtTmhsYmlIdkRlRERvT0Y2TUlOZVVycngyOUJMZWYzUWgweE84QjIzZXBlQWw5b0hCVmhrQ21ydw?oc=5"
         }
       ]
     },
@@ -326,7 +286,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,403.60 / -0.81%",
+          "value": "13,384.97 / +0.04%",
           "state": "fresh"
         },
         {
@@ -338,7 +298,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6908 / -0.08%",
+          "value": "6.6909 / -0.08%",
           "state": "fresh"
         }
       ],
