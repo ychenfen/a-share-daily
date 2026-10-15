@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15 15:16",
-  "score": -42,
+  "generated_at": "2026-10-15 16:33",
+  "score": -38,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.58%",
-      "contribution": -4.0,
+      "value": "6 个市场均值 -0.52%",
+      "contribution": -3.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -1.23%",
-      "contribution": -7.4,
+      "value": "富时 A50 -0.81%",
+      "contribution": -4.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6909 (-0.08%) / DXY 102.07 (-0.44%)",
-      "contribution": 3.1,
+      "value": "USD/CNH 6.6908 (-0.08%) / DXY 101.98 (-0.53%)",
+      "contribution": 3.6,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.07 / -0.44%",
+          "value": "101.98 / -0.53%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6909 / -0.08%",
+          "value": "6.6908 / -0.08%",
           "state": "fresh"
         }
       ],
@@ -171,13 +171,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "94.01 / -1.13%",
+          "value": "94.60 / -0.51%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,164.90 / +1.39%",
+          "value": "4,177.34 / +1.69%",
           "state": "fresh"
         },
         {
@@ -217,7 +217,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.07 / -0.44%",
+          "value": "101.98 / -0.53%",
           "state": "fresh"
         },
         {
@@ -257,7 +257,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,346.41 / -1.23%",
+          "value": "13,403.60 / -0.81%",
           "state": "fresh"
         },
         {
@@ -291,19 +291,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.07 / -0.44%",
+          "value": "101.98 / -0.53%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6909 / -0.08%",
+          "value": "6.6908 / -0.08%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,346.41 / -1.23%",
+          "value": "13,403.60 / -0.81%",
           "state": "fresh"
         }
       ],
@@ -326,19 +326,19 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,346.41 / -1.23%",
+          "value": "13,403.60 / -0.81%",
           "state": "fresh"
         },
         {
           "code": "HSI",
           "label": "恒生指数",
-          "value": "23,975.42 / -1.39%",
+          "value": "24,062.72 / -1.03%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6909 / -0.08%",
+          "value": "6.6908 / -0.08%",
           "state": "fresh"
         }
       ],
