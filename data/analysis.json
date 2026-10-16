@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16 01:09",
-  "score": -30,
+  "generated_at": "2026-10-16 08:23",
+  "score": -31,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.33%",
-      "contribution": 2.3,
+      "value": "6 个市场均值 +0.54%",
+      "contribution": 3.8,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.22%",
-      "contribution": 1.3,
+      "value": "富时 A50 +0.55%",
+      "contribution": 3.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6907 (-0.08%) / DXY 102.08 (-0.44%)",
-      "contribution": 3.2,
+      "value": "USD/CNH 6.6903 (+0.03%) / DXY 102.07 (+0.07%)",
+      "contribution": -0.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -78,16 +78,10 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNV9WNTA5MDZXZjE0MjB2NkZ3bzdDOFpBN2lmTXBIaE5hMGx4dGtPbmZ2U3kyT3dOMUV5enhFTzFlcUFmOHozb0RLdS1tbjUwOFUtR0htYm9mQVlCSDV1cTFOa21LSUlBcllscElmMmtxS1ZjeXM5aFNZRUlTX2R3dVNWS3N5NllXQmFIeERnUXpMa0x0OGo2a2MzUGFKRWFWRHQzM1pvb0tURDFSVmcwbnEtSlQ?oc=5"
     },
     {
-      "title": "杨德龙：美国9月CPI同比增长略超预期 美联储12月加息预期升温",
-      "source": "大河财立方",
-      "published": "Thu, 15 Oct 2026 06:36:19 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeFlrZWZaeTdYZjB4UVd0SlhWQVlFaUJlRGJDMXFBWS1TZXUyX2JYZWxScmZSV3ZTRHZoQlRtVktPdUdhVldSNzh4RE9jeWNHLVJZNTFjeUJxRU1NUTdKUFFXZjRhZlVDS2c?oc=5"
-    },
-    {
-      "title": "港股早报｜央行15日开展7000亿逆回购 美股纳指跌近2%热门中概股普跌 港美股资讯",
-      "source": "华盛通",
-      "published": "Thu, 15 Oct 2026 00:21:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmSWlIVWRxeUE2LTIwNGktYlNVSi10bEItZy1FejRrVFZmaFA5MEdiTjlOYXlVRFVSeU9GQXlKTnBXcWFlZnFXZzltWnBNMVFreXJwaDV5c2JHclJ2RUVfZzFn?oc=5"
+      "title": "美联储透明度之争：沉默真的是金吗？",
+      "source": "富途牛牛",
+      "published": "Thu, 15 Oct 2026 12:11:23 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZFNBMG1FSUg0dVExWm1ITG5mN1VtcWZyVFhfRFp1UGJFSWF4MjhjRmZlSWgwc2JMaENQOWdYOFJDd3NaTHkyX2YxSlB4VXR1Y0lLNllvOE9DLVR4SExqTWc1aVFsQmhJclprLXhvWHBvbUE2U2tiRDE4ekU4eTViaWlVQk9GTEFUaXRrQ1NmenFWT1pRb3ZTZ3lLREViUHJOc2RiYnRvY3JlTUE?oc=5"
     },
     {
       "title": "大跌！韩国股市，“熔断”！",
@@ -96,28 +90,34 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82dEtpREtUbVRPakdTSXJkVWt5a0Q4MXY5aWh5VmM5QWlsd1BwcmhWZGYteGE1RWlGR3p5VWVYQXYxcFBlR1Q3RllpVF96VFMwcXJFLW1oMldqb0d0RUZlcA?oc=5"
     },
     {
-      "title": "9月17日隔夜要闻：美股收低 联储加息 特朗普认为利率应为1% 苹果考虑重返服务器市场",
-      "source": "富途牛牛",
-      "published": "Thu, 15 Oct 2026 04:33:23 GMT",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRXVMQkRCQUZBQ3ZCbWt2ZEZKNjRQMXRFdlRQdTF6SFpDaTZlQTRWLXRfbmJJRUlteHhwUEozamhvRTg4MHVqYWdwZTZiV3dwUFNrUEpoUVVzUUtiUllTQnFBaUliSzJjYTEtNDFhMG53bUlIM1RSSUhURTgtTFYyUjZfek1HbjAxSXVweTFpcmcyZHNpNHFCeUY5S3VyZXF1?oc=5"
-    },
-    {
       "title": "黄金、白银重挫！日韩股市跟随美股大跌，原因找到了",
       "source": "搜狐",
       "published": "Thu, 15 Oct 2026 02:42:38 GMT",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYm0xNEkybVU1X25jR2Z6TmE3ckl0Nm5ERTQ0WmFpaWVONUFucUF1aGl1U3hPdkFDMENlV2NkdWs1R0VMTTNmU1Jnb1Q0c1FOVXpycjFVaVdsX3phUllNdlp5YnRyVDlvc1FBTkZMUVF0dGVqeVdzVVlDbllYdGhzdjJxZFJRTy12?oc=5"
     },
     {
-      "title": "黄金ETF华安(SH518880)股票股价_股价行情_讨论_资讯_财报_数据报告",
-      "source": "雪球",
-      "published": "Thu, 15 Oct 2026 08:16:47 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5sMVFyM242bUh2SGtLUERjalg5VjIyX1VkWFJOakd6UV9ldzdGMWF3NjRmZF9Ib041WEZ4bDFlVmFBYWM?oc=5"
+      "title": "全球市场惊险变盘",
+      "source": "万维读者网",
+      "published": "Thu, 15 Oct 2026 09:11:56 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fVEpnLUR0bVFZM2o1Sm9mclVGTml4ZGUyNjZsQy1FeXZCakppMURMQXZQNGNDWjVhUDVadUNQOGJXQ2xlZjk4YjZUd3pyb3BURFMxUl9LdUotZ1hVbWJ0MU1R?oc=5"
     },
     {
-      "title": "芯片股六连跌，欧洲却逆势走强，资金正在重新定价风险|美联储|欧央行|摩根士丹利|贝莱德|阿斯麦|三星电子_新浪新闻",
-      "source": "手机新浪网",
-      "published": "Wed, 14 Oct 2026 23:37:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TUWVCRmY2N0szYUh5emVBUmpvd3E3bDVWMTR4QjhHRE9ocGxKSDBFR2RUWTVoNHpoX0VQR0FRVmVpcll4STI2aU5UcWhjUk5lNVJBYVllTVZVOGFyT3NneUFoSQ?oc=5"
+      "title": "9月17日隔夜要闻：美股收低 联储加息 特朗普认为利率应为1% 苹果考虑重返服务器市场",
+      "source": "富途牛牛",
+      "published": "Thu, 15 Oct 2026 04:33:23 GMT",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRXVMQkRCQUZBQ3ZCbWt2ZEZKNjRQMXRFdlRQdTF6SFpDaTZlQTRWLXRfbmJJRUlteHhwUEozamhvRTg4MHVqYWdwZTZiV3dwUFNrUEpoUVVzUUtiUllTQnFBaUliSzJjYTEtNDFhMG53bUlIM1RSSUhURTgtTFYyUjZfek1HbjAxSXVweTFpcmcyZHNpNHFCeUY5S3VyZXF1?oc=5"
+    },
+    {
+      "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
+      "source": "Moomoo",
+      "published": "Thu, 15 Oct 2026 06:13:41 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
+    },
+    {
+      "title": "杨德龙：美国9月CPI同比增长略超预期 美联储12月加息预期升温",
+      "source": "大河财立方",
+      "published": "Thu, 15 Oct 2026 06:36:19 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeFlrZWZaeTdYZjB4UVd0SlhWQVlFaUJlRGJDMXFBWS1TZXUyX2JYZWxScmZSV3ZTRHZoQlRtVktPdUdhVldSNzh4RE9jeWNHLVJZNTFjeUJxRU1NUTdKUFFXZjRhZlVDS2c?oc=5"
     }
   ],
   "events": [
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.08 / -0.44%",
+          "value": "102.07 / +0.07%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6907 / -0.08%",
+          "value": "6.6903 / +0.03%",
           "state": "fresh"
         }
       ],
@@ -155,9 +155,9 @@
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNV9WNTA5MDZXZjE0MjB2NkZ3bzdDOFpBN2lmTXBIaE5hMGx4dGtPbmZ2U3kyT3dOMUV5enhFTzFlcUFmOHozb0RLdS1tbjUwOFUtR0htYm9mQVlCSDV1cTFOa21LSUlBcllscElmMmtxS1ZjeXM5aFNZRUlTX2R3dVNWS3N5NllXQmFIeERnUXpMa0x0OGo2a2MzUGFKRWFWRHQzM1pvb0tURDFSVmcwbnEtSlQ?oc=5"
         },
         {
-          "title": "杨德龙：美国9月CPI同比增长略超预期 美联储12月加息预期升温",
-          "source": "大河财立方",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KeFlrZWZaeTdYZjB4UVd0SlhWQVlFaUJlRGJDMXFBWS1TZXUyX2JYZWxScmZSV3ZTRHZoQlRtVktPdUdhVldSNzh4RE9jeWNHLVJZNTFjeUJxRU1NUTdKUFFXZjRhZlVDS2c?oc=5"
+          "title": "美联储透明度之争：沉默真的是金吗？",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZFNBMG1FSUg0dVExWm1ITG5mN1VtcWZyVFhfRFp1UGJFSWF4MjhjRmZlSWgwc2JMaENQOWdYOFJDd3NaTHkyX2YxSlB4VXR1Y0lLNllvOE9DLVR4SExqTWc1aVFsQmhJclprLXhvWHBvbUE2U2tiRDE4ekU4eTViaWlVQk9GTEFUaXRrQ1NmenFWT1pRb3ZTZ3lLREViUHJOc2RiYnRvY3JlTUE?oc=5"
         }
       ]
     },
@@ -171,13 +171,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "98.01 / +3.07%",
+          "value": "97.39 / -0.60%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,169.97 / +1.51%",
+          "value": "4,175.72 / +0.13%",
           "state": "fresh"
         },
         {
@@ -195,9 +195,9 @@
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYm0xNEkybVU1X25jR2Z6TmE3ckl0Nm5ERTQ0WmFpaWVONUFucUF1aGl1U3hPdkFDMENlV2NkdWs1R0VMTTNmU1Jnb1Q0c1FOVXpycjFVaVdsX3phUllNdlp5YnRyVDlvc1FBTkZMUVF0dGVqeVdzVVlDbllYdGhzdjJxZFJRTy12?oc=5"
         },
         {
-          "title": "黄金ETF华安(SH518880)股票股价_股价行情_讨论_资讯_财报_数据报告",
-          "source": "雪球",
-          "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5sMVFyM242bUh2SGtLUERjalg5VjIyX1VkWFJOakd6UV9ldzdGMWF3NjRmZF9Ib041WEZ4bDFlVmFBYWM?oc=5"
+          "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
         }
       ]
     },
@@ -217,13 +217,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.08 / -0.44%",
+          "value": "102.07 / +0.07%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,596.94 / -0.36%",
+          "value": "26,713.03 / +0.08%",
           "state": "fresh"
         }
       ],
@@ -237,37 +237,37 @@
       ]
     },
     {
-      "key": "technology",
-      "label": "科技与产业",
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
       "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
       "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "26,596.94 / -0.36%",
-          "state": "fresh"
-        },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,408.84 / +0.22%",
+          "value": "13,453.00 / +0.55%",
           "state": "fresh"
         },
         {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "24,062.72 / -1.03%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6903 / +0.03%",
+          "state": "fresh"
         }
       ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
       "headlines": [
         {
-          "title": "芯片股六连跌，欧洲却逆势走强，资金正在重新定价风险|美联储|欧央行|摩根士丹利|贝莱德|阿斯麦|三星电子_新浪新闻",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TUWVCRmY2N0szYUh5emVBUmpvd3E3bDVWMTR4QjhHRE9ocGxKSDBFR2RUWTVoNHpoX0VQR0FRVmVpcll4STI2aU5UcWhjUk5lNVJBYVllTVZVOGFyT3NneUFoSQ?oc=5"
+          "title": "金融高管：美联储加息预期见顶+美国财政部重估黄金储备，有望引爆金价狂飙",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEdGNkZkNjdObDZJSlQzWW1xSjBqUGljLTJBajFuRDJDSzdkWEdUaExjd1N0anVKVXpacXdGSE1qV01RQ0R5ODl1VGlVYUV5QVYzRU1WaWNVYnJrc3pkOXBBVUY4YXpiSTg4VFF2QzBQS05ldUUxUzBlRHNwSldoUTZYS1dEdVBYNnhMZjJJWUZvMkt5TkF1MkFOZVl2VkR2dTFsdnc4eURSc3A5V1BhZWtVeE9HeGpE?oc=5"
         }
       ]
     }
