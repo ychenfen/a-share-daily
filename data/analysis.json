@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16 16:27",
-  "score": -30,
-  "stance": "防守优先",
-  "color": "#08783e",
+  "generated_at": "2026-10-16 20:20",
+  "score": 13,
+  "stance": "谨慎偏多",
+  "color": "#e05a47",
   "confidence": "中",
-  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
+  "summary": "风险偏好略占优，但信号并未形成全面共振。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 -1.59%",
-      "contribution": -12.7,
+      "value": "上证 +0.24%",
+      "contribution": 1.9,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 433 / 跌 5174",
-      "contribution": -16.9,
+      "value": "涨 3351 / 跌 2143",
+      "contribution": 4.4,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 36 / 跌停 26 / 炸板率 16.3%",
-      "contribution": -0.4,
+      "value": "涨停 61 / 跌停 10 / 炸板率 44.5%",
+      "contribution": 2.9,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.31%",
-      "contribution": -1.9,
+      "value": "富时 A50 +0.20%",
+      "contribution": 1.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6865 (-0.03%) / DXY 101.77 (-0.23%)",
-      "contribution": 1.5,
+      "value": "USD/CNH 6.6846 (-0.06%) / DXY 101.72 (-0.27%)",
+      "contribution": 2.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "advice": [
-    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
+    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
     "positive_hits": 2,
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.77 / -0.23%",
+          "value": "101.72 / -0.27%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6865 / -0.03%",
+          "value": "6.6846 / -0.06%",
           "state": "fresh"
         }
       ],
@@ -177,7 +177,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,337.99 / -0.31%",
+          "value": "13,366.09 / +0.20%",
           "state": "fresh"
         },
         {
@@ -206,13 +206,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "97.05 / -0.94%",
+          "value": "98.07 / +0.10%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,206.29 / +0.87%",
+          "value": "4,199.51 / +0.71%",
           "state": "fresh"
         },
         {

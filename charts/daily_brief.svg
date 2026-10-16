@@ -8,19 +8,19 @@
 <text x="1142" y="62" fill="#9aa5ad" font-size="13" text-anchor="end" letter-spacing="2">DAILY MARKET BRIEF / 每日市场简报</text>
 <line x1="58" y1="86" x2="1142" y2="86" stroke="#273037"/>
 <text x="58" y="132" fill="#9aa5ad" font-size="13" letter-spacing="2">CROSS-MARKET RISK TEMPERATURE</text>
-<text x="52" y="286" fill="#2cc17a" font-size="168" font-weight="800" letter-spacing="-12">-30</text>
-<text x="58" y="336" fill="#f2ede4" font-size="38" font-weight="700">防守优先</text>
-<text x="58" y="370" fill="#9aa5ad" font-size="14">CONFIDENCE / 中　UPDATED / 2026-10-16 16:27 CST</text>
+<text x="52" y="286" fill="#ff5148" font-size="168" font-weight="800" letter-spacing="-12">+13</text>
+<text x="58" y="336" fill="#f2ede4" font-size="38" font-weight="700">谨慎偏多</text>
+<text x="58" y="370" fill="#9aa5ad" font-size="14">CONFIDENCE / 中　UPDATED / 2026-10-16 20:20 CST</text>
 <line x1="446" y1="118" x2="446" y2="382" stroke="#273037"/>
 <text x="486" y="134" fill="#9aa5ad" font-size="12" letter-spacing="2">A-SHARE CLOSE</text>
-<text x="486" y="184" fill="#f2ede4" font-size="39" font-weight="700">3,707.48</text>
-<text x="727" y="184" fill="#2cc17a" font-size="28" font-weight="700">-1.59%</text>
-<text x="486" y="218" fill="#68737b" font-size="13">SHANGHAI · 2026-10-15 · TURNOVER 16,330 亿</text>
+<text x="486" y="184" fill="#f2ede4" font-size="39" font-weight="700">3,716.28</text>
+<text x="727" y="184" fill="#ff5148" font-size="28" font-weight="700">+0.24%</text>
+<text x="486" y="218" fill="#68737b" font-size="13">SHANGHAI · 2026-10-16 · TURNOVER 15,554 亿</text>
 <text x="486" y="270" fill="#9aa5ad" font-size="12" letter-spacing="2">MARKET BREADTH</text>
-<text x="486" y="318" fill="#ff5148" font-size="31" font-weight="700">↑ 433</text>
-<text x="670" y="318" fill="#2cc17a" font-size="31" font-weight="700">↓ 5,174</text>
-<text x="856" y="318" fill="#e9c86f" font-size="19" font-weight="700">涨停 36</text>
-<text x="856" y="350" fill="#9aa5ad" font-size="14">炸板率 16.3%</text>
+<text x="486" y="318" fill="#ff5148" font-size="31" font-weight="700">↑ 3,351</text>
+<text x="670" y="318" fill="#2cc17a" font-size="31" font-weight="700">↓ 2,143</text>
+<text x="856" y="318" fill="#e9c86f" font-size="19" font-weight="700">涨停 61</text>
+<text x="856" y="350" fill="#9aa5ad" font-size="14">炸板率 44.5%</text>
 <line x1="58" y1="408" x2="1142" y2="408" stroke="#273037"/>
 <text x="58" y="442" fill="#9aa5ad" font-size="12" letter-spacing="1.5">S&amp;P 500</text>
 <text x="58" y="478" fill="#ff5148" font-size="27" font-weight="700">+0.33%</text>
@@ -40,19 +40,19 @@
 <line x1="58" y1="500" x2="1142" y2="500" stroke="#273037"/>
 <text x="58" y="527" fill="#9aa5ad" font-size="10" font-weight="700" letter-spacing="1.2">CROSS ASSETS</text>
 <text x="218" y="516" fill="#68737b" font-size="9" letter-spacing="1">A50</text>
-<text x="218" y="537" fill="#2cc17a" font-size="13" font-weight="700">13,337.99 / -0.31%</text>
+<text x="218" y="537" fill="#ff5148" font-size="13" font-weight="700">13,366.09 / +0.20%</text>
 <text x="402" y="516" fill="#68737b" font-size="9" letter-spacing="1">CNH</text>
-<text x="402" y="537" fill="#2cc17a" font-size="13" font-weight="700">6.6865 / -0.03%</text>
+<text x="402" y="537" fill="#2cc17a" font-size="13" font-weight="700">6.6846 / -0.06%</text>
 <text x="586" y="516" fill="#68737b" font-size="9" letter-spacing="1">DXY</text>
-<text x="586" y="537" fill="#2cc17a" font-size="13" font-weight="700">101.77 / -0.23%</text>
+<text x="586" y="537" fill="#2cc17a" font-size="13" font-weight="700">101.72 / -0.27%</text>
 <text x="770" y="516" fill="#68737b" font-size="9" letter-spacing="1">GOLD</text>
-<text x="770" y="537" fill="#ff5148" font-size="13" font-weight="700">4,206.29 / +0.87%</text>
+<text x="770" y="537" fill="#ff5148" font-size="13" font-weight="700">4,199.51 / +0.71%</text>
 <text x="954" y="516" fill="#68737b" font-size="9" letter-spacing="1">WTI</text>
-<text x="954" y="537" fill="#2cc17a" font-size="13" font-weight="700">97.05 / -0.94%</text>
+<text x="954" y="537" fill="#ff5148" font-size="13" font-weight="700">98.07 / +0.10%</text>
 <rect x="58" y="550" width="1084" height="34" fill="#101519" stroke="#273037"/>
 <text x="78" y="572" fill="#e9c86f" font-size="10" font-weight="700" letter-spacing="1.2">RESEARCH NOTE</text>
-<text x="218" y="572" fill="#f2ede4" font-size="14">研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。</text>
-<text x="58" y="610" fill="#68737b" font-size="10">MARKETS PARTIAL · CROSS FRESH · VIX STALE · US10Y STALE · NEWS FRESH · RESEARCH ONLY, NOT INVESTMENT ADVICE</text>
+<text x="218" y="572" fill="#f2ede4" font-size="14">保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。</text>
+<text x="58" y="610" fill="#68737b" font-size="10">MARKETS PARTIAL · CROSS FRESH · VIX STALE · US10Y STALE · NEWS STALE · RESEARCH ONLY, NOT INVESTMENT ADVICE</text>
 <text x="1142" y="610" fill="#9aa5ad" font-size="11" text-anchor="end">ychenfen.github.io/a-share-daily</text>
 </g>
 </svg>
