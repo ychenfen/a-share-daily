@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🔴 已收盘** · 收盘快照已更新 · 最后检查 `2026-10-16 20:20`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-16 · 最后检查 `2026-10-17 00:46`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,16 +48,16 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +13 · 谨慎偏多**（置信度：中）
-> 风险偏好略占优，但信号并未形成全面共振。
+> **风险温度 +2 · 中性等待**（置信度：中）
+> 多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
 | --- | --- | ---: | ---: |
-| 标普 500 | 美国 | 7744.06 | +0.33% |
-| 纳斯达克 | 美国 | 26713.03 | +0.08% |
-| 道琼斯 | 美国 | 52177.69 | +1.08% |
+| 标普 500 | 美国 | 7693.39 | -0.65% |
+| 纳斯达克 | 美国 | 26335.50 | -1.41% |
+| 道琼斯 | 美国 | 52098.18 | -0.15% |
 | 恒生指数 | 中国香港 | 24186.83 | +0.52% |
-| 欧洲股票 ETF | 欧洲（美股代理） | 87.21 | +1.42% |
+| 欧洲股票 ETF | 欧洲（美股代理） | 87.40 | +0.22% |
 | 日经 225 | 日本 | 65018.95 | +1.38% |
 
 ### 跨资产先行带
@@ -66,13 +66,13 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 13,366.09 | +0.20% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6846 | -0.06% | 最新 |
-| 美元指数 | 低权重计分 | 101.72 | -0.27% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,199.51 | +0.71% | 最新 |
-| WTI 原油 | 背景观察 | 98.07 | +0.10% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 13,318.30 | -0.16% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6864 | -0.03% | 最新 |
+| 美元指数 | 低权重计分 | 101.95 | -0.04% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,182.44 | +0.30% | 最新 |
+| WTI 原油 | 背景观察 | 100.33 | +2.41% | 最新 |
 
-> ⚠️ 数据降级：全球指数、VIX、美债10Y、新闻本轮未完全刷新，已尽量保留最近有效值。
+> ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
 ### 风险温度拆解
 
@@ -81,12 +81,12 @@
 | A股动量 | 上证 +0.24% | +1.9 | 反映本地市场价格强弱 |
 | 市场宽度 | 涨 3351 / 跌 2143 | +4.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 61 / 跌停 10 / 炸板率 44.5% | +2.9 | 涨停扩散加分，炸板率过高扣分 |
-| 外围股市 | 6 个市场均值 +0.80% | +5.6 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 +0.20% | +1.2 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6846 (-0.06%) / DXY 101.72 (-0.27%) | +2.1 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| 外围股市 | 6 个市场均值 -0.02% | -0.1 | 衡量隔夜风险偏好共振 |
+| A50 先行 | 富时 A50 -0.16% | -1.0 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6864 (-0.03%) / DXY 101.95 (-0.04%) | +0.6 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 2 / 风险词 2 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 2 / 风险词 3 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,22 +94,22 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（4 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.72 / -0.27%（最新） / USD/CNH 6.6846 / -0.06%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,713.03 / +0.08%（最新） / 富时A50 13,366.09 / +0.20%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 98.07 / +0.10%（最新） / 黄金 4,199.51 / +0.71%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 央行与利率（4 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.95 / -0.04%（最新） / USD/CNH 6.6864 / -0.03%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 科技与产业（3 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,335.50 / -1.41%（最新） / 富时A50 13,318.30 / -0.16%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.95 / -0.04%（最新） / 纳斯达克 26,335.50 / -1.41%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
 
 ### 研究观察
 
-- 保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。
+- 减少方向性预判，优先记录关键阈值被突破后的跟随信号。
 
 ### 新闻雷达
 
+- [盘前必读丨日韩股市集体高开；多只科技龙头股官宣回购计划](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UNVBmOXFNSEF4cEV1Q1lSTDBMQTFLc1VqSWViMERTTUZ4QmVjN1gycWFzSlJVNWoyeF81ZzZ6V2hOU040UFJkQ3lZZE9FX0I5aXF4Z2FXNEgycFA5Y25PR2NoMGNCQQ?oc=5) · 东方财富
+- [A股放量调整，机构齐喊不悲观，10到11月有望企稳\|上证指数\|深证成指\|创业板指\|CPI\|美国](https://news.google.com/rss/articles/CBMingFBVV95cUxQcVoyN1B4YmwtdlM0ZlZYRnJUa2tnMWd0MGN2Nkplb3VJTktlN2hMYzZ0eUVoZVFtSE1RT1RoNndBLVl1QWdDOU1CSXpIcmRTODNaSno2RVZ5WUo1TEdSVlFaZHBHaUo1MjJhX3g3S1Q2M2NkNUF5S1BydXJOampfNXh6VlN0SFl4UlJiaGJWTWdZN0dYVngyd0MycnE2Zw?oc=5) · finance.sina.com.cn
 - [日本央行放鹰、美联储缄默 日元获双重支撑](https://news.google.com/rss/articles/CBMisAFBVV95cUxNeUItTGFYRko5dWpVSzFKRVB3aGI0dTFSMGRzMXhZM0pyWWdiVlVWZDVRQVd2dnMzYThRVUFtMkgxdVl6ajh2UmFTQjY2ejRjdWx6UUQyWkM1dURpWWw5UFU5OEFPOGRuME9KZlhSYThHQzVQNWlZb1FpOEFORDl6NEloVWZVTnd0WTJjUWhIa2JpWndpdGdNVWx2VDhsVXV4em1yUXlBNUdNbExNUjFyaw?oc=5) · Moomoo
 - [隔夜美股涨势提振亚太，日股涨近2%，韩股一度涨超3%，印尼股市暴跌11%](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UdElMWVdFcmRKejRmVEk3SVc4c0ZXMVJjVGlFbHRPUW5Oc2xuWWZzU2pQZVlHV0RKdV9iZW9BSC1XS3BNdjZTbnIwa2tXbGtkaEhN?oc=5) · 华尔街见闻
 - [亚洲市场遭遇“黑色星期四”！韩股暴跌超7.5%触发熔断，金融委员会紧急召开应对会议_汇市观察](https://news.google.com/rss/articles/CBMia0FVX3lxTFBHSW1mN0pnT3A2ZGNHRnExUTN6ZG03amVvUzROWFk1YW12dTF6ZlBsNnNvaVUyb2tTU1VwekE4blhEYUQwZlMtM1ZuZ3h1RFNVcy1mcHRKWlBYeEJPWTUzTjVyRTJ4S0pWWmM0?oc=5) · 中金在线外汇
-- [沃什积极定调AI长期前景，10月美联储利率路径仍留白! 美债收益率降温打开科技反攻窗口?](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rZEcyLUdaZ1RxbVZ4TmNVcXExekctQ2lieHdfRHV0WS1SVWpSck04NHlZcE1fNDkxVVBPdFpsNGVxWWxKVXZKQXBDeGhlMlVUVzhsM3VxZ19iaTBU?oc=5) · Moomoo
-- [黄金ETF华安(SH518880)股票股价_股价行情_讨论_资讯_财报_数据报告](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5sMVFyM242bUh2SGtLUERjalg5VjIyX1VkWFJOakd6UV9ldzdGMWF3NjRmZF9Ib041WEZ4bDFlVmFBYWM?oc=5) · 雪球
-- [美联储透明度之争：沉默真的是金吗？](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZFNBMG1FSUg0dVExWm1ITG5mN1VtcWZyVFhfRFp1UGJFSWF4MjhjRmZlSWgwc2JMaENQOWdYOFJDd3NaTHkyX2YxSlB4VXR1Y0lLNllvOE9DLVR4SExqTWc1aVFsQmhJclprLXhvWHBvbUE2U2tiRDE4ekU4eTViaWlVQk9GTEFUaXRrQ1NmenFWT1pRb3ZTZ3lLREViUHJOc2RiYnRvY3JlTUE?oc=5) · 富途牛牛
+- [美股前瞻\| 美联储特别工作组将就AI于11月举行听证会，沃什提振市场对美联储10月按兵不动预期，三大期指涨跌不一；Roadster计划2028年量产，特斯拉盘前涨超3%](https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3U4QTdOUDlwOTJyNGFGTm1CVXlLY3Jwa09GS0hvdmlBM2VLeVlOOXZ0LW9iSlNBQ3V4R1VOY2dkUW8zWXpqX0cwZGYycWtmWlB6SmlBR0pDTktOYXpSMEFQeG1HUUtGZEZsMHYtamQ1T2dQcW43Y1M2cTRGdm05MVZCQTVXam9SOXFpeUFsMkE5RjMzcWhPTV9iRFBlNlU?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
