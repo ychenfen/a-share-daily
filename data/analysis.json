@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17 16:00",
-  "score": -3,
+  "generated_at": "2026-10-17 19:33",
+  "score": 1,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 4",
-      "contribution": -4,
+      "value": "正向词 2 / 风险词 2",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,16 +67,10 @@
   ],
   "news_tone": {
     "positive_hits": 2,
-    "negative_hits": 4,
-    "score": -4
+    "negative_hits": 2,
+    "score": 0
   },
   "news": [
-    {
-      "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
-      "source": "金十数据",
-      "published": "Sat, 17 Oct 2026 01:01:58 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
-    },
     {
       "title": "美银行股，全线上涨！美联储主席：拒评加息前景",
       "source": "证券之星",
@@ -84,22 +78,10 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xaEs0RG5VVmNhQ2lZNVBkSGtxZHFiTU1RVUtPcmswajJ1RV8xT1EzTV9SVzJocGtPTTJha1I1amkzR3d3V2RKR1ZuaWZPQWdsMkNZa2tMTDE5eEdFTzMzaA?oc=5"
     },
     {
-      "title": "A股放量调整，机构齐喊不悲观，10到11月有望企稳|上证指数|深证成指|创业板指|CPI|美国",
-      "source": "finance.sina.com.cn",
-      "published": "Fri, 16 Oct 2026 10:30:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcVoyN1B4YmwtdlM0ZlZYRnJUa2tnMWd0MGN2Nkplb3VJTktlN2hMYzZ0eUVoZVFtSE1RT1RoNndBLVl1QWdDOU1CSXpIcmRTODNaSno2RVZ5WUo1TEdSVlFaZHBHaUo1MjJhX3g3S1Q2M2NkNUF5S1BydXJOampfNXh6VlN0SFl4UlJiaGJWTWdZN0dYVngyd0MycnE2Zw?oc=5"
-    },
-    {
       "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
       "source": "FX168",
       "published": "Fri, 16 Oct 2026 17:37:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
-    },
-    {
-      "title": "能源通胀开始“传染”，全球市场遭遇超级寒流",
-      "source": "旅日侨网",
-      "published": "Fri, 16 Oct 2026 10:25:27 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVU9XXzZMdlR1QlhFSkllM0Fna1FsNldoSlF5YWRwR2t0WGw5aWh3a2VGSGFTVk8xeHVZTXpnOGlxWHFMM3JkRjRXdkl1b3BGa3IzRnR1NEd5VjI0QjZIdVJpTnJNN20yVUJjMUZiT2NLSXVrYVJTQmtnbHRGeDA2ZHB3amdJNEpORXc?oc=5"
     },
     {
       "title": "美股前瞻| 美联储特别工作组将就AI于11月举行听证会，沃什提振市场对美联储10月按兵不动预期，三大期指涨跌不一；Roadster计划2028年量产，特斯拉盘前涨超3%",
@@ -118,7 +100,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -144,94 +126,14 @@
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
-        },
-        {
           "title": "美银行股，全线上涨！美联储主席：拒评加息前景",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xaEs0RG5VVmNhQ2lZNVBkSGtxZHFiTU1RVUtPcmswajJ1RV8xT1EzTV9SVzJocGtPTTJha1I1amkzR3d3V2RKR1ZuaWZPQWdsMkNZa2tMTDE5eEdFTzMzaA?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 2,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
         },
         {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.78 / -0.21%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "26,140.03 / -2.14%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "A股放量调整，机构齐喊不悲观，10到11月有望企稳|上证指数|深证成指|创业板指|CPI|美国",
-          "source": "finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcVoyN1B4YmwtdlM0ZlZYRnJUa2tnMWd0MGN2Nkplb3VJTktlN2hMYzZ0eUVoZVFtSE1RT1RoNndBLVl1QWdDOU1CSXpIcmRTODNaSno2RVZ5WUo1TEdSVlFaZHBHaUo1MjJhX3g3S1Q2M2NkNUF5S1BydXJOampfNXh6VlN0SFl4UlJiaGJWTWdZN0dYVngyd0MycnE2Zw?oc=5"
-        },
-        {
-          "title": "能源通胀开始“传染”，全球市场遭遇超级寒流",
-          "source": "旅日侨网",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVU9XXzZMdlR1QlhFSkllM0Fna1FsNldoSlF5YWRwR2t0WGw5aWh3a2VGSGFTVk8xeHVZTXpnOGlxWHFMM3JkRjRXdkl1b3BGa3IzRnR1NEd5VjI0QjZIdVJpTnJNN20yVUJjMUZiT2NLSXVrYVJTQmtnbHRGeDA2ZHB3amdJNEpORXc?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 2,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.78 / -0.21%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6850 / -0.05%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,278.83 / -0.46%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
-        },
-        {
-          "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
+          "title": "美股前瞻| 美联储特别工作组将就AI于11月举行听证会，沃什提振市场对美联储10月按兵不动预期，三大期指涨跌不一；Roadster计划2028年量产，特斯拉盘前涨超3%",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3U4QTdOUDlwOTJyNGFGTm1CVXlLY3Jwa09GS0hvdmlBM2VLeVlOOXZ0LW9iSlNBQ3V4R1VOY2dkUW8zWXpqX0cwZGYycWtmWlB6SmlBR0pDTktOYXpSMEFQeG1HUUtGZEZsMHYtamQ1T2dQcW43Y1M2cTRGdm05MVZCQTVXam9SOXFpeUFsMkE5RjMzcWhPTV9iRFBlNlU?oc=5"
         }
       ]
     },
@@ -297,6 +199,41 @@
         }
       ],
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.78 / -0.21%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6850 / -0.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,278.83 / -0.46%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
           "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
