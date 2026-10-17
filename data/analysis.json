@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17 00:46",
-  "score": 2,
+  "generated_at": "2026-10-17 08:27",
+  "score": -1,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.02%",
-      "contribution": -0.1,
+      "value": "6 个市场均值 -0.26%",
+      "contribution": -1.8,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.16%",
-      "contribution": -1.0,
+      "value": "富时 A50 -0.46%",
+      "contribution": -2.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6864 (-0.03%) / DXY 101.95 (-0.04%)",
-      "contribution": 0.6,
+      "value": "USD/CNH 6.6850 (-0.05%) / DXY 101.78 (-0.21%)",
+      "contribution": 1.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,10 +72,10 @@
   },
   "news": [
     {
-      "title": "盘前必读丨日韩股市集体高开；多只科技龙头股官宣回购计划",
-      "source": "东方财富",
-      "published": "Fri, 16 Oct 2026 02:59:52 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UNVBmOXFNSEF4cEV1Q1lSTDBMQTFLc1VqSWViMERTTUZ4QmVjN1gycWFzSlJVNWoyeF81ZzZ6V2hOU040UFJkQ3lZZE9FX0I5aXF4Z2FXNEgycFA5Y25PR2NoMGNCQQ?oc=5"
+      "title": "AI交易忧虑压垮美股，盘中纳指跌超2%、CoreWeave跌超10%，芯片指数八连跌",
+      "source": "华尔街见闻",
+      "published": "Fri, 16 Oct 2026 18:15:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44emc3QjRiQU1oNFdjNnNfTFB5bTFfdGRpLVR0V2xMc3V2S183ZEtSOEN4Tk1wQUJldV9nZm5WOGdpb1BOeUJELUJrTmhVZHJhYWxF?oc=5"
     },
     {
       "title": "A股放量调整，机构齐喊不悲观，10到11月有望企稳|上证指数|深证成指|创业板指|CPI|美国",
@@ -90,10 +90,10 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeUItTGFYRko5dWpVSzFKRVB3aGI0dTFSMGRzMXhZM0pyWWdiVlVWZDVRQVd2dnMzYThRVUFtMkgxdVl6ajh2UmFTQjY2ejRjdWx6UUQyWkM1dURpWWw5UFU5OEFPOGRuME9KZlhSYThHQzVQNWlZb1FpOEFORDl6NEloVWZVTnd0WTJjUWhIa2JpWndpdGdNVWx2VDhsVXV4em1yUXlBNUdNbExNUjFyaw?oc=5"
     },
     {
-      "title": "隔夜美股涨势提振亚太，日股涨近2%，韩股一度涨超3%，印尼股市暴跌11%",
-      "source": "华尔街见闻",
-      "published": "Fri, 16 Oct 2026 03:24:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UdElMWVdFcmRKejRmVEk3SVc4c0ZXMVJjVGlFbHRPUW5Oc2xuWWZzU2pQZVlHV0RKdV9iZW9BSC1XS3BNdjZTbnIwa2tXbGtkaEhN?oc=5"
+      "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
+      "source": "FX168",
+      "published": "Fri, 16 Oct 2026 17:37:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
     },
     {
       "title": "亚洲市场遭遇“黑色星期四”！韩股暴跌超7.5%触发熔断，金融委员会紧急召开应对会议_汇市观察",
@@ -114,17 +114,17 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk9jd1AyM2I4dElYR0ZPMUF3OFkycV80aGNCQzBkOFR5UWxHZ1dQMnBrVjU3YUs4b3lqalRhX3RUTmVxYWYzRlBFNzdHYlNnRGRvZlNvTmZsTmZlR0NIZHRjcm1iYzhMRDFQVG4wYlZ4V2VhN3hINEhZTWpodmQ2V3lfcVlkS1NzR1RBd3dB?oc=5"
     },
     {
-      "title": "沃什积极定调AI长期前景，10月美联储利率路径仍留白! 美债收益率降温打开科技反攻窗口?",
-      "source": "Moomoo",
-      "published": "Fri, 16 Oct 2026 04:20:10 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rZEcyLUdaZ1RxbVZ4TmNVcXExekctQ2lieHdfRHV0WS1SVWpSck04NHlZcE1fNDkxVVBPdFpsNGVxWWxKVXZKQXBDeGhlMlVUVzhsM3VxZ19iaTBU?oc=5"
+      "title": "隔夜美股涨势提振亚太，日股涨近2%，韩股一度涨超3%，印尼股市暴跌11%",
+      "source": "华尔街见闻",
+      "published": "Fri, 16 Oct 2026 03:24:37 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UdElMWVdFcmRKejRmVEk3SVc4c0ZXMVJjVGlFbHRPUW5Oc2xuWWZzU2pQZVlHV0RKdV9iZW9BSC1XS3BNdjZTbnIwa2tXbGtkaEhN?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -137,13 +137,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.95 / -0.04%",
+          "value": "101.78 / -0.21%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6864 / -0.03%",
+          "value": "6.6850 / -0.05%",
           "state": "fresh"
         }
       ],
@@ -164,20 +164,20 @@
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,335.50 / -1.41%",
+          "value": "26,140.03 / -2.14%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,318.30 / -0.16%",
+          "value": "13,278.83 / -0.46%",
           "state": "fresh"
         },
         {
@@ -190,9 +190,9 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "盘前必读丨日韩股市集体高开；多只科技龙头股官宣回购计划",
-          "source": "东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UNVBmOXFNSEF4cEV1Q1lSTDBMQTFLc1VqSWViMERTTUZ4QmVjN1gycWFzSlJVNWoyeF81ZzZ6V2hOU040UFJkQ3lZZE9FX0I5aXF4Z2FXNEgycFA5Y25PR2NoMGNCQQ?oc=5"
+          "title": "AI交易忧虑压垮美股，盘中纳指跌超2%、CoreWeave跌超10%，芯片指数八连跌",
+          "source": "华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44emc3QjRiQU1oNFdjNnNfTFB5bTFfdGRpLVR0V2xMc3V2S183ZEtSOEN4Tk1wQUJldV9nZm5WOGdpb1BOeUJELUJrTmhVZHJhYWxF?oc=5"
         },
         {
           "title": "美股存储巨头下挫，SK海力士跌超5%，市值被美光超越，沃什最新发声，美联储加息有新信号",
@@ -217,13 +217,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.95 / -0.04%",
+          "value": "101.78 / -0.21%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,335.50 / -1.41%",
+          "value": "26,140.03 / -2.14%",
           "state": "fresh"
         }
       ],
@@ -233,6 +233,76 @@
           "title": "A股放量调整，机构齐喊不悲观，10到11月有望企稳|上证指数|深证成指|创业板指|CPI|美国",
           "source": "finance.sina.com.cn",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcVoyN1B4YmwtdlM0ZlZYRnJUa2tnMWd0MGN2Nkplb3VJTktlN2hMYzZ0eUVoZVFtSE1RT1RoNndBLVl1QWdDOU1CSXpIcmRTODNaSno2RVZ5WUo1TEdSVlFaZHBHaUo1MjJhX3g3S1Q2M2NkNUF5S1BydXJOampfNXh6VlN0SFl4UlJiaGJWTWdZN0dYVngyd0MycnE2Zw?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "101.85 / +3.96%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,184.85 / +0.35%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.78 / -0.21%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6850 / -0.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,278.83 / -0.46%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
         }
       ]
     }
