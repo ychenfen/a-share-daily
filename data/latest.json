@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17 14:49",
+  "generated_at": "2026-10-17 16:00",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-17 14:49",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-17 16:00",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-17",
     "market_data_date": "2026-10-16",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-17 14:49",
+    "generated_at": "2026-10-17 16:00",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-17 14:49",
-    "score": -1,
+    "generated_at": "2026-10-17 16:00",
+    "score": -3,
     "stance": "中性等待",
     "color": "#8c959f",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 2 / 风险词 3",
-        "contribution": -2,
+        "value": "正向词 2 / 风险词 4",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,10 +262,16 @@
     ],
     "news_tone": {
       "positive_hits": 2,
-      "negative_hits": 3,
-      "score": -2
+      "negative_hits": 4,
+      "score": -4
     },
     "news": [
+      {
+        "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+        "source": "金十数据",
+        "published": "Sat, 17 Oct 2026 01:01:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
+      },
       {
         "title": "美银行股，全线上涨！美联储主席：拒评加息前景",
         "source": "证券之星",
@@ -283,12 +289,6 @@
         "source": "FX168",
         "published": "Fri, 16 Oct 2026 17:37:00 GMT",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
-      },
-      {
-        "title": "日本央行放鹰、美联储缄默 日元获双重支撑",
-        "source": "Moomoo",
-        "published": "Fri, 16 Oct 2026 07:19:13 GMT",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeUItTGFYRko5dWpVSzFKRVB3aGI0dTFSMGRzMXhZM0pyWWdiVlVWZDVRQVd2dnMzYThRVUFtMkgxdVl6ajh2UmFTQjY2ejRjdWx6UUQyWkM1dURpWWw5UFU5OEFPOGRuME9KZlhSYThHQzVQNWlZb1FpOEFORDl6NEloVWZVTnd0WTJjUWhIa2JpWndpdGdNVWx2VDhsVXV4em1yUXlBNUdNbExNUjFyaw?oc=5"
       },
       {
         "title": "能源通胀开始“传染”，全球市场遭遇超级寒流",
@@ -339,14 +339,14 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
+            "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
+          },
+          {
             "title": "美银行股，全线上涨！美联储主席：拒评加息前景",
             "source": "证券之星",
             "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xaEs0RG5VVmNhQ2lZNVBkSGtxZHFiTU1RVUtPcmswajJ1RV8xT1EzTV9SVzJocGtPTTJha1I1amkzR3d3V2RKR1ZuaWZPQWdsMkNZa2tMTDE5eEdFTzMzaA?oc=5"
-          },
-          {
-            "title": "日本央行放鹰、美联储缄默 日元获双重支撑",
-            "source": "Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeUItTGFYRko5dWpVSzFKRVB3aGI0dTFSMGRzMXhZM0pyWWdiVlVWZDVRQVd2dnMzYThRVUFtMkgxdVl6ajh2UmFTQjY2ejRjdWx6UUQyWkM1dURpWWw5UFU5OEFPOGRuME9KZlhSYThHQzVQNWlZb1FpOEFORDl6NEloVWZVTnd0WTJjUWhIa2JpWndpdGdNVWx2VDhsVXV4em1yUXlBNUdNbExNUjFyaw?oc=5"
           }
         ]
       },
@@ -387,6 +387,46 @@
             "title": "能源通胀开始“传染”，全球市场遭遇超级寒流",
             "source": "旅日侨网",
             "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVU9XXzZMdlR1QlhFSkllM0Fna1FsNldoSlF5YWRwR2t0WGw5aWh3a2VGSGFTVk8xeHVZTXpnOGlxWHFMM3JkRjRXdkl1b3BGa3IzRnR1NEd5VjI0QjZIdVJpTnJNN20yVUJjMUZiT2NLSXVrYVJTQmtnbHRGeDA2ZHB3amdJNEpORXc?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "currency",
+        "label": "美元与人民币",
+        "headline_count": 2,
+        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+        "watch": [
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.78 / -0.21%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6850 / -0.05%",
+            "state": "fresh"
+          },
+          {
+            "code": "A50",
+            "label": "富时A50",
+            "value": "13,278.83 / -0.46%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+        "headlines": [
+          {
+            "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
+          },
+          {
+            "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
+            "source": "FX168",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
           }
         ]
       },
@@ -459,41 +499,6 @@
             "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
           }
         ]
-      },
-      {
-        "key": "currency",
-        "label": "美元与人民币",
-        "headline_count": 1,
-        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-        "watch": [
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "101.78 / -0.21%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6850 / -0.05%",
-            "state": "fresh"
-          },
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "13,278.83 / -0.46%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-        "headlines": [
-          {
-            "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
-            "source": "FX168",
-            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
-          }
-        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -501,11 +506,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-17 14:49",
+    "generated_at": "2026-10-17 16:00",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 140,
+    "signal_count": 141,
     "matured_1d": 135,
     "directional_1d": 116,
     "hit_rate_1d": 63.8,
@@ -542,14 +547,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-17 14:49",
-      "slot": "open",
-      "score": "-1",
+      "captured_at": "2026-10-17 16:00",
+      "slot": "midday",
+      "score": "-3",
       "stance": "中性等待",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-17 16:00",
+        "slot": "midday",
+        "signal_date": "2026-10-17",
+        "market_asof_date": "2026-10-16",
+        "score": "-3",
+        "stance": "中性等待",
+        "confidence": "中",
+        "sh_close": "3716.28",
+        "sh_pct": "0.24",
+        "global_avg": "-0.264",
+        "a50_pct": "-0.45854572713642794",
+        "usdcnh": "6.685",
+        "usdcnh_pct": "-0.05083428024639236",
+        "dxy": "101.7827",
+        "dxy_pct": "-0.2087344944291636",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 0,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-17 14:49",
         "slot": "open",
@@ -1024,31 +1054,6 @@
         "return_5d": null,
         "direction": 1,
         "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-13 18:58",
-        "slot": "midday",
-        "signal_date": "2026-10-13",
-        "market_asof_date": "2026-10-13",
-        "score": "11",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3813.79",
-        "sh_pct": "0.05",
-        "global_avg": "0.2194",
-        "a50_pct": "0.08721650988112728",
-        "usdcnh": "6.6938",
-        "usdcnh_pct": "-0.013443470207774588",
-        "dxy": "102.3077",
-        "dxy_pct": "-0.25611677443005965",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.1,
-        "return_3d": -2.358464,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
