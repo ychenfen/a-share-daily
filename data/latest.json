@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17 19:33",
+  "generated_at": "2026-10-17 23:42",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-17 19:33",
-    "slot": "close",
-    "slot_label": "收盘快照",
+    "checked_at": "2026-10-17 23:42",
+    "slot": "night",
+    "slot_label": "夜间校验",
     "target_date": "2026-10-17",
     "market_data_date": "2026-10-16",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-17 19:33",
+    "generated_at": "2026-10-17 23:42",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-17 19:33",
-    "score": 1,
+    "generated_at": "2026-10-17 23:42",
+    "score": -1,
     "stance": "中性等待",
     "color": "#8c959f",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 2 / 风险词 2",
-        "contribution": 0,
+        "value": "正向词 0 / 风险词 1",
+        "contribution": -2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -261,16 +261,16 @@
       "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
     ],
     "news_tone": {
-      "positive_hits": 2,
-      "negative_hits": 2,
-      "score": 0
+      "positive_hits": 0,
+      "negative_hits": 1,
+      "score": -2
     },
     "news": [
       {
-        "title": "美银行股，全线上涨！美联储主席：拒评加息前景",
-        "source": "证券之星",
-        "published": "Fri, 16 Oct 2026 14:47:49 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xaEs0RG5VVmNhQ2lZNVBkSGtxZHFiTU1RVUtPcmswajJ1RV8xT1EzTV9SVzJocGtPTTJha1I1amkzR3d3V2RKR1ZuaWZPQWdsMkNZa2tMTDE5eEdFTzMzaA?oc=5"
+        "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
+        "source": "金十数据",
+        "published": "Sat, 17 Oct 2026 02:48:42 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
       },
       {
         "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
@@ -279,98 +279,17 @@
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
       },
       {
-        "title": "美股前瞻| 美联储特别工作组将就AI于11月举行听证会，沃什提振市场对美联储10月按兵不动预期，三大期指涨跌不一；Roadster计划2028年量产，特斯拉盘前涨超3%",
-        "source": "富途牛牛",
-        "published": "Fri, 16 Oct 2026 12:13:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3U4QTdOUDlwOTJyNGFGTm1CVXlLY3Jwa09GS0hvdmlBM2VLeVlOOXZ0LW9iSlNBQ3V4R1VOY2dkUW8zWXpqX0cwZGYycWtmWlB6SmlBR0pDTktOYXpSMEFQeG1HUUtGZEZsMHYtamQ1T2dQcW43Y1M2cTRGdm05MVZCQTVXam9SOXFpeUFsMkE5RjMzcWhPTV9iRFBlNlU?oc=5"
-      },
-      {
-        "title": "美股存储巨头下挫，SK海力士跌超5%，市值被美光超越，沃什最新发声，美联储加息有新信号",
-        "source": "手机网易网",
-        "published": "Fri, 16 Oct 2026 15:01:09 GMT",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk9jd1AyM2I4dElYR0ZPMUF3OFkycV80aGNCQzBkOFR5UWxHZ1dQMnBrVjU3YUs4b3lqalRhX3RUTmVxYWYzRlBFNzdHYlNnRGRvZlNvTmZsTmZlR0NIZHRjcm1iYzhMRDFQVG4wYlZ4V2VhN3hINEhZTWpodmQ2V3lfcVlkS1NzR1RBd3dB?oc=5"
+        "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+        "source": "金十数据",
+        "published": "Sat, 17 Oct 2026 01:01:58 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
       }
     ],
     "events": [
       {
-        "key": "central_bank",
-        "label": "央行与利率",
-        "headline_count": 3,
-        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "101.78 / -0.21%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6850 / -0.05%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-        "headlines": [
-          {
-            "title": "美银行股，全线上涨！美联储主席：拒评加息前景",
-            "source": "证券之星",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xaEs0RG5VVmNhQ2lZNVBkSGtxZHFiTU1RVUtPcmswajJ1RV8xT1EzTV9SVzJocGtPTTJha1I1amkzR3d3V2RKR1ZuaWZPQWdsMkNZa2tMTDE5eEdFTzMzaA?oc=5"
-          },
-          {
-            "title": "美股前瞻| 美联储特别工作组将就AI于11月举行听证会，沃什提振市场对美联储10月按兵不动预期，三大期指涨跌不一；Roadster计划2028年量产，特斯拉盘前涨超3%",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3U4QTdOUDlwOTJyNGFGTm1CVXlLY3Jwa09GS0hvdmlBM2VLeVlOOXZ0LW9iSlNBQ3V4R1VOY2dkUW8zWXpqX0cwZGYycWtmWlB6SmlBR0pDTktOYXpSMEFQeG1HUUtGZEZsMHYtamQ1T2dQcW43Y1M2cTRGdm05MVZCQTVXam9SOXFpeUFsMkE5RjMzcWhPTV9iRFBlNlU?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "technology",
-        "label": "科技与产业",
-        "headline_count": 1,
-        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-        "watch": [
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "26,140.03 / -2.14%",
-            "state": "fresh"
-          },
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "13,278.83 / -0.46%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-        "headlines": [
-          {
-            "title": "美股存储巨头下挫，SK海力士跌超5%，市值被美光超越，沃什最新发声，美联储加息有新信号",
-            "source": "手机网易网",
-            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQk9jd1AyM2I4dElYR0ZPMUF3OFkycV80aGNCQzBkOFR5UWxHZ1dQMnBrVjU3YUs4b3lqalRhX3RUTmVxYWYzRlBFNzdHYlNnRGRvZlNvTmZsTmZlR0NIZHRjcm1iYzhMRDFQVG4wYlZ4V2VhN3hINEhZTWpodmQ2V3lfcVlkS1NzR1RBd3dB?oc=5"
-          }
-        ]
-      },
-      {
         "key": "commodities",
         "label": "商品与成本",
-        "headline_count": 1,
+        "headline_count": 2,
         "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
         "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
         "watch": [
@@ -396,6 +315,11 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
+            "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
+          },
+          {
             "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
             "source": "FX168",
             "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
@@ -405,7 +329,7 @@
       {
         "key": "currency",
         "label": "美元与人民币",
-        "headline_count": 1,
+        "headline_count": 2,
         "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
         "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
         "watch": [
@@ -434,6 +358,81 @@
             "title": "黄金涨、美元跌、AI股重挫：沃什未亮底牌，全球市场已开始重新下注",
             "source": "FX168",
             "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZjFuSmdpYTVJN3dxaG1kUkNGOFBsTEVQU1hEdGQwYzNzcXBPcE9IOXF6YzNZUGZTTnFXTHJJZF9TU3FXbG96LTFReDhreEJoUTMtM0tRN1JMNUlEY09JaE1mdnZKWEgxdFE3RHRWS25icVFQVUptQ0hKT3BFdWozdi1pYnZKLVMzXzlkUWpTdTU?oc=5"
+          },
+          {
+            "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "central_bank",
+        "label": "央行与利率",
+        "headline_count": 1,
+        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "watch": [
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          },
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.78 / -0.21%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6850 / -0.05%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "headlines": [
+          {
+            "title": "前日本央行委员：若美联储加息，日元汇率或下探165-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BRUplYmFXY2M3SFFLTndZNTBRTDJCeDhmMUo0ZEVZWXVpV1daZGlfU3lFcFRhRVFZYnU3ei1LYW9Tc0daSWRrSVNUOTYzcTg?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "geopolitics",
+        "label": "地缘与贸易",
+        "headline_count": 1,
+        "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
+        "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
+        "watch": [
+          {
+            "code": "VIX",
+            "label": "VIX",
+            "value": "15.44",
+            "state": "stale"
+          },
+          {
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "4,184.85 / +0.35%",
+            "state": "fresh"
+          },
+          {
+            "code": "WTI",
+            "label": "原油",
+            "value": "101.85 / +3.96%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
+        "headlines": [
+          {
+            "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
           }
         ]
       }
@@ -443,11 +442,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-17 19:33",
+    "generated_at": "2026-10-17 23:42",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 142,
+    "signal_count": 143,
     "matured_1d": 135,
     "directional_1d": 116,
     "hit_rate_1d": 63.8,
@@ -484,14 +483,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-17 19:33",
-      "slot": "close",
-      "score": "1",
+      "captured_at": "2026-10-17 23:42",
+      "slot": "night",
+      "score": "-1",
       "stance": "中性等待",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-17 23:42",
+        "slot": "night",
+        "signal_date": "2026-10-17",
+        "market_asof_date": "2026-10-16",
+        "score": "-1",
+        "stance": "中性等待",
+        "confidence": "中",
+        "sh_close": "3716.28",
+        "sh_pct": "0.24",
+        "global_avg": "-0.264",
+        "a50_pct": "-0.45854572713642794",
+        "usdcnh": "6.685",
+        "usdcnh_pct": "-0.05083428024639236",
+        "dxy": "101.7827",
+        "dxy_pct": "-0.2087344944291636",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 0,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-17 19:33",
         "slot": "close",
@@ -963,31 +987,6 @@
         "health": "markets,us10y,vix",
         "return_1d": -0.88,
         "return_3d": -2.221902,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-14 03:21",
-        "slot": "night",
-        "signal_date": "2026-10-14",
-        "market_asof_date": "2026-10-13",
-        "score": "9",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3800.86",
-        "sh_pct": "0.10",
-        "global_avg": "0.3177",
-        "a50_pct": "-0.019762269379419717",
-        "usdcnh": "6.6931",
-        "usdcnh_pct": "-0.023899502591595567",
-        "dxy": "102.1945",
-        "dxy_pct": "-0.36647999812811083",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -1.59,
-        "return_3d": null,
         "return_5d": null,
         "direction": 1,
         "hit_1d": false
