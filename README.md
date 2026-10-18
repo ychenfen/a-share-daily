@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-16 · 最后检查 `2026-10-18 16:17`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-16 · 最后检查 `2026-10-18 20:01`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -108,7 +108,7 @@
 - [A股，下周将走出"政策预期驱动的震荡修复"行情？](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdE5wcnRDWGZhRmtCS2h6NTB3UEQ3RW5pZkJfUmo1dkxOejY3bWxtLTlEUV85QTJ2M2ItR1l1MkN6dmg4eEVwenJYaUVWMHlLZUhWdEtqYjZoUDNoSWlIemh3ZUh4Zw?oc=5) · 证券市场周刊
 - [一周市场回顾｜AI债务隐忧浮现，科技股迎来估值考验](https://news.google.com/rss/articles/CBMigwFBVV95cUxOR01rVWFIRXNfZmJXdTE3aEtrT3Q4STljWU9fSW1OZE1PTnNYQUpvbHU5UzFlLUlycHBhbWNjR245dF9EdENPeU9zQWdTUC1XbDB1T1FDa3JtMnVlMUpCUGp5elJmSWpPZUhqRGpaZ2JJWFFTUm52SlNrRjVtYjdZSS1Xcw?oc=5) · 新浪网
 - [公募基金市场近期关注](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fQ3RSQ2cwT2thTzdjYlJDNUhnNGhzX3F0b0Q0dlF6dUdyZHQ0bVl5aC1UWUdKUFp4NER3SHZMZ1Z5Z3FPMzVqREpLamxfRzZiNXBDNEV0MXN4eXha?oc=5) · Moomoo
-- [下周宏观展望：美联储集体静默，美股财报季迎来重头戏](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5) · TradingView
+- [下周宏观展望：美联储集体静默，美股财报季迎来重头戏](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LVkc3ZkFrY0tQUWJTZWMxTnhvNTFtUXh4T2VyYXFFM0FtZDV6UFE1dFVQNzhDYWF3WHJaUVZIZ3FndEc0dXowN2pOYmg2NGFvRXVYb1NnYUs3UEw2aDIwb3JpTlFadw?oc=5) · TradingView
 - [一周展望：纳指创6月以来最差单周表现，黄金4200关口再遇阻：下周能否迎来反转？](https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3dCY3FQNjNWRW5YS3BiZmRacDM3anFqZEM2RUNPOWVOVzl3YjZLZ1hWRThUTEhSbDNDbVU3TFhhTlNlMWVQTlItNDlzV2hpSlZQOGhFX2hLNHlkUW9xQ1BlcHBkVDF1TWtMOERjLWdPWTdiN0NmaDZLeGlsaFJtX0s1VzFxSGtYcGdfaEZGMmFnYVN4elZPLUVBZGdCdFo1YTU3SmozWTZXZ3gz?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
