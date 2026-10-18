@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18 15:09",
+  "generated_at": "2026-10-18 16:17",
   "score": 1,
   "stance": "中性等待",
   "color": "#8c959f",
@@ -72,6 +72,12 @@
   },
   "news": [
     {
+      "title": "A股，下周将走出\"政策预期驱动的震荡修复\"行情？",
+      "source": "证券市场周刊",
+      "published": "Sun, 18 Oct 2026 06:34:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdE5wcnRDWGZhRmtCS2h6NTB3UEQ3RW5pZkJfUmo1dkxOejY3bWxtLTlEUV85QTJ2M2ItR1l1MkN6dmg4eEVwenJYaUVWMHlLZUhWdEtqYjZoUDNoSWlIemh3ZUh4Zw?oc=5"
+    },
+    {
       "title": "一周市场回顾｜AI债务隐忧浮现，科技股迎来估值考验",
       "source": "新浪网",
       "published": "Sun, 18 Oct 2026 03:34:33 GMT",
@@ -90,12 +96,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5"
     },
     {
-      "title": "纳指重挫2.14%！美股AI板块血流成河，英伟达跌1.43%，油价大幅飙高|纳斯达克|国际油价|芯片|美联储|联军",
-      "source": "finance.sina.com.cn",
-      "published": "Sat, 17 Oct 2026 07:45:01 GMT",
-      "link": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQWXYyeTNENURXbnhQUVVKUDFzZmNDTTJ3TjF3Y2ZCSDlnYld4bDNWSTdDTDRadUNvV0h5TVdzRGRrUDJnV1FTblhBMzdzOWRCSlc2My1KN2tOcjlMc0lQYUNEd2JSWXgxeE1vT3l4dW9KeDZwV0t0WW9Wa2VvQ3lVMENRUEpxQ29jVUp4anBFYzFvcDlmQVdFX1RuYW51d1R1ZGtWNzNlX09Dajg5RDZBTno2enVEbEQxemJrV0RrR2pEaUlYVjgzV1lWZVJYQWFoTnZ1NThVaWdBRHJzbDNEYkpScHprNVlZQnJTN3RxVEE3SDk5ZkRDN19aLUNZYVpOVzFPVXJSRl9uVkpyZFp0eGRGV0xSUHdHdjBoNTM5S0VXVlR0TmJfTkg0SHA2NlIwbUZiR1BvQXFTRVRxRHlwSU1WQU1ySS1jUlRIX2ZnLXR5VGcwYm1MR0Z2R1pOVHhGU0Rud3RfYVRpRXNEUlBNNlNfNlJVTm1oaFVTY3ZlZlJQWHlpY2lUd1k4V0hlRmZPM3BJYkl3SmVUYWtUY0lIcVB5c3RwRkNKVjczS0FjQk1fdFdGajFidEV6T3psTzFCVkZ3eUtpTUJoYmUzOEF5SHlsZktwQ0NDM3RPUVlmNzJmZGpNUzM5MXNtUG1qMXRHaTA3VjZmTmtpZDFqT1hNR1Job1ZLaFVreC1FZ01UV0pjTTExSzRjXzhfZ1lLVV9idUdfRnNfUS1KLWt1QlZlYWIwS2xwSmtHRTZCZldyeC03ZDlTbEo3VWhpQm11TTZYQXY4anQ1OXJQbXVLU2xJbFZ3N0k1d1NUSVViaTl1MWVmYnprei1hUm1QV2pSa1Q0dDdR?oc=5"
-    },
-    {
       "title": "一周展望：纳指创6月以来最差单周表现，黄金4200关口再遇阻：下周能否迎来反转？",
       "source": "富途牛牛",
       "published": "Sun, 18 Oct 2026 01:25:10 GMT",
@@ -106,7 +106,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -135,18 +135,13 @@
           "title": "下周宏观展望：美联储集体静默，美股财报季迎来重头戏",
           "source": "TradingView",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5"
-        },
-        {
-          "title": "纳指重挫2.14%！美股AI板块血流成河，英伟达跌1.43%，油价大幅飙高|纳斯达克|国际油价|芯片|美联储|联军",
-          "source": "finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQWXYyeTNENURXbnhQUVVKUDFzZmNDTTJ3TjF3Y2ZCSDlnYld4bDNWSTdDTDRadUNvV0h5TVdzRGRrUDJnV1FTblhBMzdzOWRCSlc2My1KN2tOcjlMc0lQYUNEd2JSWXgxeE1vT3l4dW9KeDZwV0t0WW9Wa2VvQ3lVMENRUEpxQ29jVUp4anBFYzFvcDlmQVdFX1RuYW51d1R1ZGtWNzNlX09Dajg5RDZBTno2enVEbEQxemJrV0RrR2pEaUlYVjgzV1lWZVJYQWFoTnZ1NThVaWdBRHJzbDNEYkpScHprNVlZQnJTN3RxVEE3SDk5ZkRDN19aLUNZYVpOVzFPVXJSRl9uVkpyZFp0eGRGV0xSUHdHdjBoNTM5S0VXVlR0TmJfTkg0SHA2NlIwbUZiR1BvQXFTRVRxRHlwSU1WQU1ySS1jUlRIX2ZnLXR5VGcwYm1MR0Z2R1pOVHhGU0Rud3RfYVRpRXNEUlBNNlNfNlJVTm1oaFVTY3ZlZlJQWHlpY2lUd1k4V0hlRmZPM3BJYkl3SmVUYWtUY0lIcVB5c3RwRkNKVjczS0FjQk1fdFdGajFidEV6T3psTzFCVkZ3eUtpTUJoYmUzOEF5SHlsZktwQ0NDM3RPUVlmNzJmZGpNUzM5MXNtUG1qMXRHaTA3VjZmTmtpZDFqT1hNR1Job1ZLaFVreC1FZ01UV0pjTTExSzRjXzhfZ1lLVV9idUdfRnNfUS1KLWt1QlZlYWIwS2xwSmtHRTZCZldyeC03ZDlTbEo3VWhpQm11TTZYQXY4anQ1OXJQbXVLU2xJbFZ3N0k1d1NUSVViaTl1MWVmYnprei1hUm1QV2pSa1Q0dDdR?oc=5"
         }
       ]
     },
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
@@ -175,18 +170,13 @@
           "title": "一周市场回顾｜AI债务隐忧浮现，科技股迎来估值考验",
           "source": "新浪网",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR01rVWFIRXNfZmJXdTE3aEtrT3Q4STljWU9fSW1OZE1PTnNYQUpvbHU5UzFlLUlycHBhbWNjR245dF9EdENPeU9zQWdTUC1XbDB1T1FDa3JtMnVlMUpCUGp5elJmSWpPZUhqRGpaZ2JJWFFTUm52SlNrRjVtYjdZSS1Xcw?oc=5"
-        },
-        {
-          "title": "纳指重挫2.14%！美股AI板块血流成河，英伟达跌1.43%，油价大幅飙高|纳斯达克|国际油价|芯片|美联储|联军",
-          "source": "finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQWXYyeTNENURXbnhQUVVKUDFzZmNDTTJ3TjF3Y2ZCSDlnYld4bDNWSTdDTDRadUNvV0h5TVdzRGRrUDJnV1FTblhBMzdzOWRCSlc2My1KN2tOcjlMc0lQYUNEd2JSWXgxeE1vT3l4dW9KeDZwV0t0WW9Wa2VvQ3lVMENRUEpxQ29jVUp4anBFYzFvcDlmQVdFX1RuYW51d1R1ZGtWNzNlX09Dajg5RDZBTno2enVEbEQxemJrV0RrR2pEaUlYVjgzV1lWZVJYQWFoTnZ1NThVaWdBRHJzbDNEYkpScHprNVlZQnJTN3RxVEE3SDk5ZkRDN19aLUNZYVpOVzFPVXJSRl9uVkpyZFp0eGRGV0xSUHdHdjBoNTM5S0VXVlR0TmJfTkg0SHA2NlIwbUZiR1BvQXFTRVRxRHlwSU1WQU1ySS1jUlRIX2ZnLXR5VGcwYm1MR0Z2R1pOVHhGU0Rud3RfYVRpRXNEUlBNNlNfNlJVTm1oaFVTY3ZlZlJQWHlpY2lUd1k4V0hlRmZPM3BJYkl3SmVUYWtUY0lIcVB5c3RwRkNKVjczS0FjQk1fdFdGajFidEV6T3psTzFCVkZ3eUtpTUJoYmUzOEF5SHlsZktwQ0NDM3RPUVlmNzJmZGpNUzM5MXNtUG1qMXRHaTA3VjZmTmtpZDFqT1hNR1Job1ZLaFVreC1FZ01UV0pjTTExSzRjXzhfZ1lLVV9idUdfRnNfUS1KLWt1QlZlYWIwS2xwSmtHRTZCZldyeC03ZDlTbEo3VWhpQm11TTZYQXY4anQ1OXJQbXVLU2xJbFZ3N0k1d1NUSVViaTl1MWVmYnprei1hUm1QV2pSa1Q0dDdR?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
@@ -212,14 +202,44 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "纳指重挫2.14%！美股AI板块血流成河，英伟达跌1.43%，油价大幅飙高|纳斯达克|国际油价|芯片|美联储|联军",
-          "source": "finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMigwVBVV95cUxQWXYyeTNENURXbnhQUVVKUDFzZmNDTTJ3TjF3Y2ZCSDlnYld4bDNWSTdDTDRadUNvV0h5TVdzRGRrUDJnV1FTblhBMzdzOWRCSlc2My1KN2tOcjlMc0lQYUNEd2JSWXgxeE1vT3l4dW9KeDZwV0t0WW9Wa2VvQ3lVMENRUEpxQ29jVUp4anBFYzFvcDlmQVdFX1RuYW51d1R1ZGtWNzNlX09Dajg5RDZBTno2enVEbEQxemJrV0RrR2pEaUlYVjgzV1lWZVJYQWFoTnZ1NThVaWdBRHJzbDNEYkpScHprNVlZQnJTN3RxVEE3SDk5ZkRDN19aLUNZYVpOVzFPVXJSRl9uVkpyZFp0eGRGV0xSUHdHdjBoNTM5S0VXVlR0TmJfTkg0SHA2NlIwbUZiR1BvQXFTRVRxRHlwSU1WQU1ySS1jUlRIX2ZnLXR5VGcwYm1MR0Z2R1pOVHhGU0Rud3RfYVRpRXNEUlBNNlNfNlJVTm1oaFVTY3ZlZlJQWHlpY2lUd1k4V0hlRmZPM3BJYkl3SmVUYWtUY0lIcVB5c3RwRkNKVjczS0FjQk1fdFdGajFidEV6T3psTzFCVkZ3eUtpTUJoYmUzOEF5SHlsZktwQ0NDM3RPUVlmNzJmZGpNUzM5MXNtUG1qMXRHaTA3VjZmTmtpZDFqT1hNR1Job1ZLaFVreC1FZ01UV0pjTTExSzRjXzhfZ1lLVV9idUdfRnNfUS1KLWt1QlZlYWIwS2xwSmtHRTZCZldyeC03ZDlTbEo3VWhpQm11TTZYQXY4anQ1OXJQbXVLU2xJbFZ3N0k1d1NUSVViaTl1MWVmYnprei1hUm1QV2pSa1Q0dDdR?oc=5"
-        },
-        {
           "title": "一周展望：纳指创6月以来最差单周表现，黄金4200关口再遇阻：下周能否迎来反转？",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3dCY3FQNjNWRW5YS3BiZmRacDM3anFqZEM2RUNPOWVOVzl3YjZLZ1hWRThUTEhSbDNDbVU3TFhhTlNlMWVQTlItNDlzV2hpSlZQOGhFX2hLNHlkUW9xQ1BlcHBkVDF1TWtMOERjLWdPWTdiN0NmaDZLeGlsaFJtX0s1VzFxSGtYcGdfaEZGMmFnYVN4elZPLUVBZGdCdFo1YTU3SmozWTZXZ3gz?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
+      "headline_count": 1,
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
+      "watch": [
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,278.83 / -0.46%",
+          "state": "fresh"
+        },
+        {
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "24,186.83 / +0.52%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6850 / -0.05%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
+      "headlines": [
+        {
+          "title": "A股，下周将走出\"政策预期驱动的震荡修复\"行情？",
+          "source": "证券市场周刊",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdE5wcnRDWGZhRmtCS2h6NTB3UEQ3RW5pZkJfUmo1dkxOejY3bWxtLTlEUV85QTJ2M2ItR1l1MkN6dmg4eEVwenJYaUVWMHlLZUhWdEtqYjZoUDNoSWlIemh3ZUh4Zw?oc=5"
         }
       ]
     }
