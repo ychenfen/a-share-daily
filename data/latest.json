@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19 15:37",
+  "generated_at": "2026-10-19 17:15",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-19 15:37",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-19 17:15",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-19",
     "market_data_date": "2026-10-19",
     "market_state": "live",
     "pulse_updated": true,
     "daily_updated": false,
     "pulse_file": "data/pulses/2026-10.csv",
-    "message": "开盘脉搏已更新"
+    "message": "午间脉搏已更新"
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-19 15:37",
+    "generated_at": "2026-10-19 17:15",
     "markets": [
       {
         "code": "SPX",
@@ -98,11 +98,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 13359.56,
-        "pct": 0.146626686656659,
-        "change": 19.55999999999949,
-        "previous_close": 13340.0,
-        "quote_time": "2026-10-19 15:37:08",
+        "close": 13361.5,
+        "pct": 0.13114508393285984,
+        "change": 17.5,
+        "previous_close": 13344.0,
+        "quote_time": "2026-10-19 17:15:22",
         "stale": false
       },
       {
@@ -111,11 +111,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.681,
-        "pct": -0.06432022497120382,
-        "change": -0.0042999999999997485,
+        "close": 6.6808,
+        "pct": -0.06731186334195671,
+        "change": -0.0045000000000001705,
         "previous_close": 6.6853,
-        "quote_time": "2026-10-19 15:37:39",
+        "quote_time": "2026-10-19 17:15:18",
         "stale": false
       },
       {
@@ -124,11 +124,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 101.9188,
-        "pct": -0.057561717045429006,
-        "change": -0.05870000000000175,
+        "close": 101.909,
+        "pct": -0.06717168002745577,
+        "change": -0.06850000000000023,
         "previous_close": 101.9775,
-        "quote_time": "2026-10-19 15:37:41",
+        "quote_time": "2026-10-19 17:15:32",
         "stale": false
       },
       {
@@ -137,11 +137,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 4206.661,
-        "pct": 0.6113462964291605,
-        "change": 25.560999999999694,
+        "close": 4190.151,
+        "pct": 0.2164741336011966,
+        "change": 9.050999999999476,
         "previous_close": 4181.1,
-        "quote_time": "2026-10-19 15:37:44",
+        "quote_time": "2026-10-19 17:15:28",
         "stale": false
       },
       {
@@ -150,11 +150,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 96.852,
-        "pct": -2.189456675419099,
-        "change": -2.167999999999992,
+        "close": 98.093,
+        "pct": -0.9361745101999497,
+        "change": -0.9269999999999925,
         "previous_close": 99.02,
-        "quote_time": "2026-10-19 15:37:48",
+        "quote_time": "2026-10-19 17:15:30",
         "stale": false
       }
     ],
@@ -196,8 +196,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-19 15:37",
-    "score": 2,
+    "generated_at": "2026-10-19 17:15",
+    "score": 0,
     "stance": "中性等待",
     "color": "#8c959f",
     "confidence": "中",
@@ -229,13 +229,13 @@
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 +0.15%",
-        "contribution": 0.9,
+        "value": "富时 A50 +0.13%",
+        "contribution": 0.8,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.6810 (-0.06%) / DXY 101.92 (-0.06%)",
+        "value": "USD/CNH 6.6808 (-0.07%) / DXY 101.91 (-0.07%)",
         "contribution": 1.1,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
@@ -253,8 +253,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 2 / 风险词 3",
-        "contribution": -2,
+        "value": "正向词 2 / 风险词 4",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -263,15 +263,21 @@
     ],
     "news_tone": {
       "positive_hits": 2,
-      "negative_hits": 3,
-      "score": -2
+      "negative_hits": 4,
+      "score": -4
     },
     "news": [
       {
-        "title": "日韩股市，开盘下跌|道琼斯工业平均指数|日经225|纳斯达克综合指数|美联储|美债",
-        "source": "finance.sina.com.cn",
-        "published": "Mon, 19 Oct 2026 01:42:27 GMT",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZV9aOXFRZ01NNE1yNmlObVh5YVZwSEFKX3V1elVha1pyZkZ1ci00Qi1pa0F3S1lBT1RPUEFTV3JOVGhENi10VnJzbWpFUTd2Xy0yMlhUMXdReWxjX2NyUzJNRUMtUUlYTFYwcF9saWtPQzdPbTNQUWpRQVA4Nm1LODFwNE9nNXpPQ0dYQU1Va3FURjdqaDR2aXVPT1p4QlJfejF1bWM5bw?oc=5"
+        "title": "日韩股市，开盘下跌",
+        "source": "新浪财经",
+        "published": "Mon, 19 Oct 2026 06:25:56 GMT",
+        "link": "https://news.google.com/rss/articles/CBMinAVBVV95cUxNVmwxT1ZKWWpiUWYtWHNCX3V4TUExTUF6aElaRWFiTmhPX0lJVkxTSk00NmFKNmlxLUNOM0F4U1F0V0RZWTd0RTNMa0YxUFNFMzBVY1VsZzRIWGdMeHZMbTVnVFlLTzNaLUY0eEVIUDhSSUJoVXdYZXFLdmt0RzhMZElwODhKQWhHQjU2ZGxTS2FSUjZqWUZucjI0aTBQU3FMbTRCVzdUWjRJUDlWS0pYQlhTRDhJcTRVV0dVTHNPZGo5dEJwUElkUHBmR2RiejhNWVVIX0ZKY1NiZDJ0LWVyTjhoYndrRGd2cnNrb0xaV0dvNTd5SElfQ2VBUUw2TnluWHc2Vl80TDI5SmdMZjFOZ3J4RTJoNDM2anNvZWtwWlJCMlpzMzJ0eHRyMWt6MjJJNmZrSzFTanU4SUpFbGJzcDl3N1lNMDFsc1FETnpzeGdaSEUxcG1LZjZTeVdVYVQ1clNEUjcwZ3hLcDlFajktVHEwNktHZTluV2xQWFUyWW5Fei10N3plYU1aSGxhSHI1cEpMSzkwNlU3SWxOYTg5cVBDNk9hVUlvNzFKUFk0N1dLS3FINm5iVmwxMG1NNFN2QXlwRGktUDBPWTl1eWFnSEV2Y0dJOGV0MkV5b0d6b0pSQ1Y4WVRURWpDaDlxd0Q1XzRVWFk1UUJJT2V4Y1NHSlBGdDFOMmZPZlJWXzlNMWdaV013VGVacWhkZ0pmVkh4akxYRDFFMjRwOVZtcXhpOFZMamh3QW0zdDl4cUVoVDVyZzNHaVAwVW9PMWJja2NzdEdtVGlqTEtLSmd5TXZxcnhfb2prajg2LWdIZDBQdFhmTDFLa0IwVXJsMm96VlpmOHpJWndjRUo1eHZVSllzdlJtOGdhQWRhVG16VA?oc=5"
+      },
+      {
+        "title": "为何外资买入日本资产未推升日元：信贷担忧与美欧加息预期下的市场展望",
+        "source": "Moomoo",
+        "published": "Mon, 19 Oct 2026 04:24:21 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZbHMzYVlCdS1xRDM4TGtMa1Bza3UxWmlkSmhSdG5TRVBNb29oNXE3UlhKZUVidFRBam1VMU5NX1hkY2VYRmlLbWxNX09sWGVJVFBGeFFBcWIyX1lF?oc=5"
       },
       {
         "title": "芯片股抛售压力缓和，韩股由跌转涨，美股期货反弹，油价回落",
@@ -284,12 +290,6 @@
         "source": "证券之星",
         "published": "Sun, 18 Oct 2026 12:28:32 GMT",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LMUxOVW5yQ180Y3VMVWpHQnc3ZEVzV3R2ZWpnS2xaR0RkTEd0V0tPblBmcENUbHVtTTd0OEZ5anBMeWh0VE82TG8wLTRTcWZDZmFoZ3kzbS1NWEh1QW0tV0FR?oc=5"
-      },
-      {
-        "title": "A股，下周将走出“政策预期驱动的震荡修复”行情？|通用航空|亚太市场|美股|经济|个股",
-        "source": "新浪财经",
-        "published": "Sun, 18 Oct 2026 15:06:07 GMT",
-        "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNQU5WTDk5LVh0aWhNN0JrdTZJcll2MkVocnJvc0ktTEJIcU5UY1BEc1VjS0RMU2pwU2txdFk0aVh5LWNPUVh5cklraXNaQjE3WC16alhiNDVnQlV6Y3ZDZk9UWWhUY1BNN0FtSUg5NVZnMkNYeFMxZEY5N2d6bkZacEFrSW1ubk4tc3M2MklRdzJaV2xfVUZWQWdtNzVpQ0E3NVhLbnlZaUplbWJpck1MaENqUXBSUndacVlueXBvNVM3ZDFXSkZobHg3T0JWMXlENkU0M0tZb2V2N0JmdUgzbGlBc2tYQXhVU2JNQzdtQlRUazRfc2hfWUtjX254dzBRVHdqSWU3QUZ1TS1TeDlYOHFzU1kzbXo3bDJhUUlXMlIwNl95X2VySkNxLTN1a05CaVFHa3REZnhQaDRXdmhCOGFJa2tyMS1pVXVJS0ZBeFlhYUpGT29odDFyUDIyYThzSmJwWjYzazhZZ0xkNFdTQzF4RTRxTGRzMFRYWVZuQWlLekxWZEUyZWlody1qcHZhWHRCb0RpMDJaNXB6djlSVG51ZGZoLVAwbFZTX3pYNTRMTWF2Yy1ONGc1M2NOQWE1TVM2QWlXV2F2Qm9JRDg4d1Y1OXlRR25ZX1cwejBqZl9kUV8xbGx6LVAzTzlOZG5xekxBME5BbXpUN1BLRXcyZ3pORFdQMDdtbW43UFF6NGU1Ym96RnQ5dVF6dkVsd2Zkblp4TDE2WllyMW5JQmhnUzN0VWdsMHA5LXdmcWZB?oc=5"
       }
     ],
     "events": [
@@ -309,22 +309,22 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "101.92 / -0.06%",
+            "value": "101.91 / -0.07%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6810 / -0.06%",
+            "value": "6.6808 / -0.07%",
             "state": "fresh"
           }
         ],
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
-            "title": "日韩股市，开盘下跌|道琼斯工业平均指数|日经225|纳斯达克综合指数|美联储|美债",
-            "source": "finance.sina.com.cn",
-            "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZV9aOXFRZ01NNE1yNmlObVh5YVZwSEFKX3V1elVha1pyZkZ1ci00Qi1pa0F3S1lBT1RPUEFTV3JOVGhENi10VnJzbWpFUTd2Xy0yMlhUMXdReWxjX2NyUzJNRUMtUUlYTFYwcF9saWtPQzdPbTNQUWpRQVA4Nm1LODFwNE9nNXpPQ0dYQU1Va3FURjdqaDR2aXVPT1p4QlJfejF1bWM5bw?oc=5"
+            "title": "为何外资买入日本资产未推升日元：信贷担忧与美欧加息预期下的市场展望",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZbHMzYVlCdS1xRDM4TGtMa1Bza3UxWmlkSmhSdG5TRVBNb29oNXE3UlhKZUVidFRBam1VMU5NX1hkY2VYRmlLbWxNX09sWGVJVFBGeFFBcWIyX1lF?oc=5"
           },
           {
             "title": "美联储加息，突变！美股科技巨头，业绩来袭！这些消息或影响市场",
@@ -349,7 +349,7 @@
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "13,359.56 / +0.15%",
+            "value": "13,361.50 / +0.13%",
             "state": "fresh"
           },
           {
@@ -383,13 +383,13 @@
           {
             "code": "WTI",
             "label": "原油",
-            "value": "96.85 / -2.19%",
+            "value": "98.09 / -0.94%",
             "state": "fresh"
           },
           {
             "code": "GOLD",
             "label": "黄金",
-            "value": "4,206.66 / +0.61%",
+            "value": "4,190.15 / +0.22%",
             "state": "fresh"
           },
           {
@@ -407,41 +407,6 @@
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RaFZJSWQydWUwOGV4RkQ2N2Rya0NaWTk0VjBrand4bkxTZHVSQ1FEYnBadTB4WVhXbW83QnI4aTM1c3EwMllOTk9BTXoyX29EeURB?oc=5"
           }
         ]
-      },
-      {
-        "key": "domestic_policy",
-        "label": "国内政策与需求",
-        "headline_count": 1,
-        "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-        "a_share_lens": "金融地产、基建、消费与顺周期方向",
-        "watch": [
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "13,359.56 / +0.15%",
-            "state": "fresh"
-          },
-          {
-            "code": "HSI",
-            "label": "恒生指数",
-            "value": "24,186.83 / +0.52%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6810 / -0.06%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-        "headlines": [
-          {
-            "title": "A股，下周将走出“政策预期驱动的震荡修复”行情？|通用航空|亚太市场|美股|经济|个股",
-            "source": "新浪财经",
-            "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNQU5WTDk5LVh0aWhNN0JrdTZJcll2MkVocnJvc0ktTEJIcU5UY1BEc1VjS0RMU2pwU2txdFk0aVh5LWNPUVh5cklraXNaQjE3WC16alhiNDVnQlV6Y3ZDZk9UWWhUY1BNN0FtSUg5NVZnMkNYeFMxZEY5N2d6bkZacEFrSW1ubk4tc3M2MklRdzJaV2xfVUZWQWdtNzVpQ0E3NVhLbnlZaUplbWJpck1MaENqUXBSUndacVlueXBvNVM3ZDFXSkZobHg3T0JWMXlENkU0M0tZb2V2N0JmdUgzbGlBc2tYQXhVU2JNQzdtQlRUazRfc2hfWUtjX254dzBRVHdqSWU3QUZ1TS1TeDlYOHFzU1kzbXo3bDJhUUlXMlIwNl95X2VySkNxLTN1a05CaVFHa3REZnhQaDRXdmhCOGFJa2tyMS1pVXVJS0ZBeFlhYUpGT29odDFyUDIyYThzSmJwWjYzazhZZ0xkNFdTQzF4RTRxTGRzMFRYWVZuQWlLekxWZEUyZWlody1qcHZhWHRCb0RpMDJaNXB6djlSVG51ZGZoLVAwbFZTX3pYNTRMTWF2Yy1ONGc1M2NOQWE1TVM2QWlXV2F2Qm9JRDg4d1Y1OXlRR25ZX1cwejBqZl9kUV8xbGx6LVAzTzlOZG5xekxBME5BbXpUN1BLRXcyZ3pORFdQMDdtbW43UFF6NGU1Ym96RnQ5dVF6dkVsd2Zkblp4TDE2WllyMW5JQmhnUzN0VWdsMHA5LXdmcWZB?oc=5"
-          }
-        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -449,11 +414,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-19 15:37",
+    "generated_at": "2026-10-19 17:15",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 150,
+    "signal_count": 151,
     "matured_1d": 135,
     "directional_1d": 116,
     "hit_rate_1d": 63.8,
@@ -490,14 +455,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-19 15:37",
-      "slot": "open",
-      "score": "2",
+      "captured_at": "2026-10-19 17:15",
+      "slot": "midday",
+      "score": "0",
       "stance": "中性等待",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-19 17:15",
+        "slot": "midday",
+        "signal_date": "2026-10-19",
+        "market_asof_date": "2026-10-19",
+        "score": "0",
+        "stance": "中性等待",
+        "confidence": "中",
+        "sh_close": "3716.28",
+        "sh_pct": "0.24",
+        "global_avg": "-0.264",
+        "a50_pct": "0.13114508393285984",
+        "usdcnh": "6.6808",
+        "usdcnh_pct": "-0.06731186334195671",
+        "dxy": "101.909",
+        "dxy_pct": "-0.06717168002745577",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 0,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-19 15:37",
         "slot": "open",
@@ -972,31 +962,6 @@
         "return_5d": null,
         "direction": -1,
         "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-15 16:33",
-        "slot": "midday",
-        "signal_date": "2026-10-15",
-        "market_asof_date": "2026-10-15",
-        "score": "-38",
-        "stance": "防守优先",
-        "confidence": "中",
-        "sh_close": "3767.23",
-        "sh_pct": "-0.88",
-        "global_avg": "-0.5173",
-        "a50_pct": "-0.8095907644490419",
-        "usdcnh": "6.6908",
-        "usdcnh_pct": "-0.07915055032033935",
-        "dxy": "101.9834",
-        "dxy_pct": "-0.5324331678846939",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -1.59,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
@@ -1046,8 +1011,8 @@
     }
   },
   "latest_pulse": {
-    "captured_at": "2026-10-19 15:37",
-    "slot": "open",
+    "captured_at": "2026-10-19 17:15",
+    "slot": "midday",
     "date": "2026-10-19",
     "上证指数_close": "3730.92",
     "深证成指_close": "11817.42",
