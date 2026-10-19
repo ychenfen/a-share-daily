@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-10-19 17:15`（北京时间）
+> **🔴 已收盘** · 收盘快照已更新 · 最后检查 `2026-10-19 22:37`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,16 +48,16 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +0 · 中性等待**（置信度：中）
+> **风险温度 -3 · 中性等待**（置信度：中）
 > 多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
 | --- | --- | ---: | ---: |
-| 标普 500 | 美国 | 7659.44 | -1.09% |
-| 纳斯达克 | 美国 | 26140.03 | -2.14% |
-| 道琼斯 | 美国 | 52002.41 | -0.34% |
+| 标普 500 | 美国 | 7700.68 | +0.54% |
+| 纳斯达克 | 美国 | 26459.19 | +1.22% |
+| 道琼斯 | 美国 | 51968.64 | -0.06% |
 | 恒生指数 | 中国香港 | 24186.83 | +0.52% |
-| 欧洲股票 ETF | 欧洲（美股代理） | 87.29 | +0.09% |
+| 欧洲股票 ETF | 欧洲（美股代理） | 86.72 | -0.66% |
 | 日经 225 | 日本 | 65018.95 | +1.38% |
 
 ### 跨资产先行带
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 13,361.50 | +0.13% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6808 | -0.07% | 最新 |
-| 美元指数 | 低权重计分 | 101.91 | -0.07% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,190.15 | +0.22% | 最新 |
-| WTI 原油 | 背景观察 | 98.09 | -0.94% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 13,346.90 | +0.02% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6820 | -0.05% | 最新 |
+| 美元指数 | 低权重计分 | 101.95 | -0.03% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,165.06 | -0.38% | 最新 |
+| WTI 原油 | 背景观察 | 97.84 | -1.19% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -78,15 +78,15 @@
 
 | 信号 | 当前值 | 分数贡献 | 解释 |
 | --- | --- | ---: | --- |
-| A股动量 | 上证 +0.24% | +1.9 | 反映本地市场价格强弱 |
-| 市场宽度 | 涨 3351 / 跌 2143 | +4.4 | 上涨家数占优时提高风险偏好 |
-| 短线情绪 | 涨停 61 / 跌停 10 / 炸板率 44.5% | +2.9 | 涨停扩散加分，炸板率过高扣分 |
-| 外围股市 | 6 个市场均值 -0.26% | -1.8 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 +0.13% | +0.8 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6808 (-0.07%) / DXY 101.91 (-0.07%) | +1.1 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A股动量 | 上证 +0.39% | +3.1 | 反映本地市场价格强弱 |
+| 市场宽度 | 涨 2302 / 跌 3161 | -3.1 | 上涨家数占优时提高风险偏好 |
+| 短线情绪 | 涨停 46 / 跌停 22 / 炸板率 31.3% | +0.1 | 涨停扩散加分，炸板率过高扣分 |
+| 外围股市 | 6 个市场均值 +0.49% | +3.4 | 衡量隔夜风险偏好共振 |
+| A50 先行 | 富时 A50 +0.02% | +0.1 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6820 (-0.05%) / DXY 101.95 (-0.03%) | +0.7 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 2 / 风险词 4 | -4.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 2 / 风险词 3 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,9 +94,10 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.91 / -0.07%（最新） / USD/CNH 6.6808 / -0.07%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 科技与产业（2 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,140.03 / -2.14%（最新） / 富时A50 13,361.50 / +0.13%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 98.09 / -0.94%（最新） / 黄金 4,190.15 / +0.22%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.95 / -0.03%（最新） / USD/CNH 6.6820 / -0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,459.19 / +1.22%（最新） / 富时A50 13,346.90 / +0.02%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 97.84 / -1.19%（最新） / 黄金 4,165.06 / -0.38%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 13,346.90 / +0.02%（最新） / 恒生指数 24,186.83 / +0.52%（最新） / USD/CNH 6.6820 / -0.05%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
 
 ### 研究观察
 
@@ -104,10 +105,10 @@
 
 ### 新闻雷达
 
-- [日韩股市，开盘下跌](https://news.google.com/rss/articles/CBMinAVBVV95cUxNVmwxT1ZKWWpiUWYtWHNCX3V4TUExTUF6aElaRWFiTmhPX0lJVkxTSk00NmFKNmlxLUNOM0F4U1F0V0RZWTd0RTNMa0YxUFNFMzBVY1VsZzRIWGdMeHZMbTVnVFlLTzNaLUY0eEVIUDhSSUJoVXdYZXFLdmt0RzhMZElwODhKQWhHQjU2ZGxTS2FSUjZqWUZucjI0aTBQU3FMbTRCVzdUWjRJUDlWS0pYQlhTRDhJcTRVV0dVTHNPZGo5dEJwUElkUHBmR2RiejhNWVVIX0ZKY1NiZDJ0LWVyTjhoYndrRGd2cnNrb0xaV0dvNTd5SElfQ2VBUUw2TnluWHc2Vl80TDI5SmdMZjFOZ3J4RTJoNDM2anNvZWtwWlJCMlpzMzJ0eHRyMWt6MjJJNmZrSzFTanU4SUpFbGJzcDl3N1lNMDFsc1FETnpzeGdaSEUxcG1LZjZTeVdVYVQ1clNEUjcwZ3hLcDlFajktVHEwNktHZTluV2xQWFUyWW5Fei10N3plYU1aSGxhSHI1cEpMSzkwNlU3SWxOYTg5cVBDNk9hVUlvNzFKUFk0N1dLS3FINm5iVmwxMG1NNFN2QXlwRGktUDBPWTl1eWFnSEV2Y0dJOGV0MkV5b0d6b0pSQ1Y4WVRURWpDaDlxd0Q1XzRVWFk1UUJJT2V4Y1NHSlBGdDFOMmZPZlJWXzlNMWdaV013VGVacWhkZ0pmVkh4akxYRDFFMjRwOVZtcXhpOFZMamh3QW0zdDl4cUVoVDVyZzNHaVAwVW9PMWJja2NzdEdtVGlqTEtLSmd5TXZxcnhfb2prajg2LWdIZDBQdFhmTDFLa0IwVXJsMm96VlpmOHpJWndjRUo1eHZVSllzdlJtOGdhQWRhVG16VA?oc=5) · 新浪财经
+- [日韩股市，开盘下跌](https://news.google.com/rss/articles/CBMi0AJBVV95cUxPSllCcHBiVEdXeWxqcFhJelhodURoNU5sM29DejF3Nk96QzNabTROSm83QU5hMGVlOGtVVWptNmhWX2ZfeG1Bb0NVaWpFU1lkeTd6d0dOamRaQlZDcVVnbkpzbnhZSTR2Y0xOOTV5LXlXTWE2ZkZ6bkJMSEM3dzhrTnZsazh2UmdPVXdfWjYzdkZlZ0dtcXM4ZU5rRWNRWFFHN3N2YlFWSjl5dzJvaVZWcGRmWU9zYmFyZEhMVjcyZGQzNEhOUnZnWmwyN2JHWWdoMU40dHFXb0lTT21YeDdnd09EbWEtSHdBcU93OEZEbnJxS3JIdG9DYUEwdmFrUUMtUTJkQnVweUllLWprZmxBR0hER3F6VlBmb2FUT3dUVFRja25PMW81ZXdocXhPbzE4V094bWlCZVByUmhfNFdOSFFyYktGRzc3OTNtSGlHcGk?oc=5) · 新浪财经
 - [为何外资买入日本资产未推升日元：信贷担忧与美欧加息预期下的市场展望](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZbHMzYVlCdS1xRDM4TGtMa1Bza3UxWmlkSmhSdG5TRVBNb29oNXE3UlhKZUVidFRBam1VMU5NX1hkY2VYRmlLbWxNX09sWGVJVFBGeFFBcWIyX1lF?oc=5) · Moomoo
 - [芯片股抛售压力缓和，韩股由跌转涨，美股期货反弹，油价回落](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RaFZJSWQydWUwOGV4RkQ2N2Rya0NaWTk0VjBrand4bkxTZHVSQ1FEYnBadTB4WVhXbW83QnI4aTM1c3EwMllOTk9BTXoyX29EeURB?oc=5) · 华尔街见闻
-- [美联储加息，突变！美股科技巨头，业绩来袭！这些消息或影响市场](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LMUxOVW5yQ180Y3VMVWpHQnc3ZEVzV3R2ZWpnS2xaR0RkTEd0V0tPblBmcENUbHVtTTd0OEZ5anBMeWh0VE82TG8wLTRTcWZDZmFoZ3kzbS1NWEh1QW0tV0FR?oc=5) · 证券之星
+- [A股，下周将走出“政策预期驱动的震荡修复”行情？\|通用航空\|亚太市场\|美股\|经济\|个股](https://news.google.com/rss/articles/CBMivgRBVV95cUxNQU5WTDk5LVh0aWhNN0JrdTZJcll2MkVocnJvc0ktTEJIcU5UY1BEc1VjS0RMU2pwU2txdFk0aVh5LWNPUVh5cklraXNaQjE3WC16alhiNDVnQlV6Y3ZDZk9UWWhUY1BNN0FtSUg5NVZnMkNYeFMxZEY5N2d6bkZacEFrSW1ubk4tc3M2MklRdzJaV2xfVUZWQWdtNzVpQ0E3NVhLbnlZaUplbWJpck1MaENqUXBSUndacVlueXBvNVM3ZDFXSkZobHg3T0JWMXlENkU0M0tZb2V2N0JmdUgzbGlBc2tYQXhVU2JNQzdtQlRUazRfc2hfWUtjX254dzBRVHdqSWU3QUZ1TS1TeDlYOHFzU1kzbXo3bDJhUUlXMlIwNl95X2VySkNxLTN1a05CaVFHa3REZnhQaDRXdmhCOGFJa2tyMS1pVXVJS0ZBeFlhYUpGT29odDFyUDIyYThzSmJwWjYzazhZZ0xkNFdTQzF4RTRxTGRzMFRYWVZuQWlLekxWZEUyZWlody1qcHZhWHRCb0RpMDJaNXB6djlSVG51ZGZoLVAwbFZTX3pYNTRMTWF2Yy1ONGc1M2NOQWE1TVM2QWlXV2F2Qm9JRDg4d1Y1OXlRR25ZX1cwejBqZl9kUV8xbGx6LVAzTzlOZG5xekxBME5BbXpUN1BLRXcyZ3pORFdQMDdtbW43UFF6NGU1Ym96RnQ5dVF6dkVsd2Zkblp4TDE2WllyMW5JQmhnUzN0VWdsMHA5LXdmcWZB?oc=5) · 新浪财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
@@ -117,7 +118,7 @@
 
 ![风险信号前向验证](charts/signal_scorecard.svg)
 
-> 1 日方向命中率 **63.8%**，当前有效样本 **116** 条。
+> 1 日方向命中率 **63.6%**，当前有效样本 **118** 条。
 
 方法：开盘/午间信号验证当日收盘，收盘/夜间信号验证下一交易日；同时持续结算 3 日和 5 日复合收益。
 
@@ -135,6 +136,7 @@
 
 | 日期 | 上证 | 深成 | 创业板 | 沪深300 | 科创50 | 成交额(亿) | 涨/跌/平 | 涨停 | 跌停 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-19 | 3730.92<br>+0.39% | 11817.42<br>+0.13% | 2746.29<br>-0.94% | 4174.53<br>+0.09% | 1329.19<br>-2.17% | 14375 | 2302/3161/178 | 46 | 22 |
 | 2026-10-16 | 3716.28<br>+0.24% | 11802.46<br>-0.12% | 2772.38<br>-0.39% | 4170.61<br>+0.11% | 1358.65<br>-0.06% | 15554 | 3351/2143/150 | 61 | 10 |
 | 2026-10-15 | 3707.48<br>-1.59% | 11816.79<br>-2.43% | 2783.17<br>-2.92% | 4166.01<br>-1.23% | 1359.52<br>-1.50% | 16330 | 433/5174/35 | 36 | 26 |
 | 2026-10-14 | 3767.23<br>-0.88% | 12110.59<br>-1.97% | 2866.76<br>-3.10% | 4217.68<br>-1.36% | 1380.26<br>-3.29% | 14144 | 998/4545/97 | 36 | 11 |
@@ -144,20 +146,20 @@
 | 2026-09-30 | 3842.19<br>+0.31% | 12887.62<br>-0.11% | 3135.28<br>-0.23% | 4357.62<br>+0.29% | 1530.01<br>-2.51% | 14380 | 2614/2841/183 | 52 | 9 |
 | 2026-09-29 | 3830.45<br>+0.18% | 12901.95<br>+0.34% | 3142.56<br>+0.09% | 4345.21<br>+0.10% | 1569.34<br>+0.86% | 14092 | 3525/1944/167 | 57 | 10 |
 | 2026-09-28 | 3823.62<br>-1.67% | 12858.75<br>-3.44% | 3139.82<br>-4.53% | 4340.76<br>-2.22% | 1555.98<br>-4.06% | 17028 | 910/4607/117 | 33 | 56 |
-| 2026-09-24 | 3888.37<br>-1.22% | 13316.97<br>-2.34% | 3288.95<br>-2.68% | 4439.14<br>-1.73% | 1621.87<br>-2.35% | 16534 | 1134/4352/148 | 52 | 13 |
 
-完整历史在 [data/](data/) 目录，共 672 个交易日。
+完整历史在 [data/](data/) 目录，共 673 个交易日。
 
 ## 市场情绪
 
-最新交易日 2026-10-16：
+最新交易日 2026-10-19：
 
-- 涨停 **61** 家，跌停 **10** 家
-- 炸板 49 家，炸板率 **44.5%**（越高说明封板越不牢）
-- 最高 **15** 连板，2 板及以上共 11 家
+- 涨停 **46** 家，跌停 **22** 家
+- 炸板 21 家，炸板率 **31.3%**（越高说明封板越不牢）
+- 最高 **21** 连板，2 板及以上共 14 家
 
 | 日期 | 涨停 | 跌停 | 炸板 | 炸板率 | 最高连板 | 连板家数 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-19 | 46 | 22 | 21 | 31.3% | 21 | 14 |
 | 2026-10-16 | 61 | 10 | 49 | 44.5% | 15 | 11 |
 | 2026-10-15 | 36 | 26 | 7 | 16.3% | 19 | 14 |
 | 2026-10-14 | 36 | 11 | 24 | 40.0% | 13 | 20 |
@@ -167,24 +169,23 @@
 | 2026-09-30 | 52 | 9 | 12 | 18.8% | 9 | 16 |
 | 2026-09-29 | 57 | 10 | 8 | 12.3% | 13 | 18 |
 | 2026-09-28 | 33 | 56 | 11 | 25.0% | 12 | 10 |
-| 2026-09-24 | 52 | 13 | 10 | 16.1% | 7 | 19 |
 
 ## 行业板块
 
-2026-10-16 领涨与领跌各五个：
+2026-10-19 领涨与领跌各五个：
 
 | | 行业 | 涨跌幅 | 主力净流入(亿) | 领涨股 |
 | --- | --- | --- | --- | --- |
-| 领涨 | 燃料电池 | +6.56% | -0.01 | 亿华通-U |
-|  | 航空装备Ⅲ | +5.98% | 17.55 | 晨曦航空 |
-|  | 航空装备Ⅱ | +5.98% | 17.55 | 晨曦航空 |
-|  | 地面兵装Ⅲ | +5.97% | 7.72 | 长城军工 |
-|  | 地面兵装Ⅱ | +5.97% | 7.72 | 长城军工 |
-| 领跌 | 文字媒体 | -4.60% | -3.45 | 中文在线 |
-|  | 印制电路板 | -4.51% | -9.98 | 嘉立创 |
-|  | 蓄电池及其他电池 | -4.19% | -1.66 | 天能股份 |
-|  | 视频媒体 | -3.67% | -0.10 | 芒果超媒 |
-|  | 诊断服务 | -3.61% | -1.60 | 迪安诊断 |
+| 领涨 | 其他数字媒体 | +12.49% | 2.81 | 凡拓数创 |
+|  | 地面兵装Ⅲ | +4.34% | 0.99 | 甘化科工 |
+|  | 地面兵装Ⅱ | +4.34% | 0.99 | 甘化科工 |
+|  | 钾肥 | +3.39% | 0.36 | 亚钾国际 |
+|  | 厨房电器 | +3.35% | 0.81 | 亿田智能 |
+| 领跌 | 教育运营及其他 | -6.78% | -0.81 | 博瑞传播 |
+|  | 其他种植业 | -4.72% | -0.56 | 宏辉果蔬 |
+|  | 林业Ⅱ | -4.21% | -2.20 | *ST景谷 |
+|  | 林业Ⅲ | -4.21% | -2.20 | *ST景谷 |
+|  | 房地产综合服务 | -4.09% | -0.01 | 珠江股份 |
 
 ## 自动更新节奏
 
