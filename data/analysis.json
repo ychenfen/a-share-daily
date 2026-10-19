@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19 08:12",
-  "score": -1,
+  "generated_at": "2026-10-19 15:37",
+  "score": 2,
   "stance": "中性等待",
   "color": "#8c959f",
   "confidence": "中",
@@ -33,13 +33,13 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.46%",
-      "contribution": -2.8,
+      "value": "富时 A50 +0.15%",
+      "contribution": 0.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6844 (-0.01%) / DXY 101.79 (-0.18%)",
+      "value": "USD/CNH 6.6810 (-0.06%) / DXY 101.92 (-0.06%)",
       "contribution": 1.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 1",
+      "value": "正向词 2 / 风险词 3",
       "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,11 +66,23 @@
     "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 1,
+    "positive_hits": 2,
+    "negative_hits": 3,
     "score": -2
   },
   "news": [
+    {
+      "title": "日韩股市，开盘下跌|道琼斯工业平均指数|日经225|纳斯达克综合指数|美联储|美债",
+      "source": "finance.sina.com.cn",
+      "published": "Mon, 19 Oct 2026 01:42:27 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZV9aOXFRZ01NNE1yNmlObVh5YVZwSEFKX3V1elVha1pyZkZ1ci00Qi1pa0F3S1lBT1RPUEFTV3JOVGhENi10VnJzbWpFUTd2Xy0yMlhUMXdReWxjX2NyUzJNRUMtUUlYTFYwcF9saWtPQzdPbTNQUWpRQVA4Nm1LODFwNE9nNXpPQ0dYQU1Va3FURjdqaDR2aXVPT1p4QlJfejF1bWM5bw?oc=5"
+    },
+    {
+      "title": "芯片股抛售压力缓和，韩股由跌转涨，美股期货反弹，油价回落",
+      "source": "华尔街见闻",
+      "published": "Mon, 19 Oct 2026 01:50:54 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RaFZJSWQydWUwOGV4RkQ2N2Rya0NaWTk0VjBrand4bkxTZHVSQ1FEYnBadTB4WVhXbW83QnI4aTM1c3EwMllOTk9BTXoyX29EeURB?oc=5"
+    },
     {
       "title": "美联储加息，突变！美股科技巨头，业绩来袭！这些消息或影响市场",
       "source": "证券之星",
@@ -78,22 +90,10 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LMUxOVW5yQ180Y3VMVWpHQnc3ZEVzV3R2ZWpnS2xaR0RkTEd0V0tPblBmcENUbHVtTTd0OEZ5anBMeWh0VE82TG8wLTRTcWZDZmFoZ3kzbS1NWEh1QW0tV0FR?oc=5"
     },
     {
-      "title": "A股，下周将走出\"政策预期驱动的震荡修复\"行情？",
-      "source": "证券市场周刊",
-      "published": "Sun, 18 Oct 2026 06:34:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdE5wcnRDWGZhRmtCS2h6NTB3UEQ3RW5pZkJfUmo1dkxOejY3bWxtLTlEUV85QTJ2M2ItR1l1MkN6dmg4eEVwenJYaUVWMHlLZUhWdEtqYjZoUDNoSWlIemh3ZUh4Zw?oc=5"
-    },
-    {
-      "title": "一周市场回顾｜AI债务隐忧浮现，科技股迎来估值考验",
-      "source": "新浪网",
-      "published": "Sun, 18 Oct 2026 03:34:33 GMT",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR01rVWFIRXNfZmJXdTE3aEtrT3Q4STljWU9fSW1OZE1PTnNYQUpvbHU5UzFlLUlycHBhbWNjR245dF9EdENPeU9zQWdTUC1XbDB1T1FDa3JtMnVlMUpCUGp5elJmSWpPZUhqRGpaZ2JJWFFTUm52SlNrRjVtYjdZSS1Xcw?oc=5"
-    },
-    {
-      "title": "下周宏观展望：美联储集体静默，美股财报季迎来重头戏",
-      "source": "TradingView",
-      "published": "Sun, 18 Oct 2026 02:11:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5"
+      "title": "A股，下周将走出“政策预期驱动的震荡修复”行情？|通用航空|亚太市场|美股|经济|个股",
+      "source": "新浪财经",
+      "published": "Sun, 18 Oct 2026 15:06:07 GMT",
+      "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNQU5WTDk5LVh0aWhNN0JrdTZJcll2MkVocnJvc0ktTEJIcU5UY1BEc1VjS0RMU2pwU2txdFk0aVh5LWNPUVh5cklraXNaQjE3WC16alhiNDVnQlV6Y3ZDZk9UWWhUY1BNN0FtSUg5NVZnMkNYeFMxZEY5N2d6bkZacEFrSW1ubk4tc3M2MklRdzJaV2xfVUZWQWdtNzVpQ0E3NVhLbnlZaUplbWJpck1MaENqUXBSUndacVlueXBvNVM3ZDFXSkZobHg3T0JWMXlENkU0M0tZb2V2N0JmdUgzbGlBc2tYQXhVU2JNQzdtQlRUazRfc2hfWUtjX254dzBRVHdqSWU3QUZ1TS1TeDlYOHFzU1kzbXo3bDJhUUlXMlIwNl95X2VySkNxLTN1a05CaVFHa3REZnhQaDRXdmhCOGFJa2tyMS1pVXVJS0ZBeFlhYUpGT29odDFyUDIyYThzSmJwWjYzazhZZ0xkNFdTQzF4RTRxTGRzMFRYWVZuQWlLekxWZEUyZWlody1qcHZhWHRCb0RpMDJaNXB6djlSVG51ZGZoLVAwbFZTX3pYNTRMTWF2Yy1ONGc1M2NOQWE1TVM2QWlXV2F2Qm9JRDg4d1Y1OXlRR25ZX1cwejBqZl9kUV8xbGx6LVAzTzlOZG5xekxBME5BbXpUN1BLRXcyZ3pORFdQMDdtbW43UFF6NGU1Ym96RnQ5dVF6dkVsd2Zkblp4TDE2WllyMW5JQmhnUzN0VWdsMHA5LXdmcWZB?oc=5"
     }
   ],
   "events": [
@@ -113,27 +113,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.79 / -0.18%",
+          "value": "101.92 / -0.06%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6844 / -0.01%",
+          "value": "6.6810 / -0.06%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "日韩股市，开盘下跌|道琼斯工业平均指数|日经225|纳斯达克综合指数|美联储|美债",
+          "source": "finance.sina.com.cn",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZV9aOXFRZ01NNE1yNmlObVh5YVZwSEFKX3V1elVha1pyZkZ1ci00Qi1pa0F3S1lBT1RPUEFTV3JOVGhENi10VnJzbWpFUTd2Xy0yMlhUMXdReWxjX2NyUzJNRUMtUUlYTFYwcF9saWtPQzdPbTNQUWpRQVA4Nm1LODFwNE9nNXpPQ0dYQU1Va3FURjdqaDR2aXVPT1p4QlJfejF1bWM5bw?oc=5"
+        },
+        {
           "title": "美联储加息，突变！美股科技巨头，业绩来袭！这些消息或影响市场",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LMUxOVW5yQ180Y3VMVWpHQnc3ZEVzV3R2ZWpnS2xaR0RkTEd0V0tPblBmcENUbHVtTTd0OEZ5anBMeWh0VE82TG8wLTRTcWZDZmFoZ3kzbS1NWEh1QW0tV0FR?oc=5"
-        },
-        {
-          "title": "下周宏观展望：美联储集体静默，美股财报季迎来重头戏",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5"
         }
       ]
     },
@@ -153,7 +153,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,278.83 / -0.46%",
+          "value": "13,359.56 / +0.15%",
           "state": "fresh"
         },
         {
@@ -166,14 +166,49 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
+          "title": "芯片股抛售压力缓和，韩股由跌转涨，美股期货反弹，油价回落",
+          "source": "华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RaFZJSWQydWUwOGV4RkQ2N2Rya0NaWTk0VjBrand4bkxTZHVSQ1FEYnBadTB4WVhXbW83QnI4aTM1c3EwMllOTk9BTXoyX29EeURB?oc=5"
+        },
+        {
           "title": "美联储加息，突变！美股科技巨头，业绩来袭！这些消息或影响市场",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LMUxOVW5yQ180Y3VMVWpHQnc3ZEVzV3R2ZWpnS2xaR0RkTEd0V0tPblBmcENUbHVtTTd0OEZ5anBMeWh0VE82TG8wLTRTcWZDZmFoZ3kzbS1NWEh1QW0tV0FR?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "96.85 / -2.19%",
+          "state": "fresh"
         },
         {
-          "title": "一周市场回顾｜AI债务隐忧浮现，科技股迎来估值考验",
-          "source": "新浪网",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR01rVWFIRXNfZmJXdTE3aEtrT3Q4STljWU9fSW1OZE1PTnNYQUpvbHU5UzFlLUlycHBhbWNjR245dF9EdENPeU9zQWdTUC1XbDB1T1FDa3JtMnVlMUpCUGp5elJmSWpPZUhqRGpaZ2JJWFFTUm52SlNrRjVtYjdZSS1Xcw?oc=5"
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,206.66 / +0.61%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "芯片股抛售压力缓和，韩股由跌转涨，美股期货反弹，油价回落",
+          "source": "华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RaFZJSWQydWUwOGV4RkQ2N2Rya0NaWTk0VjBrand4bkxTZHVSQ1FEYnBadTB4WVhXbW83QnI4aTM1c3EwMllOTk9BTXoyX29EeURB?oc=5"
         }
       ]
     },
@@ -187,7 +222,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,278.83 / -0.46%",
+          "value": "13,359.56 / +0.15%",
           "state": "fresh"
         },
         {
@@ -199,16 +234,16 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6844 / -0.01%",
+          "value": "6.6810 / -0.06%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
       "headlines": [
         {
-          "title": "A股，下周将走出\"政策预期驱动的震荡修复\"行情？",
-          "source": "证券市场周刊",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdE5wcnRDWGZhRmtCS2h6NTB3UEQ3RW5pZkJfUmo1dkxOejY3bWxtLTlEUV85QTJ2M2ItR1l1MkN6dmg4eEVwenJYaUVWMHlLZUhWdEtqYjZoUDNoSWlIemh3ZUh4Zw?oc=5"
+          "title": "A股，下周将走出“政策预期驱动的震荡修复”行情？|通用航空|亚太市场|美股|经济|个股",
+          "source": "新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNQU5WTDk5LVh0aWhNN0JrdTZJcll2MkVocnJvc0ktTEJIcU5UY1BEc1VjS0RMU2pwU2txdFk0aVh5LWNPUVh5cklraXNaQjE3WC16alhiNDVnQlV6Y3ZDZk9UWWhUY1BNN0FtSUg5NVZnMkNYeFMxZEY5N2d6bkZacEFrSW1ubk4tc3M2MklRdzJaV2xfVUZWQWdtNzVpQ0E3NVhLbnlZaUplbWJpck1MaENqUXBSUndacVlueXBvNVM3ZDFXSkZobHg3T0JWMXlENkU0M0tZb2V2N0JmdUgzbGlBc2tYQXhVU2JNQzdtQlRUazRfc2hfWUtjX254dzBRVHdqSWU3QUZ1TS1TeDlYOHFzU1kzbXo3bDJhUUlXMlIwNl95X2VySkNxLTN1a05CaVFHa3REZnhQaDRXdmhCOGFJa2tyMS1pVXVJS0ZBeFlhYUpGT29odDFyUDIyYThzSmJwWjYzazhZZ0xkNFdTQzF4RTRxTGRzMFRYWVZuQWlLekxWZEUyZWlody1qcHZhWHRCb0RpMDJaNXB6djlSVG51ZGZoLVAwbFZTX3pYNTRMTWF2Yy1ONGc1M2NOQWE1TVM2QWlXV2F2Qm9JRDg4d1Y1OXlRR25ZX1cwejBqZl9kUV8xbGx6LVAzTzlOZG5xekxBME5BbXpUN1BLRXcyZ3pORFdQMDdtbW43UFF6NGU1Ym96RnQ5dVF6dkVsd2Zkblp4TDE2WllyMW5JQmhnUzN0VWdsMHA5LXdmcWZB?oc=5"
         }
       ]
     }
