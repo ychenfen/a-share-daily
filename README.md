@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-16 · 最后检查 `2026-10-18 23:58`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-16 · 最后检查 `2026-10-19 08:12`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -67,10 +67,10 @@
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
 | 富时中国 A50 期货 | 低权重计分 | 13,278.83 | -0.46% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6850 | -0.05% | 最新 |
-| 美元指数 | 低权重计分 | 101.78 | -0.21% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,184.85 | +0.35% | 最新 |
-| WTI 原油 | 背景观察 | 101.85 | +3.96% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6844 | -0.01% | 最新 |
+| 美元指数 | 低权重计分 | 101.79 | -0.18% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,203.06 | +0.53% | 最新 |
+| WTI 原油 | 背景观察 | 97.54 | -1.49% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -83,7 +83,7 @@
 | 短线情绪 | 涨停 61 / 跌停 10 / 炸板率 44.5% | +2.9 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 -0.26% | -1.8 | 衡量隔夜风险偏好共振 |
 | A50 先行 | 富时 A50 -0.46% | -2.8 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6850 (-0.05%) / DXY 101.78 (-0.21%) | +1.7 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| 美元与人民币 | USD/CNH 6.6844 (-0.01%) / DXY 101.79 (-0.18%) | +1.1 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
 | 新闻语气 | 正向词 0 / 风险词 1 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
@@ -94,10 +94,9 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.78 / -0.21%（最新） / USD/CNH 6.6850 / -0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.79 / -0.18%（最新） / USD/CNH 6.6844 / -0.01%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 | 科技与产业（2 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,140.03 / -2.14%（最新） / 富时A50 13,278.83 / -0.46%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 101.85 / +3.96%（最新） / 黄金 4,184.85 / +0.35%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
-| 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 13,278.83 / -0.46%（最新） / 恒生指数 24,186.83 / +0.52%（最新） / USD/CNH 6.6850 / -0.05%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
+| 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 13,278.83 / -0.46%（最新） / 恒生指数 24,186.83 / +0.52%（最新） / USD/CNH 6.6844 / -0.01%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
 
 ### 研究观察
 
@@ -109,7 +108,6 @@
 - [A股，下周将走出"政策预期驱动的震荡修复"行情？](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdE5wcnRDWGZhRmtCS2h6NTB3UEQ3RW5pZkJfUmo1dkxOejY3bWxtLTlEUV85QTJ2M2ItR1l1MkN6dmg4eEVwenJYaUVWMHlLZUhWdEtqYjZoUDNoSWlIemh3ZUh4Zw?oc=5) · 证券市场周刊
 - [一周市场回顾｜AI债务隐忧浮现，科技股迎来估值考验](https://news.google.com/rss/articles/CBMigwFBVV95cUxOR01rVWFIRXNfZmJXdTE3aEtrT3Q4STljWU9fSW1OZE1PTnNYQUpvbHU5UzFlLUlycHBhbWNjR245dF9EdENPeU9zQWdTUC1XbDB1T1FDa3JtMnVlMUpCUGp5elJmSWpPZUhqRGpaZ2JJWFFTUm52SlNrRjVtYjdZSS1Xcw?oc=5) · 新浪网
 - [下周宏观展望：美联储集体静默，美股财报季迎来重头戏](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5) · TradingView
-- [一周展望：纳指创6月以来最差单周表现，黄金4200关口再遇阻：下周能否迎来反转？](https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3dCY3FQNjNWRW5YS3BiZmRacDM3anFqZEM2RUNPOWVOVzl3YjZLZ1hWRThUTEhSbDNDbVU3TFhhTlNlMWVQTlItNDlzV2hpSlZQOGhFX2hLNHlkUW9xQ1BlcHBkVDF1TWtMOERjLWdPWTdiN0NmaDZLeGlsaFJtX0s1VzFxSGtYcGdfaEZGMmFnYVN4elZPLUVBZGdCdFo1YTU3SmozWTZXZ3gz?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 

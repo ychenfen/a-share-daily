@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18 23:58",
+  "generated_at": "2026-10-19 08:12",
   "score": -1,
   "stance": "中性等待",
   "color": "#8c959f",
@@ -39,8 +39,8 @@
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6850 (-0.05%) / DXY 101.78 (-0.21%)",
-      "contribution": 1.7,
+      "value": "USD/CNH 6.6844 (-0.01%) / DXY 101.79 (-0.18%)",
+      "contribution": 1.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -94,12 +94,6 @@
       "source": "TradingView",
       "published": "Sun, 18 Oct 2026 02:11:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aVFo0cW1WSFFHanpiRTZnLWdyeldhdHJRLWgwZkNPRkZSYnQ5LTRqUFdfZUgxeGF2VHlPckh6cWtxOGJ3ZUt1VEFJVGd0ZnBOR2E1UER2cmROMlhzY2FocVpQSVRtV00?oc=5"
-    },
-    {
-      "title": "一周展望：纳指创6月以来最差单周表现，黄金4200关口再遇阻：下周能否迎来反转？",
-      "source": "富途牛牛",
-      "published": "Sun, 18 Oct 2026 01:25:10 GMT",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3dCY3FQNjNWRW5YS3BiZmRacDM3anFqZEM2RUNPOWVOVzl3YjZLZ1hWRThUTEhSbDNDbVU3TFhhTlNlMWVQTlItNDlzV2hpSlZQOGhFX2hLNHlkUW9xQ1BlcHBkVDF1TWtMOERjLWdPWTdiN0NmaDZLeGlsaFJtX0s1VzFxSGtYcGdfaEZGMmFnYVN4elZPLUVBZGdCdFo1YTU3SmozWTZXZ3gz?oc=5"
     }
   ],
   "events": [
@@ -119,13 +113,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.78 / -0.21%",
+          "value": "101.79 / -0.18%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6850 / -0.05%",
+          "value": "6.6844 / -0.01%",
           "state": "fresh"
         }
       ],
@@ -184,41 +178,6 @@
       ]
     },
     {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "101.85 / +3.96%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,184.85 / +0.35%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "一周展望：纳指创6月以来最差单周表现，黄金4200关口再遇阻：下周能否迎来反转？",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3dCY3FQNjNWRW5YS3BiZmRacDM3anFqZEM2RUNPOWVOVzl3YjZLZ1hWRThUTEhSbDNDbVU3TFhhTlNlMWVQTlItNDlzV2hpSlZQOGhFX2hLNHlkUW9xQ1BlcHBkVDF1TWtMOERjLWdPWTdiN0NmaDZLeGlsaFJtX0s1VzFxSGtYcGdfaEZGMmFnYVN4elZPLUVBZGdCdFo1YTU3SmozWTZXZ3gz?oc=5"
-        }
-      ]
-    },
-    {
       "key": "domestic_policy",
       "label": "国内政策与需求",
       "headline_count": 1,
@@ -240,7 +199,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6850 / -0.05%",
+          "value": "6.6844 / -0.01%",
           "state": "fresh"
         }
       ],
