@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20 16:50",
-  "score": -7,
-  "stance": "谨慎防守",
-  "color": "#3b9b68",
+  "generated_at": "2026-10-20 20:41",
+  "score": 9,
+  "stance": "谨慎偏多",
+  "color": "#e05a47",
   "confidence": "中",
-  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
+  "summary": "风险偏好略占优，但信号并未形成全面共振。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.39%",
-      "contribution": 3.1,
+      "value": "上证 +0.12%",
+      "contribution": 1.0,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 2302 / 跌 3161",
-      "contribution": -3.1,
+      "value": "涨 3801 / 跌 1706",
+      "contribution": 7.6,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 46 / 跌停 22 / 炸板率 31.3%",
-      "contribution": 0.1,
+      "value": "涨停 54 / 跌停 6 / 炸板率 34.9%",
+      "contribution": 3.6,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.43%",
-      "contribution": -2.6,
+      "value": "富时 A50 -0.18%",
+      "contribution": -1.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6779 (-0.06%) / DXY 101.75 (-0.22%)",
-      "contribution": 1.8,
+      "value": "USD/CNH 6.6767 (-0.08%) / DXY 101.72 (-0.25%)",
+      "contribution": 2.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,18 +57,18 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 3",
-      "contribution": -2,
+      "value": "正向词 2 / 风险词 2",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
+    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
     "positive_hits": 2,
-    "negative_hits": 3,
-    "score": -2
+    "negative_hits": 2,
+    "score": 0
   },
   "news": [
     {
@@ -76,12 +76,6 @@
       "source": "新浪财经",
       "published": "Tue, 20 Oct 2026 02:01:15 GMT",
       "link": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPZFhiU09UbDE1VkowMmFUUkg4dkFIMGcxZ0lOM3NGbXJCR2FyRFcweTB1OGk2c1dnSXF3M1ptdlUwTXk2VktSQm03b3pSMXFONHJaNEFBNHZZOUQ0cHB2M0hEODJDQjBNbzAtZHhGdXBOeW81OVNxbm96eXlUT3dnTGFDWmtuV2tlclBTZUhmd3doeGt5YVp2MVJGWmgtRm0yNGJ6SGowOUVPbzZWby0wVDdpMzlCRTdsdTB6bzVJM0pMNU10OXlZNlRoT09wcW9KemNTM0RlZ3dmdFUwVlplZkxFYWhRZkM3NVhLSGZuRi0xd2pIa0R6NV90THVZU0ljVU9xb0t2N09jdk9ZN2lYQWw5ZTVPUWpoNVd3bTJRT2UtQXVpNUhsWmxzUWQ4NlZDSEhvWUlLVHJTMngxYVBuVTNiS2x3UDlzZzFUVzl4S0RkdXdmd1dabzNYaGZ5eWtPYmdKa2FmNGtzeGU0UFp5UjEzdmFLYVdvaVdYaVE0SURUS01McFpZREd1a29iSVN1R1FwM3lYYnNwa1JsamU1YlFDRGI5RFl5YWZjeDNzd280V2VNdDUxYlVnaVluS3N6clJjMzh6Tzd0dUhxRnJEbDhzNzM3MHFrVUVMRTNrd2pxWm1FVUhyWXVSZjNtUDlKVEs0RXFpcy1TZFdaRTFwNElBYWpubGFtaUpNRzJUdUUxQ1JjMjM0eHVRUWxkaThiY1JCaXAyTUw3WUVQNTlrNVRjTVJ3Um1JN3Bkd2xiQkQzWGpEb0tJMVF0c3dmVUtoZi1kUzRNSVF0bkJrSm5j?oc=5"
-    },
-    {
-      "title": "全球科技股抛售压力加剧：美股存储、新云等概念盘前大幅走低",
-      "source": "财联社",
-      "published": "Mon, 19 Oct 2026 21:54:10 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSMDBnSHphV3JpRTZDOGFhdGlSR1hDMFFncVRSUVNoYndhbWRRajhVRURWRjdZOEloeEZ3Wkc3OUlzQUs1SkRaeg?oc=5"
     },
     {
       "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
@@ -94,12 +88,6 @@
       "source": "Moomoo",
       "published": "Tue, 20 Oct 2026 07:32:37 GMT",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUlFbHduT1ByOFIxSXlfakZFNThIMlBnRFlOWFBXZFhqRkRxbEhabG1TMlRsWkFpa19hYl9rSjBNU0hNZUJwZ2Fjdjlhb0JSc0prTkhhY1R4R2gtWFZod19UV0EwX3ZkVEtJZmFkam9kZEJGVU40eGlab0VPQ3c3bnRjS19aMFFlSUtmOHR0WmFPaDFJV2tibkl0WlA2RnBuNjlGUzlnbGxhVk1jbFZF?oc=5"
-    },
-    {
-      "title": "黄金大买家，未来3个月要减持！",
-      "source": "FX168",
-      "published": "Mon, 19 Oct 2026 11:47:13 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzTlVnaFk5OFJwdlpSSm05YUozdUVXV3E0anJTRkxGcE1oQTg5bm9qbVp2aTdIaTVjU1pENHpGNWNoanM5ZjRMRjN0T1hORzNPSlRV?oc=5"
     },
     {
       "title": "英国央行加息预期升温叠加美元走弱，英镑兑美元延续反弹",
@@ -131,13 +119,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.75 / -0.22%",
+          "value": "101.72 / -0.25%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6779 / -0.06%",
+          "value": "6.6767 / -0.08%",
           "state": "fresh"
         }
       ],
@@ -165,19 +153,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.75 / -0.22%",
+          "value": "101.72 / -0.25%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6779 / -0.06%",
+          "value": "6.6767 / -0.08%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,286.92 / -0.43%",
+          "value": "13,255.28 / -0.18%",
           "state": "fresh"
         }
       ],
@@ -192,46 +180,6 @@
           "title": "英国央行加息预期升温叠加美元走弱，英镑兑美元延续反弹",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSmRyMjRDRWlYMHpobjNsQS1wTzRoeWpMM0lYcHRhSlpzR0xrU3NOdmMwZllIZzBmdGdwQWpuSTlydm01QS0zX1lHNWJBOERHWFFaRi1RakpoUWo2ZWNPLV9sdWJ0UEY2X3g2TWpEVXNmV1VEUzZHZDl3QnQ0U1RoNFNKdTY3a1Zsb3RXMldEeDMtN1NqOTdTdlU1ZmFiUDczNXc?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "100.32 / +1.81%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,139.36 / -0.50%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "黄金大买家，未来3个月要减持！",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzTlVnaFk5OFJwdlpSSm05YUozdUVXV3E0anJTRkxGcE1oQTg5bm9qbVp2aTdIaTVjU1pENHpGNWNoanM5ZjRMRjN0T1hORzNPSlRV?oc=5"
-        },
-        {
-          "title": "华尔街突然反攻！纳指飙升1.6%，AI股集体反弹！法国动荡冲击欧元、油价跌破110美元，全球市场暗藏更大风暴？",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVZUYWpZclNkWUk2T29pRzNzZU43c0ZmdnRHRVNpZ3gyZVktdmlhT3lsamdrcEV0MXZVaXNRbXd4Yy1XREdMb0NPb1E3QnduWFVzRE9QcXJjUm9lMHRkZTd2QVZYQnRDWEpzN0JYSkpPT2I4N3lKczM1MkVHQ1VWbEUxTTY?oc=5"
         }
       ]
     },
@@ -251,7 +199,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.75 / -0.22%",
+          "value": "101.72 / -0.25%",
           "state": "fresh"
         },
         {
@@ -271,22 +219,22 @@
       ]
     },
     {
-      "key": "technology",
-      "label": "科技与产业",
+      "key": "commodities",
+      "label": "商品与成本",
       "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "26,430.89 / +1.11%",
+          "code": "WTI",
+          "label": "原油",
+          "value": "99.94 / +1.42%",
           "state": "fresh"
         },
         {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,286.92 / -0.43%",
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,136.58 / -0.57%",
           "state": "fresh"
         },
         {
@@ -296,12 +244,12 @@
           "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "全球科技股抛售压力加剧：美股存储、新云等概念盘前大幅走低",
-          "source": "财联社",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSMDBnSHphV3JpRTZDOGFhdGlSR1hDMFFncVRSUVNoYndhbWRRajhVRURWRjdZOEloeEZ3Wkc3OUlzQUs1SkRaeg?oc=5"
+          "title": "华尔街突然反攻！纳指飙升1.6%，AI股集体反弹！法国动荡冲击欧元、油价跌破110美元，全球市场暗藏更大风暴？",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVZUYWpZclNkWUk2T29pRzNzZU43c0ZmdnRHRVNpZ3gyZVktdmlhT3lsamdrcEV0MXZVaXNRbXd4Yy1XREdMb0NPb1E3QnduWFVzRE9QcXJjUm9lMHRkZTd2QVZYQnRDWEpzN0JYSkpPT2I4N3lKczM1MkVHQ1VWbEUxTTY?oc=5"
         }
       ]
     },
@@ -315,7 +263,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,286.92 / -0.43%",
+          "value": "13,255.28 / -0.18%",
           "state": "fresh"
         },
         {
@@ -327,7 +275,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6779 / -0.06%",
+          "value": "6.6767 / -0.08%",
           "state": "fresh"
         }
       ],

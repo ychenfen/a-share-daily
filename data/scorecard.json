@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20 16:50",
+  "generated_at": "2026-10-20 20:41",
   "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
   "status": "ready",
   "minimum_samples": 20,
-  "signal_count": 156,
-  "matured_1d": 151,
-  "directional_1d": 118,
-  "hit_rate_1d": 63.6,
+  "signal_count": 157,
+  "matured_1d": 155,
+  "directional_1d": 121,
+  "hit_rate_1d": 62.0,
   "average_return": {
-    "1d": -0.425,
-    "3d": -1.16,
-    "5d": -2.346
+    "1d": -0.411,
+    "3d": -1.089,
+    "5d": -2.317
   },
   "buckets": [
     {
@@ -21,13 +21,13 @@
     },
     {
       "label": "谨慎防守",
-      "count": 29,
-      "avg_1d_pct": -1.037
+      "count": 32,
+      "avg_1d_pct": -0.928
     },
     {
       "label": "中性",
-      "count": 37,
-      "avg_1d_pct": -0.236
+      "count": 38,
+      "avg_1d_pct": -0.227
     },
     {
       "label": "谨慎偏多",
@@ -41,14 +41,39 @@
     }
   ],
   "current": {
-    "captured_at": "2026-10-20 16:50",
-    "slot": "midday",
-    "score": "-7",
-    "stance": "谨慎防守",
+    "captured_at": "2026-10-20 20:41",
+    "slot": "close",
+    "score": "9",
+    "stance": "谨慎偏多",
     "confidence": "中",
     "health": "markets,us10y,vix"
   },
   "recent": [
+    {
+      "captured_at": "2026-10-20 20:41",
+      "slot": "close",
+      "signal_date": "2026-10-20",
+      "market_asof_date": "2026-10-20",
+      "score": "9",
+      "stance": "谨慎偏多",
+      "confidence": "中",
+      "sh_close": "3735.37",
+      "sh_pct": "0.12",
+      "global_avg": "0.086",
+      "a50_pct": "-0.17862790872805734",
+      "usdcnh": "6.6767",
+      "usdcnh_pct": "-0.07782217632708033",
+      "dxy": "101.7241",
+      "dxy_pct": "-0.2500512359885465",
+      "vix": "15.44",
+      "us10y": "4.94",
+      "health": "markets,us10y,vix",
+      "return_1d": null,
+      "return_3d": null,
+      "return_5d": null,
+      "direction": 1,
+      "hit_1d": null
+    },
     {
       "captured_at": "2026-10-20 16:50",
       "slot": "midday",
@@ -68,11 +93,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.12,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-20 15:23",
@@ -93,11 +118,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.12,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-20 09:05",
@@ -118,11 +143,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.12,
       "return_3d": null,
       "return_5d": null,
       "direction": -1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-20 02:45",
@@ -168,7 +193,7 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": 0.12,
       "return_3d": null,
       "return_5d": null,
       "direction": 0,
@@ -523,31 +548,6 @@
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
-    },
-    {
-      "captured_at": "2026-10-16 20:20",
-      "slot": "close",
-      "signal_date": "2026-10-16",
-      "market_asof_date": "2026-10-16",
-      "score": "13",
-      "stance": "谨慎偏多",
-      "confidence": "中",
-      "sh_close": "3716.28",
-      "sh_pct": "0.24",
-      "global_avg": "0.801",
-      "a50_pct": "0.1955772113942933",
-      "usdcnh": "6.6846",
-      "usdcnh_pct": "-0.05681478380479277",
-      "dxy": "101.7157",
-      "dxy_pct": "-0.2744236025867708",
-      "vix": "15.44",
-      "us10y": "4.94",
-      "health": "markets,news,us10y,vix",
-      "return_1d": 0.39,
-      "return_3d": null,
-      "return_5d": null,
-      "direction": 1,
-      "hit_1d": true
     }
   ],
   "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
