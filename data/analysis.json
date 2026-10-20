@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20 09:05",
+  "generated_at": "2026-10-20 15:23",
   "score": -6,
   "stance": "谨慎防守",
   "color": "#3b9b68",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.39%",
-      "contribution": 2.7,
+      "value": "6 个市场均值 +0.14%",
+      "contribution": 1.0,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.41%",
-      "contribution": -2.4,
+      "value": "富时 A50 -0.37%",
+      "contribution": -2.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6812 (-0.01%) / DXY 101.95 (-0.03%)",
-      "contribution": 0.3,
+      "value": "USD/CNH 6.6776 (-0.06%) / DXY 101.75 (-0.22%)",
+      "contribution": 1.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 1",
+      "value": "正向词 1 / 风险词 2",
       "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,16 +66,34 @@
     "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 1,
+    "positive_hits": 1,
+    "negative_hits": 2,
     "score": -2
   },
   "news": [
     {
-      "title": "日韩股市，开盘下跌|道琼斯工业平均指数|日经225|纳斯达克综合指数|美联储|美债",
+      "title": "日韩股市，开盘下跌",
       "source": "新浪财经",
-      "published": "Mon, 19 Oct 2026 14:37:30 GMT",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPeFZEVU41bzdmMFk4UHMwcnd1VFVXTGMxemFNOThHUDRhV3pzWUxFZUx6d19kazR2S3M5MEdkdHFJWXFFamNTZ3Jfd2MwTDRldFB0cXROSTFwNnZDSU03S3YtNlNrUVJzLXlMZ21DNmRCeEJtRHJNM0phSjQ4bjB1eWVGT0VsS0luME9hLThyb1IzS3R2WE1SRkY2SWxJaTF6NDVndE4zSzZteVBTb29PNHhHX3BTb0EwbEhXb0p6d1BBc00yd0RCdEhNcDYtQ1czN2NRZFNUYXIxOTlQUGRmc1p0NGEtZ0pDVzNZdlE0RHA0QUtNVWFjaFk3TkRpXzh5TVFveXpnQzcyaGh5VEFFdE12WkM0NS1WX3lOVXJoNTcyVWNGeTRZZERqVjhIaE0?oc=5"
+      "published": "Tue, 20 Oct 2026 00:13:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPN2ZhZHlZZnh2cFVscjAxMS1ob3oxUTVZaG11bDFGeHpIVlU5UUpSNkkxSDNOa01TSUdwMU9feXgyajBWTTlObVVSdzJnVXZFX2Mxc0lyNENGR3VrQzdWMTlTaDNhUDdxaDFuc1BSUUJ6bE1OZWJTZndKbW9mTjEzT3N0aFpJRE8zMEJFdFl1eU02MDNYWkM1Wms5SmFjQ1l1TWNQMW4wbV9nR21yRFI2MDMyOGk2Wk95R0t6T255YWV4MFV3MGlCZEc2YUtoSURFLVEyMmdJVjBuNmpWYnVZcFlTU2tkU2VUaDlPNURHZnJXRi1ONE8wRFFMQUg5dFN3WTBQM3FJQ1FwYm9ucXpjVTk1QUtLNTBUcVYzdXBTUXJXYlpHWE5HNUN2TEhkSUp4UmkwY1QzaW90VmN0QlE?oc=5"
+    },
+    {
+      "title": "全球科技股抛售压力加剧：美股存储、新云等概念盘前大幅走低",
+      "source": "财联社",
+      "published": "Mon, 19 Oct 2026 21:54:10 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSMDBnSHphV3JpRTZDOGFhdGlSR1hDMFFncVRSUVNoYndhbWRRajhVRURWRjdZOEloeEZ3Wkc3OUlzQUs1SkRaeg?oc=5"
+    },
+    {
+      "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
+      "source": "新浪财经",
+      "published": "Tue, 20 Oct 2026 00:51:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lVnZXQ1BzLUphVEl0cHVDNlktR3J0NHFibGFvdVYyX3M5RjZPcmRNai1SbVNKWVBrS3F3LS11SUYxOU1uV3ItU1BWMVJRZGVpQWNaQUhDTnFka3JOb2d4REtJVlpfejJkcDBIYW1xQlZiTWtGdG05Rg?oc=5"
+    },
+    {
+      "title": "华尔街突然反攻！纳指飙升1.6%，AI股集体反弹！法国动荡冲击欧元、油价跌破110美元，全球市场暗藏更大风暴？",
+      "source": "FX168",
+      "published": "Mon, 19 Oct 2026 16:55:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVZUYWpZclNkWUk2T29pRzNzZU43c0ZmdnRHRVNpZ3gyZVktdmlhT3lsamdrcEV0MXZVaXNRbXd4Yy1XREdMb0NPb1E3QnduWFVzRE9QcXJjUm9lMHRkZTd2QVZYQnRDWEpzN0JYSkpPT2I4N3lKczM1MkVHQ1VWbEUxTTY?oc=5"
     }
   ],
   "events": [
@@ -95,22 +113,127 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.95 / -0.03%",
+          "value": "101.75 / -0.22%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6812 / -0.01%",
+          "value": "6.6776 / -0.06%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "日韩股市，开盘下跌|道琼斯工业平均指数|日经225|纳斯达克综合指数|美联储|美债",
+          "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
           "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPeFZEVU41bzdmMFk4UHMwcnd1VFVXTGMxemFNOThHUDRhV3pzWUxFZUx6d19kazR2S3M5MEdkdHFJWXFFamNTZ3Jfd2MwTDRldFB0cXROSTFwNnZDSU03S3YtNlNrUVJzLXlMZ21DNmRCeEJtRHJNM0phSjQ4bjB1eWVGT0VsS0luME9hLThyb1IzS3R2WE1SRkY2SWxJaTF6NDVndE4zSzZteVBTb29PNHhHX3BTb0EwbEhXb0p6d1BBc00yd0RCdEhNcDYtQ1czN2NRZFNUYXIxOTlQUGRmc1p0NGEtZ0pDVzNZdlE0RHA0QUtNVWFjaFk3TkRpXzh5TVFveXpnQzcyaGh5VEFFdE12WkM0NS1WX3lOVXJoNTcyVWNGeTRZZERqVjhIaE0?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lVnZXQ1BzLUphVEl0cHVDNlktR3J0NHFibGFvdVYyX3M5RjZPcmRNai1SbVNKWVBrS3F3LS11SUYxOU1uV3ItU1BWMVJRZGVpQWNaQUhDTnFka3JOb2d4REtJVlpfejJkcDBIYW1xQlZiTWtGdG05Rg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "26,430.89 / +1.11%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,294.28 / -0.37%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "全球科技股抛售压力加剧：美股存储、新云等概念盘前大幅走低",
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSMDBnSHphV3JpRTZDOGFhdGlSR1hDMFFncVRSUVNoYndhbWRRajhVRURWRjdZOEloeEZ3Wkc3OUlzQUs1SkRaeg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "99.36 / +0.84%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,151.96 / -0.20%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "华尔街突然反攻！纳指飙升1.6%，AI股集体反弹！法国动荡冲击欧元、油价跌破110美元，全球市场暗藏更大风暴？",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVZUYWpZclNkWUk2T29pRzNzZU43c0ZmdnRHRVNpZ3gyZVktdmlhT3lsamdrcEV0MXZVaXNRbXd4Yy1XREdMb0NPb1E3QnduWFVzRE9QcXJjUm9lMHRkZTd2QVZYQnRDWEpzN0JYSkpPT2I4N3lKczM1MkVHQ1VWbEUxTTY?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.75 / -0.22%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6776 / -0.06%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "13,294.28 / -0.37%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "华尔街突然反攻！纳指飙升1.6%，AI股集体反弹！法国动荡冲击欧元、油价跌破110美元，全球市场暗藏更大风暴？",
+          "source": "FX168",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVZUYWpZclNkWUk2T29pRzNzZU43c0ZmdnRHRVNpZ3gyZVktdmlhT3lsamdrcEV0MXZVaXNRbXd4Yy1XREdMb0NPb1E3QnduWFVzRE9QcXJjUm9lMHRkZTd2QVZYQnRDWEpzN0JYSkpPT2I4N3lKczM1MkVHQ1VWbEUxTTY?oc=5"
         }
       ]
     }
