@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
 <rect width="1000" height="510" rx="14" fill="#f6f8fa"/>
 <text x="28" y="32" font-size="18" font-weight="700" fill="#24292f">全球市场雷达</text>
-<text x="970" y="30" font-size="11" fill="#57606a" text-anchor="end">2026-10-21 15:25 北京时间</text>
+<text x="970" y="30" font-size="11" fill="#57606a" text-anchor="end">2026-10-21 16:50 北京时间</text>
 <line x1="350" y1="54" x2="350" y2="285" stroke="#8c959f" stroke-width="1"/>
 <text x="28" y="76" font-size="13" fill="#24292f">标普 500</text>
 <text x="210" y="76" font-size="12" fill="#57606a" text-anchor="end">7,712.57</text>
@@ -17,9 +17,9 @@
 <rect x="350.0" y="146" width="51.0" height="18" rx="4" fill="#c9211e" opacity="0.85"/>
 <text x="514" y="160" font-size="13" font-weight="600" fill="#c9211e">+1.02%</text>
 <text x="28" y="202" font-size="13" fill="#24292f">恒生指数</text>
-<text x="210" y="202" font-size="12" fill="#57606a" text-anchor="end">23,648.89</text>
-<rect x="304.0" y="188" width="46.0" height="18" rx="4" fill="#08783e" opacity="0.85"/>
-<text x="514" y="202" font-size="13" font-weight="600" fill="#08783e">-0.92%</text>
+<text x="210" y="202" font-size="12" fill="#57606a" text-anchor="end">23,651.87</text>
+<rect x="305.0" y="188" width="45.0" height="18" rx="4" fill="#08783e" opacity="0.85"/>
+<text x="514" y="202" font-size="13" font-weight="600" fill="#08783e">-0.90%</text>
 <text x="28" y="244" font-size="13" fill="#24292f">欧洲股票 ETF</text>
 <text x="210" y="244" font-size="12" fill="#57606a" text-anchor="end">87.18</text>
 <rect x="350.0" y="230" width="43.5" height="18" rx="4" fill="#c9211e" opacity="0.85"/>
@@ -49,28 +49,28 @@
 <rect x="28" y="354" width="180" height="88" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="42" y="376" font-size="10" font-weight="700" fill="#57606a">A50</text>
 <text x="194" y="376" font-size="9" fill="#8c959f" text-anchor="end">计分</text>
-<text x="42" y="407" font-size="19" font-weight="700" fill="#24292f">13,179.85</text>
-<text x="42" y="430" font-size="12" font-weight="700" fill="#08783e">-0.75%</text>
+<text x="42" y="407" font-size="19" font-weight="700" fill="#24292f">13,162.72</text>
+<text x="42" y="430" font-size="12" font-weight="700" fill="#08783e">-0.88%</text>
 <rect x="216" y="354" width="180" height="88" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="230" y="376" font-size="10" font-weight="700" fill="#57606a">USDCNH</text>
 <text x="382" y="376" font-size="9" fill="#8c959f" text-anchor="end">计分</text>
-<text x="230" y="407" font-size="19" font-weight="700" fill="#24292f">6.6769</text>
-<text x="230" y="430" font-size="12" font-weight="700" fill="#c9211e">+0.03%</text>
+<text x="230" y="407" font-size="19" font-weight="700" fill="#24292f">6.6753</text>
+<text x="230" y="430" font-size="12" font-weight="700" fill="#c9211e">+0.01%</text>
 <rect x="404" y="354" width="180" height="88" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="418" y="376" font-size="10" font-weight="700" fill="#57606a">DXY</text>
 <text x="570" y="376" font-size="9" fill="#8c959f" text-anchor="end">计分</text>
-<text x="418" y="407" font-size="19" font-weight="700" fill="#24292f">101.78</text>
-<text x="418" y="430" font-size="12" font-weight="700" fill="#c9211e">+0.08%</text>
+<text x="418" y="407" font-size="19" font-weight="700" fill="#24292f">101.76</text>
+<text x="418" y="430" font-size="12" font-weight="700" fill="#c9211e">+0.06%</text>
 <rect x="592" y="354" width="180" height="88" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="606" y="376" font-size="10" font-weight="700" fill="#57606a">GOLD</text>
 <text x="758" y="376" font-size="9" fill="#8c959f" text-anchor="end">背景</text>
-<text x="606" y="407" font-size="19" font-weight="700" fill="#24292f">4,140.23</text>
-<text x="606" y="430" font-size="12" font-weight="700" fill="#08783e">-0.06%</text>
+<text x="606" y="407" font-size="19" font-weight="700" fill="#24292f">4,141.80</text>
+<text x="606" y="430" font-size="12" font-weight="700" fill="#08783e">-0.02%</text>
 <rect x="780" y="354" width="180" height="88" rx="8" fill="#ffffff" stroke="#d0d7de"/>
 <text x="794" y="376" font-size="10" font-weight="700" fill="#57606a">WTI</text>
 <text x="946" y="376" font-size="9" fill="#8c959f" text-anchor="end">背景</text>
-<text x="794" y="407" font-size="19" font-weight="700" fill="#24292f">98.66</text>
-<text x="794" y="430" font-size="12" font-weight="700" fill="#c9211e">+0.85%</text>
+<text x="794" y="407" font-size="19" font-weight="700" fill="#24292f">99.22</text>
+<text x="794" y="430" font-size="12" font-weight="700" fill="#c9211e">+1.43%</text>
 <text x="28" y="474" font-size="12" fill="#24292f">多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。</text>
 <text x="28" y="498" font-size="10" fill="#57606a">红涨绿跌；评分是可审计研究指标，不是买卖信号。</text>
 </svg>

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21 15:25",
+  "generated_at": "2026-10-21 16:50",
   "score": -3,
   "stance": "中性等待",
   "color": "#8c959f",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.43%",
-      "contribution": 3.0,
+      "value": "6 个市场均值 +0.44%",
+      "contribution": 3.1,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.75%",
-      "contribution": -4.5,
+      "value": "富时 A50 -0.88%",
+      "contribution": -5.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6769 (+0.03%) / DXY 101.78 (+0.08%)",
-      "contribution": -0.8,
+      "value": "USD/CNH 6.6753 (+0.01%) / DXY 101.76 (+0.06%)",
+      "contribution": -0.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,12 +72,6 @@
   },
   "news": [
     {
-      "title": "日本央行12月加息已成共识，日元真正的风险藏在投票里？",
-      "source": "Moomoo",
-      "published": "Tue, 20 Oct 2026 23:32:59 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVmhqc1Ytb0J0Vm5zSUdhWUNreTNrRkNKREtXNVpfNGU2LXpReHpUU0MyNDRsRHFiUEU5ZHplVEo4dFpWQlNvRHdPanBtQXgydGNYZXQwdVY0WTFiZDFlVVl5S05VcVlDa0RraF9YMGFNYXdqMkViczh5dmZMSGZHQnh3cnhKcURwSkIxaEZlV1B5bURSS3pVRzRDUzJxeFdzcXkzeg?oc=5"
-    },
-    {
       "title": "四季度资产配置季报丨海外加息落地，修复窗口或渐启_市场评论",
       "source": "证券之星",
       "published": "Tue, 20 Oct 2026 13:58:36 GMT",
@@ -90,23 +84,23 @@
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9XZmZISnlVZFVZTUhidEtsZkpBdzlqMUVkTmJfNUFQbEdPMEFWbTlNbk1UNk9MaXNKR0c1SVpYVzBJV29POEpVVWtn?oc=5"
     },
     {
+      "title": "日本央行12月加息已成共识，日元真正的风险藏在投票里？",
+      "source": "Moomoo",
+      "published": "Tue, 20 Oct 2026 23:32:59 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVmhqc1Ytb0J0Vm5zSUdhWUNreTNrRkNKREtXNVpfNGU2LXpReHpUU0MyNDRsRHFiUEU5ZHplVEo4dFpWQlNvRHdPanBtQXgydGNYZXQwdVY0WTFiZDFlVVl5S05VcVlDa0RraF9YMGFNYXdqMkViczh5dmZMSGZHQnh3cnhKcURwSkIxaEZlV1B5bURSS3pVRzRDUzJxeFdzcXkzeg?oc=5"
+    },
+    {
       "title": "全球央行囤金潮持续！高盛强调：重要的不只是“买”，还有“转”",
       "source": "富途牛牛",
       "published": "Tue, 20 Oct 2026 09:40:33 GMT",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUF2Q1h0V0hQT1JHTk9BWDM4VDFiS19lS3hya0lLbndtUDFuZzVJTDNmN2p2V3FaRnJxQ0xvYzNzaHFlamVBVmFHSmUtVjVQRGJWUG9zWHVOSzBvM0FFS0Q2SEtFaUxIbHBMRGV1MUJWRFBRS3hMdzRrMjJEYWM4LU8wSEV0WmVJQlkzVUF2NjhPQnJYakI2RU84SFR4M3E4RXdkUGV1cW5VX0ZSeXpfeA?oc=5"
-    },
-    {
-      "title": "日本CPI数据与美联储政策预期博弈，美元兑日元窄幅震荡整理",
-      "source": "Moomoo",
-      "published": "Tue, 20 Oct 2026 07:32:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUlFbHduT1ByOFIxSXlfakZFNThIMlBnRFlOWFBXZFhqRkRxbEhabG1TMlRsWkFpa19hYl9rSjBNU0hNZUJwZ2Fjdjlhb0JSc0prTkhhY1R4R2gtWFZod19UV0EwX3ZkVEtJZmFkam9kZEJGVU40eGlab0VPQ3c3bnRjS19aMFFlSUtmOHR0WmFPaDFJV2tibkl0WlA2RnBuNjlGUzlnbGxhVk1jbFZF?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 5,
+      "headline_count": 4,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -119,34 +113,34 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.78 / +0.08%",
+          "value": "101.76 / +0.06%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6769 / +0.03%",
+          "value": "6.6753 / +0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "日本央行12月加息已成共识，日元真正的风险藏在投票里？",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVmhqc1Ytb0J0Vm5zSUdhWUNreTNrRkNKREtXNVpfNGU2LXpReHpUU0MyNDRsRHFiUEU5ZHplVEo4dFpWQlNvRHdPanBtQXgydGNYZXQwdVY0WTFiZDFlVVl5S05VcVlDa0RraF9YMGFNYXdqMkViczh5dmZMSGZHQnh3cnhKcURwSkIxaEZlV1B5bURSS3pVRzRDUzJxeFdzcXkzeg?oc=5"
-        },
-        {
           "title": "四季度资产配置季报丨海外加息落地，修复窗口或渐启_市场评论",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZRkFvX3J5UXg2c1RKclg5SXplWUlha3ZkSnZvLWlkNDI3R1BLUWN0eDhJUVlXRnpkSGQ4QkJIb2N1azd0Y0g1dWVva192aXF4a1FsdjNGZFdVTXBHbG5QLQ?oc=5"
+        },
+        {
+          "title": "全球市场再陷加息阴影！CPI意外升温掀起抛售潮，美股亚股重挫、比特币急跌",
+          "source": "区块周刊BlockWeeks",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9XZmZISnlVZFVZTUhidEtsZkpBdzlqMUVkTmJfNUFQbEdPMEFWbTlNbk1UNk9MaXNKR0c1SVpYVzBJV29POEpVVWtn?oc=5"
         }
       ]
     },
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -159,7 +153,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.78 / +0.08%",
+          "value": "101.76 / +0.06%",
           "state": "fresh"
         },
         {
@@ -175,81 +169,6 @@
           "title": "全球市场再陷加息阴影！CPI意外升温掀起抛售潮，美股亚股重挫、比特币急跌",
           "source": "区块周刊BlockWeeks",
           "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9XZmZISnlVZFVZTUhidEtsZkpBdzlqMUVkTmJfNUFQbEdPMEFWbTlNbk1UNk9MaXNKR0c1SVpYVzBJV29POEpVVWtn?oc=5"
-        },
-        {
-          "title": "日本CPI数据与美联储政策预期博弈，美元兑日元窄幅震荡整理",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUlFbHduT1ByOFIxSXlfakZFNThIMlBnRFlOWFBXZFhqRkRxbEhabG1TMlRsWkFpa19hYl9rSjBNU0hNZUJwZ2Fjdjlhb0JSc0prTkhhY1R4R2gtWFZod19UV0EwX3ZkVEtJZmFkam9kZEJGVU40eGlab0VPQ3c3bnRjS19aMFFlSUtmOHR0WmFPaDFJV2tibkl0WlA2RnBuNjlGUzlnbGxhVk1jbFZF?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.78 / +0.08%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6769 / +0.03%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,179.85 / -0.75%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "日本CPI数据与美联储政策预期博弈，美元兑日元窄幅震荡整理",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUlFbHduT1ByOFIxSXlfakZFNThIMlBnRFlOWFBXZFhqRkRxbEhabG1TMlRsWkFpa19hYl9rSjBNU0hNZUJwZ2Fjdjlhb0JSc0prTkhhY1R4R2gtWFZod19UV0EwX3ZkVEtJZmFkam9kZEJGVU40eGlab0VPQ3c3bnRjS19aMFFlSUtmOHR0WmFPaDFJV2tibkl0WlA2RnBuNjlGUzlnbGxhVk1jbFZF?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "domestic_policy",
-      "label": "国内政策与需求",
-      "headline_count": 1,
-      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-      "a_share_lens": "金融地产、基建、消费与顺周期方向",
-      "watch": [
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "13,179.85 / -0.75%",
-          "state": "fresh"
-        },
-        {
-          "code": "HSI",
-          "label": "恒生指数",
-          "value": "23,648.89 / -0.92%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6769 / +0.03%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-      "headlines": [
-        {
-          "title": "日本CPI数据与美联储政策预期博弈，美元兑日元窄幅震荡整理",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUlFbHduT1ByOFIxSXlfakZFNThIMlBnRFlOWFBXZFhqRkRxbEhabG1TMlRsWkFpa19hYl9rSjBNU0hNZUJwZ2Fjdjlhb0JSc0prTkhhY1R4R2gtWFZod19UV0EwX3ZkVEtJZmFkam9kZEJGVU40eGlab0VPQ3c3bnRjS19aMFFlSUtmOHR0WmFPaDFJV2tibkl0WlA2RnBuNjlGUzlnbGxhVk1jbFZF?oc=5"
         }
       ]
     }
