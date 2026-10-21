@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21 16:50",
+  "generated_at": "2026-10-21 20:53",
   "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
   "status": "ready",
   "minimum_samples": 20,
-  "signal_count": 161,
-  "matured_1d": 155,
-  "directional_1d": 121,
-  "hit_rate_1d": 62.0,
+  "signal_count": 162,
+  "matured_1d": 160,
+  "directional_1d": 123,
+  "hit_rate_1d": 61.0,
   "average_return": {
-    "1d": -0.411,
-    "3d": -1.089,
-    "5d": -2.317
+    "1d": -0.417,
+    "3d": -0.984,
+    "5d": -2.283
   },
   "buckets": [
     {
@@ -26,13 +26,13 @@
     },
     {
       "label": "中性",
-      "count": 38,
-      "avg_1d_pct": -0.227
+      "count": 41,
+      "avg_1d_pct": -0.254
     },
     {
       "label": "谨慎偏多",
-      "count": 52,
-      "avg_1d_pct": -0.226
+      "count": 54,
+      "avg_1d_pct": -0.24
     },
     {
       "label": "积极",
@@ -41,14 +41,39 @@
     }
   ],
   "current": {
-    "captured_at": "2026-10-21 16:50",
-    "slot": "midday",
-    "score": "-3",
-    "stance": "中性等待",
+    "captured_at": "2026-10-21 20:53",
+    "slot": "close",
+    "score": "-14",
+    "stance": "谨慎防守",
     "confidence": "中",
     "health": "markets,us10y,vix"
   },
   "recent": [
+    {
+      "captured_at": "2026-10-21 20:53",
+      "slot": "close",
+      "signal_date": "2026-10-21",
+      "market_asof_date": "2026-10-21",
+      "score": "-14",
+      "stance": "谨慎防守",
+      "confidence": "中",
+      "sh_close": "3713.03",
+      "sh_pct": "-0.60",
+      "global_avg": "0.4377",
+      "a50_pct": "0.24164387724094905",
+      "usdcnh": "6.6744",
+      "usdcnh_pct": "-0.0029964342432409197",
+      "dxy": "101.6703",
+      "dxy_pct": "-0.028712038898914827",
+      "vix": "15.44",
+      "us10y": "4.94",
+      "health": "markets,us10y,vix",
+      "return_1d": null,
+      "return_3d": null,
+      "return_5d": null,
+      "direction": -1,
+      "hit_1d": null
+    },
     {
       "captured_at": "2026-10-21 16:50",
       "slot": "midday",
@@ -68,7 +93,7 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": -0.6,
       "return_3d": null,
       "return_5d": null,
       "direction": 0,
@@ -93,7 +118,7 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": -0.6,
       "return_3d": null,
       "return_5d": null,
       "direction": 0,
@@ -118,11 +143,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": -0.6,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-21 01:18",
@@ -168,11 +193,11 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": -0.6,
       "return_3d": null,
       "return_5d": null,
       "direction": 1,
-      "hit_1d": null
+      "hit_1d": false
     },
     {
       "captured_at": "2026-10-20 16:50",
@@ -268,7 +293,7 @@
       "vix": "15.44",
       "us10y": "4.94",
       "health": "markets,us10y,vix",
-      "return_1d": null,
+      "return_1d": -0.6,
       "return_3d": null,
       "return_5d": null,
       "direction": 0,
@@ -319,7 +344,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -344,7 +369,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -369,7 +394,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -394,7 +419,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -419,7 +444,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -444,7 +469,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -469,7 +494,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -494,7 +519,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
@@ -519,32 +544,7 @@
       "us10y": "4.94",
       "health": "markets,us10y,vix",
       "return_1d": 0.39,
-      "return_3d": null,
-      "return_5d": null,
-      "direction": 0,
-      "hit_1d": null
-    },
-    {
-      "captured_at": "2026-10-17 19:33",
-      "slot": "close",
-      "signal_date": "2026-10-17",
-      "market_asof_date": "2026-10-16",
-      "score": "1",
-      "stance": "中性等待",
-      "confidence": "中",
-      "sh_close": "3716.28",
-      "sh_pct": "0.24",
-      "global_avg": "-0.264",
-      "a50_pct": "-0.45854572713642794",
-      "usdcnh": "6.685",
-      "usdcnh_pct": "-0.05083428024639236",
-      "dxy": "101.7827",
-      "dxy_pct": "-0.2087344944291636",
-      "vix": "15.44",
-      "us10y": "4.94",
-      "health": "markets,us10y,vix",
-      "return_1d": 0.39,
-      "return_3d": null,
+      "return_3d": -0.092595,
       "return_5d": null,
       "direction": 0,
       "hit_1d": null
