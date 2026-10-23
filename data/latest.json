@@ -1,21 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23 08:39",
+  "generated_at": "2026-10-23 15:19",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-23 08:39",
-    "slot": "overnight",
-    "slot_label": "外围收盘",
+    "checked_at": "2026-10-23 15:19",
+    "slot": "open",
+    "slot_label": "开盘脉搏",
     "target_date": "2026-10-23",
-    "market_data_date": "2026-10-22",
-    "market_state": "non_trading",
-    "pulse_updated": false,
+    "market_data_date": "2026-10-23",
+    "market_state": "live",
+    "pulse_updated": true,
     "daily_updated": false,
-    "message": "目标日未开市或尚未产生行情，最近交易日 2026-10-22"
+    "pulse_file": "data/pulses/2026-10.csv",
+    "message": "开盘脉搏已更新"
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-23 08:39",
+    "generated_at": "2026-10-23 15:19",
     "markets": [
       {
         "code": "SPX",
@@ -58,11 +59,11 @@
         "name": "恒生指数",
         "region": "中国香港",
         "kind": "index",
-        "close": 22934.68,
-        "pct": -3.03,
-        "change": -717.19,
-        "previous_close": 23651.87,
-        "quote_time": "2026/10/22 18:31:35",
+        "close": 23155.75,
+        "pct": 0.96,
+        "change": 221.07,
+        "previous_close": 22934.68,
+        "quote_time": "2026/10/23 15:04:18",
         "stale": false
       },
       {
@@ -97,11 +98,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 12934.01,
-        "pct": 0.03101314771849495,
-        "change": 4.010000000000218,
+        "close": 13066.9,
+        "pct": 1.058778035576169,
+        "change": 136.89999999999964,
         "previous_close": 12930.0,
-        "quote_time": "2026-10-23 05:13:04",
+        "quote_time": "2026-10-23 15:19:45",
         "stale": false
       },
       {
@@ -110,11 +111,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.6714,
-        "pct": -0.0029977816415782677,
-        "change": -0.00019999999999953388,
+        "close": 6.6719,
+        "pct": 0.004496672462384055,
+        "change": 0.000300000000000189,
         "previous_close": 6.6716,
-        "quote_time": "2026-10-23 08:39:20",
+        "quote_time": "2026-10-23 15:19:34",
         "stale": false
       },
       {
@@ -123,11 +124,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 101.4894,
-        "pct": -0.13254729931186926,
-        "change": -0.13469999999999516,
+        "close": 101.8039,
+        "pct": 0.17692653612677578,
+        "change": 0.17980000000000018,
         "previous_close": 101.6241,
-        "quote_time": "2026-10-23 08:39:33",
+        "quote_time": "2026-10-23 15:19:40",
         "stale": false
       },
       {
@@ -136,11 +137,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 4032.52,
-        "pct": -0.6866318589301534,
-        "change": -27.88000000000011,
+        "close": 4029.377,
+        "pct": -0.7640380258102653,
+        "change": -31.02300000000014,
         "previous_close": 4060.4,
-        "quote_time": "2026-10-23 08:39:37",
+        "quote_time": "2026-10-23 15:19:44",
         "stale": false
       },
       {
@@ -149,11 +150,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 99.134,
-        "pct": -0.337790288529205,
-        "change": -0.3359999999999985,
+        "close": 100.784,
+        "pct": 1.3210013069267168,
+        "change": 1.3140000000000072,
         "previous_close": 99.47,
-        "quote_time": "2026-10-23 08:39:08",
+        "quote_time": "2026-10-23 15:19:44",
         "stale": false
       }
     ],
@@ -195,8 +196,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-23 08:39",
-    "score": -47,
+    "generated_at": "2026-10-23 15:19",
+    "score": -42,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -222,20 +223,20 @@
       },
       {
         "label": "外围股市",
-        "value": "6 个市场均值 -1.06%",
-        "contribution": -7.4,
+        "value": "6 个市场均值 -0.39%",
+        "contribution": -2.7,
         "note": "衡量隔夜风险偏好共振"
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 +0.03%",
-        "contribution": 0.2,
+        "value": "富时 A50 +1.06%",
+        "contribution": 6.4,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.6714 (-0.00%) / DXY 101.49 (-0.13%)",
-        "contribution": 0.7,
+        "value": "USD/CNH 6.6719 (+0.00%) / DXY 101.80 (+0.18%)",
+        "contribution": -0.9,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -252,8 +253,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 1 / 风险词 1",
-        "contribution": 0,
+        "value": "正向词 0 / 风险词 2",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -261,16 +262,16 @@
       "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
     ],
     "news_tone": {
-      "positive_hits": 1,
-      "negative_hits": 1,
-      "score": 0
+      "positive_hits": 0,
+      "negative_hits": 2,
+      "score": -4
     },
     "news": [
       {
-        "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
+        "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
         "source": "Moomoo",
-        "published": "Thu, 22 Oct 2026 08:23:50 GMT",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
+        "published": "Fri, 23 Oct 2026 04:59:24 GMT",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
       },
       {
         "title": "油价狂飙，全球买单! 原油再度上破110美元，从食品到房贷全面承压 港美股资讯",
@@ -279,59 +280,13 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZY2E5YWw0UlNBNnYtaEJhSC1kSXJKb1o3NXpzNXMxV3F0SjVNOGZ5eG1WWllmQ2ZubVIzZDBKNWxLWWo4Nl9ueHpQOE5OWWJYZjc4ZGptVzZISy1jV25vRmdn?oc=5"
       },
       {
-        "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
-        "source": "富途牛牛",
-        "published": "Thu, 22 Oct 2026 07:07:46 GMT",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJucTlSdmZyekwxN24zcDNMRXhySEVLSDQ1OWVCanM4SFA4LW5hWHprWG4wM3p4YUs1ZGx2LVoxTjJUMVlnRTlISkNhNUVPRy10VUhTSnFnQjltQjBnUUZrel9TMlJqNVl3SE85aGdCSVhxWk1VR3puRzd2UDhYZU9kaVV0eVpfWUh3MmJQaWpGU1k?oc=5"
-      },
-      {
-        "title": "隔夜美股上涨 亚股早盘个别发展",
-        "source": "亚洲电视新闻",
-        "published": "Thu, 22 Oct 2026 05:14:27 GMT",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQT3NCc1NQTFYxYmk1UnpwMmJVcm1FOGNYZUk3bUVEQjh1eGMtUHRwbXloaGozakVYVkk3RThOWjBiRHVSNkVTa25CeEtpNXdET2xUXzlLaTNOV3lseEJXdkt0VTBQNTM5YmEwbDlub0hiMThtTnI0Qmd2eWRDX2Vkd1pFaWJMTmFJUTBrdVNETWVDbmpzSGxyZ051Q21sZ3dtTE45TC1FeEZKajVPTlBqdFBodDU5N1FSTS1Da1FaX1k1NkxCcTRobjhQMkdLVVROZXpoVERpVlRpeFdueFZRTklOTTJSaHRYVGw2SXEzTmVJbHNqTEE?oc=5"
+        "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
+        "source": "Moomoo",
+        "published": "Thu, 22 Oct 2026 08:23:50 GMT",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
       }
     ],
     "events": [
-      {
-        "key": "central_bank",
-        "label": "央行与利率",
-        "headline_count": 2,
-        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "101.49 / -0.13%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6714 / -0.00%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-        "headlines": [
-          {
-            "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
-            "source": "Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
-          },
-          {
-            "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJucTlSdmZyekwxN24zcDNMRXhySEVLSDQ1OWVCanM4SFA4LW5hWHprWG4wM3p4YUs1ZGx2LVoxTjJUMVlnRTlISkNhNUVPRy10VUhTSnFnQjltQjBnUUZrel9TMlJqNVl3SE85aGdCSVhxWk1VR3puRzd2UDhYZU9kaVV0eVpfWUh3MmJQaWpGU1k?oc=5"
-          }
-        ]
-      },
       {
         "key": "commodities",
         "label": "商品与成本",
@@ -342,13 +297,13 @@
           {
             "code": "WTI",
             "label": "原油",
-            "value": "99.13 / -0.34%",
+            "value": "100.78 / +1.32%",
             "state": "fresh"
           },
           {
             "code": "GOLD",
             "label": "黄金",
-            "value": "4,032.52 / -0.69%",
+            "value": "4,029.38 / -0.76%",
             "state": "fresh"
           },
           {
@@ -361,14 +316,14 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
-            "source": "Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
-          },
-          {
             "title": "油价狂飙，全球买单! 原油再度上破110美元，从食品到房贷全面承压 港美股资讯",
             "source": "华盛通",
             "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZY2E5YWw0UlNBNnYtaEJhSC1kSXJKb1o3NXpzNXMxV3F0SjVNOGZ5eG1WWllmQ2ZubVIzZDBKNWxLWWo4Nl9ueHpQOE5OWWJYZjc4ZGptVzZISy1jV25vRmdn?oc=5"
+          },
+          {
+            "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
           }
         ]
       },
@@ -382,33 +337,68 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "101.49 / -0.13%",
+            "value": "101.80 / +0.18%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6714 / -0.00%",
+            "value": "6.6719 / +0.00%",
             "state": "fresh"
           },
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "12,934.01 / +0.03%",
+            "value": "13,066.90 / +1.06%",
             "state": "fresh"
           }
         ],
         "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
         "headlines": [
           {
+            "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
+          },
+          {
             "title": "油价狂飙，全球买单! 原油再度上破110美元，从食品到房贷全面承压 港美股资讯",
             "source": "华盛通",
             "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZY2E5YWw0UlNBNnYtaEJhSC1kSXJKb1o3NXpzNXMxV3F0SjVNOGZ5eG1WWllmQ2ZubVIzZDBKNWxLWWo4Nl9ueHpQOE5OWWJYZjc4ZGptVzZISy1jV25vRmdn?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "central_bank",
+        "label": "央行与利率",
+        "headline_count": 1,
+        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "watch": [
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
           },
           {
-            "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJucTlSdmZyekwxN24zcDNMRXhySEVLSDQ1OWVCanM4SFA4LW5hWHprWG4wM3p4YUs1ZGx2LVoxTjJUMVlnRTlISkNhNUVPRy10VUhTSnFnQjltQjBnUUZrel9TMlJqNVl3SE85aGdCSVhxWk1VR3puRzd2UDhYZU9kaVV0eVpfWUh3MmJQaWpGU1k?oc=5"
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.80 / +0.18%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6719 / +0.00%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "headlines": [
+          {
+            "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
           }
         ]
       }
@@ -418,11 +408,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-23 08:39",
+    "generated_at": "2026-10-23 15:19",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 169,
+    "signal_count": 170,
     "matured_1d": 165,
     "directional_1d": 128,
     "hit_rate_1d": 61.7,
@@ -459,14 +449,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-23 08:39",
-      "slot": "overnight",
-      "score": "-47",
+      "captured_at": "2026-10-23 15:19",
+      "slot": "open",
+      "score": "-42",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-23 15:19",
+        "slot": "open",
+        "signal_date": "2026-10-23",
+        "market_asof_date": "2026-10-23",
+        "score": "-42",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3658.03",
+        "sh_pct": "-1.48",
+        "global_avg": "-0.3906",
+        "a50_pct": "1.058778035576169",
+        "usdcnh": "6.6719",
+        "usdcnh_pct": "0.004496672462384055",
+        "dxy": "101.8039",
+        "dxy_pct": "0.17692653612677578",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-23 08:39",
         "slot": "overnight",
@@ -941,31 +956,6 @@
         "return_5d": null,
         "direction": 0,
         "hit_1d": null
-      },
-      {
-        "captured_at": "2026-10-19 15:37",
-        "slot": "open",
-        "signal_date": "2026-10-19",
-        "market_asof_date": "2026-10-19",
-        "score": "2",
-        "stance": "中性等待",
-        "confidence": "中",
-        "sh_close": "3716.28",
-        "sh_pct": "0.24",
-        "global_avg": "-0.264",
-        "a50_pct": "0.146626686656659",
-        "usdcnh": "6.681",
-        "usdcnh_pct": "-0.06432022497120382",
-        "dxy": "101.9188",
-        "dxy_pct": "-0.057561717045429006",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.39,
-        "return_3d": -0.092595,
-        "return_5d": null,
-        "direction": 0,
-        "hit_1d": null
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
@@ -1015,29 +1005,29 @@
     }
   },
   "latest_pulse": {
-    "captured_at": "2026-10-22 20:55",
-    "slot": "close",
-    "date": "2026-10-22",
-    "上证指数_close": "3658.03",
-    "深证成指_close": "11357.32",
-    "创业板指_close": "2576.90",
-    "沪深300_close": "4036.30",
-    "科创50_close": "1305.87",
-    "上证指数_pct": "-1.48",
-    "深证成指_pct": "-2.96",
-    "创业板指_pct": "-4.37",
-    "沪深300_pct": "-1.84",
-    "科创50_pct": "-2.78",
-    "amount_yi": "15287.1",
-    "up": "537",
-    "down": "5071",
-    "flat": "39",
-    "limit_up": "33",
-    "limit_down": "49",
-    "broken": "23",
-    "broken_rate": "41.1",
-    "max_streak": "10",
-    "streak_2plus": "11"
+    "captured_at": "2026-10-23 15:19",
+    "slot": "open",
+    "date": "2026-10-23",
+    "上证指数_close": "3690.48",
+    "深证成指_close": "11673.83",
+    "创业板指_close": "2684.10",
+    "沪深300_close": "4105.33",
+    "科创50_close": "1345.51",
+    "上证指数_pct": "0.89",
+    "深证成指_pct": "2.79",
+    "创业板指_pct": "4.16",
+    "沪深300_pct": "1.71",
+    "科创50_pct": "3.04",
+    "amount_yi": "19562.8",
+    "up": "4568",
+    "down": "935",
+    "flat": "146",
+    "limit_up": "",
+    "limit_down": "",
+    "broken": "",
+    "broken_rate": "",
+    "max_streak": "",
+    "streak_2plus": ""
   },
   "sectors": {
     "date": "2026-10-22",
