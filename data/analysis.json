@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23 20:35",
-  "score": 16,
+  "generated_at": "2026-10-24 01:16",
+  "score": 19,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.44%",
-      "contribution": -3.0,
+      "value": "6 个市场均值 -0.09%",
+      "contribution": -0.7,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.48%",
-      "contribution": -2.9,
+      "value": "富时 A50 -0.36%",
+      "contribution": -2.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6692 (-0.04%) / DXY 101.74 (+0.11%)",
-      "contribution": -0.1,
+      "value": "USD/CNH 6.6703 (-0.02%) / DXY 101.83 (+0.20%)",
+      "contribution": -0.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -78,71 +78,31 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
     },
     {
+      "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
+      "source": "Moomoo",
+      "published": "Fri, 23 Oct 2026 13:21:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
+    },
+    {
       "title": "交易时刻：BTC死守8.15万美元机构成本线，韩股现“白菜价”，A股史诗级大逆转",
       "source": "PANews",
       "published": "Fri, 23 Oct 2026 10:15:18 GMT",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
     },
     {
-      "title": "金价一夜跌500 元，有人却把榴莲做成了金饰|美联储|央行|A 股_新浪新闻",
-      "source": "手机新浪网",
-      "published": "Fri, 23 Oct 2026 09:25:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XUHUzcjdNdV9Fb0R6a3hNMGVZY0ZrRTFCaG9LVG1YTHJWblFiTGpqWnJGVEVZVWsxcWFOQnBOT3NXZ0RBOXFLU0dyeEZFaWlCNDNvdDN5bjFlRnpfb3h3TFlZVQ?oc=5"
+      "title": "全球股市下挫，A股盘中破3600点，是风险释放？还是布局窗口？",
+      "source": "文轩新闻",
+      "published": "Fri, 23 Oct 2026 05:23:58 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfVVhiX1ZWOW1rRWtQYTgyQ01uYXp6U2lkYWtKQldHMmVtU1FyUFJWZHdpYWhQVFRhMlBuTmM5Y2plSEF3clYyTmVheGdPdmdsSnc?oc=5"
     },
     {
       "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
       "source": "Moomoo",
       "published": "Fri, 23 Oct 2026 04:59:24 GMT",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
-    },
-    {
-      "title": "全球股市下挫，A股盘中破3600点，是风险释放？还是布局窗口？",
-      "source": "文轩新闻",
-      "published": "Fri, 23 Oct 2026 05:30:03 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfVVhiX1ZWOW1rRWtQYTgyQ01uYXp6U2lkYWtKQldHMmVtU1FyUFJWZHdpYWhQVFRhMlBuTmM5Y2plSEF3clYyTmVheGdPdmdsSnc?oc=5"
     }
   ],
   "events": [
-    {
-      "key": "central_bank",
-      "label": "央行与利率",
-      "headline_count": 2,
-      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.74 / +0.11%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6692 / -0.04%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-      "headlines": [
-        {
-          "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
-          "source": "汇通财经",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
-        },
-        {
-          "title": "金价一夜跌500 元，有人却把榴莲做成了金饰|美联储|央行|A 股_新浪新闻",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XUHUzcjdNdV9Fb0R6a3hNMGVZY0ZrRTFCaG9LVG1YTHJWblFiTGpqWnJGVEVZVWsxcWFOQnBOT3NXZ0RBOXFLU0dyeEZFaWlCNDNvdDN5bjFlRnpfb3h3TFlZVQ?oc=5"
-        }
-      ]
-    },
     {
       "key": "currency",
       "label": "美元与人民币",
@@ -153,19 +113,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.74 / +0.11%",
+          "value": "101.83 / +0.20%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6692 / -0.04%",
+          "value": "6.6703 / -0.02%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,975.92 / -0.48%",
+          "value": "12,992.00 / -0.36%",
           "state": "fresh"
         }
       ],
@@ -180,6 +140,41 @@
           "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 1,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.83 / +0.20%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6703 / -0.02%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
         }
       ]
     },
@@ -199,13 +194,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.74 / +0.11%",
+          "value": "101.83 / +0.20%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,008.86 / -2.60%",
+          "value": "25,974.80 / -0.13%",
           "state": "fresh"
         }
       ],
@@ -234,13 +229,13 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,040.35 / -0.49%",
+          "value": "4,006.49 / -1.33%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "101.33 / +1.87%",
+          "value": "102.94 / +3.48%",
           "state": "fresh"
         }
       ],
@@ -250,6 +245,76 @@
           "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
           "source": "汇通财经",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "25,974.80 / -0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,992.00 / -0.36%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "102.94 / +3.48%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,006.49 / -1.33%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
         }
       ]
     }
