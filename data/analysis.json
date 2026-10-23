@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23 01:18",
-  "score": -50,
+  "generated_at": "2026-10-23 08:39",
+  "score": -47,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -1.07%",
-      "contribution": -7.5,
+      "value": "6 个市场均值 -1.06%",
+      "contribution": -7.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.20%",
-      "contribution": 1.2,
+      "value": "富时 A50 +0.03%",
+      "contribution": 0.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6726 (-0.03%) / DXY 101.54 (-0.16%)",
-      "contribution": 1.1,
+      "value": "USD/CNH 6.6714 (-0.00%) / DXY 101.49 (-0.13%)",
+      "contribution": 0.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 3",
-      "contribution": -4,
+      "value": "正向词 1 / 风险词 1",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,8 +67,8 @@
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 3,
-    "score": -4
+    "negative_hits": 1,
+    "score": 0
   },
   "news": [
     {
@@ -84,12 +84,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZY2E5YWw0UlNBNnYtaEJhSC1kSXJKb1o3NXpzNXMxV3F0SjVNOGZ5eG1WWllmQ2ZubVIzZDBKNWxLWWo4Nl9ueHpQOE5OWWJYZjc4ZGptVzZISy1jV25vRmdn?oc=5"
     },
     {
-      "title": "中东局势再度升温引发通胀担忧 美债遭抛售 两年期收益率升至一周高点",
-      "source": "新浪财经",
-      "published": "Wed, 21 Oct 2026 22:00:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVc4aXZOMTAxb2JLQ3AzbGZpMFpsV1l4cmdFRnlLaE81aU8ySXpEdnpJSkFJcDBCZ213djFIYVhrZElIZW1ZTjUwRWowZUYzanFadjVma3BCYVpjZVJDb2Jpb0NvUXBIZVVCeUtZbno5bVJ3ZFl3VnBMWlFHWGgweW5TaHJ1Y3NLQUNITGYwdw?oc=5"
-    },
-    {
       "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
       "source": "富途牛牛",
       "published": "Thu, 22 Oct 2026 07:07:46 GMT",
@@ -100,32 +94,66 @@
       "source": "亚洲电视新闻",
       "published": "Thu, 22 Oct 2026 05:14:27 GMT",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQT3NCc1NQTFYxYmk1UnpwMmJVcm1FOGNYZUk3bUVEQjh1eGMtUHRwbXloaGozakVYVkk3RThOWjBiRHVSNkVTa25CeEtpNXdET2xUXzlLaTNOV3lseEJXdkt0VTBQNTM5YmEwbDlub0hiMThtTnI0Qmd2eWRDX2Vkd1pFaWJMTmFJUTBrdVNETWVDbmpzSGxyZ051Q21sZ3dtTE45TC1FeEZKajVPTlBqdFBodDU5N1FSTS1Da1FaX1k1NkxCcTRobjhQMkdLVVROZXpoVERpVlRpeFdueFZRTklOTTJSaHRYVGw2SXEzTmVJbHNqTEE?oc=5"
-    },
-    {
-      "title": "马斯克引爆华尔街！SpaceX暴涨10%，纳指强势反攻 中东战火再升级！油价飙升，黄金、美元、比特币迎来关键变局",
-      "source": "FX168",
-      "published": "Wed, 21 Oct 2026 17:49:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tN1JQMzh1bnQyQl9CRDVRQmp4Z0JpVEx4ZnE3VmRFbkZmYzhpQ0MzZmRqcFJDZTJjT2JYSmpfbnhJc0xRdWlKOTJILWlEQVVVQnRrdXk5VlB1V0g0?oc=5"
     }
   ],
   "events": [
     {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 2,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.49 / -0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6714 / -0.00%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
+        },
+        {
+          "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJucTlSdmZyekwxN24zcDNMRXhySEVLSDQ1OWVCanM4SFA4LW5hWHprWG4wM3p4YUs1ZGx2LVoxTjJUMVlnRTlISkNhNUVPRy10VUhTSnFnQjltQjBnUUZrel9TMlJqNVl3SE85aGdCSVhxWk1VR3puRzd2UDhYZU9kaVV0eVpfWUh3MmJQaWpGU1k?oc=5"
+        }
+      ]
+    },
+    {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "99.35 / +2.27%",
+          "value": "99.13 / -0.34%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,060.42 / -2.16%",
+          "value": "4,032.52 / -0.69%",
           "state": "fresh"
         },
         {
@@ -152,26 +180,26 @@
     {
       "key": "currency",
       "label": "美元与人民币",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
       "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
       "watch": [
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.54 / -0.16%",
+          "value": "101.49 / -0.13%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6726 / -0.03%",
+          "value": "6.6714 / -0.00%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,955.26 / +0.20%",
+          "value": "12,934.01 / +0.03%",
           "state": "fresh"
         }
       ],
@@ -186,121 +214,6 @@
           "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJucTlSdmZyekwxN24zcDNMRXhySEVLSDQ1OWVCanM4SFA4LW5hWHprWG4wM3p4YUs1ZGx2LVoxTjJUMVlnRTlISkNhNUVPRy10VUhTSnFnQjltQjBnUUZrel9TMlJqNVl3SE85aGdCSVhxWk1VR3puRzd2UDhYZU9kaVV0eVpfWUh3MmJQaWpGU1k?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "central_bank",
-      "label": "央行与利率",
-      "headline_count": 2,
-      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.54 / -0.16%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6726 / -0.03%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-      "headlines": [
-        {
-          "title": "安联投资：年底前美联储等多国央行将分别再加息0.25% 看好亚洲新兴股市及黄金",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdk1CSlA0dkhqazlaMjJEQzhzbzhISnJCUS1WVFlLSFJ6MklaZXpTYXIydkxBZEw5WlducDN3ZjF3TDFsQnphRFdwS3ZwNEFERVVITmpwWWxnODJISDViTHo4TV9TNlU4OWtLeV8xblZqNXV1QXZNYjQxellxU3N2Z0ktdkxPcHR3V0lHVmF4UDFDMmxscjFScjNIRHhDU0Y4NlU1aDJWUzRqeEJDSmJzeExvaHJCb1ZONno4NDBUbw?oc=5"
-        },
-        {
-          "title": "美日利差与日本央行谨慎立场拉锯，美元兑日元维持区间震荡",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJucTlSdmZyekwxN24zcDNMRXhySEVLSDQ1OWVCanM4SFA4LW5hWHprWG4wM3p4YUs1ZGx2LVoxTjJUMVlnRTlISkNhNUVPRy10VUhTSnFnQjltQjBnUUZrel9TMlJqNVl3SE85aGdCSVhxWk1VR3puRzd2UDhYZU9kaVV0eVpfWUh3MmJQaWpGU1k?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
-      "headline_count": 2,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-      "watch": [
-        {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
-          "state": "stale"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,060.42 / -2.16%",
-          "state": "fresh"
-        },
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "99.35 / +2.27%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "中东局势再度升温引发通胀担忧 美债遭抛售 两年期收益率升至一周高点",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVc4aXZOMTAxb2JLQ3AzbGZpMFpsV1l4cmdFRnlLaE81aU8ySXpEdnpJSkFJcDBCZ213djFIYVhrZElIZW1ZTjUwRWowZUYzanFadjVma3BCYVpjZVJDb2Jpb0NvUXBIZVVCeUtZbno5bVJ3ZFl3VnBMWlFHWGgweW5TaHJ1Y3NLQUNITGYwdw?oc=5"
-        },
-        {
-          "title": "马斯克引爆华尔街！SpaceX暴涨10%，纳指强势反攻 中东战火再升级！油价飙升，黄金、美元、比特币迎来关键变局",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tN1JQMzh1bnQyQl9CRDVRQmp4Z0JpVEx4ZnE3VmRFbkZmYzhpQ0MzZmRqcFJDZTJjT2JYSmpfbnhJc0xRdWlKOTJILWlEQVVVQnRrdXk5VlB1V0g0?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 1,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.54 / -0.16%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "26,062.12 / -2.40%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "中东局势再度升温引发通胀担忧 美债遭抛售 两年期收益率升至一周高点",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZVc4aXZOMTAxb2JLQ3AzbGZpMFpsV1l4cmdFRnlLaE81aU8ySXpEdnpJSkFJcDBCZ213djFIYVhrZElIZW1ZTjUwRWowZUYzanFadjVma3BCYVpjZVJDb2Jpb0NvUXBIZVVCeUtZbno5bVJ3ZFl3VnBMWlFHWGgweW5TaHJ1Y3NLQUNITGYwdw?oc=5"
         }
       ]
     }
