@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23 16:47",
-  "score": -41,
-  "stance": "防守优先",
-  "color": "#08783e",
+  "generated_at": "2026-10-23 20:35",
+  "score": 16,
+  "stance": "谨慎偏多",
+  "color": "#e05a47",
   "confidence": "中",
-  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
+  "summary": "风险偏好略占优，但信号并未形成全面共振。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 -1.48%",
-      "contribution": -11.8,
+      "value": "上证 +0.89%",
+      "contribution": 7.1,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 537 / 跌 5071",
-      "contribution": -16.2,
+      "value": "涨 4568 / 跌 935",
+      "contribution": 13.2,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 33 / 跌停 49 / 炸板率 41.1%",
-      "contribution": -7.8,
+      "value": "涨停 82 / 跌停 6 / 炸板率 12.8%",
+      "contribution": 11.1,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.89%",
-      "contribution": 5.3,
+      "value": "富时 A50 -0.48%",
+      "contribution": -2.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6707 (-0.01%) / DXY 101.80 (+0.17%)",
-      "contribution": -0.7,
+      "value": "USD/CNH 6.6692 (-0.04%) / DXY 101.74 (+0.11%)",
+      "contribution": -0.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,60 +57,199 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 1",
-      "contribution": -2,
+      "value": "正向词 1 / 风险词 3",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
+    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 0,
-    "negative_hits": 1,
-    "score": -2
+    "positive_hits": 1,
+    "negative_hits": 3,
+    "score": -4
   },
   "news": [
+    {
+      "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
+      "source": "汇通财经",
+      "published": "Fri, 23 Oct 2026 12:32:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
+    },
+    {
+      "title": "交易时刻：BTC死守8.15万美元机构成本线，韩股现“白菜价”，A股史诗级大逆转",
+      "source": "PANews",
+      "published": "Fri, 23 Oct 2026 10:15:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
+    },
+    {
+      "title": "金价一夜跌500 元，有人却把榴莲做成了金饰|美联储|央行|A 股_新浪新闻",
+      "source": "手机新浪网",
+      "published": "Fri, 23 Oct 2026 09:25:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XUHUzcjdNdV9Fb0R6a3hNMGVZY0ZrRTFCaG9LVG1YTHJWblFiTGpqWnJGVEVZVWsxcWFOQnBOT3NXZ0RBOXFLU0dyeEZFaWlCNDNvdDN5bjFlRnpfb3h3TFlZVQ?oc=5"
+    },
     {
       "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
       "source": "Moomoo",
       "published": "Fri, 23 Oct 2026 04:59:24 GMT",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
+    },
+    {
+      "title": "全球股市下挫，A股盘中破3600点，是风险释放？还是布局窗口？",
+      "source": "文轩新闻",
+      "published": "Fri, 23 Oct 2026 05:30:03 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfVVhiX1ZWOW1rRWtQYTgyQ01uYXp6U2lkYWtKQldHMmVtU1FyUFJWZHdpYWhQVFRhMlBuTmM5Y2plSEF3clYyTmVheGdPdmdsSnc?oc=5"
     }
   ],
   "events": [
     {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 2,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.74 / +0.11%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6692 / -0.04%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
+        },
+        {
+          "title": "金价一夜跌500 元，有人却把榴莲做成了金饰|美联储|央行|A 股_新浪新闻",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XUHUzcjdNdV9Fb0R6a3hNMGVZY0ZrRTFCaG9LVG1YTHJWblFiTGpqWnJGVEVZVWsxcWFOQnBOT3NXZ0RBOXFLU0dyeEZFaWlCNDNvdDN5bjFlRnpfb3h3TFlZVQ?oc=5"
+        }
+      ]
+    },
+    {
       "key": "currency",
       "label": "美元与人民币",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
       "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
       "watch": [
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.80 / +0.17%",
+          "value": "101.74 / +0.11%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6707 / -0.01%",
+          "value": "6.6692 / -0.04%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,044.76 / +0.89%",
+          "value": "12,975.92 / -0.48%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
+          "title": "交易时刻：BTC死守8.15万美元机构成本线，韩股现“白菜价”，A股史诗级大逆转",
+          "source": "PANews",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
+        },
+        {
           "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "inflation",
+      "label": "通胀与就业",
+      "headline_count": 1,
+      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.74 / +0.11%",
+          "state": "fresh"
+        },
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "26,008.86 / -2.60%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+      "headlines": [
+        {
+          "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "geopolitics",
+      "label": "地缘与贸易",
+      "headline_count": 1,
+      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
+      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
+      "watch": [
+        {
+          "code": "VIX",
+          "label": "VIX",
+          "value": "15.44",
+          "state": "stale"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,040.35 / -0.49%",
+          "state": "fresh"
+        },
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "101.33 / +1.87%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
+      "headlines": [
+        {
+          "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
         }
       ]
     }
