@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24 01:16",
-  "score": 19,
+  "generated_at": "2026-10-24 08:40",
+  "score": 21,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -28,19 +28,19 @@
     {
       "label": "外围股市",
       "value": "6 个市场均值 -0.09%",
-      "contribution": -0.7,
+      "contribution": -0.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.36%",
-      "contribution": -2.2,
+      "value": "富时 A50 -0.38%",
+      "contribution": -2.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6703 (-0.02%) / DXY 101.83 (+0.20%)",
-      "contribution": -0.8,
+      "value": "USD/CNH 6.6690 (-0.04%) / DXY 101.75 (+0.13%)",
+      "contribution": -0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 3",
-      "contribution": -4,
+      "value": "正向词 2 / 风险词 3",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,11 +66,17 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 1,
+    "positive_hits": 2,
     "negative_hits": 3,
-    "score": -4
+    "score": -2
   },
   "news": [
+    {
+      "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
+      "source": "FX168财经",
+      "published": "Fri, 23 Oct 2026 20:54:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
+    },
     {
       "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
       "source": "汇通财经",
@@ -98,48 +104,88 @@
     {
       "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
       "source": "Moomoo",
-      "published": "Fri, 23 Oct 2026 04:59:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
+      "published": "Fri, 23 Oct 2026 06:06:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX1JPTVlmd3B3VUh3UkN5dFRKYmYwZkg1Uy12emJjSC0wR1hIbmtvTGh1ZFhaNEYxTFB0WVlhNG1DV2lkWFlGbERJNmViUm9qUFh2ZUpvbVJXbUJHcDdBUnRfbS1ib2czemt0VFdOc0xqcVNlQWY1X0lRZDd5V204bXFwZEw0WkNUazJpempQLUZLYWxSQlFMQVUwUmhYOTRnMXVF?oc=5"
     }
   ],
   "events": [
     {
       "key": "currency",
       "label": "美元与人民币",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
       "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
       "watch": [
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.83 / +0.20%",
+          "value": "101.75 / +0.13%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6703 / -0.02%",
+          "value": "6.6690 / -0.04%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,992.00 / -0.36%",
+          "value": "12,989.64 / -0.38%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
+          "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
+        },
+        {
           "title": "交易时刻：BTC死守8.15万美元机构成本线，韩股现“白菜价”，A股史诗级大逆转",
           "source": "PANews",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 2,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "103.49 / +4.04%",
+          "state": "fresh"
         },
         {
-          "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,007.91 / -1.29%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
+        },
+        {
+          "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
           "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY05JSmY4RWRzUEFycHY0LXMyWDl2bU1mYTdJSnp5cU5LZS1xbXdDQUo4TmRrOVV5MjNlQ1VkV3VMR1hoN3dwbjJCOGg5eklZZWxEREhQRkVJeU56MHdzQlIzNDZvX1lnbHNEeGJwaDhmQ2pldHJCZmxrX0tkSTBrVHhWS01iSGV3bF9sVHJxWmFqdW95YlVZU3pLTlFIY1lScVZYQ1g0UXBlTzNaN1FNcGVHdDJTSTBsbldVWFRkNXYzUVR6a2o3VU16SC1haGF6b3c?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
         }
       ]
     },
@@ -159,13 +205,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.83 / +0.20%",
+          "value": "101.75 / +0.13%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6703 / -0.02%",
+          "value": "6.6690 / -0.04%",
           "state": "fresh"
         }
       ],
@@ -194,13 +240,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.83 / +0.20%",
+          "value": "101.75 / +0.13%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,974.80 / -0.13%",
+          "value": "25,955.34 / -0.21%",
           "state": "fresh"
         }
       ],
@@ -229,13 +275,13 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,006.49 / -1.33%",
+          "value": "4,007.91 / -1.29%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "102.94 / +3.48%",
+          "value": "103.49 / +4.04%",
           "state": "fresh"
         }
       ],
@@ -258,13 +304,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,974.80 / -0.13%",
+          "value": "25,955.34 / -0.21%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,992.00 / -0.36%",
+          "value": "12,989.64 / -0.38%",
           "state": "fresh"
         },
         {
@@ -275,41 +321,6 @@
         }
       ],
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "102.94 / +3.48%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,006.49 / -1.33%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
           "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
