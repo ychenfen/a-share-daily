@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24 15:08",
-  "score": 25,
+  "generated_at": "2026-10-24 16:21",
+  "score": 27,
   "stance": "积极但不追高",
   "color": "#c9211e",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 1",
-      "contribution": 2,
+      "value": "正向词 3 / 风险词 1",
+      "contribution": 4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,9 +67,9 @@
     "研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。"
   ],
   "news_tone": {
-    "positive_hits": 2,
+    "positive_hits": 3,
     "negative_hits": 1,
-    "score": 2
+    "score": 4
   },
   "news": [
     {
@@ -77,6 +77,12 @@
       "source": "每日经济新闻",
       "published": "Sat, 24 Oct 2026 03:51:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
+    },
+    {
+      "title": "23:30，护盘失败，美股反弹梦碎",
+      "source": "搜狐网",
+      "published": "Sat, 24 Oct 2026 06:00:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUVo4Z2JFRFBPbnR4aldVNXNEOHBsTVNGSDU3SHk1cXJydXFuRHVYbHhOTloxRUtUS0puOHZhdnNzaEh3cjJlNVVIalRaN2N4eFcxMjdYWmZhMXpTc1B5VXJ1XzhnSF9IT2dHNFpGWlA3Y1p6OF91V3RuQWc5b0ZyX1VNSFJfZ3VDaUVtTA?oc=5"
     },
     {
       "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
