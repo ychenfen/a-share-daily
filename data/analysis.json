@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24 08:40",
-  "score": 21,
-  "stance": "谨慎偏多",
-  "color": "#e05a47",
+  "generated_at": "2026-10-24 15:08",
+  "score": 25,
+  "stance": "积极但不追高",
+  "color": "#c9211e",
   "confidence": "中",
-  "summary": "风险偏好略占优，但信号并未形成全面共振。",
+  "summary": "A股内部强度与外围风险偏好形成正向共振，但仍需用回撤和量能确认持续性。",
   "signals": [
     {
       "label": "A股动量",
@@ -57,31 +57,38 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 3",
-      "contribution": -2,
+      "value": "正向词 2 / 风险词 1",
+      "contribution": 2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
+    "关注强势行业能否在下一交易日继续获得成交额与市场宽度支持。",
+    "研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。"
   ],
   "news_tone": {
     "positive_hits": 2,
-    "negative_hits": 3,
-    "score": -2
+    "negative_hits": 1,
+    "score": 2
   },
   "news": [
+    {
+      "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
+      "source": "每日经济新闻",
+      "published": "Sat, 24 Oct 2026 03:51:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
+    },
+    {
+      "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
+      "source": "汇通财经",
+      "published": "Fri, 23 Oct 2026 23:39:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95cnNSTXIyZFd2YTlzOTVYWWMwUURqaFFlQjN3aDNVRzlmQTFXNHZDZzFhQTRndk9GWm53YVZOVkdIYzhpZ09aU0EyZS1abEJNVGlNN0xhbk1BVHc?oc=5"
+    },
     {
       "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
       "source": "FX168财经",
       "published": "Fri, 23 Oct 2026 20:54:11 GMT",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
-    },
-    {
-      "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
-      "source": "汇通财经",
-      "published": "Fri, 23 Oct 2026 12:32:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
     },
     {
       "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
@@ -96,19 +103,99 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
     },
     {
-      "title": "全球股市下挫，A股盘中破3600点，是风险释放？还是布局窗口？",
-      "source": "文轩新闻",
-      "published": "Fri, 23 Oct 2026 05:23:58 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfVVhiX1ZWOW1rRWtQYTgyQ01uYXp6U2lkYWtKQldHMmVtU1FyUFJWZHdpYWhQVFRhMlBuTmM5Y2plSEF3clYyTmVheGdPdmdsSnc?oc=5"
+      "title": "油价冲117 黄金却跌破4000：谁在替美联储“投票”？_股票_全球资讯",
+      "source": "币海NEWS",
+      "published": "Fri, 23 Oct 2026 10:21:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CamN6RzRxTVE2Mkw1Mi1hN0lfRmNGdDFfR0RlUV9xN01tWkZCREhEUWpKVnk2Rm1adTA5V2tmVXZCbkstS0tqQ3c2SGw0VGpHbmZtMGl3X2Vyd0E1ajNBUkYweHZ6Z2FG?oc=5"
     },
     {
-      "title": "[周度外汇展望] 美元/日元持续疲软＝受全球股市下跌影响",
-      "source": "Moomoo",
-      "published": "Fri, 23 Oct 2026 06:06:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX1JPTVlmd3B3VUh3UkN5dFRKYmYwZkg1Uy12emJjSC0wR1hIbmtvTGh1ZFhaNEYxTFB0WVlhNG1DV2lkWFlGbERJNmViUm9qUFh2ZUpvbVJXbUJHcDdBUnRfbS1ib2czemt0VFdOc0xqcVNlQWY1X0lRZDd5V204bXFwZEw0WkNUazJpempQLUZLYWxSQlFMQVUwUmhYOTRnMXVF?oc=5"
+      "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
+      "source": "汇通财经",
+      "published": "Fri, 23 Oct 2026 12:32:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
     }
   ],
   "events": [
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 4,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.75 / +0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6690 / -0.04%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
+          "source": "每日经济新闻",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
+        },
+        {
+          "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95cnNSTXIyZFd2YTlzOTVYWWMwUURqaFFlQjN3aDNVRzlmQTFXNHZDZzFhQTRndk9GWm53YVZOVkdIYzhpZ09aU0EyZS1abEJNVGlNN0xhbk1BVHc?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 4,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "103.49 / +4.04%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,007.91 / -1.29%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
+          "source": "每日经济新闻",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
+        },
+        {
+          "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
+        }
+      ]
+    },
     {
       "key": "currency",
       "label": "美元与人民币",
@@ -138,34 +225,34 @@
       "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
+          "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
+          "source": "每日经济新闻",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
+        },
+        {
           "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
           "source": "FX168财经",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
-        },
-        {
-          "title": "交易时刻：BTC死守8.15万美元机构成本线，韩股现“白菜价”，A股史诗级大逆转",
-          "source": "PANews",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
         }
       ]
     },
     {
-      "key": "commodities",
-      "label": "商品与成本",
+      "key": "technology",
+      "label": "科技与产业",
       "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
         {
-          "code": "WTI",
-          "label": "原油",
-          "value": "103.49 / +4.04%",
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "25,955.34 / -0.21%",
           "state": "fresh"
         },
         {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,007.91 / -1.29%",
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,989.64 / -0.38%",
           "state": "fresh"
         },
         {
@@ -175,52 +262,17 @@
           "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
+          "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
+          "source": "每日经济新闻",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
         },
         {
           "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "central_bank",
-      "label": "央行与利率",
-      "headline_count": 1,
-      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.75 / +0.13%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6690 / -0.04%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-      "headlines": [
-        {
-          "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
-          "source": "汇通财经",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xM0Y4SzRKWVpPSU5yYUllOXZ5Uk9oTzY4emREVkpnbmhGSWMzY3Y1VVdFM0VEblF1STNhRG9zZ1pHRG9Xa08xbXNWNDlpUlJ6b1VXRWhEcFNMUDg?oc=5"
         }
       ]
     },
@@ -295,18 +347,12 @@
       ]
     },
     {
-      "key": "technology",
-      "label": "科技与产业",
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
       "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
       "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "25,955.34 / -0.21%",
-          "state": "fresh"
-        },
         {
           "code": "A50",
           "label": "富时A50",
@@ -314,18 +360,24 @@
           "state": "fresh"
         },
         {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "23,093.37 / +0.69%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6690 / -0.04%",
+          "state": "fresh"
         }
       ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
       "headlines": [
         {
-          "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
+          "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95cnNSTXIyZFd2YTlzOTVYWWMwUURqaFFlQjN3aDNVRzlmQTFXNHZDZzFhQTRndk9GWm53YVZOVkdIYzhpZ09aU0EyZS1abEJNVGlNN0xhbk1BVHc?oc=5"
         }
       ]
     }
