@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24 16:21",
+  "generated_at": "2026-10-24 19:57",
   "score": 27,
   "stance": "积极但不追高",
   "color": "#c9211e",
@@ -86,7 +86,7 @@
     },
     {
       "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
-      "source": "汇通财经",
+      "source": "汇通网",
       "published": "Fri, 23 Oct 2026 23:39:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95cnNSTXIyZFd2YTlzOTVYWWMwUURqaFFlQjN3aDNVRzlmQTFXNHZDZzFhQTRndk9GWm53YVZOVkdIYzhpZ09aU0EyZS1abEJNVGlNN0xhbk1BVHc?oc=5"
     },
@@ -103,18 +103,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
     },
     {
-      "title": "交易时刻：BTC死守8.15万美元机构成本线，韩股现“白菜价”，A股史诗级大逆转",
-      "source": "PANews",
-      "published": "Fri, 23 Oct 2026 10:15:18 GMT",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4d3FiNDUwQnNtZHl0OVZudENiRXBqQ29pSkRCVFlsMWVFZm1ERkJWMk4wMnpzMUh2RmszMTBHVG5ha2RFQVAwUjZ4MDF5eDR4SFpkSkdtRncwVDMxc1VQNEdjV00tLUF2VlpLRG1IU2lPdFBJeV9pZ0pFTjdiTUU?oc=5"
-    },
-    {
-      "title": "油价冲117 黄金却跌破4000：谁在替美联储“投票”？_股票_全球资讯",
-      "source": "币海NEWS",
-      "published": "Fri, 23 Oct 2026 10:21:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CamN6RzRxTVE2Mkw1Mi1hN0lfRmNGdDFfR0RlUV9xN01tWkZCREhEUWpKVnk2Rm1adTA5V2tmVXZCbkstS0tqQ3c2SGw0VGpHbmZtMGl3X2Vyd0E1ajNBUkYweHZ6Z2FG?oc=5"
-    },
-    {
       "title": "下周前瞻：超级央行周，通胀增长与地缘扰动接受检验",
       "source": "汇通财经",
       "published": "Fri, 23 Oct 2026 12:32:00 GMT",
@@ -125,7 +113,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -157,7 +145,7 @@
         },
         {
           "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
-          "source": "汇通财经",
+          "source": "汇通网",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95cnNSTXIyZFd2YTlzOTVYWWMwUURqaFFlQjN3aDNVRzlmQTFXNHZDZzFhQTRndk9GWm53YVZOVkdIYzhpZ09aU0EyZS1abEJNVGlNN0xhbk1BVHc?oc=5"
         }
       ]
@@ -165,7 +153,7 @@
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
@@ -189,46 +177,6 @@
         }
       ],
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
-          "source": "每日经济新闻",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
-        },
-        {
-          "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 3,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.75 / +0.13%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6690 / -0.04%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,989.64 / -0.38%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
           "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
@@ -279,6 +227,46 @@
           "title": "科技股试图喘口气 原油市场又传来压力 | 今夜看点",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWUFjNFc5N2xCSEJzTjhhVFVVOGFHX09YYXJCYmVmMHFsZlp2TFBZZFB2NHBoeXJ1Ul9nLXh4YnJwdUJvbGZWMFpRSnc1bjlLdG5xMnlUbjh6NkNqZWdNMGFyYkhyelY1cy1mQ2ZxZ29CRUVQbFBPaWhDMFhYcjBwX2RRM2pudXdlaXlaOEdnNXZoLXZ6dHlqc3p3SHB2TnBIZmFnWmRvY1J5Qmc?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.75 / +0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6690 / -0.04%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,989.64 / -0.38%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "“AI算力过剩论”搅动，美股半导体板块10月市值蒸发2.2万亿美元；白宫称特朗普夫人促成俄乌局部停火；美联储下周议息90%概率“按兵不动”；黄金跌破4000美元 | 一周国际财经",
+          "source": "每日经济新闻",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tTjRyeS13WkREem5saVdPLWNJVjF4dnZlWU15djNCenU2ajduQmRVQXFBbkh0M1h0eFZkZThYcDlEY2FMNFpKWVM5OEhyV2FqTHd6TDVRR0dxLU5veHJldmVFeGpJdw?oc=5"
+        },
+        {
+          "title": "全球市场冰火两重天！道指跌超650点、黄金失守4000美元，油价突破116美元、美元日元双双走强",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMFpCYnA5UnMzc2MyNUdUcXRTRlVMeHMyTjlfRU0ydjE5WW9ER3dFMmpLbGo5S0I1SnBhNXNWTUZrYnJNYy1mTVRIYnZ1N1NIaHJXNVZVNHBUU3FkZTJTb1g5Q1FzSlBrZi1RWXliU0daQTJPYlcydk5QM2pLamJsazVZVXE?oc=5"
         }
       ]
     },
@@ -382,7 +370,7 @@
       "headlines": [
         {
           "title": "全球汇市等待“央行超级周”！美联储政策面临政治噪音，欧洲央行难回避法国问题，",
-          "source": "汇通财经",
+          "source": "汇通网",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95cnNSTXIyZFd2YTlzOTVYWWMwUURqaFFlQjN3aDNVRzlmQTFXNHZDZzFhQTRndk9GWm53YVZOVkdIYzhpZ09aU0EyZS1abEJNVGlNN0xhbk1BVHc?oc=5"
         }
       ]
