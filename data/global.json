@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25 20:31",
+  "generated_at": "2026-10-26 00:33",
   "markets": [
     {
       "code": "SPX",
@@ -112,7 +112,7 @@
       "pct": 0.125855973140232,
       "change": 0.1278999999999968,
       "previous_close": 101.6241,
-      "quote_time": "2026-10-24 05:19:47",
+      "quote_time": "2026-10-24 04:59:00",
       "stale": false
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25 20:31",
+  "generated_at": "2026-10-26 00:33",
   "score": 21,
   "stance": "谨慎偏多",
   "color": "#e05a47",
@@ -72,28 +72,40 @@
   },
   "news": [
     {
+      "title": "下周重磅日程：最重要的美联储决议和科技巨头财报都来了，这次AI交易能否自救？",
+      "source": "华尔街见闻",
+      "published": "Sun, 25 Oct 2026 11:48:06 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMC1jQTlOaEFncm9EdzJ5QU5xTF9rRWxURVdLZ2RuZ0IxeXJYMTROZENXSXVfLVNnYTVsaTJQRklUemUwYU1icFFyWGctczRUVUVN?oc=5"
+    },
+    {
       "title": "超级周预警 🚨 美联储、日本央行、微软、谷歌与亚马逊，三日内重磅齐发！",
       "source": "Moomoo",
       "published": "Sun, 25 Oct 2026 08:02:35 GMT",
       "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQamNFWndQbHNZMVphUWlIcWVhdFFUbm9oQkdUcWdGbG9zaVVoeTRTTGR4c21qSXUzaElvMWdFYjJZNDRYcnlMUUVrTW52LTZUWWNOOHRXVXJ3Ry02ZzRydEZJQzc1VGJyVEV4bzBLR1I4QTJmNS14SzdiWlQ3ZmFaZkk4NnpjNTZoRzBVbDg2T19aaHhGeU8weVFoNDNZZy0ydXJiWUxCcU9MdXh3eFhhMm1NMkZtTFdXdDlwYVBxbGFQNFFaWjRVR1lxQ2dnXzRfQVJjaFNEaEJYT2xTaVhRNHcwcm5oZzBHeXczVjZkTW1YbjNKbUIwM1ZLX0dFT3RUS245a1Rfcld6cHJEOFlhb05xRTRVT1dEVENHbS0zcFM2VUs2VGJ0VU52WWtiaXVCSmNrRUFsajd0UmdEaFFEX29hWkxpX2RRUFJXQVBQRmdoeERuY0h5dVJ0em1pdmhaLXctWkJraEhMYVMtVmp3ZTg0eG9sQkEyclZrUE85V0hlVzRqd1JKdXVrZ0MtQ3lP?oc=5"
     },
     {
+      "title": "下周资本市场大事提醒：上证系列综合指数编制方案修订即将实施；美股科技巨头财报密集发布；美联储10月议息决议为利率定调",
+      "source": "财联社电报",
+      "published": "Sat, 24 Oct 2026 22:01:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE45WG96ZFllMkxVNkxJbkw3MjNGYldLYV9Qb0k5SEdaTEQwdTloVFYyOGF0eEh5bVhJczFNRFZwN1laSmRZekE?oc=5"
+    },
+    {
       "title": "一周展望：10月最凶险一周将至！黄金能否绝处逢生？-市场参考",
       "source": "金十数据",
-      "published": "Sun, 25 Oct 2026 07:53:47 GMT",
+      "published": "Sun, 25 Oct 2026 07:55:15 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ELVJzZWtyNElvWkdrWk1XbndTaVJVcXAwWGhsYUVXeFQzOE9yajVIalBXVmdTVjQ3ZTVQQko3R1ViZF9DR0JkSGFzczlPRkU?oc=5"
     },
     {
-      "title": "下周重磅日程：最重要的美联储决议和科技巨头财报都来了，这次AI交易能否自救？",
-      "source": "华尔街见闻",
-      "published": "Sun, 25 Oct 2026 01:10:49 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMC1jQTlOaEFncm9EdzJ5QU5xTF9rRWxURVdLZ2RuZ0IxeXJYMTROZENXSXVfLVNnYTVsaTJQRklUemUwYU1icFFyWGctczRUVUVN?oc=5"
+      "title": "下周外盘看点丨美联储领衔“央行超级周”，谷歌微软亚马逊财报如何搅动市场",
+      "source": "新浪财经",
+      "published": "Sun, 25 Oct 2026 01:23:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkNS16R0s1Z3NPR1NzWmFuMmtTTTQ0T0hBczhTdzdMa0I5eVh6emk2Skg4QkgxWFV2Vmx0Rm9jeXp4aGhTaWdXb0MydGJRYkJ5OTg0cGcxVmsyZzBjaDRtRjYwSW5CUi0zVzlNZDYtcGRmRzV2T0E0eg?oc=5"
     },
     {
-      "title": "下周外盘看点丨美联储领衔“央行超级周”，谷歌微软亚马逊财报如何搅动市场",
-      "source": "手机新浪网",
-      "published": "Sun, 25 Oct 2026 01:28:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM3VEbUZ4b182SC0walhhYWRsclNzWU9jNEZ3d01wOFhKbnFPS2VHdnZMTkdWTlRFRFpFbGd3bGZoblpjejRzbFRJeERUcnU1SEJTdG8wMFY5djR3TzdwaEZpRHduSmZJQ2p6SXJFUnpHWFgzWVIzaktHT05RRHhMaGln?oc=5"
+      "title": "一周前瞻｜美联储决议叠加美国GDP与核心PCE重磅登场！谷歌、微软、亚马逊密集放榜，美股进入财报季高峰；东山精密、微亿智造港股上市",
+      "source": "富途牛牛",
+      "published": "Sun, 25 Oct 2026 08:49:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGZmODVoajNDTFRKa09DaVJhdkR1NndwZHMtcXhBNzRTX1BSd0lsMkl2UHppWHFfYWdpWFIzdVV5blR0X0lLVTFUNE1STUc3NDJITlJCZ3BvWnowRjlMVVk2QnJ1eC1BLWRxbV9TQ1pRbFpHZW5ITDRtd2JyVTdfYy1wN2NkRnZkUHhKUmVFVmxVbE85LWFUUjVURkhUSUta?oc=5"
     },
     {
       "title": "“超级周”强势来袭！五大央行决议、美国通胀与科技巨头财报齐登场，全球市场迎关键考验",
@@ -106,7 +118,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 6,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -132,21 +144,21 @@
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "超级周预警 🚨 美联储、日本央行、微软、谷歌与亚马逊，三日内重磅齐发！",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQamNFWndQbHNZMVphUWlIcWVhdFFUbm9oQkdUcWdGbG9zaVVoeTRTTGR4c21qSXUzaElvMWdFYjJZNDRYcnlMUUVrTW52LTZUWWNOOHRXVXJ3Ry02ZzRydEZJQzc1VGJyVEV4bzBLR1I4QTJmNS14SzdiWlQ3ZmFaZkk4NnpjNTZoRzBVbDg2T19aaHhGeU8weVFoNDNZZy0ydXJiWUxCcU9MdXh3eFhhMm1NMkZtTFdXdDlwYVBxbGFQNFFaWjRVR1lxQ2dnXzRfQVJjaFNEaEJYT2xTaVhRNHcwcm5oZzBHeXczVjZkTW1YbjNKbUIwM1ZLX0dFT3RUS245a1Rfcld6cHJEOFlhb05xRTRVT1dEVENHbS0zcFM2VUs2VGJ0VU52WWtiaXVCSmNrRUFsajd0UmdEaFFEX29hWkxpX2RRUFJXQVBQRmdoeERuY0h5dVJ0em1pdmhaLXctWkJraEhMYVMtVmp3ZTg0eG9sQkEyclZrUE85V0hlVzRqd1JKdXVrZ0MtQ3lP?oc=5"
-        },
-        {
           "title": "下周重磅日程：最重要的美联储决议和科技巨头财报都来了，这次AI交易能否自救？",
           "source": "华尔街见闻",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMC1jQTlOaEFncm9EdzJ5QU5xTF9rRWxURVdLZ2RuZ0IxeXJYMTROZENXSXVfLVNnYTVsaTJQRklUemUwYU1icFFyWGctczRUVUVN?oc=5"
+        },
+        {
+          "title": "超级周预警 🚨 美联储、日本央行、微软、谷歌与亚马逊，三日内重磅齐发！",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQamNFWndQbHNZMVphUWlIcWVhdFFUbm9oQkdUcWdGbG9zaVVoeTRTTGR4c21qSXUzaElvMWdFYjJZNDRYcnlMUUVrTW52LTZUWWNOOHRXVXJ3Ry02ZzRydEZJQzc1VGJyVEV4bzBLR1I4QTJmNS14SzdiWlQ3ZmFaZkk4NnpjNTZoRzBVbDg2T19aaHhGeU8weVFoNDNZZy0ydXJiWUxCcU9MdXh3eFhhMm1NMkZtTFdXdDlwYVBxbGFQNFFaWjRVR1lxQ2dnXzRfQVJjaFNEaEJYT2xTaVhRNHcwcm5oZzBHeXczVjZkTW1YbjNKbUIwM1ZLX0dFT3RUS245a1Rfcld6cHJEOFlhb05xRTRVT1dEVENHbS0zcFM2VUs2VGJ0VU52WWtiaXVCSmNrRUFsajd0UmdEaFFEX29hWkxpX2RRUFJXQVBQRmdoeERuY0h5dVJ0em1pdmhaLXctWkJraEhMYVMtVmp3ZTg0eG9sQkEyclZrUE85V0hlVzRqd1JKdXVrZ0MtQ3lP?oc=5"
         }
       ]
     },
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
@@ -177,9 +189,9 @@
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMC1jQTlOaEFncm9EdzJ5QU5xTF9rRWxURVdLZ2RuZ0IxeXJYMTROZENXSXVfLVNnYTVsaTJQRklUemUwYU1icFFyWGctczRUVUVN?oc=5"
         },
         {
-          "title": "“超级周”强势来袭！五大央行决议、美国通胀与科技巨头财报齐登场，全球市场迎关键考验",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYktESXVEa2xmVFloVUNaZ3FiVUhhZVZWS1dENlp1cXVBeW9PUDlTc2tkN3ZRcFQ0VWFrRTVsbFc5Z09zU2Fld2FUaVRfdlhST1hfV01fYW5kc2ctWjY3T1B5UXU1bHRoMi1IcWpDQ1RLZk1FSlJ6dW5IeUJNQkVNeG9ES04?oc=5"
+          "title": "下周资本市场大事提醒：上证系列综合指数编制方案修订即将实施；美股科技巨头财报密集发布；美联储10月议息决议为利率定调",
+          "source": "财联社电报",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE45WG96ZFllMkxVNkxJbkw3MjNGYldLYV9Qb0k5SEdaTEQwdTloVFYyOGF0eEh5bVhJczFNRFZwN1laSmRZekE?oc=5"
         }
       ]
     },
