@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25 16:40",
+  "generated_at": "2026-10-25 20:31",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-25 16:40",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
+    "checked_at": "2026-10-25 20:31",
+    "slot": "close",
+    "slot_label": "收盘快照",
     "target_date": "2026-10-25",
     "market_data_date": "2026-10-23",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-25 16:40",
+    "generated_at": "2026-10-25 20:31",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-25 16:40",
-    "score": 23,
+    "generated_at": "2026-10-25 20:31",
+    "score": 21,
     "stance": "谨慎偏多",
     "color": "#e05a47",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 0",
-        "contribution": 0,
+        "value": "正向词 0 / 风险词 1",
+        "contribution": -2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,10 +262,22 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 0,
-      "score": 0
+      "negative_hits": 1,
+      "score": -2
     },
     "news": [
+      {
+        "title": "超级周预警 🚨 美联储、日本央行、微软、谷歌与亚马逊，三日内重磅齐发！",
+        "source": "Moomoo",
+        "published": "Sun, 25 Oct 2026 08:02:35 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQamNFWndQbHNZMVphUWlIcWVhdFFUbm9oQkdUcWdGbG9zaVVoeTRTTGR4c21qSXUzaElvMWdFYjJZNDRYcnlMUUVrTW52LTZUWWNOOHRXVXJ3Ry02ZzRydEZJQzc1VGJyVEV4bzBLR1I4QTJmNS14SzdiWlQ3ZmFaZkk4NnpjNTZoRzBVbDg2T19aaHhGeU8weVFoNDNZZy0ydXJiWUxCcU9MdXh3eFhhMm1NMkZtTFdXdDlwYVBxbGFQNFFaWjRVR1lxQ2dnXzRfQVJjaFNEaEJYT2xTaVhRNHcwcm5oZzBHeXczVjZkTW1YbjNKbUIwM1ZLX0dFT3RUS245a1Rfcld6cHJEOFlhb05xRTRVT1dEVENHbS0zcFM2VUs2VGJ0VU52WWtiaXVCSmNrRUFsajd0UmdEaFFEX29hWkxpX2RRUFJXQVBQRmdoeERuY0h5dVJ0em1pdmhaLXctWkJraEhMYVMtVmp3ZTg0eG9sQkEyclZrUE85V0hlVzRqd1JKdXVrZ0MtQ3lP?oc=5"
+      },
+      {
+        "title": "一周展望：10月最凶险一周将至！黄金能否绝处逢生？-市场参考",
+        "source": "金十数据",
+        "published": "Sun, 25 Oct 2026 07:53:47 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ELVJzZWtyNElvWkdrWk1XbndTaVJVcXAwWGhsYUVXeFQzOE9yajVIalBXVmdTVjQ3ZTVQQko3R1ViZF9DR0JkSGFzczlPRkU?oc=5"
+      },
       {
         "title": "下周重磅日程：最重要的美联储决议和科技巨头财报都来了，这次AI交易能否自救？",
         "source": "华尔街见闻",
@@ -277,13 +289,19 @@
         "source": "手机新浪网",
         "published": "Sun, 25 Oct 2026 01:28:00 GMT",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM3VEbUZ4b182SC0walhhYWRsclNzWU9jNEZ3d01wOFhKbnFPS2VHdnZMTkdWTlRFRFpFbGd3bGZoblpjejRzbFRJeERUcnU1SEJTdG8wMFY5djR3TzdwaEZpRHduSmZJQ2p6SXJFUnpHWFgzWVIzaktHT05RRHhMaGln?oc=5"
+      },
+      {
+        "title": "“超级周”强势来袭！五大央行决议、美国通胀与科技巨头财报齐登场，全球市场迎关键考验",
+        "source": "FX168财经",
+        "published": "Sun, 25 Oct 2026 04:29:59 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYktESXVEa2xmVFloVUNaZ3FiVUhhZVZWS1dENlp1cXVBeW9PUDlTc2tkN3ZRcFQ0VWFrRTVsbFc5Z09zU2Fld2FUaVRfdlhST1hfV01fYW5kc2ctWjY3T1B5UXU1bHRoMi1IcWpDQ1RLZk1FSlJ6dW5IeUJNQkVNeG9ES04?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 2,
+        "headline_count": 4,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -309,21 +327,21 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
+            "title": "超级周预警 🚨 美联储、日本央行、微软、谷歌与亚马逊，三日内重磅齐发！",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxQamNFWndQbHNZMVphUWlIcWVhdFFUbm9oQkdUcWdGbG9zaVVoeTRTTGR4c21qSXUzaElvMWdFYjJZNDRYcnlMUUVrTW52LTZUWWNOOHRXVXJ3Ry02ZzRydEZJQzc1VGJyVEV4bzBLR1I4QTJmNS14SzdiWlQ3ZmFaZkk4NnpjNTZoRzBVbDg2T19aaHhGeU8weVFoNDNZZy0ydXJiWUxCcU9MdXh3eFhhMm1NMkZtTFdXdDlwYVBxbGFQNFFaWjRVR1lxQ2dnXzRfQVJjaFNEaEJYT2xTaVhRNHcwcm5oZzBHeXczVjZkTW1YbjNKbUIwM1ZLX0dFT3RUS245a1Rfcld6cHJEOFlhb05xRTRVT1dEVENHbS0zcFM2VUs2VGJ0VU52WWtiaXVCSmNrRUFsajd0UmdEaFFEX29hWkxpX2RRUFJXQVBQRmdoeERuY0h5dVJ0em1pdmhaLXctWkJraEhMYVMtVmp3ZTg0eG9sQkEyclZrUE85V0hlVzRqd1JKdXVrZ0MtQ3lP?oc=5"
+          },
+          {
             "title": "下周重磅日程：最重要的美联储决议和科技巨头财报都来了，这次AI交易能否自救？",
             "source": "华尔街见闻",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMC1jQTlOaEFncm9EdzJ5QU5xTF9rRWxURVdLZ2RuZ0IxeXJYMTROZENXSXVfLVNnYTVsaTJQRklUemUwYU1icFFyWGctczRUVUVN?oc=5"
-          },
-          {
-            "title": "下周外盘看点丨美联储领衔“央行超级周”，谷歌微软亚马逊财报如何搅动市场",
-            "source": "手机新浪网",
-            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM3VEbUZ4b182SC0walhhYWRsclNzWU9jNEZ3d01wOFhKbnFPS2VHdnZMTkdWTlRFRFpFbGd3bGZoblpjejRzbFRJeERUcnU1SEJTdG8wMFY5djR3TzdwaEZpRHduSmZJQ2p6SXJFUnpHWFgzWVIzaktHT05RRHhMaGln?oc=5"
           }
         ]
       },
       {
         "key": "technology",
         "label": "科技与产业",
-        "headline_count": 1,
+        "headline_count": 2,
         "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
         "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
         "watch": [
@@ -352,6 +370,81 @@
             "title": "下周重磅日程：最重要的美联储决议和科技巨头财报都来了，这次AI交易能否自救？",
             "source": "华尔街见闻",
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mMC1jQTlOaEFncm9EdzJ5QU5xTF9rRWxURVdLZ2RuZ0IxeXJYMTROZENXSXVfLVNnYTVsaTJQRklUemUwYU1icFFyWGctczRUVUVN?oc=5"
+          },
+          {
+            "title": "“超级周”强势来袭！五大央行决议、美国通胀与科技巨头财报齐登场，全球市场迎关键考验",
+            "source": "FX168财经",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYktESXVEa2xmVFloVUNaZ3FiVUhhZVZWS1dENlp1cXVBeW9PUDlTc2tkN3ZRcFQ0VWFrRTVsbFc5Z09zU2Fld2FUaVRfdlhST1hfV01fYW5kc2ctWjY3T1B5UXU1bHRoMi1IcWpDQ1RLZk1FSlJ6dW5IeUJNQkVNeG9ES04?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "inflation",
+        "label": "通胀与就业",
+        "headline_count": 1,
+        "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+        "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+        "watch": [
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          },
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "101.75 / +0.13%",
+            "state": "fresh"
+          },
+          {
+            "code": "NDX",
+            "label": "纳斯达克",
+            "value": "25,955.34 / -0.21%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+        "headlines": [
+          {
+            "title": "“超级周”强势来袭！五大央行决议、美国通胀与科技巨头财报齐登场，全球市场迎关键考验",
+            "source": "FX168财经",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYktESXVEa2xmVFloVUNaZ3FiVUhhZVZWS1dENlp1cXVBeW9PUDlTc2tkN3ZRcFQ0VWFrRTVsbFc5Z09zU2Fld2FUaVRfdlhST1hfV01fYW5kc2ctWjY3T1B5UXU1bHRoMi1IcWpDQ1RLZk1FSlJ6dW5IeUJNQkVNeG9ES04?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "commodities",
+        "label": "商品与成本",
+        "headline_count": 1,
+        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "watch": [
+          {
+            "code": "WTI",
+            "label": "原油",
+            "value": "103.49 / +4.04%",
+            "state": "fresh"
+          },
+          {
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "4,007.91 / -1.29%",
+            "state": "fresh"
+          },
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          }
+        ],
+        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+        "headlines": [
+          {
+            "title": "一周展望：10月最凶险一周将至！黄金能否绝处逢生？-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ELVJzZWtyNElvWkdrWk1XbndTaVJVcXAwWGhsYUVXeFQzOE9yajVIalBXVmdTVjQ3ZTVQQko3R1ViZF9DR0JkSGFzczlPRkU?oc=5"
           }
         ]
       }
@@ -361,11 +454,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-25 16:40",
+    "generated_at": "2026-10-25 20:31",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 181,
+    "signal_count": 182,
     "matured_1d": 170,
     "directional_1d": 133,
     "hit_rate_1d": 59.4,
@@ -402,14 +495,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-25 16:40",
-      "slot": "midday",
-      "score": "23",
+      "captured_at": "2026-10-25 20:31",
+      "slot": "close",
+      "score": "21",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-25 20:31",
+        "slot": "close",
+        "signal_date": "2026-10-25",
+        "market_asof_date": "2026-10-23",
+        "score": "21",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3690.48",
+        "sh_pct": "0.89",
+        "global_avg": "-0.0873",
+        "a50_pct": "-0.37855663777897064",
+        "usdcnh": "6.669",
+        "usdcnh_pct": "-0.0389711613406063",
+        "dxy": "101.752",
+        "dxy_pct": "0.125855973140232",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-25 16:40",
         "slot": "midday",
@@ -884,31 +1002,6 @@
         "return_5d": null,
         "direction": -1,
         "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-21 20:53",
-        "slot": "close",
-        "signal_date": "2026-10-21",
-        "market_asof_date": "2026-10-21",
-        "score": "-14",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3713.03",
-        "sh_pct": "-0.60",
-        "global_avg": "0.4377",
-        "a50_pct": "0.24164387724094905",
-        "usdcnh": "6.6744",
-        "usdcnh_pct": "-0.0029964342432409197",
-        "dxy": "101.6703",
-        "dxy_pct": "-0.028712038898914827",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -1.48,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
