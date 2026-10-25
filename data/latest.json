@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25 15:30",
+  "generated_at": "2026-10-25 16:40",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-25 15:30",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-25 16:40",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-25",
     "market_data_date": "2026-10-23",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-25 15:30",
+    "generated_at": "2026-10-25 16:40",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-25 15:30",
+    "generated_at": "2026-10-25 16:40",
     "score": 23,
     "stance": "谨慎偏多",
     "color": "#e05a47",
@@ -361,11 +361,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-25 15:30",
+    "generated_at": "2026-10-25 16:40",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 180,
+    "signal_count": 181,
     "matured_1d": 170,
     "directional_1d": 133,
     "hit_rate_1d": 59.4,
@@ -402,14 +402,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-25 15:30",
-      "slot": "open",
+      "captured_at": "2026-10-25 16:40",
+      "slot": "midday",
       "score": "23",
       "stance": "谨慎偏多",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-25 16:40",
+        "slot": "midday",
+        "signal_date": "2026-10-25",
+        "market_asof_date": "2026-10-23",
+        "score": "23",
+        "stance": "谨慎偏多",
+        "confidence": "中",
+        "sh_close": "3690.48",
+        "sh_pct": "0.89",
+        "global_avg": "-0.0873",
+        "a50_pct": "-0.37855663777897064",
+        "usdcnh": "6.669",
+        "usdcnh_pct": "-0.0389711613406063",
+        "dxy": "101.752",
+        "dxy_pct": "0.125855973140232",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": 1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-25 15:30",
         "slot": "open",
@@ -884,31 +909,6 @@
         "return_5d": null,
         "direction": -1,
         "hit_1d": true
-      },
-      {
-        "captured_at": "2026-10-21 16:50",
-        "slot": "midday",
-        "signal_date": "2026-10-21",
-        "market_asof_date": "2026-10-21",
-        "score": "-3",
-        "stance": "中性等待",
-        "confidence": "中",
-        "sh_close": "3735.37",
-        "sh_pct": "0.12",
-        "global_avg": "0.4377",
-        "a50_pct": "-0.8756683485202199",
-        "usdcnh": "6.6753",
-        "usdcnh_pct": "0.010487519851376526",
-        "dxy": "101.763",
-        "dxy_pct": "0.062438851715107546",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.6,
-        "return_3d": -1.199553,
-        "return_5d": null,
-        "direction": 0,
-        "hit_1d": null
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
