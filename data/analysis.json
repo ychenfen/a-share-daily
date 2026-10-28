@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28 02:04",
-  "score": -23,
+  "generated_at": "2026-10-28 09:19",
+  "score": -21,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.49%",
-      "contribution": 3.4,
+      "value": "6 个市场均值 +0.63%",
+      "contribution": 4.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.58%",
-      "contribution": 3.5,
+      "value": "富时 A50 +1.03%",
+      "contribution": 6.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6641 (-0.05%) / DXY 102.32 (+0.30%)",
-      "contribution": -0.9,
+      "value": "USD/CNH 6.6655 (+0.01%) / DXY 102.39 (+0.00%)",
+      "contribution": -0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 0",
-      "contribution": 4,
+      "value": "正向词 2 / 风险词 1",
+      "contribution": 2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,21 +67,27 @@
   ],
   "news_tone": {
     "positive_hits": 2,
-    "negative_hits": 0,
-    "score": 4
+    "negative_hits": 1,
+    "score": 2
   },
   "news": [
     {
-      "title": "美股三大指数集体上涨 科技股多数回暖 巴西在美股上市的公司股价重挫",
+      "title": "美联储，大消息；美股存储、光通信，深夜全线拉升",
       "source": "东方财富",
-      "published": "Tue, 27 Oct 2026 10:00:10 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNEk0c2JUUkVOZTkwa0pFdkpDczNNTjZKQ3cxbUJfUHFXV3kzdDJYTV9jUDVVeFYzYm1CajZEd2tXczNXV2xMWlpXSmRrRUFEWE5MdmlxczRCSTZWT2xCRA?oc=5"
+      "published": "Tue, 27 Oct 2026 23:03:21 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJbEJwZ2JFYjA0a0ZUMWRqaXU3Q1dZM21WRTVJUWZRei1fRWFpbnBjcmF3V0k5c1Q5Wk5leTNSbUxLYzJyNXBTNTJCN2J3WGxCSWdId3FueWZrdUR3alk3Zg?oc=5"
     },
     {
-      "title": "清晨，全线拉升！美联储，重磅来袭",
-      "source": "新浪财经",
-      "published": "Mon, 26 Oct 2026 23:18:28 GMT",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbGpTamVpVzZCTnphSEc4d2xvUjEzYW95d2lzbi1ER2gxZlVQazc2cTNoZjgyOGZFcVEzX1BRWTZfWjhVeGN2TUhfTmg2UkdVdzFuQU9WTE9paFU3c0RwdHplY2lZVC1KTGs3VDBKbG9yQnJNTERuRFFDUHNjRDA2T3ZFLUxIeUZhNUphbkJ1SVpLRUpfRUE?oc=5"
+      "title": "“超级央行周”前瞻：全球利率如何走向？金价持续震荡如何应对？机构：物理AI迎来重大拐点？丨20261027从华尔街到陆家嘴",
+      "source": "第一财经",
+      "published": "Tue, 27 Oct 2026 15:38:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10c2tNTEFsU2dpUUxKLTlQNFhUZ2FZdGZYOUszaW9OUld0NFVVd3ptS1h2NHZqeUpubGMtaVlSWG9UbzVBR2haN1pGODhFSzZOVUhLbQ?oc=5"
+    },
+    {
+      "title": "美股半导体、存储芯片大涨，费城半导体指数涨近400点，西部数据涨近7%，AMD涨超5%，特斯拉市值一夜涨超4600亿元",
+      "source": "同花顺财经",
+      "published": "Tue, 27 Oct 2026 23:07:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xd1piQTA5b2MtaVdhNUJVaFU4NzZHeDN4a2hJSnBCaldvWW5vTFRTcklfYjVNUGgwSHgwRUFYcXI4V0tlblAzd2p1SklMRHVQaUZnN3V0TUdvdVZ3SG9hWXZR?oc=5"
     },
     {
       "title": "超级央行周引爆全球市场！黄金警惕再跌超100美元，外汇、美股、比特币等八大资产走势全解析",
@@ -90,28 +96,22 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zVFA5QTlnNHBlT0JBMFJpdDdyZFdKLVFRbzVxVzZSdlJqaTQ2SzhSNWlVa21JVmd1NEQ2TmxfYlhfamIzVXRFa0hUcHdicTdhNExhNzJDdlVyNTJJU2xIbHpoSHN1cVRsY0FyMFBtTWhTaGZ2QUFnSA?oc=5"
     },
     {
-      "title": "超级央行周来袭，美股三大指数全线收涨",
-      "source": "凤凰网",
-      "published": "Mon, 26 Oct 2026 23:32:13 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB1Q0F6a3pwczlVMmMtX3RiWXlWd3hGcC1CMzN0ZDJIa1VnaWg4MUpmOW8tZEtDemtna2lnYW00SFpqNEpycUNtTTY3NjI2cnNN?oc=5"
-    },
-    {
-      "title": "全球屏息：静待三大央行“摔杯为号”！",
-      "source": "搜狐网",
-      "published": "Tue, 27 Oct 2026 13:54:44 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVGhneHBvanFCVzQzQXNsT2lhcVZJZERPMGdSZkVpWkJZN0k2eERrUHh2QzVxbU9CNWZQd253SUNDSDhTallUd3F3Vmk3NUdyVF9pTlk4Z1M1ZjFvT2FBX3ZQY0JXWW9rUVZOOUtCdEU3OGc2OV9YM0UwajYxTnJpOWNUZll0QnU4?oc=5"
-    },
-    {
-      "title": "Anthropic招股书重燃AI交易热情，费城半导体指数上涨2.82%，超级央行周悬念待解",
-      "source": "金融界",
-      "published": "Tue, 27 Oct 2026 00:26:57 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yclgwTEljRFhzZk1fejZQMG1MYlh0WkI0Y19WMWNCY1JEYjdwd0tfbXF6NWVFT0UzcFdtdjVmZGpSd0ZGR19XOWh3SWlPRDFPMTByZmtiNnpTQjVQc3hTc3pjd0poZw?oc=5"
+      "title": "超级央行周来袭，美股三大指数集体走高，中国资产上涨！巴西股市六年多来首次触发熔断机制",
+      "source": "21财经",
+      "published": "Tue, 27 Oct 2026 02:03:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdFlnX1BLaFM3RlFtbVR4VEFZUXRBZGN4a2REWi02OTZXdGNUbEJYQ2NFc2RkYm4zeVZNYWxnUk53b1BCSHJvUmRYdVhEbDZMdmV3aU9qYVpNR1ROM0hOWTVnaVBWYWxoOGdKeVo0WlFuOVRqWFR6SVJwaDhVcVAzdTExZGdQUEZRWU1zVldFdw?oc=5"
     },
     {
       "title": "清晨美股全线拉升！AI行情回暖，美联储决议即将落地",
       "source": "手机新浪网",
       "published": "Tue, 27 Oct 2026 02:46:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaUFCQ0ZiVFRVTEZDWTFDUnZ6a0ozRF9CcFdkSTc1Yllkc3U2Q0lld0kwN3hKMHlqY1lkLWltdHpZNFd6WndTYy1MYnFQZW9KcDFWbVNjaGMtNl9uNm1ZRkM1VFNtRGJBc0FBU3prTm5zeW9EYTRKYjdJTHZobjhjYVJnUQ?oc=5"
+    },
+    {
+      "title": "全球央行“超级周” 加息按下暂停键？",
+      "source": "东方财富",
+      "published": "Tue, 27 Oct 2026 16:04:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nNTJVbnJmYVlPOV9RcWpjdUdBUnV3SW5jQTZxZmlTZjdYRm5mWllxVmRCaWFTNENJTm0yMVExaUt5TXdUc1FiZWJ2Xy1SdEUxUWZxUnJ2bTJONWE1VG84RFZocHQwcVpIbFpKUE9mc2RlYlJYYm5fRm40Mjlwdw?oc=5"
     },
     {
       "title": "华尔街再度疯狂！630亿美元引爆AI热潮、油价突然跳水、黄金迎来生死关口，美联储决议暗藏变数",
@@ -137,27 +137,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.32 / +0.30%",
+          "value": "102.39 / +0.00%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6641 / -0.05%",
+          "value": "6.6655 / +0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "清晨，全线拉升！美联储，重磅来袭",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbGpTamVpVzZCTnphSEc4d2xvUjEzYW95d2lzbi1ER2gxZlVQazc2cTNoZjgyOGZFcVEzX1BRWTZfWjhVeGN2TUhfTmg2UkdVdzFuQU9WTE9paFU3c0RwdHplY2lZVC1KTGs3VDBKbG9yQnJNTERuRFFDUHNjRDA2T3ZFLUxIeUZhNUphbkJ1SVpLRUpfRUE?oc=5"
+          "title": "美联储，大消息；美股存储、光通信，深夜全线拉升",
+          "source": "东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJbEJwZ2JFYjA0a0ZUMWRqaXU3Q1dZM21WRTVJUWZRei1fRWFpbnBjcmF3V0k5c1Q5Wk5leTNSbUxLYzJyNXBTNTJCN2J3WGxCSWdId3FueWZrdUR3alk3Zg?oc=5"
         },
         {
-          "title": "超级央行周引爆全球市场！黄金警惕再跌超100美元，外汇、美股、比特币等八大资产走势全解析",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zVFA5QTlnNHBlT0JBMFJpdDdyZFdKLVFRbzVxVzZSdlJqaTQ2SzhSNWlVa21JVmd1NEQ2TmxfYlhfamIzVXRFa0hUcHdicTdhNExhNzJDdlVyNTJJU2xIbHpoSHN1cVRsY0FyMFBtTWhTaGZ2QUFnSA?oc=5"
+          "title": "“超级央行周”前瞻：全球利率如何走向？金价持续震荡如何应对？机构：物理AI迎来重大拐点？丨20261027从华尔街到陆家嘴",
+          "source": "第一财经",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10c2tNTEFsU2dpUUxKLTlQNFhUZ2FZdGZYOUszaW9OUld0NFVVd3ptS1h2NHZqeUpubGMtaVlSWG9UbzVBR2haN1pGODhFSzZOVUhLbQ?oc=5"
         }
       ]
     },
@@ -171,13 +171,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "26,466.62 / +1.14%",
+          "value": "26,477.81 / +1.18%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,976.80 / +0.58%",
+          "value": "13,035.44 / +1.03%",
           "state": "fresh"
         },
         {
@@ -190,14 +190,14 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "美股三大指数集体上涨 科技股多数回暖 巴西在美股上市的公司股价重挫",
+          "title": "美联储，大消息；美股存储、光通信，深夜全线拉升",
           "source": "东方财富",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xNEk0c2JUUkVOZTkwa0pFdkpDczNNTjZKQ3cxbUJfUHFXV3kzdDJYTV9jUDVVeFYzYm1CajZEd2tXczNXV2xMWlpXSmRrRUFEWE5MdmlxczRCSTZWT2xCRA?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJbEJwZ2JFYjA0a0ZUMWRqaXU3Q1dZM21WRTVJUWZRei1fRWFpbnBjcmF3V0k5c1Q5Wk5leTNSbUxLYzJyNXBTNTJCN2J3WGxCSWdId3FueWZrdUR3alk3Zg?oc=5"
         },
         {
-          "title": "Anthropic招股书重燃AI交易热情，费城半导体指数上涨2.82%，超级央行周悬念待解",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yclgwTEljRFhzZk1fejZQMG1MYlh0WkI0Y19WMWNCY1JEYjdwd0tfbXF6NWVFT0UzcFdtdjVmZGpSd0ZGR19XOWh3SWlPRDFPMTByZmtiNnpTQjVQc3hTc3pjd0poZw?oc=5"
+          "title": "美股半导体、存储芯片大涨，费城半导体指数涨近400点，西部数据涨近7%，AMD涨超5%，特斯拉市值一夜涨超4600亿元",
+          "source": "同花顺财经",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xd1piQTA5b2MtaVdhNUJVaFU4NzZHeDN4a2hJSnBCaldvWW5vTFRTcklfYjVNUGgwSHgwRUFYcXI4V0tlblAzd2p1SklMRHVQaUZnN3V0TUdvdVZ3SG9hWXZR?oc=5"
         }
       ]
     },
@@ -211,13 +211,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "99.80 / -1.92%",
+          "value": "100.90 / +1.00%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,072.46 / +0.84%",
+          "value": "4,072.72 / -0.05%",
           "state": "fresh"
         },
         {
@@ -251,19 +251,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.32 / +0.30%",
+          "value": "102.39 / +0.00%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6641 / -0.05%",
+          "value": "6.6655 / +0.01%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,976.80 / +0.58%",
+          "value": "13,035.44 / +1.03%",
           "state": "fresh"
         }
       ],
