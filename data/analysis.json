@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29 16:19",
-  "score": 13,
+  "generated_at": "2026-10-29 18:21",
+  "score": 19,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -27,19 +27,19 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.29%",
-      "contribution": 2.0,
+      "value": "6 个市场均值 +0.31%",
+      "contribution": 2.1,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.80%",
-      "contribution": -4.8,
+      "value": "富时 A50 +0.08%",
+      "contribution": 0.5,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6585 (-0.05%) / DXY 102.22 (+0.09%)",
+      "value": "USD/CNH 6.6589 (-0.04%) / DXY 102.22 (+0.08%)",
       "contribution": 0.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
@@ -78,12 +78,6 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanVRd19oTFlRTnJra1Z1bHpSNEc5bWh5MktXZjBqOXA2aGpvcGdYbGhXTTVvWHVRMGdJZnY3Rm5TQWhody12TjRFamRWcFlicmFRZ1hrZHJIa2p3N1lDY0hISGkxUEpIN2NIekxRaHAtdThoN2JTY0RrMnFuSzRMUTFsU3RBbHRmUUlHVm9YOU42V3c?oc=5"
     },
     {
-      "title": "盘前：纳指期货涨0.38% 美联储将公布利率决议",
-      "source": "新浪财经",
-      "published": "Wed, 28 Oct 2026 12:30:06 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMEFmbldqWER0Z1l0bTZaUE1Zck1yblU3N3FRbnh2YzBLR0pGMEhKc2NsQkhoVTEzQXRycmRaSFVOdTVQS3RvSml4Rkl0QzBvbTdaeUhrelAwSUt3TkNjdjFvdkJ6TmZNdzFEb1B2NHEyMjhTU1pVdDJKRmlWMnpzNjRpMVR6bnM?oc=5"
-    },
-    {
       "title": "全球静待三大央行“摔杯为号” 市场屏息以待",
       "source": "中华网",
       "published": "Wed, 28 Oct 2026 14:10:59 GMT",
@@ -94,6 +88,12 @@
       "source": "富途牛牛",
       "published": "Thu, 29 Oct 2026 05:30:22 GMT",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQXzBHOTU5ZmM0TGtJbDFNSDRuM3ZvblQxZ2ktOXZxZWlQSW94d2pFckpfR0lRUWhZeHRqMURSZ2d6Y0E5ZVFmR0xpVHEtOGp0aDVydnNfRWFYU0ZLMTlkWmcyakxnUlZQRF9YV0pfd0ZQc2U2UHczSWZnd2dES3BNREtQcjZwWUxEN0F6eHBvdWx4U3Ja?oc=5"
+    },
+    {
+      "title": "盘前：纳指期货涨0.38% 美联储将公布利率决议",
+      "source": "新浪财经",
+      "published": "Wed, 28 Oct 2026 12:30:06 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMEFmbldqWER0Z1l0bTZaUE1Zck1yblU3N3FRbnh2YzBLR0pGMEhKc2NsQkhoVTEzQXRycmRaSFVOdTVQS3RvSml4Rkl0QzBvbTdaeUhrelAwSUt3TkNjdjFvdkJ6TmZNdzFEb1B2NHEyMjhTU1pVdDJKRmlWMnpzNjRpMVR6bnM?oc=5"
     }
   ],
   "events": [
@@ -113,13 +113,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.22 / +0.09%",
+          "value": "102.22 / +0.08%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6585 / -0.05%",
+          "value": "6.6589 / -0.04%",
           "state": "fresh"
         }
       ],
@@ -131,9 +131,9 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanVRd19oTFlRTnJra1Z1bHpSNEc5bWh5MktXZjBqOXA2aGpvcGdYbGhXTTVvWHVRMGdJZnY3Rm5TQWhody12TjRFamRWcFlicmFRZ1hrZHJIa2p3N1lDY0hISGkxUEpIN2NIekxRaHAtdThoN2JTY0RrMnFuSzRMUTFsU3RBbHRmUUlHVm9YOU42V3c?oc=5"
         },
         {
-          "title": "盘前：纳指期货涨0.38% 美联储将公布利率决议",
-          "source": "新浪财经",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMEFmbldqWER0Z1l0bTZaUE1Zck1yblU3N3FRbnh2YzBLR0pGMEhKc2NsQkhoVTEzQXRycmRaSFVOdTVQS3RvSml4Rkl0QzBvbTdaeUhrelAwSUt3TkNjdjFvdkJ6TmZNdzFEb1B2NHEyMjhTU1pVdDJKRmlWMnpzNjRpMVR6bnM?oc=5"
+          "title": "全球静待三大央行“摔杯为号” 市场屏息以待",
+          "source": "中华网",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MNG9kTi16ZU5ibVpQU0dRdjNrMzBESlRtODA4d2lYYW1iT25JclAxWmFQNnlkd3hsQXludEhaeTZESDYwNmlTVWdtWkpGRFJsUE4tTEhwdXFIUlcxWUFOMTlnbm16RlFpZnZUcDdqaFo?oc=5"
         }
       ]
     }
