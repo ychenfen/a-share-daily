@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30 18:24",
+  "generated_at": "2026-10-30 22:03",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7720.39,
-      "pct": -0.3,
-      "change": -23.59,
-      "previous_close": 7743.98,
-      "quote_time": "2026-10-29 16:32:47",
+      "close": 7625.2,
+      "pct": -1.23,
+      "change": -95.19,
+      "previous_close": 7720.39,
+      "quote_time": "2026-10-30 10:03:40",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 26184.72,
-      "pct": -1.38,
-      "change": -365.13,
-      "previous_close": 26549.85,
-      "quote_time": "2026-10-29 17:15:59",
+      "close": 25622.67,
+      "pct": -2.15,
+      "change": -562.05,
+      "previous_close": 26184.72,
+      "quote_time": "2026-10-30 10:03:40",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 52342.56,
-      "pct": -0.25,
-      "change": -132.54,
-      "previous_close": 52475.1,
-      "quote_time": "2026-10-29 16:33:51",
+      "close": 52107.54,
+      "pct": -0.45,
+      "change": -235.02,
+      "previous_close": 52342.56,
+      "quote_time": "2026-10-30 10:03:40",
       "stale": false
     },
     {
@@ -47,7 +47,7 @@
       "pct": 1.46,
       "change": 335.77,
       "previous_close": 22958.65,
-      "quote_time": "2026/10/30 18:08:07",
+      "quote_time": "2026/10/30 18:31:07",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 88.14,
-      "pct": 0.95,
-      "change": 0.83,
-      "previous_close": 87.31,
-      "quote_time": "2026-10-29 16:00:01",
+      "close": 87.6,
+      "pct": -0.61,
+      "change": -0.54,
+      "previous_close": 88.14,
+      "quote_time": "2026-10-30 10:03:39",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 12811.36,
-      "pct": 0.018424545241635393,
-      "change": 2.360000000000582,
+      "close": 12835.54,
+      "pct": 0.20719806386135797,
+      "change": 26.540000000000873,
       "previous_close": 12809.0,
-      "quote_time": "2026-10-30 18:24:19",
+      "quote_time": "2026-10-30 22:04:12",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.6511,
-      "pct": -0.0736177884615441,
-      "change": -0.0049000000000001265,
+      "close": 6.6521,
+      "pct": -0.05859375000000222,
+      "change": -0.0038999999999997925,
       "previous_close": 6.656,
-      "quote_time": "2026-10-30 18:24:10",
+      "quote_time": "2026-10-30 22:04:05",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 101.6545,
-      "pct": -0.24248883236377416,
-      "change": -0.2471000000000032,
+      "close": 102.0685,
+      "pct": 0.1637854557730245,
+      "change": 0.16689999999999827,
       "previous_close": 101.9016,
-      "quote_time": "2026-10-30 18:24:28",
+      "quote_time": "2026-10-30 22:04:20",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 3992.18,
-      "pct": -0.97286302525178,
-      "change": -39.220000000000255,
+      "close": 3920.86,
+      "pct": -2.741975492384774,
+      "change": -110.53999999999996,
       "previous_close": 4031.4,
-      "quote_time": "2026-10-30 18:24:19",
+      "quote_time": "2026-10-30 22:04:19",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 104.263,
-      "pct": 2.218627450980404,
-      "change": 2.2630000000000052,
+      "close": 104.243,
+      "pct": 2.1990196078431223,
+      "change": 2.242999999999995,
       "previous_close": 102.0,
-      "quote_time": "2026-10-30 18:24:20",
+      "quote_time": "2026-10-30 22:04:15",
       "stale": false
     }
   ],
