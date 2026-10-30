@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 开盘脉搏已更新 · 最后检查 `2026-10-30 16:27`（北京时间）
+> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-10-30 18:23`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -40 · 防守优先**（置信度：中）
+> **风险温度 -35 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 12,799.90 | -0.77% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6518 | -0.06% | 最新 |
-| 美元指数 | 低权重计分 | 101.67 | -0.23% | 最新 |
-| COMEX 黄金 | 背景观察 | 3,994.37 | -0.92% | 最新 |
-| WTI 原油 | 背景观察 | 103.39 | +1.36% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 12,811.36 | +0.02% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6511 | -0.07% | 最新 |
+| 美元指数 | 低权重计分 | 101.65 | -0.24% | 最新 |
+| COMEX 黄金 | 背景观察 | 3,992.18 | -0.97% | 最新 |
+| WTI 原油 | 背景观察 | 104.26 | +2.22% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -82,11 +82,11 @@
 | 市场宽度 | 涨 789 / 跌 4795 | -14.3 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 39 / 跌停 41 / 炸板率 39.1% | -5.2 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 +0.31% | +2.2 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.77% | -4.6 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6518 (-0.06%) / DXY 101.67 (-0.23%) | +1.9 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A50 先行 | 富时 A50 +0.02% | +0.1 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6511 (-0.07%) / DXY 101.65 (-0.24%) | +2.1 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 7 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 0 / 风险词 6 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,11 +94,10 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（5 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.67 / -0.23%（最新） / USD/CNH 6.6518 / -0.06%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 通胀与就业（2 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.67 / -0.23%（最新） / 纳斯达克 26,184.72 / -1.38%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
-| 地缘与贸易（2 条） | 地缘风险 → 油金与波动率 → 通胀预期和风险偏好 | 黄金、能源、军工、航运与出口链风险敞口 | VIX 15.44（最近有效值） / 黄金 3,994.37 / -0.92%（最新） / 原油 103.39 / +1.36%（最新） | 失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,184.72 / -1.38%（最新） / 富时A50 12,799.90 / -0.77%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 103.39 / +1.36%（最新） / 黄金 3,994.37 / -0.92%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 央行与利率（5 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.65 / -0.24%（最新） / USD/CNH 6.6511 / -0.07%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 通胀与就业（2 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.65 / -0.24%（最新） / 纳斯达克 26,184.72 / -1.38%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
+| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 26,184.72 / -1.38%（最新） / 富时A50 12,811.36 / +0.02%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 104.26 / +2.22%（最新） / 黄金 3,992.18 / -0.97%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 
 ### 研究观察
 
@@ -106,12 +105,11 @@
 
 ### 新闻雷达
 
+- [日本央行提速抛售ETF 日股反应平淡](https://news.google.com/rss/articles/CBMieEFVX3lxTE95VkNWbHpJRVl0UUQ3eDRsZTZwS2lZTnRYeE50aGlOQmh0ZGRqVk5EcVZKd0dWQ1lHb3k5MlFSNElZT055MXNoWGk0b3NUeEhSNWoxR3BZV2EtMHVFZWFOZDRfQl92bFlFQ2ZaSGx4b3VtOXZSN25ycw?oc=5) · 新浪财经
 - [日本央行“鹰派暂停”落地! 基础通胀达标为12月重返加息铺路，AI抛售潮之下日元重拾避险光环_滚动新闻_财经](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTS29malFXREN6MlQzUm5JTm92cUg0d3h3S2N4WlhVTWk3dDVVTkpPc2xFdmhZcTdvLUtRNjAyM1hVZUdRWkExYjBRcHBfVVUteTBnd0dTbWhMakVBWjBndQ?oc=5) · 证券之星
-- [伊朗最高领袖重申结束战争须满足伊方条件 博索纳罗之子被曝赴美“流亡” \| 环球市场](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NM3JyT0VLUmhWcHJuYnJwNExEUnJZU1l1QkVLdlNqVFpQUy1DcmY0X09nYXJTM2JaVHlSSTdUMWNKdXRjSERXVg?oc=5) · 财联社
-- [日本央行会议前瞻：鹰派按兵不动](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS2ExSF9yLWJsWFI3dFR5M3dHMG9fYks0dmdzMzJ4ajcyMGlDWFYtaXFteHlyX3BsSGtKRGl6VzktNzNOaXdJZXM5Wjl3WnZrbHVueExEemx5ZUs5cnFzcmpWdlEzVm9LdzNkOUQxS205X1Q1M3B5bTZWcF9ieUdQbVhiOFZteFhxb3NpT2Ficmk0ZTUxczY5SXBDck9ld1dYTDdkcWg1dU1YZnhyTmhrMHo0MHAzUHc3WW84QjJiYUNXMjZSb2VWNmtqVk9Ud1FvYVBUOFVWb1Z4eVNiZFE?oc=5) · 新浪财经
-- [欧洲央行突爆重大人事变局！三大重磅消息震动全球市场：谷歌暴跌11%，美股、黄金、原油齐跌](https://news.google.com/rss/articles/CBMikAFBVV95cUxOX1hIMFdHSERRVVVtT0pQdXB2RlUtYXBYa3F4NkJHQTQ1UElxX2xpNE5vTC14a1hrVnlNM2FQY0t4cVRNcjlmek9EWjdVbXZyVFhMTUh5NUplMVFBcFk5dHVHdlNBV0lDQlotUDdFY094eDh3RGtkV1FNTXdQeTFaUkNpbFo0YjNQd0xIVTlaWmo?oc=5) · FX168财经
 - [日本央行上调通胀预期全球央行维持利率不变，但紧缩周期预计将持续人工智能股震荡引发资金涌入](https://news.google.com/rss/articles/CBMiowFBVV95cUxObHpxWnY1ZEJVY1RxQVJWOFhDVXpwOGtKMk4wRjhqbXhIZHJmbHVMQ1BGeFVNanhycjhndWJWYVNyN2YzOV9XNF9qUzFna01OVkdiZTQzeHI4MUJCVEFXQ092d1Q1UXFOWjV2YkRHMm5EalJodHdocHNacy1NQmdnaDNaMG9nOWdtTjVQS21Sd29WZWZBb2FIMVpfT1JOM3ZXV1JZ?oc=5) · Moomoo
-- [10月30日财经早餐\| 美国经济强于预期、欧央行维持不变、中东地缘风险_综述_全球资讯](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WYk5ONm1hNkFNRm95SGlFbVc2QlRJLTRaR2kyZ01sQUM2WG1xS2Vud1NNOVJzelpaOXNlTFRNR082VklpSGZRWkFWWTJiQk9wUVptZXpWNEYtcmZwcjZrMGFscWZnNzQ?oc=5) · 币海NEWS
+- [欧洲央行突爆重大人事变局！三大重磅消息震动全球市场：谷歌暴跌11%，美股、黄金、原油齐跌](https://news.google.com/rss/articles/CBMikAFBVV95cUxOX1hIMFdHSERRVVVtT0pQdXB2RlUtYXBYa3F4NkJHQTQ1UElxX2xpNE5vTC14a1hrVnlNM2FQY0t4cVRNcjlmek9EWjdVbXZyVFhMTUh5NUplMVFBcFk5dHVHdlNBV0lDQlotUDdFY094eDh3RGtkV1FNTXdQeTFaUkNpbFo0YjNQd0xIVTlaWmo?oc=5) · FX168财经
+- [日本央行会议前瞻：鹰派按兵不动](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS2ExSF9yLWJsWFI3dFR5M3dHMG9fYks0dmdzMzJ4ajcyMGlDWFYtaXFteHlyX3BsSGtKRGl6VzktNzNOaXdJZXM5Wjl3WnZrbHVueExEemx5ZUs5cnFzcmpWdlEzVm9LdzNkOUQxS205X1Q1M3B5bTZWcF9ieUdQbVhiOFZteFhxb3NpT2Ficmk0ZTUxczY5SXBDck9ld1dYTDdkcWg1dU1YZnhyTmhrMHo0MHAzUHc3WW84QjJiYUNXMjZSb2VWNmtqVk9Ud1FvYVBUOFVWb1Z4eVNiZFE?oc=5) · 新浪财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
