@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31 17:54",
-  "score": -48,
+  "generated_at": "2026-10-31 21:35",
+  "score": -50,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 2",
-      "contribution": -4,
+      "value": "正向词 0 / 风险词 3",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,21 +67,27 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 2,
-    "score": -4
+    "negative_hits": 3,
+    "score": -6
   },
   "news": [
+    {
+      "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
+      "source": "金融界",
+      "published": "Sat, 31 Oct 2026 08:05:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
+    },
+    {
+      "title": "深夜，美科技股，集体重挫！",
+      "source": "证券之星",
+      "published": "Fri, 30 Oct 2026 15:08:07 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJVWtMY0lGbHV1dV94bGpVWjZzVkFGUWlrYVpUX2RwNEl4NVZMd0FaZzU3YWlDSjhfWkVXQkxFWkxDeG9JTXdaNzhkVmZKdmZvTmxiU1dWMk1wdHZfV1N4ZHR3?oc=5"
+    },
     {
       "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
       "source": "金融界",
       "published": "Sat, 31 Oct 2026 05:44:01 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
-    },
-    {
-      "title": "美股投资必备！8月重磅大事抢先看，这些影响涨跌的日子都圈出来了",
-      "source": "富途牛牛",
-      "published": "Fri, 30 Oct 2026 19:15:03 GMT",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHhNenBXMGVZcWRSNnMtQkw2SFh1TzhJOUFUdWtHVl9sUGI3WG5aZHNZdmZVUkN3R3JjMG85N09vSi1sWDIzckhOUHZZS1lHWmNMTWkwSVh5VGc1X3A4NzdhNVJ2bmh1M1Z1d1p1ZEhOSDYxVnpiaXdOelNCd29LWDNfWXVvdk5OcXduS3lIQmlRMm90NjFVU0tMZw?oc=5"
     },
     {
       "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
@@ -92,89 +98,9 @@
   ],
   "events": [
     {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "102.91 / +0.89%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,884.28 / -3.65%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
-        },
-        {
-          "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 2,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.97 / +0.06%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6528 / -0.05%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,816.72 / +0.06%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
-        },
-        {
-          "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
-        }
-      ]
-    },
-    {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 1,
+      "headline_count": 3,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
@@ -200,9 +126,129 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
+          "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
+        },
+        {
+          "title": "深夜，美科技股，集体重挫！",
+          "source": "证券之星",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJVWtMY0lGbHV1dV94bGpVWjZzVkFGUWlrYVpUX2RwNEl4NVZMd0FaZzU3YWlDSjhfWkVXQkxFWkxDeG9JTXdaNzhkVmZKdmZvTmxiU1dWMk1wdHZfV1N4ZHR3?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 3,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "102.91 / +0.89%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "3,884.28 / -3.65%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
+        },
+        {
+          "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 3,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.97 / +0.06%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6528 / -0.05%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,816.72 / +0.06%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
+        },
+        {
+          "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 1,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.97 / +0.06%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6528 / -0.05%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
         }
       ]
     }
