@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31 16:17",
+  "generated_at": "2026-10-31 17:54",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-10-31 16:17",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-10-31 17:54",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-10-31",
     "market_data_date": "2026-10-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-10-31 16:17",
+    "generated_at": "2026-10-31 17:54",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-10-31 16:17",
+    "generated_at": "2026-10-31 17:54",
     "score": -48,
     "stance": "防守优先",
     "color": "#08783e",
@@ -268,9 +268,9 @@
     "news": [
       {
         "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-        "source": "FX168财经",
-        "published": "Fri, 30 Oct 2026 16:41:17 GMT",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5"
+        "source": "金融界",
+        "published": "Sat, 31 Oct 2026 05:44:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
       },
       {
         "title": "美股投资必备！8月重磅大事抢先看，这些影响涨跌的日子都圈出来了",
@@ -316,8 +316,8 @@
         "headlines": [
           {
             "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-            "source": "FX168财经",
-            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5"
+            "source": "金融界",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
           },
           {
             "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
@@ -356,8 +356,8 @@
         "headlines": [
           {
             "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-            "source": "FX168财经",
-            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5"
+            "source": "金融界",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
           },
           {
             "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
@@ -407,11 +407,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-10-31 16:17",
+    "generated_at": "2026-10-31 17:54",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 210,
+    "signal_count": 211,
     "matured_1d": 205,
     "directional_1d": 164,
     "hit_rate_1d": 60.4,
@@ -448,14 +448,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-10-31 16:17",
-      "slot": "open",
+      "captured_at": "2026-10-31 17:54",
+      "slot": "midday",
       "score": "-48",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-10-31 17:54",
+        "slot": "midday",
+        "signal_date": "2026-10-31",
+        "market_asof_date": "2026-10-30",
+        "score": "-48",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3599.02",
+        "sh_pct": "-1.44",
+        "global_avg": "-0.6023",
+        "a50_pct": "0.06027012257006081",
+        "usdcnh": "6.6528",
+        "usdcnh_pct": "-0.048076923076922906",
+        "dxy": "101.9669",
+        "dxy_pct": "0.0640814275732593",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-10-31 16:17",
         "slot": "open",
@@ -930,31 +955,6 @@
         "return_5d": null,
         "direction": -1,
         "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-27 17:17",
-        "slot": "midday",
-        "signal_date": "2026-10-27",
-        "market_asof_date": "2026-10-27",
-        "score": "1",
-        "stance": "中性等待",
-        "confidence": "中",
-        "sh_close": "3697.52",
-        "sh_pct": "0.19",
-        "global_avg": "0.466",
-        "a50_pct": "0.1430010851031005",
-        "usdcnh": "6.6672",
-        "usdcnh_pct": "-0.0059991601175868325",
-        "dxy": "102.2349",
-        "dxy_pct": "0.21349362018721063",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -1.33,
-        "return_3d": -1.24856,
-        "return_5d": null,
-        "direction": 0,
-        "hit_1d": null
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"

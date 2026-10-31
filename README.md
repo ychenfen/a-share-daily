@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-10-31 16:17`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-10-31 17:54`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -104,7 +104,7 @@
 
 ### 新闻雷达
 
-- [全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？](https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5) · FX168财经
+- [全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？](https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5) · 金融界
 - [美股投资必备！8月重磅大事抢先看，这些影响涨跌的日子都圈出来了](https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHhNenBXMGVZcWRSNnMtQkw2SFh1TzhJOUFUdWtHVl9sUGI3WG5aZHNZdmZVUkN3R3JjMG85N09vSi1sWDIzckhOUHZZS1lHWmNMTWkwSVh5VGc1X3A4NzdhNVJ2bmh1M1Z1d1p1ZEhOSDYxVnpiaXdOelNCd29LWDNfWXVvdk5OcXduS3lIQmlRMm90NjFVU0tMZw?oc=5) · 富途牛牛
 - [科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元](https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5) · 富途牛牛
 
