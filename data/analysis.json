@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31 02:04",
-  "score": -55,
+  "generated_at": "2026-10-31 09:35",
+  "score": -52,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.80%",
-      "contribution": -5.6,
+      "value": "6 个市场均值 -0.60%",
+      "contribution": -4.2,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.20%",
-      "contribution": -1.2,
+      "value": "富时 A50 +0.06%",
+      "contribution": 0.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6538 (-0.03%) / DXY 101.97 (+0.06%)",
-      "contribution": 0.1,
+      "value": "USD/CNH 6.6528 (-0.05%) / DXY 101.97 (+0.06%)",
+      "contribution": 0.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 9",
+      "value": "正向词 0 / 风险词 8",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -67,10 +67,16 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 9,
+    "negative_hits": 8,
     "score": -8
   },
   "news": [
+    {
+      "title": "美股投资必备！8月重磅大事抢先看，这些影响涨跌的日子都圈出来了",
+      "source": "富途牛牛",
+      "published": "Fri, 30 Oct 2026 19:15:03 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHhNenBXMGVZcWRSNnMtQkw2SFh1TzhJOUFUdWtHVl9sUGI3WG5aZHNZdmZVUkN3R3JjMG85N09vSi1sWDIzckhOUHZZS1lHWmNMTWkwSVh5VGc1X3A4NzdhNVJ2bmh1M1Z1d1p1ZEhOSDYxVnpiaXdOelNCd29LWDNfWXVvdk5OcXduS3lIQmlRMm90NjFVU0tMZw?oc=5"
+    },
     {
       "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
       "source": "FX168财经",
@@ -84,47 +90,35 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95VkNWbHpJRVl0UUQ3eDRsZTZwS2lZTnRYeE50aGlOQmh0ZGRqVk5EcVZKd0dWQ1lHb3k5MlFSNElZT055MXNoWGk0b3NUeEhSNWoxR3BZV2EtMHVFZWFOZDRfQl92bFlFQ2ZaSGx4b3VtOXZSN25ycw?oc=5"
     },
     {
-      "title": "日本央行“鹰派暂停”落地! 基础通胀达标为12月重返加息铺路，AI抛售潮之下日元重拾避险光环_滚动新闻_财经",
-      "source": "证券之星",
-      "published": "Fri, 30 Oct 2026 03:55:47 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTS29malFXREN6MlQzUm5JTm92cUg0d3h3S2N4WlhVTWk3dDVVTkpPc2xFdmhZcTdvLUtRNjAyM1hVZUdRWkExYjBRcHBfVVUteTBnd0dTbWhMakVBWjBndQ?oc=5"
+      "title": "日本央行上调通胀预期全球央行维持利率不变，但紧缩周期预计将持续人工智能股震荡引发资金涌入",
+      "source": "Moomoo",
+      "published": "Fri, 30 Oct 2026 07:39:06 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObHpxWnY1ZEJVY1RxQVJWOFhDVXpwOGtKMk4wRjhqbXhIZHJmbHVMQ1BGeFVNanhycjhndWJWYVNyN2YzOV9XNF9qUzFna01OVkdiZTQzeHI4MUJCVEFXQ092d1Q1UXFOWjV2YkRHMm5EalJodHdocHNacy1NQmdnaDNaMG9nOWdtTjVQS21Sd29WZWZBb2FIMVpfT1JOM3ZXV1JZ?oc=5"
     },
     {
-      "title": "伊朗最高领袖重申结束战争须满足伊方条件 博索纳罗之子被曝赴美“流亡” | 环球市场",
-      "source": "财联社",
-      "published": "Thu, 29 Oct 2026 22:16:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NM3JyT0VLUmhWcHJuYnJwNExEUnJZU1l1QkVLdlNqVFpQUy1DcmY0X09nYXJTM2JaVHlSSTdUMWNKdXRjSERXVg?oc=5"
+      "title": "日本央行“鹰派暂停”落地! 基础通胀达标为12月重返加息铺路，AI抛售潮之下日元重拾避险光环",
+      "source": "富途牛牛",
+      "published": "Fri, 30 Oct 2026 03:55:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNREVGS21jVmlGcHBzdjQtaGRUYVVETFM0amdxdGw4SUZOM3pORXJZZ0oyQklDd0xpcGNfX2hXcFVJYnVGNFBDQ3A3NDZOZGx5cXZ4R0ZfQVExYkRST3FwbFhEVEh2ZmZXWWpjX2JoMS0wb0pIMEZBT1l2ZnhsZ3M3TFBvRFZqRThPYUh6Tnl3?oc=5"
+    },
+    {
+      "title": "黄金跌破4000美元，真正的抛售原因曝光！ETF持仓惊现不同寻常的背离",
+      "source": "FX168财经",
+      "published": "Fri, 30 Oct 2026 11:05:12 GMT",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13Q3FWd1R4OHZDSnZVeGNYZkJIcVlWUlQ1STVSdHNrbkQ1azFNYkc1WFpjOWl3WEJGNlpQVTZkUnVpSUpWZVU2Z25Pai04TXZJREVtYVdmYlBPdG5sVURvZmJQQnlnVTBLZlV6Nw?oc=5"
     },
     {
       "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
       "source": "富途牛牛",
       "published": "Fri, 30 Oct 2026 15:30:17 GMT",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
-    },
-    {
-      "title": "科技股遭遇抛售，美债迎来资金涌入",
-      "source": "NAI500",
-      "published": "Fri, 30 Oct 2026 06:27:45 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQWTBNdTV6U2VJUWhnVTdwZng4VHRHV0FMLXhIUUs5YkQ1ZHdreXB0a2dCTG8zUHJkczZOMmRtYmRHSURKUHE0LTBuYi1KWk1qalFlTjRBb2pyM1pZNS02WkVFTmxrTnlHTU94cTlFZjM2MFJvdmdTVExuUnpnYTF5aGFiSUtnNTl6TGtQRko1VHVyOWVEZVRieEdHa0hORDBFUGc4LWtpQW9xSkhHUnVNeWZMN0FTblAxZEVTc1VFMlU5TUg0Q1doU0dwZzREcmw0QUtYYUdxSzFDV19oNWk1RUktWTRManFFcktzQmpmOXdNQlN6cDNzeFNOWmR2ZVdUUWQxVlVCRQ?oc=5"
-    },
-    {
-      "title": "日本央行料按兵不动，美元兑日元聚焦未来利率路径",
-      "source": "新浪财经",
-      "published": "Fri, 30 Oct 2026 00:32:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSGUyWjlzdEJ3WWktckVjbVV0ZjJPZlp6ZnhZd1NEVWduaVV0YzBISnlWM0pwY0dnelhqVkcxV2diSFRXX0hjcmJndFFIWE95aG9jdXhZUGNmRVRFZjVfM3lNS3Jzb2s1RHl5amRDQ1JvOWw3bGRHWHFSNEZfRHBWREtjUm1Hb1BiQVA2dXMyMlBRa244SXB6YllQbnphbExOTENYRm4xbmgwdXU1MWJzeWVIckhIQzRSbmxJR0U4MWR5eWl2dWhHR3lOVk5DdnBIQS1hdjJoY1ZyVWR2UVE?oc=5"
-    },
-    {
-      "title": "日本央行上调通胀预期全球央行维持利率不变，但紧缩周期预计将持续人工智能股震荡引发资金涌入",
-      "source": "Moomoo",
-      "published": "Fri, 30 Oct 2026 07:39:06 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObHpxWnY1ZEJVY1RxQVJWOFhDVXpwOGtKMk4wRjhqbXhIZHJmbHVMQ1BGeFVNanhycjhndWJWYVNyN2YzOV9XNF9qUzFna01OVkdiZTQzeHI4MUJCVEFXQ092d1Q1UXFOWjV2YkRHMm5EalJodHdocHNacy1NQmdnaDNaMG9nOWdtTjVQS21Sd29WZWZBb2FIMVpfT1JOM3ZXV1JZ?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -143,7 +137,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6538 / -0.03%",
+          "value": "6.6528 / -0.05%",
           "state": "fresh"
         }
       ],
@@ -155,29 +149,29 @@
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95VkNWbHpJRVl0UUQ3eDRsZTZwS2lZTnRYeE50aGlOQmh0ZGRqVk5EcVZKd0dWQ1lHb3k5MlFSNElZT055MXNoWGk0b3NUeEhSNWoxR3BZV2EtMHVFZWFOZDRfQl92bFlFQ2ZaSGx4b3VtOXZSN25ycw?oc=5"
         },
         {
-          "title": "日本央行“鹰派暂停”落地! 基础通胀达标为12月重返加息铺路，AI抛售潮之下日元重拾避险光环_滚动新闻_财经",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTS29malFXREN6MlQzUm5JTm92cUg0d3h3S2N4WlhVTWk3dDVVTkpPc2xFdmhZcTdvLUtRNjAyM1hVZUdRWkExYjBRcHBfVVUteTBnd0dTbWhMakVBWjBndQ?oc=5"
+          "title": "日本央行上调通胀预期全球央行维持利率不变，但紧缩周期预计将持续人工智能股震荡引发资金涌入",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObHpxWnY1ZEJVY1RxQVJWOFhDVXpwOGtKMk4wRjhqbXhIZHJmbHVMQ1BGeFVNanhycjhndWJWYVNyN2YzOV9XNF9qUzFna01OVkdiZTQzeHI4MUJCVEFXQ092d1Q1UXFOWjV2YkRHMm5EalJodHdocHNacy1NQmdnaDNaMG9nOWdtTjVQS21Sd29WZWZBb2FIMVpfT1JOM3ZXV1JZ?oc=5"
         }
       ]
     },
     {
-      "key": "technology",
-      "label": "科技与产业",
+      "key": "commodities",
+      "label": "商品与成本",
       "headline_count": 3,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "25,299.87 / -3.38%",
+          "code": "WTI",
+          "label": "原油",
+          "value": "102.91 / +0.89%",
           "state": "fresh"
         },
         {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,784.00 / -0.20%",
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "3,884.28 / -3.65%",
           "state": "fresh"
         },
         {
@@ -187,17 +181,17 @@
           "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
+          "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5"
         },
         {
-          "title": "科技股遭遇抛售，美债迎来资金涌入",
-          "source": "NAI500",
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQWTBNdTV6U2VJUWhnVTdwZng4VHRHV0FMLXhIUUs5YkQ1ZHdreXB0a2dCTG8zUHJkczZOMmRtYmRHSURKUHE0LTBuYi1KWk1qalFlTjRBb2pyM1pZNS02WkVFTmxrTnlHTU94cTlFZjM2MFJvdmdTVExuUnpnYTF5aGFiSUtnNTl6TGtQRko1VHVyOWVEZVRieEdHa0hORDBFUGc4LWtpQW9xSkhHUnVNeWZMN0FTblAxZEVTc1VFMlU5TUg0Q1doU0dwZzREcmw0QUtYYUdxSzFDV19oNWk1RUktWTRManFFcktzQmpmOXdNQlN6cDNzeFNOWmR2ZVdUUWQxVlVCRQ?oc=5"
+          "title": "黄金跌破4000美元，真正的抛售原因曝光！ETF持仓惊现不同寻常的背离",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13Q3FWd1R4OHZDSnZVeGNYZkJIcVlWUlQ1STVSdHNrbkQ1azFNYkc1WFpjOWl3WEJGNlpQVTZkUnVpSUpWZVU2Z25Pai04TXZJREVtYVdmYlBPdG5sVURvZmJQQnlnVTBLZlV6Nw?oc=5"
         }
       ]
     },
@@ -217,13 +211,13 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6538 / -0.03%",
+          "value": "6.6528 / -0.05%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,784.00 / -0.20%",
+          "value": "12,816.72 / +0.06%",
           "state": "fresh"
         }
       ],
@@ -235,9 +229,9 @@
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5"
         },
         {
-          "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
+          "title": "黄金跌破4000美元，真正的抛售原因曝光！ETF持仓惊现不同寻常的背离",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13Q3FWd1R4OHZDSnZVeGNYZkJIcVlWUlQ1STVSdHNrbkQ1azFNYkc1WFpjOWl3WEJGNlpQVTZkUnVpSUpWZVU2Z25Pai04TXZJREVtYVdmYlBPdG5sVURvZmJQQnlnVTBLZlV6Nw?oc=5"
         }
       ]
     },
@@ -263,41 +257,41 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,299.87 / -3.38%",
+          "value": "25,437.00 / -2.86%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
         {
-          "title": "日本央行“鹰派暂停”落地! 基础通胀达标为12月重返加息铺路，AI抛售潮之下日元重拾避险光环_滚动新闻_财经",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTS29malFXREN6MlQzUm5JTm92cUg0d3h3S2N4WlhVTWk3dDVVTkpPc2xFdmhZcTdvLUtRNjAyM1hVZUdRWkExYjBRcHBfVVUteTBnd0dTbWhMakVBWjBndQ?oc=5"
-        },
-        {
           "title": "日本央行上调通胀预期全球央行维持利率不变，但紧缩周期预计将持续人工智能股震荡引发资金涌入",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObHpxWnY1ZEJVY1RxQVJWOFhDVXpwOGtKMk4wRjhqbXhIZHJmbHVMQ1BGeFVNanhycjhndWJWYVNyN2YzOV9XNF9qUzFna01OVkdiZTQzeHI4MUJCVEFXQ092d1Q1UXFOWjV2YkRHMm5EalJodHdocHNacy1NQmdnaDNaMG9nOWdtTjVQS21Sd29WZWZBb2FIMVpfT1JOM3ZXV1JZ?oc=5"
+        },
+        {
+          "title": "日本央行“鹰派暂停”落地! 基础通胀达标为12月重返加息铺路，AI抛售潮之下日元重拾避险光环",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNREVGS21jVmlGcHBzdjQtaGRUYVVETFM0amdxdGw4SUZOM3pORXJZZ0oyQklDd0xpcGNfX2hXcFVJYnVGNFBDQ3A3NDZOZGx5cXZ4R0ZfQVExYkRST3FwbFhEVEh2ZmZXWWpjX2JoMS0wb0pIMEZBT1l2ZnhsZ3M3TFBvRFZqRThPYUh6Tnl3?oc=5"
         }
       ]
     },
     {
-      "key": "commodities",
-      "label": "商品与成本",
+      "key": "technology",
+      "label": "科技与产业",
       "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
         {
-          "code": "WTI",
-          "label": "原油",
-          "value": "104.40 / +2.35%",
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "25,437.00 / -2.86%",
           "state": "fresh"
         },
         {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,888.34 / -3.55%",
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,816.72 / +0.06%",
           "state": "fresh"
         },
         {
@@ -307,52 +301,17 @@
           "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWU9FdGV5ZVNrNVJpWGp2ZS1iajRobHRVQVotbjJqWEdtX2xDZEU1ZTZYdjBKYk90NFFKQmV0dW9qYUNpTlZNRXhsXzFlakRXT0Z0TW93WEIzRi1LQkx4U0xpUTdiU2FYaTU2eUQ3cmpXVlVWRDFKdU1Gc3ZxSEljOFlCSy0?oc=5"
+          "title": "日本央行上调通胀预期全球央行维持利率不变，但紧缩周期预计将持续人工智能股震荡引发资金涌入",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObHpxWnY1ZEJVY1RxQVJWOFhDVXpwOGtKMk4wRjhqbXhIZHJmbHVMQ1BGeFVNanhycjhndWJWYVNyN2YzOV9XNF9qUzFna01OVkdiZTQzeHI4MUJCVEFXQ092d1Q1UXFOWjV2YkRHMm5EalJodHdocHNacy1NQmdnaDNaMG9nOWdtTjVQS21Sd29WZWZBb2FIMVpfT1JOM3ZXV1JZ?oc=5"
         },
         {
           "title": "科技股抛售潮蔓延至贵金属！黄金创一年新低，白银失守50美元",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3BiYTBBeXhrNHhJYy0zX2thd1BQZWdNN0tETDY3VDV0RFNUTWNIMk41VEluVHhyM0k5M1dOTDlXdmhOSXR6QVkwUXVJckRNa2hIZ1Z5dGFEeXVUUFdTWkpSNEZIX3M2U181aFN0ckc4Z2w3eTRPaFpTN2dQUklOdlRPVURfNWZHYVplS3YxUFZPWU5EamxzNFR5dHFNZ3NC?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
-      "headline_count": 1,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-      "watch": [
-        {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
-          "state": "stale"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,888.34 / -3.55%",
-          "state": "fresh"
-        },
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "104.40 / +2.35%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "伊朗最高领袖重申结束战争须满足伊方条件 博索纳罗之子被曝赴美“流亡” | 环球市场",
-          "source": "财联社",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NM3JyT0VLUmhWcHJuYnJwNExEUnJZU1l1QkVLdlNqVFpQUy1DcmY0X09nYXJTM2JaVHlSSTdUMWNKdXRjSERXVg?oc=5"
         }
       ]
     }
