@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-11-01 18:45`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-11-01 22:14`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -94,9 +94,10 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 科技与产业（2 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 25,437.00 / -2.86%（最新） / 富时A50 12,816.72 / +0.06%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 科技与产业（3 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 25,437.00 / -2.86%（最新） / 富时A50 12,816.72 / +0.06%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
 | 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.97 / +0.06%（最新） / USD/CNH 6.6528 / -0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 | 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.97 / +0.06%（最新） / 纳斯达克 25,437.00 / -2.86%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
+| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 102.91 / +0.89%（最新） / 黄金 3,884.28 / -3.65%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 
 ### 研究观察
 
@@ -105,6 +106,7 @@
 ### 新闻雷达
 
 - [谁能阻止科技股下跌？野村：中选没有用，只有美联储！](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5) · 华尔街见闻
+- [黄金大跌、美股科技巨头大跌，市场发生了什么？](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5) · 凤凰网财经
 - [一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5) · 富途牛牛
 - [全球市场遭遇“黑色星期五”更大风暴正在酝酿？](https://news.google.com/rss/articles/CBMibkFVX3lxTE9BeWNXejNWNWNudC1IUmNuTVdxcWpXMk5DY1E1MUd1WWVtUXBmUWpQemVWUHA1NnRCdlJ1RjdlcDcyNEhhUlhZTWFFQ3hXLVNfY0R4SUpiLTIycC1wakNSRWRXbk90X2dEV1VLQUxn0gFzQVVfeXFMTV9IWm9wQk9aNms1Nm01cm1zSjdmQWpNNEQtYzU2ZEJEbTduUGQ2U1VQYTQ5N3pQQWtBVGltNnhzNzhCNmdVbUt4T0RkMHhzbEVwYUFyUlFvU0xOakJzTU9McTNuSlFENGt6WThHM2pucUctUQ?oc=5) · 禁闻网
 

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01 18:45",
+  "generated_at": "2026-11-01 22:14",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-01 18:45",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
+    "checked_at": "2026-11-01 22:14",
+    "slot": "close",
+    "slot_label": "收盘快照",
     "target_date": "2026-11-01",
     "market_data_date": "2026-10-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 18:45",
+    "generated_at": "2026-11-01 22:14",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 18:45",
+    "generated_at": "2026-11-01 22:14",
     "score": -46,
     "stance": "防守优先",
     "color": "#08783e",
@@ -273,6 +273,12 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
       },
       {
+        "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
+        "source": "凤凰网财经",
+        "published": "Sun, 01 Nov 2026 13:18:46 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5"
+      },
+      {
         "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
         "source": "富途牛牛",
         "published": "Sun, 01 Nov 2026 04:26:52 GMT",
@@ -289,7 +295,7 @@
       {
         "key": "technology",
         "label": "科技与产业",
-        "headline_count": 2,
+        "headline_count": 3,
         "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
         "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
         "watch": [
@@ -320,9 +326,9 @@
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
           },
           {
-            "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5"
+            "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
+            "source": "凤凰网财经",
+            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5"
           }
         ]
       },
@@ -395,6 +401,41 @@
             "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5"
           }
         ]
+      },
+      {
+        "key": "commodities",
+        "label": "商品与成本",
+        "headline_count": 1,
+        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "watch": [
+          {
+            "code": "WTI",
+            "label": "原油",
+            "value": "102.91 / +0.89%",
+            "state": "fresh"
+          },
+          {
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "3,884.28 / -3.65%",
+            "state": "fresh"
+          },
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          }
+        ],
+        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+        "headlines": [
+          {
+            "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
+            "source": "凤凰网财经",
+            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5"
+          }
+        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -402,11 +443,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 18:45",
+    "generated_at": "2026-11-01 22:14",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 216,
+    "signal_count": 217,
     "matured_1d": 205,
     "directional_1d": 164,
     "hit_rate_1d": 60.4,
@@ -443,14 +484,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-01 18:45",
-      "slot": "midday",
+      "captured_at": "2026-11-01 22:14",
+      "slot": "close",
       "score": "-46",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-01 22:14",
+        "slot": "close",
+        "signal_date": "2026-11-01",
+        "market_asof_date": "2026-10-30",
+        "score": "-46",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3599.02",
+        "sh_pct": "-1.44",
+        "global_avg": "-0.6023",
+        "a50_pct": "0.06027012257006081",
+        "usdcnh": "6.6528",
+        "usdcnh_pct": "-0.048076923076922906",
+        "dxy": "101.9669",
+        "dxy_pct": "0.0640814275732593",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-01 18:45",
         "slot": "midday",
@@ -921,31 +987,6 @@
         "us10y": "4.94",
         "health": "markets,us10y,vix",
         "return_1d": -1.44,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-28 21:58",
-        "slot": "close",
-        "signal_date": "2026-10-28",
-        "market_asof_date": "2026-10-28",
-        "score": "17",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3681.47",
-        "sh_pct": "0.91",
-        "global_avg": "0.3177",
-        "a50_pct": "-0.022321428571425717",
-        "usdcnh": "6.6628",
-        "usdcnh_pct": "-0.02850840998094295",
-        "dxy": "102.3419",
-        "dxy_pct": "-0.03809304274527969",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.82,
         "return_3d": null,
         "return_5d": null,
         "direction": 1,
