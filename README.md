@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-11-01 09:08`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-11-01 17:00`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -94,11 +94,11 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 商品与成本（3 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 102.91 / +0.89%（最新） / 黄金 3,884.28 / -3.65%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 科技与产业（3 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 25,437.00 / -2.86%（最新） / 富时A50 12,816.72 / +0.06%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.97 / +0.06%（最新） / USD/CNH 6.6528 / -0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 商品与成本（2 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 102.91 / +0.89%（最新） / 黄金 3,884.28 / -3.65%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 | 美元与人民币（2 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 101.97 / +0.06%（最新） / USD/CNH 6.6528 / -0.05%（最新） / 富时A50 12,816.72 / +0.06%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
-| 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 101.97 / +0.06%（最新） / USD/CNH 6.6528 / -0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 地缘与贸易（1 条） | 地缘风险 → 油金与波动率 → 通胀预期和风险偏好 | 黄金、能源、军工、航运与出口链风险敞口 | VIX 15.44（最近有效值） / 黄金 3,884.28 / -3.65%（最新） / 原油 102.91 / +0.89%（最新） | 失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 25,437.00 / -2.86%（最新） / 富时A50 12,816.72 / +0.06%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 101.97 / +0.06%（最新） / 纳斯达克 25,437.00 / -2.86%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
 
 ### 研究观察
 
@@ -106,9 +106,11 @@
 
 ### 新闻雷达
 
+- [谁能阻止科技股下跌？野村：中选没有用，只有美联储！](https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ1FQZ3FVOGFiMl90cDk2bFFBamdxUlBqYWdlZUZENUhIWWlGTmxENWtkLVBKc3phdHBSZUlSU296bHpSRXBWV0J5bk5DbDJIZDdwbDRXT1FNZjlXTy15RXlLXzZ5LTRCVVJzaGo3dnVjTXhidllFODFBSlZWSEJqWENmSllsSi1WVzIyUA?oc=5) · 搜狐网
+- [一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5) · 富途牛牛
 - [“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？](https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5) · 金融界
-- [一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5) · 金十数据
-- [全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？](https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5) · 金融界
+- [“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨](https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5) · FX168财经
+- [全球市场遭遇“黑色星期五”更大风暴正在酝酿？](https://news.google.com/rss/articles/CBMibkFVX3lxTE9BeWNXejNWNWNudC1IUmNuTVdxcWpXMk5DY1E1MUd1WWVtUXBmUWpQemVWUHA1NnRCdlJ1RjdlcDcyNEhhUlhZTWFFQ3hXLVNfY0R4SUpiLTIycC1wakNSRWRXbk90X2dEV1VLQUxn0gFzQVVfeXFMTV9IWm9wQk9aNms1Nm01cm1zSjdmQWpNNEQtYzU2ZEJEbTduUGQ2U1VQYTQ5N3pQQWtBVGltNnhzNzhCNmdVbUt4T0RkMHhzbEVwYUFyUlFvU0xOakJzTU9McTNuSlFENGt6WThHM2pucUctUQ?oc=5) · 禁闻网
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
