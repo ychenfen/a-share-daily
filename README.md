@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-11-01 22:14`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-10-30 · 最后检查 `2026-11-02 01:58`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -106,9 +106,9 @@
 ### 新闻雷达
 
 - [谁能阻止科技股下跌？野村：中选没有用，只有美联储！](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5) · 华尔街见闻
-- [黄金大跌、美股科技巨头大跌，市场发生了什么？](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5) · 凤凰网财经
+- [黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经](https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5) · 证券之星
+- [全球资产遭遇洗盘，国内市场迎来两场重磅会议](https://news.google.com/rss/articles/CBMiggFBVV95cUxQUU1GUHFmNWprUWlyZ2Y0NlR6V0ZfQVZKUFN3dG92REN4UU9EaFdWZDZZYXpKZ3Y4OFRETXQxUFFMQmhOWkxCZl9XVkctWUpTNkJ1NE9lVVY5NHFHYUdqLUpfbnpiR1ZERllSNDNUQnZGWWZmTlFoRzk1SzFYU2dVcjNn?oc=5) · 新浪新闻_手机新浪网
 - [一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5) · 富途牛牛
-- [全球市场遭遇“黑色星期五”更大风暴正在酝酿？](https://news.google.com/rss/articles/CBMibkFVX3lxTE9BeWNXejNWNWNudC1IUmNuTVdxcWpXMk5DY1E1MUd1WWVtUXBmUWpQemVWUHA1NnRCdlJ1RjdlcDcyNEhhUlhZTWFFQ3hXLVNfY0R4SUpiLTIycC1wakNSRWRXbk90X2dEV1VLQUxn0gFzQVVfeXFMTV9IWm9wQk9aNms1Nm01cm1zSjdmQWpNNEQtYzU2ZEJEbTduUGQ2U1VQYTQ5N3pQQWtBVGltNnhzNzhCNmdVbUt4T0RkMHhzbEVwYUFyUlFvU0xOakJzTU9McTNuSlFENGt6WThHM2pucUctUQ?oc=5) · 禁闻网
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 

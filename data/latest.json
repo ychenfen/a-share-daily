@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01 22:14",
+  "generated_at": "2026-11-02 01:58",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-01 22:14",
-    "slot": "close",
-    "slot_label": "收盘快照",
-    "target_date": "2026-11-01",
+    "checked_at": "2026-11-02 01:58",
+    "slot": "night",
+    "slot_label": "夜间校验",
+    "target_date": "2026-11-02",
     "market_data_date": "2026-10-30",
     "market_state": "non_trading",
     "pulse_updated": false,
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 22:14",
+    "generated_at": "2026-11-02 01:58",
     "markets": [
       {
         "code": "SPX",
@@ -127,7 +127,7 @@
         "pct": 0.0640814275732593,
         "change": 0.06529999999999347,
         "previous_close": 101.9016,
-        "quote_time": "2026-10-31 05:41:42",
+        "quote_time": "2026-10-31 04:59:00",
         "stale": false
       },
       {
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 22:14",
+    "generated_at": "2026-11-02 01:58",
     "score": -46,
     "stance": "防守优先",
     "color": "#08783e",
@@ -273,22 +273,22 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
       },
       {
-        "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
-        "source": "凤凰网财经",
+        "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经",
+        "source": "证券之星",
         "published": "Sun, 01 Nov 2026 13:18:46 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5"
+      },
+      {
+        "title": "全球资产遭遇洗盘，国内市场迎来两场重磅会议",
+        "source": "新浪新闻_手机新浪网",
+        "published": "Sun, 01 Nov 2026 13:30:16 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUU1GUHFmNWprUWlyZ2Y0NlR6V0ZfQVZKUFN3dG92REN4UU9EaFdWZDZZYXpKZ3Y4OFRETXQxUFFMQmhOWkxCZl9XVkctWUpTNkJ1NE9lVVY5NHFHYUdqLUpfbnpiR1ZERllSNDNUQnZGWWZmTlFoRzk1SzFYU2dVcjNn?oc=5"
       },
       {
         "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
         "source": "富途牛牛",
         "published": "Sun, 01 Nov 2026 04:26:52 GMT",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5"
-      },
-      {
-        "title": "全球市场遭遇“黑色星期五”更大风暴正在酝酿？",
-        "source": "禁闻网",
-        "published": "Sat, 31 Oct 2026 13:48:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9BeWNXejNWNWNudC1IUmNuTVdxcWpXMk5DY1E1MUd1WWVtUXBmUWpQemVWUHA1NnRCdlJ1RjdlcDcyNEhhUlhZTWFFQ3hXLVNfY0R4SUpiLTIycC1wakNSRWRXbk90X2dEV1VLQUxn0gFzQVVfeXFMTV9IWm9wQk9aNms1Nm01cm1zSjdmQWpNNEQtYzU2ZEJEbTduUGQ2U1VQYTQ5N3pQQWtBVGltNnhzNzhCNmdVbUt4T0RkMHhzbEVwYUFyUlFvU0xOakJzTU9McTNuSlFENGt6WThHM2pucUctUQ?oc=5"
       }
     ],
     "events": [
@@ -326,9 +326,9 @@
             "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
           },
           {
-            "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
-            "source": "凤凰网财经",
-            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5"
+            "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经",
+            "source": "证券之星",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5"
           }
         ]
       },
@@ -431,9 +431,9 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
-            "source": "凤凰网财经",
-            "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NcGZ0a1FCSHZyekVBVERLQkl0MzhqN1JVaW50c3dMdkd2NkoxU1I5OEpVUWxhTWZ2ZzVXUjVtOHZTYUc4U2JCU1JvemdWVGdR?oc=5"
+            "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经",
+            "source": "证券之星",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5"
           }
         ]
       }
@@ -443,11 +443,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 22:14",
+    "generated_at": "2026-11-02 01:58",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 217,
+    "signal_count": 218,
     "matured_1d": 205,
     "directional_1d": 164,
     "hit_rate_1d": 60.4,
@@ -484,14 +484,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-01 22:14",
-      "slot": "close",
+      "captured_at": "2026-11-02 01:58",
+      "slot": "night",
       "score": "-46",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-02 01:58",
+        "slot": "night",
+        "signal_date": "2026-11-02",
+        "market_asof_date": "2026-10-30",
+        "score": "-46",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3599.02",
+        "sh_pct": "-1.44",
+        "global_avg": "-0.6023",
+        "a50_pct": "0.06027012257006081",
+        "usdcnh": "6.6528",
+        "usdcnh_pct": "-0.048076923076922906",
+        "dxy": "101.9669",
+        "dxy_pct": "0.0640814275732593",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-01 22:14",
         "slot": "close",
@@ -962,31 +987,6 @@
         "us10y": "4.94",
         "health": "markets,us10y,vix",
         "return_1d": -0.82,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-29 02:23",
-        "slot": "night",
-        "signal_date": "2026-10-29",
-        "market_asof_date": "2026-10-28",
-        "score": "21",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3681.47",
-        "sh_pct": "0.91",
-        "global_avg": "0.2627",
-        "a50_pct": "-0.09567426108374466",
-        "usdcnh": "6.6644",
-        "usdcnh_pct": "-0.004501327891726081",
-        "dxy": "102.3884",
-        "dxy_pct": "0.007325585143336255",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -1.44,
         "return_3d": null,
         "return_5d": null,
         "direction": 1,
