@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01 01:16",
+  "generated_at": "2026-11-01 09:08",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-01 01:16",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-11-01 09:08",
+    "slot": "overnight",
+    "slot_label": "外围收盘",
     "target_date": "2026-11-01",
     "market_data_date": "2026-10-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 01:16",
+    "generated_at": "2026-11-01 09:08",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 01:16",
-    "score": -46,
+    "generated_at": "2026-11-01 09:08",
+    "score": -48,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 1 / 风险词 2",
-        "contribution": -2,
+        "value": "正向词 0 / 风险词 2",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -261,17 +261,11 @@
       "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
     ],
     "news_tone": {
-      "positive_hits": 1,
+      "positive_hits": 0,
       "negative_hits": 2,
-      "score": -2
+      "score": -4
     },
     "news": [
-      {
-        "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
-        "source": "金十数据",
-        "published": "Sat, 31 Oct 2026 04:06:49 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
-      },
       {
         "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
         "source": "金融界",
@@ -279,23 +273,23 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
       },
       {
-        "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-        "source": "搜狐网",
-        "published": "Sat, 31 Oct 2026 05:44:01 GMT",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPem9vOHVXcHNISThEeUJuZkhuSS0teUZMZEdvV1o2N2NjSWVsQlFnNXhxbUZ1MVpSU1dhNTczVl9WellGMDZ6bktTMFdoeVNXMmNRMjhqVDRCWEQ4d0FUalJpOHA2RDJoY3VzMENyaGx4NkJhODlRanM3a016WkNaTmRFc3ByVzJ1TXZsQ0lBMVlhdjdkQTlMb2EwYVdGa2RqTk1XSi1ocmFEN3lNWDJvSHUyUzdCSnhjcVlYYXduaWVUX0pXT1dTY0J6Y3hYeUl5RUE?oc=5"
+        "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
+        "source": "金十数据",
+        "published": "Sat, 31 Oct 2026 04:06:49 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
       },
       {
-        "title": "黄金深度剖析：看到什么信号时，黄金将不再上涨",
-        "source": "TradingKey",
-        "published": "Fri, 30 Oct 2026 21:16:17 GMT",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT3Z4NS1qWDh1bDhXNVZDR2IzUTV1dlU4bVJ2aVZWWEtaYk90czhnbzNHWUpMc1gtQ2Z0aXo5RG1JbzRHd2hDbTI2ZFQ0dmpHdlNhY1Rhd0cyN2NJOHk3VXZiWDMxZ1l6czFBby1tcHR4OUNYaGdpZVNocGxvMEY3UF9pNGZXcnVkaEtfZnZYNE5qcVpGMVcweV9tc1Z3bFB0a1ZRYVJLOUNoRHlFbnMtNGFuU0lCd1RMNFVIanN5ZUx5ZC1sZEZBcHBHcE85RnFNRzZ2YVMzZHpWaVlKMEd5N0RKR2RkOUxsSTRsRXU2SlM?oc=5"
+        "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
+        "source": "金融界",
+        "published": "Sat, 31 Oct 2026 05:44:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
       }
     ],
     "events": [
       {
         "key": "commodities",
         "label": "商品与成本",
-        "headline_count": 4,
+        "headline_count": 3,
         "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
         "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
         "watch": [
@@ -321,14 +315,14 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
-          },
-          {
             "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
             "source": "金融界",
             "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
+          },
+          {
+            "title": "一周展望：黄金冲上4600后，美伊制裁、杰克逊霍尔、PCE将轮番轰炸-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWS1HR1c1TEVkT3lDNFI4V08wSFdzb0ZxeVZHellZaDl2djZFaUgwcnV4c1FGZTR6Xzk5YnhoY1FiSHRLaGg0VDZkSFYwNmM?oc=5"
           }
         ]
       },
@@ -367,8 +361,8 @@
           },
           {
             "title": "全球市场遭遇“黑色星期五”！黄金跌破3900美元、白银暴跌逾6%、英特尔崩跌28%，一场更大的风暴正在酝酿？",
-            "source": "搜狐网",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPem9vOHVXcHNISThEeUJuZkhuSS0teUZMZEdvV1o2N2NjSWVsQlFnNXhxbUZ1MVpSU1dhNTczVl9WellGMDZ6bktTMFdoeVNXMmNRMjhqVDRCWEQ4d0FUalJpOHA2RDJoY3VzMENyaGx4NkJhODlRanM3a016WkNaTmRFc3ByVzJ1TXZsQ0lBMVlhdjdkQTlMb2EwYVdGa2RqTk1XSi1ocmFEN3lNWDJvSHUyUzdCSnhjcVlYYXduaWVUX0pXT1dTY0J6Y3hYeUl5RUE?oc=5"
+            "source": "金融界",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51VVZRa2xpWDZST3E5SnJqc2xKaEZGWTVwc2FrWWt6Y2t1ODFqNTN2UTRjX1Z0OUFWS2xlbFplWTNiUHVRTDBJek95N3NhM19aTXZrWnktZUVtZjBuMnFrdVgzMA?oc=5"
           }
         ]
       },
@@ -483,11 +477,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 01:16",
+    "generated_at": "2026-11-01 09:08",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 213,
+    "signal_count": 214,
     "matured_1d": 205,
     "directional_1d": 164,
     "hit_rate_1d": 60.4,
@@ -524,14 +518,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-01 01:16",
-      "slot": "night",
-      "score": "-46",
+      "captured_at": "2026-11-01 09:08",
+      "slot": "overnight",
+      "score": "-48",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-01 09:08",
+        "slot": "overnight",
+        "signal_date": "2026-11-01",
+        "market_asof_date": "2026-10-30",
+        "score": "-48",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3599.02",
+        "sh_pct": "-1.44",
+        "global_avg": "-0.6023",
+        "a50_pct": "0.06027012257006081",
+        "usdcnh": "6.6528",
+        "usdcnh_pct": "-0.048076923076922906",
+        "dxy": "101.9669",
+        "dxy_pct": "0.0640814275732593",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-01 01:16",
         "slot": "night",
@@ -998,31 +1017,6 @@
         "usdcnh_pct": "0.0045013278917371835",
         "dxy": "102.3982",
         "dxy_pct": "0.016897683063943347",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.91,
-        "return_3d": -1.358651,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-28 09:19",
-        "slot": "overnight",
-        "signal_date": "2026-10-28",
-        "market_asof_date": "2026-10-28",
-        "score": "-21",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3648.30",
-        "sh_pct": "-1.33",
-        "global_avg": "0.626",
-        "a50_pct": "1.0342582545341816",
-        "usdcnh": "6.6655",
-        "usdcnh_pct": "0.012003541044602883",
-        "dxy": "102.3859",
-        "dxy_pct": "0.004883723428883435",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
