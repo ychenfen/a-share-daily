@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01 17:00",
+  "generated_at": "2026-11-01 18:45",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-01 17:00",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-11-01 18:45",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-11-01",
     "market_data_date": "2026-10-30",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 17:00",
+    "generated_at": "2026-11-01 18:45",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 17:00",
-    "score": -48,
+    "generated_at": "2026-11-01 18:45",
+    "score": -46,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 2",
-        "contribution": -4,
+        "value": "正向词 0 / 风险词 1",
+        "contribution": -2,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,33 +262,21 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 2,
-      "score": -4
+      "negative_hits": 1,
+      "score": -2
     },
     "news": [
       {
         "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-        "source": "搜狐网",
-        "published": "Sun, 01 Nov 2026 06:58:30 GMT",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ1FQZ3FVOGFiMl90cDk2bFFBamdxUlBqYWdlZUZENUhIWWlGTmxENWtkLVBKc3phdHBSZUlSU296bHpSRXBWV0J5bk5DbDJIZDdwbDRXT1FNZjlXTy15RXlLXzZ5LTRCVVJzaGo3dnVjTXhidllFODFBSlZWSEJqWENmSllsSi1WVzIyUA?oc=5"
+        "source": "华尔街见闻",
+        "published": "Sun, 01 Nov 2026 06:52:17 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
       },
       {
         "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
         "source": "富途牛牛",
         "published": "Sun, 01 Nov 2026 04:26:52 GMT",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTV2cDZQN1djUDNKZ25OVTJRZkFzX0JZMG1ibFlQLXZodXBJTXFOZlhiUUtzNVhWMWhrd3pCN2IyTzd5MS1nbTNVTGdYdFZrMXh0anA1MWp3RjkxVEZvVTJKNWVoTGNDVW5xSjFRSDZ0WVo3bkpNM0xva2QtbF9oQm1FMkN1by1KaUZoOGlsaUhNNXU3UEZwbFpzSXczOVRYTVJlZm84WURmZw?oc=5"
-      },
-      {
-        "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
-        "source": "金融界",
-        "published": "Sat, 31 Oct 2026 08:05:09 GMT",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
-      },
-      {
-        "title": "“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨",
-        "source": "FX168财经",
-        "published": "Sat, 31 Oct 2026 08:44:20 GMT",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5"
       },
       {
         "title": "全球市场遭遇“黑色星期五”更大风暴正在酝酿？",
@@ -301,7 +289,7 @@
       {
         "key": "technology",
         "label": "科技与产业",
-        "headline_count": 3,
+        "headline_count": 2,
         "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
         "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
         "watch": [
@@ -328,8 +316,8 @@
         "headlines": [
           {
             "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-            "source": "搜狐网",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ1FQZ3FVOGFiMl90cDk2bFFBamdxUlBqYWdlZUZENUhIWWlGTmxENWtkLVBKc3phdHBSZUlSU296bHpSRXBWV0J5bk5DbDJIZDdwbDRXT1FNZjlXTy15RXlLXzZ5LTRCVVJzaGo3dnVjTXhidllFODFBSlZWSEJqWENmSllsSi1WVzIyUA?oc=5"
+            "source": "华尔街见闻",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
           },
           {
             "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
@@ -341,7 +329,7 @@
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 2,
+        "headline_count": 1,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -368,93 +356,8 @@
         "headlines": [
           {
             "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-            "source": "搜狐网",
-            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ1FQZ3FVOGFiMl90cDk2bFFBamdxUlBqYWdlZUZENUhIWWlGTmxENWtkLVBKc3phdHBSZUlSU296bHpSRXBWV0J5bk5DbDJIZDdwbDRXT1FNZjlXTy15RXlLXzZ5LTRCVVJzaGo3dnVjTXhidllFODFBSlZWSEJqWENmSllsSi1WVzIyUA?oc=5"
-          },
-          {
-            "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
-            "source": "金融界",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "commodities",
-        "label": "商品与成本",
-        "headline_count": 2,
-        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-        "watch": [
-          {
-            "code": "WTI",
-            "label": "原油",
-            "value": "102.91 / +0.89%",
-            "state": "fresh"
-          },
-          {
-            "code": "GOLD",
-            "label": "黄金",
-            "value": "3,884.28 / -3.65%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-        "headlines": [
-          {
-            "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
-            "source": "金融界",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
-          },
-          {
-            "title": "“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨",
-            "source": "FX168财经",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "currency",
-        "label": "美元与人民币",
-        "headline_count": 2,
-        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-        "watch": [
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "101.97 / +0.06%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6528 / -0.05%",
-            "state": "fresh"
-          },
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "12,816.72 / +0.06%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-        "headlines": [
-          {
-            "title": "“黑色星期五”席卷全球！英特尔重挫28%创52年来最大跌幅，费城半导体指数大跌7.2%，黄金跌破3900美元崩跌3.6%，12月加息概率逼近86%！更大风暴还在后头？",
-            "source": "金融界",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IRklPMHluV212QXhsWVBmVl9hUUY2ZU1zVHBYNzNkcXRpeXlVLUtmenlBMDRkYk05aG5GaThiVXVZR2RjVjdfbHlZck9UMGhFM0hwd0pnVGxvNVl6SjNOQi02clBMS0RIQmJIUXFKY0J0QQ?oc=5"
-          },
-          {
-            "title": "“5%时代”真的来了？美债收益率创2004年新高，黄金比特币齐跌、美元原油齐涨",
-            "source": "FX168财经",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNdEdfMXZDSVlNSVpGYVhaTGVRMmVTQ3BoT1ZTZzI5Q2ZrUkRTVWE3T2xvQ2RpbzNjQldtWWo4bGUycTNidzY1Z2d1Y1NoamN2N3R4OXJXSWJtMFY0QVF5TlpfZURNSHFlVUx5eg?oc=5"
+            "source": "华尔街见闻",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
           }
         ]
       },
@@ -499,11 +402,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-01 17:00",
+    "generated_at": "2026-11-01 18:45",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 215,
+    "signal_count": 216,
     "matured_1d": 205,
     "directional_1d": 164,
     "hit_rate_1d": 60.4,
@@ -540,14 +443,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-01 17:00",
-      "slot": "open",
-      "score": "-48",
+      "captured_at": "2026-11-01 18:45",
+      "slot": "midday",
+      "score": "-46",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-01 18:45",
+        "slot": "midday",
+        "signal_date": "2026-11-01",
+        "market_asof_date": "2026-10-30",
+        "score": "-46",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3599.02",
+        "sh_pct": "-1.44",
+        "global_avg": "-0.6023",
+        "a50_pct": "0.06027012257006081",
+        "usdcnh": "6.6528",
+        "usdcnh_pct": "-0.048076923076922906",
+        "dxy": "101.9669",
+        "dxy_pct": "0.0640814275732593",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-01 17:00",
         "slot": "open",
@@ -1021,31 +949,6 @@
         "return_3d": null,
         "return_5d": null,
         "direction": 1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-10-28 17:58",
-        "slot": "midday",
-        "signal_date": "2026-10-28",
-        "market_asof_date": "2026-10-28",
-        "score": "-33",
-        "stance": "防守优先",
-        "confidence": "中",
-        "sh_close": "3648.30",
-        "sh_pct": "-1.33",
-        "global_avg": "0.6644",
-        "a50_pct": "-0.07912561576355337",
-        "usdcnh": "6.6648",
-        "usdcnh_pct": "0.0015004426305642582",
-        "dxy": "102.3891",
-        "dxy_pct": "0.008009306423373275",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.91,
-        "return_3d": -1.358651,
-        "return_5d": null,
-        "direction": -1,
         "hit_1d": false
       }
     ],
