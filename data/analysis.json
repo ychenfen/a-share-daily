@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02 19:36",
-  "score": -47,
+  "generated_at": "2026-11-03 00:59",
+  "score": -39,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.78%",
-      "contribution": -5.4,
+      "value": "6 个市场均值 +0.85%",
+      "contribution": 5.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.02%",
-      "contribution": 0.1,
+      "value": "富时 A50 +0.17%",
+      "contribution": 1.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6461 (-0.09%) / DXY 101.64 (-0.31%)",
-      "contribution": 2.7,
+      "value": "USD/CNH 6.6465 (-0.09%) / DXY 101.67 (-0.28%)",
+      "contribution": 2.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 2",
-      "contribution": -4,
+      "value": "正向词 0 / 风险词 4",
+      "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,8 +67,8 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 2,
-    "score": -4
+    "negative_hits": 4,
+    "score": -8
   },
   "news": [
     {
@@ -84,94 +84,60 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yRzFJc0thdzhIc05xSmFwQk94eUdsUDN6SW1HM0xJWk9TU180WnRacXNiTUNibnFXbEkwbGtMM21DVkQ0NzhEdE5CeW9OQ1E?oc=5"
     },
     {
-      "title": "港股早报｜股票回购增持专项贷款或新增两千亿级 美股纳指跌近3%",
-      "source": "财联社",
-      "published": "Sun, 01 Nov 2026 23:12:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBST0hHS2Q5bVEyYXFKRWFmbDJwY0ZWMHdHS042Tkg5eGk5NjRrUmsyWWpNOHJFMFc0alJsV0YtVHQzckVkZVdOTg?oc=5"
+      "title": "全球市场突现大反转！特朗普释放重磅信号 油价暴跌逾7%、道指飙升超570点、黄金暴拉95美元、白银大涨4%",
+      "source": "FX168财经",
+      "published": "Mon, 02 Nov 2026 16:48:44 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3BZNWJXd3U3M2gxYjBnb1l0VmQwZ25WZk9QYUQ3SUZaQ3FPaXdHZFdkSTgzeHlYdXVGQ2cyQWtKTkxDWTRRMDB2NnYwOTJUdmgtUkNOcENGTzhvcFhYMFZVUkkyak4zMzRQMWctdUxXOVU0Y0J4SV9VTU1KcVR3ZkdTaGE?oc=5"
     },
     {
-      "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
-      "source": "手机新浪网",
-      "published": "Sun, 01 Nov 2026 13:39:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3p5YWhOLS1qQnRxTzAxcGxYSVR3YmlhaTlqZkVQai1IZnduSVhFNkZ3RG5GY25qY0dOY1Q0OUtRajhfV3p0akJfUTQ3ZGRzRXJlUURwcFNWRkxuQkxta2hvcTMwMW9LdkRhekhTaFNlYVVPRkFGT0hLRU02Xy1kR1NtbkhpWWN3bmVRTHlYY3FtMlBh?oc=5"
+      "title": "黑色星期五，美股杀跌！黄金狂砸140美元，白银闪崩破50！",
+      "source": "财富号",
+      "published": "Mon, 02 Nov 2026 03:02:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQV0dSUGNhQVBhTnhDZzZxa3d3cjZpMjVBbUdUYkpUSVJPYXJfSEtQam1zRGNoSHN3S01DN1FmX09MQVN6ZWt1Szdsb01LS2hBZ0hFN2tac2R6QkdLeFV6WFVDalZoT2ZqZkVaaWg3dVZFWTd6YXhzVG05dlo5VVlBdG1kSVdHVUlraTI3NmJHbU8tQWdWVkl0NjZLQUpzTm81TWNEN3h0QzRnOVBxNXRObFJxVUkzUWwyOVR5akJ5dTkzNHdnS1Z2NVZkX18wMnExWHJlLTF6clBHaFlqQm45cmlKMWJyX1ZwSUxaSmNXRmIzdi04VXltdzBn?oc=5"
+    },
+    {
+      "title": "全球资产遭遇洗盘 国内市场迎来两场重磅会议",
+      "source": "网易新闻客户端",
+      "published": "Mon, 02 Nov 2026 00:16:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeTZLV1ZkRHdDcU9nTi1iejYxSGNUMjRqZFBoMTdKWnRVTHl3VzNNU1p2Zkl5N21oWjI2cnRVVHVoRWw3M0hUcTZtRElMSk04bWplZnpYRS1vZzJ2Rm9JUGg2dFlTRUEtYzNCbWVIT210YTZBSDhhaEVJaWxEdEZneXp3?oc=5"
     },
     {
       "title": "中期选举恐给特朗普沉重一击！市场暴跌后缺乏方向，黄金3900徘徊不定",
       "source": "FX168财经",
-      "published": "Mon, 02 Nov 2026 11:35:52 GMT",
+      "published": "Mon, 02 Nov 2026 11:36:54 GMT",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EMl9iZEJFYXlWdm1WSzQ4bzFEa1FhYjEwLWlUV1lRT0NmZXIyd0dIOS11bS12a0Q4MVRJRmRSMjl1blRUVlZQWjkxNExZRXFVUEZXTTRKZTNIVERfNGlMNzN0VmVVb2JJMkVRaw?oc=5"
-    },
-    {
-      "title": "全球资产遭遇洗盘 流动性紧缩引发市场巨变",
-      "source": "中华网",
-      "published": "Sun, 01 Nov 2026 16:39:19 GMT",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwMlQyRVZUS3p3cEFORVZpZkQ0MFMyMnVDUnNrSTQ5ZUV3TXgxYlU1Q1F5YkdreDJIQjAzSm9SbGMybUZJQ052elhuQTdpT0NldWdDc2R5Q2ktX2Z5d2ZnUGM2SS1WNnFfSEFETDA0Skw?oc=5"
     },
     {
       "title": "一周展望：AI交易退潮？市场迎来财报、非农与选举三重考验",
       "source": "FOREX.com",
       "published": "Sun, 01 Nov 2026 18:15:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa3I1bm5QcjZkUU9WY2tyMWEza19zNFRieEdkdmY0ekxfX3VJd0VNcE1GNVZudGN4d0FfbW9iVVBZQW1OZTVCT2tyN01nX05qc21VQ25Jb2Z3bEFON0h2Sk5jYVNNWVM3YVZnRV9zYXFRZnc1NTVVQVBmaWlyTU9GWVRydmNuMTVlZERuSGlyWGNxRjNoNy02R3NYTEhINDlEVy1N0gGvAUFVX3lxTE04ZzRmUHhDWHU2NmxLMzZCam96OWF2eFdHNUs0V3R1U1RGOTl5bTdPTElHM0tZcVRsQ3hHZEsxaHg0VjdJQzREX3ZfQTB5SFdKaTRROTdPc2lZTldaQXpNcU5nWS1HaEFiazNCYkNXcmZyaG5pWnlKcl9uQmpkdmtzOTYyZFVIeVRBb1I2OWVCb2luSnprUGJvbmhfVXVjeDBnd3I0S0xyc0ZCNE95dzg?oc=5"
+    },
+    {
+      "title": "现在，未来12个月美联储总加息幅度定价仅为80个基点…… 较10月初近115个基点的较高水平下降",
+      "source": "新浪网",
+      "published": "Mon, 02 Nov 2026 13:15:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fZThRRzJSajd4QTRZelhaYV80NVVkMU9VOElzZ2R4X3c4Q3lIR0VWRzcyYmN3TmdHTFo4a0FDZE10UVNIQkVBZ0V5X0NUc0tnNGNtSVRPNEZacGJ4Z3AzZ3ViNA?oc=5"
     }
   ],
   "events": [
     {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 2,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "25,437.00 / -2.86%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,866.20 / +0.02%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-          "source": "新浪网",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWZHWTNCWDNPM1NtTnNPdzBRLXhqQmVhRl9EcG5KZWlMdVJmYkZyeVZkeS1wMlVpTGJCSmszMWI3d1IzbWxpaHNFWnNJMHlnYnpZYml2ZS1uOXRRd256RkM5NWI0blZrV05OQkdRbE5EU055b1FUWkkxMkZ0QTU3RVduWEVwRFM0bGZyeE55VDZPRmlROV9HbQ?oc=5"
-        },
-        {
-          "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3p5YWhOLS1qQnRxTzAxcGxYSVR3YmlhaTlqZkVQai1IZnduSVhFNkZ3RG5GY25qY0dOY1Q0OUtRajhfV3p0akJfUTQ3ZGRzRXJlUURwcFNWRkxuQkxta2hvcTMwMW9LdkRhekhTaFNlYVVPRkFGT0hLRU02Xy1kR1NtbkhpWWN3bmVRTHlYY3FtMlBh?oc=5"
-        }
-      ]
-    },
-    {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "99.32 / -4.61%",
+          "value": "96.50 / -7.32%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,916.22 / +0.44%",
+          "value": "3,978.07 / +2.03%",
           "state": "fresh"
         },
         {
@@ -184,21 +150,21 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3p5YWhOLS1qQnRxTzAxcGxYSVR3YmlhaTlqZkVQai1IZnduSVhFNkZ3RG5GY25qY0dOY1Q0OUtRajhfV3p0akJfUTQ3ZGRzRXJlUURwcFNWRkxuQkxta2hvcTMwMW9LdkRhekhTaFNlYVVPRkFGT0hLRU02Xy1kR1NtbkhpWWN3bmVRTHlYY3FtMlBh?oc=5"
+          "title": "全球市场突现大反转！特朗普释放重磅信号 油价暴跌逾7%、道指飙升超570点、黄金暴拉95美元、白银大涨4%",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3BZNWJXd3U3M2gxYjBnb1l0VmQwZ25WZk9QYUQ3SUZaQ3FPaXdHZFdkSTgzeHlYdXVGQ2cyQWtKTkxDWTRRMDB2NnYwOTJUdmgtUkNOcENGTzhvcFhYMFZVUkkyak4zMzRQMWctdUxXOVU0Y0J4SV9VTU1KcVR3ZkdTaGE?oc=5"
         },
         {
-          "title": "中期选举恐给特朗普沉重一击！市场暴跌后缺乏方向，黄金3900徘徊不定",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EMl9iZEJFYXlWdm1WSzQ4bzFEa1FhYjEwLWlUV1lRT0NmZXIyd0dIOS11bS12a0Q4MVRJRmRSMjl1blRUVlZQWjkxNExZRXFVUEZXTTRKZTNIVERfNGlMNzN0VmVVb2JJMkVRaw?oc=5"
+          "title": "黑色星期五，美股杀跌！黄金狂砸140美元，白银闪崩破50！",
+          "source": "财富号",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQV0dSUGNhQVBhTnhDZzZxa3d3cjZpMjVBbUdUYkpUSVJPYXJfSEtQam1zRGNoSHN3S01DN1FmX09MQVN6ZWt1Szdsb01LS2hBZ0hFN2tac2R6QkdLeFV6WFVDalZoT2ZqZkVaaWg3dVZFWTd6YXhzVG05dlo5VVlBdG1kSVdHVUlraTI3NmJHbU8tQWdWVkl0NjZLQUpzTm81TWNEN3h0QzRnOVBxNXRObFJxVUkzUWwyOVR5akJ5dTkzNHdnS1Z2NVZkX18wMnExWHJlLTF6clBHaFlqQm45cmlKMWJyX1ZwSUxaSmNXRmIzdi04VXltdzBn?oc=5"
         }
       ]
     },
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -211,13 +177,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.64 / -0.31%",
+          "value": "101.67 / -0.28%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6461 / -0.09%",
+          "value": "6.6465 / -0.09%",
           "state": "fresh"
         }
       ],
@@ -227,6 +193,51 @@
           "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
           "source": "新浪网",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWZHWTNCWDNPM1NtTnNPdzBRLXhqQmVhRl9EcG5KZWlMdVJmYkZyeVZkeS1wMlVpTGJCSmszMWI3d1IzbWxpaHNFWnNJMHlnYnpZYml2ZS1uOXRRd256RkM5NWI0blZrV05OQkdRbE5EU055b1FUWkkxMkZ0QTU3RVduWEVwRFM0bGZyeE55VDZPRmlROV9HbQ?oc=5"
+        },
+        {
+          "title": "现在，未来12个月美联储总加息幅度定价仅为80个基点…… 较10月初近115个基点的较高水平下降",
+          "source": "新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fZThRRzJSajd4QTRZelhaYV80NVVkMU9VOElzZ2R4X3c4Q3lIR0VWRzcyYmN3TmdHTFo4a0FDZE10UVNIQkVBZ0V5X0NUc0tnNGNtSVRPNEZacGJ4Z3AzZ3ViNA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.67 / -0.28%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6465 / -0.09%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,884.52 / +0.17%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "全球市场突现大反转！特朗普释放重磅信号 油价暴跌逾7%、道指飙升超570点、黄金暴拉95美元、白银大涨4%",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3BZNWJXd3U3M2gxYjBnb1l0VmQwZ25WZk9QYUQ3SUZaQ3FPaXdHZFdkSTgzeHlYdXVGQ2cyQWtKTkxDWTRRMDB2NnYwOTJUdmgtUkNOcENGTzhvcFhYMFZVUkkyak4zMzRQMWctdUxXOVU0Y0J4SV9VTU1KcVR3ZkdTaGE?oc=5"
+        },
+        {
+          "title": "黑色星期五，美股杀跌！黄金狂砸140美元，白银闪崩破50！",
+          "source": "财富号",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQV0dSUGNhQVBhTnhDZzZxa3d3cjZpMjVBbUdUYkpUSVJPYXJfSEtQam1zRGNoSHN3S01DN1FmX09MQVN6ZWt1Szdsb01LS2hBZ0hFN2tac2R6QkdLeFV6WFVDalZoT2ZqZkVaaWg3dVZFWTd6YXhzVG05dlo5VVlBdG1kSVdHVUlraTI3NmJHbU8tQWdWVkl0NjZLQUpzTm81TWNEN3h0QzRnOVBxNXRObFJxVUkzUWwyOVR5akJ5dTkzNHdnS1Z2NVZkX18wMnExWHJlLTF6clBHaFlqQm45cmlKMWJyX1ZwSUxaSmNXRmIzdi04VXltdzBn?oc=5"
         }
       ]
     },
@@ -246,13 +257,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.64 / -0.31%",
+          "value": "101.67 / -0.28%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,437.00 / -2.86%",
+          "value": "25,608.55 / +0.67%",
           "state": "fresh"
         }
       ],
@@ -262,6 +273,41 @@
           "title": "一周展望：AI交易退潮？市场迎来财报、非农与选举三重考验",
           "source": "FOREX.com",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa3I1bm5QcjZkUU9WY2tyMWEza19zNFRieEdkdmY0ekxfX3VJd0VNcE1GNVZudGN4d0FfbW9iVVBZQW1OZTVCT2tyN01nX05qc21VQ25Jb2Z3bEFON0h2Sk5jYVNNWVM3YVZnRV9zYXFRZnc1NTVVQVBmaWlyTU9GWVRydmNuMTVlZERuSGlyWGNxRjNoNy02R3NYTEhINDlEVy1N0gGvAUFVX3lxTE04ZzRmUHhDWHU2NmxLMzZCam96OWF2eFdHNUs0V3R1U1RGOTl5bTdPTElHM0tZcVRsQ3hHZEsxaHg0VjdJQzREX3ZfQTB5SFdKaTRROTdPc2lZTldaQXpNcU5nWS1HaEFiazNCYkNXcmZyaG5pWnlKcl9uQmpkdmtzOTYyZFVIeVRBb1I2OWVCb2luSnprUGJvbmhfVXVjeDBnd3I0S0xyc0ZCNE95dzg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "25,608.55 / +0.67%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,884.52 / +0.17%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
+          "source": "新浪网",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWZHWTNCWDNPM1NtTnNPdzBRLXhqQmVhRl9EcG5KZWlMdVJmYkZyeVZkeS1wMlVpTGJCSmszMWI3d1IzbWxpaHNFWnNJMHlnYnpZYml2ZS1uOXRRd256RkM5NWI0blZrV05OQkdRbE5EU055b1FUWkkxMkZ0QTU3RVduWEVwRFM0bGZyeE55VDZPRmlROV9HbQ?oc=5"
         }
       ]
     }
