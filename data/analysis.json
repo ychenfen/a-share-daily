@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02 01:58",
+  "generated_at": "2026-11-02 09:29",
   "score": -46,
   "stance": "防守优先",
   "color": "#08783e",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.60%",
-      "contribution": -4.2,
+      "value": "6 个市场均值 -0.85%",
+      "contribution": -5.9,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.06%",
-      "contribution": 0.4,
+      "value": "富时 A50 +0.52%",
+      "contribution": 3.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6528 (-0.05%) / DXY 101.97 (+0.06%)",
-      "contribution": 0.3,
+      "value": "USD/CNH 6.6534 (+0.02%) / DXY 101.92 (-0.03%)",
+      "contribution": -0.0,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -73,21 +73,27 @@
   "news": [
     {
       "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-      "source": "华尔街见闻",
-      "published": "Sun, 01 Nov 2026 06:52:17 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
+      "source": "新浪网",
+      "published": "Sun, 01 Nov 2026 23:36:30 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS2FCT21nWE5mNFhUb0VGYXEyWFJYekJ4Nk8zaF9TblRnV2NOa1E0aVEyd0ZSLVQwR1pEMU1hSzBkU1BOZFU2WWhnbEZMOFhpS3FmZEJqWG83OV85eVR3RFNFT18xUkNhRlNnZ2pScHBWQmRCbDhuMURYV1hXQ2IxemdkOVd4Yy1RLWJ3VnhCMll2YU1OSUc0SA?oc=5"
     },
     {
-      "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经",
-      "source": "证券之星",
-      "published": "Sun, 01 Nov 2026 13:18:46 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5"
+      "title": "本周重磅！美国中期选举英国、澳洲央行政策利率_综述_全球资讯",
+      "source": "币海NEWS",
+      "published": "Sun, 01 Nov 2026 08:53:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rTVM4V3ZNUGM4a1kzRGVOcmVYdFV5UktOVlBKT2dhTS1RV1plQWNQUnFKU09aS3pMRGw4SE4zWnpwUGRrQTBkNVZSVXppa1BxQmRfdHpGblZDQk1YLWllZ2I0WlJxVGM?oc=5"
     },
     {
-      "title": "全球资产遭遇洗盘，国内市场迎来两场重磅会议",
-      "source": "新浪新闻_手机新浪网",
-      "published": "Sun, 01 Nov 2026 13:30:16 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUU1GUHFmNWprUWlyZ2Y0NlR6V0ZfQVZKUFN3dG92REN4UU9EaFdWZDZZYXpKZ3Y4OFRETXQxUFFMQmhOWkxCZl9XVkctWUpTNkJ1NE9lVVY5NHFHYUdqLUpfbnpiR1ZERllSNDNUQnZGWWZmTlFoRzk1SzFYU2dVcjNn?oc=5"
+      "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
+      "source": "手机新浪网",
+      "published": "Sun, 01 Nov 2026 13:39:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3p5YWhOLS1qQnRxTzAxcGxYSVR3YmlhaTlqZkVQai1IZnduSVhFNkZ3RG5GY25qY0dOY1Q0OUtRajhfV3p0akJfUTQ3ZGRzRXJlUURwcFNWRkxuQkxta2hvcTMwMW9LdkRhekhTaFNlYVVPRkFGT0hLRU02Xy1kR1NtbkhpWWN3bmVRTHlYY3FtMlBh?oc=5"
+    },
+    {
+      "title": "美国中期选举、关键就业数据、主要央行决策以及一些最大人工智能公司的财报将在未来5天内接连发布。",
+      "source": "Moomoo",
+      "published": "Sun, 01 Nov 2026 07:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxPTHhSWklUdjVXZ3UtR29aR1NsYjdKdU91djdfZ0VlekgxM004enlvOHg0MDQwM2JoOG9BZURfM3pxQXRXZmlRUTJzaGdtWTd6S3pnam9BbGV0d2hXVFlER2RtRlBWU2ktS1c5YUxJRGZiUFp1VXlLaVhRNkhabEptR2dWSkY1SzVfbWMtRHRsMEZObnRuRjlQdVpDVHMwb3JUcWJJd0hXQmU3Wl9jbFhYdXExQTVXRkd1a185S0tCVFhsYmZvbDJVdzFGQzFiTy0tdXQyVmV2Z3lHd2Fyb3NGQ1NVaUloRUZMdlVfaVNZWmhKZUZ6TUtmeHB5eVloWVdHcUM1YnFWRnVBMm9PQkVmT0xJQUk0TlAtb3phWENLU2tlOGtYNVZpeFE1ZVhkZE1ScUlCTkdQcHB2MXFLOG9OZWU0dnVNV2cyLVFGR0pMVkxCYVdxODFoUUdxSW9QNWFIMEdhcjB6WG1WcWhSOUI3MGxIXzNYUDRDbld5c2VhRmZqTGpFUVVHa1MwUTNxWHZkeVBkTEtjbWlSRnV2?oc=5"
     },
     {
       "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
@@ -100,7 +106,7 @@
     {
       "key": "technology",
       "label": "科技与产业",
-      "headline_count": 3,
+      "headline_count": 4,
       "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
       "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
       "watch": [
@@ -113,7 +119,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,816.72 / +0.06%",
+          "value": "12,875.64 / +0.52%",
           "state": "fresh"
         },
         {
@@ -127,20 +133,20 @@
       "headlines": [
         {
           "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-          "source": "华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
+          "source": "新浪网",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS2FCT21nWE5mNFhUb0VGYXEyWFJYekJ4Nk8zaF9TblRnV2NOa1E0aVEyd0ZSLVQwR1pEMU1hSzBkU1BOZFU2WWhnbEZMOFhpS3FmZEJqWG83OV85eVR3RFNFT18xUkNhRlNnZ2pScHBWQmRCbDhuMURYV1hXQ2IxemdkOVd4Yy1RLWJ3VnhCMll2YU1OSUc0SA?oc=5"
         },
         {
-          "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5"
+          "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3p5YWhOLS1qQnRxTzAxcGxYSVR3YmlhaTlqZkVQai1IZnduSVhFNkZ3RG5GY25qY0dOY1Q0OUtRajhfV3p0akJfUTQ3ZGRzRXJlUURwcFNWRkxuQkxta2hvcTMwMW9LdkRhekhTaFNlYVVPRkFGT0hLRU02Xy1kR1NtbkhpWWN3bmVRTHlYY3FtMlBh?oc=5"
         }
       ]
     },
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -153,13 +159,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.97 / +0.06%",
+          "value": "101.92 / -0.03%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6528 / -0.05%",
+          "value": "6.6534 / +0.02%",
           "state": "fresh"
         }
       ],
@@ -167,15 +173,20 @@
       "headlines": [
         {
           "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！",
-          "source": "华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5"
+          "source": "新浪网",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS2FCT21nWE5mNFhUb0VGYXEyWFJYekJ4Nk8zaF9TblRnV2NOa1E0aVEyd0ZSLVQwR1pEMU1hSzBkU1BOZFU2WWhnbEZMOFhpS3FmZEJqWG83OV85eVR3RFNFT18xUkNhRlNnZ2pScHBWQmRCbDhuMURYV1hXQ2IxemdkOVd4Yy1RLWJ3VnhCMll2YU1OSUc0SA?oc=5"
+        },
+        {
+          "title": "本周重磅！美国中期选举英国、澳洲央行政策利率_综述_全球资讯",
+          "source": "币海NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rTVM4V3ZNUGM4a1kzRGVOcmVYdFV5UktOVlBKT2dhTS1RV1plQWNQUnFKU09aS3pMRGw4SE4zWnpwUGRrQTBkNVZSVXppa1BxQmRfdHpGblZDQk1YLWllZ2I0WlJxVGM?oc=5"
         }
       ]
     },
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -188,7 +199,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.97 / +0.06%",
+          "value": "101.92 / -0.03%",
           "state": "fresh"
         },
         {
@@ -200,6 +211,11 @@
       ],
       "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
+        {
+          "title": "美国中期选举、关键就业数据、主要央行决策以及一些最大人工智能公司的财报将在未来5天内接连发布。",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxPTHhSWklUdjVXZ3UtR29aR1NsYjdKdU91djdfZ0VlekgxM004enlvOHg0MDQwM2JoOG9BZURfM3pxQXRXZmlRUTJzaGdtWTd6S3pnam9BbGV0d2hXVFlER2RtRlBWU2ktS1c5YUxJRGZiUFp1VXlLaVhRNkhabEptR2dWSkY1SzVfbWMtRHRsMEZObnRuRjlQdVpDVHMwb3JUcWJJd0hXQmU3Wl9jbFhYdXExQTVXRkd1a185S0tCVFhsYmZvbDJVdzFGQzFiTy0tdXQyVmV2Z3lHd2Fyb3NGQ1NVaUloRUZMdlVfaVNZWmhKZUZ6TUtmeHB5eVloWVdHcUM1YnFWRnVBMm9PQkVmT0xJQUk0TlAtb3phWENLU2tlOGtYNVZpeFE1ZVhkZE1ScUlCTkdQcHB2MXFLOG9OZWU0dnVNV2cyLVFGR0pMVkxCYVdxODFoUUdxSW9QNWFIMEdhcjB6WG1WcWhSOUI3MGxIXzNYUDRDbld5c2VhRmZqTGpFUVVHa1MwUTNxWHZkeVBkTEtjbWlSRnV2?oc=5"
+        },
         {
           "title": "一周展望：非农与中期选举同台登场，AI科技股迎来关键考验！",
           "source": "富途牛牛",
@@ -217,13 +233,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "102.91 / +0.89%",
+          "value": "101.60 / -2.42%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,884.28 / -3.65%",
+          "value": "3,917.72 / +0.48%",
           "state": "fresh"
         },
         {
@@ -236,9 +252,44 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？_国内经济_财经",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNkc0cHhjVFYzUWczNzZBOWFfWDJLenFTd3d6cE5ZRnhJXzVvbHlqLU5RMl84WEJMUmk5MS1FWjZ6THRVTnZlZU1hWU5oYTQyVWI0WnQ3dTdXSHY4bFY3cg?oc=5"
+          "title": "黄金大跌、美股科技巨头大跌，市场发生了什么？",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3p5YWhOLS1qQnRxTzAxcGxYSVR3YmlhaTlqZkVQai1IZnduSVhFNkZ3RG5GY25qY0dOY1Q0OUtRajhfV3p0akJfUTQ3ZGRzRXJlUURwcFNWRkxuQkxta2hvcTMwMW9LdkRhekhTaFNlYVVPRkFGT0hLRU02Xy1kR1NtbkhpWWN3bmVRTHlYY3FtMlBh?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
+      "headline_count": 1,
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
+      "watch": [
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,875.64 / +0.52%",
+          "state": "fresh"
+        },
+        {
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "23,294.42 / +0.00%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6534 / +0.02%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
+      "headlines": [
+        {
+          "title": "本周重磅！美国中期选举英国、澳洲央行政策利率_综述_全球资讯",
+          "source": "币海NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rTVM4V3ZNUGM4a1kzRGVOcmVYdFV5UktOVlBKT2dhTS1RV1plQWNQUnFKU09aS3pMRGw4SE4zWnpwUGRrQTBkNVZSVXppa1BxQmRfdHpGblZDQk1YLWllZ2I0WlJxVGM?oc=5"
         }
       ]
     }
