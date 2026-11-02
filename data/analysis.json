@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03 00:59",
-  "score": -39,
+  "generated_at": "2026-11-03 05:47",
+  "score": -49,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.85%",
-      "contribution": 5.9,
+      "value": "6 个市场均值 +0.20%",
+      "contribution": 1.4,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.17%",
-      "contribution": 1.0,
+      "value": "富时 A50 -0.40%",
+      "contribution": -2.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6465 (-0.09%) / DXY 101.67 (-0.28%)",
-      "contribution": 2.5,
+      "value": "USD/CNH 6.6470 (-0.08%) / DXY 101.78 (+0.02%)",
+      "contribution": 0.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -78,16 +78,16 @@
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWZHWTNCWDNPM1NtTnNPdzBRLXhqQmVhRl9EcG5KZWlMdVJmYkZyeVZkeS1wMlVpTGJCSmszMWI3d1IzbWxpaHNFWnNJMHlnYnpZYml2ZS1uOXRRd256RkM5NWI0blZrV05OQkdRbE5EU055b1FUWkkxMkZ0QTU3RVduWEVwRFM0bGZyeE55VDZPRmlROV9HbQ?oc=5"
     },
     {
-      "title": "金十数据全球财经早餐| 2026年11月2日-市场参考",
-      "source": "金十数据",
-      "published": "Sun, 01 Nov 2026 23:10:44 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yRzFJc0thdzhIc05xSmFwQk94eUdsUDN6SW1HM0xJWk9TU180WnRacXNiTUNibnFXbEkwbGtMM21DVkQ0NzhEdE5CeW9OQ1E?oc=5"
-    },
-    {
       "title": "全球市场突现大反转！特朗普释放重磅信号 油价暴跌逾7%、道指飙升超570点、黄金暴拉95美元、白银大涨4%",
       "source": "FX168财经",
       "published": "Mon, 02 Nov 2026 16:48:44 GMT",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb3BZNWJXd3U3M2gxYjBnb1l0VmQwZ25WZk9QYUQ3SUZaQ3FPaXdHZFdkSTgzeHlYdXVGQ2cyQWtKTkxDWTRRMDB2NnYwOTJUdmgtUkNOcENGTzhvcFhYMFZVUkkyak4zMzRQMWctdUxXOVU0Y0J4SV9VTU1KcVR3ZkdTaGE?oc=5"
+    },
+    {
+      "title": "金十数据全球财经早餐| 2026年11月2日-市场参考",
+      "source": "金十数据",
+      "published": "Sun, 01 Nov 2026 23:10:44 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yRzFJc0thdzhIc05xSmFwQk94eUdsUDN6SW1HM0xJWk9TU180WnRacXNiTUNibnFXbEkwbGtMM21DVkQ0NzhEdE5CeW9OQ1E?oc=5"
     },
     {
       "title": "黑色星期五，美股杀跌！黄金狂砸140美元，白银闪崩破50！",
@@ -108,16 +108,16 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EMl9iZEJFYXlWdm1WSzQ4bzFEa1FhYjEwLWlUV1lRT0NmZXIyd0dIOS11bS12a0Q4MVRJRmRSMjl1blRUVlZQWjkxNExZRXFVUEZXTTRKZTNIVERfNGlMNzN0VmVVb2JJMkVRaw?oc=5"
     },
     {
-      "title": "一周展望：AI交易退潮？市场迎来财报、非农与选举三重考验",
-      "source": "FOREX.com",
-      "published": "Sun, 01 Nov 2026 18:15:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa3I1bm5QcjZkUU9WY2tyMWEza19zNFRieEdkdmY0ekxfX3VJd0VNcE1GNVZudGN4d0FfbW9iVVBZQW1OZTVCT2tyN01nX05qc21VQ25Jb2Z3bEFON0h2Sk5jYVNNWVM3YVZnRV9zYXFRZnc1NTVVQVBmaWlyTU9GWVRydmNuMTVlZERuSGlyWGNxRjNoNy02R3NYTEhINDlEVy1N0gGvAUFVX3lxTE04ZzRmUHhDWHU2NmxLMzZCam96OWF2eFdHNUs0V3R1U1RGOTl5bTdPTElHM0tZcVRsQ3hHZEsxaHg0VjdJQzREX3ZfQTB5SFdKaTRROTdPc2lZTldaQXpNcU5nWS1HaEFiazNCYkNXcmZyaG5pWnlKcl9uQmpkdmtzOTYyZFVIeVRBb1I2OWVCb2luSnprUGJvbmhfVXVjeDBnd3I0S0xyc0ZCNE95dzg?oc=5"
-    },
-    {
       "title": "现在，未来12个月美联储总加息幅度定价仅为80个基点…… 较10月初近115个基点的较高水平下降",
       "source": "新浪网",
       "published": "Mon, 02 Nov 2026 13:15:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fZThRRzJSajd4QTRZelhaYV80NVVkMU9VOElzZ2R4X3c4Q3lIR0VWRzcyYmN3TmdHTFo4a0FDZE10UVNIQkVBZ0V5X0NUc0tnNGNtSVRPNEZacGJ4Z3AzZ3ViNA?oc=5"
+    },
+    {
+      "title": "港股早报｜股票回购增持专项贷款或新增两千亿级 美股纳指跌近3%",
+      "source": "财联社",
+      "published": "Sun, 01 Nov 2026 23:12:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBST0hHS2Q5bVEyYXFKRWFmbDJwY0ZWMHdHS042Tkg5eGk5NjRrUmsyWWpNOHJFMFc0alJsV0YtVHQzckVkZVdOTg?oc=5"
     }
   ],
   "events": [
@@ -131,13 +131,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "96.50 / -7.32%",
+          "value": "96.17 / -7.63%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,978.07 / +2.03%",
+          "value": "3,959.18 / +1.55%",
           "state": "fresh"
         },
         {
@@ -177,13 +177,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.67 / -0.28%",
+          "value": "101.78 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6465 / -0.09%",
+          "value": "6.6470 / -0.08%",
           "state": "fresh"
         }
       ],
@@ -211,19 +211,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.67 / -0.28%",
+          "value": "101.78 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6465 / -0.09%",
+          "value": "6.6470 / -0.08%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,884.52 / +0.17%",
+          "value": "12,811.00 / -0.40%",
           "state": "fresh"
         }
       ],
@@ -242,41 +242,6 @@
       ]
     },
     {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 1,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.67 / -0.28%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "25,608.55 / +0.67%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "一周展望：AI交易退潮？市场迎来财报、非农与选举三重考验",
-          "source": "FOREX.com",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa3I1bm5QcjZkUU9WY2tyMWEza19zNFRieEdkdmY0ekxfX3VJd0VNcE1GNVZudGN4d0FfbW9iVVBZQW1OZTVCT2tyN01nX05qc21VQ25Jb2Z3bEFON0h2Sk5jYVNNWVM3YVZnRV9zYXFRZnc1NTVVQVBmaWlyTU9GWVRydmNuMTVlZERuSGlyWGNxRjNoNy02R3NYTEhINDlEVy1N0gGvAUFVX3lxTE04ZzRmUHhDWHU2NmxLMzZCam96OWF2eFdHNUs0V3R1U1RGOTl5bTdPTElHM0tZcVRsQ3hHZEsxaHg0VjdJQzREX3ZfQTB5SFdKaTRROTdPc2lZTldaQXpNcU5nWS1HaEFiazNCYkNXcmZyaG5pWnlKcl9uQmpkdmtzOTYyZFVIeVRBb1I2OWVCb2luSnprUGJvbmhfVXVjeDBnd3I0S0xyc0ZCNE95dzg?oc=5"
-        }
-      ]
-    },
-    {
       "key": "technology",
       "label": "科技与产业",
       "headline_count": 1,
@@ -286,13 +251,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,608.55 / +0.67%",
+          "value": "25,164.32 / -1.07%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,884.52 / +0.17%",
+          "value": "12,811.00 / -0.40%",
           "state": "fresh"
         },
         {
