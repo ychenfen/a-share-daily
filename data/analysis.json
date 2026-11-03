@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03 17:21",
-  "score": -44,
+  "generated_at": "2026-11-03 19:15",
+  "score": -45,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.22%",
-      "contribution": 1.3,
+      "value": "富时 A50 +0.29%",
+      "contribution": 1.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6718 (+0.38%) / DXY 101.80 (+0.04%)",
-      "contribution": -4.7,
+      "value": "USD/CNH 6.6731 (+0.40%) / DXY 101.86 (+0.10%)",
+      "contribution": -5.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -113,13 +113,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "97.91 / +1.50%",
+          "value": "98.23 / +1.84%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,911.64 / -1.46%",
+          "value": "3,915.76 / -1.36%",
           "state": "fresh"
         },
         {
@@ -159,13 +159,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.80 / +0.04%",
+          "value": "101.86 / +0.10%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6718 / +0.38%",
+          "value": "6.6731 / +0.40%",
           "state": "fresh"
         }
       ],
@@ -193,19 +193,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.80 / +0.04%",
+          "value": "101.86 / +0.10%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6718 / +0.38%",
+          "value": "6.6731 / +0.40%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,806.00 / +0.22%",
+          "value": "12,815.10 / +0.29%",
           "state": "fresh"
         }
       ],
