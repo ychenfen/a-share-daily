@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04 16:55",
-  "score": -6,
+  "generated_at": "2026-11-04 19:28",
+  "score": -8,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +1.99%",
-      "contribution": 8,
+      "value": "富时 A50 +0.35%",
+      "contribution": 2.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6718 (+0.03%) / DXY 101.40 (-0.46%)",
-      "contribution": 2.0,
+      "value": "USD/CNH 6.6716 (+0.02%) / DXY 101.43 (-0.42%)",
+      "contribution": 1.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 2",
-      "contribution": -4,
+      "value": "正向词 0 / 风险词 0",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,10 +67,16 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 2,
-    "score": -4
+    "negative_hits": 0,
+    "score": 0
   },
   "news": [
+    {
+      "title": "黄金、白银，大涨！黄金股、ETF，批量涨停！",
+      "source": "证券之星",
+      "published": "Wed, 04 Nov 2026 09:00:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UWM2TTZCNXR0eFlpcWFEV1F5MUpLblh2YXdFSkNiX3BEWHlNV3Bjc1NiYkh3MjBYNzRVM3Q3ek1MZlFHbFVLRGZuZUpmUktjcnpmY1N6UGYyUUJuZEtueQ?oc=5"
+    },
     {
       "title": "金十数据全球财经早餐| 2026年11月4日-市场参考",
       "source": "金十数据",
@@ -84,12 +90,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vLUowc0ZsRFJZZHEtYTBCc1hJSnl5SUNfV1R5TjRZQVZTQzZLVDBGRDl6MnNBOGliWUYzR00wLWt4T3RvQmRMMVNOSExRRFlzV2N6UHYydW84TnpM?oc=5"
     },
     {
-      "title": "股指：美股财报引发AI系统风险",
-      "source": "同花顺",
-      "published": "Tue, 03 Nov 2026 10:33:29 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OUms4cWdHdncwOEZZbzMxWC04bjA0YU5DRlZUdEtKSVp3UVBzQjQwdTRxc1ZaV2Nyamw4T1EwN0RTMHdWaF9DYk1WSXZ6TVd3OC1oVWFPMWVPcUZ0Snc?oc=5"
-    },
-    {
       "title": "黄金或现长期买入机会？高盛仍维持2027年底5400美元的目标价",
       "source": "Moomoo",
       "published": "Wed, 04 Nov 2026 02:23:06 GMT",
@@ -100,15 +100,49 @@
       "source": "币海NEWS",
       "published": "Tue, 03 Nov 2026 12:17:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40YlQ1bVh0Z0RqSFlBaWhSMmtWMnIwRjJIaGkzWVdva3dXczNybldHTnQ2VEdUUFdJTklwcU5SVjgxMzhfbUtPQ1ZDUGdpVkZKVVFMYllSRzdwNS00bE9nM3pBejlWTnM?oc=5"
-    },
-    {
-      "title": "美债高企与AI疑虑夹击 亚太股市血洗台韩重挫",
-      "source": "亚洲电视新闻",
-      "published": "Tue, 03 Nov 2026 10:11:39 GMT",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQOEtYWjU4ay00TC1Sb0QtWUtRSF9OR2R0R3VMUzktOUxRdWZmQ2hVeEo4dzI2LWRQbmNfa0lQTFh6QjhTeTJUZ2FGOHJHX1VJWGc0bExiQ0lXbFdwMm0wMkhvNjFtTkFheGlLXzF2eS1MYWVsN1lqUkd2UG9KMWpUSVpUbXVEa2lhZDYxOWI0UktpN3ZzRUtMTXJIcmtQenBTSGFaRWlzYmkwYVdHdzVDcEFwRU1LQ1ZGdkt2dGlMaDlMOHg4OHREN0poU0t5WnJMNGZ2ZzhoWTVTU1Q0WDd3THJfamZITDdYQkxac1E0Y1FiNGZ3YWI2cWJCb3BXSjNkWG5FODVtYjJuYVJ1dnRnZzJZNXN1R2xqb190ZFBCbHFnMUNSQ0I1SHlZVzZVNFdYWTd4Tw?oc=5"
     }
   ],
   "events": [
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 3,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "95.38 / -0.74%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,052.43 / +2.84%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "黄金、白银，大涨！黄金股、ETF，批量涨停！",
+          "source": "证券之星",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82UWM2TTZCNXR0eFlpcWFEV1F5MUpLblh2YXdFSkNiX3BEWHlNV3Bjc1NiYkh3MjBYNzRVM3Q3ek1MZlFHbFVLRGZuZUpmUktjcnpmY1N6UGYyUUJuZEtueQ?oc=5"
+        },
+        {
+          "title": "黄金或现长期买入机会？高盛仍维持2027年底5400美元的目标价",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vRGc3dUlqUGFma0hzSzc1YUwwMEpLc2ZDZHVvWEp2UG90ck1hSWVTeVN3aUR6SnR4aVBHc0k3WlhkT0xXYVFXdWJ6ZVo5bVBaa25MQm1QVm1SYTZU?oc=5"
+        }
+      ]
+    },
     {
       "key": "central_bank",
       "label": "央行与利率",
@@ -125,13 +159,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.40 / -0.46%",
+          "value": "101.43 / -0.42%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6718 / +0.03%",
+          "value": "6.6716 / +0.02%",
           "state": "fresh"
         }
       ],
@@ -150,46 +184,6 @@
       ]
     },
     {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "96.15 / +0.06%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,043.41 / +2.61%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "黄金或现长期买入机会？高盛仍维持2027年底5400美元的目标价",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vRGc3dUlqUGFma0hzSzc1YUwwMEpLc2ZDZHVvWEp2UG90ck1hSWVTeVN3aUR6SnR4aVBHc0k3WlhkT0xXYVFXdWJ6ZVo5bVBaa25MQm1QVm1SYTZU?oc=5"
-        },
-        {
-          "title": "金价再跌也挡不住全球央行狂买黄金？_商品_全球资讯",
-          "source": "币海NEWS",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40YlQ1bVh0Z0RqSFlBaWhSMmtWMnIwRjJIaGkzWVdva3dXczNybldHTnQ2VEdUUFdJTklwcU5SVjgxMzhfbUtPQ1ZDUGdpVkZKVVFMYllSRzdwNS00bE9nM3pBejlWTnM?oc=5"
-        }
-      ]
-    },
-    {
       "key": "currency",
       "label": "美元与人民币",
       "headline_count": 1,
@@ -199,19 +193,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.40 / -0.46%",
+          "value": "101.43 / -0.42%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6718 / +0.03%",
+          "value": "6.6716 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,032.52 / +1.99%",
+          "value": "13,074.00 / +0.35%",
           "state": "fresh"
         }
       ],
