@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05 17:19",
-  "score": 59,
+  "generated_at": "2026-11-05 19:25",
+  "score": 61,
   "stance": "积极但不追高",
   "color": "#c9211e",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.13%",
-      "contribution": -0.8,
+      "value": "富时 A50 -0.04%",
+      "contribution": -0.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6668 (-0.12%) / DXY 101.43 (-0.08%)",
-      "contribution": 1.8,
+      "value": "USD/CNH 6.6660 (-0.13%) / DXY 101.55 (+0.04%)",
+      "contribution": 1.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
-      "contribution": 0,
+      "value": "正向词 1 / 风险词 0",
+      "contribution": 2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,9 +67,9 @@
     "研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。"
   ],
   "news_tone": {
-    "positive_hits": 0,
+    "positive_hits": 1,
     "negative_hits": 0,
-    "score": 0
+    "score": 2
   },
   "news": [
     {
@@ -79,10 +79,10 @@
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUFkyelVtNVY0S1lJSXlham9wVEw3VU14SlFReDNESi1TVzNzSEJiamtTaFJNYjRUSG5tal9TQUJFNVNmb2MwVTYyZUllTHNqZUw1NnhDTlJEM0lQRC1JSExGa1U2azBnMUNhRWlYYk5LaDNvanJZZFMtQlFfNThvOUVFTWdBUQ?oc=5"
     },
     {
-      "title": "黄金、白银，大涨！黄金股、ETF，批量涨停！",
-      "source": "证券之星",
-      "published": "Wed, 04 Nov 2026 10:03:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNSGl3RnFsN2sxY2dNNVB1MzRvZE9fcWFFbmtpb2JsTVFlR19uRjYyS09IcWszRjdyVUJxMnZLa2t0QjZ4TTFjVlNxWFdwb1ItV0F6R3Btdmthd1hKaUVWLQ?oc=5"
+      "title": "黄金暴力反弹超 3%，黄金股ETF“组团”走强",
+      "source": "21财经",
+      "published": "Wed, 04 Nov 2026 11:40:40 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWR0YmFTRXRPMTRFMHphcUhaT1dMTXZpZ0VqR3ZZdnFVNmU1RFVVeDF5eXhDRUJoekl0dzZ0Zk1MMGpLNUJUYXV6TW5zS3FuNHJaU2t2dXREbVA0NFd5NnpQTlJuLWRsZmJzVE5BWWhqR2ZCd1ZvaGlqQ29JZWJrV3Y0QjNGRXgzTjRMQmc2UQ?oc=5"
     }
   ],
   "events": [
@@ -96,13 +96,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "88.12 / +0.00%",
+          "value": "88.85 / +0.83%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,139.33 / +1.63%",
+          "value": "4,146.05 / +1.79%",
           "state": "fresh"
         },
         {
@@ -115,9 +115,9 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "黄金、白银，大涨！黄金股、ETF，批量涨停！",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNSGl3RnFsN2sxY2dNNVB1MzRvZE9fcWFFbmtpb2JsTVFlR19uRjYyS09IcWszRjdyVUJxMnZLa2t0QjZ4TTFjVlNxWFdwb1ItV0F6R3Btdmthd1hKaUVWLQ?oc=5"
+          "title": "黄金暴力反弹超 3%，黄金股ETF“组团”走强",
+          "source": "21财经",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWR0YmFTRXRPMTRFMHphcUhaT1dMTXZpZ0VqR3ZZdnFVNmU1RFVVeDF5eXhDRUJoekl0dzZ0Zk1MMGpLNUJUYXV6TW5zS3FuNHJaU2t2dXREbVA0NFd5NnpQTlJuLWRsZmJzVE5BWWhqR2ZCd1ZvaGlqQ29JZWJrV3Y0QjNGRXgzTjRMQmc2UQ?oc=5"
         }
       ]
     }

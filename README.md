@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 开盘脉搏已更新 · 最后检查 `2026-11-05 17:19`（北京时间）
+> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-11-05 19:25`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +59 · 积极但不追高**（置信度：中）
+> **风险温度 +61 · 积极但不追高**（置信度：中）
 > A股内部强度与外围风险偏好形成正向共振，但仍需用回撤和量能确认持续性。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 13,016.70 | -0.13% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6668 | -0.12% | 最新 |
-| 美元指数 | 低权重计分 | 101.43 | -0.08% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,139.33 | +1.63% | 最新 |
-| WTI 原油 | 背景观察 | 88.12 | +0.00% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 13,028.64 | -0.04% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6660 | -0.13% | 最新 |
+| 美元指数 | 低权重计分 | 101.55 | +0.04% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,146.05 | +1.79% | 最新 |
+| WTI 原油 | 背景观察 | 88.85 | +0.83% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -82,11 +82,11 @@
 | 市场宽度 | 涨 4732 / 跌 786 | +14.3 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 118 / 跌停 10 / 炸板率 21.9% | +15.0 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 +2.36% | +16.5 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.13% | -0.8 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6668 (-0.12%) / DXY 101.43 (-0.08%) | +1.8 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A50 先行 | 富时 A50 -0.04% | -0.2 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6660 (-0.13%) / DXY 101.55 (+0.04%) | +1.4 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 0 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 0 | +2.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,7 +94,7 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 88.12 / +0.00%（最新） / 黄金 4,139.33 / +1.63%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 88.85 / +0.83%（最新） / 黄金 4,146.05 / +1.79%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
 
 ### 研究观察
 
@@ -104,7 +104,7 @@
 ### 新闻雷达
 
 - [21评论丨稳市工具发力及时，呵护市场健康运行- 21经济网](https://news.google.com/rss/articles/CBMihgFBVV95cUxOUFkyelVtNVY0S1lJSXlham9wVEw3VU14SlFReDNESi1TVzNzSEJiamtTaFJNYjRUSG5tal9TQUJFNVNmb2MwVTYyZUllTHNqZUw1NnhDTlJEM0lQRC1JSExGa1U2azBnMUNhRWlYYk5LaDNvanJZZFMtQlFfNThvOUVFTWdBUQ?oc=5) · 21财经
-- [黄金、白银，大涨！黄金股、ETF，批量涨停！](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNSGl3RnFsN2sxY2dNNVB1MzRvZE9fcWFFbmtpb2JsTVFlR19uRjYyS09IcWszRjdyVUJxMnZLa2t0QjZ4TTFjVlNxWFdwb1ItV0F6R3Btdmthd1hKaUVWLQ?oc=5) · 证券之星
+- [黄金暴力反弹超 3%，黄金股ETF“组团”走强](https://news.google.com/rss/articles/CBMijwFBVV95cUxNaWR0YmFTRXRPMTRFMHphcUhaT1dMTXZpZ0VqR3ZZdnFVNmU1RFVVeDF5eXhDRUJoekl0dzZ0Zk1MMGpLNUJUYXV6TW5zS3FuNHJaU2t2dXREbVA0NFd5NnpQTlJuLWRsZmJzVE5BWWhqR2ZCd1ZvaGlqQ29JZWJrV3Y0QjNGRXgzTjRMQmc2UQ?oc=5) · 21财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
