@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05 23:25",
+  "generated_at": "2026-11-06 04:05",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7498.15,
-      "pct": -2.48,
-      "change": -190.47,
+      "close": 7397.71,
+      "pct": -3.78,
+      "change": -290.91,
       "previous_close": 7688.62,
-      "quote_time": "2026-11-05 10:24:59",
+      "quote_time": "2026-11-05 15:04:59",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 24693.56,
-      "pct": -4.05,
-      "change": -1042.95,
+      "close": 24497.12,
+      "pct": -4.82,
+      "change": -1239.39,
       "previous_close": 25736.51,
-      "quote_time": "2026-11-05 10:24:59",
+      "quote_time": "2026-11-05 15:04:59",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 52632.41,
-      "pct": -1.36,
-      "change": -723.71,
+      "close": 51710.13,
+      "pct": -3.08,
+      "change": -1645.99,
       "previous_close": 53356.12,
-      "quote_time": "2026-11-05 10:24:59",
+      "quote_time": "2026-11-05 15:04:59",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 89.42,
-      "pct": -0.91,
-      "change": -0.82,
+      "close": 88.81,
+      "pct": -1.58,
+      "change": -1.43,
       "previous_close": 90.24,
-      "quote_time": "2026-11-05 10:24:58",
+      "quote_time": "2026-11-05 15:04:53",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 12868.78,
-      "pct": -1.2676077949976938,
-      "change": -165.21999999999935,
+      "close": 12814.48,
+      "pct": -1.684210526315788,
+      "change": -219.52000000000044,
       "previous_close": 13034.0,
-      "quote_time": "2026-11-05 23:25:29",
+      "quote_time": "2026-11-06 04:05:24",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.6635,
-      "pct": -0.16779780364659658,
-      "change": -0.011199999999999655,
+      "close": 6.6647,
+      "pct": -0.14981946754161202,
+      "change": -0.009999999999999787,
       "previous_close": 6.6747,
-      "quote_time": "2026-11-05 23:25:22",
+      "quote_time": "2026-11-06 04:05:19",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 101.5027,
-      "pct": -0.006797386651113957,
-      "change": -0.0069000000000016826,
+      "close": 101.5621,
+      "pct": 0.051719246258485896,
+      "change": 0.052499999999994884,
       "previous_close": 101.5096,
-      "quote_time": "2026-11-05 23:25:21",
+      "quote_time": "2026-11-06 04:05:23",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4119.399,
-      "pct": 1.1391848760127665,
-      "change": 46.39900000000034,
+      "close": 4119.71,
+      "pct": 1.1468205254112407,
+      "change": 46.710000000000036,
       "previous_close": 4073.0,
-      "quote_time": "2026-11-05 23:25:28",
+      "quote_time": "2026-11-06 04:05:25",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 90.229,
-      "pct": 2.393327280980473,
-      "change": 2.1089999999999947,
+      "close": 90.65,
+      "pct": 2.8710848842487424,
+      "change": 2.530000000000001,
       "previous_close": 88.12,
-      "quote_time": "2026-11-05 23:25:29",
+      "quote_time": "2026-11-06 04:05:21",
       "stale": false
     }
   ],
@@ -168,7 +168,7 @@
       "status": "stale"
     },
     "news": {
-      "status": "fresh"
+      "status": "stale"
     }
   },
   "sources": {

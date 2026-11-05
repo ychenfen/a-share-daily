@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05 23:25",
-  "score": -5,
+  "generated_at": "2026-11-06 04:05",
+  "score": -11,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.63%",
-      "contribution": -4.4,
+      "value": "6 个市场均值 -1.37%",
+      "contribution": -9.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -1.27%",
-      "contribution": -7.6,
+      "value": "富时 A50 -1.68%",
+      "contribution": -8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6635 (-0.17%) / DXY 101.50 (-0.01%)",
-      "contribution": 2.0,
+      "value": "USD/CNH 6.6647 (-0.15%) / DXY 101.56 (+0.05%)",
+      "contribution": 1.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
