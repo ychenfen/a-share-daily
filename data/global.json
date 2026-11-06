@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06 04:05",
+  "generated_at": "2026-11-06 10:25",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7397.71,
-      "pct": -3.78,
-      "change": -290.91,
+      "close": 7353.73,
+      "pct": -4.36,
+      "change": -334.89,
       "previous_close": 7688.62,
-      "quote_time": "2026-11-05 15:04:59",
+      "quote_time": "2026-11-05 16:34:08",
       "stale": false
     },
     {
@@ -19,11 +19,11 @@
       "name": "纳斯达克",
       "region": "美国",
       "kind": "index",
-      "close": 24497.12,
-      "pct": -4.82,
-      "change": -1239.39,
+      "close": 24315.0,
+      "pct": -5.52,
+      "change": -1421.51,
       "previous_close": 25736.51,
-      "quote_time": "2026-11-05 15:04:59",
+      "quote_time": "2026-11-05 17:15:59",
       "stale": false
     },
     {
@@ -31,11 +31,11 @@
       "name": "道琼斯",
       "region": "美国",
       "kind": "index",
-      "close": 51710.13,
-      "pct": -3.08,
-      "change": -1645.99,
+      "close": 51523.06,
+      "pct": -3.44,
+      "change": -1833.06,
       "previous_close": 53356.12,
-      "quote_time": "2026-11-05 15:04:59",
+      "quote_time": "2026-11-05 16:35:51",
       "stale": false
     },
     {
@@ -43,11 +43,11 @@
       "name": "恒生指数",
       "region": "中国香港",
       "kind": "index",
-      "close": 24796.98,
-      "pct": 3.67,
-      "change": 877.48,
-      "previous_close": 23919.5,
-      "quote_time": "2026/11/05 18:31:15",
+      "close": 24618.53,
+      "pct": -0.72,
+      "change": -178.45,
+      "previous_close": 24796.98,
+      "quote_time": "2026/11/06 10:10:14",
       "stale": false
     },
     {
@@ -55,11 +55,11 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 88.81,
-      "pct": -1.58,
-      "change": -1.43,
+      "close": 88.42,
+      "pct": -2.02,
+      "change": -1.82,
       "previous_close": 90.24,
-      "quote_time": "2026-11-05 15:04:53",
+      "quote_time": "2026-11-05 16:00:02",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 12814.48,
-      "pct": -1.684210526315788,
-      "change": -219.52000000000044,
+      "close": 12759.6,
+      "pct": -2.1052631578947323,
+      "change": -274.39999999999964,
       "previous_close": 13034.0,
-      "quote_time": "2026-11-06 04:05:24",
+      "quote_time": "2026-11-06 10:25:41",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.6647,
-      "pct": -0.14981946754161202,
-      "change": -0.009999999999999787,
-      "previous_close": 6.6747,
-      "quote_time": "2026-11-06 04:05:19",
+      "close": 6.6667,
+      "pct": 0.025506376594153224,
+      "change": 0.0016999999999995907,
+      "previous_close": 6.665,
+      "quote_time": "2026-11-06 10:25:34",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 101.5621,
-      "pct": 0.051719246258485896,
-      "change": 0.052499999999994884,
-      "previous_close": 101.5096,
-      "quote_time": "2026-11-06 04:05:23",
+      "close": 101.6634,
+      "pct": 0.06151520311334924,
+      "change": 0.0625,
+      "previous_close": 101.6009,
+      "quote_time": "2026-11-06 10:25:37",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 4119.71,
-      "pct": 1.1468205254112407,
-      "change": 46.710000000000036,
-      "previous_close": 4073.0,
-      "quote_time": "2026-11-06 04:05:25",
+      "close": 4078.53,
+      "pct": -0.8501276285401649,
+      "change": -34.9699999999998,
+      "previous_close": 4113.5,
+      "quote_time": "2026-11-06 10:25:40",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 90.65,
-      "pct": 2.8710848842487424,
-      "change": 2.530000000000001,
-      "previous_close": 88.12,
-      "quote_time": "2026-11-06 04:05:21",
+      "close": 91.55,
+      "pct": 1.137870083959358,
+      "change": 1.0300000000000011,
+      "previous_close": 90.52,
+      "quote_time": "2026-11-06 10:25:25",
       "stale": false
     }
   ],
@@ -168,7 +168,7 @@
       "status": "stale"
     },
     "news": {
-      "status": "stale"
+      "status": "fresh"
     }
   },
   "sources": {
