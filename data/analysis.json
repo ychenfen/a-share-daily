@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06 22:58",
-  "score": -31,
+  "generated_at": "2026-11-07 03:30",
+  "score": -35,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.23%",
-      "contribution": 1.6,
+      "value": "6 个市场均值 +0.10%",
+      "contribution": 0.7,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.40%",
-      "contribution": 2.4,
+      "value": "富时 A50 +0.41%",
+      "contribution": 2.5,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6703 (+0.08%) / DXY 102.19 (+0.58%)",
-      "contribution": -3.9,
+      "value": "USD/CNH 6.6723 (+0.11%) / DXY 102.29 (+0.67%)",
+      "contribution": -4.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 2",
-      "contribution": -2,
+      "value": "正向词 1 / 风险词 3",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,10 +67,16 @@
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 2,
-    "score": -2
+    "negative_hits": 3,
+    "score": -4
   },
   "news": [
+    {
+      "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
+      "source": "财联社",
+      "published": "Fri, 06 Nov 2026 09:01:46 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QTnZhRFJtV09fVVJGLU1DWEZTeEE0Y1BIWXpLUWctN2k1c1hiTjNkbGl6YnpGaFRLWDRCV3pnSkk1dnRPeDR3Nw?oc=5"
+    },
     {
       "title": "美股三大指数涨跌不一",
       "source": "东方财富",
@@ -84,22 +90,22 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
     },
     {
-      "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
-      "source": "Moomoo",
-      "published": "Fri, 06 Nov 2026 05:50:31 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
-    },
-    {
-      "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
-      "source": "富途牛牛",
-      "published": "Fri, 06 Nov 2026 06:50:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpmc18xdVd3RHNwY0hoMThETVViQ2xPNGRHLVhDMzdzdTBFVUdzS1ZDZFRfQUFRdkxXdmV5OE9mNlRKc2lnQ3hVX1RySEtlZjRRMEM3V0h1Q2R2bHVBaDR1cjJveXp5d19vVmp4NlAyUXdIQ0x5ckxYcllLUDBfamtYUVViZG1PWnFsUUh5bENNaC1ic3pJY0p2c2NCbDRSbnJv?oc=5"
+      "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
+      "source": "手机网易网",
+      "published": "Fri, 06 Nov 2026 09:12:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
     },
     {
       "title": "金十数据全球财经早餐| 2026年11月6日-市场参考",
       "source": "金十数据",
       "published": "Thu, 05 Nov 2026 23:02:26 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtX2JNVnBzNGZUWVFQY19nY2FMR3NwUGtZa0hodnVXX3h0WDNzbDFjSi1HVVZHMjlGUkEzMXF3TW5uaXNicVZpbjBqRkdzMFE?oc=5"
+    },
+    {
+      "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
+      "source": "Moomoo",
+      "published": "Fri, 06 Nov 2026 05:50:31 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
     },
     {
       "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
@@ -125,27 +131,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.19 / +0.58%",
+          "value": "102.29 / +0.67%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6703 / +0.08%",
+          "value": "6.6723 / +0.11%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QTnZhRFJtV09fVVJGLU1DWEZTeEE0Y1BIWXpLUWctN2k1c1hiTjNkbGl6YnpGaFRLWDRCV3pnSkk1dnRPeDR3Nw?oc=5"
+        },
+        {
           "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
-        },
-        {
-          "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpmc18xdVd3RHNwY0hoMThETVViQ2xPNGRHLVhDMzdzdTBFVUdzS1ZDZFRfQUFRdkxXdmV5OE9mNlRKc2lnQ3hVX1RySEtlZjRRMEM3V0h1Q2R2bHVBaDR1cjJveXp5d19vVmp4NlAyUXdIQ0x5ckxYcllLUDBfamtYUVViZG1PWnFsUUh5bENNaC1ic3pJY0p2c2NCbDRSbnJv?oc=5"
         }
       ]
     },
@@ -159,13 +165,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.37 / -0.17%",
+          "value": "91.05 / +0.58%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,055.12 / -1.42%",
+          "value": "4,069.84 / -1.06%",
           "state": "fresh"
         },
         {
@@ -178,14 +184,14 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
+          "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
+          "source": "手机网易网",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
+        },
+        {
           "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
-        },
-        {
-          "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpmc18xdVd3RHNwY0hoMThETVViQ2xPNGRHLVhDMzdzdTBFVUdzS1ZDZFRfQUFRdkxXdmV5OE9mNlRKc2lnQ3hVX1RySEtlZjRRMEM3V0h1Q2R2bHVBaDR1cjJveXp5d19vVmp4NlAyUXdIQ0x5ckxYcllLUDBfamtYUVViZG1PWnFsUUh5bENNaC1ic3pJY0p2c2NCbDRSbnJv?oc=5"
         }
       ]
     },
@@ -205,13 +211,13 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,055.12 / -1.42%",
+          "value": "4,069.84 / -1.06%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.37 / -0.17%",
+          "value": "91.05 / +0.58%",
           "state": "fresh"
         }
       ],
@@ -234,7 +240,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,803.32 / +0.40%",
+          "value": "12,804.32 / +0.41%",
           "state": "fresh"
         },
         {
@@ -246,7 +252,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6703 / +0.08%",
+          "value": "6.6723 / +0.11%",
           "state": "fresh"
         }
       ],
