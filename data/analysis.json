@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06 17:13",
-  "score": -12,
+  "generated_at": "2026-11-06 19:24",
+  "score": -15,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.45%",
-      "contribution": 2.7,
+      "value": "富时 A50 +0.30%",
+      "contribution": 1.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6673 (+0.03%) / DXY 101.99 (+0.38%)",
-      "contribution": -2.3,
+      "value": "USD/CNH 6.6684 (+0.05%) / DXY 101.96 (+0.35%)",
+      "contribution": -2.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 1",
-      "contribution": 0,
+      "value": "正向词 1 / 风险词 2",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,8 +67,8 @@
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 1,
-    "score": 0
+    "negative_hits": 2,
+    "score": -2
   },
   "news": [
     {
@@ -78,16 +78,28 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
     },
     {
-      "title": "金十数据全球财经早餐| 2026年11月6日-市场参考",
-      "source": "金十数据",
-      "published": "Thu, 05 Nov 2026 23:02:26 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtX2JNVnBzNGZUWVFQY19nY2FMR3NwUGtZa0hodnVXX3h0WDNzbDFjSi1HVVZHMjlGUkEzMXF3TW5uaXNicVZpbjBqRkdzMFE?oc=5"
+      "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
+      "source": "手机网易网",
+      "published": "Fri, 06 Nov 2026 09:12:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
     },
     {
       "title": "隔夜美股齐重挫 亚股早盘大幅下挫",
       "source": "亚洲电视新闻",
       "published": "Fri, 06 Nov 2026 05:16:57 GMT",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOY3lYSmhsT3pQbzdROV94RWdmUEc3NlFCZkl3Wm9MR1NCZmJHb204SzdqZFNlWGxiZ241MGhlMDFHZ2ZMak9LdTlUaTFzSXFSMF9wcUxrMzhtV0wyRDBOSkZlbm5YMHp1Rnd1a0JtaW1pVWN2Q1FDdHRvbmpLQnFMX2hfSnJFaUtNR01YeHVFYmo5Y1dCNWhiWk83ZjVNdjFVSGs1TjN3aFZ0aVk3QURLcTJqV1FtbmdpTkNDdUtfUTJqSlpRZHo4XzFqVXU1ZE9EWE9PV2NnR3BmV3piMG9zUWFrdzg5anJUM3lSY3lzbFp3S3I4N3pBU09qX1ZWckxGUWc?oc=5"
+    },
+    {
+      "title": "金十数据全球财经早餐| 2026年11月6日-市场参考",
+      "source": "金十数据",
+      "published": "Thu, 05 Nov 2026 23:02:26 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtX2JNVnBzNGZUWVFQY19nY2FMR3NwUGtZa0hodnVXX3h0WDNzbDFjSi1HVVZHMjlGUkEzMXF3TW5uaXNicVZpbjBqRkdzMFE?oc=5"
+    },
+    {
+      "title": "美股上演史诗级暴跌，全球资本市场上演黑色星期五，韩股跌至熔断、日股暴跌6%，A股四大指数下挫，券商集体解读，流动性收缩是核心矛盾-手机金融界",
+      "source": "金融界",
+      "published": "Fri, 06 Nov 2026 06:42:30 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MQnBhY1JTLXBibVQydTJPbzZoU1RYVXpneFRCUkNFcEJPUWpLN1hKamZNYVRvTjdkaUQ1S0g2RTBodFUzcEFLZ0c2aGoyNUo5QzRUMlBlYU1ISWRPV1BHSWtmcHc2aEVGZDB0aGdGU25RQQ?oc=5"
     },
     {
       "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
@@ -113,13 +125,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.99 / +0.38%",
+          "value": "101.96 / +0.35%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6673 / +0.03%",
+          "value": "6.6684 / +0.05%",
           "state": "fresh"
         }
       ],
@@ -134,6 +146,46 @@
           "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0p0ZzlWdmNDNTZxY1BKMnFfMkVGTmJCclZoTFhCSFJZLWFDWWkwNTNKLTAyWWw1OHhONkxqb0JFX2o4akRBeWJXNDlIdW14ZUk1ZUh1bG5WblFHRXh0b0M5S19PZ0ZiUGNsRTZ5SWpHSW9hN2ctWHJRdGpkVWRfNlEzRDEtcjhlV3lVaGlTY09xMlpHcm43YTlyaWNyUEU?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 2,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "90.99 / +0.52%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,076.70 / -0.89%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
+        },
+        {
+          "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
+          "source": "手机网易网",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
         }
       ]
     },
@@ -153,13 +205,13 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,091.72 / -0.53%",
+          "value": "4,076.70 / -0.89%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "89.63 / -0.98%",
+          "value": "90.99 / +0.52%",
           "state": "fresh"
         }
       ],
@@ -169,41 +221,6 @@
           "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0p0ZzlWdmNDNTZxY1BKMnFfMkVGTmJCclZoTFhCSFJZLWFDWWkwNTNKLTAyWWw1OHhONkxqb0JFX2o4akRBeWJXNDlIdW14ZUk1ZUh1bG5WblFHRXh0b0M5S19PZ0ZiUGNsRTZ5SWpHSW9hN2ctWHJRdGpkVWRfNlEzRDEtcjhlV3lVaGlTY09xMlpHcm43YTlyaWNyUEU?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "89.63 / -0.98%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,091.72 / -0.53%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
         }
       ]
     }
