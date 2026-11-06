@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06 19:24",
-  "score": -15,
-  "stance": "谨慎防守",
-  "color": "#3b9b68",
+  "generated_at": "2026-11-06 22:58",
+  "score": -31,
+  "stance": "防守优先",
+  "color": "#08783e",
   "confidence": "中",
-  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
+  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.10%",
-      "contribution": 0.8,
+      "value": "上证 -1.10%",
+      "contribution": -8.8,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 0 / 跌 0",
-      "contribution": 0,
+      "value": "涨 767 / 跌 4793",
+      "contribution": -14.5,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 84 / 跌停 0 / 炸板率 36.4%",
-      "contribution": 9.4,
+      "value": "涨停 32 / 跌停 15 / 炸板率 30.4%",
+      "contribution": -1.0,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -2.54%",
-      "contribution": -17.8,
+      "value": "6 个市场均值 +0.23%",
+      "contribution": 1.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.30%",
-      "contribution": 1.8,
+      "value": "富时 A50 +0.40%",
+      "contribution": 2.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6684 (+0.05%) / DXY 101.96 (+0.35%)",
-      "contribution": -2.4,
+      "value": "USD/CNH 6.6703 (+0.08%) / DXY 102.19 (+0.58%)",
+      "contribution": -3.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,7 +63,7 @@
     }
   ],
   "advice": [
-    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
+    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
     "positive_hits": 1,
@@ -72,34 +72,34 @@
   },
   "news": [
     {
+      "title": "美股三大指数涨跌不一",
+      "source": "东方财富",
+      "published": "Fri, 06 Nov 2026 14:34:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5"
+    },
+    {
+      "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
+      "source": "手机新浪网",
+      "published": "Fri, 06 Nov 2026 14:25:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
+    },
+    {
       "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
       "source": "Moomoo",
       "published": "Fri, 06 Nov 2026 05:50:31 GMT",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
     },
     {
-      "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
-      "source": "手机网易网",
-      "published": "Fri, 06 Nov 2026 09:12:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
-    },
-    {
-      "title": "隔夜美股齐重挫 亚股早盘大幅下挫",
-      "source": "亚洲电视新闻",
-      "published": "Fri, 06 Nov 2026 05:16:57 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOY3lYSmhsT3pQbzdROV94RWdmUEc3NlFCZkl3Wm9MR1NCZmJHb204SzdqZFNlWGxiZ241MGhlMDFHZ2ZMak9LdTlUaTFzSXFSMF9wcUxrMzhtV0wyRDBOSkZlbm5YMHp1Rnd1a0JtaW1pVWN2Q1FDdHRvbmpLQnFMX2hfSnJFaUtNR01YeHVFYmo5Y1dCNWhiWk83ZjVNdjFVSGs1TjN3aFZ0aVk3QURLcTJqV1FtbmdpTkNDdUtfUTJqSlpRZHo4XzFqVXU1ZE9EWE9PV2NnR3BmV3piMG9zUWFrdzg5anJUM3lSY3lzbFp3S3I4N3pBU09qX1ZWckxGUWc?oc=5"
+      "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
+      "source": "富途牛牛",
+      "published": "Fri, 06 Nov 2026 06:50:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpmc18xdVd3RHNwY0hoMThETVViQ2xPNGRHLVhDMzdzdTBFVUdzS1ZDZFRfQUFRdkxXdmV5OE9mNlRKc2lnQ3hVX1RySEtlZjRRMEM3V0h1Q2R2bHVBaDR1cjJveXp5d19vVmp4NlAyUXdIQ0x5ckxYcllLUDBfamtYUVViZG1PWnFsUUh5bENNaC1ic3pJY0p2c2NCbDRSbnJv?oc=5"
     },
     {
       "title": "金十数据全球财经早餐| 2026年11月6日-市场参考",
       "source": "金十数据",
       "published": "Thu, 05 Nov 2026 23:02:26 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtX2JNVnBzNGZUWVFQY19nY2FMR3NwUGtZa0hodnVXX3h0WDNzbDFjSi1HVVZHMjlGUkEzMXF3TW5uaXNicVZpbjBqRkdzMFE?oc=5"
-    },
-    {
-      "title": "美股上演史诗级暴跌，全球资本市场上演黑色星期五，韩股跌至熔断、日股暴跌6%，A股四大指数下挫，券商集体解读，流动性收缩是核心矛盾-手机金融界",
-      "source": "金融界",
-      "published": "Fri, 06 Nov 2026 06:42:30 GMT",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MQnBhY1JTLXBibVQydTJPbzZoU1RYVXpneFRCUkNFcEJPUWpLN1hKamZNYVRvTjdkaUQ1S0g2RTBodFUzcEFLZ0c2aGoyNUo5QzRUMlBlYU1ISWRPV1BHSWtmcHc2aEVGZDB0aGdGU25RQQ?oc=5"
     },
     {
       "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
@@ -112,7 +112,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -125,13 +125,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.96 / +0.35%",
+          "value": "102.19 / +0.58%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6684 / +0.05%",
+          "value": "6.6703 / +0.08%",
           "state": "fresh"
         }
       ],
@@ -143,9 +143,9 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
         },
         {
-          "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0p0ZzlWdmNDNTZxY1BKMnFfMkVGTmJCclZoTFhCSFJZLWFDWWkwNTNKLTAyWWw1OHhONkxqb0JFX2o4akRBeWJXNDlIdW14ZUk1ZUh1bG5WblFHRXh0b0M5S19PZ0ZiUGNsRTZ5SWpHSW9hN2ctWHJRdGpkVWRfNlEzRDEtcjhlV3lVaGlTY09xMlpHcm43YTlyaWNyUEU?oc=5"
+          "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpmc18xdVd3RHNwY0hoMThETVViQ2xPNGRHLVhDMzdzdTBFVUdzS1ZDZFRfQUFRdkxXdmV5OE9mNlRKc2lnQ3hVX1RySEtlZjRRMEM3V0h1Q2R2bHVBaDR1cjJveXp5d19vVmp4NlAyUXdIQ0x5ckxYcllLUDBfamtYUVViZG1PWnFsUUh5bENNaC1ic3pJY0p2c2NCbDRSbnJv?oc=5"
         }
       ]
     },
@@ -159,13 +159,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.99 / +0.52%",
+          "value": "90.37 / -0.17%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,076.70 / -0.89%",
+          "value": "4,055.12 / -1.42%",
           "state": "fresh"
         },
         {
@@ -183,9 +183,9 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
         },
         {
-          "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
-          "source": "手机网易网",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
+          "title": "高盛大砍黄金目标价！央行购金挡不住美联储转鹰，当前格局像极了2022年",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpmc18xdVd3RHNwY0hoMThETVViQ2xPNGRHLVhDMzdzdTBFVUdzS1ZDZFRfQUFRdkxXdmV5OE9mNlRKc2lnQ3hVX1RySEtlZjRRMEM3V0h1Q2R2bHVBaDR1cjJveXp5d19vVmp4NlAyUXdIQ0x5ckxYcllLUDBfamtYUVViZG1PWnFsUUh5bENNaC1ic3pJY0p2c2NCbDRSbnJv?oc=5"
         }
       ]
     },
@@ -205,13 +205,13 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,076.70 / -0.89%",
+          "value": "4,055.12 / -1.42%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.99 / +0.52%",
+          "value": "90.37 / -0.17%",
           "state": "fresh"
         }
       ],
@@ -221,6 +221,41 @@
           "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0p0ZzlWdmNDNTZxY1BKMnFfMkVGTmJCclZoTFhCSFJZLWFDWWkwNTNKLTAyWWw1OHhONkxqb0JFX2o4akRBeWJXNDlIdW14ZUk1ZUh1bG5WblFHRXh0b0M5S19PZ0ZiUGNsRTZ5SWpHSW9hN2ctWHJRdGpkVWRfNlEzRDEtcjhlV3lVaGlTY09xMlpHcm43YTlyaWNyUEU?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
+      "headline_count": 1,
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
+      "watch": [
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,803.32 / +0.40%",
+          "state": "fresh"
+        },
+        {
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "24,481.86 / -1.27%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6703 / +0.08%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
+      "headlines": [
+        {
+          "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
         }
       ]
     }
