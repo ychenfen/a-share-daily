@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07 18:37",
+  "generated_at": "2026-11-07 21:56",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-07 18:37",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
+    "checked_at": "2026-11-07 21:56",
+    "slot": "close",
+    "slot_label": "收盘快照",
     "target_date": "2026-11-07",
     "market_data_date": "2026-11-06",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-07 18:37",
+    "generated_at": "2026-11-07 21:56",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-07 18:37",
+    "generated_at": "2026-11-07 21:56",
     "score": -40,
     "stance": "防守优先",
     "color": "#08783e",
@@ -252,7 +252,7 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 2 / 风险词 6",
+        "value": "正向词 1 / 风险词 7",
         "contribution": -8,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
@@ -261,17 +261,11 @@
       "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
     ],
     "news_tone": {
-      "positive_hits": 2,
-      "negative_hits": 6,
+      "positive_hits": 1,
+      "negative_hits": 7,
       "score": -8
     },
     "news": [
-      {
-        "title": "美股科技股暴跌后迅速反弹，抄底时机到了吗？",
-        "source": "21财经",
-        "published": "Sat, 07 Nov 2026 06:50:42 GMT",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGN6QXMtLWUxQWsycWVoMlAyRmc0dGdmekdEazc5Tzh1UWZZRzB2NWVHXy1aTmZUVjhoM1dBeWMwZGtSTkwxREloRVUzY00wc3ZPUHA1N3g5dlJWT3U3NjJlZHhqSTdNLU1yS3RxUlFQd0VYX1pOd0FKMktFbWJkUm9fel9oeUhLSlRPdmpWUQ?oc=5"
-      },
       {
         "title": "美股三大指数涨跌不一",
         "source": "东方财富",
@@ -285,16 +279,28 @@
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
       },
       {
+        "title": "央行动态：美联储12月加息概率升温，AI交易动荡或成变数",
+        "source": "币界网",
+        "published": "Sat, 07 Nov 2026 10:13:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54VGQ4Q2NXMDJYaEtUa2FadVlMOUMzenF4ZVNjYTRzNVh3M3duM2RXbW96bHY3T0xBREo5ekJ5eDhRN1JaU1RaMkI5dkJzeXNUTUE?oc=5"
+      },
+      {
         "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
         "source": "加美财经",
         "published": "Fri, 06 Nov 2026 21:14:24 GMT",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
       },
       {
-        "title": "科技股，盘前爆发！美联储，加息大消息",
-        "source": "21财经",
-        "published": "Fri, 06 Nov 2026 13:46:53 GMT",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORU1MVjBvOXBnVElDd3k2bnA2VjdtUGdtRGFJbDE4dEcwMjI0SDRnQ1M3M1JWX25HbVg0UC03NGsyZjNqcnRnRFNWM3RJTnJGcVFtOElxZVpOV2c0V2pwalVHdUFWZ3FuQWJjWUQ4aDE0cEhib3BGUmRSYXRrMVRnZGhpUXp5VlJvd1lBTlZCWQ?oc=5"
+        "title": "民主党大胜，全球利率要变天？油价暴跌8.7%，2027年加息潮或迎转折",
+        "source": "FX168财经",
+        "published": "Sat, 07 Nov 2026 00:22:06 GMT",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vUTdhdWdPUnNmWUpHeUhzYmtOa2RUWEE4X3pIMm54SzZDRjFVQXpDYTdSLTNJVEU0MU5HQjdFbS1mMFplTDBkUk5fN09Gb0hGSk4xOFU0MUQ3UDkwSWtWWVZYOGR5LTh5WUJGZTU5LVMyN0tHRWZicw?oc=5"
+      },
+      {
+        "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
+        "source": "www.tmgm.com",
+        "published": "Sat, 07 Nov 2026 00:40:15 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
       },
       {
         "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
@@ -303,63 +309,17 @@
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
       },
       {
-        "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
-        "source": "Moomoo",
-        "published": "Sat, 07 Nov 2026 10:34:42 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
-      },
-      {
-        "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
-        "source": "www.tmgm.com",
-        "published": "Sat, 07 Nov 2026 00:40:15 GMT",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
+        "title": "日韩股市黑色星期五：日股大跌，韩股再熔断，韩政府推出救市措施",
+        "source": "21财经",
+        "published": "Fri, 06 Nov 2026 15:40:31 GMT",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVUxfeHAzaVktbDVOYnA5S0NHVnF2VkV0bEl3MThfWW5TaDRoN2RHTlp1T05IdGdPbXpnVGR6eHB3eFJaYTRJMG5BUmFLQmNDOE1JZmNtaEQxUGs2ckMxSDV3NlZ0R0gwT0IwOU54VFZGZ2VaczJFZTA5eHZ3UmdaRlRYZk5mMFVNWU5iTXVHTQ?oc=5"
       }
     ],
     "events": [
       {
-        "key": "technology",
-        "label": "科技与产业",
-        "headline_count": 4,
-        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-        "watch": [
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "24,579.42 / +1.09%",
-            "state": "fresh"
-          },
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "12,800.64 / +0.38%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-        "headlines": [
-          {
-            "title": "美股科技股暴跌后迅速反弹，抄底时机到了吗？",
-            "source": "21财经",
-            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGN6QXMtLWUxQWsycWVoMlAyRmc0dGdmekdEazc5Tzh1UWZZRzB2NWVHXy1aTmZUVjhoM1dBeWMwZGtSTkwxREloRVUzY00wc3ZPUHA1N3g5dlJWT3U3NjJlZHhqSTdNLU1yS3RxUlFQd0VYX1pOd0FKMktFbWJkUm9fel9oeUhLSlRPdmpWUQ?oc=5"
-          },
-          {
-            "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
-          }
-        ]
-      },
-      {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 3,
+        "headline_count": 4,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -390,29 +350,23 @@
             "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
           },
           {
-            "title": "科技股，盘前爆发！美联储，加息大消息",
-            "source": "21财经",
-            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORU1MVjBvOXBnVElDd3k2bnA2VjdtUGdtRGFJbDE4dEcwMjI0SDRnQ1M3M1JWX25HbVg0UC03NGsyZjNqcnRnRFNWM3RJTnJGcVFtOElxZVpOV2c0V2pwalVHdUFWZ3FuQWJjWUQ4aDE0cEhib3BGUmRSYXRrMVRnZGhpUXp5VlJvd1lBTlZCWQ?oc=5"
+            "title": "央行动态：美联储12月加息概率升温，AI交易动荡或成变数",
+            "source": "币界网",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54VGQ4Q2NXMDJYaEtUa2FadVlMOUMzenF4ZVNjYTRzNVh3M3duM2RXbW96bHY3T0xBREo5ekJ5eDhRN1JaU1RaMkI5dkJzeXNUTUE?oc=5"
           }
         ]
       },
       {
-        "key": "currency",
-        "label": "美元与人民币",
+        "key": "technology",
+        "label": "科技与产业",
         "headline_count": 2,
-        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
         "watch": [
           {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "102.29 / +0.67%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6736 / +0.13%",
+            "code": "NDX",
+            "label": "纳斯达克",
+            "value": "24,579.42 / +1.09%",
             "state": "fresh"
           },
           {
@@ -420,9 +374,15 @@
             "label": "富时A50",
             "value": "12,800.64 / +0.38%",
             "state": "fresh"
+          },
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
           }
         ],
-        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
         "headlines": [
           {
             "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
@@ -430,9 +390,9 @@
             "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
           },
           {
-            "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
-            "source": "Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
+            "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
+            "source": "加美财经",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
           }
         ]
       },
@@ -500,9 +460,44 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
-            "source": "Moomoo",
-            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
+            "title": "民主党大胜，全球利率要变天？油价暴跌8.7%，2027年加息潮或迎转折",
+            "source": "FX168财经",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vUTdhdWdPUnNmWUpHeUhzYmtOa2RUWEE4X3pIMm54SzZDRjFVQXpDYTdSLTNJVEU0MU5HQjdFbS1mMFplTDBkUk5fN09Gb0hGSk4xOFU0MUQ3UDkwSWtWWVZYOGR5LTh5WUJGZTU5LVMyN0tHRWZicw?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "currency",
+        "label": "美元与人民币",
+        "headline_count": 1,
+        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+        "watch": [
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "102.29 / +0.67%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6736 / +0.13%",
+            "state": "fresh"
+          },
+          {
+            "code": "A50",
+            "label": "富时A50",
+            "value": "12,800.64 / +0.38%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+        "headlines": [
+          {
+            "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
+            "source": "富途牛牛",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
           }
         ]
       },
@@ -547,11 +542,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-07 18:37",
+    "generated_at": "2026-11-07 21:56",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 246,
+    "signal_count": 247,
     "matured_1d": 240,
     "directional_1d": 199,
     "hit_rate_1d": 63.3,
@@ -588,14 +583,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-07 18:37",
-      "slot": "midday",
+      "captured_at": "2026-11-07 21:56",
+      "slot": "close",
       "score": "-40",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-07 21:56",
+        "slot": "close",
+        "signal_date": "2026-11-07",
+        "market_asof_date": "2026-11-06",
+        "score": "-40",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3649.18",
+        "sh_pct": "-1.10",
+        "global_avg": "-0.0356",
+        "a50_pct": "0.3814303638644878",
+        "usdcnh": "6.6736",
+        "usdcnh_pct": "0.129032258064532",
+        "dxy": "102.2864",
+        "dxy_pct": "0.6746987477473265",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-07 18:37",
         "slot": "midday",
@@ -1067,31 +1087,6 @@
         "health": "markets,us10y,vix",
         "return_1d": 0.1,
         "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-11-03 23:02",
-        "slot": "close",
-        "signal_date": "2026-11-03",
-        "market_asof_date": "2026-11-03",
-        "score": "-14",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3608.10",
-        "sh_pct": "-0.82",
-        "global_avg": "0.3844",
-        "a50_pct": "0.4758178118641432",
-        "usdcnh": "6.6681",
-        "usdcnh_pct": "0.3234736557036655",
-        "dxy": "101.8021",
-        "dxy_pct": "0.04215835030147996",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 2.16,
-        "return_3d": 1.137276,
         "return_5d": null,
         "direction": -1,
         "hit_1d": false

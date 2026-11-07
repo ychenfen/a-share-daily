@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-07 18:37`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-07 21:56`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.6736 (+0.13%) / DXY 102.29 (+0.67%) | -4.9 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 2 / 风险词 6 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 7 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,11 +94,11 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 科技与产业（4 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 24,579.42 / +1.09%（最新） / 富时A50 12,800.64 / +0.38%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
-| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 美元与人民币（2 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） / 富时A50 12,800.64 / +0.38%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
+| 央行与利率（4 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 科技与产业（2 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 24,579.42 / +1.09%（最新） / 富时A50 12,800.64 / +0.38%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
 | 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / 纳斯达克 24,579.42 / +1.09%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
 | 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 90.24 / -0.31%（最新） / 黄金 4,083.17 / -0.74%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） / 富时A50 12,800.64 / +0.38%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
 | 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 12,800.64 / +0.38%（最新） / 恒生指数 24,481.86 / -1.27%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
 
 ### 研究观察
@@ -107,12 +107,12 @@
 
 ### 新闻雷达
 
-- [美股科技股暴跌后迅速反弹，抄底时机到了吗？](https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGN6QXMtLWUxQWsycWVoMlAyRmc0dGdmekdEazc5Tzh1UWZZRzB2NWVHXy1aTmZUVjhoM1dBeWMwZGtSTkwxREloRVUzY00wc3ZPUHA1N3g5dlJWT3U3NjJlZHhqSTdNLU1yS3RxUlFQd0VYX1pOd0FKMktFbWJkUm9fel9oeUhLSlRPdmpWUQ?oc=5) · 21财经
 - [美股三大指数涨跌不一](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5) · 东方财富
 - [美股前瞻\| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元](https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5) · 富途牛牛
+- [央行动态：美联储12月加息概率升温，AI交易动荡或成变数](https://news.google.com/rss/articles/CBMiUkFVX3lxTE54VGQ4Q2NXMDJYaEtUa2FadVlMOUMzenF4ZVNjYTRzNVh3M3duM2RXbW96bHY3T0xBREo5ekJ5eDhRN1JaU1RaMkI5dkJzeXNUTUE?oc=5) · 币界网
 - [美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5) · 加美财经
-- [科技股，盘前爆发！美联储，加息大消息](https://news.google.com/rss/articles/CBMijwFBVV95cUxORU1MVjBvOXBnVElDd3k2bnA2VjdtUGdtRGFJbDE4dEcwMjI0SDRnQ1M3M1JWX25HbVg0UC03NGsyZjNqcnRnRFNWM3RJTnJGcVFtOElxZVpOV2c0V2pwalVHdUFWZ3FuQWJjWUQ4aDE0cEhib3BGUmRSYXRrMVRnZGhpUXp5VlJvd1lBTlZCWQ?oc=5) · 21财经
-- [美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现](https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5) · 手机新浪网
+- [民主党大胜，全球利率要变天？油价暴跌8.7%，2027年加息潮或迎转折](https://news.google.com/rss/articles/CBMieEFVX3lxTE1vUTdhdWdPUnNmWUpHeUhzYmtOa2RUWEE4X3pIMm54SzZDRjFVQXpDYTdSLTNJVEU0MU5HQjdFbS1mMFplTDBkUk5fN09Gb0hGSk4xOFU0MUQ3UDkwSWtWWVZYOGR5LTh5WUJGZTU5LVMyN0tHRWZicw?oc=5) · FX168财经
+- [每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高](https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5) · www.tmgm.com
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
