@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-07 09:54`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-07 16:37`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -94,8 +94,7 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 商品与成本（2 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 90.24 / -0.31%（最新） / 黄金 4,083.17 / -0.74%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 | 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / 纳斯达克 24,579.42 / +1.09%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
 | 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 24,579.42 / +1.09%（最新） / 富时A50 12,800.64 / +0.38%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
 | 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 12,800.64 / +0.38%（最新） / 恒生指数 24,481.86 / -1.27%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
@@ -108,9 +107,8 @@
 
 - [日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QTnZhRFJtV09fVVJGLU1DWEZTeEE0Y1BIWXpLUWctN2k1c1hiTjNkbGl6YnpGaFRLWDRCV3pnSkk1dnRPeDR3Nw?oc=5) · 财联社
 - [美股三大指数涨跌不一](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5) · 东方财富
-- [美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5) · 加美财经
 - [美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现](https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5) · 手机新浪网
-- [高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5) · Moomoo
+- [美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5) · 加美财经
 - [每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高](https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5) · www.tmgm.com
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07 09:54",
+  "generated_at": "2026-11-07 16:37",
   "score": -40,
   "stance": "防守优先",
   "color": "#08783e",
@@ -84,41 +84,29 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5"
     },
     {
-      "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
-      "source": "加美财经",
-      "published": "Fri, 06 Nov 2026 21:14:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
-    },
-    {
       "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
       "source": "手机新浪网",
       "published": "Fri, 06 Nov 2026 14:25:32 GMT",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
     },
     {
-      "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
-      "source": "Moomoo",
-      "published": "Fri, 06 Nov 2026 05:50:31 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
+      "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
+      "source": "加美财经",
+      "published": "Fri, 06 Nov 2026 21:14:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
     },
     {
       "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
       "source": "www.tmgm.com",
       "published": "Sat, 07 Nov 2026 00:40:15 GMT",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
-    },
-    {
-      "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
-      "source": "手机网易网",
-      "published": "Fri, 06 Nov 2026 09:12:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -149,49 +137,9 @@
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QTnZhRFJtV09fVVJGLU1DWEZTeEE0Y1BIWXpLUWctN2k1c1hiTjNkbGl6YnpGaFRLWDRCV3pnSkk1dnRPeDR3Nw?oc=5"
         },
         {
-          "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "90.24 / -0.31%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,083.17 / -0.74%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
-        },
-        {
-          "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
-          "source": "手机网易网",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
+          "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
+          "source": "www.tmgm.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
         }
       ]
     },
