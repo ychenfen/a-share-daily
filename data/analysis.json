@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07 16:37",
+  "generated_at": "2026-11-07 18:37",
   "score": -40,
   "stance": "防守优先",
   "color": "#08783e",
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 5",
+      "value": "正向词 2 / 风险词 6",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,16 +66,16 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 5,
+    "positive_hits": 2,
+    "negative_hits": 6,
     "score": -8
   },
   "news": [
     {
-      "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
-      "source": "财联社",
-      "published": "Fri, 06 Nov 2026 09:01:46 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QTnZhRFJtV09fVVJGLU1DWEZTeEE0Y1BIWXpLUWctN2k1c1hiTjNkbGl6YnpGaFRLWDRCV3pnSkk1dnRPeDR3Nw?oc=5"
+      "title": "美股科技股暴跌后迅速反弹，抄底时机到了吗？",
+      "source": "21财经",
+      "published": "Sat, 07 Nov 2026 06:50:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGN6QXMtLWUxQWsycWVoMlAyRmc0dGdmekdEazc5Tzh1UWZZRzB2NWVHXy1aTmZUVjhoM1dBeWMwZGtSTkwxREloRVUzY00wc3ZPUHA1N3g5dlJWT3U3NjJlZHhqSTdNLU1yS3RxUlFQd0VYX1pOd0FKMktFbWJkUm9fel9oeUhLSlRPdmpWUQ?oc=5"
     },
     {
       "title": "美股三大指数涨跌不一",
@@ -84,16 +84,34 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5"
     },
     {
-      "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
-      "source": "手机新浪网",
-      "published": "Fri, 06 Nov 2026 14:25:32 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
+      "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
+      "source": "富途牛牛",
+      "published": "Sat, 07 Nov 2026 04:40:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
     },
     {
       "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
       "source": "加美财经",
       "published": "Fri, 06 Nov 2026 21:14:24 GMT",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
+    },
+    {
+      "title": "科技股，盘前爆发！美联储，加息大消息",
+      "source": "21财经",
+      "published": "Fri, 06 Nov 2026 13:46:53 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORU1MVjBvOXBnVElDd3k2bnA2VjdtUGdtRGFJbDE4dEcwMjI0SDRnQ1M3M1JWX25HbVg0UC03NGsyZjNqcnRnRFNWM3RJTnJGcVFtOElxZVpOV2c0V2pwalVHdUFWZ3FuQWJjWUQ4aDE0cEhib3BGUmRSYXRrMVRnZGhpUXp5VlJvd1lBTlZCWQ?oc=5"
+    },
+    {
+      "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
+      "source": "手机新浪网",
+      "published": "Fri, 06 Nov 2026 14:25:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
+    },
+    {
+      "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
+      "source": "Moomoo",
+      "published": "Sat, 07 Nov 2026 10:34:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
     },
     {
       "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
@@ -104,9 +122,49 @@
   ],
   "events": [
     {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 4,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "24,579.42 / +1.09%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,800.64 / +0.38%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "美股科技股暴跌后迅速反弹，抄底时机到了吗？",
+          "source": "21财经",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGN6QXMtLWUxQWsycWVoMlAyRmc0dGdmekdEazc5Tzh1UWZZRzB2NWVHXy1aTmZUVjhoM1dBeWMwZGtSTkwxREloRVUzY00wc3ZPUHA1N3g5dlJWT3U3NjJlZHhqSTdNLU1yS3RxUlFQd0VYX1pOd0FKMktFbWJkUm9fel9oeUhLSlRPdmpWUQ?oc=5"
+        },
+        {
+          "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
+        }
+      ]
+    },
+    {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -132,14 +190,54 @@
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
-          "source": "财联社",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QTnZhRFJtV09fVVJGLU1DWEZTeEE0Y1BIWXpLUWctN2k1c1hiTjNkbGl6YnpGaFRLWDRCV3pnSkk1dnRPeDR3Nw?oc=5"
+          "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
         },
         {
-          "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
-          "source": "www.tmgm.com",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
+          "title": "科技股，盘前爆发！美联储，加息大消息",
+          "source": "21财经",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORU1MVjBvOXBnVElDd3k2bnA2VjdtUGdtRGFJbDE4dEcwMjI0SDRnQ1M3M1JWX25HbVg0UC03NGsyZjNqcnRnRFNWM3RJTnJGcVFtOElxZVpOV2c0V2pwalVHdUFWZ3FuQWJjWUQ4aDE0cEhib3BGUmRSYXRrMVRnZGhpUXp5VlJvd1lBTlZCWQ?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.29 / +0.67%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6736 / +0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,800.64 / +0.38%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
+        },
+        {
+          "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
         }
       ]
     },
@@ -179,22 +277,22 @@
       ]
     },
     {
-      "key": "technology",
-      "label": "科技与产业",
+      "key": "commodities",
+      "label": "商品与成本",
       "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "24,579.42 / +1.09%",
+          "code": "WTI",
+          "label": "原油",
+          "value": "90.24 / -0.31%",
           "state": "fresh"
         },
         {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,800.64 / +0.38%",
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,083.17 / -0.74%",
           "state": "fresh"
         },
         {
@@ -204,12 +302,12 @@
           "state": "stale"
         }
       ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
-          "source": "加美财经",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
+          "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
         }
       ]
     },
