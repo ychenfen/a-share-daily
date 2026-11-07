@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07 21:56",
+  "generated_at": "2026-11-08 01:46",
   "score": -40,
   "stance": "防守优先",
   "color": "#08783e",
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 7",
+      "value": "正向词 2 / 风险词 6",
       "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,28 +66,28 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 7,
+    "positive_hits": 2,
+    "negative_hits": 6,
     "score": -8
   },
   "news": [
     {
-      "title": "美股三大指数涨跌不一",
+      "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
+      "source": "金十数据",
+      "published": "Sat, 07 Nov 2026 13:00:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+    },
+    {
+      "title": "美股三大指数涨跌不一 纳指涨超1% 芯片股反弹",
       "source": "东方财富",
-      "published": "Fri, 06 Nov 2026 14:34:13 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5"
+      "published": "Sat, 07 Nov 2026 03:24:31 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wSS1ydVR5NW9qNEZXVS1jbGhZdEpEX3lMRnI5SmNKVHgwekFuN2xkZDFXV013dHRpdjhUOE1jamVuc0ZfRV8wZUxldEpuMGxVZUVfOE1RVFVnbFlZZ0pXSE5DcG13UQ?oc=5"
     },
     {
-      "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
-      "source": "富途牛牛",
-      "published": "Sat, 07 Nov 2026 04:40:18 GMT",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
-    },
-    {
-      "title": "央行动态：美联储12月加息概率升温，AI交易动荡或成变数",
-      "source": "币界网",
-      "published": "Sat, 07 Nov 2026 10:13:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54VGQ4Q2NXMDJYaEtUa2FadVlMOUMzenF4ZVNjYTRzNVh3M3duM2RXbW96bHY3T0xBREo5ekJ5eDhRN1JaU1RaMkI5dkJzeXNUTUE?oc=5"
+      "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
+      "source": "Moomoo",
+      "published": "Sat, 07 Nov 2026 10:34:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
     },
     {
       "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
@@ -106,25 +106,13 @@
       "source": "www.tmgm.com",
       "published": "Sat, 07 Nov 2026 00:40:15 GMT",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
-    },
-    {
-      "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
-      "source": "手机新浪网",
-      "published": "Fri, 06 Nov 2026 14:25:32 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
-    },
-    {
-      "title": "日韩股市黑色星期五：日股大跌，韩股再熔断，韩政府推出救市措施",
-      "source": "21财经",
-      "published": "Fri, 06 Nov 2026 15:40:31 GMT",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVUxfeHAzaVktbDVOYnA5S0NHVnF2VkV0bEl3MThfWW5TaDRoN2RHTlp1T05IdGdPbXpnVGR6eHB3eFJaYTRJMG5BUmFLQmNDOE1JZmNtaEQxUGs2ckMxSDV3NlZ0R0gwT0IwOU54VFZGZ2VaczJFZTA5eHZ3UmdaRlRYZk5mMFVNWU5iTXVHTQ?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 3,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -150,14 +138,94 @@
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
+          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
         },
         {
-          "title": "央行动态：美联储12月加息概率升温，AI交易动荡或成变数",
-          "source": "币界网",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54VGQ4Q2NXMDJYaEtUa2FadVlMOUMzenF4ZVNjYTRzNVh3M3duM2RXbW96bHY3T0xBREo5ekJ5eDhRN1JaU1RaMkI5dkJzeXNUTUE?oc=5"
+          "title": "民主党大胜，全球利率要变天？油价暴跌8.7%，2027年加息潮或迎转折",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vUTdhdWdPUnNmWUpHeUhzYmtOa2RUWEE4X3pIMm54SzZDRjFVQXpDYTdSLTNJVEU0MU5HQjdFbS1mMFplTDBkUk5fN09Gb0hGSk4xOFU0MUQ3UDkwSWtWWVZYOGR5LTh5WUJGZTU5LVMyN0tHRWZicw?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 3,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "90.24 / -0.31%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,083.17 / -0.74%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+        },
+        {
+          "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "inflation",
+      "label": "通胀与就业",
+      "headline_count": 2,
+      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.29 / +0.67%",
+          "state": "fresh"
+        },
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "24,579.42 / +1.09%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
+      "headlines": [
+        {
+          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
+          "source": "金十数据",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+        },
+        {
+          "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
+          "source": "www.tmgm.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
         }
       ]
     },
@@ -190,84 +258,14 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
+          "title": "美股三大指数涨跌不一 纳指涨超1% 芯片股反弹",
+          "source": "东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wSS1ydVR5NW9qNEZXVS1jbGhZdEpEX3lMRnI5SmNKVHgwekFuN2xkZDFXV013dHRpdjhUOE1jamVuc0ZfRV8wZUxldEpuMGxVZUVfOE1RVFVnbFlZZ0pXSE5DcG13UQ?oc=5"
         },
         {
           "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
           "source": "加美财经",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 1,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "102.29 / +0.67%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "24,579.42 / +1.09%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
-          "source": "www.tmgm.com",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "90.24 / -0.31%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,083.17 / -0.74%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "民主党大胜，全球利率要变天？油价暴跌8.7%，2027年加息潮或迎转折",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vUTdhdWdPUnNmWUpHeUhzYmtOa2RUWEE4X3pIMm54SzZDRjFVQXpDYTdSLTNJVEU0MU5HQjdFbS1mMFplTDBkUk5fN09Gb0hGSk4xOFU0MUQ3UDkwSWtWWVZYOGR5LTh5WUJGZTU5LVMyN0tHRWZicw?oc=5"
         }
       ]
     },
@@ -300,44 +298,9 @@
       "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
-          "title": "美股前瞻| 全球超级央行周来袭！三大期指涨跌不一；半导体板块盘前延续强劲，高通飙升逾12%；AI乐观交易情绪提升，英伟达市值重返5万亿美元",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmczaHRkTG90Z3lnMXJnT1R1Nm5lR0JBTDB2RlE5cm45cTFiSEsxM2JkX1VHNGpMNEl1UUZOODVDaWFTQVA4ZTY0ZUNUUFNNOEhEbncyOE92d1p1THllbjFjb3dpbTJmcU1IU1hna3VNbjFYeU9lTkx5RnRpOEcwZjBjSlg3Y3N4dXg2b2lNb3dDa3JrbVZuVFdsTF8xS1E?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "domestic_policy",
-      "label": "国内政策与需求",
-      "headline_count": 1,
-      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-      "a_share_lens": "金融地产、基建、消费与顺周期方向",
-      "watch": [
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,800.64 / +0.38%",
-          "state": "fresh"
-        },
-        {
-          "code": "HSI",
-          "label": "恒生指数",
-          "value": "24,481.86 / -1.27%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6736 / +0.13%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-      "headlines": [
-        {
-          "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
+          "title": "我国外储规模连续7个月站稳3.4万亿美元，黄金储备24连增",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV3c1bEdmeXRFREs3NmlfS2NYWU1iUGF0ZHVtT3g5UmRFM2JjbHpMdE9uQmRJTVBzaFRIZmhLUFVzN1EtUUhiSlcyV2ZNOU1SR0lza0F6dTFmel9HZDBLaVNGSXlhX3ZBUEZNcE9QSmxLMFZnQ3NBblA4RnFhcThTT2VmOXpEUFc2VFMteWZtdm5sTGRzQ2JqQzdySjZCZExpNjczYm9ESTBzNG1kVnZDQmo2NA?oc=5"
         }
       ]
     }
