@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07 03:30",
-  "score": -35,
+  "generated_at": "2026-11-07 09:54",
+  "score": -40,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.10%",
-      "contribution": 0.7,
+      "value": "6 个市场均值 -0.04%",
+      "contribution": -0.2,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.41%",
-      "contribution": 2.5,
+      "value": "富时 A50 +0.38%",
+      "contribution": 2.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6723 (+0.11%) / DXY 102.29 (+0.67%)",
-      "contribution": -4.7,
+      "value": "USD/CNH 6.6736 (+0.13%) / DXY 102.29 (+0.67%)",
+      "contribution": -4.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 3",
-      "contribution": -4,
+      "value": "正向词 1 / 风险词 5",
+      "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,8 +67,8 @@
   ],
   "news_tone": {
     "positive_hits": 1,
-    "negative_hits": 3,
-    "score": -4
+    "negative_hits": 5,
+    "score": -8
   },
   "news": [
     {
@@ -84,22 +84,16 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTTd4c1BUUXh6WUNQRWFLNDc0dXFjVFRzZlI2MzZ0Z01pc2JHSmhsM25kOUxfWWR6NlBLLXFvZU1VWVNMMzBqRVoycXQxRDhWVU93UjJGbmhKLWV0Xy1KVw?oc=5"
     },
     {
+      "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
+      "source": "加美财经",
+      "published": "Fri, 06 Nov 2026 21:14:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
+    },
+    {
       "title": "美股暴跌引发全球股市动荡！A股超4700只个股飘绿，机构：政策底已经出现",
       "source": "手机新浪网",
       "published": "Fri, 06 Nov 2026 14:25:32 GMT",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkJPMkx5WHFWUVJzaG5xbHZPUHFYS0VqV2p6NjBPSGRkN0l0X1A4RkUyd2Q1Ui1pQzFOYXdWS3o1QlVuWEpQd1diWG5VaGhwNGlDMVhrR3JDdkxwSFdSRXZrSEE0ODVtdEJOSUZuUmRVUnlaZEh0VTVZSzFJY0tfX01B?oc=5"
-    },
-    {
-      "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
-      "source": "手机网易网",
-      "published": "Fri, 06 Nov 2026 09:12:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
-    },
-    {
-      "title": "金十数据全球财经早餐| 2026年11月6日-市场参考",
-      "source": "金十数据",
-      "published": "Thu, 05 Nov 2026 23:02:26 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtX2JNVnBzNGZUWVFQY19nY2FMR3NwUGtZa0hodnVXX3h0WDNzbDFjSi1HVVZHMjlGUkEzMXF3TW5uaXNicVZpbjBqRkdzMFE?oc=5"
     },
     {
       "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
@@ -108,10 +102,16 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
     },
     {
-      "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
-      "source": "Moomoo",
-      "published": "Fri, 06 Nov 2026 00:30:55 GMT",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0p0ZzlWdmNDNTZxY1BKMnFfMkVGTmJCclZoTFhCSFJZLWFDWWkwNTNKLTAyWWw1OHhONkxqb0JFX2o4akRBeWJXNDlIdW14ZUk1ZUh1bG5WblFHRXh0b0M5S19PZ0ZiUGNsRTZ5SWpHSW9hN2ctWHJRdGpkVWRfNlEzRDEtcjhlV3lVaGlTY09xMlpHcm43YTlyaWNyUEU?oc=5"
+      "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
+      "source": "www.tmgm.com",
+      "published": "Sat, 07 Nov 2026 00:40:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
+    },
+    {
+      "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
+      "source": "手机网易网",
+      "published": "Fri, 06 Nov 2026 09:12:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
     }
   ],
   "events": [
@@ -137,7 +137,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6723 / +0.11%",
+          "value": "6.6736 / +0.13%",
           "state": "fresh"
         }
       ],
@@ -165,13 +165,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "91.05 / +0.58%",
+          "value": "90.24 / -0.31%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,069.84 / -1.06%",
+          "value": "4,083.17 / -0.74%",
           "state": "fresh"
         },
         {
@@ -184,49 +184,84 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
-          "source": "手机网易网",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
-        },
-        {
           "title": "高盛下调黄金目标价：牛市逻辑尚未终结，美联储却已改变游戏规则",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CVHJhaV80aXBzNnFhc1JnVGhhdEpwUW9lbDNjVWo5WkRIUzFScVlZYWNkc0pHYno5Q1hTZWk2N2FJazVwX1VaSFNnMzFhQTMyel9MRXVBajNWam1z?oc=5"
+        },
+        {
+          "title": "中期选举重创股市后 黄金有望创下8月以来最大周涨幅",
+          "source": "手机网易网",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jbTI3ZTMtU2pKV2hnZ2x6UVAwcm9jZU9NZ2NNZlllZk9wRzZZWk9vRXg5OFJKVnVwT01IRjIxeVUtSUlZZ19URHBxeGdoUGVTSllBcWo3d2NnWDl3eFZ2Y29R?oc=5"
         }
       ]
     },
     {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
+      "key": "inflation",
+      "label": "通胀与就业",
       "headline_count": 1,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
+      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
+      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
         {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
           "state": "stale"
         },
         {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,069.84 / -1.06%",
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.29 / +0.67%",
           "state": "fresh"
         },
         {
-          "code": "WTI",
-          "label": "原油",
-          "value": "91.05 / +0.58%",
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "24,579.42 / +1.09%",
           "state": "fresh"
         }
       ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
+      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
         {
-          "title": "英国央行被迫加息至4％：中东能源冲击打破降息周期",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY0p0ZzlWdmNDNTZxY1BKMnFfMkVGTmJCclZoTFhCSFJZLWFDWWkwNTNKLTAyWWw1OHhONkxqb0JFX2o4akRBeWJXNDlIdW14ZUk1ZUh1bG5WblFHRXh0b0M5S19PZ0ZiUGNsRTZ5SWpHSW9hN2ctWHJRdGpkVWRfNlEzRDEtcjhlV3lVaGlTY09xMlpHcm43YTlyaWNyUEU?oc=5"
+          "title": "每日财经早餐 2026年11月6日：英国央行加息至4%，美联储威廉姆斯称通胀过高",
+          "source": "www.tmgm.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUU0ZWlnNGVWRWE0MmpkVEhURVNZZWJFLW1ocUhzc2wxZl9sS3RodkpBeXJ1MDNFRzhGQ3V3WmlmUE1ESTR0aXlpNVJGRjhvVFVkY3ZsNV9fQ2kwckE5M3c5d0tUVnVqdkFUUy1HamU4cmgzV1I3M2MyakVzUmdORWlqcw?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "24,579.42 / +1.09%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,800.64 / +0.38%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "美股周五科技股反弹，未能挽回本周损失，分析师警告市场尚未确认触底",
+          "source": "加美财经",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMFYxZWtoaGpGVVFpMEVUWlVtNld1ZEVfWXBPMmY2Y20wYlZUblE1TEFVYThEbnpDOUR1RFFGM0pIVjFqcTlmWU9wTHRVTnA0SVlpMHhCLXpFQQ?oc=5"
         }
       ]
     },
@@ -240,7 +275,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,804.32 / +0.41%",
+          "value": "12,800.64 / +0.38%",
           "state": "fresh"
         },
         {
@@ -252,7 +287,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6723 / +0.11%",
+          "value": "6.6736 / +0.13%",
           "state": "fresh"
         }
       ],
