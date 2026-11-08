@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-08 09:25",
-  "slot": "overnight",
-  "slot_label": "外围收盘",
+  "checked_at": "2026-11-08 16:50",
+  "slot": "open",
+  "slot_label": "开盘脉搏",
   "target_date": "2026-11-08",
   "market_data_date": "2026-11-06",
   "market_state": "non_trading",
