@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08 22:15",
-  "score": -40,
+  "generated_at": "2026-11-09 01:58",
+  "score": -36,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 4",
-      "contribution": -8,
+      "value": "正向词 0 / 风险词 2",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,10 +67,16 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 4,
-    "score": -8
+    "negative_hits": 2,
+    "score": -4
   },
   "news": [
+    {
+      "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
+      "source": "金融界",
+      "published": "Sun, 08 Nov 2026 10:43:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
+    },
     {
       "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
       "source": "证券之星",
@@ -84,22 +90,16 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlQnpVeVFNZjBPTlAtNE5uczUzQ1ZjVWRnSmd3ZFQyenlaWnRSbkVrXzdVY1VlLUx0ZXFwRGp3N1NpbTl5QS1NS2NyZk1FQWVTaUg0amhaZElvTXhNQzFsSlM4bw?oc=5"
     },
     {
-      "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-      "source": "金十数据",
-      "published": "Sat, 07 Nov 2026 15:16:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+      "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
+      "source": "FX168财经",
+      "published": "Sun, 08 Nov 2026 16:54:45 GMT",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXOTFEcGMyYVVMU01jcS1xYTJXdjBXeGh5QnVsZWE2LUtON0hySjJ2UWp2N0ZaOTN6aEExdUxLcFZGd1V0U09ERm9MZ0E0MXZ2LVRNcW5WRDZlbnRBZnNfa0haZ1VteHpMRlhtNkt2d0k?oc=5"
     },
     {
       "title": "赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经",
       "source": "证券之星",
       "published": "Sun, 08 Nov 2026 03:48:53 GMT",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5"
-    },
-    {
-      "title": "美联储下周会否加息？今明两天，两份重磅通胀报告将定调",
-      "source": "富途牛牛",
-      "published": "Sat, 07 Nov 2026 15:50:15 GMT",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHdoR1o0bzFCZ1AwZDJELWFXeFh3dTBkYkEwdDNTVWI3OWU1bmprQXF2dzR0enFxWmlYUHdZTVBUeTdSaEJPcEtBWURuQlFOTzNIZ0VTdWJwUlFKZVNPTUJDdU9BSVNEZzZwZVM4V1lCeXNiRElkVmhteTJuR2NRbzV0b1gxVEtyVUhTaHZ2OS1xcGQ0a2Z2dG91SXE5UQ?oc=5"
     }
   ],
   "events": [
@@ -132,14 +132,14 @@
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
+        },
+        {
           "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5"
-        },
-        {
-          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
         }
       ]
     },
@@ -172,21 +172,21 @@
       "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
         {
-          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
         },
         {
-          "title": "美联储下周会否加息？今明两天，两份重磅通胀报告将定调",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHdoR1o0bzFCZ1AwZDJELWFXeFh3dTBkYkEwdDNTVWI3OWU1bmprQXF2dzR0enFxWmlYUHdZTVBUeTdSaEJPcEtBWURuQlFOTzNIZ0VTdWJwUlFKZVNPTUJDdU9BSVNEZzZwZVM4V1lCeXNiRElkVmhteTJuR2NRbzV0b1gxVEtyVUhTaHZ2OS1xcGQ0a2Z2dG91SXE5UQ?oc=5"
+          "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXOTFEcGMyYVVMU01jcS1xYTJXdjBXeGh5QnVsZWE2LUtON0hySjJ2UWp2N0ZaOTN6aEExdUxLcFZGd1V0U09ERm9MZ0E0MXZ2LVRNcW5WRDZlbnRBZnNfa0haZ1VteHpMRlhtNkt2d0k?oc=5"
         }
       ]
     },
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
@@ -212,9 +212,49 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
+        },
+        {
+          "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXOTFEcGMyYVVMU01jcS1xYTJXdjBXeGh5QnVsZWE2LUtON0hySjJ2UWp2N0ZaOTN6aEExdUxLcFZGd1V0U09ERm9MZ0E0MXZ2LVRNcW5WRDZlbnRBZnNfa0haZ1VteHpMRlhtNkt2d0k?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 1,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "102.29 / +0.67%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6736 / +0.13%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,800.64 / +0.38%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXOTFEcGMyYVVMU01jcS1xYTJXdjBXeGh5QnVsZWE2LUtON0hySjJ2UWp2N0ZaOTN6aEExdUxLcFZGd1V0U09ERm9MZ0E0MXZ2LVRNcW5WRDZlbnRBZnNfa0haZ1VteHpMRlhtNkt2d0k?oc=5"
         }
       ]
     }

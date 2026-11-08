@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-08 22:15`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-09 01:58`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -40 · 防守优先**（置信度：中）
+> **风险温度 -36 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.6736 (+0.13%) / DXY 102.29 (+0.67%) | -4.9 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 4 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 0 / 风险词 2 | -4.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -96,7 +96,8 @@
 | --- | --- | --- | --- | --- |
 | 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 | 通胀与就业（2 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 102.29 / +0.67%（最新） / 纳斯达克 24,579.42 / +1.09%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 90.24 / -0.31%（最新） / 黄金 4,083.17 / -0.74%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 商品与成本（2 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 90.24 / -0.31%（最新） / 黄金 4,083.17 / -0.74%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 美元与人民币（1 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 102.29 / +0.67%（最新） / USD/CNH 6.6736 / +0.13%（最新） / 富时A50 12,800.64 / +0.38%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
 
 ### 研究观察
 
@@ -104,11 +105,11 @@
 
 ### 新闻雷达
 
+- [一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5) · 金融界
 - [国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5) · 证券之星
 - [估值具备吸引力！下周A股大概率这么走？](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlQnpVeVFNZjBPTlAtNE5uczUzQ1ZjVWRnSmd3ZFQyenlaWnRSbkVrXzdVY1VlLUx0ZXFwRGp3N1NpbTl5QS1NS2NyZk1FQWVTaUg0amhaZElvTXhNQzFsSlM4bw?oc=5) · 东方财富
-- [一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5) · 金十数据
+- [下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择](https://news.google.com/rss/articles/CBMicEFVX3lxTFBXOTFEcGMyYVVMU01jcS1xYTJXdjBXeGh5QnVsZWE2LUtON0hySjJ2UWp2N0ZaOTN6aEExdUxLcFZGd1V0U09ERm9MZ0E0MXZ2LVRNcW5WRDZlbnRBZnNfa0haZ1VteHpMRlhtNkt2d0k?oc=5) · FX168财经
 - [赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经](https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5) · 证券之星
-- [美联储下周会否加息？今明两天，两份重磅通胀报告将定调](https://news.google.com/rss/articles/CBMingFBVV95cUxNWHdoR1o0bzFCZ1AwZDJELWFXeFh3dTBkYkEwdDNTVWI3OWU1bmprQXF2dzR0enFxWmlYUHdZTVBUeTdSaEJPcEtBWURuQlFOTzNIZ0VTdWJwUlFKZVNPTUJDdU9BSVNEZzZwZVM4V1lCeXNiRElkVmhteTJuR2NRbzV0b1gxVEtyVUhTaHZ2OS1xcGQ0a2Z2dG91SXE5UQ?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
