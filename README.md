@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-08 18:42`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-06 · 最后检查 `2026-11-08 22:15`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -38 · 防守优先**（置信度：中）
+> **风险温度 -40 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -86,7 +86,7 @@
 | 美元与人民币 | USD/CNH 6.6736 (+0.13%) / DXY 102.29 (+0.67%) | -4.9 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 3 | -6.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 0 / 风险词 4 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -104,10 +104,10 @@
 
 ### 新闻雷达
 
-- [估值具备吸引力！下周A股大概率这么走？](https://news.google.com/rss/articles/CBMiZkFVX3lxTE41T3dkeEtrenR1bklJR2VmNmhoaUwtX1V0LUd1bDhaNFRRUzRwRERiYVNLLUx2TlBpYzZpclVDOFpfX2tySVphT3VEVHE1SG5GTjBLcnk0c3BtNnlBZldnX3dpUE9oUQ?oc=5) · 证券市场周刊
-- [赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经](https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5) · 证券之星
+- [国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5) · 证券之星
+- [估值具备吸引力！下周A股大概率这么走？](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlQnpVeVFNZjBPTlAtNE5uczUzQ1ZjVWRnSmd3ZFQyenlaWnRSbkVrXzdVY1VlLUx0ZXFwRGp3N1NpbTl5QS1NS2NyZk1FQWVTaUg0amhaZElvTXhNQzFsSlM4bw?oc=5) · 东方财富
 - [一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5) · 金十数据
-- [“超级央行周”前瞻：全球利率如何走向？金价持续震荡如何应对？机构：物理AI迎来重大拐点？丨20261027从华尔街到陆家嘴](https://news.google.com/rss/articles/CBMiVEFVX3lxTE10c2tNTEFsU2dpUUxKLTlQNFhUZ2FZdGZYOUszaW9OUld0NFVVd3ptS1h2NHZqeUpubGMtaVlSWG9UbzVBR2haN1pGODhFSzZOVUhLbQ?oc=5) · 第一财经
+- [赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经](https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5) · 证券之星
 - [美联储下周会否加息？今明两天，两份重磅通胀报告将定调](https://news.google.com/rss/articles/CBMingFBVV95cUxNWHdoR1o0bzFCZ1AwZDJELWFXeFh3dTBkYkEwdDNTVWI3OWU1bmprQXF2dzR0enFxWmlYUHdZTVBUeTdSaEJPcEtBWURuQlFOTzNIZ0VTdWJwUlFKZVNPTUJDdU9BSVNEZzZwZVM4V1lCeXNiRElkVmhteTJuR2NRbzV0b1gxVEtyVUhTaHZ2OS1xcGQ0a2Z2dG91SXE5UQ?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。

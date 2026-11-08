@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08 18:42",
-  "score": -38,
+  "generated_at": "2026-11-08 22:15",
+  "score": -40,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 3",
-      "contribution": -6,
+      "value": "正向词 0 / 风险词 4",
+      "contribution": -8,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,21 +67,21 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 3,
-    "score": -6
+    "negative_hits": 4,
+    "score": -8
   },
   "news": [
     {
-      "title": "估值具备吸引力！下周A股大概率这么走？",
-      "source": "证券市场周刊",
-      "published": "Sun, 08 Nov 2026 09:36:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41T3dkeEtrenR1bklJR2VmNmhoaUwtX1V0LUd1bDhaNFRRUzRwRERiYVNLLUx2TlBpYzZpclVDOFpfX2tySVphT3VEVHE1SG5GTjBLcnk0c3BtNnlBZldnX3dpUE9oUQ?oc=5"
+      "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
+      "source": "证券之星",
+      "published": "Sun, 08 Nov 2026 11:34:28 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5"
     },
     {
-      "title": "赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经",
-      "source": "证券之星",
-      "published": "Sun, 08 Nov 2026 03:48:53 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5"
+      "title": "估值具备吸引力！下周A股大概率这么走？",
+      "source": "东方财富",
+      "published": "Sun, 08 Nov 2026 10:00:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlQnpVeVFNZjBPTlAtNE5uczUzQ1ZjVWRnSmd3ZFQyenlaWnRSbkVrXzdVY1VlLUx0ZXFwRGp3N1NpbTl5QS1NS2NyZk1FQWVTaUg0amhaZElvTXhNQzFsSlM4bw?oc=5"
     },
     {
       "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
@@ -90,10 +90,10 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
     },
     {
-      "title": "“超级央行周”前瞻：全球利率如何走向？金价持续震荡如何应对？机构：物理AI迎来重大拐点？丨20261027从华尔街到陆家嘴",
-      "source": "第一财经",
-      "published": "Sat, 07 Nov 2026 11:23:26 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10c2tNTEFsU2dpUUxKLTlQNFhUZ2FZdGZYOUszaW9OUld0NFVVd3ptS1h2NHZqeUpubGMtaVlSWG9UbzVBR2haN1pGODhFSzZOVUhLbQ?oc=5"
+      "title": "赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经",
+      "source": "证券之星",
+      "published": "Sun, 08 Nov 2026 03:48:53 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5"
     },
     {
       "title": "美联储下周会否加息？今明两天，两份重磅通胀报告将定调",
@@ -132,14 +132,14 @@
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
+          "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
+          "source": "证券之星",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5"
+        },
+        {
           "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
           "source": "金十数据",
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
-        },
-        {
-          "title": "“超级央行周”前瞻：全球利率如何走向？金价持续震荡如何应对？机构：物理AI迎来重大拐点？丨20261027从华尔街到陆家嘴",
-          "source": "第一财经",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10c2tNTEFsU2dpUUxKLTlQNFhUZ2FZdGZYOUszaW9OUld0NFVVd3ptS1h2NHZqeUpubGMtaVlSWG9UbzVBR2haN1pGODhFSzZOVUhLbQ?oc=5"
         }
       ]
     },
