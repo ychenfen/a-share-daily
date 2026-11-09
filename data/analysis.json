@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09 17:34",
-  "score": -32,
+  "generated_at": "2026-11-09 20:00",
+  "score": -26,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.07%",
-      "contribution": 0.4,
+      "value": "富时 A50 +0.30%",
+      "contribution": 1.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6713 (-0.03%) / DXY 101.87 (-0.37%)",
-      "contribution": 2.2,
+      "value": "USD/CNH 6.6704 (-0.04%) / DXY 101.87 (-0.38%)",
+      "contribution": 2.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 3",
-      "contribution": -6,
+      "value": "正向词 0 / 风险词 1",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,8 +67,8 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 3,
-    "score": -6
+    "negative_hits": 1,
+    "score": -2
   },
   "news": [
     {
@@ -94,31 +94,13 @@
       "source": "新浪网",
       "published": "Sun, 08 Nov 2026 23:49:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DWUFiZEhSbVJzd1lRenQtekZoQzJ5M1l6WS1aMEUtM0hpbDdtaDBfcE1KaUdFTzJnTHVQVU9uV0hMXzl6MHd1STFlb0ZpS2ozWVBrRkdLeHlZLTJ4ZVV4YW05NA?oc=5"
-    },
-    {
-      "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
-      "source": "证券之星",
-      "published": "Sun, 08 Nov 2026 11:34:28 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5"
-    },
-    {
-      "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
-      "source": "金融界",
-      "published": "Sun, 08 Nov 2026 10:43:04 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
-    },
-    {
-      "title": "估值具备吸引力！下周A股大概率这么走？",
-      "source": "东方财富",
-      "published": "Sun, 08 Nov 2026 10:00:24 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlQnpVeVFNZjBPTlAtNE5uczUzQ1ZjVWRnSmd3ZFQyenlaWnRSbkVrXzdVY1VlLUx0ZXFwRGp3N1NpbTl5QS1NS2NyZk1FQWVTaUg0amhaZElvTXhNQzFsSlM4bw?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 4,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -131,13 +113,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.87 / -0.37%",
+          "value": "101.87 / -0.38%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6713 / -0.03%",
+          "value": "6.6704 / -0.04%",
           "state": "fresh"
         }
       ],
@@ -158,7 +140,7 @@
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -171,7 +153,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.87 / -0.37%",
+          "value": "101.87 / -0.38%",
           "state": "fresh"
         },
         {
@@ -196,46 +178,6 @@
       ]
     },
     {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "89.90 / -1.02%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,110.19 / +0.87%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GcnFNTFQ3bDU3Z2Vqc05ReEphcVA2TUloZk9YckZaMm52ZzV3YUxoMnB2Tlc0OTBnZHFEWkNtTmd6MHVxTmVxZ05JZW5xeXk3Q3A1LTZFY0w5NWhNWkFGczVvNGVuRV9qMUFwTng4aVkzVW40?oc=5"
-        },
-        {
-          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
-        }
-      ]
-    },
-    {
       "key": "technology",
       "label": "科技与产业",
       "headline_count": 1,
@@ -251,7 +193,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,915.33 / +0.07%",
+          "value": "12,944.66 / +0.30%",
           "state": "fresh"
         },
         {
@@ -271,6 +213,41 @@
       ]
     },
     {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "88.45 / -2.62%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,119.01 / +1.08%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GcnFNTFQ3bDU3Z2Vqc05ReEphcVA2TUloZk9YckZaMm52ZzV3YUxoMnB2Tlc0OTBnZHFEWkNtTmd6MHVxTmVxZ05JZW5xeXk3Q3A1LTZFY0w5NWhNWkFGczVvNGVuRV9qMUFwTng4aVkzVW40?oc=5"
+        }
+      ]
+    },
+    {
       "key": "currency",
       "label": "美元与人民币",
       "headline_count": 1,
@@ -280,19 +257,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.87 / -0.37%",
+          "value": "101.87 / -0.38%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6713 / -0.03%",
+          "value": "6.6704 / -0.04%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,915.33 / +0.07%",
+          "value": "12,944.66 / +0.30%",
           "state": "fresh"
         }
       ],
