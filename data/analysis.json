@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09 09:43",
-  "score": -27,
+  "generated_at": "2026-11-09 17:34",
+  "score": -32,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.27%",
-      "contribution": 1.9,
+      "value": "6 个市场均值 +0.15%",
+      "contribution": 1.1,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.95%",
-      "contribution": 5.7,
+      "value": "富时 A50 +0.07%",
+      "contribution": 0.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6728 (-0.00%) / DXY 102.17 (-0.09%)",
-      "contribution": 0.5,
+      "value": "USD/CNH 6.6713 (-0.03%) / DXY 101.87 (-0.37%)",
+      "contribution": 2.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,10 +72,28 @@
   },
   "news": [
     {
+      "title": "美股科技产业像2000年，通胀像2022年，信用像2008年？",
+      "source": "华尔街见闻",
+      "published": "Mon, 09 Nov 2026 00:38:48 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91MTdrY3ZkbGRrd3BfUW9ySkhDSWdUUm1YX1ZkckxveFpKVjJTa3k1Y3A4eFlDbURnS3FubFhkemEzYl9GNjZrbmdqRmNpd0w5N0JR?oc=5"
+    },
+    {
       "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
       "source": "金融界",
       "published": "Sun, 08 Nov 2026 23:45:51 GMT",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GcnFNTFQ3bDU3Z2Vqc05ReEphcVA2TUloZk9YckZaMm52ZzV3YUxoMnB2Tlc0OTBnZHFEWkNtTmd6MHVxTmVxZ05JZW5xeXk3Q3A1LTZFY0w5NWhNWkFGczVvNGVuRV9qMUFwTng4aVkzVW40?oc=5"
+    },
+    {
+      "title": "金十数据全球财经早餐| 2026年11月9日-市场参考",
+      "source": "金十数据",
+      "published": "Mon, 09 Nov 2026 01:03:14 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VS1hka2tQeTVPdGoyOHJELURFalFWT2s2TTNEMXVrWDV2d1FBRGw2ZXNSLVhxSkZhbmxRdDgyNFViX1lqNlljWXJjTG03ZXM?oc=5"
+    },
+    {
+      "title": "把“买啥涨啥”做成蛋糕，这周股市别太心惊肉跳|中国政府|美联储|A 股|美股_新浪新闻",
+      "source": "新浪网",
+      "published": "Sun, 08 Nov 2026 23:49:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DWUFiZEhSbVJzd1lRenQtekZoQzJ5M1l6WS1aMEUtM0hpbDdtaDBfcE1KaUdFTzJnTHVQVU9uV0hMXzl6MHd1STFlb0ZpS2ozWVBrRkdLeHlZLTJ4ZVV4YW05NA?oc=5"
     },
     {
       "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
@@ -84,22 +102,10 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5"
     },
     {
-      "title": "赵建：每年都有崩美股的鬼故事这一次依然会有惊无险吗？_滚动新闻_财经",
-      "source": "证券之星",
-      "published": "Sun, 08 Nov 2026 03:48:53 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Tkk1WFd5VlJTUWM5UzBieWthRl9weGZzb0k4b1N0bEEwT2h0THhZeUducjFXckxlSEpnOHYxdlRJT3ZQREhJaVNBeFFLQnNSUkNQNHFvVmhYRlV3UTJaNQ?oc=5"
-    },
-    {
       "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
       "source": "金融界",
       "published": "Sun, 08 Nov 2026 10:43:04 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
-    },
-    {
-      "title": "美股科技产业像2000年，通胀像2022年，信用像2008年？",
-      "source": "华尔街见闻",
-      "published": "Mon, 09 Nov 2026 00:38:48 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91MTdrY3ZkbGRrd3BfUW9ySkhDSWdUUm1YX1ZkckxveFpKVjJTa3k1Y3A4eFlDbURnS3FubFhkemEzYl9GNjZrbmdqRmNpd0w5N0JR?oc=5"
     },
     {
       "title": "估值具备吸引力！下周A股大概率这么走？",
@@ -112,7 +118,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 4,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -125,13 +131,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.17 / -0.09%",
+          "value": "101.87 / -0.37%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6728 / -0.00%",
+          "value": "6.6713 / -0.03%",
           "state": "fresh"
         }
       ],
@@ -143,9 +149,9 @@
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GcnFNTFQ3bDU3Z2Vqc05ReEphcVA2TUloZk9YckZaMm52ZzV3YUxoMnB2Tlc0OTBnZHFEWkNtTmd6MHVxTmVxZ05JZW5xeXk3Q3A1LTZFY0w5NWhNWkFGczVvNGVuRV9qMUFwTng4aVkzVW40?oc=5"
         },
         {
-          "title": "国常会就资本市场平稳健康发展作出部署；美联储12月加息概率增加丨周末要闻速递-证券之星",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqck90TV9SWElNd1MwamYtWmoyVkdwUWs0NUVHLWxFYXpXNFlOTWdQaE1Mdm4zU1JrSUtOS2VwVEVGZk40dXhEY0tHN3BMS2VmMGdlZXBEd21nU2VuZnc?oc=5"
+          "title": "把“买啥涨啥”做成蛋糕，这周股市别太心惊肉跳|中国政府|美联储|A 股|美股_新浪新闻",
+          "source": "新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DWUFiZEhSbVJzd1lRenQtekZoQzJ5M1l6WS1aMEUtM0hpbDdtaDBfcE1KaUdFTzJnTHVQVU9uV0hMXzl6MHd1STFlb0ZpS2ozWVBrRkdLeHlZLTJ4ZVV4YW05NA?oc=5"
         }
       ]
     },
@@ -165,7 +171,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.17 / -0.09%",
+          "value": "101.87 / -0.37%",
           "state": "fresh"
         },
         {
@@ -178,14 +184,14 @@
       "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
         {
+          "title": "美股科技产业像2000年，通胀像2022年，信用像2008年？",
+          "source": "华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91MTdrY3ZkbGRrd3BfUW9ySkhDSWdUUm1YX1ZkckxveFpKVjJTa3k1Y3A4eFlDbURnS3FubFhkemEzYl9GNjZrbmdqRmNpd0w5N0JR?oc=5"
+        },
+        {
           "title": "下周大行情来了！美国CPI、PPI携美联储重磅登场，黄金、美元、美股迎方向选择",
           "source": "金融界",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GcnFNTFQ3bDU3Z2Vqc05ReEphcVA2TUloZk9YckZaMm52ZzV3YUxoMnB2Tlc0OTBnZHFEWkNtTmd6MHVxTmVxZ05JZW5xeXk3Q3A1LTZFY0w5NWhNWkFGczVvNGVuRV9qMUFwTng4aVkzVW40?oc=5"
-        },
-        {
-          "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DX0hnV2QyRFdsdDhzR0pnZjZHYkJqaGlHcUZOcGtxVFNIbm1KTmNvcjRCV2dMMjc3WGN3eXhoVnBROTBRblV2Z3pPOUhqTU9XdVpGM213cDUwc1ZLVHkxT3FxNA?oc=5"
         }
       ]
     },
@@ -199,13 +205,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "90.56 / -0.29%",
+          "value": "89.90 / -1.02%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "4,131.31 / +1.38%",
+          "value": "4,110.19 / +0.87%",
           "state": "fresh"
         },
         {
@@ -245,7 +251,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,872.54 / +0.95%",
+          "value": "12,915.33 / +0.07%",
           "state": "fresh"
         },
         {
@@ -274,19 +280,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.17 / -0.09%",
+          "value": "101.87 / -0.37%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6728 / -0.00%",
+          "value": "6.6713 / -0.03%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,872.54 / +0.95%",
+          "value": "12,915.33 / +0.07%",
           "state": "fresh"
         }
       ],
