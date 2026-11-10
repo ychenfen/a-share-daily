@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10 12:06",
-  "score": -21,
+  "generated_at": "2026-11-10 17:35",
+  "score": -19,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +1.98%",
-      "contribution": 13.8,
+      "value": "6 个市场均值 +2.02%",
+      "contribution": 14.1,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.02%",
-      "contribution": 0.1,
+      "value": "富时 A50 -0.10%",
+      "contribution": -0.6,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6682 (-0.00%) / DXY 101.68 (+0.01%)",
-      "contribution": 0.0,
+      "value": "USD/CNH 6.6661 (-0.04%) / DXY 101.66 (-0.01%)",
+      "contribution": 0.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 3",
-      "contribution": -6,
+      "value": "正向词 1 / 风险词 3",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,11 +66,29 @@
     "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
-    "positive_hits": 0,
+    "positive_hits": 1,
     "negative_hits": 3,
-    "score": -6
+    "score": -4
   },
   "news": [
+    {
+      "title": "海外研选日报1110 | 瑞银：美联储料再加息两次 但难以终结美股上涨行情",
+      "source": "财联社",
+      "published": "Tue, 10 Nov 2026 02:37:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxcXc5MEZrMUF1QmE1UUh2MjZiRllRT3VtVDA1eUw2SHRzX1VScDJaYzR2WUZoZFJBTDFrRDhuTEM1NHkyWm9oTw?oc=5"
+    },
+    {
+      "title": "鹰派日本央行与鹰派美联储，日元的方向听谁的？",
+      "source": "Moomoo",
+      "published": "Tue, 10 Nov 2026 07:33:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0NxUDN1R3pVNzFMNm5rMVRXRnhjMG1xcUFSZFJtODU2TEhnRHZ3QnZmY2JZWF8zb3Q0R3ljajVUUnZKSU10RWl1UmZLeDMxXzBqQ212YU9jVGhtTTVRWVFFWHJmajBQYlA2VU5wOExaYlpqOF8ydElKUU40TUp0amJOUURxMGUwYU5PZ0dzb0xpeWhUU2drYVdKa09DVk9kWUE?oc=5"
+    },
+    {
+      "title": "费半大涨近7%+油价降温，AI算力反攻“再闯一关”：今晚CPI数据成试金石",
+      "source": "同花顺",
+      "published": "Tue, 10 Nov 2026 02:17:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yZmk4OTh0d3NZWlFkazkyci03RGZjNlN2UW1QM0xCOV9ldTVzUXFHX2dNSWxZdnpoUGQwTTZPS2NFeUt0bTY3SFdwVDZMakhWTXVqc1JsN1g4dENRSDRSb0t3?oc=5"
+    },
     {
       "title": "一夜暴涨6.85%！美股芯片股狂欢，道指狂飙1100点，英伟达却独自蒸发1.28万亿",
       "source": "金融界",
@@ -78,16 +96,16 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TZ1QwVnp3c1g5VVJlN25iZUdGbGdnWTFRTTNJdFN1NklyWXFMOWVnMDlKWWlpMlJjTnVwWGRRcVVIaEZmdjF6dUF4QkxaOEVBTndKNTdjUVVWSndzd3Q1ZXBMdUhjUQ?oc=5"
     },
     {
-      "title": "费半大涨近7%+油价降温，AI算力反攻“再闯一关”：今晚CPI数据成试金石 港美股资讯",
-      "source": "华盛通",
-      "published": "Tue, 10 Nov 2026 02:07:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SZEI1Vl9sNEEtZlNpdFRlX05ENUtES1BVeTMtSUVvRTlLWkNHM19pNGlISlhVOEtHVHQ1TXlleEI5NDVFV0RLLXJwYk5CamR0MDZ0Ml80cm5jX1U3amtQN2pB?oc=5"
-    },
-    {
       "title": "全球市场迎“通胀大考”！美元、黄金、美股与比特币关键位一览",
       "source": "FX168财经",
       "published": "Mon, 09 Nov 2026 20:39:48 GMT",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGFYWkx5TnpQV2pfTndHMUF1RlRzR3p4bkw1YTFvYTYzUlRHUGVrMjZPU05kWHM1MlFwaFg4clVpRU5sTm1zemRYbFJxejk2VExFcFV4dnN2RzBlNXlvYUFrRWVldFp0aHQ1b0x0LXNQdDZfOEY5eXp6ZzlqMFVENEFTWEU?oc=5"
+    },
+    {
+      "title": "凤凰网深圳财经早闻｜央行开展1820亿元隔夜逆回购操作",
+      "source": "凤凰网深圳",
+      "published": "Tue, 10 Nov 2026 03:41:43 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBiZk9kaWNpLTlfUDQ4alhCZVhlX2tRSHh2WWpqUTQzQzZzNGxfSG5tTXdsdFRJbTRWWWJ0VFJxZW9CSlc2dEVBcFZn?oc=5"
     },
     {
       "title": "美股前瞻| 三大股指期货齐涨英伟达盘前跳水布油跌破95美元美国最新通胀数据及三大科技股财报本周来袭提供者智通财经",
@@ -100,58 +118,46 @@
       "source": "哈富证券",
       "published": "Mon, 09 Nov 2026 12:21:35 GMT",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3QWVmREFoQkFiQkswblF1Z0VzVWZ5ZGNrWmtZSVVMbDZoQ19NRzBHUWR1MnBmeklvUHpNc05mM2c0VGhmaU9aRzQyMTkwdUNmT1lRVXhBRjNwTGtGc2hOdzNjaFE2LTBXUExSdw?oc=5"
-    },
-    {
-      "title": "黄金冲上4100美元后，真正的考验才开始？两股力量正激烈对撞",
-      "source": "FX168财经",
-      "published": "Mon, 09 Nov 2026 22:46:33 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wdkNrOHpBSnBoa0xFOFN1ajJOVlY2bjNLbGN5OG1CSlA5TlhRdVlWQ2hFVi1FRDhVajRlaDBUOThkSWNtcjdpdkZZS3lpMk9ZV2dNSTNmTkxyMWlHNEx1V2FwZFZxNkEta3BocA?oc=5"
-    },
-    {
-      "title": "特朗普一句话引爆全球市场！道指狂飙1150点、油价暴跌5%，黄金重上4100，比特币却逆势失守7.5万",
-      "source": "FX168财经",
-      "published": "Mon, 09 Nov 2026 18:59:28 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5RNDRqQ2sxc25TOG5CdkFnaU15NUZreEtvRGJOWUE1UTFSMlk3WGhSVnlIX0VSU21lYy14emNIRnd6SzdnZFlnV0l1NzM5TDg5ajlJbmd6MzExaG9pS0ozMFhjT3N5WVBxSUNhRDBKamI2aUpTS0l5dQ?oc=5"
     }
   ],
   "events": [
     {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 4,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 3,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "85.91 / -1.09%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "4,119.63 / +0.12%",
-          "state": "fresh"
-        },
         {
           "code": "US10Y",
           "label": "美债10Y",
           "value": "4.94%",
           "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "费半大涨近7%+油价降温，AI算力反攻“再闯一关”：今晚CPI数据成试金石 港美股资讯",
-          "source": "华盛通",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SZEI1Vl9sNEEtZlNpdFRlX05ENUtES1BVeTMtSUVvRTlLWkNHM19pNGlISlhVOEtHVHQ1TXlleEI5NDVFV0RLLXJwYk5CamR0MDZ0Ml80cm5jX1U3amtQN2pB?oc=5"
         },
         {
-          "title": "全球市场迎“通胀大考”！美元、黄金、美股与比特币关键位一览",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGFYWkx5TnpQV2pfTndHMUF1RlRzR3p4bkw1YTFvYTYzUlRHUGVrMjZPU05kWHM1MlFwaFg4clVpRU5sTm1zemRYbFJxejk2VExFcFV4dnN2RzBlNXlvYUFrRWVldFp0aHQ1b0x0LXNQdDZfOEY5eXp6ZzlqMFVENEFTWEU?oc=5"
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.66 / -0.01%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6661 / -0.04%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "海外研选日报1110 | 瑞银：美联储料再加息两次 但难以终结美股上涨行情",
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxcXc5MEZrMUF1QmE1UUh2MjZiRllRT3VtVDA1eUw2SHRzX1VScDJaYzR2WUZoZFJBTDFrRDhuTEM1NHkyWm9oTw?oc=5"
+        },
+        {
+          "title": "鹰派日本央行与鹰派美联储，日元的方向听谁的？",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0NxUDN1R3pVNzFMNm5rMVRXRnhjMG1xcUFSZFJtODU2TEhnRHZ3QnZmY2JZWF8zb3Q0R3ljajVUUnZKSU10RWl1UmZLeDMxXzBqQ212YU9jVGhtTTVRWVFFWHJmajBQYlA2VU5wOExaYlpqOF8ydElKUU40TUp0amJOUURxMGUwYU5PZ0dzb0xpeWhUU2drYVdKa09DVk9kWUE?oc=5"
         }
       ]
     },
@@ -171,7 +177,7 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "101.68 / +0.01%",
+          "value": "101.66 / -0.01%",
           "state": "fresh"
         },
         {
@@ -184,54 +190,14 @@
       "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
         {
-          "title": "费半大涨近7%+油价降温，AI算力反攻“再闯一关”：今晚CPI数据成试金石 港美股资讯",
-          "source": "华盛通",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SZEI1Vl9sNEEtZlNpdFRlX05ENUtES1BVeTMtSUVvRTlLWkNHM19pNGlISlhVOEtHVHQ1TXlleEI5NDVFV0RLLXJwYk5CamR0MDZ0Ml80cm5jX1U3amtQN2pB?oc=5"
+          "title": "费半大涨近7%+油价降温，AI算力反攻“再闯一关”：今晚CPI数据成试金石",
+          "source": "同花顺",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yZmk4OTh0d3NZWlFkazkyci03RGZjNlN2UW1QM0xCOV9ldTVzUXFHX2dNSWxZdnpoUGQwTTZPS2NFeUt0bTY3SFdwVDZMakhWTXVqc1JsN1g4dENRSDRSb0t3?oc=5"
         },
         {
           "title": "全球市场迎“通胀大考”！美元、黄金、美股与比特币关键位一览",
           "source": "FX168财经",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGFYWkx5TnpQV2pfTndHMUF1RlRzR3p4bkw1YTFvYTYzUlRHUGVrMjZPU05kWHM1MlFwaFg4clVpRU5sTm1zemRYbFJxejk2VExFcFV4dnN2RzBlNXlvYUFrRWVldFp0aHQ1b0x0LXNQdDZfOEY5eXp6ZzlqMFVENEFTWEU?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 3,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "101.68 / +0.01%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6682 / -0.00%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,908.02 / +0.02%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "全球市场迎“通胀大考”！美元、黄金、美股与比特币关键位一览",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGFYWkx5TnpQV2pfTndHMUF1RlRzR3p4bkw1YTFvYTYzUlRHUGVrMjZPU05kWHM1MlFwaFg4clVpRU5sTm1zemRYbFJxejk2VExFcFV4dnN2RzBlNXlvYUFrRWVldFp0aHQ1b0x0LXNQdDZfOEY5eXp6ZzlqMFVENEFTWEU?oc=5"
-        },
-        {
-          "title": "美股前瞻| 三大股指期货齐涨英伟达盘前跳水布油跌破95美元美国最新通胀数据及三大科技股财报本周来袭提供者智通财经",
-          "source": "英为财情 Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyanFLdXN6STRSamNGTDJzMkE5c2R5bjRjczhXNUZsS3VyY1NXaDliek5zTFJzWjRKX0ticXVMWDkzbXJRNUw5T25HTkV3RVpldG9WNVlFZVZhQkRMVnpLcHpWZERUZGRUTWZCTGkxZ1E?oc=5"
         }
       ]
     },
@@ -251,7 +217,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,908.02 / +0.02%",
+          "value": "12,904.04 / -0.10%",
           "state": "fresh"
         },
         {
@@ -267,6 +233,86 @@
           "title": "一夜暴涨6.85%！美股芯片股狂欢，道指狂飙1100点，英伟达却独自蒸发1.28万亿",
           "source": "金融界",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TZ1QwVnp3c1g5VVJlN25iZUdGbGdnWTFRTTNJdFN1NklyWXFMOWVnMDlKWWlpMlJjTnVwWGRRcVVIaEZmdjF6dUF4QkxaOEVBTndKNTdjUVVWSndzd3Q1ZXBMdUhjUQ?oc=5"
+        },
+        {
+          "title": "美股前瞻| 三大股指期货齐涨英伟达盘前跳水布油跌破95美元美国最新通胀数据及三大科技股财报本周来袭提供者智通财经",
+          "source": "英为财情 Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyanFLdXN6STRSamNGTDJzMkE5c2R5bjRjczhXNUZsS3VyY1NXaDliek5zTFJzWjRKX0ticXVMWDkzbXJRNUw5T25HTkV3RVpldG9WNVlFZVZhQkRMVnpLcHpWZERUZGRUTWZCTGkxZ1E?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 2,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "84.46 / -2.75%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "4,094.28 / -0.49%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "费半大涨近7%+油价降温，AI算力反攻“再闯一关”：今晚CPI数据成试金石",
+          "source": "同花顺",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yZmk4OTh0d3NZWlFkazkyci03RGZjNlN2UW1QM0xCOV9ldTVzUXFHX2dNSWxZdnpoUGQwTTZPS2NFeUt0bTY3SFdwVDZMakhWTXVqc1JsN1g4dENRSDRSb0t3?oc=5"
+        },
+        {
+          "title": "全球市场迎“通胀大考”！美元、黄金、美股与比特币关键位一览",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGFYWkx5TnpQV2pfTndHMUF1RlRzR3p4bkw1YTFvYTYzUlRHUGVrMjZPU05kWHM1MlFwaFg4clVpRU5sTm1zemRYbFJxejk2VExFcFV4dnN2RzBlNXlvYUFrRWVldFp0aHQ1b0x0LXNQdDZfOEY5eXp6ZzlqMFVENEFTWEU?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "currency",
+      "label": "美元与人民币",
+      "headline_count": 2,
+      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+      "watch": [
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "101.66 / -0.01%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6661 / -0.04%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,904.04 / -0.10%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+      "headlines": [
+        {
+          "title": "全球市场迎“通胀大考”！美元、黄金、美股与比特币关键位一览",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGFYWkx5TnpQV2pfTndHMUF1RlRzR3p4bkw1YTFvYTYzUlRHUGVrMjZPU05kWHM1MlFwaFg4clVpRU5sTm1zemRYbFJxejk2VExFcFV4dnN2RzBlNXlvYUFrRWVldFp0aHQ1b0x0LXNQdDZfOEY5eXp6ZzlqMFVENEFTWEU?oc=5"
         },
         {
           "title": "美股前瞻| 三大股指期货齐涨英伟达盘前跳水布油跌破95美元美国最新通胀数据及三大科技股财报本周来袭提供者智通财经",
