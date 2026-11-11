@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 开盘脉搏已更新 · 最后检查 `2026-11-11 17:10`（北京时间）
+> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-11-11 19:23`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 +15 · 谨慎偏多**（置信度：中）
+> **风险温度 +16 · 谨慎偏多**（置信度：中）
 > 风险偏好略占优，但信号并未形成全面共振。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 12,967.82 | -0.02% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6689 | -0.12% | 最新 |
-| 美元指数 | 低权重计分 | 102.42 | +0.16% | 最新 |
-| COMEX 黄金 | 背景观察 | 4,064.73 | +0.86% | 最新 |
-| WTI 原油 | 背景观察 | 85.97 | -0.08% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 12,985.10 | +0.11% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6682 | -0.13% | 最新 |
+| 美元指数 | 低权重计分 | 102.51 | +0.25% | 最新 |
+| COMEX 黄金 | 背景观察 | 4,063.45 | +0.83% | 最新 |
+| WTI 原油 | 背景观察 | 86.78 | +0.87% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -82,11 +82,11 @@
 | 市场宽度 | 涨 4305 / 跌 1177 | +11.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 93 / 跌停 0 / 炸板率 17.0% | +13.4 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 -0.23% | -1.6 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.02% | -0.1 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6689 (-0.12%) / DXY 102.42 (+0.16%) | +0.6 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A50 先行 | 富时 A50 +0.11% | +0.7 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6682 (-0.13%) / DXY 102.51 (+0.25%) | +0.3 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 2 / 风险词 4 | -4.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 3 | -4.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,8 +94,7 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（3 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.42 / +0.16%（最新） / USD/CNH 6.6689 / -0.12%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 25,065.87 / -0.74%（最新） / 富时A50 12,967.82 / -0.02%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 102.51 / +0.25%（最新） / USD/CNH 6.6682 / -0.13%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
 
 ### 研究观察
 
@@ -103,10 +102,9 @@
 
 ### 新闻雷达
 
-- [海外研选日报1111 \| 小摩：美股去杠杆接近尾声 标普500年底仍看至8000点](https://news.google.com/rss/articles/CBMiSEFVX3lxTFAtZDJNLTlURm9mUmFmbmFHa05FX0JkM0V1VGVKN3g4Nl9RVDhUVFp2VFZzUzdXOEF1LTJQSk9tTk5WRmRtdUF0VA?oc=5) · 财联社
-- [美联储加息预期升温掀美债抛售潮！日债跟跌 10年期收益率逼近2.8%](https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lndG5ja2xac2ZsUlh5ekRCRkFubzVWeXFKN2xPMUVxLXZ0Snkwa3hibTdqNFVuVTgzSDJGbmxlVHFwVUFmV05XNERKSGJXVTRmR1BiUEhnMG9sdHFMTXFqYWdweThlXy1mTEFXYWpyVnA0b1ZJdDVhQThYM24xUWFrejhwZlh2OGlobHUwNzBnR0U4TzVwVTBKVlNkR19pdE11dU1Dcw?oc=5) · 富途牛牛
 - [海外研选日报1110 \| 瑞银：美联储料再加息两次 但难以终结美股上涨行情](https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxcXc5MEZrMUF1QmE1UUh2MjZiRllRT3VtVDA1eUw2SHRzX1VScDJaYzR2WUZoZFJBTDFrRDhuTEM1NHkyWm9oTw?oc=5) · 财联社
-- [美股收评：美联储鹰声四起！美股反弹戛然而止，英伟达两日暴跌近10%](https://news.google.com/rss/articles/CBMihAFBVV95cUxNcEF2MldUa0VNdjIwZlBYY2F6aWpXTmV6QUduNnV6RnVJR0hyMXgxbWw3MjAxRE1xV19RcGViRnBDWkJwcVNsTkFNdkgwYm0wdmxiNmZYa1VUUW5kczlEZHN5R2RBNkJZMjdwS29xZE5sNmFXRUdZOHVHekhhRGZmSnJMSlM?oc=5) · FX168财经
+- [海外研选日报1111 \| 小摩：美股去杠杆接近尾声 标普500年底仍看至8000点](https://news.google.com/rss/articles/CBMiakFVX3lxTE94NWp3MElvVU5HMWhsQ3k1elJ6Z1lXX3VYbjl3UTRreGViekJtWVNuSlFtQ2hZV0x3ZUxZYjVGQnB5NmR4U241M2hUNXNZU0JOTS1BR0pBaXpHejU0b0ZsckM2MVJnOFkyS2c?oc=5) · 中金在线
+- [美联储加息预期升温掀美债抛售潮！日债跟跌 10年期收益率逼近2.8%](https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lndG5ja2xac2ZsUlh5ekRCRkFubzVWeXFKN2xPMUVxLXZ0Snkwa3hibTdqNFVuVTgzSDJGbmxlVHFwVUFmV05XNERKSGJXVTRmR1BiUEhnMG9sdHFMTXFqYWdweThlXy1mTEFXYWpyVnA0b1ZJdDVhQThYM24xUWFrejhwZlh2OGlobHUwNzBnR0U4TzVwVTBKVlNkR19pdE11dU1Dcw?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 

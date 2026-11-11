@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11 17:10",
-  "score": 15,
+  "generated_at": "2026-11-11 19:23",
+  "score": 16,
   "stance": "谨慎偏多",
   "color": "#e05a47",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.02%",
-      "contribution": -0.1,
+      "value": "富时 A50 +0.11%",
+      "contribution": 0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6689 (-0.12%) / DXY 102.42 (+0.16%)",
-      "contribution": 0.6,
+      "value": "USD/CNH 6.6682 (-0.13%) / DXY 102.51 (+0.25%)",
+      "contribution": 0.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 4",
+      "value": "正向词 1 / 风险词 3",
       "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,23 +66,11 @@
     "保留进攻观察清单，同时以市场宽度和外围指数是否续强作为确认条件。"
   ],
   "news_tone": {
-    "positive_hits": 2,
-    "negative_hits": 4,
+    "positive_hits": 1,
+    "negative_hits": 3,
     "score": -4
   },
   "news": [
-    {
-      "title": "海外研选日报1111 | 小摩：美股去杠杆接近尾声 标普500年底仍看至8000点",
-      "source": "财联社",
-      "published": "Wed, 11 Nov 2026 07:53:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAtZDJNLTlURm9mUmFmbmFHa05FX0JkM0V1VGVKN3g4Nl9RVDhUVFp2VFZzUzdXOEF1LTJQSk9tTk5WRmRtdUF0VA?oc=5"
-    },
-    {
-      "title": "美联储加息预期升温掀美债抛售潮！日债跟跌 10年期收益率逼近2.8%",
-      "source": "富途牛牛",
-      "published": "Wed, 11 Nov 2026 06:37:58 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lndG5ja2xac2ZsUlh5ekRCRkFubzVWeXFKN2xPMUVxLXZ0Snkwa3hibTdqNFVuVTgzSDJGbmxlVHFwVUFmV05XNERKSGJXVTRmR1BiUEhnMG9sdHFMTXFqYWdweThlXy1mTEFXYWpyVnA0b1ZJdDVhQThYM24xUWFrejhwZlh2OGlobHUwNzBnR0U4TzVwVTBKVlNkR19pdE11dU1Dcw?oc=5"
-    },
     {
       "title": "海外研选日报1110 | 瑞银：美联储料再加息两次 但难以终结美股上涨行情",
       "source": "财联社",
@@ -90,17 +78,23 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxcXc5MEZrMUF1QmE1UUh2MjZiRllRT3VtVDA1eUw2SHRzX1VScDJaYzR2WUZoZFJBTDFrRDhuTEM1NHkyWm9oTw?oc=5"
     },
     {
-      "title": "美股收评：美联储鹰声四起！美股反弹戛然而止，英伟达两日暴跌近10%",
-      "source": "FX168财经",
-      "published": "Tue, 10 Nov 2026 21:40:59 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcEF2MldUa0VNdjIwZlBYY2F6aWpXTmV6QUduNnV6RnVJR0hyMXgxbWw3MjAxRE1xV19RcGViRnBDWkJwcVNsTkFNdkgwYm0wdmxiNmZYa1VUUW5kczlEZHN5R2RBNkJZMjdwS29xZE5sNmFXRUdZOHVHekhhRGZmSnJMSlM?oc=5"
+      "title": "海外研选日报1111 | 小摩：美股去杠杆接近尾声 标普500年底仍看至8000点",
+      "source": "中金在线",
+      "published": "Wed, 11 Nov 2026 09:48:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94NWp3MElvVU5HMWhsQ3k1elJ6Z1lXX3VYbjl3UTRreGViekJtWVNuSlFtQ2hZV0x3ZUxZYjVGQnB5NmR4U241M2hUNXNZU0JOTS1BR0pBaXpHejU0b0ZsckM2MVJnOFkyS2c?oc=5"
+    },
+    {
+      "title": "美联储加息预期升温掀美债抛售潮！日债跟跌 10年期收益率逼近2.8%",
+      "source": "富途牛牛",
+      "published": "Wed, 11 Nov 2026 06:37:58 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lndG5ja2xac2ZsUlh5ekRCRkFubzVWeXFKN2xPMUVxLXZ0Snkwa3hibTdqNFVuVTgzSDJGbmxlVHFwVUFmV05XNERKSGJXVTRmR1BiUEhnMG9sdHFMTXFqYWdweThlXy1mTEFXYWpyVnA0b1ZJdDVhQThYM24xUWFrejhwZlh2OGlobHUwNzBnR0U4TzVwVTBKVlNkR19pdE11dU1Dcw?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 3,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -113,62 +107,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.42 / +0.16%",
+          "value": "102.51 / +0.25%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6689 / -0.12%",
+          "value": "6.6682 / -0.13%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "美联储加息预期升温掀美债抛售潮！日债跟跌 10年期收益率逼近2.8%",
-          "source": "富途牛牛",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lndG5ja2xac2ZsUlh5ekRCRkFubzVWeXFKN2xPMUVxLXZ0Snkwa3hibTdqNFVuVTgzSDJGbmxlVHFwVUFmV05XNERKSGJXVTRmR1BiUEhnMG9sdHFMTXFqYWdweThlXy1mTEFXYWpyVnA0b1ZJdDVhQThYM24xUWFrejhwZlh2OGlobHUwNzBnR0U4TzVwVTBKVlNkR19pdE11dU1Dcw?oc=5"
-        },
-        {
           "title": "海外研选日报1110 | 瑞银：美联储料再加息两次 但难以终结美股上涨行情",
           "source": "财联社",
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxcXc5MEZrMUF1QmE1UUh2MjZiRllRT3VtVDA1eUw2SHRzX1VScDJaYzR2WUZoZFJBTDFrRDhuTEM1NHkyWm9oTw?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "25,065.87 / -0.74%",
-          "state": "fresh"
         },
         {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,967.82 / -0.02%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "美股收评：美联储鹰声四起！美股反弹戛然而止，英伟达两日暴跌近10%",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcEF2MldUa0VNdjIwZlBYY2F6aWpXTmV6QUduNnV6RnVJR0hyMXgxbWw3MjAxRE1xV19RcGViRnBDWkJwcVNsTkFNdkgwYm0wdmxiNmZYa1VUUW5kczlEZHN5R2RBNkJZMjdwS29xZE5sNmFXRUdZOHVHekhhRGZmSnJMSlM?oc=5"
+          "title": "美联储加息预期升温掀美债抛售潮！日债跟跌 10年期收益率逼近2.8%",
+          "source": "富途牛牛",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lndG5ja2xac2ZsUlh5ekRCRkFubzVWeXFKN2xPMUVxLXZ0Snkwa3hibTdqNFVuVTgzSDJGbmxlVHFwVUFmV05XNERKSGJXVTRmR1BiUEhnMG9sdHFMTXFqYWdweThlXy1mTEFXYWpyVnA0b1ZJdDVhQThYM24xUWFrejhwZlh2OGlobHUwNzBnR0U4TzVwVTBKVlNkR19pdE11dU1Dcw?oc=5"
         }
       ]
     }
