@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12 23:56",
-  "score": -23,
-  "stance": "谨慎防守",
-  "color": "#3b9b68",
+  "generated_at": "2026-11-13 04:05",
+  "score": -27,
+  "stance": "防守优先",
+  "color": "#08783e",
   "confidence": "中",
-  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
+  "summary": "内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.03%",
-      "contribution": -0.2,
+      "value": "6 个市场均值 -0.23%",
+      "contribution": -1.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.21%",
-      "contribution": 1.2,
+      "value": "富时 A50 +0.07%",
+      "contribution": 0.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6727 (-0.02%) / DXY 103.13 (+0.20%)",
-      "contribution": -0.8,
+      "value": "USD/CNH 6.6738 (-0.00%) / DXY 103.17 (+0.23%)",
+      "contribution": -1.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,25 +57,25 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 1",
-      "contribution": 2,
+      "value": "正向词 2 / 风险词 2",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
+    "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
     "positive_hits": 2,
-    "negative_hits": 1,
-    "score": 2
+    "negative_hits": 2,
+    "score": 0
   },
   "news": [
     {
-      "title": "海外研选日报1111 | 小摩：美股去杠杆接近尾声 标普500年底仍看至8000点",
+      "title": "CPI砸崩美债！华尔街将美联储“暴力加息”纳入定价",
       "source": "财联社",
-      "published": "Wed, 11 Nov 2026 20:58:18 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAtZDJNLTlURm9mUmFmbmFHa05FX0JkM0V1VGVKN3g4Nl9RVDhUVFp2VFZzUzdXOEF1LTJQSk9tTk5WRmRtdUF0VA?oc=5"
+      "published": "Thu, 12 Nov 2026 18:20:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0SXpjVU56d01PeWRkTkdvZGRMSFJEc1A1UWQ3aHBBTENfUUtPS2R6dU9uWXdKZ1l4d0pFZk5uZHJ0dFRuZjdPTQ?oc=5"
     },
     {
       "title": "华盛早报| 黄仁勋“帅位”或将不保！英伟达一度大跌10%；美股存储、光通信、云计算全线反弹；中际旭创获纳入MSCI中国指数港美股资讯",
@@ -88,13 +88,19 @@
       "source": "富途牛牛",
       "published": "Thu, 12 Nov 2026 05:50:21 GMT",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0Mzb2JXX21oNTA3V2QzVzRTQmtDWGpwRFYyTlgxeUJCWWpvTEl0eEdiZDNwY09CbjQ4VkRReTR0OTU5Y3VlSG44YlNwNEFzTGNfQXA4dFdMUDdLV2lWeXRPSlc4MWh0aGRTRHI0X2g0NFRKZWJzbk84a3JmczZnYjBmMVh5WjdncjZJWWhzY2hhNUtRNDBnMg?oc=5"
+    },
+    {
+      "title": "海外研选日报1111 | 小摩：美股去杠杆接近尾声 标普500年底仍看至8000点",
+      "source": "财联社",
+      "published": "Wed, 11 Nov 2026 20:58:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAtZDJNLTlURm9mUmFmbmFHa05FX0JkM0V1VGVKN3g4Nl9RVDhUVFp2VFZzUzdXOEF1LTJQSk9tTk5WRmRtdUF0VA?oc=5"
     }
   ],
   "events": [
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -107,22 +113,62 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.13 / +0.20%",
+          "value": "103.17 / +0.23%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,430.03 / -0.14%",
+          "value": "25,345.83 / -0.47%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
       "headlines": [
         {
+          "title": "CPI砸崩美债！华尔街将美联储“暴力加息”纳入定价",
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0SXpjVU56d01PeWRkTkdvZGRMSFJEc1A1UWQ3aHBBTENfUUtPS2R6dU9uWXdKZ1l4d0pFZk5uZHJ0dFRuZjdPTQ?oc=5"
+        },
+        {
           "title": "澳元兑美元创年初以来新低，转折点会来自通胀还是增长？",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0Mzb2JXX21oNTA3V2QzVzRTQmtDWGpwRFYyTlgxeUJCWWpvTEl0eEdiZDNwY09CbjQ4VkRReTR0OTU5Y3VlSG44YlNwNEFzTGNfQXA4dFdMUDdLV2lWeXRPSlc4MWh0aGRTRHI0X2g0NFRKZWJzbk84a3JmczZnYjBmMVh5WjdncjZJWWhzY2hhNUtRNDBnMg?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 1,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "103.17 / +0.23%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6738 / -0.00%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "CPI砸崩美债！华尔街将美联储“暴力加息”纳入定价",
+          "source": "财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0SXpjVU56d01PeWRkTkdvZGRMSFJEc1A1UWQ3aHBBTENfUUtPS2R6dU9uWXdKZ1l4d0pFZk5uZHJ0dFRuZjdPTQ?oc=5"
         }
       ]
     },
@@ -136,13 +182,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,430.03 / -0.14%",
+          "value": "25,345.83 / -0.47%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,951.60 / +0.21%",
+          "value": "12,933.50 / +0.07%",
           "state": "fresh"
         },
         {
@@ -171,19 +217,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.13 / +0.20%",
+          "value": "103.17 / +0.23%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6727 / -0.02%",
+          "value": "6.6738 / -0.00%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,951.60 / +0.21%",
+          "value": "12,933.50 / +0.07%",
           "state": "fresh"
         }
       ],
