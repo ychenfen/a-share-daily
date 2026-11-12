@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12 19:43",
-  "score": 25,
-  "stance": "积极但不追高",
-  "color": "#c9211e",
+  "generated_at": "2026-11-12 23:56",
+  "score": -23,
+  "stance": "谨慎防守",
+  "color": "#3b9b68",
   "confidence": "中",
-  "summary": "A股内部强度与外围风险偏好形成正向共振，但仍需用回撤和量能确认持续性。",
+  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
   "signals": [
     {
       "label": "A股动量",
-      "value": "上证 +0.46%",
-      "contribution": 3.7,
+      "value": "上证 -0.67%",
+      "contribution": -5.4,
       "note": "反映本地市场价格强弱"
     },
     {
       "label": "市场宽度",
-      "value": "涨 3572 / 跌 1856",
-      "contribution": 6.3,
+      "value": "涨 883 / 跌 4694",
+      "contribution": -13.7,
       "note": "上涨家数占优时提高风险偏好"
     },
     {
       "label": "短线情绪",
-      "value": "涨停 85 / 跌停 0 / 炸板率 18.3%",
-      "contribution": 11.9,
+      "value": "涨停 37 / 跌停 5 / 炸板率 48.6%",
+      "contribution": -0.7,
       "note": "涨停扩散加分，炸板率过高扣分"
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.55%",
-      "contribution": 3.9,
+      "value": "6 个市场均值 -0.03%",
+      "contribution": -0.2,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
       "value": "富时 A50 +0.21%",
-      "contribution": 1.3,
+      "contribution": 1.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6679 (-0.09%) / DXY 102.89 (-0.03%)",
-      "contribution": 1.2,
+      "value": "USD/CNH 6.6727 (-0.02%) / DXY 103.13 (+0.20%)",
+      "contribution": -0.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -63,8 +63,7 @@
     }
   ],
   "advice": [
-    "关注强势行业能否在下一交易日继续获得成交额与市场宽度支持。",
-    "研究执行宜分批、等待回撤确认，避免把单日普涨直接外推成趋势。"
+    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
     "positive_hits": 2,
@@ -108,13 +107,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.89 / -0.03%",
+          "value": "103.13 / +0.20%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,466.19 / +1.60%",
+          "value": "25,430.03 / -0.14%",
           "state": "fresh"
         }
       ],
@@ -137,13 +136,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,466.19 / +1.60%",
+          "value": "25,430.03 / -0.14%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,952.33 / +0.21%",
+          "value": "12,951.60 / +0.21%",
           "state": "fresh"
         },
         {
@@ -172,19 +171,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "102.89 / -0.03%",
+          "value": "103.13 / +0.20%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6679 / -0.09%",
+          "value": "6.6727 / -0.02%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,952.33 / +0.21%",
+          "value": "12,951.60 / +0.21%",
           "state": "fresh"
         }
       ],
