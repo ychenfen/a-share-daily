@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14 18:50",
+  "generated_at": "2026-11-14 22:05",
   "score": -31,
   "stance": "防守优先",
   "color": "#08783e",
@@ -76,19 +76,13 @@
       "source": "新浪网",
       "published": "Sat, 14 Nov 2026 01:35:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
-    },
-    {
-      "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
-      "source": "汇通网",
-      "published": "Fri, 13 Nov 2026 13:16:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -117,46 +111,6 @@
           "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
           "source": "新浪网",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
-        },
-        {
-          "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
-          "source": "汇通网",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
-      "headline_count": 1,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-      "watch": [
-        {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
-          "state": "stale"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,886.21 / +0.02%",
-          "state": "fresh"
-        },
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "88.98 / +0.28%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
-          "source": "汇通网",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
         }
       ]
     },

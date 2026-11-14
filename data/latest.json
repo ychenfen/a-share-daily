@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14 18:50",
+  "generated_at": "2026-11-14 22:05",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-14 18:50",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
+    "checked_at": "2026-11-14 22:05",
+    "slot": "close",
+    "slot_label": "收盘快照",
     "target_date": "2026-11-14",
     "market_data_date": "2026-11-13",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 18:50",
+    "generated_at": "2026-11-14 22:05",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 18:50",
+    "generated_at": "2026-11-14 22:05",
     "score": -31,
     "stance": "防守优先",
     "color": "#08783e",
@@ -271,19 +271,13 @@
         "source": "新浪网",
         "published": "Sat, 14 Nov 2026 01:35:00 GMT",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
-      },
-      {
-        "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
-        "source": "汇通网",
-        "published": "Fri, 13 Nov 2026 13:16:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
       }
     ],
     "events": [
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 2,
+        "headline_count": 1,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -312,46 +306,6 @@
             "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
             "source": "新浪网",
             "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
-          },
-          {
-            "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
-            "source": "汇通网",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "geopolitics",
-        "label": "地缘与贸易",
-        "headline_count": 1,
-        "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-        "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-        "watch": [
-          {
-            "code": "VIX",
-            "label": "VIX",
-            "value": "15.44",
-            "state": "stale"
-          },
-          {
-            "code": "GOLD",
-            "label": "黄金",
-            "value": "3,886.21 / +0.02%",
-            "state": "fresh"
-          },
-          {
-            "code": "WTI",
-            "label": "原油",
-            "value": "88.98 / +0.28%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-        "headlines": [
-          {
-            "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
-            "source": "汇通网",
-            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
           }
         ]
       },
@@ -396,11 +350,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 18:50",
+    "generated_at": "2026-11-14 22:05",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 280,
+    "signal_count": 281,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -437,14 +391,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-14 18:50",
-      "slot": "midday",
+      "captured_at": "2026-11-14 22:05",
+      "slot": "close",
       "score": "-31",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-14 22:05",
+        "slot": "close",
+        "signal_date": "2026-11-14",
+        "market_asof_date": "2026-11-13",
+        "score": "-31",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-0.2056",
+        "a50_pct": "-0.0069368667186209265",
+        "usdcnh": "6.6746",
+        "usdcnh_pct": "0.034470872113057105",
+        "dxy": "103.4105",
+        "dxy_pct": "0.23534497715855807",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-14 18:50",
         "slot": "midday",
@@ -919,31 +898,6 @@
         "return_5d": null,
         "direction": 1,
         "hit_1d": true
-      },
-      {
-        "captured_at": "2026-11-10 19:39",
-        "slot": "midday",
-        "signal_date": "2026-11-10",
-        "market_asof_date": "2026-11-10",
-        "score": "-20",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3649.18",
-        "sh_pct": "-1.10",
-        "global_avg": "2.021",
-        "a50_pct": "-0.06472091042811767",
-        "usdcnh": "6.6685",
-        "usdcnh_pct": "0.0",
-        "dxy": "101.7266",
-        "dxy_pct": "0.049077123864171845",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.08,
-        "return_3d": -0.133252,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": false
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
