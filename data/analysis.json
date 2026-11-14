@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14 22:05",
-  "score": -31,
+  "generated_at": "2026-11-15 02:16",
+  "score": -35,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
-      "contribution": 0,
+      "value": "正向词 0 / 风险词 2",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,10 +67,16 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 0,
-    "score": 0
+    "negative_hits": 2,
+    "score": -4
   },
   "news": [
+    {
+      "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
+      "source": "Moomoo",
+      "published": "Sat, 14 Nov 2026 03:16:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
+    },
     {
       "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
       "source": "新浪网",
@@ -82,7 +88,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -107,6 +113,11 @@
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
+        {
+          "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
+          "source": "Moomoo",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
+        },
         {
           "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
           "source": "新浪网",

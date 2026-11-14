@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14 22:05",
+  "generated_at": "2026-11-15 02:16",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-14 22:05",
-    "slot": "close",
-    "slot_label": "收盘快照",
-    "target_date": "2026-11-14",
+    "checked_at": "2026-11-15 02:16",
+    "slot": "night",
+    "slot_label": "夜间校验",
+    "target_date": "2026-11-15",
     "market_data_date": "2026-11-13",
     "market_state": "non_trading",
     "pulse_updated": false,
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 22:05",
+    "generated_at": "2026-11-15 02:16",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 22:05",
-    "score": -31,
+    "generated_at": "2026-11-15 02:16",
+    "score": -35,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 0",
-        "contribution": 0,
+        "value": "正向词 0 / 风险词 2",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,10 +262,16 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 0,
-      "score": 0
+      "negative_hits": 2,
+      "score": -4
     },
     "news": [
+      {
+        "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
+        "source": "Moomoo",
+        "published": "Sat, 14 Nov 2026 03:16:01 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
+      },
       {
         "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
         "source": "新浪网",
@@ -277,7 +283,7 @@
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 1,
+        "headline_count": 2,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -302,6 +308,11 @@
         ],
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
+          {
+            "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
+            "source": "Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
+          },
           {
             "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
             "source": "新浪网",
@@ -350,11 +361,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 22:05",
+    "generated_at": "2026-11-15 02:16",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 281,
+    "signal_count": 282,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -391,14 +402,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-14 22:05",
-      "slot": "close",
-      "score": "-31",
+      "captured_at": "2026-11-15 02:16",
+      "slot": "night",
+      "score": "-35",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-15 02:16",
+        "slot": "night",
+        "signal_date": "2026-11-15",
+        "market_asof_date": "2026-11-13",
+        "score": "-35",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-0.2056",
+        "a50_pct": "-0.0069368667186209265",
+        "usdcnh": "6.6746",
+        "usdcnh_pct": "0.034470872113057105",
+        "dxy": "103.4105",
+        "dxy_pct": "0.23534497715855807",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-14 22:05",
         "slot": "close",
@@ -873,31 +909,6 @@
         "return_5d": null,
         "direction": 1,
         "hit_1d": false
-      },
-      {
-        "captured_at": "2026-11-10 23:32",
-        "slot": "close",
-        "signal_date": "2026-11-10",
-        "market_asof_date": "2026-11-10",
-        "score": "13",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3663.72",
-        "sh_pct": "0.08",
-        "global_avg": "0.0227",
-        "a50_pct": "-0.2438646744600148",
-        "usdcnh": "6.6767",
-        "usdcnh_pct": "0.12296618429932238",
-        "dxy": "102.152",
-        "dxy_pct": "0.4674620635799487",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.46,
-        "return_3d": -0.801825,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": true
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
