@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14 16:51",
+  "generated_at": "2026-11-14 18:50",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-14 16:51",
-    "slot": "open",
-    "slot_label": "开盘脉搏",
+    "checked_at": "2026-11-14 18:50",
+    "slot": "midday",
+    "slot_label": "午间脉搏",
     "target_date": "2026-11-14",
     "market_data_date": "2026-11-13",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 16:51",
+    "generated_at": "2026-11-14 18:50",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 16:51",
-    "score": -33,
+    "generated_at": "2026-11-14 18:50",
+    "score": -31,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 1",
-        "contribution": -2,
+        "value": "正向词 0 / 风险词 0",
+        "contribution": 0,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,16 +262,10 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 1,
-      "score": -2
+      "negative_hits": 0,
+      "score": 0
     },
     "news": [
-      {
-        "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-        "source": "金十数据",
-        "published": "Fri, 13 Nov 2026 09:30:01 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
-      },
       {
         "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
         "source": "新浪网",
@@ -289,7 +283,7 @@
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 3,
+        "headline_count": 2,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -315,49 +309,14 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
-            "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
-          },
-          {
             "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
             "source": "新浪网",
             "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "inflation",
-        "label": "通胀与就业",
-        "headline_count": 1,
-        "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-        "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
           },
           {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "103.41 / +0.24%",
-            "state": "fresh"
-          },
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "25,136.27 / -0.91%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-        "headlines": [
-          {
-            "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
+            "title": "下周前瞻：地缘+美联储密集讲话 Anthropic上市重磅来袭",
+            "source": "汇通网",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pTF9ZclFRZU9ram9JTTJIOVROdTdnRTlUZmNMYnJ3V0JlaklIRkczbFdCaW5ib2tnMU5RTG1oN3RFLUtFVWwyYUtLZzVVV3VaUFRnTHNFSUc0Sms?oc=5"
           }
         ]
       },
@@ -430,41 +389,6 @@
             "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
           }
         ]
-      },
-      {
-        "key": "commodities",
-        "label": "商品与成本",
-        "headline_count": 1,
-        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-        "watch": [
-          {
-            "code": "WTI",
-            "label": "原油",
-            "value": "88.98 / +0.28%",
-            "state": "fresh"
-          },
-          {
-            "code": "GOLD",
-            "label": "黄金",
-            "value": "3,886.21 / +0.02%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-        "headlines": [
-          {
-            "title": "一周展望：CPI或坐实美联储12月加息？黄金恐又打响4000保卫战-市场参考",
-            "source": "金十数据",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrSnlneTE0bkl0Y0dyRUwyZjl5NDhoTGViRXhBNklpampBN1hCZzZ6Z1I5VVBJazNXZ2RyZlJscUR5ZlI0c2toMUpVc2NVM3M?oc=5"
-          }
-        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -472,11 +396,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-14 16:51",
+    "generated_at": "2026-11-14 18:50",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 279,
+    "signal_count": 280,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -513,14 +437,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-14 16:51",
-      "slot": "open",
-      "score": "-33",
+      "captured_at": "2026-11-14 18:50",
+      "slot": "midday",
+      "score": "-31",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-14 18:50",
+        "slot": "midday",
+        "signal_date": "2026-11-14",
+        "market_asof_date": "2026-11-13",
+        "score": "-31",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-0.2056",
+        "a50_pct": "-0.0069368667186209265",
+        "usdcnh": "6.6746",
+        "usdcnh_pct": "0.034470872113057105",
+        "dxy": "103.4105",
+        "dxy_pct": "0.23534497715855807",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-14 16:51",
         "slot": "open",
@@ -987,31 +936,6 @@
         "usdcnh_pct": "0.0",
         "dxy": "101.7266",
         "dxy_pct": "0.049077123864171845",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": 0.08,
-        "return_3d": -0.133252,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-11-10 17:35",
-        "slot": "open",
-        "signal_date": "2026-11-10",
-        "market_asof_date": "2026-11-10",
-        "score": "-19",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3649.18",
-        "sh_pct": "-1.10",
-        "global_avg": "2.021",
-        "a50_pct": "-0.10033289463496908",
-        "usdcnh": "6.6661",
-        "usdcnh_pct": "-0.03599010272175018",
-        "dxy": "101.664",
-        "dxy_pct": "-0.01249057060269676",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
