@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15 02:16",
+  "generated_at": "2026-11-15 09:53",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-15 02:16",
-    "slot": "night",
-    "slot_label": "夜间校验",
+    "checked_at": "2026-11-15 09:53",
+    "slot": "overnight",
+    "slot_label": "外围收盘",
     "target_date": "2026-11-15",
     "market_data_date": "2026-11-13",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-15 02:16",
+    "generated_at": "2026-11-15 09:53",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-15 02:16",
-    "score": -35,
+    "generated_at": "2026-11-15 09:53",
+    "score": -37,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 2",
-        "contribution": -4,
+        "value": "正向词 0 / 风险词 3",
+        "contribution": -6,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,21 +262,21 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 2,
-      "score": -4
+      "negative_hits": 3,
+      "score": -6
     },
     "news": [
+      {
+        "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
+        "source": "FX168",
+        "published": "Sun, 15 Nov 2026 00:22:36 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
+      },
       {
         "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
         "source": "Moomoo",
         "published": "Sat, 14 Nov 2026 03:16:01 GMT",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
-      },
-      {
-        "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
-        "source": "新浪网",
-        "published": "Sat, 14 Nov 2026 01:35:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
       }
     ],
     "events": [
@@ -309,14 +309,14 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
+            "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
+            "source": "FX168",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
+          },
+          {
             "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
             "source": "Moomoo",
             "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
-          },
-          {
-            "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
-            "source": "新浪网",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
           }
         ]
       },
@@ -349,9 +349,44 @@
         "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
         "headlines": [
           {
-            "title": "美股芯片波动，资金避险调仓，A 股后续看国产算力与储能|英伟达|美联储|A 股|储能_新浪新闻",
-            "source": "新浪网",
-            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya09aenJyZ1phTW92bzRLVU9Md0FJeTdEbEp4bThGakZ2UkdER01USzhPVExRd3NZOTJUU21HRFM5aS0yaHNGQktkZ3hVMlpYX21ENmdQWkhmYzlXSWZNME5qNA?oc=5"
+            "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
+            "source": "FX168",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "currency",
+        "label": "美元与人民币",
+        "headline_count": 1,
+        "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
+        "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
+        "watch": [
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "103.41 / +0.24%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6746 / +0.03%",
+            "state": "fresh"
+          },
+          {
+            "code": "A50",
+            "label": "富时A50",
+            "value": "12,829.11 / -0.01%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
+        "headlines": [
+          {
+            "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
+            "source": "FX168",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
           }
         ]
       }
@@ -361,11 +396,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-15 02:16",
+    "generated_at": "2026-11-15 09:53",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 282,
+    "signal_count": 283,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -402,14 +437,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-15 02:16",
-      "slot": "night",
-      "score": "-35",
+      "captured_at": "2026-11-15 09:53",
+      "slot": "overnight",
+      "score": "-37",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-15 09:53",
+        "slot": "overnight",
+        "signal_date": "2026-11-15",
+        "market_asof_date": "2026-11-13",
+        "score": "-37",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-0.2056",
+        "a50_pct": "-0.0069368667186209265",
+        "usdcnh": "6.6746",
+        "usdcnh_pct": "0.034470872113057105",
+        "dxy": "103.4105",
+        "dxy_pct": "0.23534497715855807",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-15 02:16",
         "slot": "night",
@@ -884,31 +944,6 @@
         "return_5d": null,
         "direction": 1,
         "hit_1d": true
-      },
-      {
-        "captured_at": "2026-11-11 03:51",
-        "slot": "night",
-        "signal_date": "2026-11-11",
-        "market_asof_date": "2026-11-10",
-        "score": "12",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3663.72",
-        "sh_pct": "0.08",
-        "global_avg": "-0.0206",
-        "a50_pct": "-0.34682975923201464",
-        "usdcnh": "6.6774",
-        "usdcnh_pct": "0.13346329759316156",
-        "dxy": "102.2272",
-        "dxy_pct": "0.5414219776999074",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.67,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
       }
     ],
     "disclaimer": "样本量不足时不展示结论；历史表现不代表未来收益。"
