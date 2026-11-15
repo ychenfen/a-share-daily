@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15 22:42",
+  "generated_at": "2026-11-16 02:57",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-15 22:42",
-    "slot": "close",
-    "slot_label": "收盘快照",
-    "target_date": "2026-11-15",
+    "checked_at": "2026-11-16 02:57",
+    "slot": "night",
+    "slot_label": "夜间校验",
+    "target_date": "2026-11-16",
     "market_data_date": "2026-11-13",
     "market_state": "non_trading",
     "pulse_updated": false,
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-15 22:42",
+    "generated_at": "2026-11-16 02:57",
     "markets": [
       {
         "code": "SPX",
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-15 22:42",
-    "score": -33,
+    "generated_at": "2026-11-16 02:57",
+    "score": -35,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -252,8 +252,8 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 1",
-        "contribution": -2,
+        "value": "正向词 0 / 风险词 2",
+        "contribution": -4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
     ],
@@ -262,10 +262,16 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 1,
-      "score": -2
+      "negative_hits": 2,
+      "score": -4
     },
     "news": [
+      {
+        "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+        "source": "金十数据",
+        "published": "Sat, 14 Nov 2026 21:21:37 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+      },
       {
         "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
         "source": "FX168",
@@ -277,7 +283,7 @@
       {
         "key": "central_bank",
         "label": "央行与利率",
-        "headline_count": 1,
+        "headline_count": 2,
         "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
         "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
         "watch": [
@@ -302,6 +308,11 @@
         ],
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
+          {
+            "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+          },
           {
             "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
             "source": "FX168",
@@ -341,6 +352,41 @@
             "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
             "source": "FX168",
             "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
+          }
+        ]
+      },
+      {
+        "key": "commodities",
+        "label": "商品与成本",
+        "headline_count": 1,
+        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "watch": [
+          {
+            "code": "WTI",
+            "label": "原油",
+            "value": "88.98 / +0.28%",
+            "state": "fresh"
+          },
+          {
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "3,886.21 / +0.02%",
+            "state": "fresh"
+          },
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          }
+        ],
+        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+        "headlines": [
+          {
+            "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
+            "source": "金十数据",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
           }
         ]
       },
@@ -385,11 +431,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-15 22:42",
+    "generated_at": "2026-11-16 02:57",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 286,
+    "signal_count": 287,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -426,14 +472,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-15 22:42",
-      "slot": "close",
-      "score": "-33",
+      "captured_at": "2026-11-16 02:57",
+      "slot": "night",
+      "score": "-35",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-16 02:57",
+        "slot": "night",
+        "signal_date": "2026-11-16",
+        "market_asof_date": "2026-11-13",
+        "score": "-35",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-0.2056",
+        "a50_pct": "-0.0069368667186209265",
+        "usdcnh": "6.6746",
+        "usdcnh_pct": "0.034470872113057105",
+        "dxy": "103.4105",
+        "dxy_pct": "0.23534497715855807",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-15 22:42",
         "slot": "close",
@@ -900,31 +971,6 @@
         "usdcnh_pct": "-0.10488619847465186",
         "dxy": "103.0311",
         "dxy_pct": "0.09919459044582801",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": -0.67,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 1,
-        "hit_1d": false
-      },
-      {
-        "captured_at": "2026-11-11 23:06",
-        "slot": "close",
-        "signal_date": "2026-11-11",
-        "market_asof_date": "2026-11-11",
-        "score": "10",
-        "stance": "谨慎偏多",
-        "confidence": "中",
-        "sh_close": "3680.64",
-        "sh_pct": "0.46",
-        "global_avg": "0.2527",
-        "a50_pct": "-0.08742579600647948",
-        "usdcnh": "6.6719",
-        "usdcnh_pct": "-0.07039511128418274",
-        "dxy": "102.9118",
-        "dxy_pct": "0.6402489411493351",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
