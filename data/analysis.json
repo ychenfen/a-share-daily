@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15 09:53",
-  "score": -37,
+  "generated_at": "2026-11-15 17:07",
+  "score": -33,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 3",
-      "contribution": -6,
+      "value": "正向词 0 / 风险词 1",
+      "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,8 +67,8 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 3,
-    "score": -6
+    "negative_hits": 1,
+    "score": -2
   },
   "news": [
     {
@@ -76,19 +76,13 @@
       "source": "FX168",
       "published": "Sun, 15 Nov 2026 00:22:36 GMT",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
-    },
-    {
-      "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
-      "source": "Moomoo",
-      "published": "Sat, 14 Nov 2026 03:16:01 GMT",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -117,11 +111,6 @@
           "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
           "source": "FX168",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
-        },
-        {
-          "title": "杰克逊霍尔未开幕，但是美联储“鹰声”先至! 施密德直言利率仍不够紧，加息风险重回交易台",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTlpiXzZpdmIxRG0xYlhvV1NmU3FRZm9JUTREVWs2eTlwcVhTQmYzeFFSNG00TUlITVFUUmJjU0llZ191eGJGaEo1Q3B2TlA3M1hyOWROeXpJX3lvOUR0V1N6UnNIcVRmUzdwR0FfZkt2SjZCbDJEM2RKVlRjUWlVVGRTTDJCcnlMMjJtM1FCTlNXaUhqMG5Zd0RSdkZjVjlLUHVTcE1B?oc=5"
         }
       ]
     },
