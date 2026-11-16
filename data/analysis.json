@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16 17:24",
-  "score": -30,
+  "generated_at": "2026-11-16 19:57",
+  "score": -31,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -39,8 +39,8 @@
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6661 (-0.11%) / DXY 103.40 (+0.02%)",
-      "contribution": 1.2,
+      "value": "USD/CNH 6.6683 (-0.08%) / DXY 103.50 (+0.12%)",
+      "contribution": 0.4,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -107,13 +107,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.40 / +0.02%",
+          "value": "103.50 / +0.12%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6661 / -0.11%",
+          "value": "6.6683 / -0.08%",
           "state": "fresh"
         }
       ],
@@ -147,7 +147,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,771.88 / +0.23%",
+          "value": "12,771.65 / +0.23%",
           "state": "fresh"
         },
         {
@@ -176,19 +176,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.40 / +0.02%",
+          "value": "103.50 / +0.12%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6661 / -0.11%",
+          "value": "6.6683 / -0.08%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,771.88 / +0.23%",
+          "value": "12,771.65 / +0.23%",
           "state": "fresh"
         }
       ],
