@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16 02:57",
-  "score": -35,
+  "generated_at": "2026-11-16 10:03",
+  "score": -34,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.21%",
-      "contribution": -1.4,
+      "value": "6 个市场均值 +0.16%",
+      "contribution": 1.1,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.01%",
-      "contribution": -0.0,
+      "value": "富时 A50 -0.49%",
+      "contribution": -2.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6746 (+0.03%) / DXY 103.41 (+0.24%)",
-      "contribution": -1.6,
+      "value": "USD/CNH 6.6716 (-0.03%) / DXY 103.40 (+0.02%)",
+      "contribution": 0.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,16 +72,16 @@
   },
   "news": [
     {
-      "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-      "source": "金十数据",
-      "published": "Sat, 14 Nov 2026 21:21:37 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+      "title": "东吴【策略*陈刚】13轮美联储加息的历史规律与A股启示",
+      "source": "新浪财经_金融信息服务商",
+      "published": "Mon, 16 Nov 2026 00:43:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVBObmtlTzB6bTBQX1RERjhBSVk2cWFLVzBmaE55UHJDV3YydEphd3U4ZDlZYlJaalA4NmFfZlF1akZodWVYUnBJcWRhcmxwdGhLNEpWWTc5NmZRQ0Z4ZERKZGJBcTYtSENJMDVhYnFsN3JNUGFmenM3bFp1TDdncnJTVTg0cmc2eUJQd19Bdw?oc=5"
     },
     {
-      "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
-      "source": "FX168",
-      "published": "Sun, 15 Nov 2026 00:22:36 GMT",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
+      "title": "招商宏观：美联储大概率提速加息",
+      "source": "金融界",
+      "published": "Sun, 15 Nov 2026 23:50:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlMzJwSnA1Ri16OTI1Y2VfT2NHb3dFVmdtbjZFaFBKOGs5MGxVYk9yQmlKRExWeGxES2RWb3A0MTVLQ04xemJBLW1WQzZCTUF6ZnRtenFhNWhfLWFzanA2V0RiU0R6WFJjZi1XVGVfcVR2UQ?oc=5"
     }
   ],
   "events": [
@@ -101,132 +101,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.41 / +0.24%",
+          "value": "103.40 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6746 / +0.03%",
+          "value": "6.6716 / -0.03%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
+          "title": "东吴【策略*陈刚】13轮美联储加息的历史规律与A股启示",
+          "source": "新浪财经_金融信息服务商",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVBObmtlTzB6bTBQX1RERjhBSVk2cWFLVzBmaE55UHJDV3YydEphd3U4ZDlZYlJaalA4NmFfZlF1akZodWVYUnBJcWRhcmxwdGhLNEpWWTc5NmZRQ0Z4ZERKZGJBcTYtSENJMDVhYnFsN3JNUGFmenM3bFp1TDdncnJTVTg0cmc2eUJQd19Bdw?oc=5"
         },
         {
-          "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "25,136.27 / -0.91%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,829.11 / -0.01%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "88.98 / +0.28%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,886.21 / +0.02%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "一周展望：黄金扛住加息盯4500，特朗普“大决定”将至，沙特危局升温-市场参考",
-          "source": "金十数据",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81cFV1akwwam4wSU9kZkRseDZfZmt4SHZJYUdxdjRhdU9PTTJJaWN0Z294NEdWV29rMi1QeEJKN2pZdjAzQm83ZWxXVTNGU1k?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "currency",
-      "label": "美元与人民币",
-      "headline_count": 1,
-      "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
-      "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
-      "watch": [
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "103.41 / +0.24%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6746 / +0.03%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,829.11 / -0.01%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
-      "headlines": [
-        {
-          "title": "下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭",
-          "source": "FX168",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5"
+          "title": "招商宏观：美联储大概率提速加息",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlMzJwSnA1Ri16OTI1Y2VfT2NHb3dFVmdtbjZFaFBKOGs5MGxVYk9yQmlKRExWeGxES2RWb3A0MTVLQ04xemJBLW1WQzZCTUF6ZnRtenFhNWhfLWFzanA2V0RiU0R6WFJjZi1XVGVfcVR2UQ?oc=5"
         }
       ]
     }
