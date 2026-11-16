@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16 19:57",
-  "score": -31,
+  "generated_at": "2026-11-17 00:57",
+  "score": -36,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.13%",
-      "contribution": 0.9,
+      "value": "6 个市场均值 -0.38%",
+      "contribution": -2.7,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.23%",
-      "contribution": 1.4,
+      "value": "富时 A50 +0.07%",
+      "contribution": 0.4,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6683 (-0.08%) / DXY 103.50 (+0.12%)",
-      "contribution": 0.4,
+      "value": "USD/CNH 6.6645 (-0.14%) / DXY 103.56 (+0.17%)",
+      "contribution": 0.8,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -107,13 +107,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.50 / +0.12%",
+          "value": "103.56 / +0.17%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6683 / -0.08%",
+          "value": "6.6645 / -0.14%",
           "state": "fresh"
         }
       ],
@@ -141,13 +141,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "25,136.27 / -0.91%",
+          "value": "24,731.63 / -1.61%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,771.65 / +0.23%",
+          "value": "12,751.47 / +0.07%",
           "state": "fresh"
         },
         {
@@ -176,19 +176,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.50 / +0.12%",
+          "value": "103.56 / +0.17%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6683 / -0.08%",
+          "value": "6.6645 / -0.14%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,771.65 / +0.23%",
+          "value": "12,751.47 / +0.07%",
           "state": "fresh"
         }
       ],
