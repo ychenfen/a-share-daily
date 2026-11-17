@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17 20:22",
-  "score": -37,
+  "generated_at": "2026-11-18 00:51",
+  "score": -38,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -1.10%",
-      "contribution": -7.7,
+      "value": "6 个市场均值 -0.93%",
+      "contribution": -6.5,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.17%",
-      "contribution": 1.0,
+      "value": "富时 A50 -0.34%",
+      "contribution": -2.1,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6661 (+0.02%) / DXY 103.60 (+0.02%)",
-      "contribution": -0.3,
+      "value": "USD/CNH 6.6655 (+0.01%) / DXY 103.43 (-0.15%)",
+      "contribution": 0.6,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,10 +72,10 @@
   },
   "news": [
     {
-      "title": "华创证券周冠南：中债受益利率换锚，黄金、A 股红利与科技主线可期",
-      "source": "财联社",
-      "published": "Tue, 17 Nov 2026 01:45:54 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nU1lSbUdaYkFSdjVRVG5OZXVKNHYzcjBEcktJZk80UHdxSU91TTIyeUVscUdHQ2docmluREJ6Y3FZdXVuTnhFWQ?oc=5"
+      "title": "资产配置周报丨美联储会议纪要本周公布；全球大类资产波动或加剧",
+      "source": "21财经",
+      "published": "Tue, 17 Nov 2026 10:45:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXV3QmdtMTBlbVRqNl81M1lJZzA3YnVJbWEyTWFPRFI2UUtSYy1wVG5UZEhiVzNUXzB5U2J1Q0x1NXM1WnNERkduS1VYbjAtYkNPTEEyRE5NdUlZWmFySmdIZ1BLTUlJMEtNaDI3TmYxZUVWMlN0aUpwdUN4YXNleXB3MGZzT1NJNHZ2QUprWQ?oc=5"
     },
     {
       "title": "大摩高喊“拥抱风险”！AI算力开支“只会迟到，不会缩水”，顶格超配全球股市",
@@ -84,10 +84,16 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vaG9ON0hsZ3RnMElkNzBMSFdpUDQ1dkRUNGZTZlZYOWlDUDBLTGNKc1dJTmRReE9LeE9ZWHJ3VkxFV3ZZM3NqRWN2UXlJcmN2NEt3?oc=5"
     },
     {
-      "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+      "title": "华创证券周冠南：中债受益利率换锚，黄金、A 股红利与科技主线可期",
+      "source": "财联社",
+      "published": "Tue, 17 Nov 2026 01:41:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nU1lSbUdaYkFSdjVRVG5OZXVKNHYzcjBEcktJZk80UHdxSU91TTIyeUVscUdHQ2docmluREJ6Y3FZdXVuTnhFWQ?oc=5"
+    },
+    {
+      "title": "财富观 | 高盛再度下调年底黄金目标价，金价会跌到哪儿？",
       "source": "Sohu",
-      "published": "Tue, 17 Nov 2026 05:54:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaTRjOTMxanhWQUx6czl1S0NkSkJlVlVoRWVadkRlcWhkbjZLcU80ZVFXTEZtbXh2U3ZfR3JZVG9XWkxDSG1XRU9TUzE2cF9JdEdoc09aOWFTNjRTenByLTRIdXZIeXVZaHlsRGJWa2c4Q1J4alhmbFdjR3lNUzhSLUFRUW5iQVJh?oc=5"
+      "published": "Tue, 17 Nov 2026 10:42:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWt3bmNDbjhVeGZ1cFh4OGZ1akJLZ0V2V2gwTDNFLTUtT3hiejlrYWxGbmRDQ25nSUdhdnhDdVlXLTRYeU1UVzNoWjBLTWtPU2FoNmM5S0otR2taaTRlc3J5R255THQ2dVd5SGlGejV1b0M2S0VMbDV3Qkp2WElzY1EyY0FWYTJ6?oc=5"
     }
   ],
   "events": [
@@ -101,13 +107,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "86.16 / +0.52%",
+          "value": "86.50 / +0.91%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,865.22 / +0.32%",
+          "value": "3,870.86 / +0.46%",
           "state": "fresh"
         },
         {
@@ -125,9 +131,44 @@
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nU1lSbUdaYkFSdjVRVG5OZXVKNHYzcjBEcktJZk80UHdxSU91TTIyeUVscUdHQ2docmluREJ6Y3FZdXVuTnhFWQ?oc=5"
         },
         {
-          "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+          "title": "财富观 | 高盛再度下调年底黄金目标价，金价会跌到哪儿？",
           "source": "Sohu",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaTRjOTMxanhWQUx6czl1S0NkSkJlVlVoRWVadkRlcWhkbjZLcU80ZVFXTEZtbXh2U3ZfR3JZVG9XWkxDSG1XRU9TUzE2cF9JdEdoc09aOWFTNjRTenByLTRIdXZIeXVZaHlsRGJWa2c4Q1J4alhmbFdjR3lNUzhSLUFRUW5iQVJh?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWt3bmNDbjhVeGZ1cFh4OGZ1akJLZ0V2V2gwTDNFLTUtT3hiejlrYWxGbmRDQ25nSUdhdnhDdVlXLTRYeU1UVzNoWjBLTWtPU2FoNmM5S0otR2taaTRlc3J5R255THQ2dVd5SGlGejV1b0M2S0VMbDV3Qkp2WElzY1EyY0FWYTJ6?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "central_bank",
+      "label": "央行与利率",
+      "headline_count": 1,
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+      "watch": [
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "103.43 / -0.15%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6655 / +0.01%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+      "headlines": [
+        {
+          "title": "资产配置周报丨美联储会议纪要本周公布；全球大类资产波动或加剧",
+          "source": "21财经",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXV3QmdtMTBlbVRqNl81M1lJZzA3YnVJbWEyTWFPRFI2UUtSYy1wVG5UZEhiVzNUXzB5U2J1Q0x1NXM1WnNERkduS1VYbjAtYkNPTEEyRE5NdUlZWmFySmdIZ1BLTUlJMEtNaDI3TmYxZUVWMlN0aUpwdUN4YXNleXB3MGZzT1NJNHZ2QUprWQ?oc=5"
         }
       ]
     },
@@ -141,13 +182,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "24,509.76 / -2.49%",
+          "value": "24,125.26 / -1.57%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,682.99 / +0.17%",
+          "value": "12,618.65 / -0.34%",
           "state": "fresh"
         },
         {
