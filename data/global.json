@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18 05:03",
+  "generated_at": "2026-11-18 11:42",
   "markets": [
     {
       "code": "SPX",
       "name": "标普 500",
       "region": "美国",
       "kind": "index",
-      "close": 7340.54,
+      "close": 7340.53,
       "pct": -1.03,
-      "change": -76.05,
+      "change": -76.06,
       "previous_close": 7416.59,
-      "quote_time": "2026-11-17 16:03:40",
+      "quote_time": "2026-11-17 16:42:12",
       "stale": false
     },
     {
@@ -23,7 +23,7 @@
       "pct": -0.74,
       "change": -181.38,
       "previous_close": 24509.76,
-      "quote_time": "2026-11-17 16:03:30",
+      "quote_time": "2026-11-17 17:15:59",
       "stale": false
     },
     {
@@ -35,7 +35,7 @@
       "pct": -1.64,
       "change": -848.75,
       "previous_close": 51608.17,
-      "quote_time": "2026-11-17 16:03:40",
+      "quote_time": "2026-11-17 16:42:18",
       "stale": false
     },
     {
@@ -43,11 +43,11 @@
       "name": "恒生指数",
       "region": "中国香港",
       "kind": "index",
-      "close": 23508.17,
-      "pct": -1.03,
-      "change": -245.67,
-      "previous_close": 23753.84,
-      "quote_time": "2026/11/17 18:31:13",
+      "close": 23278.34,
+      "pct": -0.98,
+      "change": -229.83,
+      "previous_close": 23508.17,
+      "quote_time": "2026/11/18 11:26:59",
       "stale": false
     },
     {
@@ -55,9 +55,9 @@
       "name": "欧洲股票 ETF",
       "region": "欧洲（美股代理）",
       "kind": "ETF proxy",
-      "close": 86.96,
-      "pct": -1.23,
-      "change": -1.08,
+      "close": 86.97,
+      "pct": -1.22,
+      "change": -1.07,
       "previous_close": 88.04,
       "quote_time": "2026-11-17 16:00:01",
       "stale": false
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 12660.74,
-      "pct": -0.009951034591693109,
-      "change": -1.2600000000002183,
+      "close": 12686.48,
+      "pct": 0.19333438635287248,
+      "change": 24.479999999999563,
       "previous_close": 12662.0,
-      "quote_time": "2026-11-18 05:03:59",
+      "quote_time": "2026-11-18 11:42:27",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.6662,
-      "pct": 0.02250663945864151,
-      "change": 0.0015000000000000568,
-      "previous_close": 6.6647,
-      "quote_time": "2026-11-18 05:04:03",
+      "close": 6.6667,
+      "pct": -0.004499775011257423,
+      "change": -0.000300000000000189,
+      "previous_close": 6.667,
+      "quote_time": "2026-11-18 11:42:19",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 103.4887,
-      "pct": -0.09383516482455168,
-      "change": -0.09720000000000084,
-      "previous_close": 103.5859,
-      "quote_time": "2026-11-18 04:01:20",
+      "close": 103.6198,
+      "pct": 0.054652617918327095,
+      "change": 0.05660000000000309,
+      "previous_close": 103.5632,
+      "quote_time": "2026-11-18 11:42:24",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 3851.26,
-      "pct": -0.04515961588371642,
-      "change": -1.7399999999997817,
-      "previous_close": 3853.0,
-      "quote_time": "2026-11-18 05:04:13",
+      "close": 3792.37,
+      "pct": -1.858858237151284,
+      "change": -71.82999999999993,
+      "previous_close": 3864.2,
+      "quote_time": "2026-11-18 11:42:25",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 85.58,
-      "pct": -0.1633224451703219,
-      "change": -0.14000000000000057,
-      "previous_close": 85.72,
-      "quote_time": "2026-11-18 05:04:13",
+      "close": 83.814,
+      "pct": -0.9875959834613313,
+      "change": -0.8360000000000127,
+      "previous_close": 84.65,
+      "quote_time": "2026-11-18 11:42:23",
       "stale": false
     }
   ],
