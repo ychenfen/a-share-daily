@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18 17:58",
-  "score": -33,
+  "generated_at": "2026-11-18 20:08",
+  "score": -35,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +0.07%",
-      "contribution": 0.4,
+      "value": "富时 A50 -0.14%",
+      "contribution": -0.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6661 (-0.01%) / DXY 103.74 (+0.17%)",
-      "contribution": -0.7,
+      "value": "USD/CNH 6.6667 (-0.00%) / DXY 103.81 (+0.24%)",
+      "contribution": -1.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,16 +72,22 @@
   },
   "news": [
     {
+      "title": "资产配置周报丨美联储会议纪要本周公布；全球大类资产波动或加剧",
+      "source": "21财经",
+      "published": "Wed, 18 Nov 2026 11:38:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdDNZd0ptaTFwenVka3lnTG9BaG1PYzIzRVJsQ0h4X0hnQnRDc1JVYUhrS0ZxUlFxWTZoc1BLZ1pVaFYyMlFTdXBYQlI3bmZVNUlEWVQwMDF6LWhkd01Ha1A4N0VMRHFaNHFQb2VnVXNiZGxUNjRtZUVTUVFiWnJUMUh4c0tKYnA3ZWVHLW9mMkdMNHlu?oc=5"
+    },
+    {
+      "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+      "source": "第一财经",
+      "published": "Wed, 18 Nov 2026 08:12:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5"
+    },
+    {
       "title": "重磅数据来袭！黄金、欧美货币、美股和比特币怎么走？八大资产交易信号曝光",
       "source": "金融界",
       "published": "Tue, 17 Nov 2026 23:46:56 GMT",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yQ1lpMW9GSHA3TUdwYjJmRW1LLXU3QVkzSUlkenBqbFNxVWFycFFqcUo5X2xtUUJDWjZSc09oaTBrSlowZk1GRWh6T25JWDFTMjFrNmRvQ1lvVmFObnhCY2UzRF9FVmJFMmlvWWcxYWxXZw?oc=5"
-    },
-    {
-      "title": "资产配置周报丨美联储会议纪要本周公布；全球大类资产波动或加剧",
-      "source": "21财经",
-      "published": "Tue, 17 Nov 2026 10:45:53 GMT",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXV3QmdtMTBlbVRqNl81M1lJZzA3YnVJbWEyTWFPRFI2UUtSYy1wVG5UZEhiVzNUXzB5U2J1Q0x1NXM1WnNERkduS1VYbjAtYkNPTEEyRE5NdUlZWmFySmdIZ1BLTUlJMEtNaDI3TmYxZUVWMlN0aUpwdUN4YXNleXB3MGZzT1NJNHZ2QUprWQ?oc=5"
     },
     {
       "title": "赤峰黄金盘中跌超5%，美联储鹰派压制金价，央行持续购金托底",
@@ -94,12 +100,6 @@
       "source": "富途牛牛",
       "published": "Wed, 18 Nov 2026 02:08:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHNhWi1XZFBjUnd5SWZCcm5XYUkzWE9lbnh1Z2dfSEllUDdSSWZJZzZZZE4zOGxyMWpCMGVLN2k5U084NnlHSENlbFo2aUlCWFFIdWxwdXNVbnYtTHVqMzhKNnhuSDlCa3ExeWhXN0ozN0JaeDdlS0FDWTJYc085dVFHcDQ2TmN4X1pDa3l2LWpXTHRTaHRiNkRKZGJxZG1yZ29iSEwtc214SDZsT0s0RmVOaw?oc=5"
-    },
-    {
-      "title": "财富观 | 高盛再度下调年底黄金目标价，金价会跌到哪儿？",
-      "source": "Sohu",
-      "published": "Tue, 17 Nov 2026 10:42:42 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWt3bmNDbjhVeGZ1cFh4OGZ1akJLZ0V2V2gwTDNFLTUtT3hiejlrYWxGbmRDQ25nSUdhdnhDdVlXLTRYeU1UVzNoWjBLTWtPU2FoNmM5S0otR2taaTRlc3J5R255THQ2dVd5SGlGejV1b0M2S0VMbDV3Qkp2WElzY1EyY0FWYTJ6?oc=5"
     }
   ],
   "events": [
@@ -113,13 +113,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "82.98 / -1.98%",
+          "value": "84.05 / -0.71%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,779.35 / -2.20%",
+          "value": "3,771.51 / -2.40%",
           "state": "fresh"
         },
         {
@@ -132,14 +132,14 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
+          "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+          "source": "第一财经",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5"
+        },
+        {
           "title": "重磅数据来袭！黄金、欧美货币、美股和比特币怎么走？八大资产交易信号曝光",
           "source": "金融界",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yQ1lpMW9GSHA3TUdwYjJmRW1LLXU3QVkzSUlkenBqbFNxVWFycFFqcUo5X2xtUUJDWjZSc09oaTBrSlowZk1GRWh6T25JWDFTMjFrNmRvQ1lvVmFObnhCY2UzRF9FVmJFMmlvWWcxYWxXZw?oc=5"
-        },
-        {
-          "title": "赤峰黄金盘中跌超5%，美联储鹰派压制金价，央行持续购金托底",
-          "source": "www.caiwennews.com",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE05SjJ3ZExqZDV2UTcxQ2NiWGtWeXR6U01SOGZOaUpIdEtXSU9uUExZUHNMWXVxUWNXZFhZWHZqd2lSRTBUSWtSNUNZNThwOHNFWUdGOVBJS3RLeFJa?oc=5"
         }
       ]
     },
@@ -159,13 +159,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.74 / +0.17%",
+          "value": "103.81 / +0.24%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6661 / -0.01%",
+          "value": "6.6667 / -0.00%",
           "state": "fresh"
         }
       ],
@@ -174,7 +174,7 @@
         {
           "title": "资产配置周报丨美联储会议纪要本周公布；全球大类资产波动或加剧",
           "source": "21财经",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZXV3QmdtMTBlbVRqNl81M1lJZzA3YnVJbWEyTWFPRFI2UUtSYy1wVG5UZEhiVzNUXzB5U2J1Q0x1NXM1WnNERkduS1VYbjAtYkNPTEEyRE5NdUlZWmFySmdIZ1BLTUlJMEtNaDI3TmYxZUVWMlN0aUpwdUN4YXNleXB3MGZzT1NJNHZ2QUprWQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdDNZd0ptaTFwenVka3lnTG9BaG1PYzIzRVJsQ0h4X0hnQnRDc1JVYUhrS0ZxUlFxWTZoc1BLZ1pVaFYyMlFTdXBYQlI3bmZVNUlEWVQwMDF6LWhkd01Ha1A4N0VMRHFaNHFQb2VnVXNiZGxUNjRtZUVTUVFiWnJUMUh4c0tKYnA3ZWVHLW9mMkdMNHlu?oc=5"
         },
         {
           "title": "赤峰黄金盘中跌超5%，美联储鹰派压制金价，央行持续购金托底",
