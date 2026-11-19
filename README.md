@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 外围收盘已更新 · 最后检查 `2026-11-19 11:24`（北京时间）
+> **🟢 盘中** · 开盘脉搏已更新 · 最后检查 `2026-11-19 18:07`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -45 · 防守优先**（置信度：中）
+> **风险温度 -39 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -56,7 +56,7 @@
 | 标普 500 | 美国 | 7323.63 | -0.23% |
 | 纳斯达克 | 美国 | 24429.88 | +0.42% |
 | 道琼斯 | 美国 | 50198.17 | -1.11% |
-| 恒生指数 | 中国香港 | 22825.60 | -2.01% |
+| 恒生指数 | 中国香港 | 22841.62 | -1.95% |
 | 欧洲股票 ETF | 欧洲（美股代理） | 85.85 | -1.29% |
 | 日经 225 | 日本 | 65018.95 | +1.38% |
 
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 12,611.32 | -0.89% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6660 | -0.05% | 最新 |
-| 美元指数 | 低权重计分 | 103.94 | +0.14% | 最新 |
-| COMEX 黄金 | 背景观察 | 3,710.88 | -0.83% | 最新 |
-| WTI 原油 | 背景观察 | 81.79 | -0.63% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 12,688.04 | -0.05% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6681 | -0.01% | 最新 |
+| 美元指数 | 低权重计分 | 103.69 | -0.10% | 最新 |
+| COMEX 黄金 | 背景观察 | 3,734.40 | -0.20% | 最新 |
+| WTI 原油 | 背景观察 | 82.83 | +0.63% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -81,12 +81,12 @@
 | A股动量 | 上证 -0.59% | -4.7 | 反映本地市场价格强弱 |
 | 市场宽度 | 涨 776 / 跌 4805 | -14.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 37 / 跌停 33 / 炸板率 36.2% | -3.9 | 涨停扩散加分，炸板率过高扣分 |
-| 外围股市 | 6 个市场均值 -0.47% | -3.3 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.89% | -5.4 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6660 (-0.05%) / DXY 103.94 (+0.14%) | -0.1 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| 外围股市 | 6 个市场均值 -0.46% | -3.2 | 衡量隔夜风险偏好共振 |
+| A50 先行 | 富时 A50 -0.05% | -0.3 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6681 (-0.01%) / DXY 103.69 (-0.10%) | +0.7 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 4 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 1 / 风险词 7 | -8.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,11 +94,12 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（5 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 103.94 / +0.14%（最新） / USD/CNH 6.6660 / -0.05%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 商品与成本（3 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 81.79 / -0.63%（最新） / 黄金 3,710.88 / -0.83%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
-| 美元与人民币（2 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 103.94 / +0.14%（最新） / USD/CNH 6.6660 / -0.05%（最新） / 富时A50 12,611.32 / -0.89%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
-| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 103.94 / +0.14%（最新） / 纳斯达克 24,429.88 / +0.42%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
-| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 24,429.88 / +0.42%（最新） / 富时A50 12,611.32 / -0.89%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 央行与利率（6 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 103.69 / -0.10%（最新） / USD/CNH 6.6681 / -0.01%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 商品与成本（3 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 82.83 / +0.63%（最新） / 黄金 3,734.40 / -0.20%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 美元与人民币（3 条） | 美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好 | 外资敏感权重、航空造纸、出口链与离岸中国资产 | 美元指数 103.69 / -0.10%（最新） / USD/CNH 6.6681 / -0.01%（最新） / 富时A50 12,688.04 / -0.05%（最新） | 失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。 |
+| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 103.69 / -0.10%（最新） / 纳斯达克 24,429.88 / +0.42%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
+| 科技与产业（1 条） | 科技盈利与估值 → 全球成长风格 → 风险偏好扩散 | 半导体、算力、通信与其他高估值成长方向 | 纳斯达克 24,429.88 / +0.42%（最新） / 富时A50 12,688.04 / -0.05%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。 |
+| 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 12,688.04 / -0.05%（最新） / 恒生指数 22,841.62 / -1.95%（最新） / USD/CNH 6.6681 / -0.01%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
 
 ### 研究观察
 
@@ -106,12 +107,12 @@
 
 ### 新闻雷达
 
-- [华盛早报 \| Anthropic今夜上市，定价每股83美元！美联储纪要放鹰！金价遭重挫3%；阿里、拼多多、联想今日齐放榜](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CTkd6S3BiYTNBYWxUWkVkYkhfRzdJTVFCb2ZnSURLWlNjNjlyaktXS1ZEV0VnS3JxSUh3N1RzYVUwS2Q1R1FJUzAwYXc4dFpiaFdNbnM4dFQtNV9vQk5UWk5B?oc=5) · 华盛通
-- [金银铜齐跌，全球金属市场遭遇猛烈抛售！](https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHJtTWhvZTRtV1Q2UkFGdnQ3SElfMUZlQWVtb1NTcERhb1V4R0MyNXk3bUw5UjhWa0ZjcnpKVmVIdk1hUS00WlB6c1NYZG5td24tczBWRXdvaFFfTW90blZPT0J4azBHSXd0cEMtYmZCeW1vVk9OdFBZekROWUw5aUwwZjhyY0lnY2pkWW5WamRWdUlKRUFN?oc=5) · 富途牛牛
-- [下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭](https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5) · FX168
-- [日元逼近160红线，日本央行或37年来首次年度三次加息](https://news.google.com/rss/articles/CBMinwFBVV95cUxOLVkwLWNrS1IyT0p2UWVRQUU2bnpvVW5adkFiYXdSekVyVWVpTlNOWDduMThoSXExNHZVclBQSlNBbWtFLUY5MDFZU25TWlQ5T1JRQ2ZTWkwzdFBYZXJ4cU4wX0pNckRUVWY0bFNLdzE1U3NRM01oVUs2dzVuUU5DOE9uTEEwRnNXU0hHZk5BYVJHYXV1UktOdGc1bDVyU2s?oc=5) · Moomoo
-- [高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？](https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5) · 第一财经
+- [华盛早报\| Anthropic今夜上市，定价每股83美元！美联储纪要放鹰！金价重挫3%；阿里、拼多多、联想今日齐放榜港美股资讯](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CTkd6S3BiYTNBYWxUWkVkYkhfRzdJTVFCb2ZnSURLWlNjNjlyaktXS1ZEV0VnS3JxSUh3N1RzYVUwS2Q1R1FJUzAwYXc4dFpiaFdNbnM4dFQtNV9vQk5UWk5B?oc=5) · 华盛通
+- [德银警告市场面临“三重看跌风险”：利空或相互抵消，但反弹可能刺激美联储鹰派](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fQVFvMk93QklzcmpmQk84QWNhSVozY1dTbFV6eFdyNWQzQXBuejFqX2VvUEZ5UU8wRzhzemtUcWJqa3l5V3FLR25hbkx4YXVhNF9pRXp5ODgwa0It?oc=5) · Moomoo
+- [下周全球市场迎来超级风暴！美联储酝酿更激进加息，英伟达财报与中美元首会晤重磅来袭](https://news.google.com/rss/articles/CBMikAFBVV95cUxPdnFRWjNuODBGcmtReURLbGtJVWUxN3J5alNtVnA1MHM3dm1vSGd5WXQ4ZkFNbTUzekZscVVjSXB2VWszUDR0TmU0a3IzVEw4bUVDSVRRcTRVdk1WN0dhWnFjWGEwOE40RFRmTDNNY1F1MGVOS3VBMmFrcjZsai1zRjF3M2lyNXdybk9ZNV9pbmE?oc=5) · FX168财经
 - [黄金ETF吸金704亿：配置窗口开启？_市场评论](https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6VWxtNTVOT1ZHa05lendQdmZEeGZZbXJVTnQyeG9vMWZSQ0lxRGVQbE5ETTVkOVpoOEUzSDJZNERSSUM2VTFtelhMZS1RSkVSTHY0VzhicE85R2YydzNlOA?oc=5) · 证券之星
+- [金银铜齐跌，全球金属市场遭遇猛烈抛售！](https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHJtTWhvZTRtV1Q2UkFGdnQ3SElfMUZlQWVtb1NTcERhb1V4R0MyNXk3bUw5UjhWa0ZjcnpKVmVIdk1hUS00WlB6c1NYZG5td24tczBWRXdvaFFfTW90blZPT0J4azBHSXd0cEMtYmZCeW1vVk9OdFBZekROWUw5aUwwZjhyY0lnY2pkWW5WamRWdUlKRUFN?oc=5) · 富途牛牛
+- [美联储会议纪要“放鹰” 原油、贵金属价格显著下跌 \| 环球市场](https://news.google.com/rss/articles/CBMiowFBVV95cUxOdVVZTEVDQkFwVXhLREFVdHB3MEJxQ3JLTENfclFRWlZETEk4eG95OVVsb3NObHRTVlhMMTFaX3pmSS1GTW1BNnNmX28tYzJ3RW02SEZFeHd5b21JUGI0dlQzc0lubVhHY0pFNEVEYlVNTlAyYk03S3dDT1hDMk14T1o0cHY2ekFZQjU0R2p2S0d0cTJZN2pLMlVVWWZBUkJJcXQw?oc=5) · 富途牛牛
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
