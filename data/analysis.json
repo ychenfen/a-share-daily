@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20 17:54",
-  "score": -38,
+  "generated_at": "2026-11-20 20:05",
+  "score": -40,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -34,13 +34,13 @@
     {
       "label": "A50 先行",
       "value": "富时 A50 -0.16%",
-      "contribution": -1.0,
+      "contribution": -0.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6795 (-0.20%) / DXY 103.78 (-0.17%)",
-      "contribution": 3.3,
+      "value": "USD/CNH 6.6811 (-0.18%) / DXY 103.89 (-0.06%)",
+      "contribution": 2.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 1",
-      "contribution": -2,
+      "value": "正向词 0 / 风险词 2",
+      "contribution": -4,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,15 +67,27 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 1,
-    "score": -2
+    "negative_hits": 2,
+    "score": -4
   },
   "news": [
+    {
+      "title": "美股恐慌指数飙升15% Anthropic创始人发警告机构：是牛市中的回调_环球股市",
+      "source": "证券之星",
+      "published": "Fri, 20 Nov 2026 10:07:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUYTBNZ0F2OUZ0Y3lZWFNnbm5icnl4aVU4Skw2WnVBN25TZVhUZXR5M1RGd05LbGF1N1BUZTBRWll0Qmk4U080NVFxV2wwdkU0WENIMkhsclUtbVBfQzNtSkd3?oc=5"
+    },
     {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
       "published": "Thu, 19 Nov 2026 23:35:48 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
+    },
+    {
+      "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+      "source": "第一财经",
+      "published": "Fri, 20 Nov 2026 09:49:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5"
     },
     {
       "title": "美股、国际金价大跌；长鑫科技拟最高50亿元回购公司股份丨盘前情报",
@@ -112,20 +124,20 @@
     {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 4,
+      "headline_count": 5,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "80.90 / -1.87%",
+          "value": "82.55 / +0.13%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,566.24 / -3.24%",
+          "value": "3,567.43 / -3.20%",
           "state": "fresh"
         },
         {
@@ -138,14 +150,14 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
+          "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+          "source": "第一财经",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5"
+        },
+        {
           "title": "跌破3600，黄金势创3月来最惨一周！高盛：央行买盘是唯一支柱",
           "source": "富途牛牛",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaWwzblhyQjdPZWs2X0l2UHo3bzlBUlZmLVhObDR1ZFY0bjRIYUdlcENBcXJuTDFJb1J6dk9VcWxzaHlwd0dHWk9MenpyS0V1aW4tbkxESVl4Z0ktQzFCMzZKdHhIVmt6Z0xTRDIxMEV4OGdDNTdDdHJRbFpVUVNTS3NWYXBTX0ROMHVYd2w5cXd0dw?oc=5"
-        },
-        {
-          "title": "黄金交易提醒：美联储加息预期助力美元继续飙升，金价刷新14个月低点，一度失守3600关口_外汇动态报道",
-          "source": "Fx678",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lVHNka0ZNVW5XRkVBTmp4Sm9kSFp2c1c0Z1VUbklHVHBkMDBxbFBkYzZmX1A1OUFBZ3p5U3NzQ3RncWZKbHY0OHE3QUgycFEyOHZJUjNrdy1qdw?oc=5"
         }
       ]
     },
@@ -165,13 +177,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.78 / -0.17%",
+          "value": "103.89 / -0.06%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6795 / -0.20%",
+          "value": "6.6811 / -0.18%",
           "state": "fresh"
         }
       ],
@@ -205,7 +217,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,602.56 / -0.16%",
+          "value": "12,603.30 / -0.16%",
           "state": "fresh"
         },
         {
@@ -234,19 +246,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.78 / -0.17%",
+          "value": "103.89 / -0.06%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6795 / -0.20%",
+          "value": "6.6811 / -0.18%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,602.56 / -0.16%",
+          "value": "12,603.30 / -0.16%",
           "state": "fresh"
         }
       ],
