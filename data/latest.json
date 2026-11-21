@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21 19:39",
+  "generated_at": "2026-11-21 23:17",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-21 19:39",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
+    "checked_at": "2026-11-21 23:17",
+    "slot": "close",
+    "slot_label": "收盘快照",
     "target_date": "2026-11-21",
     "market_data_date": "2026-11-20",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-21 19:39",
+    "generated_at": "2026-11-21 23:17",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-21 19:39",
+    "generated_at": "2026-11-21 23:17",
     "score": -53,
     "stance": "防守优先",
     "color": "#08783e",
@@ -252,7 +252,7 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 0 / 风险词 8",
+        "value": "正向词 0 / 风险词 7",
         "contribution": -8,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
@@ -262,10 +262,16 @@
     ],
     "news_tone": {
       "positive_hits": 0,
-      "negative_hits": 8,
+      "negative_hits": 7,
       "score": -8
     },
     "news": [
+      {
+        "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+        "source": "第一财经",
+        "published": "Sat, 21 Nov 2026 11:11:22 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5"
+      },
       {
         "title": "全球市场都在跌，到底怎么了？",
         "source": "财富号",
@@ -273,10 +279,16 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tSmRvVFMwZVVIM3YyaHRkMV9vbjB2blo0UGhDX2ZPLVA2TUM4TjNTem15Y1pYMnJuS2w4akFuTl9CbTUySmRvdFprUVdzZVBEaE9XRV92WjlfNjJjYjJUV2RnazdWck5SdGlR?oc=5"
       },
       {
-        "title": "美联储加息预期与AI避险共振，美元狂飙周线四连阳至19个月高位_外汇动态报道",
-        "source": "Fx678",
-        "published": "Sat, 21 Nov 2026 03:21:05 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHdHd0TE03V3c1TUFmY0xWTlgyUUtBOVVkYUVndWlabVkyY2tRb2xhcFUyc0hTOV9mbkZRb1JzRHJ2S1o3ekIxUkVIelAyVG1Hd29xQTJ6bGVCUQ?oc=5"
+        "title": "抄底还是再等等？黄金加速下跌，机构分歧加剧",
+        "source": "证券之星",
+        "published": "Sat, 21 Nov 2026 00:31:21 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE51dmJJVm9YS3VRZ2YzZjFMYXU0bW1zTVRCb0NlTW03SktCRnJOa3lBSm5UZ3NFa0dpUnFVS3J4MDR3WGVKYUk3R2U4bml2RHFNNG9XcHRpQWpxbFRid2RVZkhB?oc=5"
+      },
+      {
+        "title": "每日财经早餐 2026年11月20日：荷兰合作银行关注美联储加息预期定价，欧洲央行桑托斯·佩雷拉警示通胀风险",
+        "source": "www.tmgm.com",
+        "published": "Sat, 21 Nov 2026 00:35:44 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGdJTGEwMWdpeVE5dWNja21HTXFqNVFjczJuTDVoS19BUmxCdlhRYWt6OENBYVVVeG5qQTIxNWJXWnlaUFB4alNtcHFVMkwzWkhpZUNUaE1WTVVSTXd3dEkwN0wxcDVYZWVFQTRKWDFBQlN6czJYQnFrRjRXeUdUZEhYaw?oc=5"
       },
       {
         "title": "全球市场“黑色星期五”！美股集体崩跌、黄金直逼3500、比特币失守58000美元！华尔街大佬发出可怕警告",
@@ -291,25 +303,53 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBseGxMTUU0VXJmNzhPdFhfc2RSa2p6YlRGMVpnTmFlVHYwekk0NTFGOWJDdFg4bVlOd1FWTUxjTDU4Tk9HWkp4QVRQQUZ6czQtY045ZF9kd1VETTBqNXAxSg?oc=5"
       },
       {
-        "title": "抄底还是再等等？黄金加速下跌，机构分歧加剧",
-        "source": "凤凰网财经",
-        "published": "Fri, 20 Nov 2026 12:20:26 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LRkd6bFBYUVNrM1hUWkhNMlJpbExYOUJRaWhod3dpenFLTU5QWkVyTTU2c0ZfYzA2ZjRXazZBeGd1QTlOS2c4T2VURHRoclRw?oc=5"
-      },
-      {
-        "title": "标普距风控减仓仅差一个收盘! 全球科技股暴跌之际，花旗高喊“还没到抄底时刻”",
+        "title": "美联储加息预期与AI避险共振，美元狂飙周线四连阳至19个月高位",
         "source": "富途牛牛",
-        "published": "Fri, 20 Nov 2026 12:53:15 GMT",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaFViQzEwX1BuaWRmeFZTX3JSb2pVaVEwODcxeFFrSFo0Q0RMSVJ6d0prY2VLNWpXN0Ffd0pOT3RvQS1KSUtDQ196NEc2bXIyMzdmMS1ISUE2ZUNyVVlpc2RpR3hJX1JvbzYzREd3MHMxTV8tVTVXdFE5dnVQUzNSeFNaVEhGeGVZYmxiSlBR?oc=5"
-      },
-      {
-        "title": "每日财经早餐 2026年11月20日：荷兰合作银行关注美联储加息预期定价，欧洲央行桑托斯·佩雷拉警示通胀风险",
-        "source": "www.tmgm.com",
-        "published": "Sat, 21 Nov 2026 00:35:44 GMT",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGdJTGEwMWdpeVE5dWNja21HTXFqNVFjczJuTDVoS19BUmxCdlhRYWt6OENBYVVVeG5qQTIxNWJXWnlaUFB4alNtcHFVMkwzWkhpZUNUaE1WTVVSTXd3dEkwN0wxcDVYZWVFQTRKWDFBQlN6czJYQnFrRjRXeUdUZEhYaw?oc=5"
+        "published": "Sat, 21 Nov 2026 06:30:19 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNll5T0NaaUx3NC1jRFJKRVZRT2dPUUlCQk15SGw2NFljdTV5MUMtT1FqZERfTFh0anc3VXZod2JRR19kWFh1cDZDS1lVeUJ1enAyc0txQm9sbGRubllRcXpQSy15RnA2MzJYVmlGMk8yMy1XQW9tZlhYVWpMUWU3QU8zNmhjemt0aEdrWmV6WktMV0p0ZXMzc0hmLS1xR2JYNE1Xcw?oc=5"
       }
     ],
     "events": [
+      {
+        "key": "commodities",
+        "label": "商品与成本",
+        "headline_count": 4,
+        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+        "watch": [
+          {
+            "code": "WTI",
+            "label": "原油",
+            "value": "83.66 / +1.48%",
+            "state": "fresh"
+          },
+          {
+            "code": "GOLD",
+            "label": "黄金",
+            "value": "3,535.39 / -4.07%",
+            "state": "fresh"
+          },
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          }
+        ],
+        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+        "headlines": [
+          {
+            "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+            "source": "第一财经",
+            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84dXFpeWNOX2t0ZTZBek5PNjRvLTVGTE03UGx6SWZSdnNKd245cVZLem9PdklTQmJDVDl0d08xSVphRXYzMk9MR2ptSng3eW04TFd3?oc=5"
+          },
+          {
+            "title": "抄底还是再等等？黄金加速下跌，机构分歧加剧",
+            "source": "证券之星",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE51dmJJVm9YS3VRZ2YzZjFMYXU0bW1zTVRCb0NlTW03SktCRnJOa3lBSm5UZ3NFa0dpUnFVS3J4MDR3WGVKYUk3R2U4bml2RHFNNG9XcHRpQWpxbFRid2RVZkhB?oc=5"
+          }
+        ]
+      },
       {
         "key": "central_bank",
         "label": "央行与利率",
@@ -339,49 +379,9 @@
         "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
         "headlines": [
           {
-            "title": "美联储加息预期与AI避险共振，美元狂飙周线四连阳至19个月高位_外汇动态报道",
-            "source": "Fx678",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHdHd0TE03V3c1TUFmY0xWTlgyUUtBOVVkYUVndWlabVkyY2tRb2xhcFUyc0hTOV9mbkZRb1JzRHJ2S1o3ekIxUkVIelAyVG1Hd29xQTJ6bGVCUQ?oc=5"
-          },
-          {
-            "title": "美联储加息预期“激流”未退黄金短期被“错杀”_市场评论",
-            "source": "证券之星",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBseGxMTUU0VXJmNzhPdFhfc2RSa2p6YlRGMVpnTmFlVHYwekk0NTFGOWJDdFg4bVlOd1FWTUxjTDU4Tk9HWkp4QVRQQUZ6czQtY045ZF9kd1VETTBqNXAxSg?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "commodities",
-        "label": "商品与成本",
-        "headline_count": 3,
-        "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-        "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-        "watch": [
-          {
-            "code": "WTI",
-            "label": "原油",
-            "value": "83.66 / +1.48%",
-            "state": "fresh"
-          },
-          {
-            "code": "GOLD",
-            "label": "黄金",
-            "value": "3,535.39 / -4.07%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-        "headlines": [
-          {
-            "title": "全球市场“黑色星期五”！美股集体崩跌、黄金直逼3500、比特币失守58000美元！华尔街大佬发出可怕警告",
-            "source": "FX168财经",
-            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUktxRWRXV0o1Y2d3akt6M0pIVVgzekQ0NnpYRS1jREtfMG9RZm4tcWtxVnVUbk5ObEZIeEZJeGNvMlFMVy1lLXdjaHR3akNaY2tFU2JhZ0JiWm5HcDNxd0JnUGt0RU5kejM3bDFWNVRjVFZfemRZRzRmcGF2eGhSRng3cm8?oc=5"
+            "title": "每日财经早餐 2026年11月20日：荷兰合作银行关注美联储加息预期定价，欧洲央行桑托斯·佩雷拉警示通胀风险",
+            "source": "www.tmgm.com",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGdJTGEwMWdpeVE5dWNja21HTXFqNVFjczJuTDVoS19BUmxCdlhRYWt6OENBYVVVeG5qQTIxNWJXWnlaUFB4alNtcHFVMkwzWkhpZUNUaE1WTVVSTXd3dEkwN0wxcDVYZWVFQTRKWDFBQlN6czJYQnFrRjRXeUdUZEhYaw?oc=5"
           },
           {
             "title": "美联储加息预期“激流”未退黄金短期被“错杀”_市场评论",
@@ -419,14 +419,14 @@
         "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
         "headlines": [
           {
-            "title": "美联储加息预期与AI避险共振，美元狂飙周线四连阳至19个月高位_外汇动态报道",
-            "source": "Fx678",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHdHd0TE03V3c1TUFmY0xWTlgyUUtBOVVkYUVndWlabVkyY2tRb2xhcFUyc0hTOV9mbkZRb1JzRHJ2S1o3ekIxUkVIelAyVG1Hd29xQTJ6bGVCUQ?oc=5"
-          },
-          {
             "title": "全球市场“黑色星期五”！美股集体崩跌、黄金直逼3500、比特币失守58000美元！华尔街大佬发出可怕警告",
             "source": "FX168财经",
             "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUktxRWRXV0o1Y2d3akt6M0pIVVgzekQ0NnpYRS1jREtfMG9RZm4tcWtxVnVUbk5ObEZIeEZJeGNvMlFMVy1lLXdjaHR3akNaY2tFU2JhZ0JiWm5HcDNxd0JnUGt0RU5kejM3bDFWNVRjVFZfemRZRzRmcGF2eGhSRng3cm8?oc=5"
+          },
+          {
+            "title": "美联储加息预期与AI避险共振，美元狂飙周线四连阳至19个月高位",
+            "source": "富途牛牛",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNll5T0NaaUx3NC1jRFJKRVZRT2dPUUlCQk15SGw2NFljdTV5MUMtT1FqZERfTFh0anc3VXZod2JRR19kWFh1cDZDS1lVeUJ1enAyc0txQm9sbGRubllRcXpQSy15RnA2MzJYVmlGMk8yMy1XQW9tZlhYVWpMUWU3QU8zNmhjemt0aEdrWmV6WktMV0p0ZXMzc0hmLS1xR2JYNE1Xcw?oc=5"
           }
         ]
       },
@@ -464,41 +464,6 @@
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSGdJTGEwMWdpeVE5dWNja21HTXFqNVFjczJuTDVoS19BUmxCdlhRYWt6OENBYVVVeG5qQTIxNWJXWnlaUFB4alNtcHFVMkwzWkhpZUNUaE1WTVVSTXd3dEkwN0wxcDVYZWVFQTRKWDFBQlN6czJYQnFrRjRXeUdUZEhYaw?oc=5"
           }
         ]
-      },
-      {
-        "key": "technology",
-        "label": "科技与产业",
-        "headline_count": 1,
-        "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-        "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-        "watch": [
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "22,617.73 / -5.28%",
-            "state": "fresh"
-          },
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "12,515.30 / -0.85%",
-            "state": "fresh"
-          },
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          }
-        ],
-        "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-        "headlines": [
-          {
-            "title": "标普距风控减仓仅差一个收盘! 全球科技股暴跌之际，花旗高喊“还没到抄底时刻”",
-            "source": "富途牛牛",
-            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaFViQzEwX1BuaWRmeFZTX3JSb2pVaVEwODcxeFFrSFo0Q0RMSVJ6d0prY2VLNWpXN0Ffd0pOT3RvQS1KSUtDQ196NEc2bXIyMzdmMS1ISUE2ZUNyVVlpc2RpR3hJX1JvbzYzREd3MHMxTV8tVTVXdFE5dnVQUzNSeFNaVEhGeGVZYmxiSlBR?oc=5"
-          }
-        ]
       }
     ],
     "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
@@ -506,11 +471,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-21 19:39",
+    "generated_at": "2026-11-21 23:17",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 315,
+    "signal_count": 316,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -547,14 +512,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-21 19:39",
-      "slot": "midday",
+      "captured_at": "2026-11-21 23:17",
+      "slot": "close",
       "score": "-53",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-21 23:17",
+        "slot": "close",
+        "signal_date": "2026-11-21",
+        "market_asof_date": "2026-11-20",
+        "score": "-53",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-2.2906",
+        "a50_pct": "-0.8532044680345408",
+        "usdcnh": "6.6737",
+        "usdcnh_pct": "-0.28836097415209094",
+        "dxy": "103.8404",
+        "dxy_pct": "-0.11245001553522593",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-21 19:39",
         "slot": "midday",
@@ -1021,31 +1011,6 @@
         "usdcnh_pct": "0.02250663945864151",
         "dxy": "103.4887",
         "dxy_pct": "-0.09383516482455168",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": null,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": null
-      },
-      {
-        "captured_at": "2026-11-18 00:51",
-        "slot": "close",
-        "signal_date": "2026-11-18",
-        "market_asof_date": "2026-11-17",
-        "score": "-38",
-        "stance": "防守优先",
-        "confidence": "中",
-        "sh_close": "3634.35",
-        "sh_pct": "-0.59",
-        "global_avg": "-0.9323",
-        "a50_pct": "-0.3423629758331992",
-        "usdcnh": "6.6655",
-        "usdcnh_pct": "0.012003541044602883",
-        "dxy": "103.4311",
-        "dxy_pct": "-0.149441188424293",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
