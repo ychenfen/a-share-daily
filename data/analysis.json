@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22 19:53",
+  "generated_at": "2026-11-22 23:14",
   "score": -47,
   "stance": "防守优先",
   "color": "#08783e",
@@ -78,13 +78,55 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXpaaEZnRWJNZGl3TGw0bU9NZWhnQjBaMTlKalU4VFh2S3QzbDBLWDNGbVhGVzNfZlI3dzh6anlKMTF4UkJrV0pvaUs1cTB0UG1sYS0xNmpydFo0TllYWEthd1hUZExSZ3FPbFNibDlYVVlTdnpJd3NjbnFWak0zRFd3TmV1RGlN?oc=5"
     },
     {
+      "title": "【BT财报瞬析】单周跌8．9％连破三关口：黄金为何集体失灵_公司新闻",
+      "source": "证券之星",
+      "published": "Sun, 22 Nov 2026 07:28:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWkswRm5VQUN6YUU4c3duNFBFY25Nck5fVHhrOXFBOVplWVdLcUVlNk13ZnpaWGZ3UHlaOF9LaFFiSzVjbUNPVXpJaG8wUGRxNGFiNEd3QTFmZ1Z6NE52QQ?oc=5"
+    },
+    {
       "title": "美股两次暴跌，资本在重估什么_财经_全球_新闻",
       "source": "华人头条",
       "published": "Sun, 22 Nov 2026 01:24:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XbnRiR2R3T1k4OGRpODJHQllJLVZ5b25raXdlSGdVb1ZCdDR2c0lSWms0ZVRibWtlc1pybExsMWdkeUh2Rm9FY2k3bVVvdzRISGJvTFpNRjVqc0hvRXc?oc=5"
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 1,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "83.66 / +1.48%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "3,535.39 / -4.07%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "【BT财报瞬析】单周跌8．9％连破三关口：黄金为何集体失灵_公司新闻",
+          "source": "证券之星",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWkswRm5VQUN6YUU4c3duNFBFY25Nck5fVHhrOXFBOVplWVdLcUVlNk13ZnpaWGZ3UHlaOF9LaFFiSzVjbUNPVXpJaG8wUGRxNGFiNEd3QTFmZ1Z6NE52QQ?oc=5"
+        }
+      ]
+    }
+  ],
   "methodology": "透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。",
   "disclaimer": "仅用于市场研究与风险观察，不构成个性化投资建议或收益承诺。"
 }
