@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22 23:14",
+  "generated_at": "2026-11-23 03:49",
   "markets": [
     {
       "code": "SPX",
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.6737,
-      "pct": -0.28836097415209094,
-      "change": -0.01929999999999943,
-      "previous_close": 6.693,
-      "quote_time": "2026-11-21 05:59:59",
+      "close": 6.6747,
+      "pct": 0.001498217121631562,
+      "change": 9.999999999976694e-05,
+      "previous_close": 6.6746,
+      "quote_time": "2026-11-23 03:44:19",
       "stale": false
     },
     {
