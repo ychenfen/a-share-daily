@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23 10:43",
-  "score": -45,
+  "generated_at": "2026-11-23 18:35",
+  "score": -41,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -2.22%",
-      "contribution": -15.5,
+      "value": "6 个市场均值 -2.00%",
+      "contribution": -14.0,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.30%",
-      "contribution": -1.8,
+      "value": "富时 A50 -0.06%",
+      "contribution": -0.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6770 (+0.04%) / DXY 103.72 (-0.07%)",
-      "contribution": -0.1,
+      "value": "USD/CNH 6.6664 (-0.12%) / DXY 103.83 (+0.03%)",
+      "contribution": 1.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,57 +72,98 @@
   },
   "news": [
     {
+      "title": "全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察",
+      "source": "手机新浪网",
+      "published": "Mon, 23 Nov 2026 08:15:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5"
+    },
+    {
+      "title": "海外市场波动加剧，全球大类资产配置如何应对？",
+      "source": "Sohu",
+      "published": "Mon, 23 Nov 2026 10:23:25 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVFsaHB1S3JvQmY3M0ZZeHI4M2swZDAxMEViRWY0d2IyR2FnQ1pYVTQ2ajZTcFBIaVYtb3dPUDVUeUVHcEVRZU5naWRJaDZ6dFZzNVRwcG9WM3hpT3RNOTc3YThqSV84THA1dmYza09QVlExZXFhcGRMcGllTHUwSTNQdUE0SFVkeF9ELQ?oc=5"
+    },
+    {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
       "published": "Sun, 22 Nov 2026 19:05:23 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
     },
     {
-      "title": "下周外盘看点丨美国PCE是否震动市场，欧美11月PMI成经济风向标",
-      "source": "Sohu",
-      "published": "Sun, 22 Nov 2026 06:23:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXpaaEZnRWJNZGl3TGw0bU9NZWhnQjBaMTlKalU4VFh2S3QzbDBLWDNGbVhGVzNfZlI3dzh6anlKMTF4UkJrV0pvaUs1cTB0UG1sYS0xNmpydFo0TllYWEthd1hUZExSZ3FPbFNibDlYVVlTdnpJd3NjbnFWak0zRFd3TmV1RGlN?oc=5"
-    },
-    {
-      "title": "【BT财报瞬析】单周跌8．9％连破三关口：黄金为何集体失灵_公司新闻",
+      "title": "全球经济观察2026年第40期：美联储密集放鹰_宏观研究_研报",
       "source": "证券之星",
-      "published": "Sun, 22 Nov 2026 07:28:42 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWkswRm5VQUN6YUU4c3duNFBFY25Nck5fVHhrOXFBOVplWVdLcUVlNk13ZnpaWGZ3UHlaOF9LaFFiSzVjbUNPVXpJaG8wUGRxNGFiNEd3QTFmZ1Z6NE52QQ?oc=5"
+      "published": "Sun, 22 Nov 2026 12:17:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Bd0RPQS1iWGlyMGRub1NPalhCa29YM3FERjdlNlRtdmNhUGZVUm5RNzk1a1BLeEZISXJUeXQ0UVduZnNrNzRtVTI5Sm1kQVh3alB2ZHBiUVFsYnRfbFgxR053?oc=5"
     }
   ],
   "events": [
     {
-      "key": "commodities",
-      "label": "商品与成本",
+      "key": "central_bank",
+      "label": "央行与利率",
       "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "82.91 / -0.60%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,575.94 / +1.72%",
-          "state": "fresh"
-        },
         {
           "code": "US10Y",
           "label": "美债10Y",
           "value": "4.94%",
           "state": "stale"
+        },
+        {
+          "code": "DXY",
+          "label": "美元指数",
+          "value": "103.83 / +0.03%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6664 / -0.12%",
+          "state": "fresh"
         }
       ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "【BT财报瞬析】单周跌8．9％连破三关口：黄金为何集体失灵_公司新闻",
+          "title": "全球经济观察2026年第40期：美联储密集放鹰_宏观研究_研报",
           "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWkswRm5VQUN6YUU4c3duNFBFY25Nck5fVHhrOXFBOVplWVdLcUVlNk13ZnpaWGZ3UHlaOF9LaFFiSzVjbUNPVXpJaG8wUGRxNGFiNEd3QTFmZ1Z6NE52QQ?oc=5"
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Bd0RPQS1iWGlyMGRub1NPalhCa29YM3FERjdlNlRtdmNhUGZVUm5RNzk1a1BLeEZISXJUeXQ0UVduZnNrNzRtVTI5Sm1kQVh3alB2ZHBiUVFsYnRfbFgxR053?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "domestic_policy",
+      "label": "国内政策与需求",
+      "headline_count": 1,
+      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
+      "a_share_lens": "金融地产、基建、消费与顺周期方向",
+      "watch": [
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,640.90 / -0.06%",
+          "state": "fresh"
+        },
+        {
+          "code": "HSI",
+          "label": "恒生指数",
+          "value": "22,383.74 / -0.12%",
+          "state": "fresh"
+        },
+        {
+          "code": "USDCNH",
+          "label": "USD/CNH",
+          "value": "6.6664 / -0.12%",
+          "state": "fresh"
+        }
+      ],
+      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
+      "headlines": [
+        {
+          "title": "全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察",
+          "source": "手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5"
         }
       ]
     }
