@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23 18:35",
-  "score": -41,
+  "generated_at": "2026-11-23 21:33",
+  "score": -48,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.06%",
+      "value": "富时 A50 -0.05%",
       "contribution": -0.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6664 (-0.12%) / DXY 103.83 (+0.03%)",
-      "contribution": 1.3,
+      "value": "USD/CNH 6.6687 (-0.09%) / DXY 104.06 (+0.26%)",
+      "contribution": -0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
-      "contribution": 0,
+      "value": "正向词 0 / 风险词 3",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,15 +67,15 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 0,
-    "score": 0
+    "negative_hits": 3,
+    "score": -6
   },
   "news": [
     {
-      "title": "全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察",
-      "source": "手机新浪网",
-      "published": "Mon, 23 Nov 2026 08:15:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5"
+      "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
+      "source": "财联社",
+      "published": "Mon, 23 Nov 2026 06:23:20 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
     },
     {
       "title": "海外市场波动加剧，全球大类资产配置如何应对？",
@@ -84,23 +84,29 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVFsaHB1S3JvQmY3M0ZZeHI4M2swZDAxMEViRWY0d2IyR2FnQ1pYVTQ2ajZTcFBIaVYtb3dPUDVUeUVHcEVRZU5naWRJaDZ6dFZzNVRwcG9WM3hpT3RNOTc3YThqSV84THA1dmYza09QVlExZXFhcGRMcGllTHUwSTNQdUE0SFVkeF9ELQ?oc=5"
     },
     {
-      "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
-      "source": "财联社",
-      "published": "Sun, 22 Nov 2026 19:05:23 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
+      "title": "全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察",
+      "source": "手机新浪网",
+      "published": "Mon, 23 Nov 2026 08:15:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5"
     },
     {
-      "title": "全球经济观察2026年第40期：美联储密集放鹰_宏观研究_研报",
-      "source": "证券之星",
-      "published": "Sun, 22 Nov 2026 12:17:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Bd0RPQS1iWGlyMGRub1NPalhCa29YM3FERjdlNlRtdmNhUGZVUm5RNzk1a1BLeEZISXJUeXQ0UVduZnNrNzRtVTI5Sm1kQVh3alB2ZHBiUVFsYnRfbFgxR053?oc=5"
+      "title": "管涛：日本央行买卖ETF对股市影响不宜高估",
+      "source": "大河财立方",
+      "published": "Sun, 22 Nov 2026 23:58:55 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLVNsTHJXZGNfWGZqOWZXY0xPNXhPQ2VrNG5yMVhXcnJQRjhNZXN1UXFFM2RJenRmdWtQXzJ1R1U3X2MwUUJfOGpiN2xubnZQZkJzOXlmQnpjV05qTVNTNXpPX2J2SnpwNWc?oc=5"
+    },
+    {
+      "title": "美银警告：美股下跌或迫使美联储提前结束加息",
+      "source": "深潮TechFlow",
+      "published": "Mon, 23 Nov 2026 13:04:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWnRwRWhfVHFLYm5IOUxqSjg1NE42ZFB3dkJWaVN3Szhxbk85eVRrRWRfMUwzT1dpNTVuNV9DekRNNFhOWW9PdVJyTzF4REl2aWpDa0ZVNHdNcFowR1dLVDhKMFNpQ3lNdTc0RlJLbFNlMHNyV3ZveTU0VlhnSUozNjJJVVJlMUYzNVlNVnZBWG5UVkxVcE0yNEJmQUVBdm4yUmg2ajNQRVhyTk5VLUpQN2tFRlVPUkR4Q3FB?oc=5"
     }
   ],
   "events": [
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -113,22 +119,27 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.83 / +0.03%",
+          "value": "104.06 / +0.26%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6664 / -0.12%",
+          "value": "6.6687 / -0.09%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "全球经济观察2026年第40期：美联储密集放鹰_宏观研究_研报",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Bd0RPQS1iWGlyMGRub1NPalhCa29YM3FERjdlNlRtdmNhUGZVUm5RNzk1a1BLeEZISXJUeXQ0UVduZnNrNzRtVTI5Sm1kQVh3alB2ZHBiUVFsYnRfbFgxR053?oc=5"
+          "title": "管涛：日本央行买卖ETF对股市影响不宜高估",
+          "source": "大河财立方",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLVNsTHJXZGNfWGZqOWZXY0xPNXhPQ2VrNG5yMVhXcnJQRjhNZXN1UXFFM2RJenRmdWtQXzJ1R1U3X2MwUUJfOGpiN2xubnZQZkJzOXlmQnpjV05qTVNTNXpPX2J2SnpwNWc?oc=5"
+        },
+        {
+          "title": "美银警告：美股下跌或迫使美联储提前结束加息",
+          "source": "深潮TechFlow",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWnRwRWhfVHFLYm5IOUxqSjg1NE42ZFB3dkJWaVN3Szhxbk85eVRrRWRfMUwzT1dpNTVuNV9DekRNNFhOWW9PdVJyTzF4REl2aWpDa0ZVNHdNcFowR1dLVDhKMFNpQ3lNdTc0RlJLbFNlMHNyV3ZveTU0VlhnSUozNjJJVVJlMUYzNVlNVnZBWG5UVkxVcE0yNEJmQUVBdm4yUmg2ajNQRVhyTk5VLUpQN2tFRlVPUkR4Q3FB?oc=5"
         }
       ]
     },
@@ -142,7 +153,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,640.90 / -0.06%",
+          "value": "12,642.04 / -0.05%",
           "state": "fresh"
         },
         {
@@ -154,7 +165,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6664 / -0.12%",
+          "value": "6.6687 / -0.09%",
           "state": "fresh"
         }
       ],
