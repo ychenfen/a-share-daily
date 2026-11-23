@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **🟢 盘中** · 午间脉搏已更新 · 最后检查 `2026-11-23 21:33`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-23 · 最后检查 `2026-11-24 03:11`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,16 +48,16 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -48 · 防守优先**（置信度：中）
-> 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
+> **风险温度 -3 · 中性等待**（置信度：中）
+> 多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
 | --- | --- | ---: | ---: |
-| 标普 500 | 美国 | 6910.39 | -3.70% |
-| 纳斯达克 | 美国 | 22617.73 | -5.28% |
-| 道琼斯 | 美国 | 48147.33 | -1.93% |
+| 标普 500 | 美国 | 7243.13 | +4.82% |
+| 纳斯达克 | 美国 | 24103.91 | +6.57% |
+| 道琼斯 | 美国 | 49684.23 | +3.19% |
 | 恒生指数 | 中国香港 | 22383.74 | -0.12% |
-| 欧洲股票 ETF | 欧洲（美股代理） | 82.61 | -2.32% |
+| 欧洲股票 ETF | 欧洲（美股代理） | 84.46 | +2.23% |
 | 日经 225 | 日本 | 65018.95 | +1.38% |
 
 ### 跨资产先行带
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 12,642.04 | -0.05% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6687 | -0.09% | 最新 |
-| 美元指数 | 低权重计分 | 104.06 | +0.26% | 最新 |
-| COMEX 黄金 | 背景观察 | 3,623.39 | +3.07% | 最新 |
-| WTI 原油 | 背景观察 | 81.61 | -2.16% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 12,781.76 | +1.06% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6672 | -0.11% | 最新 |
+| 美元指数 | 低权重计分 | 104.41 | +0.59% | 最新 |
+| COMEX 黄金 | 背景观察 | 3,657.00 | +4.03% | 最新 |
+| WTI 原油 | 背景观察 | 80.33 | -3.70% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -81,12 +81,12 @@
 | A股动量 | 上证 -0.59% | -4.7 | 反映本地市场价格强弱 |
 | 市场宽度 | 涨 776 / 跌 4805 | -14.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 37 / 跌停 33 / 炸板率 36.2% | -3.9 | 涨停扩散加分，炸板率过高扣分 |
-| 外围股市 | 6 个市场均值 -2.00% | -14.0 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.05% | -0.3 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6687 (-0.09%) / DXY 104.06 (+0.26%) | -0.2 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| 外围股市 | 6 个市场均值 +3.01% | +20.0 | 衡量隔夜风险偏好共振 |
+| A50 先行 | 富时 A50 +1.06% | +6.3 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6672 (-0.11%) / DXY 104.41 (+0.59%) | -1.6 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
-| 新闻语气 | 正向词 0 / 风险词 3 | -6.0 | 标题关键词只做低权重提示，不代替事实核验 |
+| 新闻语气 | 正向词 0 / 风险词 0 | +0.0 | 标题关键词只做低权重提示，不代替事实核验 |
 
 ### 事件传导链
 
@@ -94,20 +94,18 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 央行与利率（2 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 104.06 / +0.26%（最新） / USD/CNH 6.6687 / -0.09%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
-| 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 12,642.04 / -0.05%（最新） / 恒生指数 22,383.74 / -0.12%（最新） / USD/CNH 6.6687 / -0.09%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
+| 央行与利率（1 条） | 政策利率预期 → 美债收益率与美元 → 全球流动性 | 高估值成长、券商、地产与人民币敏感资产 | 美债10Y 4.94%（最近有效值） / 美元指数 104.41 / +0.59%（最新） / USD/CNH 6.6672 / -0.11%（最新） | 失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。 |
+| 国内政策与需求（1 条） | 国内政策预期 → 信用与需求 → 盈利修复和风险溢价 | 金融地产、基建、消费与顺周期方向 | 富时A50 12,781.76 / +1.06%（最新） / 恒生指数 22,383.74 / -0.12%（最新） / USD/CNH 6.6672 / -0.11%（最新） | 失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。 |
 
 ### 研究观察
 
-- 研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。
+- 减少方向性预判，优先记录关键阈值被突破后的跟随信号。
 
 ### 新闻雷达
 
-- [胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% \| 环球市场](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5) · 财联社
-- [海外市场波动加剧，全球大类资产配置如何应对？](https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVFsaHB1S3JvQmY3M0ZZeHI4M2swZDAxMEViRWY0d2IyR2FnQ1pYVTQ2ajZTcFBIaVYtb3dPUDVUeUVHcEVRZU5naWRJaDZ6dFZzNVRwcG9WM3hpT3RNOTc3YThqSV84THA1dmYza09QVlExZXFhcGRMcGllTHUwSTNQdUE0SFVkeF9ELQ?oc=5) · Sohu
 - [全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察](https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5) · 手机新浪网
+- [海外市场波动加剧，全球大类资产配置如何应对？](https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVFsaHB1S3JvQmY3M0ZZeHI4M2swZDAxMEViRWY0d2IyR2FnQ1pYVTQ2ajZTcFBIaVYtb3dPUDVUeUVHcEVRZU5naWRJaDZ6dFZzNVRwcG9WM3hpT3RNOTc3YThqSV84THA1dmYza09QVlExZXFhcGRMcGllTHUwSTNQdUE0SFVkeF9ELQ?oc=5) · Sohu
 - [管涛：日本央行买卖ETF对股市影响不宜高估](https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLVNsTHJXZGNfWGZqOWZXY0xPNXhPQ2VrNG5yMVhXcnJQRjhNZXN1UXFFM2RJenRmdWtQXzJ1R1U3X2MwUUJfOGpiN2xubnZQZkJzOXlmQnpjV05qTVNTNXpPX2J2SnpwNWc?oc=5) · 大河财立方
-- [美银警告：美股下跌或迫使美联储提前结束加息](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWnRwRWhfVHFLYm5IOUxqSjg1NE42ZFB3dkJWaVN3Szhxbk85eVRrRWRfMUwzT1dpNTVuNV9DekRNNFhOWW9PdVJyTzF4REl2aWpDa0ZVNHdNcFowR1dLVDhKMFNpQ3lNdTc0RlJLbFNlMHNyV3ZveTU0VlhnSUozNjJJVVJlMUYzNVlNVnZBWG5UVkxVcE0yNEJmQUVBdm4yUmg2ajNQRVhyTk5VLUpQN2tFRlVPUkR4Q3FB?oc=5) · 深潮TechFlow
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 
