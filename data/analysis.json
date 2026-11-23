@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23 03:49",
-  "score": -51,
+  "generated_at": "2026-11-23 10:43",
+  "score": -45,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -2.29%",
-      "contribution": -16.0,
+      "value": "6 个市场均值 -2.22%",
+      "contribution": -15.5,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.85%",
-      "contribution": -5.1,
+      "value": "富时 A50 -0.30%",
+      "contribution": -1.8,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6747 (+0.00%) / DXY 103.84 (-0.11%)",
-      "contribution": 0.5,
+      "value": "USD/CNH 6.6770 (+0.04%) / DXY 103.72 (-0.07%)",
+      "contribution": -0.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 1 / 风险词 2",
-      "contribution": -2,
+      "value": "正向词 0 / 风险词 0",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,15 +66,15 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 1,
-    "negative_hits": 2,
-    "score": -2
+    "positive_hits": 0,
+    "negative_hits": 0,
+    "score": 0
   },
   "news": [
     {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
-      "published": "Sun, 22 Nov 2026 06:46:27 GMT",
+      "published": "Sun, 22 Nov 2026 19:05:23 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
     },
     {
@@ -88,84 +88,26 @@
       "source": "证券之星",
       "published": "Sun, 22 Nov 2026 07:28:42 GMT",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWkswRm5VQUN6YUU4c3duNFBFY25Nck5fVHhrOXFBOVplWVdLcUVlNk13ZnpaWGZ3UHlaOF9LaFFiSzVjbUNPVXpJaG8wUGRxNGFiNEd3QTFmZ1Z6NE52QQ?oc=5"
-    },
-    {
-      "title": "【美股盘前】市场关注沃什讲话，光通信与存储股普跌，PayPal暴跌超16%，迈威尔科技跌超8%",
-      "source": "TradingKey",
-      "published": "Sun, 22 Nov 2026 00:55:12 GMT",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUXd5M1BIM2FnUHBla2RYWmZKVHpIRWpXWUpDZkMzVFJRWkgtb2xyVHFnOGZlQjhtTGQ2TXlwQzFnWF85MnQwZGpBRXZtcWUzM2pDdTA4dG9nWTlvbGVnVl9nVWg2NWFGcHZSWFFza3V5SjNVaGNObEJMQlM5SWRsWGZPdGtxMEZZX0J3TG03bXIxdTdCZjNKbTZxaTh6c1d0UG5kOFlUVnNhYTJId1RULXQ1N29yMzdYWU5NMlRfQ3VGMl81MGc?oc=5"
-    },
-    {
-      "title": "美股两次暴跌，资本在重估什么_财经_全球_新闻",
-      "source": "华人头条",
-      "published": "Sun, 22 Nov 2026 01:24:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XbnRiR2R3T1k4OGRpODJHQllJLVZ5b25raXdlSGdVb1ZCdDR2c0lSWms0ZVRibWtlc1pybExsMWdkeUh2Rm9FY2k3bVVvdzRISGJvTFpNRjVqc0hvRXc?oc=5"
-    },
-    {
-      "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
-      "source": "TradingKey",
-      "published": "Sun, 22 Nov 2026 03:57:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
     }
   ],
   "events": [
     {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 2,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "22,617.73 / -5.28%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,515.30 / -0.85%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "【美股盘前】市场关注沃什讲话，光通信与存储股普跌，PayPal暴跌超16%，迈威尔科技跌超8%",
-          "source": "TradingKey",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUXd5M1BIM2FnUHBla2RYWmZKVHpIRWpXWUpDZkMzVFJRWkgtb2xyVHFnOGZlQjhtTGQ2TXlwQzFnWF85MnQwZGpBRXZtcWUzM2pDdTA4dG9nWTlvbGVnVl9nVWg2NWFGcHZSWFFza3V5SjNVaGNObEJMQlM5SWRsWGZPdGtxMEZZX0J3TG03bXIxdTdCZjNKbTZxaTh6c1d0UG5kOFlUVnNhYTJId1RULXQ1N29yMzdYWU5NMlRfQ3VGMl81MGc?oc=5"
-        },
-        {
-          "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
-          "source": "TradingKey",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
-        }
-      ]
-    },
-    {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "83.66 / +1.48%",
+          "value": "82.91 / -0.60%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,535.39 / -4.07%",
+          "value": "3,575.94 / +1.72%",
           "state": "fresh"
         },
         {
@@ -181,11 +123,6 @@
           "title": "【BT财报瞬析】单周跌8．9％连破三关口：黄金为何集体失灵_公司新闻",
           "source": "证券之星",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWkswRm5VQUN6YUU4c3duNFBFY25Nck5fVHhrOXFBOVplWVdLcUVlNk13ZnpaWGZ3UHlaOF9LaFFiSzVjbUNPVXpJaG8wUGRxNGFiNEd3QTFmZ1Z6NE52QQ?oc=5"
-        },
-        {
-          "title": "【美股盘前】三巫日来袭，美股期指涨跌不一，光通信、存储及加密股普涨，WTI原油大跌超5%",
-          "source": "TradingKey",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUV9iTW9OemtHZzBTNWV5NndJSS1oWmk4NFM5SFZaSUtQdmZYXzFOem10Nnc4VzREei1tTlR0cDhnTGk5OVJRb040Q2dkd1hjcnFTXzZTRDBaQmZqZGxFeFZFMVMyWG5ESVItNlZtSmRzbjcwS0c5V1pqd0Jia0diOExmdGFyNDQyUml1dGhNaXBRUzI2VVNyQmFn?oc=5"
         }
       ]
     }
