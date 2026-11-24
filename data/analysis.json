@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24 14:00",
-  "score": 1,
-  "stance": "中性等待",
-  "color": "#8c959f",
+  "generated_at": "2026-11-24 20:19",
+  "score": -5,
+  "stance": "谨慎防守",
+  "color": "#3b9b68",
   "confidence": "中",
-  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
+  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +2.93%",
+      "value": "6 个市场均值 +2.87%",
       "contribution": 20,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +1.31%",
-      "contribution": 7.8,
+      "value": "富时 A50 -0.27%",
+      "contribution": -1.6,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6615 (-0.07%) / DXY 104.31 (-0.03%)",
-      "contribution": 1.0,
+      "value": "USD/CNH 6.6612 (-0.07%) / DXY 103.93 (-0.40%)",
+      "contribution": 2.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,18 +57,18 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 3 / 风险词 3",
-      "contribution": 0,
+      "value": "正向词 3 / 风险词 2",
+      "contribution": 2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
+    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
     "positive_hits": 3,
-    "negative_hits": 3,
-    "score": 0
+    "negative_hits": 2,
+    "score": 2
   },
   "news": [
     {
@@ -78,16 +78,22 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
     },
     {
+      "title": "亚太市场集体狂欢，金价连续反弹，韩股冲高熔断",
+      "source": "凤凰网财经",
+      "published": "Tue, 24 Nov 2026 03:25:40 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96M1BFVFgwb2c3aWdmcXpxZ1FiQWdoN0liU2NmRHp3N0JOT1FlNjV1a201a2hVdEM5WmtBemRjeGZiQkhvV2JXcldTaUNjdVpa?oc=5"
+    },
+    {
       "title": "金十数据全球财经早餐| 2026年11月24日-市场参考",
       "source": "金十数据",
       "published": "Tue, 24 Nov 2026 03:26:54 GMT",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HMXpRQzd3aHlOd1ZpbzNSbTFrNEJHbXpMdWtuaUhOd294RkhqdTRzZjZ0N0RvNVVZVXk4WlZldk5QQ0RVRHZseFBzdWZZZWM?oc=5"
     },
     {
-      "title": "黄仁勋回归提振亚太市场！金价连续反弹，韩股冲高熔断",
-      "source": "Sohu",
-      "published": "Tue, 24 Nov 2026 02:58:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTTdIcHFjNnhzdk5HZ0JHQ3JLMXF3dDBXRE5ESTlJWkEtZ1l1RTBiaVh2UHdaUkRMbVRIY185SmQ4R3gyN3FFS3lyc3NlZUlfYXlvQVlDcl9mV3AxRElON210Uk1lWWxHWklDUmtIUlZjNVl3VG5Td3NaQlhWMWo1bmx4R1RZTS1sN2ZZ?oc=5"
+      "title": "英伟达领涨股市提振风险偏好，日元走弱",
+      "source": "www.tmgm.com",
+      "published": "Mon, 23 Nov 2026 18:19:15 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObTJvLUZ1OVFGTC1SeEt2M2lGRXdRZVhfTmZGVWM3MndJWk5jU09rN29wR09GRm9IYVNzcmw3VEdHZ0lGZ1pDc3J6dUdKV0hCWmVOUnpGdUNWS1hSckFfeUcwTDNPU2pFbUlMZk02X1pnRGdqdmpLcUM0NURYODVkMXhnWlhFTy1XaW9JVklBcWZSNHlkTEJ5OXlnZC1tck4xSGhnb1FYVl9keHZmR1hZYkxtcF82MVRCbmFjdEt5TUlrOUF1UU90b1FobU55SHVzbU85Ng?oc=5"
     },
     {
       "title": "黄金反弹恐只是昙花一现！法国外贸银行警告：2027年1月金价或跌至3340美元",
@@ -96,22 +102,10 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoU2dfdXZia1pKd3BEY2lIQWtvNzFoZVhHc1hEMVFIaURLLTJRcUFsU3lZa01TV2VzbndXMTVidW9lbXp5RGFqMmdhZTZwY2JlWUhLUUR5QlZsNnU0?oc=5"
     },
     {
-      "title": "全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察",
-      "source": "手机新浪网",
-      "published": "Mon, 23 Nov 2026 08:15:11 GMT",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5"
-    },
-    {
-      "title": "海外市场波动加剧，全球大类资产配置如何应对？",
-      "source": "Sohu",
-      "published": "Mon, 23 Nov 2026 10:23:25 GMT",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVFsaHB1S3JvQmY3M0ZZeHI4M2swZDAxMEViRWY0d2IyR2FnQ1pYVTQ2ajZTcFBIaVYtb3dPUDVUeUVHcEVRZU5naWRJaDZ6dFZzNVRwcG9WM3hpT3RNOTc3YThqSV84THA1dmYza09QVlExZXFhcGRMcGllTHUwSTNQdUE0SFVkeF9ELQ?oc=5"
-    },
-    {
-      "title": "海外研选日报1123｜摩根大通：美联储或连续三次加息 市场低估紧缩风险",
-      "source": "手机网易网",
-      "published": "Mon, 23 Nov 2026 09:40:05 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XMk4yaU9xTW51THVMd0paV3c2R0lyQjdpQWpxSHlBTGljTzJneFEyMUExTmFjbUlxUl9wVWp1a1FzSWhLRGlleTZUWUQwZHgxczNVdFM0WlRSVEd0b2pYaHJR?oc=5"
+      "title": "历史反复重演，美联储总在滞后纠错？_股票_全球资讯",
+      "source": "币海NEWS",
+      "published": "Mon, 23 Nov 2026 17:09:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EQXV1NHJ2am9PQmlzU1M3MGNEMTRlMFRWUEtWeTFhYkdwT1MzOWNmM0dGdjJkRWpkdnJJbzVuY2kzSkpxc0xMTHIxM2tKQ0stMVppeTNVeGd2OHBadnNEQmV3Y2hXcE5G?oc=5"
     }
   ],
   "events": [
@@ -131,22 +125,57 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "104.31 / -0.03%",
+          "value": "103.93 / -0.40%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6615 / -0.07%",
+          "value": "6.6612 / -0.07%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "海外研选日报1123｜摩根大通：美联储或连续三次加息 市场低估紧缩风险",
-          "source": "手机网易网",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XMk4yaU9xTW51THVMd0paV3c2R0lyQjdpQWpxSHlBTGljTzJneFEyMUExTmFjbUlxUl9wVWp1a1FzSWhLRGlleTZUWUQwZHgxczNVdFM0WlRSVEd0b2pYaHJR?oc=5"
+          "title": "历史反复重演，美联储总在滞后纠错？_股票_全球资讯",
+          "source": "币海NEWS",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EQXV1NHJ2am9PQmlzU1M3MGNEMTRlMFRWUEtWeTFhYkdwT1MzOWNmM0dGdjJkRWpkdnJJbzVuY2kzSkpxc0xMTHIxM2tKQ0stMVppeTNVeGd2OHBadnNEQmV3Y2hXcE5G?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "科技与产业",
+      "headline_count": 1,
+      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
+      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
+      "watch": [
+        {
+          "code": "NDX",
+          "label": "纳斯达克",
+          "value": "24,089.56 / +6.51%",
+          "state": "fresh"
+        },
+        {
+          "code": "A50",
+          "label": "富时A50",
+          "value": "12,736.00 / -0.27%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
+      "headlines": [
+        {
+          "title": "英伟达领涨股市提振风险偏好，日元走弱",
+          "source": "www.tmgm.com",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObTJvLUZ1OVFGTC1SeEt2M2lGRXdRZVhfTmZGVWM3MndJWk5jU09rN29wR09GRm9IYVNzcmw3VEdHZ0lGZ1pDc3J6dUdKV0hCWmVOUnpGdUNWS1hSckFfeUcwTDNPU2pFbUlMZk02X1pnRGdqdmpLcUM0NURYODVkMXhnWlhFTy1XaW9JVklBcWZSNHlkTEJ5OXlnZC1tck4xSGhnb1FYVl9keHZmR1hZYkxtcF82MVRCbmFjdEt5TUlrOUF1UU90b1FobU55SHVzbU85Ng?oc=5"
         }
       ]
     },
@@ -160,13 +189,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "79.76 / -0.51%",
+          "value": "80.12 / -0.06%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,659.40 / -0.61%",
+          "value": "3,652.58 / -0.79%",
           "state": "fresh"
         },
         {
@@ -195,19 +224,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "104.31 / -0.03%",
+          "value": "103.93 / -0.40%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6615 / -0.07%",
+          "value": "6.6612 / -0.07%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,813.30 / +1.31%",
+          "value": "12,736.00 / -0.27%",
           "state": "fresh"
         }
       ],
@@ -217,41 +246,6 @@
           "title": "黄金反弹恐只是昙花一现！法国外贸银行警告：2027年1月金价或跌至3340美元",
           "source": "Moomoo",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBoU2dfdXZia1pKd3BEY2lIQWtvNzFoZVhHc1hEMVFIaURLLTJRcUFsU3lZa01TV2VzbndXMTVidW9lbXp5RGFqMmdhZTZwY2JlWUhLUUR5QlZsNnU0?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "domestic_policy",
-      "label": "国内政策与需求",
-      "headline_count": 1,
-      "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-      "a_share_lens": "金融地产、基建、消费与顺周期方向",
-      "watch": [
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,813.30 / +1.31%",
-          "state": "fresh"
-        },
-        {
-          "code": "HSI",
-          "label": "恒生指数",
-          "value": "22,300.87 / -0.37%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6615 / -0.07%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-      "headlines": [
-        {
-          "title": "全球市场波动加剧，多项稳市政策出台，后市如何展望？｜周度市场观察",
-          "source": "手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IVmhpZlZLZkVadXhQbkNaUXVyTHNQb0dUQmJ4dUZfZG1LOXB0aTU2Wk9pQk94ZlFOZ19wcTJyRlFNUG1OazFxT2VNMVFHdnFDMHJvTzRJWC1NcG01Tk41Y3dfQ1F4WENsRXdid1R3bjlzZw?oc=5"
         }
       ]
     }
