@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24 20:19",
-  "score": -5,
+  "generated_at": "2026-11-24 22:10",
+  "score": -8,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -33,14 +33,14 @@
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.27%",
-      "contribution": -1.6,
+      "value": "富时 A50 -0.38%",
+      "contribution": -2.3,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6612 (-0.07%) / DXY 103.93 (-0.40%)",
-      "contribution": 2.9,
+      "value": "USD/CNH 6.6653 (-0.01%) / DXY 103.84 (-0.48%)",
+      "contribution": 2.5,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 3 / 风险词 2",
-      "contribution": 2,
+      "value": "正向词 4 / 风险词 4",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -66,11 +66,17 @@
     "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
-    "positive_hits": 3,
-    "negative_hits": 2,
-    "score": 2
+    "positive_hits": 4,
+    "negative_hits": 4,
+    "score": 0
   },
   "news": [
+    {
+      "title": "高盛：美联储或激进加息，美股面临的风险已不只是AI交易降温",
+      "source": "金融界",
+      "published": "Tue, 24 Nov 2026 09:01:29 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13YThUTDZzQl9leEQ0V2tCRjQ4c0xOTXJPUHNiQjhRazBJM1FFczM0OWlWaWdodVpoSWN1WGxienlLX2t2QjJ1NkxiVnJ2SDVEbDdYZVpIM25FQ3Y2R0Z5WkRDbw?oc=5"
+    },
     {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
@@ -78,10 +84,10 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
     },
     {
-      "title": "亚太市场集体狂欢，金价连续反弹，韩股冲高熔断",
-      "source": "凤凰网财经",
-      "published": "Tue, 24 Nov 2026 03:25:40 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96M1BFVFgwb2c3aWdmcXpxZ1FiQWdoN0liU2NmRHp3N0JOT1FlNjV1a201a2hVdEM5WmtBemRjeGZiQkhvV2JXcldTaUNjdVpa?oc=5"
+      "title": "黄仁勋回归提振亚太市场！金价连续反弹，韩股冲高熔断",
+      "source": "第一财经",
+      "published": "Tue, 24 Nov 2026 03:02:16 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XTU5Wc0xfcjJfZF9nQ19oXzEzYmNQenczMDFNU0gwX3RNeWs1cGloWFNQRndKRDVTcVAxSjdyZEEtYkFsZUc0dEpxUUNVZ2ZpM1B3?oc=5"
     },
     {
       "title": "金十数据全球财经早餐| 2026年11月24日-市场参考",
@@ -112,7 +118,7 @@
     {
       "key": "central_bank",
       "label": "央行与利率",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
       "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
       "watch": [
@@ -125,18 +131,23 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.93 / -0.40%",
+          "value": "103.84 / -0.48%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6612 / -0.07%",
+          "value": "6.6653 / -0.01%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
+        {
+          "title": "高盛：美联储或激进加息，美股面临的风险已不只是AI交易降温",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13YThUTDZzQl9leEQ0V2tCRjQ4c0xOTXJPUHNiQjhRazBJM1FFczM0OWlWaWdodVpoSWN1WGxienlLX2t2QjJ1NkxiVnJ2SDVEbDdYZVpIM25FQ3Y2R0Z5WkRDbw?oc=5"
+        },
         {
           "title": "历史反复重演，美联储总在滞后纠错？_股票_全球资讯",
           "source": "币海NEWS",
@@ -160,7 +171,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,736.00 / -0.27%",
+          "value": "12,721.92 / -0.38%",
           "state": "fresh"
         },
         {
@@ -189,13 +200,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "80.12 / -0.06%",
+          "value": "81.23 / +1.33%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,652.58 / -0.79%",
+          "value": "3,645.96 / -0.97%",
           "state": "fresh"
         },
         {
@@ -224,19 +235,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.93 / -0.40%",
+          "value": "103.84 / -0.48%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6612 / -0.07%",
+          "value": "6.6653 / -0.01%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,736.00 / -0.27%",
+          "value": "12,721.92 / -0.38%",
           "state": "fresh"
         }
       ],
