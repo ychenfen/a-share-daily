@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24 03:11",
-  "score": -3,
-  "stance": "中性等待",
-  "color": "#8c959f",
+  "generated_at": "2026-11-24 08:01",
+  "score": -8,
+  "stance": "谨慎防守",
+  "color": "#3b9b68",
   "confidence": "中",
-  "summary": "多空线索接近平衡，等待价格、宽度或宏观压力出现更清晰方向。",
+  "summary": "外部或内部风险信号偏多，短期更适合提高验证门槛。",
   "signals": [
     {
       "label": "A股动量",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +3.01%",
+      "value": "6 个市场均值 +2.98%",
       "contribution": 20,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 +1.06%",
-      "contribution": 6.3,
+      "value": "富时 A50 +1.04%",
+      "contribution": 6.2,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6672 (-0.11%) / DXY 104.41 (+0.59%)",
-      "contribution": -1.6,
+      "value": "USD/CNH 6.6660 (+0.00%) / DXY 104.30 (-0.04%)",
+      "contribution": 0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,18 +57,18 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 0",
-      "contribution": 0,
+      "value": "正向词 0 / 风险词 3",
+      "contribution": -6,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
   "advice": [
-    "减少方向性预判，优先记录关键阈值被突破后的跟随信号。"
+    "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 0,
-    "score": 0
+    "negative_hits": 3,
+    "score": -6
   },
   "news": [
     {
@@ -84,10 +84,16 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVFsaHB1S3JvQmY3M0ZZeHI4M2swZDAxMEViRWY0d2IyR2FnQ1pYVTQ2ajZTcFBIaVYtb3dPUDVUeUVHcEVRZU5naWRJaDZ6dFZzNVRwcG9WM3hpT3RNOTc3YThqSV84THA1dmYza09QVlExZXFhcGRMcGllTHUwSTNQdUE0SFVkeF9ELQ?oc=5"
     },
     {
-      "title": "管涛：日本央行买卖ETF对股市影响不宜高估",
-      "source": "大河财立方",
-      "published": "Sun, 22 Nov 2026 23:58:55 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLVNsTHJXZGNfWGZqOWZXY0xPNXhPQ2VrNG5yMVhXcnJQRjhNZXN1UXFFM2RJenRmdWtQXzJ1R1U3X2MwUUJfOGpiN2xubnZQZkJzOXlmQnpjV05qTVNTNXpPX2J2SnpwNWc?oc=5"
+      "title": "海外研选日报1123｜摩根大通：美联储或连续三次加息 市场低估紧缩风险",
+      "source": "手机网易网",
+      "published": "Mon, 23 Nov 2026 09:40:05 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XMk4yaU9xTW51THVMd0paV3c2R0lyQjdpQWpxSHlBTGljTzJneFEyMUExTmFjbUlxUl9wVWp1a1FzSWhLRGlleTZUWUQwZHgxczNVdFM0WlRSVEd0b2pYaHJR?oc=5"
+    },
+    {
+      "title": "美股两次暴跌，资本在重估什么？",
+      "source": "加拿大新闻网",
+      "published": "Mon, 23 Nov 2026 00:33:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE00cU5zWFNQWlYxdHFVSVhWV1JRU1JuUG1QdWVYbmpRcnRpOW0zOE84ME83S3VSY2NzNHBpbnlHUWFyZ1ht?oc=5"
     }
   ],
   "events": [
@@ -107,22 +113,22 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "104.41 / +0.59%",
+          "value": "104.30 / -0.04%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6672 / -0.11%",
+          "value": "6.6660 / +0.00%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
       "headlines": [
         {
-          "title": "管涛：日本央行买卖ETF对股市影响不宜高估",
-          "source": "大河财立方",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLVNsTHJXZGNfWGZqOWZXY0xPNXhPQ2VrNG5yMVhXcnJQRjhNZXN1UXFFM2RJenRmdWtQXzJ1R1U3X2MwUUJfOGpiN2xubnZQZkJzOXlmQnpjV05qTVNTNXpPX2J2SnpwNWc?oc=5"
+          "title": "海外研选日报1123｜摩根大通：美联储或连续三次加息 市场低估紧缩风险",
+          "source": "手机网易网",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XMk4yaU9xTW51THVMd0paV3c2R0lyQjdpQWpxSHlBTGljTzJneFEyMUExTmFjbUlxUl9wVWp1a1FzSWhLRGlleTZUWUQwZHgxczNVdFM0WlRSVEd0b2pYaHJR?oc=5"
         }
       ]
     },
@@ -136,7 +142,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,781.76 / +1.06%",
+          "value": "12,779.03 / +1.04%",
           "state": "fresh"
         },
         {
@@ -148,7 +154,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6672 / -0.11%",
+          "value": "6.6660 / +0.00%",
           "state": "fresh"
         }
       ],
