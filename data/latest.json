@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26 01:55",
+  "generated_at": "2026-11-26 05:49",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-26 01:55",
-    "slot": "close",
-    "slot_label": "收盘快照",
+    "checked_at": "2026-11-26 05:49",
+    "slot": "night",
+    "slot_label": "夜间校验",
     "target_date": "2026-11-26",
     "market_data_date": "2026-11-25",
     "market_state": "non_trading",
@@ -15,18 +15,18 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-26 01:55",
+    "generated_at": "2026-11-26 05:49",
     "markets": [
       {
         "code": "SPX",
         "name": "标普 500",
         "region": "美国",
         "kind": "index",
-        "close": 7137.81,
-        "pct": -0.88,
-        "change": -63.28,
+        "close": 7182.78,
+        "pct": -0.25,
+        "change": -18.31,
         "previous_close": 7201.09,
-        "quote_time": "2026-11-25 12:55:40",
+        "quote_time": "2026-11-25 16:32:06",
         "stale": false
       },
       {
@@ -34,11 +34,11 @@
         "name": "纳斯达克",
         "region": "美国",
         "kind": "index",
-        "close": 23333.57,
-        "pct": -1.69,
-        "change": -399.97,
+        "close": 23585.8,
+        "pct": -0.62,
+        "change": -147.74,
         "previous_close": 23733.54,
-        "quote_time": "2026-11-25 12:55:40",
+        "quote_time": "2026-11-25 16:49:00",
         "stale": false
       },
       {
@@ -46,11 +46,11 @@
         "name": "道琼斯",
         "region": "美国",
         "kind": "index",
-        "close": 50065.06,
-        "pct": 0.09,
-        "change": 46.36,
+        "close": 50182.95,
+        "pct": 0.33,
+        "change": 164.25,
         "previous_close": 50018.7,
-        "quote_time": "2026-11-25 12:55:40",
+        "quote_time": "2026-11-25 16:32:17",
         "stale": false
       },
       {
@@ -70,11 +70,11 @@
         "name": "欧洲股票 ETF",
         "region": "欧洲（美股代理）",
         "kind": "ETF proxy",
-        "close": 84.52,
-        "pct": -0.31,
-        "change": -0.26,
+        "close": 84.95,
+        "pct": 0.2,
+        "change": 0.17,
         "previous_close": 84.78,
-        "quote_time": "2026-11-25 12:55:38",
+        "quote_time": "2026-11-25 16:00:01",
         "stale": false
       },
       {
@@ -97,11 +97,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 12470.33,
-        "pct": 0.12308309915696203,
-        "change": 15.329999999999927,
+        "close": 12522.87,
+        "pct": 0.544921718185476,
+        "change": 67.8700000000008,
         "previous_close": 12455.0,
-        "quote_time": "2026-11-26 01:56:05",
+        "quote_time": "2026-11-26 05:14:58",
         "stale": false
       },
       {
@@ -110,11 +110,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.6665,
-        "pct": 0.022505626406599255,
-        "change": 0.0015000000000000568,
+        "close": 6.6674,
+        "pct": 0.03600900225055881,
+        "change": 0.0023999999999997357,
         "previous_close": 6.665,
-        "quote_time": "2026-11-26 01:56:11",
+        "quote_time": "2026-11-26 05:49:50",
         "stale": false
       },
       {
@@ -123,11 +123,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 103.6223,
-        "pct": -0.20321033810926092,
-        "change": -0.21099999999999852,
+        "close": 103.7052,
+        "pct": -0.12337082612224881,
+        "change": -0.12809999999998922,
         "previous_close": 103.8333,
-        "quote_time": "2026-11-26 01:56:09",
+        "quote_time": "2026-11-26 05:50:02",
         "stale": false
       },
       {
@@ -136,11 +136,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 3555.034,
-        "pct": -1.004316226225943,
-        "change": -36.0659999999998,
+        "close": 3610.425,
+        "pct": 0.5381359472028224,
+        "change": 19.325000000000273,
         "previous_close": 3591.1,
-        "quote_time": "2026-11-26 01:56:16",
+        "quote_time": "2026-11-26 05:50:03",
         "stale": false
       },
       {
@@ -149,11 +149,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 83.673,
-        "pct": 1.9780621572212054,
-        "change": 1.6230000000000047,
+        "close": 84.117,
+        "pct": 2.5191956124314574,
+        "change": 2.0670000000000073,
         "previous_close": 82.05,
-        "quote_time": "2026-11-26 01:56:16",
+        "quote_time": "2026-11-26 05:50:00",
         "stale": false
       }
     ],
@@ -195,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-26 01:55",
-    "score": -30,
+    "generated_at": "2026-11-26 05:49",
+    "score": -25,
     "stance": "防守优先",
     "color": "#08783e",
     "confidence": "中",
@@ -222,20 +222,20 @@
       },
       {
         "label": "外围股市",
-        "value": "6 个市场均值 -0.43%",
-        "contribution": -3.0,
+        "value": "6 个市场均值 -0.02%",
+        "contribution": -0.1,
         "note": "衡量隔夜风险偏好共振"
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 +0.12%",
-        "contribution": 0.7,
+        "value": "富时 A50 +0.54%",
+        "contribution": 3.3,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.6665 (+0.02%) / DXY 103.62 (-0.20%)",
-        "contribution": 0.7,
+        "value": "USD/CNH 6.6674 (+0.04%) / DXY 103.71 (-0.12%)",
+        "contribution": 0.2,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -269,7 +269,7 @@
       {
         "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
         "source": "财联社",
-        "published": "Wed, 25 Nov 2026 12:37:23 GMT",
+        "published": "Wed, 25 Nov 2026 17:17:29 GMT",
         "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
       },
       {
@@ -279,16 +279,16 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12MTJwQVMxLXpoWndoNmp3NXpfVHFNWnRrYl9PNW82cFVsQ2RzbmtUSmZYdjRYU1d2RW5FODNza28xRTZfWnFSQnROWkx1NHJscGFN?oc=5"
       },
       {
+        "title": "港股早报｜美股纳指跌超1% 周大福中期净利近翻番",
+        "source": "新浪财经",
+        "published": "Wed, 25 Nov 2026 02:35:17 GMT",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUaDVJUGVBRDBuUUs3SW95RjlVRmZxdUlNRmUtU0hTOVZDVm45SXF4R09Ed21RSGRBOGU5OER1eHBrcEFWLV90WmMyRG84TVB6QTlqaXVCQWQydGNEOVBHdndtU0IyU2ptREdsYTJMVnlLQQ?oc=5"
+      },
+      {
         "title": "隔夜美股 | 三大指数涨跌不一 Anthropic(ANT.US)破发 比特币跌至6万美元下方",
         "source": "金融界",
         "published": "Tue, 24 Nov 2026 22:00:22 GMT",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FSGl3cG9jRkJ3NTBOczFiM0tVQ3k2OWJteGlVbkM1QzdCVU9qWDZNV2RNb3g2NUZuX2JOTklyb1dqd1JYSUF5LWc1Tnpua1FvMEN6WjNrRnRKalBIUzVVV0w5YVVHdw?oc=5"
-      },
-      {
-        "title": "港股早报｜美股纳指跌超1% 周大福中期净利近翻番",
-        "source": "财联社",
-        "published": "Tue, 24 Nov 2026 23:44:44 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrTnc4REZvdVlOaXFyZEt3WHBpdFVVU3h3SEtRbDFEdVZDN1FkWTc1bXVWTTFuQ3pFcmUzSXIzTHlwVXcyUzQwXw?oc=5"
       }
     ],
     "events": [
@@ -302,19 +302,19 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "103.62 / -0.20%",
+            "value": "103.71 / -0.12%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6665 / +0.02%",
+            "value": "6.6674 / +0.04%",
             "state": "fresh"
           },
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "12,470.33 / +0.12%",
+            "value": "12,522.87 / +0.54%",
             "state": "fresh"
           }
         ],
@@ -333,11 +333,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-26 01:55",
+    "generated_at": "2026-11-26 05:49",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 336,
+    "signal_count": 337,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -374,14 +374,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-26 01:55",
-      "slot": "close",
-      "score": "-30",
+      "captured_at": "2026-11-26 05:49",
+      "slot": "night",
+      "score": "-25",
       "stance": "防守优先",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-26 05:49",
+        "slot": "night",
+        "signal_date": "2026-11-26",
+        "market_asof_date": "2026-11-25",
+        "score": "-25",
+        "stance": "防守优先",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "-0.0173",
+        "a50_pct": "0.544921718185476",
+        "usdcnh": "6.6674",
+        "usdcnh_pct": "0.03600900225055881",
+        "dxy": "103.7052",
+        "dxy_pct": "-0.12337082612224881",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-26 01:55",
         "slot": "close",
@@ -838,31 +863,6 @@
         "signal_date": "2026-11-22",
         "market_asof_date": "2026-11-20",
         "score": "-47",
-        "stance": "防守优先",
-        "confidence": "中",
-        "sh_close": "3634.35",
-        "sh_pct": "-0.59",
-        "global_avg": "-2.2906",
-        "a50_pct": "-0.8532044680345408",
-        "usdcnh": "6.6737",
-        "usdcnh_pct": "-0.28836097415209094",
-        "dxy": "103.8404",
-        "dxy_pct": "-0.11245001553522593",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": null,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": null
-      },
-      {
-        "captured_at": "2026-11-22 03:27",
-        "slot": "night",
-        "signal_date": "2026-11-22",
-        "market_asof_date": "2026-11-20",
-        "score": "-53",
         "stance": "防守优先",
         "confidence": "中",
         "sh_close": "3634.35",
