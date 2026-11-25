@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25 06:35",
+  "generated_at": "2026-11-25 12:53",
   "markets": [
     {
       "code": "SPX",
@@ -43,11 +43,11 @@
       "name": "恒生指数",
       "region": "中国香港",
       "kind": "index",
-      "close": 22219.65,
-      "pct": -0.73,
-      "change": -164.09,
-      "previous_close": 22383.74,
-      "quote_time": "2026/11/24 18:31:09",
+      "close": 22265.68,
+      "pct": 0.21,
+      "change": 46.03,
+      "previous_close": 22219.65,
+      "quote_time": "2026/11/25 11:59:59",
       "stale": false
     },
     {
@@ -82,11 +82,11 @@
       "region": "中国离岸",
       "kind": "future",
       "role": "scored",
-      "close": 12528.4,
-      "pct": -0.5761447504166406,
-      "change": -72.60000000000036,
+      "close": 12439.5,
+      "pct": -1.281644313943342,
+      "change": -161.5,
       "previous_close": 12601.0,
-      "quote_time": "2026-11-25 05:14:35",
+      "quote_time": "2026-11-25 12:53:48",
       "stale": false
     },
     {
@@ -95,11 +95,11 @@
       "region": "中国离岸",
       "kind": "fx",
       "role": "scored",
-      "close": 6.666,
-      "pct": 0.01500375093774764,
-      "change": 0.001000000000000334,
+      "close": 6.6729,
+      "pct": 0.11852963240810421,
+      "change": 0.00790000000000024,
       "previous_close": 6.665,
-      "quote_time": "2026-11-25 06:35:25",
+      "quote_time": "2026-11-25 12:53:46",
       "stale": false
     },
     {
@@ -108,11 +108,11 @@
       "region": "全球",
       "kind": "index",
       "role": "scored",
-      "close": 103.8138,
-      "pct": -0.01878010233710148,
-      "change": -0.019499999999993634,
+      "close": 103.9828,
+      "pct": 0.1439807845845298,
+      "change": 0.1495000000000033,
       "previous_close": 103.8333,
-      "quote_time": "2026-11-25 06:35:28",
+      "quote_time": "2026-11-25 12:53:45",
       "stale": false
     },
     {
@@ -121,11 +121,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 3583.1,
-      "pct": -2.6781106554037537,
-      "change": -98.59999999999991,
-      "previous_close": 3681.7,
-      "quote_time": "2026-11-25 05:59:58",
+      "close": 3577.57,
+      "pct": -0.37676477959398547,
+      "change": -13.529999999999745,
+      "previous_close": 3591.1,
+      "quote_time": "2026-11-25 12:53:51",
       "stale": false
     },
     {
@@ -134,11 +134,11 @@
       "region": "全球商品",
       "kind": "future",
       "role": "context",
-      "close": 81.73,
-      "pct": 1.9458650367968122,
-      "change": 1.5600000000000023,
-      "previous_close": 80.17,
-      "quote_time": "2026-11-25 05:59:55",
+      "close": 80.713,
+      "pct": -1.629494210847049,
+      "change": -1.3370000000000033,
+      "previous_close": 82.05,
+      "quote_time": "2026-11-25 12:53:37",
       "stale": false
     }
   ],
