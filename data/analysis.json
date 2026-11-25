@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25 21:24",
-  "score": -33,
+  "generated_at": "2026-11-26 01:55",
+  "score": -30,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 -0.10%",
-      "contribution": -0.7,
+      "value": "6 个市场均值 -0.43%",
+      "contribution": -3.0,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.37%",
-      "contribution": -2.2,
+      "value": "富时 A50 +0.12%",
+      "contribution": 0.7,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6719 (+0.10%) / DXY 103.95 (+0.11%)",
-      "contribution": -1.8,
+      "value": "USD/CNH 6.6665 (+0.02%) / DXY 103.62 (-0.20%)",
+      "contribution": 0.7,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -74,8 +74,14 @@
     {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
-      "published": "Wed, 25 Nov 2026 06:12:39 GMT",
+      "published": "Wed, 25 Nov 2026 12:37:23 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
+    },
+    {
+      "title": "亚太市场抛压延续，修复仍需更多信号验证",
+      "source": "第一财经",
+      "published": "Wed, 25 Nov 2026 13:36:57 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12MTJwQVMxLXpoWndoNmp3NXpfVHFNWnRrYl9PNW82cFVsQ2RzbmtUSmZYdjRYU1d2RW5FODNza28xRTZfWnFSQnROWkx1NHJscGFN?oc=5"
     },
     {
       "title": "隔夜美股 | 三大指数涨跌不一 Anthropic(ANT.US)破发 比特币跌至6万美元下方",
@@ -101,19 +107,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.95 / +0.11%",
+          "value": "103.62 / -0.20%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6719 / +0.10%",
+          "value": "6.6665 / +0.02%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,408.36 / -0.37%",
+          "value": "12,470.33 / +0.12%",
           "state": "fresh"
         }
       ],
