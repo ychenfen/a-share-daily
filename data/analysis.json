@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25 12:53",
-  "score": -45,
+  "generated_at": "2026-11-25 19:05",
+  "score": -34,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.12%",
-      "contribution": 0.8,
+      "value": "6 个市场均值 -0.10%",
+      "contribution": -0.7,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -1.28%",
-      "contribution": -7.7,
+      "value": "富时 A50 -0.31%",
+      "contribution": -1.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6729 (+0.12%) / DXY 103.98 (+0.14%)",
-      "contribution": -2.1,
+      "value": "USD/CNH 6.6766 (+0.17%) / DXY 104.04 (+0.20%)",
+      "contribution": -3.1,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 0 / 风险词 5",
-      "contribution": -8,
+      "value": "正向词 0 / 风险词 0",
+      "contribution": 0,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
   ],
@@ -67,152 +67,30 @@
   ],
   "news_tone": {
     "positive_hits": 0,
-    "negative_hits": 5,
-    "score": -8
+    "negative_hits": 0,
+    "score": 0
   },
   "news": [
     {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
-      "published": "Wed, 25 Nov 2026 01:24:14 GMT",
+      "published": "Wed, 25 Nov 2026 06:12:39 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
+    },
+    {
+      "title": "隔夜美股 | 三大指数涨跌不一 Anthropic(ANT.US)破发 比特币跌至6万美元下方",
+      "source": "金融界",
+      "published": "Tue, 24 Nov 2026 22:00:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FSGl3cG9jRkJ3NTBOczFiM0tVQ3k2OWJteGlVbkM1QzdCVU9qWDZNV2RNb3g2NUZuX2JOTklyb1dqd1JYSUF5LWc1Tnpua1FvMEN6WjNrRnRKalBIUzVVV0w5YVVHdw?oc=5"
     },
     {
       "title": "港股早报｜美股纳指跌超1% 周大福中期净利近翻番",
       "source": "财联社",
       "published": "Tue, 24 Nov 2026 23:44:44 GMT",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBrTnc4REZvdVlOaXFyZEt3WHBpdFVVU3h3SEtRbDFEdVZDN1FkWTc1bXVWTTFuQ3pFcmUzSXIzTHlwVXcyUzQwXw?oc=5"
-    },
-    {
-      "title": "高盛：美联储或激进加息，美股面临的风险已不只是AI交易降温",
-      "source": "金融界",
-      "published": "Tue, 24 Nov 2026 09:01:29 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13YThUTDZzQl9leEQ0V2tCRjQ4c0xOTXJPUHNiQjhRazBJM1FFczM0OWlWaWdodVpoSWN1WGxienlLX2t2QjJ1NkxiVnJ2SDVEbDdYZVpIM25FQ3Y2R0Z5WkRDbw?oc=5"
-    },
-    {
-      "title": "黄金多头大撤退！BCA Research四年来首次完全离场 警告两大下行风险",
-      "source": "FX168财经",
-      "published": "Wed, 25 Nov 2026 01:04:20 GMT",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DZEhLdnhEb2Z0N2xrYndnSmZQeERueHRYUEpDWGh5M1p4ODVoc25HUW01ajM5a1FpLU80WlFNaFFidzlBajE4aG05Yjg2SHNYZjA1XzA1d2Zma2pIRWo2Vm5qNE1aQzhaX2lLNw?oc=5"
-    },
-    {
-      "title": "黄仁勋回归行情迅速夭折！英伟达暴跌超8%、纳指重挫2.5% 黄金大跌75美元、比特币跌破6万美元",
-      "source": "FX168财经",
-      "published": "Tue, 24 Nov 2026 17:01:09 GMT",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeHFSTzhzZU9Va3pqWUUtTmM2SGI0VlFnMlo2ZXJtSHVSbXFtZFJVOHVheEg2Ty1weUljQXluRnpzdXl3TXE3cWUxdVBUa2tydTlTWXhTRG9idERKa2ZrYnNzZVlyb3dfeG9CaXJCMEFmRVJuNXdObzlfbUpCNGlIYVg5Z18?oc=5"
     }
   ],
   "events": [
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 2,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "80.71 / -1.63%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,577.57 / -0.38%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
-      "headlines": [
-        {
-          "title": "黄金多头大撤退！BCA Research四年来首次完全离场 警告两大下行风险",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DZEhLdnhEb2Z0N2xrYndnSmZQeERueHRYUEpDWGh5M1p4ODVoc25HUW01ajM5a1FpLU80WlFNaFFidzlBajE4aG05Yjg2SHNYZjA1XzA1d2Zma2pIRWo2Vm5qNE1aQzhaX2lLNw?oc=5"
-        },
-        {
-          "title": "黄仁勋回归行情迅速夭折！英伟达暴跌超8%、纳指重挫2.5% 黄金大跌75美元、比特币跌破6万美元",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeHFSTzhzZU9Va3pqWUUtTmM2SGI0VlFnMlo2ZXJtSHVSbXFtZFJVOHVheEg2Ty1weUljQXluRnpzdXl3TXE3cWUxdVBUa2tydTlTWXhTRG9idERKa2ZrYnNzZVlyb3dfeG9CaXJCMEFmRVJuNXdObzlfbUpCNGlIYVg5Z18?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "central_bank",
-      "label": "央行与利率",
-      "headline_count": 1,
-      "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-      "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "103.98 / +0.14%",
-          "state": "fresh"
-        },
-        {
-          "code": "USDCNH",
-          "label": "USD/CNH",
-          "value": "6.6729 / +0.12%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-      "headlines": [
-        {
-          "title": "高盛：美联储或激进加息，美股面临的风险已不只是AI交易降温",
-          "source": "金融界",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13YThUTDZzQl9leEQ0V2tCRjQ4c0xOTXJPUHNiQjhRazBJM1FFczM0OWlWaWdodVpoSWN1WGxienlLX2t2QjJ1NkxiVnJ2SDVEbDdYZVpIM25FQ3Y2R0Z5WkRDbw?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "technology",
-      "label": "科技与产业",
-      "headline_count": 1,
-      "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
-      "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
-      "watch": [
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "23,733.54 / -1.48%",
-          "state": "fresh"
-        },
-        {
-          "code": "A50",
-          "label": "富时A50",
-          "value": "12,439.50 / -1.28%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
-      "headlines": [
-        {
-          "title": "黄仁勋回归行情迅速夭折！英伟达暴跌超8%、纳指重挫2.5% 黄金大跌75美元、比特币跌破6万美元",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeHFSTzhzZU9Va3pqWUUtTmM2SGI0VlFnMlo2ZXJtSHVSbXFtZFJVOHVheEg2Ty1weUljQXluRnpzdXl3TXE3cWUxdVBUa2tydTlTWXhTRG9idERKa2ZrYnNzZVlyb3dfeG9CaXJCMEFmRVJuNXdObzlfbUpCNGlIYVg5Z18?oc=5"
-        }
-      ]
-    },
     {
       "key": "currency",
       "label": "美元与人民币",
@@ -223,28 +101,28 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.98 / +0.14%",
+          "value": "104.04 / +0.20%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6729 / +0.12%",
+          "value": "6.6766 / +0.17%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "12,439.50 / -1.28%",
+          "value": "12,416.00 / -0.31%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
       "headlines": [
         {
-          "title": "黄仁勋回归行情迅速夭折！英伟达暴跌超8%、纳指重挫2.5% 黄金大跌75美元、比特币跌破6万美元",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeHFSTzhzZU9Va3pqWUUtTmM2SGI0VlFnMlo2ZXJtSHVSbXFtZFJVOHVheEg2Ty1weUljQXluRnpzdXl3TXE3cWUxdVBUa2tydTlTWXhTRG9idERKa2ZrYnNzZVlyb3dfeG9CaXJCMEFmRVJuNXdObzlfbUpCNGlIYVg5Z18?oc=5"
+          "title": "隔夜美股 | 三大指数涨跌不一 Anthropic(ANT.US)破发 比特币跌至6万美元下方",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FSGl3cG9jRkJ3NTBOczFiM0tVQ3k2OWJteGlVbkM1QzdCVU9qWDZNV2RNb3g2NUZuX2JOTklyb1dqd1JYSUF5LWc1Tnpua1FvMEN6WjNrRnRKalBIUzVVV0w5YVVHdw?oc=5"
         }
       ]
     }
