@@ -19,7 +19,7 @@
 <a href="https://ychenfen.github.io/a-share-daily/"><img alt="A-Share Pulse 市场天气台" src="assets/social-preview.png"></a>
 
 > [!NOTE]
-> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-26 · 最后检查 `2026-11-27 01:40`（北京时间）
+> **⚪ 休市 / 未开盘** · 目标日未开市或尚未产生行情，最近交易日 2026-11-26 · 最后检查 `2026-11-27 05:42`（北京时间）
 
 [🌐 在线大屏](https://ychenfen.github.io/a-share-daily/) · [一键生成自己的版本](https://github.com/ychenfen/a-share-daily/generate) · [最新 JSON](data/latest.json) · [运行状态](data/status.json) · [完整历史](data/) · [数据字典](docs/DATA_SCHEMA.md) · [自动任务](https://github.com/ychenfen/a-share-daily/actions) · [讨论区](https://github.com/ychenfen/a-share-daily/discussions) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
@@ -48,7 +48,7 @@
 
 ![全球市场与跨市场风险温度](charts/global_dashboard.svg)
 
-> **风险温度 -27 · 防守优先**（置信度：中）
+> **风险温度 -26 · 防守优先**（置信度：中）
 > 内部市场与外围压力形成负向共振，先控制暴露并等待风险指标回落。
 
 | 市场 | 地区 | 收盘 | 涨跌幅 |
@@ -66,11 +66,11 @@
 
 | 资产 | 角色 | 最新值 | 涨跌幅 | 状态 |
 | --- | --- | ---: | ---: | --- |
-| 富时中国 A50 期货 | 低权重计分 | 12,511.80 | -0.01% | 最新 |
-| 美元兑离岸人民币 | 低权重计分 | 6.6617 | -0.10% | 最新 |
+| 富时中国 A50 期货 | 低权重计分 | 12,512.36 | -0.01% | 最新 |
+| 美元兑离岸人民币 | 低权重计分 | 6.6621 | -0.10% | 最新 |
 | 美元指数 | 低权重计分 | 103.78 | +0.06% | 最新 |
-| COMEX 黄金 | 背景观察 | 3,592.21 | +0.77% | 最新 |
-| WTI 原油 | 背景观察 | 84.78 | +1.32% | 最新 |
+| COMEX 黄金 | 背景观察 | 3,592.09 | +0.77% | 最新 |
+| WTI 原油 | 背景观察 | 84.94 | +1.50% | 最新 |
 
 > ⚠️ 数据降级：全球指数、VIX、美债10Y本轮未完全刷新，已尽量保留最近有效值。
 
@@ -82,8 +82,8 @@
 | 市场宽度 | 涨 776 / 跌 4805 | -14.4 | 上涨家数占优时提高风险偏好 |
 | 短线情绪 | 涨停 37 / 跌停 33 / 炸板率 36.2% | -3.9 | 涨停扩散加分，炸板率过高扣分 |
 | 外围股市 | 6 个市场均值 +0.37% | +2.6 | 衡量隔夜风险偏好共振 |
-| A50 先行 | 富时 A50 -0.01% | -0.1 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
-| 美元与人民币 | USD/CNH 6.6617 (-0.10%) / DXY 103.78 (+0.06%) | +0.9 | 美元走弱与人民币走强通常缓解外部流动性压力 |
+| A50 先行 | 富时 A50 -0.01% | +0.0 | 离岸期货只作低权重先行确认，避免重复计算 A 股现货动量 |
+| 美元与人民币 | USD/CNH 6.6621 (-0.10%) / DXY 103.78 (+0.06%) | +0.9 | 美元走弱与人民币走强通常缓解外部流动性压力 |
 | 波动压力 | VIX 15.44 | +0.0 | VIX 越高，全球避险需求通常越强 |
 | 利率压力 | 美债 10Y 4.94% | -5.0 | 长端利率偏高时压制高估值资产 |
 | 新闻语气 | 正向词 2 / 风险词 3 | -2.0 | 标题关键词只做低权重提示，不代替事实核验 |
@@ -94,9 +94,9 @@
 
 | 事件线索 | 宏观传导 | A 股映射 | 观察指标 | 失效条件 |
 | --- | --- | --- | --- | --- |
-| 通胀与就业（1 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 103.78 / +0.06%（最新） / 纳斯达克 23,585.80 / -0.62%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
-| 地缘与贸易（1 条） | 地缘风险 → 油金与波动率 → 通胀预期和风险偏好 | 黄金、能源、军工、航运与出口链风险敞口 | VIX 15.44（最近有效值） / 黄金 3,592.21 / +0.77%（最新） / 原油 84.78 / +1.32%（最新） | 失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。 |
-| 商品与成本（1 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 84.78 / +1.32%（最新） / 黄金 3,592.21 / +0.77%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 通胀与就业（2 条） | 通胀与就业数据 → 降息路径与实际利率 → 估值折现率 | 成长估值、可选消费、资源品与利率敏感板块 | 美债10Y 4.94%（最近有效值） / 美元指数 103.78 / +0.06%（最新） / 纳斯达克 23,585.80 / -0.62%（最新） | 失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。 |
+| 商品与成本（2 条） | 商品价格 → 输入成本与通胀预期 → 企业利润分配 | 能源、化工、有色、航空运输与中下游成本敏感行业 | 原油 84.94 / +1.50%（最新） / 黄金 3,592.09 / +0.77%（最新） / 美债10Y 4.94%（最近有效值） | 失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。 |
+| 地缘与贸易（1 条） | 地缘风险 → 油金与波动率 → 通胀预期和风险偏好 | 黄金、能源、军工、航运与出口链风险敞口 | VIX 15.44（最近有效值） / 黄金 3,592.09 / +0.77%（最新） / 原油 84.94 / +1.50%（最新） | 失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。 |
 
 ### 研究观察
 
@@ -107,9 +107,9 @@
 - [胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% \| 环球市场](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5) · 财联社
 - [美股重现2018年第四季度行情？投资者期待鲍威尔式转向再度救市](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZM1hzWFpQYmFkazBaQXl4b2RxdEZfcFhwY25pU05MdTM0N3BpdVpDWlhadjNRWnNrUDZ0c1dkbnR6Uk1FTlJaVTc4YVo4VGt4LUp2MmZOVnVKOE1EOFRuSWpmdw?oc=5) · 金融界
 - [盘前必读丨美股上演“过山车”；保利发展拟发不超200亿公司债券](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GUjZiNXNMZnQya2tmRDVvRWxaMHJRUV9FN3dkX0NneWItQnZGOVRudnVoMXpxZ0lmLUhhOXlTT0tfUXd4ZlB4ZVVaaTR1TjJUYXdLcVhfdHVveHRVM0FLc2dUcEt6QQ?oc=5) · 东方财富网
-- [港股早报｜美股纳指跌超1% 周大福中期净利近翻番](https://news.google.com/rss/articles/CBMieEFVX3lxTFBHSElPTUllc2g2VjA4WFFucVJWTlFWNHdLUmJvalhMQTdPZ2V6SWZaY0NHS0RWcDBxTVNTN1VERkd3dUxmZ00tX3hTTHF1eGtPdGs1RFg0dElwZVVJZFlVRS0xSE5tdERFenZ4QlVuY25YMWpfa19iVw?oc=5) · 新浪财经_金融信息服务商
 - [海外研选日报1126 \| 美银：明年股市牛市料延续 但硬着陆风险被低估](https://news.google.com/rss/articles/CBMioAFBVV95cUxQdUJxRXRQNXpRdlQ4U19NNTlkMjA1RlRBS2hqU3plR1dabjFoN3paNmZGVnBuZ2VoV3ZJUDFITThrelpRR2Z5dDBvV09TNXVlRFI3WmFuNWhBTU5sMzNialFRUURGRXRvVXBYQWlnOU9LNS1wdkpRXy1BTGNWcW5EUHdQVldrV192SC1iUjVETGM2LV9MMWd5LUJIU0dDakxv?oc=5) · 富途牛牛
 - [美股盤中反轉 AI股收窄跌幅 亞股隨之走高](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYMEt3ajBQT2ZqMEV5cGJLb1lrNm9wZ3VZSFBrVS1QZVlpWFZWU3dQcERXS09HYS01MnZVRDdnTm5VV3pvemV2bkx3ZnYydlFMMVprZEJHaDFOb0NVSWxoMG9KeTlkYjjSAWdBVV95cUxQWDBLd2owUE9majBFeXBiS29ZazZvcGd1WUhQa1UtUGVZaVhWVlN3UHBEV0tPR2EtNTJ2VUQ3Z05uVVd6b3pldm5Md2Z2MnZRTDFaa2RCR2gxTm9DVUlsaDBvSnk5ZGI4?oc=5) · 大紀元
+- [11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5) · 汇通财经
 
 方法：透明规则评分：A股动量、市场宽度、短线情绪、外围股市、A50先行、美元与人民币、VIX、美债10Y和新闻标题低权重语气；黄金与原油只作背景，事件传导链不直接计分。
 

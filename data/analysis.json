@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27 01:40",
-  "score": -27,
+  "generated_at": "2026-11-27 05:42",
+  "score": -26,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -34,12 +34,12 @@
     {
       "label": "A50 先行",
       "value": "富时 A50 -0.01%",
-      "contribution": -0.1,
+      "contribution": -0.0,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6617 (-0.10%) / DXY 103.78 (+0.06%)",
+      "value": "USD/CNH 6.6621 (-0.10%) / DXY 103.78 (+0.06%)",
       "contribution": 0.9,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
@@ -90,12 +90,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GUjZiNXNMZnQya2tmRDVvRWxaMHJRUV9FN3dkX0NneWItQnZGOVRudnVoMXpxZ0lmLUhhOXlTT0tfUXd4ZlB4ZVVaaTR1TjJUYXdLcVhfdHVveHRVM0FLc2dUcEt6QQ?oc=5"
     },
     {
-      "title": "港股早报｜美股纳指跌超1% 周大福中期净利近翻番",
-      "source": "新浪财经_金融信息服务商",
-      "published": "Wed, 25 Nov 2026 22:52:49 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBHSElPTUllc2g2VjA4WFFucVJWTlFWNHdLUmJvalhMQTdPZ2V6SWZaY0NHS0RWcDBxTVNTN1VERkd3dUxmZ00tX3hTTHF1eGtPdGs1RFg0dElwZVVJZFlVRS0xSE5tdERFenZ4QlVuY25YMWpfa19iVw?oc=5"
-    },
-    {
       "title": "海外研选日报1126 | 美银：明年股市牛市料延续 但硬着陆风险被低估",
       "source": "富途牛牛",
       "published": "Thu, 26 Nov 2026 08:38:12 GMT",
@@ -112,13 +106,19 @@
       "source": "汇通财经",
       "published": "Wed, 25 Nov 2026 23:35:00 GMT",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
+    },
+    {
+      "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
+      "source": "FX168财经",
+      "published": "Wed, 25 Nov 2026 22:09:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
     }
   ],
   "events": [
     {
       "key": "inflation",
       "label": "通胀与就业",
-      "headline_count": 1,
+      "headline_count": 2,
       "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
       "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
       "watch": [
@@ -147,6 +147,51 @@
           "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
           "source": "汇通财经",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
+        },
+        {
+          "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "商品与成本",
+      "headline_count": 2,
+      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
+      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
+      "watch": [
+        {
+          "code": "WTI",
+          "label": "原油",
+          "value": "84.94 / +1.50%",
+          "state": "fresh"
+        },
+        {
+          "code": "GOLD",
+          "label": "黄金",
+          "value": "3,592.09 / +0.77%",
+          "state": "fresh"
+        },
+        {
+          "code": "US10Y",
+          "label": "美债10Y",
+          "value": "4.94%",
+          "state": "stale"
+        }
+      ],
+      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
+      "headlines": [
+        {
+          "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
+          "source": "汇通财经",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
+        },
+        {
+          "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
         }
       ]
     },
@@ -166,52 +211,17 @@
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,592.21 / +0.77%",
+          "value": "3,592.09 / +0.77%",
           "state": "fresh"
         },
         {
           "code": "WTI",
           "label": "原油",
-          "value": "84.78 / +1.32%",
+          "value": "84.94 / +1.50%",
           "state": "fresh"
         }
       ],
       "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
-          "source": "汇通财经",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "commodities",
-      "label": "商品与成本",
-      "headline_count": 1,
-      "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
-      "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
-      "watch": [
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "84.78 / +1.32%",
-          "state": "fresh"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,592.21 / +0.77%",
-          "state": "fresh"
-        },
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        }
-      ],
-      "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
           "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
