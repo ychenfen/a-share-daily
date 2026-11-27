@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28 01:24",
-  "score": -16,
+  "generated_at": "2026-11-28 05:26",
+  "score": -15,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +1.52%",
-      "contribution": 10.6,
+      "value": "6 个市场均值 +1.62%",
+      "contribution": 11.3,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.11%",
-      "contribution": -0.6,
+      "value": "富时 A50 -0.08%",
+      "contribution": -0.5,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6544 (-0.11%) / DXY 103.99 (+0.19%)",
-      "contribution": 0.3,
+      "value": "USD/CNH 6.6547 (-0.10%) / DXY 104.05 (+0.25%)",
+      "contribution": -0.0,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -72,6 +72,18 @@
   },
   "news": [
     {
+      "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
+      "source": "东方财富",
+      "published": "Fri, 27 Nov 2026 10:32:34 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
+    },
+    {
+      "title": "中金 | 资产配置：如何应对市场动荡",
+      "source": "富途牛牛",
+      "published": "Fri, 27 Nov 2026 00:18:06 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUV9UaTg1M3J5VndQRXNsZ2o0T1FhV2dzekhTNUZBc0dhRThlcS1RcjRUdkFSY04zNkVtVjdZdW8wOTk5TENIdm9yVUhGREU3UXNFZzNwTHBRODk3VElUOFRhcjZxSkVFZEtma0I4R19iRWhEdW1XTWRlS01VTFV1d285NkRQVTU1cVV0MG9WVExBN2x1dVEwWERIVQ?oc=5"
+    },
+    {
       "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
       "source": "财联社",
       "published": "Fri, 27 Nov 2026 09:44:09 GMT",
@@ -82,24 +94,6 @@
       "source": "同花顺财经",
       "published": "Fri, 27 Nov 2026 08:27:32 GMT",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
-    },
-    {
-      "title": "一周热榜精选：全球AI资产经历情绪过山车！贵金属深跌后能否稳住？-市场参考",
-      "source": "金十数据",
-      "published": "Fri, 27 Nov 2026 13:33:52 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aaG5MaE9tV2dOWmVaOHMxTElVOHJhVDVlRS1uTHpkcWxZemlvN21QVW1nUkhMckFyWUE5Y3ZrSTlHMXFGNXZqNF9JSjd4Q3c?oc=5"
-    },
-    {
-      "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
-      "source": "东方财富",
-      "published": "Thu, 26 Nov 2026 18:41:34 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
-    },
-    {
-      "title": "中金 | 资产配置：如何应对市场动荡",
-      "source": "富途牛牛",
-      "published": "Fri, 27 Nov 2026 00:18:06 GMT",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUV9UaTg1M3J5VndQRXNsZ2o0T1FhV2dzekhTNUZBc0dhRThlcS1RcjRUdkFSY04zNkVtVjdZdW8wOTk5TENIdm9yVUhGREU3UXNFZzNwTHBRODk3VElUOFRhcjZxSkVFZEtma0I4R19iRWhEdW1XTWRlS01VTFV1d285NkRQVTU1cVV0MG9WVExBN2x1dVEwWERIVQ?oc=5"
     },
     {
       "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
@@ -119,13 +113,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "24,046.35 / +1.95%",
+          "value": "24,129.50 / +2.31%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,048.87 / -0.11%",
+          "value": "13,052.90 / -0.08%",
           "state": "fresh"
         },
         {
@@ -165,13 +159,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.99 / +0.19%",
+          "value": "104.05 / +0.25%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6544 / -0.11%",
+          "value": "6.6547 / -0.10%",
           "state": "fresh"
         }
       ],
@@ -200,13 +194,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.99 / +0.19%",
+          "value": "104.05 / +0.25%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "24,046.35 / +1.95%",
+          "value": "24,129.50 / +2.31%",
           "state": "fresh"
         }
       ],
@@ -229,13 +223,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "82.71 / -1.16%",
+          "value": "83.25 / -0.52%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,668.43 / +2.91%",
+          "value": "3,684.27 / +3.36%",
           "state": "fresh"
         },
         {
@@ -264,19 +258,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.99 / +0.19%",
+          "value": "104.05 / +0.25%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6544 / -0.11%",
+          "value": "6.6547 / -0.10%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,048.87 / -0.11%",
+          "value": "13,052.90 / -0.08%",
           "state": "fresh"
         }
       ],
@@ -299,7 +293,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,048.87 / -0.11%",
+          "value": "13,052.90 / -0.08%",
           "state": "fresh"
         },
         {
@@ -311,7 +305,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6544 / -0.11%",
+          "value": "6.6547 / -0.10%",
           "state": "fresh"
         }
       ],

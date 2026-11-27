@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-28 01:24",
-  "slot": "close",
-  "slot_label": "收盘快照",
+  "checked_at": "2026-11-28 05:26",
+  "slot": "night",
+  "slot_label": "夜间校验",
   "target_date": "2026-11-28",
   "market_data_date": "2026-11-27",
   "market_state": "non_trading",
