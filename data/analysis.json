@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27 05:42",
-  "score": -26,
+  "generated_at": "2026-11-27 12:13",
+  "score": -25,
   "stance": "防守优先",
   "color": "#08783e",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.37%",
-      "contribution": 2.6,
+      "value": "6 个市场均值 +0.32%",
+      "contribution": 2.2,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.01%",
-      "contribution": -0.0,
+      "value": "富时 A50 +0.49%",
+      "contribution": 2.9,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6621 (-0.10%) / DXY 103.78 (+0.06%)",
-      "contribution": 0.9,
+      "value": "USD/CNH 6.6643 (+0.04%) / DXY 103.73 (-0.06%)",
+      "contribution": -0.2,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "label": "新闻语气",
-      "value": "正向词 2 / 风险词 3",
+      "value": "正向词 1 / 风险词 2",
       "contribution": -2,
       "note": "标题关键词只做低权重提示，不代替事实核验"
     }
@@ -66,8 +66,8 @@
     "研究上优先压力测试与回撤控制，避免仅凭单条利好逆势下注。"
   ],
   "news_tone": {
-    "positive_hits": 2,
-    "negative_hits": 3,
+    "positive_hits": 1,
+    "negative_hits": 2,
     "score": -2
   },
   "news": [
@@ -78,100 +78,48 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
     },
     {
+      "title": "美股感恩节休市，欧股涨1.8%收窄月跌幅，德指反弹2%，原油三连涨",
+      "source": "华尔街见闻",
+      "published": "Thu, 26 Nov 2026 22:33:10 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ac3NxbkxqUlFKaXVnWl9ZUDkxanFqV1NIM2theWhlRTZjWGZpbWtTZG9XU3M1THB1emMxUzZjelZkQlkxVEl3dkp0MmVlRlJuRENF?oc=5"
+    },
+    {
       "title": "美股重现2018年第四季度行情？投资者期待鲍威尔式转向再度救市",
       "source": "金融界",
       "published": "Thu, 26 Nov 2026 09:48:37 GMT",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZM1hzWFpQYmFkazBaQXl4b2RxdEZfcFhwY25pU05MdTM0N3BpdVpDWlhadjNRWnNrUDZ0c1dkbnR6Uk1FTlJaVTc4YVo4VGt4LUp2MmZOVnVKOE1EOFRuSWpmdw?oc=5"
     },
     {
-      "title": "盘前必读丨美股上演“过山车”；保利发展拟发不超200亿公司债券",
-      "source": "东方财富网",
-      "published": "Thu, 26 Nov 2026 01:04:27 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GUjZiNXNMZnQya2tmRDVvRWxaMHJRUV9FN3dkX0NneWItQnZGOVRudnVoMXpxZ0lmLUhhOXlTT0tfUXd4ZlB4ZVVaaTR1TjJUYXdLcVhfdHVveHRVM0FLc2dUcEt6QQ?oc=5"
+      "title": "高盛最新警告：现在抄底美股为时过早",
+      "source": "21财经",
+      "published": "Thu, 26 Nov 2026 13:24:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPREh0YmxPZnRSVGxTTVVncWNtdmRMbXRMTGV5OW00Ykl3NlVQSUI4akhUUTMwWDRwZDNrcnpwa2IwTnc2TWw3Vm16bmFibVBPaXFCemFNcnNuT0RwVnBXVDNocnlDNWhoa050cThtOW0wVGkxT0RwYUxCQUswNjAwbFRrRVFPMjJYd2EtVzhNVQ?oc=5"
     },
     {
       "title": "海外研选日报1126 | 美银：明年股市牛市料延续 但硬着陆风险被低估",
       "source": "富途牛牛",
       "published": "Thu, 26 Nov 2026 08:38:12 GMT",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdUJxRXRQNXpRdlQ4U19NNTlkMjA1RlRBS2hqU3plR1dabjFoN3paNmZGVnBuZ2VoV3ZJUDFITThrelpRR2Z5dDBvV09TNXVlRFI3WmFuNWhBTU5sMzNialFRUURGRXRvVXBYQWlnOU9LNS1wdkpRXy1BTGNWcW5EUHdQVldrV192SC1iUjVETGM2LV9MMWd5LUJIU0dDakxv?oc=5"
-    },
-    {
-      "title": "美股盤中反轉 AI股收窄跌幅 亞股隨之走高",
-      "source": "大紀元",
-      "published": "Thu, 26 Nov 2026 03:09:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYMEt3ajBQT2ZqMEV5cGJLb1lrNm9wZ3VZSFBrVS1QZVlpWFZWU3dQcERXS09HYS01MnZVRDdnTm5VV3pvemV2bkx3ZnYydlFMMVprZEJHaDFOb0NVSWxoMG9KeTlkYjjSAWdBVV95cUxQWDBLd2owUE9majBFeXBiS29ZazZvcGd1WUhQa1UtUGVZaVhWVlN3UHBEV0tPR2EtNTJ2VUQ3Z05uVVd6b3pldm5Md2Z2MnZRTDFaa2RCR2gxTm9DVUlsaDBvSnk5ZGI4?oc=5"
-    },
-    {
-      "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
-      "source": "汇通财经",
-      "published": "Wed, 25 Nov 2026 23:35:00 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
-    },
-    {
-      "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
-      "source": "FX168财经",
-      "published": "Wed, 25 Nov 2026 22:09:02 GMT",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
     }
   ],
   "events": [
     {
-      "key": "inflation",
-      "label": "通胀与就业",
-      "headline_count": 2,
-      "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-      "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-      "watch": [
-        {
-          "code": "US10Y",
-          "label": "美债10Y",
-          "value": "4.94%",
-          "state": "stale"
-        },
-        {
-          "code": "DXY",
-          "label": "美元指数",
-          "value": "103.78 / +0.06%",
-          "state": "fresh"
-        },
-        {
-          "code": "NDX",
-          "label": "纳斯达克",
-          "value": "23,585.80 / -0.62%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-      "headlines": [
-        {
-          "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
-          "source": "汇通财经",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
-        },
-        {
-          "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
-        }
-      ]
-    },
-    {
       "key": "commodities",
       "label": "商品与成本",
-      "headline_count": 2,
+      "headline_count": 1,
       "macro_path": "商品价格 → 输入成本与通胀预期 → 企业利润分配",
       "a_share_lens": "能源、化工、有色、航空运输与中下游成本敏感行业",
       "watch": [
         {
           "code": "WTI",
           "label": "原油",
-          "value": "84.94 / +1.50%",
+          "value": "85.71 / +2.43%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,592.09 / +0.77%",
+          "value": "3,658.37 / +2.63%",
           "state": "fresh"
         },
         {
@@ -184,49 +132,9 @@
       "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
       "headlines": [
         {
-          "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
-          "source": "汇通财经",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
-        },
-        {
-          "title": "美国CPI公布后市场震荡！黄金、比特币、欧美股汇八大资产技术分析",
-          "source": "FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JX09PdGQtQXpwcW5DTkQ4VzROSlpSa1NYT2hyVGQ4a3JIOHBxVFo0ZTl1Qm0zTG5nUVJuQWdGbXVRbUdETlJuWk8wbzgybEhpblp1WmlSWHBRTTYxLUhsYXAzaGthaTdUb0xIYkFvb3lNRUJXcHo0UA?oc=5"
-        }
-      ]
-    },
-    {
-      "key": "geopolitics",
-      "label": "地缘与贸易",
-      "headline_count": 1,
-      "macro_path": "地缘风险 → 油金与波动率 → 通胀预期和风险偏好",
-      "a_share_lens": "黄金、能源、军工、航运与出口链风险敞口",
-      "watch": [
-        {
-          "code": "VIX",
-          "label": "VIX",
-          "value": "15.44",
-          "state": "stale"
-        },
-        {
-          "code": "GOLD",
-          "label": "黄金",
-          "value": "3,592.09 / +0.77%",
-          "state": "fresh"
-        },
-        {
-          "code": "WTI",
-          "label": "原油",
-          "value": "84.94 / +1.50%",
-          "state": "fresh"
-        }
-      ],
-      "invalidation": "失效条件：若 VIX、黄金和原油没有共振，事件尚未形成可交易的跨资产冲击。",
-      "headlines": [
-        {
-          "title": "11月26日财经早餐：关税与通胀重压美股，金价一年多来首次跌破3500关口，油价受地缘风险提振涨超3%",
-          "source": "汇通财经",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iUEp6aGIyd1JRUU5SVHVRMDJUVnE4bGoxbUhvWVdfWTFiYWh1c2MyMzdUdmtOclZsbGtPREdfcXJSanRTMld2cmpnQXlfRzJ0VkxnaTUwanVxZ3c?oc=5"
+          "title": "美股感恩节休市，欧股涨1.8%收窄月跌幅，德指反弹2%，原油三连涨",
+          "source": "华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ac3NxbkxqUlFKaXVnWl9ZUDkxanFqV1NIM2theWhlRTZjWGZpbWtTZG9XU3M1THB1emMxUzZjelZkQlkxVEl3dkp0MmVlRlJuRENF?oc=5"
         }
       ]
     }
