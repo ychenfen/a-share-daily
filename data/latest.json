@@ -1,33 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27 21:00",
+  "generated_at": "2026-11-28 01:24",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-27 21:00",
-    "slot": "midday",
-    "slot_label": "午间脉搏",
-    "target_date": "2026-11-27",
+    "checked_at": "2026-11-28 01:24",
+    "slot": "close",
+    "slot_label": "收盘快照",
+    "target_date": "2026-11-28",
     "market_data_date": "2026-11-27",
-    "market_state": "live",
-    "pulse_updated": true,
+    "market_state": "non_trading",
+    "pulse_updated": false,
     "daily_updated": false,
-    "pulse_file": "data/pulses/2026-11.csv",
-    "message": "午间脉搏已更新"
+    "message": "目标日未开市或尚未产生行情，最近交易日 2026-11-27"
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-27 21:00",
+    "generated_at": "2026-11-28 01:24",
     "markets": [
       {
         "code": "SPX",
         "name": "标普 500",
         "region": "美国",
         "kind": "index",
-        "close": 7182.78,
-        "pct": -0.25,
-        "change": -18.31,
-        "previous_close": 7201.09,
-        "quote_time": "2026-11-25 16:32:06",
+        "close": 7286.17,
+        "pct": 1.44,
+        "change": 103.39,
+        "previous_close": 7182.78,
+        "quote_time": "2026-11-27 12:24:40",
         "stale": false
       },
       {
@@ -35,11 +34,11 @@
         "name": "纳斯达克",
         "region": "美国",
         "kind": "index",
-        "close": 23585.8,
-        "pct": -0.62,
-        "change": -147.74,
-        "previous_close": 23733.54,
-        "quote_time": "2026-11-25 17:15:59",
+        "close": 24046.35,
+        "pct": 1.95,
+        "change": 460.55,
+        "previous_close": 23585.8,
+        "quote_time": "2026-11-27 12:24:40",
         "stale": false
       },
       {
@@ -47,11 +46,11 @@
         "name": "道琼斯",
         "region": "美国",
         "kind": "index",
-        "close": 50182.95,
-        "pct": 0.33,
-        "change": 164.25,
-        "previous_close": 50018.7,
-        "quote_time": "2026-11-25 16:32:17",
+        "close": 50781.14,
+        "pct": 1.19,
+        "change": 598.19,
+        "previous_close": 50182.95,
+        "quote_time": "2026-11-27 12:24:41",
         "stale": false
       },
       {
@@ -71,11 +70,11 @@
         "name": "欧洲股票 ETF",
         "region": "欧洲（美股代理）",
         "kind": "ETF proxy",
-        "close": 84.95,
-        "pct": 0.2,
-        "change": 0.17,
-        "previous_close": 84.78,
-        "quote_time": "2026-11-25 16:00:01",
+        "close": 85.84,
+        "pct": 1.04,
+        "change": 0.89,
+        "previous_close": 84.95,
+        "quote_time": "2026-11-27 12:24:32",
         "stale": false
       },
       {
@@ -98,11 +97,11 @@
         "region": "中国离岸",
         "kind": "future",
         "role": "scored",
-        "close": 13053.45,
-        "pct": -0.07310724948327296,
-        "change": -9.549999999999272,
+        "close": 13048.87,
+        "pct": -0.10816810839775481,
+        "change": -14.1299999999992,
         "previous_close": 13063.0,
-        "quote_time": "2026-11-27 21:00:31",
+        "quote_time": "2026-11-28 01:25:15",
         "stale": false
       },
       {
@@ -111,11 +110,11 @@
         "region": "中国离岸",
         "kind": "fx",
         "role": "scored",
-        "close": 6.6547,
-        "pct": -0.10207911131127068,
-        "change": -0.006800000000000139,
+        "close": 6.6544,
+        "pct": -0.10658260151618082,
+        "change": -0.007100000000000328,
         "previous_close": 6.6615,
-        "quote_time": "2026-11-27 21:00:22",
+        "quote_time": "2026-11-28 01:25:03",
         "stale": false
       },
       {
@@ -124,11 +123,11 @@
         "region": "全球",
         "kind": "index",
         "role": "scored",
-        "close": 103.8043,
-        "pct": 0.010694342211237107,
-        "change": 0.011099999999999,
+        "close": 103.9926,
+        "pct": 0.1921127781010723,
+        "change": 0.19939999999999714,
         "previous_close": 103.7932,
-        "quote_time": "2026-11-27 21:00:30",
+        "quote_time": "2026-11-28 01:25:12",
         "stale": false
       },
       {
@@ -137,11 +136,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 3694.236,
-        "pct": 3.63676148796499,
-        "change": 129.63599999999997,
+        "close": 3668.43,
+        "pct": 2.9128092913650816,
+        "change": 103.82999999999993,
         "previous_close": 3564.6,
-        "quote_time": "2026-11-27 21:00:30",
+        "quote_time": "2026-11-28 01:25:17",
         "stale": false
       },
       {
@@ -150,11 +149,11 @@
         "region": "全球商品",
         "kind": "future",
         "role": "context",
-        "close": 85.054,
-        "pct": 1.6419694072657753,
-        "change": 1.3739999999999952,
+        "close": 82.706,
+        "pct": -1.163957934990445,
+        "change": -0.9740000000000038,
         "previous_close": 83.68,
-        "quote_time": "2026-11-27 21:00:31",
+        "quote_time": "2026-11-28 01:25:16",
         "stale": false
       }
     ],
@@ -196,8 +195,8 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-27 21:00",
-    "score": -22,
+    "generated_at": "2026-11-28 01:24",
+    "score": -16,
     "stance": "谨慎防守",
     "color": "#3b9b68",
     "confidence": "中",
@@ -223,20 +222,20 @@
       },
       {
         "label": "外围股市",
-        "value": "6 个市场均值 +0.52%",
-        "contribution": 3.7,
+        "value": "6 个市场均值 +1.52%",
+        "contribution": 10.6,
         "note": "衡量隔夜风险偏好共振"
       },
       {
         "label": "A50 先行",
-        "value": "富时 A50 -0.07%",
-        "contribution": -0.4,
+        "value": "富时 A50 -0.11%",
+        "contribution": -0.6,
         "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
       },
       {
         "label": "美元与人民币",
-        "value": "USD/CNH 6.6547 (-0.10%) / DXY 103.80 (+0.01%)",
-        "contribution": 1.2,
+        "value": "USD/CNH 6.6544 (-0.11%) / DXY 103.99 (+0.19%)",
+        "contribution": 0.3,
         "note": "美元走弱与人民币走强通常缓解外部流动性压力"
       },
       {
@@ -280,10 +279,10 @@
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
       },
       {
-        "title": "美股前瞻| 三大股指期货齐涨节后风险偏好回归推动科技股全线走高但反弹可持续性或待检验_全球市场_财经",
-        "source": "证券之星",
-        "published": "Fri, 27 Nov 2026 11:10:12 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JcGRtTkJ2VllESmdwQ1VqNkFjNC05eDdlbHc0eklBaXdlWW1sMFZsVml2c1BnWnBhb2NtYVpDcTdUb2V5YTUybGxOOVlpdDBfWGVxV3Jmek1jaWF1X25VaQ?oc=5"
+        "title": "一周热榜精选：全球AI资产经历情绪过山车！贵金属深跌后能否稳住？-市场参考",
+        "source": "金十数据",
+        "published": "Fri, 27 Nov 2026 13:33:52 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aaG5MaE9tV2dOWmVaOHMxTElVOHJhVDVlRS1uTHpkcWxZemlvN21QVW1nUkhMckFyWUE5Y3ZrSTlHMXFGNXZqNF9JSjd4Q3c?oc=5"
       },
       {
         "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
@@ -298,10 +297,10 @@
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUV9UaTg1M3J5VndQRXNsZ2o0T1FhV2dzekhTNUZBc0dhRThlcS1RcjRUdkFSY04zNkVtVjdZdW8wOTk5TENIdm9yVUhGREU3UXNFZzNwTHBRODk3VElUOFRhcjZxSkVFZEtma0I4R19iRWhEdW1XTWRlS01VTFV1d285NkRQVTU1cVV0MG9WVExBN2x1dVEwWERIVQ?oc=5"
       },
       {
-        "title": "美股重现2018年第四季度行情？投资者期待鲍威尔式转向再度救市-市场参考",
-        "source": "金十数据",
-        "published": "Thu, 26 Nov 2026 14:46:16 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01cHlWM2lDcUlOM3JvRVkwZUhWOEhfbFhLMEhrd1dETTdfWkl4cW1Qblhpa1l6cm1rdGJkbWRTbFZ1SmRNNXFyODVmRjl6bVE?oc=5"
+        "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
+        "source": "金融界",
+        "published": "Fri, 27 Nov 2026 11:10:12 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPbURhWjltNjNRU2lnd2M1RmxPY3FYU2lXYkFGM1Q2RFBjcHRXRjlWbUJuZXU4U00yZ3piYW52ck81R0xCX0V3dlI5UUp3cnVxN2cyZWxjUHk0ZGZKeGtCbk4telZwQQ?oc=5"
       }
     ],
     "events": [
@@ -315,13 +314,13 @@
           {
             "code": "NDX",
             "label": "纳斯达克",
-            "value": "23,585.80 / -0.62%",
+            "value": "24,046.35 / +1.95%",
             "state": "fresh"
           },
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "13,053.45 / -0.07%",
+            "value": "13,048.87 / -0.11%",
             "state": "fresh"
           },
           {
@@ -334,14 +333,14 @@
         "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
         "headlines": [
           {
-            "title": "美股前瞻| 三大股指期货齐涨节后风险偏好回归推动科技股全线走高但反弹可持续性或待检验_全球市场_财经",
-            "source": "证券之星",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JcGRtTkJ2VllESmdwQ1VqNkFjNC05eDdlbHc0eklBaXdlWW1sMFZsVml2c1BnWnBhb2NtYVpDcTdUb2V5YTUybGxOOVlpdDBfWGVxV3Jmek1jaWF1X25VaQ?oc=5"
-          },
-          {
             "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
             "source": "东方财富",
             "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
+          },
+          {
+            "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
+            "source": "金融界",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPbURhWjltNjNRU2lnd2M1RmxPY3FYU2lXYkFGM1Q2RFBjcHRXRjlWbUJuZXU4U00yZ3piYW52ck81R0xCX0V3dlI5UUp3cnVxN2cyZWxjUHk0ZGZKeGtCbk4telZwQQ?oc=5"
           }
         ]
       },
@@ -361,13 +360,13 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "103.80 / +0.01%",
+            "value": "103.99 / +0.19%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6547 / -0.10%",
+            "value": "6.6544 / -0.11%",
             "state": "fresh"
           }
         ],
@@ -396,13 +395,13 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "103.80 / +0.01%",
+            "value": "103.99 / +0.19%",
             "state": "fresh"
           },
           {
             "code": "NDX",
             "label": "纳斯达克",
-            "value": "23,585.80 / -0.62%",
+            "value": "24,046.35 / +1.95%",
             "state": "fresh"
           }
         ],
@@ -425,13 +424,13 @@
           {
             "code": "WTI",
             "label": "原油",
-            "value": "85.05 / +1.64%",
+            "value": "82.71 / -1.16%",
             "state": "fresh"
           },
           {
             "code": "GOLD",
             "label": "黄金",
-            "value": "3,694.24 / +3.64%",
+            "value": "3,668.43 / +2.91%",
             "state": "fresh"
           },
           {
@@ -460,19 +459,19 @@
           {
             "code": "DXY",
             "label": "美元指数",
-            "value": "103.80 / +0.01%",
+            "value": "103.99 / +0.19%",
             "state": "fresh"
           },
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6547 / -0.10%",
+            "value": "6.6544 / -0.11%",
             "state": "fresh"
           },
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "13,053.45 / -0.07%",
+            "value": "13,048.87 / -0.11%",
             "state": "fresh"
           }
         ],
@@ -495,7 +494,7 @@
           {
             "code": "A50",
             "label": "富时A50",
-            "value": "13,053.45 / -0.07%",
+            "value": "13,048.87 / -0.11%",
             "state": "fresh"
           },
           {
@@ -507,7 +506,7 @@
           {
             "code": "USDCNH",
             "label": "USD/CNH",
-            "value": "6.6547 / -0.10%",
+            "value": "6.6544 / -0.11%",
             "state": "fresh"
           }
         ],
@@ -526,11 +525,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-27 21:00",
+    "generated_at": "2026-11-28 01:24",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 345,
+    "signal_count": 346,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -567,14 +566,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-27 21:00",
-      "slot": "midday",
-      "score": "-22",
+      "captured_at": "2026-11-28 01:24",
+      "slot": "close",
+      "score": "-16",
       "stance": "谨慎防守",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-28 01:24",
+        "slot": "close",
+        "signal_date": "2026-11-28",
+        "market_asof_date": "2026-11-27",
+        "score": "-16",
+        "stance": "谨慎防守",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "1.5177",
+        "a50_pct": "-0.10816810839775481",
+        "usdcnh": "6.6544",
+        "usdcnh_pct": "-0.10658260151618082",
+        "dxy": "103.9926",
+        "dxy_pct": "0.1921127781010723",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-27 21:00",
         "slot": "midday",
@@ -1048,31 +1072,6 @@
         "return_3d": null,
         "return_5d": null,
         "direction": -1,
-        "hit_1d": null
-      },
-      {
-        "captured_at": "2026-11-24 03:11",
-        "slot": "close",
-        "signal_date": "2026-11-24",
-        "market_asof_date": "2026-11-23",
-        "score": "-3",
-        "stance": "中性等待",
-        "confidence": "中",
-        "sh_close": "3634.35",
-        "sh_pct": "-0.59",
-        "global_avg": "3.011",
-        "a50_pct": "1.0575585072738702",
-        "usdcnh": "6.6672",
-        "usdcnh_pct": "-0.1108680670002693",
-        "dxy": "104.4079",
-        "dxy_pct": "0.5875835757914283",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": null,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": 0,
         "hit_1d": null
       }
     ],

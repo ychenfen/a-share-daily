@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27 21:00",
-  "score": -22,
+  "generated_at": "2026-11-28 01:24",
+  "score": -16,
   "stance": "谨慎防守",
   "color": "#3b9b68",
   "confidence": "中",
@@ -27,20 +27,20 @@
     },
     {
       "label": "外围股市",
-      "value": "6 个市场均值 +0.52%",
-      "contribution": 3.7,
+      "value": "6 个市场均值 +1.52%",
+      "contribution": 10.6,
       "note": "衡量隔夜风险偏好共振"
     },
     {
       "label": "A50 先行",
-      "value": "富时 A50 -0.07%",
-      "contribution": -0.4,
+      "value": "富时 A50 -0.11%",
+      "contribution": -0.6,
       "note": "离岸期货只作低权重先行确认，避免重复计算 A 股现货动量"
     },
     {
       "label": "美元与人民币",
-      "value": "USD/CNH 6.6547 (-0.10%) / DXY 103.80 (+0.01%)",
-      "contribution": 1.2,
+      "value": "USD/CNH 6.6544 (-0.11%) / DXY 103.99 (+0.19%)",
+      "contribution": 0.3,
       "note": "美元走弱与人民币走强通常缓解外部流动性压力"
     },
     {
@@ -84,10 +84,10 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
     },
     {
-      "title": "美股前瞻| 三大股指期货齐涨节后风险偏好回归推动科技股全线走高但反弹可持续性或待检验_全球市场_财经",
-      "source": "证券之星",
-      "published": "Fri, 27 Nov 2026 11:10:12 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JcGRtTkJ2VllESmdwQ1VqNkFjNC05eDdlbHc0eklBaXdlWW1sMFZsVml2c1BnWnBhb2NtYVpDcTdUb2V5YTUybGxOOVlpdDBfWGVxV3Jmek1jaWF1X25VaQ?oc=5"
+      "title": "一周热榜精选：全球AI资产经历情绪过山车！贵金属深跌后能否稳住？-市场参考",
+      "source": "金十数据",
+      "published": "Fri, 27 Nov 2026 13:33:52 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aaG5MaE9tV2dOWmVaOHMxTElVOHJhVDVlRS1uTHpkcWxZemlvN21QVW1nUkhMckFyWUE5Y3ZrSTlHMXFGNXZqNF9JSjd4Q3c?oc=5"
     },
     {
       "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
@@ -102,10 +102,10 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUV9UaTg1M3J5VndQRXNsZ2o0T1FhV2dzekhTNUZBc0dhRThlcS1RcjRUdkFSY04zNkVtVjdZdW8wOTk5TENIdm9yVUhGREU3UXNFZzNwTHBRODk3VElUOFRhcjZxSkVFZEtma0I4R19iRWhEdW1XTWRlS01VTFV1d285NkRQVTU1cVV0MG9WVExBN2x1dVEwWERIVQ?oc=5"
     },
     {
-      "title": "美股重现2018年第四季度行情？投资者期待鲍威尔式转向再度救市-市场参考",
-      "source": "金十数据",
-      "published": "Thu, 26 Nov 2026 14:46:16 GMT",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01cHlWM2lDcUlOM3JvRVkwZUhWOEhfbFhLMEhrd1dETTdfWkl4cW1Qblhpa1l6cm1rdGJkbWRTbFZ1SmRNNXFyODVmRjl6bVE?oc=5"
+      "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
+      "source": "金融界",
+      "published": "Fri, 27 Nov 2026 11:10:12 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPbURhWjltNjNRU2lnd2M1RmxPY3FYU2lXYkFGM1Q2RFBjcHRXRjlWbUJuZXU4U00yZ3piYW52ck81R0xCX0V3dlI5UUp3cnVxN2cyZWxjUHk0ZGZKeGtCbk4telZwQQ?oc=5"
     }
   ],
   "events": [
@@ -119,13 +119,13 @@
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "23,585.80 / -0.62%",
+          "value": "24,046.35 / +1.95%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,053.45 / -0.07%",
+          "value": "13,048.87 / -0.11%",
           "state": "fresh"
         },
         {
@@ -138,14 +138,14 @@
       "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
       "headlines": [
         {
-          "title": "美股前瞻| 三大股指期货齐涨节后风险偏好回归推动科技股全线走高但反弹可持续性或待检验_全球市场_财经",
-          "source": "证券之星",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JcGRtTkJ2VllESmdwQ1VqNkFjNC05eDdlbHc0eklBaXdlWW1sMFZsVml2c1BnWnBhb2NtYVpDcTdUb2V5YTUybGxOOVlpdDBfWGVxV3Jmek1jaWF1X25VaQ?oc=5"
-        },
-        {
           "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
           "source": "东方财富",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
+        },
+        {
+          "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
+          "source": "金融界",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPbURhWjltNjNRU2lnd2M1RmxPY3FYU2lXYkFGM1Q2RFBjcHRXRjlWbUJuZXU4U00yZ3piYW52ck81R0xCX0V3dlI5UUp3cnVxN2cyZWxjUHk0ZGZKeGtCbk4telZwQQ?oc=5"
         }
       ]
     },
@@ -165,13 +165,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.80 / +0.01%",
+          "value": "103.99 / +0.19%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6547 / -0.10%",
+          "value": "6.6544 / -0.11%",
           "state": "fresh"
         }
       ],
@@ -200,13 +200,13 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.80 / +0.01%",
+          "value": "103.99 / +0.19%",
           "state": "fresh"
         },
         {
           "code": "NDX",
           "label": "纳斯达克",
-          "value": "23,585.80 / -0.62%",
+          "value": "24,046.35 / +1.95%",
           "state": "fresh"
         }
       ],
@@ -229,13 +229,13 @@
         {
           "code": "WTI",
           "label": "原油",
-          "value": "85.05 / +1.64%",
+          "value": "82.71 / -1.16%",
           "state": "fresh"
         },
         {
           "code": "GOLD",
           "label": "黄金",
-          "value": "3,694.24 / +3.64%",
+          "value": "3,668.43 / +2.91%",
           "state": "fresh"
         },
         {
@@ -264,19 +264,19 @@
         {
           "code": "DXY",
           "label": "美元指数",
-          "value": "103.80 / +0.01%",
+          "value": "103.99 / +0.19%",
           "state": "fresh"
         },
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6547 / -0.10%",
+          "value": "6.6544 / -0.11%",
           "state": "fresh"
         },
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,053.45 / -0.07%",
+          "value": "13,048.87 / -0.11%",
           "state": "fresh"
         }
       ],
@@ -299,7 +299,7 @@
         {
           "code": "A50",
           "label": "富时A50",
-          "value": "13,053.45 / -0.07%",
+          "value": "13,048.87 / -0.11%",
           "state": "fresh"
         },
         {
@@ -311,7 +311,7 @@
         {
           "code": "USDCNH",
           "label": "USD/CNH",
-          "value": "6.6547 / -0.10%",
+          "value": "6.6544 / -0.11%",
           "state": "fresh"
         }
       ],
