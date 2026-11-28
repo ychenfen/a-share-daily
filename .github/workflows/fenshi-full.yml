@@ -1,0 +1,145 @@
+name: Full-market 1m fenshi recorder
+
+on:
+  schedule:
+    # UTC 07:20 = 北京时间 15:20（周一至周五收盘后录制全市场 5,200+ 只 1 分钟分时图）
+    # 产物传至按月命名的 GitHub Release（fenshi-YYYY-MM），不膨胀 Git 仓库历史；
+    # 积累到一定月数后可用 gh release download 拉下转存 Google Drive 再删旧 Release。
+    - cron: "20 7 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "目标交易日 YYYY-MM-DD（留空=自动取最近交易日；仅支持近5个交易日内）"
+        required: false
+        default: ""
+      force:
+        description: "即使当月 Release 已存在该日文件也强制重录"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fenshi-full-recorder
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      should_run: ${{ steps.plan.outputs.should_run }}
+      target_date: ${{ steps.plan.outputs.target_date }}
+      release_tag: ${{ steps.plan.outputs.release_tag }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 生成全市场标的名录并检查是否已录制
+        id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_DATE: ${{ inputs.date }}
+          INPUT_FORCE: ${{ inputs.force }}
+        run: |
+          python3 scripts/record_fenshi_full.py list-symbols --date "$INPUT_DATE" --out work/symbols.json
+          TARGET_DATE=$(python3 -c "import json; print(json.load(open('work/symbols.json'))['date'])")
+          RELEASE_TAG="fenshi-${TARGET_DATE:0:7}"
+          echo "target_date=$TARGET_DATE" >> "$GITHUB_OUTPUT"
+          echo "release_tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
+
+          ASSET="fenshi_all_${TARGET_DATE}.csv.gz"
+          if [ "$INPUT_FORCE" != "true" ]; then
+            if gh release view "$RELEASE_TAG" --json assets --jq '.assets[].name' 2>/dev/null | grep -qx "$ASSET"; then
+              echo "Release $RELEASE_TAG 已存在 $ASSET，跳过重复录制"
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          echo "should_run=true" >> "$GITHUB_OUTPUT"
+
+      - name: 上传标的名录供分片复用
+        if: steps.plan.outputs.should_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: fenshi-symbols
+          path: work/symbols.json
+          retention-days: 1
+
+  fetch:
+    needs: prepare
+    if: needs.prepare.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 下载标的名录
+        uses: actions/download-artifact@v4
+        with:
+          name: fenshi-symbols
+          path: work
+
+      - name: 抓取分片 ${{ matrix.shard }}/8
+        run: |
+          python3 scripts/record_fenshi_full.py fetch-shard \
+            --symbols work/symbols.json \
+            --shard-index ${{ matrix.shard }} \
+            --shard-total 8 \
+            --date "${{ needs.prepare.outputs.target_date }}" \
+            --workers 3 \
+            --out "work/shard_${{ matrix.shard }}.csv.gz" \
+            --stats-out "work/shard_${{ matrix.shard }}.stats.json"
+
+      - name: 上传分片产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: fenshi-shard-${{ matrix.shard }}
+          path: |
+            work/shard_${{ matrix.shard }}.csv.gz
+            work/shard_${{ matrix.shard }}.stats.json
+          retention-days: 1
+
+  publish:
+    needs: [prepare, fetch]
+    if: needs.prepare.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 下载全部分片
+        uses: actions/download-artifact@v4
+        with:
+          pattern: fenshi-shard-*
+          path: work/shards
+
+      - name: 合并分片并执行完整性门禁
+        run: |
+          python3 scripts/record_fenshi_full.py merge \
+            --shards-dir work/shards \
+            --date "${{ needs.prepare.outputs.target_date }}" \
+            --out-dir work/release \
+            --min-symbols 4500 \
+            --min-coverage 0.88
+
+      - name: 上传至按月 GitHub Release（不占 Git 仓库历史）
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ needs.prepare.outputs.release_tag }}
+          DT: ${{ needs.prepare.outputs.target_date }}
+        run: |
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --title "A股全市场 1 分钟分时档案 ${DT:0:7}" \
+              --notes "每日全市场约 5,200+ 只 A 股 1 分钟分时图（含 09:15-09:25 集合竞价轨迹与分时均价 VWAP）及 SHA-256 校验清单。按月归档，方便定期下载转存 Google Drive 后清理旧 Release。"
+          fi
+          gh release upload "$TAG" \
+            "work/release/fenshi_all_${DT}.csv.gz" \
+            "work/release/fenshi_all_${DT}.manifest.json" \
+            --clobber

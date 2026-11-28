@@ -54,6 +54,11 @@ jobs:
           SNAPSHOT_SLOT: ${{ inputs.slot || github.event.schedule || 'auto' }}
         run: python3 scripts/snapshot.py
 
+      - name: 录制短线情绪与分时明细档案
+        env:
+          SNAPSHOT_SLOT: ${{ inputs.slot || github.event.schedule || 'auto' }}
+        run: python3 scripts/record_archive.py --skip-fenshi
+
       - name: 更新全球市场与新闻分析
         run: python3 scripts/global_context.py
 

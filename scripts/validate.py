@@ -154,6 +154,33 @@ def main():
             if not valid_score:
                 errors.append(f"{path}: 非法 score {score!r}")
 
+    regime_path = DATA_DIR / "archive" / "daily_regime.csv"
+    if regime_path.exists():
+        import gzip
+        import record_archive  # noqa: E402
+        with regime_path.open(encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+        checks += 1
+        if reader.fieldnames != record_archive.REGIME_HEADER:
+            errors.append(f"{regime_path}: 表头与 REGIME_HEADER 不一致")
+        r_dates = [row.get("date") for row in rows]
+        if r_dates != sorted(r_dates) or len(r_dates) != len(set(r_dates)):
+            errors.append(f"{regime_path}: 日期必须升序且唯一")
+
+        fenshi_dir = DATA_DIR / "archive" / "fenshi_1m"
+        fenshi_files = sorted(fenshi_dir.glob("*.csv.gz")) if fenshi_dir.exists() else []
+        if fenshi_files:
+            checks += 1
+            latest_fs = fenshi_files[-1]
+            try:
+                with gzip.open(latest_fs, "rt", encoding="utf-8") as f:
+                    fs_reader = csv.DictReader(f)
+                    if fs_reader.fieldnames != record_archive.FENSHI_HEADER:
+                        errors.append(f"{latest_fs}: 分时表头与 FENSHI_HEADER 不一致")
+            except OSError as e:
+                errors.append(f"{latest_fs}: 压缩分时文件损坏（{e}）")
+
     if errors:
         print("数据质量检查失败：", file=sys.stderr)
         for error in errors:

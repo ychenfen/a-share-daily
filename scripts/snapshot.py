@@ -310,8 +310,8 @@ def fetch_sentiment(date_compact):
     """涨停/跌停/炸板数、炸板率、连板梯队。取不到的项留空。"""
     out = {}
 
-    # 涨停池要全量拉，才能统计连板梯队
-    limit_up, pool = fetch_pool(date_compact, "zt", pagesize=300)
+    # 涨停池要全量拉，才能统计连板梯队（大反弹日可能超过 300 家）
+    limit_up, pool = fetch_pool(date_compact, "zt", pagesize=500)
     if limit_up is None:
         print("  涨停池取不到，涨停与连板字段留空", file=sys.stderr)
     out["limit_up"] = "" if limit_up is None else limit_up
@@ -1016,8 +1016,24 @@ def workflow_output(name, value):
             f.write(f"{name}={value}\n")
 
 
+def should_adopt_delayed_quote_date(today, quote_date, slot, explicit_date, recorded_dates):
+    """GitHub Actions 延迟跨过零点时，补录尚未写入年表的上一交易日收盘数据。"""
+    if explicit_date or slot not in FINAL_SLOTS or not quote_date or quote_date >= today:
+        return False
+    if quote_date in recorded_dates:
+        return False
+    try:
+        delta = (
+            datetime.strptime(today, "%Y-%m-%d") - datetime.strptime(quote_date, "%Y-%m-%d")
+        ).days
+    except ValueError:
+        return False
+    return 1 <= delta <= 3
+
+
 def main():
     now = datetime.now(beijing_tz())
+    explicit_date = bool(os.environ.get("SNAPSHOT_DATE"))
     today = os.environ.get("SNAPSHOT_DATE") or now.strftime("%Y-%m-%d")
     stamp = now.strftime("%Y-%m-%d %H:%M")
     slot = resolve_slot(os.environ.get("SNAPSHOT_SLOT", "auto"), now)
@@ -1053,6 +1069,14 @@ def main():
         return 0
 
     status["market_data_date"] = quote_date
+    recorded_dates = {r["date"] for r in load_daily_rows()}
+    if quote_date != today and should_adopt_delayed_quote_date(
+        today, quote_date, slot, explicit_date, recorded_dates
+    ):
+        print(f"  检测到定时任务跨零点延迟，自动补录最近收盘日 {quote_date}")
+        today = quote_date
+        status["target_date"] = today
+
     if quote_date != today:
         status["market_state"] = "non_trading"
         status["message"] = f"目标日未开市或尚未产生行情，最近交易日 {quote_date}"
