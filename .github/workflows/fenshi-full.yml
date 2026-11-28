@@ -33,6 +33,7 @@ jobs:
       should_run: ${{ steps.plan.outputs.should_run }}
       target_date: ${{ steps.plan.outputs.target_date }}
       release_tag: ${{ steps.plan.outputs.release_tag }}
+      is_latest_day: ${{ steps.plan.outputs.is_latest_day }}
     steps:
       - uses: actions/checkout@v4
 
@@ -45,9 +46,11 @@ jobs:
         run: |
           python3 scripts/record_fenshi_full.py list-symbols --date "$INPUT_DATE" --out work/symbols.json
           TARGET_DATE=$(python3 -c "import json; print(json.load(open('work/symbols.json'))['date'])")
+          IS_LATEST=$(python3 -c "import json; print('true' if json.load(open('work/symbols.json'))['is_latest_day'] else 'false')")
           RELEASE_TAG="fenshi-${TARGET_DATE:0:7}"
           echo "target_date=$TARGET_DATE" >> "$GITHUB_OUTPUT"
           echo "release_tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
+          echo "is_latest_day=$IS_LATEST" >> "$GITHUB_OUTPUT"
 
           ASSET="fenshi_all_${TARGET_DATE}.csv.gz"
           if [ "$INPUT_FORCE" != "true" ]; then
@@ -128,6 +131,14 @@ jobs:
             --min-symbols 4500 \
             --min-coverage 0.88
 
+      - name: 录制当日秒级盘口异动与核心池 3 秒级逐笔（仅最新交易日）
+        if: needs.prepare.outputs.is_latest_day == 'true'
+        run: |
+          python3 scripts/record_fine_daily.py \
+            --date "${{ needs.prepare.outputs.target_date }}" \
+            --out-dir work/release \
+            --max-symbols 150
+
       - name: 上传至按月 GitHub Release（不占 Git 仓库历史）
         env:
           GH_TOKEN: ${{ github.token }}
@@ -136,10 +147,16 @@ jobs:
         run: |
           if ! gh release view "$TAG" >/dev/null 2>&1; then
             gh release create "$TAG" \
-              --title "A股全市场 1 分钟分时档案 ${DT:0:7}" \
-              --notes "每日全市场约 5,200+ 只 A 股 1 分钟分时图（含 09:15-09:25 集合竞价轨迹与分时均价 VWAP）及 SHA-256 校验清单。按月归档，方便定期下载转存 Google Drive 后清理旧 Release。"
+              --title "A股全市场 1 分钟分时与盘口逐笔档案 ${DT:0:7}" \
+              --notes "每日全市场约 5,200+ 只 A 股 1 分钟分时图（含 09:15-09:25 集合竞价与均价 VWAP）、全市场秒级盘口异动流水、核心池 3 秒级逐笔成交及 SHA-256 校验清单。按月归档，方便定期转存 Google Drive 后清理旧 Release。"
           fi
-          gh release upload "$TAG" \
-            "work/release/fenshi_all_${DT}.csv.gz" \
-            "work/release/fenshi_all_${DT}.manifest.json" \
-            --clobber
+          FILES=(
+            "work/release/fenshi_all_${DT}.csv.gz"
+            "work/release/fenshi_all_${DT}.manifest.json"
+          )
+          for extra in "changes_all_${DT}.csv.gz" "ticks_core_${DT}.csv.gz" "fine_${DT}.manifest.json"; do
+            if [ -f "work/release/${extra}" ]; then
+              FILES+=("work/release/${extra}")
+            fi
+          done
+          gh release upload "$TAG" "${FILES[@]}" --clobber

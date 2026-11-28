@@ -54,6 +54,9 @@ QS_HEADER = [
 LHB_HEADER = [
     "date", "code", "name", "close", "pct", "net_amt", "buy_amt", "sell_amt", "explanation",
 ]
+LHB_SEATS_HEADER = [
+    "date", "side", "code", "dept_name", "buy", "sell", "net", "explanation",
+]
 PREV_ZT_HEADER = [
     "date", "prev_date", "code", "name", "prev_lbc", "prev_hybk",
     "open", "high", "low", "close", "prev_close",
@@ -282,6 +285,54 @@ def fetch_lhb_rows(date_str):
         if page >= int(result.get("pages") or 1):
             break
     rows.sort(key=lambda r: (r["code"], r["explanation"]))
+    return rows
+
+
+def fetch_lhb_seats_rows(date_str):
+    """拉取当日龙虎榜买五/卖五营业部席位明细（区分机构/游资/拉萨席位）。"""
+    rows = []
+    seen = set()
+    reports = (
+        ("buy", "RPT_BILLBOARD_DAILYDETAILSBUY"),
+        ("sell", "RPT_BILLBOARD_DAILYDETAILSSELL"),
+    )
+    for side, report_name in reports:
+        for page in range(1, 6):
+            url = (
+                "https://datacenter-web.eastmoney.com/api/data/v1/get"
+                f"?reportName={report_name}&columns=ALL"
+                f"&pageNumber={page}&pageSize=500&filter=(TRADE_DATE%3D%27{date_str}%27)"
+            )
+            try:
+                j = json.loads(fast_fetch(url, min_interval=0.3))
+            except Exception as e:
+                print(f"  [archive] 龙虎榜席位({side}) {date_str} 失败: {e}", file=sys.stderr)
+                break
+            result = j.get("result") or {}
+            data = result.get("data") or []
+            if not data:
+                break
+            for x in data:
+                code = str(x.get("SECURITY_CODE", "")).zfill(6)
+                dept = (x.get("OPERATEDEPT_NAME") or "").strip()
+                expl = (x.get("EXPLANATION") or "").replace("\n", " ").strip()
+                key = (side, code, dept, expl, str(x.get("BUY", "")), str(x.get("SELL", "")))
+                if key in seen:
+                    continue
+                seen.add(key)
+                rows.append({
+                    "date": date_str,
+                    "side": side,
+                    "code": code,
+                    "dept_name": dept,
+                    "buy": x.get("BUY", ""),
+                    "sell": x.get("SELL", ""),
+                    "net": x.get("NET", ""),
+                    "explanation": expl,
+                })
+            if page >= int(result.get("pages") or 1):
+                break
+    rows.sort(key=lambda r: (r["code"], r["side"], r["dept_name"]))
     return rows
 
 
@@ -759,6 +810,9 @@ def record_close_day(date_str, skip_5m=False, skip_fenshi=False, use_live_quotes
     lhb_rows = fetch_lhb_rows(date_str)
     if lhb_rows:
         write_csv_atomic(ARCHIVE_DIR / "lhb" / f"{date_str}.csv", LHB_HEADER, lhb_rows)
+    lhb_seats = fetch_lhb_seats_rows(date_str)
+    if lhb_seats:
+        write_csv_atomic(ARCHIVE_DIR / "lhb_seats" / f"{date_str}.csv", LHB_SEATS_HEADER, lhb_seats)
 
     _, prev_rows = find_prev_zt_file(date_str)
     outcome_rows, regime = compute_prev_zt_outcomes_and_regime(
@@ -809,9 +863,23 @@ def main():
     parser.add_argument("--date", help="指定交易日 YYYY-MM-DD")
     parser.add_argument("--slot", help="指定时段 open/close/night/auto")
     parser.add_argument("--backfill-recent", action="store_true", help="补录东财仍在线的最近约15个交易日")
+    parser.add_argument("--backfill-lhb-seats", action="store_true", help="仅补录已归档交易日的龙虎榜营业部席位")
     parser.add_argument("--skip-5m", action="store_true", help="跳过 5 分钟线录制")
     parser.add_argument("--skip-fenshi", action="store_true", help="跳过 1 分钟分时图录制")
     args = parser.parse_args()
+
+    if args.backfill_lhb_seats:
+        lhb_dir = ARCHIVE_DIR / "lhb"
+        dates = sorted(p.stem for p in lhb_dir.glob("*.csv")) if lhb_dir.exists() else []
+        ok = 0
+        for dt in dates:
+            seats = fetch_lhb_seats_rows(dt)
+            if seats:
+                write_csv_atomic(ARCHIVE_DIR / "lhb_seats" / f"{dt}.csv", LHB_SEATS_HEADER, seats)
+                ok += 1
+                print(f"[archive] 龙虎榜席位 {dt}: {len(seats)} 条")
+        print(f"[archive] 龙虎榜席位补录完成，共 {ok} 天")
+        return 0
 
     if args.backfill_recent:
         backfill_recent(skip_5m=args.skip_5m, skip_fenshi=args.skip_fenshi)
