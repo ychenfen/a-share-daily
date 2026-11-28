@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28 11:53",
+  "generated_at": "2026-11-28 18:07",
   "status": {
     "schema_version": 1,
-    "checked_at": "2026-11-28 11:53",
-    "slot": "overnight",
-    "slot_label": "外围收盘",
+    "checked_at": "2026-11-28 18:07",
+    "slot": "open",
+    "slot_label": "开盘脉搏",
     "target_date": "2026-11-28",
     "market_data_date": "2026-11-27",
     "market_state": "non_trading",
@@ -15,7 +15,7 @@
   },
   "global": {
     "schema_version": 1,
-    "generated_at": "2026-11-28 11:53",
+    "generated_at": "2026-11-28 18:07",
     "markets": [
       {
         "code": "SPX",
@@ -195,7 +195,7 @@
   },
   "analysis": {
     "schema_version": 1,
-    "generated_at": "2026-11-28 11:53",
+    "generated_at": "2026-11-28 18:07",
     "score": -13,
     "stance": "谨慎防守",
     "color": "#3b9b68",
@@ -252,7 +252,7 @@
       },
       {
         "label": "新闻语气",
-        "value": "正向词 5 / 风险词 3",
+        "value": "正向词 4 / 风险词 2",
         "contribution": 4,
         "note": "标题关键词只做低权重提示，不代替事实核验"
       }
@@ -261,28 +261,22 @@
       "降低追涨优先级，重点观察 VIX、长端利率和跌停扩散是否继续恶化。"
     ],
     "news_tone": {
-      "positive_hits": 5,
-      "negative_hits": 3,
+      "positive_hits": 4,
+      "negative_hits": 2,
       "score": 4
     },
     "news": [
       {
+        "title": "【早报】国常会：加力发挥“国家队”稳市作用；深夜，美股存储股全线大爆发；黄金、白银，同步反弹",
+        "source": "财联社",
+        "published": "Fri, 27 Nov 2026 23:33:38 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBvaXJGdW9yb05jVDRRaHotSjVyaTJPSVFzd3pydDQ4VW5rVjNlUFc1NV9RVnM0N2NBWTk5TFNRX2xGVGRnMVdBbg?oc=5"
+      },
+      {
         "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
         "source": "东方财富",
-        "published": "Fri, 27 Nov 2026 10:32:34 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
-      },
-      {
-        "title": "胡塞武装袭击致沙特主权基金大楼受损 贵金属价格重挫银价跌近5% | 环球市场",
-        "source": "财联社",
-        "published": "Fri, 27 Nov 2026 09:44:09 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OSUdaUFM0Y254VGd1UU9iV0lQbXQ4Y18yQk9xUHFMNndUcjhiaVl1QzM1UjUwS3Rrb2lfZmFFRHFYcXo0OUxXZw?oc=5"
-      },
-      {
-        "title": "CBCX市场观察：美元连续第三个月走强，日本通胀升温与原油反弹交织全球市场关注月末政策信号",
-        "source": "同花顺财经",
-        "published": "Fri, 27 Nov 2026 08:27:32 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
+        "published": "Fri, 27 Nov 2026 18:36:51 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1ZTBIdlVCZERRV3VFbWM3c1dMVTlFcmVHazVLbUozTkVSS2l0eDZLbGh4eGZubmgyWlR3OXNTM1RISDZySGk1a21VM3NDUF9ESDktdnhWMVBzeWZ0N2htUHlIVQ?oc=5"
       },
       {
         "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
@@ -295,59 +289,13 @@
         "source": "FX168财经",
         "published": "Fri, 27 Nov 2026 16:27:15 GMT",
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0pPSno1NzBoOTZDTW1tNjBSekQ5RkhpV0NfaVk2ZHl1NVRsOTJsN2JEVzNOUVl0LVBVaGkyZkV3Q1MwSmdPRnNvZDJ2VlBsTUoxNGFCVWZraEVIcDc3TGRKUkl6LXNITHAxUkhLTDUwTml0NGRFTWNranBZUnJXXy1CT1Q?oc=5"
-      },
-      {
-        "title": "白银价格上涨：密切关注美联储预期！-区块链文库",
-        "source": "https://www.5m88.com/",
-        "published": "Fri, 27 Nov 2026 07:19:00 GMT",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3V19Gemg1dkM3THBRdnZxbHhDVmo3WTVwOHl6S21DbVFGWF8tcG5nWnNNbVZ0UGpnRU1CVno2MTRORnNOWHBLWEVKWGVsUQ?oc=5"
       }
     ],
     "events": [
       {
-        "key": "central_bank",
-        "label": "央行与利率",
-        "headline_count": 2,
-        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
-        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "104.04 / +0.24%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6551 / -0.10%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
-        "headlines": [
-          {
-            "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
-            "source": "东方财富",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
-          },
-          {
-            "title": "白银价格上涨：密切关注美联储预期！-区块链文库",
-            "source": "https://www.5m88.com/",
-            "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3V19Gemg1dkM3THBRdnZxbHhDVmo3WTVwOHl6S21DbVFGWF8tcG5nWnNNbVZ0UGpnRU1CVno2MTRORnNOWHBLWEVKWGVsUQ?oc=5"
-          }
-        ]
-      },
-      {
         "key": "technology",
         "label": "科技与产业",
-        "headline_count": 2,
+        "headline_count": 3,
         "macro_path": "科技盈利与估值 → 全球成长风格 → 风险偏好扩散",
         "a_share_lens": "半导体、算力、通信与其他高估值成长方向",
         "watch": [
@@ -373,14 +321,14 @@
         "invalidation": "失效条件：若纳指走弱、A50 不确认或长端利率继续上行，主题热度不等于趋势。",
         "headlines": [
           {
-            "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
-            "source": "东方财富",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WUDNQQkF6TjBWLVVndWJqRG92ZXBhN0FZeEtscFhHWWw3dXB0T1E0QzhiNl9TZFFtekxfR2lEMDNuS05lZE9obnUwLXdfQVFHMmx1TVRCeUtQc2ZBcEtNag?oc=5"
+            "title": "【早报】国常会：加力发挥“国家队”稳市作用；深夜，美股存储股全线大爆发；黄金、白银，同步反弹",
+            "source": "财联社",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBvaXJGdW9yb05jVDRRaHotSjVyaTJPSVFzd3pydDQ4VW5rVjNlUFc1NV9RVnM0N2NBWTk5TFNRX2xGVGRnMVdBbg?oc=5"
           },
           {
-            "title": "美股前瞻 | 三大股指期货齐涨 节后风险偏好回归推动科技股全线走高 但反弹可持续性或待检验",
-            "source": "金融界",
-            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPbURhWjltNjNRU2lnd2M1RmxPY3FYU2lXYkFGM1Q2RFBjcHRXRjlWbUJuZXU4U00yZ3piYW52ck81R0xCX0V3dlI5UUp3cnVxN2cyZWxjUHk0ZGZKeGtCbk4telZwQQ?oc=5"
+            "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
+            "source": "东方财富",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1ZTBIdlVCZERRV3VFbWM3c1dMVTlFcmVHazVLbUozTkVSS2l0eDZLbGh4eGZubmgyWlR3OXNTM1RISDZySGk1a21VM3NDUF9ESDktdnhWMVBzeWZ0N2htUHlIVQ?oc=5"
           }
         ]
       },
@@ -413,9 +361,9 @@
         "invalidation": "失效条件：若现货代理价格未确认标题方向，暂不推断产业链利润迁移。",
         "headlines": [
           {
-            "title": "CBCX市场观察：美元连续第三个月走强，日本通胀升温与原油反弹交织全球市场关注月末政策信号",
-            "source": "同花顺财经",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
+            "title": "【早报】国常会：加力发挥“国家队”稳市作用；深夜，美股存储股全线大爆发；黄金、白银，同步反弹",
+            "source": "财联社",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBvaXJGdW9yb05jVDRRaHotSjVyaTJPSVFzd3pydDQ4VW5rVjNlUFc1NV9RVnM0N2NBWTk5TFNRX2xGVGRnMVdBbg?oc=5"
           },
           {
             "title": "全球市场大反攻！道指飙升逾500点、黄金白银暴涨 油价剑指100美元、摩根大通释放比特币“见底”信号",
@@ -425,9 +373,44 @@
         ]
       },
       {
+        "key": "central_bank",
+        "label": "央行与利率",
+        "headline_count": 1,
+        "macro_path": "政策利率预期 → 美债收益率与美元 → 全球流动性",
+        "a_share_lens": "高估值成长、券商、地产与人民币敏感资产",
+        "watch": [
+          {
+            "code": "US10Y",
+            "label": "美债10Y",
+            "value": "4.94%",
+            "state": "stale"
+          },
+          {
+            "code": "DXY",
+            "label": "美元指数",
+            "value": "104.04 / +0.24%",
+            "state": "fresh"
+          },
+          {
+            "code": "USDCNH",
+            "label": "USD/CNH",
+            "value": "6.6551 / -0.10%",
+            "state": "fresh"
+          }
+        ],
+        "invalidation": "失效条件：若美债利率、美元与人民币没有同向确认，标题冲击可能只是短期噪音。",
+        "headlines": [
+          {
+            "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
+            "source": "东方财富",
+            "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1ZTBIdlVCZERRV3VFbWM3c1dMVTlFcmVHazVLbUozTkVSS2l0eDZLbGh4eGZubmgyWlR3OXNTM1RISDZySGk1a21VM3NDUF9ESDktdnhWMVBzeWZ0N2htUHlIVQ?oc=5"
+          }
+        ]
+      },
+      {
         "key": "currency",
         "label": "美元与人民币",
-        "headline_count": 2,
+        "headline_count": 1,
         "macro_path": "美元与人民币 → 跨境流动性及进口成本 → 外资风险偏好",
         "a_share_lens": "外资敏感权重、航空造纸、出口链与离岸中国资产",
         "watch": [
@@ -453,84 +436,9 @@
         "invalidation": "失效条件：若 DXY 与 USD/CNH 背离，不能把单一汇率波动解释成统一资金方向。",
         "headlines": [
           {
-            "title": "CBCX市场观察：美元连续第三个月走强，日本通胀升温与原油反弹交织全球市场关注月末政策信号",
-            "source": "同花顺财经",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
-          },
-          {
             "title": "全球市场大反攻！道指飙升逾500点、黄金白银暴涨 油价剑指100美元、摩根大通释放比特币“见底”信号",
             "source": "FX168财经",
             "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0pPSno1NzBoOTZDTW1tNjBSekQ5RkhpV0NfaVk2ZHl1NVRsOTJsN2JEVzNOUVl0LVBVaGkyZkV3Q1MwSmdPRnNvZDJ2VlBsTUoxNGFCVWZraEVIcDc3TGRKUkl6LXNITHAxUkhLTDUwTml0NGRFTWNranBZUnJXXy1CT1Q?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "inflation",
-        "label": "通胀与就业",
-        "headline_count": 1,
-        "macro_path": "通胀与就业数据 → 降息路径与实际利率 → 估值折现率",
-        "a_share_lens": "成长估值、可选消费、资源品与利率敏感板块",
-        "watch": [
-          {
-            "code": "US10Y",
-            "label": "美债10Y",
-            "value": "4.94%",
-            "state": "stale"
-          },
-          {
-            "code": "DXY",
-            "label": "美元指数",
-            "value": "104.04 / +0.24%",
-            "state": "fresh"
-          },
-          {
-            "code": "NDX",
-            "label": "纳斯达克",
-            "value": "24,129.50 / +2.31%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若实际利率与美元反向运行，单条数据不应直接外推为持续风格切换。",
-        "headlines": [
-          {
-            "title": "CBCX市场观察：美元连续第三个月走强，日本通胀升温与原油反弹交织全球市场关注月末政策信号",
-            "source": "同花顺财经",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
-          }
-        ]
-      },
-      {
-        "key": "domestic_policy",
-        "label": "国内政策与需求",
-        "headline_count": 1,
-        "macro_path": "国内政策预期 → 信用与需求 → 盈利修复和风险溢价",
-        "a_share_lens": "金融地产、基建、消费与顺周期方向",
-        "watch": [
-          {
-            "code": "A50",
-            "label": "富时A50",
-            "value": "13,052.90 / -0.08%",
-            "state": "fresh"
-          },
-          {
-            "code": "HSI",
-            "label": "恒生指数",
-            "value": "22,694.77 / +2.11%",
-            "state": "fresh"
-          },
-          {
-            "code": "USDCNH",
-            "label": "USD/CNH",
-            "value": "6.6551 / -0.10%",
-            "state": "fresh"
-          }
-        ],
-        "invalidation": "失效条件：若 A50、港股与人民币均未改善，政策标题仍需等待价格和数据验证。",
-        "headlines": [
-          {
-            "title": "CBCX市场观察：美元连续第三个月走强，日本通胀升温与原油反弹交织全球市场关注月末政策信号",
-            "source": "同花顺财经",
-            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83cW1RODlxczU1WHdRbElXTjF6dm95WFp5UUtDZ0IzY1k2anJXLThObmJtTnlLM2dqbl9za19CVWhmMDNkT1Jjb0lKVW40TUFpM19oRDg4NDFJQ3Z4M1E?oc=5"
           }
         ]
       }
@@ -540,11 +448,11 @@
   },
   "scorecard": {
     "schema_version": 1,
-    "generated_at": "2026-11-28 11:53",
+    "generated_at": "2026-11-28 18:07",
     "method": "真实运行信号的前向检验；不使用回填的全球与新闻数据伪造历史成绩。",
     "status": "ready",
     "minimum_samples": 20,
-    "signal_count": 348,
+    "signal_count": 349,
     "matured_1d": 274,
     "directional_1d": 233,
     "hit_rate_1d": 57.5,
@@ -581,14 +489,39 @@
       }
     ],
     "current": {
-      "captured_at": "2026-11-28 11:53",
-      "slot": "overnight",
+      "captured_at": "2026-11-28 18:07",
+      "slot": "open",
       "score": "-13",
       "stance": "谨慎防守",
       "confidence": "中",
       "health": "markets,us10y,vix"
     },
     "recent": [
+      {
+        "captured_at": "2026-11-28 18:07",
+        "slot": "open",
+        "signal_date": "2026-11-28",
+        "market_asof_date": "2026-11-27",
+        "score": "-13",
+        "stance": "谨慎防守",
+        "confidence": "中",
+        "sh_close": "3634.35",
+        "sh_pct": "-0.59",
+        "global_avg": "1.6177",
+        "a50_pct": "-0.07731761463676268",
+        "usdcnh": "6.6551",
+        "usdcnh_pct": "-0.09607445770472012",
+        "dxy": "104.0401",
+        "dxy_pct": "0.2378768551311694",
+        "vix": "15.44",
+        "us10y": "4.94",
+        "health": "markets,us10y,vix",
+        "return_1d": null,
+        "return_3d": null,
+        "return_5d": null,
+        "direction": -1,
+        "hit_1d": null
+      },
       {
         "captured_at": "2026-11-28 11:53",
         "slot": "overnight",
@@ -1055,31 +988,6 @@
         "usdcnh_pct": "-0.01050105010501623",
         "dxy": "103.8376",
         "dxy_pct": "-0.4826473147711563",
-        "vix": "15.44",
-        "us10y": "4.94",
-        "health": "markets,us10y,vix",
-        "return_1d": null,
-        "return_3d": null,
-        "return_5d": null,
-        "direction": -1,
-        "hit_1d": null
-      },
-      {
-        "captured_at": "2026-11-24 20:19",
-        "slot": "open",
-        "signal_date": "2026-11-24",
-        "market_asof_date": "2026-11-24",
-        "score": "-5",
-        "stance": "谨慎防守",
-        "confidence": "中",
-        "sh_close": "3634.35",
-        "sh_pct": "-0.59",
-        "global_avg": "2.8744",
-        "a50_pct": "-0.2740584135932922",
-        "usdcnh": "6.6612",
-        "usdcnh_pct": "-0.07200720072008115",
-        "dxy": "103.9262",
-        "dxy_pct": "-0.39773358941627146",
         "vix": "15.44",
         "us10y": "4.94",
         "health": "markets,us10y,vix",
